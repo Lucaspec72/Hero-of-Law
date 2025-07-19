@@ -1,0 +1,3 @@
+allocation   0x0000
+vram         0x80B3D9C0
+ivar         0x80B3DDA0

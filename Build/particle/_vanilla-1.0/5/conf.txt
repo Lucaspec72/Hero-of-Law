@@ -1,0 +1,2 @@
+vram         0x80B2E900
+unknown      0x01000000

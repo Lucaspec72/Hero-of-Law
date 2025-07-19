@@ -327,7 +327,10 @@ typedef struct NpcMaker
 	GetInternalMessageFunc* GetInternalMsgFunc;
 	GetInternalMessagePtrFunc* GetInternalMsgPtrFunc;
     GetInternalMessageDataFunc* GetInternalMsgDataPtrFunc;
-
+    
+    u32 numLanguages;
+    u32 numMessages;    
+    
     #if DEBUG_STRUCT == 1
         s32 dbgVar;
         s32 dbgVar2;

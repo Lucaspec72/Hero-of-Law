@@ -47,6 +47,7 @@ OSPiHandle** sISVHandle = (OSPiHandle**)0x8019894C;
 #define SAVE_AUDIOSETTING gSaveContext.scarecrowLongSong[24]        // Saved twice because it's less annoying than writing to the header
 #define SAVE_WIDESCREEN gSaveContext.scarecrowLongSong[25]
 #define SAVE_ANTIALIASOFF gSaveContext.scarecrowLongSong[26]
+#define SAVE_LANGUAGE gSaveContext.scarecrowLongSong[27]
 
 #define SCREENSIZE_DEFAULT 225
 #define SCREENPOSX_DEFAULT 0

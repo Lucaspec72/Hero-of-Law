@@ -1,0 +1,2 @@
+dungeon_mark_data   0x8085D2DC
+vram         0x808567F0

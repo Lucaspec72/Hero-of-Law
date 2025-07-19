@@ -1,0 +1,3 @@
+allocation   0x0000
+vram         0x80AE2870
+ivar         0x80AE4900

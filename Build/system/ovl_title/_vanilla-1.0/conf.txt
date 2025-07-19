@@ -1,0 +1,4 @@
+init         0x808007B0
+dest         0x80800750
+size         0x000001E8
+vram         0x80800000

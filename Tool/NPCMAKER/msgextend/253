@@ -1,0 +1,103 @@
+include System.dll
+include System.Drawing.dll
+include System.Core.dll
+include System.Windows.Forms.dll
+include ZeldaMessage.dll
+
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Text;
+using ZeldaMessage;
+
+namespace MsgExtend
+{
+    public class Function
+    {
+        public object TagProcess(Bitmap bmp, List<byte> BoxData, Color textColor, float scale, float xPos, float yPos, int charPos, ZeldaMessage.Data.BoxType BoxType)
+        {
+            int Len = 0;
+            int pos = charPos;
+            byte curChar = BoxData[pos]; 
+        
+            try
+            {
+                while (curChar != (byte)ZeldaMessage.Data.MsgControlCode.LINE_BREAK &&
+                       curChar != (byte)ZeldaMessage.Data.MsgControlCode.END &&
+                       curChar != (byte)ZeldaMessage.Data.MsgControlCode.NEW_BOX &&
+                       curChar != (byte)ZeldaMessage.Data.MsgControlCode.PERSISTENT &&
+                       curChar != (byte)ZeldaMessage.Data.MsgControlCode.EVENT &&
+                       curChar != (byte)ZeldaMessage.Data.MsgControlCode.FADE &&
+                       curChar != (byte)ZeldaMessage.Data.MsgControlCode.FADE2 &&
+                       curChar != (byte)ZeldaMessage.Data.MsgControlCode.DELAY &&
+                       curChar != (byte)ZeldaMessage.Data.MsgControlCode.JUMP &&
+                       curChar != 0 && pos != BoxData.Count())
+                       {
+                            switch (curChar)
+                            {
+                                case (byte)ZeldaMessage.Data.MsgControlCode.HIGH_SCORE:
+                                case (byte)ZeldaMessage.Data.MsgControlCode.SPEED:
+                                case (byte)ZeldaMessage.Data.MsgControlCode.SHIFT:
+                                case (byte)ZeldaMessage.Data.MsgControlCode.COLOR:
+                                case (byte)ZeldaMessage.Data.MsgControlCode.ICON:
+                                {
+                                    pos += 1;
+                                    break;
+                                }
+                                case (byte)ZeldaMessage.Data.MsgControlCode.SOUND:
+                                {
+                                    pos += 2;
+                                    break;
+                                }
+                                case (byte)ZeldaMessage.Data.MsgControlCode.BACKGROUND:
+                                {
+                                    pos += 3;
+                                    break;
+                                }               
+                                default:
+                                {
+                                    if (curChar >= 0x20 && curChar < 0xFD)
+                                    {
+                                        if (curChar - 0x20 > ZeldaMessage.Data.FontWidths.Length)
+                                            Len += (int)(13 * scale);
+                                        else
+                                            Len += (int)((ZeldaMessage.Data.FontWidths[curChar - 0x20] * scale));           
+                                    }
+
+                                    break;
+                                }
+                            }
+
+                            pos++;
+                            
+                            if (pos != BoxData.Count())
+                                curChar = BoxData[pos];
+                       }
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show("ERROR IN TAG PROCESS: " + ex.Message);
+            }
+
+            xPos = 128 - (Len / 2);       
+        
+            object[] ret = new object[7];
+            
+            ret[0] = (object)bmp;
+            ret[1] = (object)BoxData;
+            ret[2] = (object)textColor;
+            ret[3] = (object)scale;
+            ret[4] = (object)xPos;
+            ret[5] = (object)yPos;
+            ret[6] = (object)charPos;
+            
+            return ret;
+        }
+    }
+}
+
+

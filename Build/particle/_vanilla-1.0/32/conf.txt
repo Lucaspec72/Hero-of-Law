@@ -1,0 +1,2 @@
+vram         0x80B37E40
+unknown      0x01000000

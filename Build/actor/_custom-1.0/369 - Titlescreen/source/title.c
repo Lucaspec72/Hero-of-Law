@@ -91,6 +91,7 @@ void TitleLogo_Init(Actor* thisx, PlayState* play)
     SAVE_DEBUGMODE = 0;
     SAVE_LAUNCHSCENE = 0;
     SAVE_LAUNCHLEVEL = 0;
+    SAVE_LANGUAGE = 1;
     
     gSaveContext.audioSetting = SAVE_AUDIOSETTING;
     gSaveContext.cutsceneIndex = curCutsceneIndex;
@@ -1041,6 +1042,8 @@ void TitleLogo_InitNewSave()
     SAVE_SCREENSIZEY = 225;
     SAVE_WIDESCREEN = 0;
     SAVE_ANTIALIASOFF = 0;
+    
+    SAVE_LANGUAGE = 0;
     
     bcopy("ZELDA", &SAVE_LANAME, 5);
     bcopy(&sHeroOfLawMagic, &gSaveContext.playerName, ARRAY_COUNTU(sHeroOfLawMagic));
