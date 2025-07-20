@@ -1,5 +1,7 @@
 <h1>Hero of Law Source Code</h1>
 
+French Localisation Tracking Spreadsheet : https://docs.google.com/spreadsheets/d/195A2_gr2lPV8qkYqUiV6T7dXbidNvra4HLRoYEGLthQ/edit?gid=0#gid=0
+
 Tested on WSL.
 
 To build a ROM:
