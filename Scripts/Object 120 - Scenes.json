@@ -593,9 +593,10 @@
             {
               "Name": "AttorneyBadge",
               "MessageTextLines": [
-                "<Y>Badge d'Avocat<W>",
-                "Preuve que je peux me présenter",
-                "devant un tribunal en tant qu'avocat.<PERSISTENT>"
+                "<Y>Badge d'avocat<W>",
+                "Preuve que je peux me",
+                "présenter devant un",
+                "tribunal en tant qu'avocat.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -604,8 +605,9 @@
               "Name": "MalonPictograph",
               "MessageTextLines": [
                 "<Y>Photo de Malon<W>",
-                "Une photo d'enfance de Malon avec",
-                "son père. Appuyez sur <B><A Button><W> pour la voir.<PERSISTENT>"
+                "Une photo d'enfance de",
+                "Malon avec son père.",
+                "Appuyez sur <B><A Button><W> pour la voir.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -613,10 +615,11 @@
             {
               "Name": "Autopsy",
               "MessageTextLines": [
-                "<Y>Rapport d'Autopsie<W>",
-                "\"Plaie profonde et irrégulière infligée par",
-                "un objet métallique tranchant. La victime",
-                "est décédée d'une hémorragie avant 8h00.\"<PERSISTENT>"
+                "<Y>Rapport d'autopsie<W>",
+                "\"Plaie profonde et irrégulière",
+                "infligée par un objet métallique",
+                "tranchant. La victime est décédée",
+                "d'une hémorragie avant 8h00.\"<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -626,8 +629,9 @@
               "MessageTextLines": [
                 "<Y>Scie<W>",
                 "Arme du crime présumée.",
-                "trouvée dans les mains de Malon. ",
-                "Aucune trace de sang.<PERSISTENT>"
+                "trouvée dans les mains",
+                "de Malon. Aucune trace",
+                "de sang.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -635,9 +639,10 @@
             {
               "Name": "RanchInventory",
               "MessageTextLines": [
-                "<Y>Inventaire du Ranch<W>",
-                "Une liste d'équipement dans le ranch.",
-                "Appuyez sur <B><A Button><W> pour plus de détails.<PERSISTENT>"
+                "<Y>Inventaire du ranch<W>",
+                "Une liste d'équipement",
+                "dans le ranch. Appuyez",
+                "sur <B><A Button><W> pour plus de détails.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -646,9 +651,10 @@
               "Name": "Perfume",
               "MessageTextLines": [
                 "<Y>Parfum<W>",
-                "Cadeau du ranch pour la princesse.",
-                "Acheté juste avant le crime.",
-                "Trouvé sur la scène du crime.<PERSISTENT>"
+                "Cadeau du ranch pour",
+                "la princesse. Acheté juste",
+                "avant le crime. Trouvé sur",
+                "la scène du crime.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -656,9 +662,10 @@
             {
               "Name": "Shipment1",
               "MessageTextLines": [
-                "<Y>Chargements de Lait<W>",
-                "Des commandes de lait qui ont quitté",
-                "le ranch peu de temps après le crime.<PERSISTENT>"
+                "<Y>Chargements de lait<W>",
+                "Des commandes de lait qui",
+                "ont quitté le ranch peu",
+                "de temps après le crime.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -667,8 +674,9 @@
               "Name": "BloodyCloth",
               "MessageTextLines": [
                 "<Y>Bloodied Cloth<W>",
-                "Found clutched by Malon at the",
-                "crime scene. Supposedly, she wiped",
+                "Found clutched by Malon",
+                "at the crime scene.",
+                "Supposedly, she wiped",
                 "the saw clean with this...?<PERSISTENT>"
               ],
               "Type": 1,

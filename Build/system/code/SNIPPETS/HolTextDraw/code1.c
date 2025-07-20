@@ -64,6 +64,7 @@ int HoL_DrawMessageTextInternal(PlayState* play, u8* fontBuf, Gfx** gfxp, Color_
     s8 iconDrawn = -1;
     u8 numLines = 0;
     Color_RGB8 ActualColor = Color;
+    int maxXSize = 0;
 
     for (int i = 0; i < 200; i++) 
     {
@@ -153,6 +154,12 @@ int HoL_DrawMessageTextInternal(PlayState* play, u8* fontBuf, Gfx** gfxp, Color_
                     i = 200;
                 else
                 {
+                    if (operation == OPERATION_EVALUATE_XSIZE || operation == OPERATION_EVALUATE_DIMENSIONS)
+                    {
+                        if (maxXSize < TexPosX - posX)
+                            maxXSize = TexPosX - posX;
+                    }                    
+                                       
                     TexPosX = posX + shiftText;
                     numLines++;
 
@@ -249,7 +256,7 @@ int HoL_DrawMessageTextInternal(PlayState* play, u8* fontBuf, Gfx** gfxp, Color_
                     
                     TexPosX += (s32)(width * (scale / 100.0f));
                 } 
-                else if (operation == OPERATION_EVALUATE_LINE_XSIZE) 
+                else if (operation == OPERATION_EVALUATE_LINE_XSIZE || operation == OPERATION_EVALUATE_XSIZE || operation == OPERATION_EVALUATE_DIMENSIONS) 
                 {
                     float width = (curChar > 0xAB) ? 13 : fontWidths[curChar - ' ']; 
                     TexPosX += (s32)(width * (scale / 100.0f));
@@ -279,6 +286,15 @@ int HoL_DrawMessageTextInternal(PlayState* play, u8* fontBuf, Gfx** gfxp, Color_
             return R_TEXT_LINE_SPACING + TexPosY - outYSize;
         case OPERATION_EVALUATE_LINE_XSIZE:
             return TexPosX - posX;
+        case OPERATION_EVALUATE_XSIZE:
+            return maxXSize > TexPosX - posX ? maxXSize : TexPosX - posX;
+        case OPERATION_EVALUATE_DIMENSIONS:
+        {
+            u16 x = maxXSize > TexPosX - posX ? maxXSize : TexPosX - posX;
+            u16 y = R_TEXT_LINE_SPACING + TexPosY - outYSize;
+            
+            return (int)(x | y << 16);
+        }
         case OPERATION_DRAW_INDIVIDUAL:
         case OPERATION_DRAW_INDIVIDUAL_SHADOW:
             return charWasDrawn;

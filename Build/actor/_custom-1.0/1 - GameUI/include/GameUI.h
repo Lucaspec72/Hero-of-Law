@@ -1,6 +1,8 @@
 #ifndef _Z_GAMEUI_H_
 #define _Z_GAMEUI_H_
 
+#define GET_DIMENSIONS_FUNCS
+
 #include <z64hdr/oot_u10/z64hdr.h>
 #include "../../draw2D.h"
 #include "../../holText.h"
@@ -252,7 +254,7 @@
 #define CR_DARKSLOT_POSY CR_BASE_POSY + 33
 
 #define CR_TEXT_X CR_BASE_POSX - 52
-#define CR_TEXT_Y CR_BASE_POSY - 36
+#define CR_TEXT_Y CR_BASE_POSY - 39
 
 #define CR_MAX_EVIDENCE_PER_PAGE 12
 #define CR_STICK_COOLDOWN 3 * (float)((float)3 / (float)R_UPDATE_RATE);

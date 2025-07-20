@@ -1026,13 +1026,7 @@ void DrawCourtRecord(Actor* thisx, PlayState* play, Gfx** gfxp)
             this->crSelectedIdLast = this->selectedCREntry->id;
         }
     }
-
-    // Draw the text. Use default scale if it's not explicitly defined in the data.
-    int scale = TEXT_SCALE;
-
-    if (this->selectedCREntry->scale)
-        scale = this->selectedCREntry->scale;
-
+   
     HoL_DrawMessageText(play, 
                         &gfx, 
                         colorWhite, 
@@ -1045,7 +1039,7 @@ void DrawCourtRecord(Actor* thisx, PlayState* play, Gfx** gfxp)
                         1, 
                         1, 
                         NULL, 
-                        scale, 
+                        GetTextScaleToFit(this->msgBufCR, TEXT_SCALE, 172, 60), 
                         OPERATION_DRAW_SHADOW);
                         
                         
