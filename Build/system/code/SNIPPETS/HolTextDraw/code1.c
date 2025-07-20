@@ -283,7 +283,7 @@ int HoL_DrawMessageTextInternal(PlayState* play, u8* fontBuf, Gfx** gfxp, Color_
     switch (operation)
     {
         case OPERATION_EVALUATE_YSIZE:
-            return R_TEXT_LINE_SPACING + TexPosY - outYSize;
+            return TEXT_LINE_SPACING + TexPosY - outYSize;
         case OPERATION_EVALUATE_LINE_XSIZE:
             return TexPosX - posX;
         case OPERATION_EVALUATE_XSIZE:
@@ -291,7 +291,7 @@ int HoL_DrawMessageTextInternal(PlayState* play, u8* fontBuf, Gfx** gfxp, Color_
         case OPERATION_EVALUATE_DIMENSIONS:
         {
             u16 x = maxXSize > TexPosX - posX ? maxXSize : TexPosX - posX;
-            u16 y = R_TEXT_LINE_SPACING + TexPosY - outYSize;
+            u16 y = TEXT_LINE_SPACING + TexPosY - outYSize;
             
             return (int)(x | y << 16);
         }

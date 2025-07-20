@@ -26571,9 +26571,9 @@
             {
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
-                "I do believe this matter has been",
-                "settled.<PAUSE:10> <SOUND:WHAP>I am ready to call my next",
-                "witness."
+                "Il me semble que ce sujet à été réglé.<PAUSE:10>",
+                "<SOUND:WHAP>Je suis prêt à appeler mon",
+                "prochain témoin."
               ],
               "Type": 0,
               "Position": 0
@@ -26581,7 +26581,8 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "<SOUND:0><C>(Uh oh.<PAUSE:3> Is that all I can get out of her?)"
+                "<SOUND:0><C>(Oh non.<PAUSE:3> C'est tout ce que je peux",
+                "tirer d'elle ?)"
               ],
               "Type": 0,
               "Position": 0
@@ -26589,8 +26590,8 @@
             {
               "Name": "DRAGMIRE20",
               "MessageTextLines": [
-                "You've served your purpose, Sheikah.<PAUSE:10> ",
-                "<DI>Begone!"
+                "Vous avez rempli votre rôle, Sheikah.<PAUSE:10> ",
+                "<DI>Disparaissez !"
               ],
               "Type": 0,
               "Position": 0
@@ -26598,10 +26599,10 @@
             {
               "Name": "IMPA10",
               "MessageTextLines": [
-                "Fine.<PAUSE:10> But you had best treat Her",
-                "Highness with respect, or I'll see to it",
-                "that you<SOUND:WHAP> spend the night in the",
-                "dungeons."
+                "Très bien.<PAUSE:10> Mais vous avez intérêt à",
+                "traiter Son Altesse avec respect, ou je",
+                "m'assurerai que vous passiez la nuit",
+                "dans les cachots.<SOUND:WHAP>"
               ],
               "Type": 0,
               "Position": 0
@@ -26609,10 +26610,10 @@
             {
               "Name": "DRAGMIRE30",
               "MessageTextLines": [
-                "Do not presume to threaten me,",
-                "Sheikah.<NEW_BOX>",
-                "A night of darkness and solitude would",
-                "be nothing but comfort for me."
+                "N'ayez pas la prétention de",
+                "me menacer, Sheikah.<NEW_BOX>",
+                "Une nuit d'obscurité et de solitude ne",
+                "serait pour moi qu'un doux réconfort."
               ],
               "Type": 0,
               "Position": 0
@@ -26620,7 +26621,7 @@
             {
               "Name": "IMPA20",
               "MessageTextLines": [
-                "Is that so?"
+                "Vraiment ?"
               ],
               "Type": 0,
               "Position": 0
@@ -26628,9 +26629,9 @@
             {
               "Name": "IMPA30",
               "MessageTextLines": [
-                "Then perhaps we should fill the",
-                "dungeons with<SOUND:CLUE> lit candles for the",
-                "occasion."
+                "Alors peut-être devrions-nous remplir",
+                "les cachots de<SOUND:CLUE> bougies allumées",
+                "pour l'occasion."
               ],
               "Type": 0,
               "Position": 0
@@ -26638,9 +26639,9 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(They're glaring daggers at each other.<PAUSE:10> ",
-                "If this doesn't end soon, we're all in",
-                "trouble...)"
+                "<SOUND:0><C>(Ils se lancent des regards qui tuent.<PAUSE:10> ",
+                "Si ça ne se calme pas vite, on est",
+                "tous dans la panade...)"
               ],
               "Type": 0,
               "Position": 0
@@ -26648,7 +26649,7 @@
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
-                "Order, order!"
+                "Silence, silence !"
               ],
               "Type": 0,
               "Position": 0
@@ -26656,8 +26657,8 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "I'm sure we'll treat the princess with",
-                "utmost respect."
+                "Je suis certain que nous traiterons la",
+                "princesse avec le plus grand respect."
               ],
               "Type": 0,
               "Position": 0
@@ -26665,7 +26666,7 @@
             {
               "Name": "JUDGE30",
               "MessageTextLines": [
-                "You may step down, Detective.<SQUARE>"
+                "Vous pouvez vous retirer, Inspectrice.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -26673,8 +26674,8 @@
             {
               "Name": "DRAGMIRE40",
               "MessageTextLines": [
-                "This case has already made me weary",
-                "with all the pointless jabber."
+                "Cette affaire m'épuise déjà avec tout",
+                "ce bavardage inutile."
               ],
               "Type": 0,
               "Position": 0
@@ -26682,9 +26683,9 @@
             {
               "Name": "DRAGMIRE45",
               "MessageTextLines": [
-                "The time is ripe to deal the final blow.<PAUSE:10> ",
-                "I call Her Highness, <R>Princess Zelda of",
-                "Hyrule<W>, to the stand!<SQUARE>"
+                "Il est temps d'asséner le coup final.<PAUSE:10> ",
+                "J'appelle Son Altesse, <R>la Princesse Zelda",
+                "d'Hyrule<W>, à la barre !<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -26692,9 +26693,9 @@
             {
               "Name": "ZELDA10",
               "MessageTextLines": [
-                "Is something the matter?",
+                "Quelque chose ne va pas ?",
                 "<NEW_BOX>",
-                "<SOUND:CLUE>Why is everyone quiet all of a sudden?"
+                "<SOUND:CLUE>Pourquoi ce silence soudain ?"
               ],
               "Type": 0,
               "Position": 0
@@ -26702,7 +26703,7 @@
             {
               "Name": "JUDGE40",
               "MessageTextLines": [
-                "<SOUND:WHAP>Ah!<PAUSE:3> Your Highness."
+                "<SOUND:WHAP>Ah !<PAUSE:3> Votre Altesse."
               ],
               "Type": 0,
               "Position": 0
@@ -26710,8 +26711,8 @@
             {
               "Name": "JUDGE45",
               "MessageTextLines": [
-                "<SOUND:HINT>I believe we're all just a bit uncertain",
-                "on how to proceed."
+                "<SOUND:HINT>Je crois que nous sommes tous un peu",
+                "incertains quant à la marche à suivre."
               ],
               "Type": 0,
               "Position": 0
@@ -26719,8 +26720,8 @@
             {
               "Name": "JUDGE50",
               "MessageTextLines": [
-                "It is quite the honour to have such an<SOUND:CLUE>",
-                "esteemed guest in these halls."
+                "C'est un immense honneur d'avoir une",
+                "invitée aussi<SOUND:CLUE> prestigieuse dans cette salle."
               ],
               "Type": 0,
               "Position": 0
@@ -26736,8 +26737,8 @@
             {
               "Name": "DRAGMIRE60",
               "MessageTextLines": [
-                "In the face of the law, the princess is",
-                "no<SOUND:DON> different from a peasant!"
+                "Devant la loi, la princesse n'est",
+                "pas<SOUND:DON> différente d'un simple gueu !"
               ],
               "Type": 0,
               "Position": 0
@@ -26745,7 +26746,7 @@
             {
               "Name": "DRAGMIRE70",
               "MessageTextLines": [
-                "Name and occupation!<PAUSE:5> Now!"
+                "Nom et profession !<PAUSE:5> Maintenant !"
               ],
               "Type": 0,
               "Position": 0
@@ -26753,9 +26754,9 @@
             {
               "Name": "IMPA40",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>The prosecution will behave!",
-                "<NEW_BOX>I will<SOUND:WHAP> not have any derogatory",
-                "statements directed at the princess!"
+                "<SOUND:EXPLOSION><DI>Le procureur va se tenir !",
+                "<NEW_BOX>Je ne<SOUND:WHAP> tolérerai aucun propos désobligeant",
+                "à l'égard de la princesse !"
               ],
               "Type": 0,
               "Position": 0
@@ -26763,11 +26764,11 @@
             {
               "Name": "DRAGMIRE80",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Derogatory?",
+                "<SOUND:EXPLOSION>Désobligeant ?",
                 "<NEW_BOX>",
-                "I simply wish not to waste any more",
-                "time!<PAUSE:5><SOUND:WHAP> We must employ proper",
-                "procedure!"
+                "Je veux simplement éviter de perdre",
+                "plus de temps !<PAUSE:5><SOUND:WHAP> Suivons la procédure",
+                "règlementaire !"
               ],
               "Type": 0,
               "Position": 0
@@ -26775,7 +26776,7 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(Oh man.)"
+                "<SOUND:0><C>(Oh bon dieu.)"
               ],
               "Type": 0,
               "Position": 0
@@ -26783,8 +26784,9 @@
             {
               "Name": "ZELDA20",
               "MessageTextLines": [
-                "It is all right, Detective.<PAUSE:5> I believe the",
-                "prosecution does have a point."
+                "Tout va bien, Inspectrice.<PAUSE:5> Je crois",
+                "que le procureur a, en effet, un",
+                "argument valable."
               ],
               "Type": 0,
               "Position": 0
@@ -26792,11 +26794,11 @@
             {
               "Name": "ZELDA40",
               "MessageTextLines": [
-                "In the eyes of the law,<SOUND:HINT> we are all",
-                "equals.",
+                "Aux yeux de la loi,<SOUND:HINT> nous sommes tous",
+                "égaux.",
                 "<NEW_BOX>",
-                "<SOUND:CLUE>On this stand, I AM just another",
-                "witness."
+                "<SOUND:CLUE>À la barre, je ne suis qu'un témoin",
+                "comme un autre."
               ],
               "Type": 0,
               "Position": 0
@@ -26804,8 +26806,8 @@
             {
               "Name": "ZELDA50",
               "MessageTextLines": [
-                "I should not be getting any special",
-                "treatment."
+                "Je ne devrais bénéficier d'aucun",
+                "traitement de faveur."
               ],
               "Type": 0,
               "Position": 0
@@ -26813,7 +26815,7 @@
             {
               "Name": "DRAGMIRE90",
               "MessageTextLines": [
-                "Very admirable, Your Highness."
+                "Très admirable, Votre Altesse."
               ],
               "Type": 0,
               "Position": 0
@@ -26821,9 +26823,9 @@
             {
               "Name": "DRAGMIRE100",
               "MessageTextLines": [
-                "We can all rest easy knowing that",
-                "Hyrule is destined to have such a...<PAUSE:3> ",
-                "<SOUND:CLUE>wise monarch in its future."
+                "On peut dormir sur nos deux oreilles",
+                "en sachant que Hyrule aura un jour...",
+                "<SOUND:CLUE>un monarque aussi sage.<PAUSE:3>"
               ],
               "Type": 0,
               "Position": 0
@@ -26831,7 +26833,7 @@
             {
               "Name": "DRAGMIRE110",
               "MessageTextLines": [
-                "Yes... indeed..."
+                "Oui... en effet..."
               ],
               "Type": 0,
               "Position": 0
@@ -26839,9 +26841,10 @@
             {
               "Name": "DRAGMIRE120",
               "MessageTextLines": [
-                "I eagerly await the day when our next",
-                "ruler takes the throne and reshapes",
-                "the kingdom in their image..."
+                "J'attends avec impatience le jour où ",
+                "notre futur souverain montera sur le",
+                "trône et façonnera le royaume",
+                "à son image..."
               ],
               "Type": 0,
               "Position": 0
@@ -26849,7 +26852,7 @@
             {
               "Name": "LINK40",
               "MessageTextLines": [
-                "<SOUND:0><C>(Uhhh...)"
+                "<SOUND:0><C>(Euhhh...)"
               ],
               "Type": 0,
               "Position": 0
@@ -26857,7 +26860,7 @@
             {
               "Name": "ZELDA60",
               "MessageTextLines": [
-                "You flatter me, Prosecutor."
+                "Vous me flattez, Procureur."
               ],
               "Type": 0,
               "Position": 0
@@ -26865,10 +26868,10 @@
             {
               "Name": "ZELDA70",
               "MessageTextLines": [
-                "Now, then!",
+                "Bon, alors !",
                 "<NEW_BOX>",
-                "I believe I was asked for my name",
-                "and occupation."
+                "Je crois que l'on m'a demandé mon nom",
+                "et ma profession."
               ],
               "Type": 0,
               "Position": 0
@@ -26876,8 +26879,8 @@
             {
               "Name": "ZELDA80",
               "MessageTextLines": [
-                "I am<SOUND:HINT> Zelda, current princess of",
-                "Hyrule and heir apparent to the throne."
+                "Je suis<SOUND:HINT> Zelda, princesse actuelle",
+                "d'Hyrule et héritière du trône."
               ],
               "Type": 0,
               "Position": 0
@@ -26885,7 +26888,7 @@
             {
               "Name": "JUDGE60",
               "MessageTextLines": [
-                "Marvellous, Your Highness."
+                "Merveilleux, Votre Altesse."
               ],
               "Type": 0,
               "Position": 0
@@ -26893,8 +26896,8 @@
             {
               "Name": "JUDGE70",
               "MessageTextLines": [
-                "Before we begin, I would just like to",
-                "know..."
+                "Avant de commencer, j'aimerais",
+                "simplement savoir..."
               ],
               "Type": 0,
               "Position": 0
@@ -26902,8 +26905,8 @@
             {
               "Name": "JUDGE80",
               "MessageTextLines": [
-                "Why were you at Lon Lon Ranch to",
-                "witness this<SOUND:CLUE> terrible incident?"
+                "Pourquoi étiez-vous au Ranch Lon Lon",
+                "pour assister à cet<SOUND:CLUE> incident tragique ?"
               ],
               "Type": 0,
               "Position": 0
@@ -26911,7 +26914,7 @@
             {
               "Name": "ZELDA90",
               "MessageTextLines": [
-                "Ah, it is<SOUND:CLUE> simple, really."
+                "Ah, c'est<SOUND:CLUE> très simple."
               ],
               "Type": 0,
               "Position": 0
@@ -26919,8 +26922,9 @@
             {
               "Name": "ZELDA100",
               "MessageTextLines": [
-                "Lon Lon Ranch is Hyrule Castle Town's",
-                "biggest food supplier."
+                "Le Ranch Lon Lon est le plus grand",
+                "fournisseur de nourriture de la Cité",
+                "d'Hyrule."
               ],
               "Type": 0,
               "Position": 0
@@ -26928,9 +26932,9 @@
             {
               "Name": "ZELDA110",
               "MessageTextLines": [
-                "Not only that, but the ranch also",
-                "equips Hyrule's Royal Guard with the<SOUND:HINT>",
-                "finest of <R>horses<W>."
+                "Et ce n'est pas tout : le ranch fournit",
+                "également à la Garde Royale les<SOUND:HINT>",
+                "meilleurs <R>chevaux<W> du royaume."
               ],
               "Type": 0,
               "Position": 0
@@ -26938,9 +26942,9 @@
             {
               "Name": "ZELDA120",
               "MessageTextLines": [
-                "Every year, the Royal Family <R>makes a",
-                "visit<W> as a gesture of goodwill and to",
-                "ensure the<SOUND:CLUE> quality of the steeds."
+                "Chaque année, la Famille Royale <R>rend",
+                "visite<W> au ranch, par courtoisie et pour",
+                "vérifier la<SOUND:CLUE> qualité des montures."
               ],
               "Type": 0,
               "Position": 0
@@ -26948,8 +26952,8 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "Wow, I didn't know your horses were",
-                "used by the Royal Guard!"
+                "Waouh, j'ignorais que vos chevaux",
+                "étaient utilisés par la Garde Royale !"
               ],
               "Type": 0,
               "Position": 0
@@ -26957,9 +26961,8 @@
             {
               "Name": "MALON10",
               "MessageTextLines": [
-                "<SOUND:WHAP>Yep!<PAUSE:10> We work hard every year to",
-                "make sure they're in the best possible",
-                "condition."
+                "<SOUND:WHAP>Oui !<PAUSE:10> On travaille dur chaque année",
+                "pour qu'ils soient en parfaite condition."
               ],
               "Type": 0,
               "Position": 0
@@ -26967,8 +26970,8 @@
             {
               "Name": "MALON20",
               "MessageTextLines": [
-                "Father loved to boast about it to the",
-                "other ranch owners."
+                "Père adorait s'en vanter auprès des",
+                "autres éleveurs."
               ],
               "Type": 0,
               "Position": 0
@@ -26976,7 +26979,7 @@
             {
               "Name": "LINK60",
               "MessageTextLines": [
-                "<SOUND:WHAP>Hah.<PAUSE:10> Knowing Talon, I'm sure he did."
+                "<SOUND:WHAP>Hah.<PAUSE:10> Connaissant Talon, j'en doute pas."
               ],
               "Type": 0,
               "Position": 0
@@ -26984,9 +26987,10 @@
             {
               "Name": "DRAGMIRE130",
               "MessageTextLines": [
-                "How unfortunate that the ranch may",
-                "<SOUND:CLUE>no longer meet the Crown's high",
-                "standards under new management."
+                "C'est bien dommage que le ranch",
+                "<SOUND:CLUE>ne soit peut-être plus à la hauteur des",
+                "exigences royales sous sa nouvelle",
+                "direction."
               ],
               "Type": 0,
               "Position": 0
@@ -26994,7 +26998,8 @@
             {
               "Name": "DRAGMIRE140",
               "MessageTextLines": [
-                "The Royal Family has a backup, I trust?"
+                "J'imagine que la Famille Royale a",
+                "des alternatives ?"
               ],
               "Type": 0,
               "Position": 0
@@ -27002,10 +27007,10 @@
             {
               "Name": "ZELDA130",
               "MessageTextLines": [
-                "We are looking for one.",
+                "Nous en recherchons une.",
                 "<NEW_BOX>",
-                "Naturally, those standards<SOUND:CLUE> are quite",
-                "high..."
+                "Évidemment, ces standards<SOUND:CLUE> sont très",
+                "élevés..."
               ],
               "Type": 0,
               "Position": 0
@@ -27013,7 +27018,7 @@
             {
               "Name": "JUDGE90",
               "MessageTextLines": [
-                "Yes, yes. Of course."
+                "Oui, oui. Bien sûr."
               ],
               "Type": 0,
               "Position": 0
@@ -27021,8 +27026,8 @@
             {
               "Name": "JUDGE100",
               "MessageTextLines": [
-                "Now, then, please describe what you",
-                "saw on the day of the incident."
+                "Bon. Veuillez maintenant décrire ce",
+                "que vous avez vu le jour de l'incident."
               ],
               "Type": 0,
               "Position": 0
@@ -27030,7 +27035,7 @@
             {
               "Name": "ZELDA140",
               "MessageTextLines": [
-                "Very well.<PAUSE:10><DI><SOUND:HINT> Here I go!<SQUARE>"
+                "Très bien.<PAUSE:10><DI><SOUND:HINT> C'est parti !<SQUARE>"
               ],
               "Type": 0,
               "Position": 0

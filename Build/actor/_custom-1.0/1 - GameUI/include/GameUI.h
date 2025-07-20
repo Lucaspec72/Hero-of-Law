@@ -256,6 +256,9 @@
 #define CR_TEXT_X CR_BASE_POSX - 52
 #define CR_TEXT_Y CR_BASE_POSY - 39
 
+#define CR_TEXT_MAX_XSIZE 172
+#define CR_TEXT_MAX_YSIZE 60
+
 #define CR_MAX_EVIDENCE_PER_PAGE 12
 #define CR_STICK_COOLDOWN 3 * (float)((float)3 / (float)R_UPDATE_RATE);
 

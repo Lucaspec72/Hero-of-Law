@@ -1026,6 +1026,10 @@ void DrawCourtRecord(Actor* thisx, PlayState* play, Gfx** gfxp)
             this->crSelectedIdLast = this->selectedCREntry->id;
         }
     }
+    
+    int scale = GetTextScaleToFit(this->msgBufCR, TEXT_SCALE, CR_TEXT_MAX_XSIZE, CR_TEXT_MAX_YSIZE);
+    
+    
    
     HoL_DrawMessageText(play, 
                         &gfx, 
@@ -1039,7 +1043,7 @@ void DrawCourtRecord(Actor* thisx, PlayState* play, Gfx** gfxp)
                         1, 
                         1, 
                         NULL, 
-                        GetTextScaleToFit(this->msgBufCR, TEXT_SCALE, 172, 60), 
+                        scale, 
                         OPERATION_DRAW_SHADOW);
                         
                         
