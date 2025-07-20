@@ -1116,7 +1116,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_GALLERY_ANJU",
@@ -1443,7 +1444,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_GALLERY_GORON",
@@ -1842,7 +1844,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_GALLERY_BEARD",
@@ -2253,7 +2256,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_GALLERY_LAUGHM",
@@ -2612,7 +2616,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_JUDGE",
@@ -3197,7 +3202,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_GALLERY_ANOUKI",
@@ -3579,7 +3585,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_LINK",
@@ -4563,7 +4570,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_MALON",
@@ -5740,7 +5748,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_DRAGMIRE",
@@ -7416,7 +7425,8 @@
           "NpcM_Destroy",
           "NpcM_GetLimbPositionsForCape"
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_CONTROLLER",
@@ -10663,7 +10673,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_IMPA",
@@ -11214,7 +11225,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_ZELDA",
@@ -11976,7 +11988,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_INGO",
@@ -12893,7 +12906,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_EFFECTS",
@@ -13976,7 +13990,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_SOLDIER",
@@ -14362,7 +14377,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "",
@@ -14515,7 +14531,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_LOBBY_INTRO",
@@ -16293,7 +16310,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_GALLERY_ZORA",
@@ -16715,7 +16733,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_UNIMPLEMENTED",
@@ -16979,7 +16998,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_TEST",
@@ -18875,7 +18895,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_OPENINGSTATEMENT",
@@ -19823,7 +19844,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_IMPA_INTRODUCTION",
@@ -20997,7 +21019,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_IMPA_1",
@@ -21384,7 +21407,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_IMPA_POST",
@@ -23176,7 +23200,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_IMPA_CROSSEXAM",
@@ -25747,7 +25772,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_ZELDA_INTRODUCTION",
@@ -27054,7 +27080,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_ZELDA_1",
@@ -27469,7 +27496,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_ZELDA_POST",
@@ -28545,7 +28573,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_ZELDA_1_CROSSEXAM",
@@ -31362,7 +31391,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_ZELDA_2",
@@ -31704,7 +31734,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_ZELDA_2_POST",
@@ -32065,7 +32096,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_ZELDA_2_CROSSEXAM",
@@ -34403,7 +34435,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_ZELDAS_NEW_EVIDENCE",
@@ -36438,7 +36471,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_ZELDA_3",
@@ -36850,7 +36884,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_ZELDA_3_POST",
@@ -37545,7 +37580,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_ZELDA_3_CROSSEXAM",
@@ -40007,7 +40043,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_INGO_ENTERS",
@@ -40960,7 +40997,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_INGO_1",
@@ -41327,7 +41365,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_INGO_1_POST",
@@ -41821,7 +41860,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_INGO_1_CROSSEXAM",
@@ -48176,7 +48216,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_LOBBY_RECESS",
@@ -49936,7 +49977,8 @@
           null,
           null
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_INGO_2",
@@ -50299,7 +50341,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_INGO_2_POST",
@@ -50609,7 +50652,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_INGO_2_CROSSEXAM",
@@ -54924,7 +54968,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_THINKING_CONTROLLER",
@@ -55244,7 +55289,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_GODDESS",
@@ -55870,7 +55916,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_TRIFORCE",
@@ -56196,7 +56243,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_INGO_PURSUIT",
@@ -57109,7 +57157,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_VERDICT",
@@ -58103,7 +58152,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_CUCCO",
@@ -58557,7 +58607,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_LOBBY_ENDING",
@@ -60611,7 +60662,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_VISCEN",
@@ -60885,7 +60937,8 @@
           null,
           null
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_AUTOSAVENOTICE",
@@ -61117,7 +61170,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "RANCH_INTRO_CONTROLLER",
@@ -61507,7 +61561,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "INTRO_TALON",
@@ -61711,7 +61766,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_DRAGMIRE_REBUTTAL",
@@ -65004,7 +65060,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_COURTROOM",
@@ -65396,7 +65453,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_DARKPLANE",
@@ -65616,7 +65674,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "CREDITS_CONTROLLER",
@@ -67907,7 +67966,8 @@
           "NpcM_DestroyCredits",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_HORSE_CREDITS",
@@ -68135,7 +68195,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_SOLDIER_CREDITS_HORSE_FIRE",
@@ -68454,7 +68515,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_TRAILER",
@@ -69505,7 +69567,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_COURT_RECORD_DATA_TRAILER",
@@ -69904,7 +69967,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_TEST_BUFFERS",
@@ -70219,7 +70283,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_GROG",
@@ -70442,7 +70507,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_PRISONBARS",
@@ -70683,7 +70749,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "FLAME_EMITTER",
@@ -70897,7 +70964,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_PROF_SHIKASHI",
@@ -71120,7 +71188,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_UNUSED",
@@ -71458,7 +71527,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_TALON",
@@ -71662,7 +71732,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_FLASHBACK_INGO",
@@ -71905,7 +71976,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "RANCH_FLASHBACK",
@@ -72334,7 +72406,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_INGO_3",
@@ -72695,7 +72768,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_INGO_3_POST",
@@ -73037,7 +73111,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_INGO_3_CROSSEXAM",
@@ -75686,7 +75761,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "GANON_ORGAN",
@@ -75916,7 +75992,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_AFTER_REBUTTAL",
@@ -77711,7 +77788,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "HORSEWAGON",
@@ -78135,7 +78213,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_THIEF_TRSPAKCHECK",
@@ -78854,7 +78933,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_KOHOLINK",
@@ -79763,7 +79843,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_COURT_RECORD_DATA_THIEF",
@@ -80424,7 +80505,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_MUTOH",
@@ -81017,7 +81099,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_OWL",
@@ -81468,7 +81551,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_THIEF_TRIALSTART",
@@ -83494,7 +83578,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_THIEF_SHOPK_ENTERS",
@@ -83963,7 +84048,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_THIEF_SHOPK_TESTIMONY",
@@ -84464,7 +84550,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_THIEF_SHOPK_POST",
@@ -84887,7 +84974,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_THIEF_SHOPK_CROSSEXAM",
@@ -89160,7 +89248,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_THIEF_OWL_TESTIMONY",
@@ -89523,7 +89612,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_THIEF_OWL_POST",
@@ -89932,7 +90022,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_THIEF_OWL_CROSSEXAM",
@@ -94097,7 +94188,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_THINKING_RANCH",
@@ -94985,7 +95077,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_THINKING_THIEF",
@@ -95792,7 +95885,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_THIEF_VERDICT",
@@ -98625,7 +98719,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_THIEF_EPILOGUE",
@@ -99157,7 +99252,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_ANTIPIRACY_EDGB",
@@ -99476,7 +99572,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_N64_PRERENDER",
@@ -100080,7 +100177,8 @@
           "NpcM_Destroy",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_SCREENSHOTTER",
@@ -100361,7 +100459,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_ANTIPIRACY_EZJR",
@@ -100652,7 +100751,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_SOUNDBLOCK",
@@ -100890,7 +100990,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_CASINOCONTROLLER_",
@@ -101318,9 +101419,9 @@
           "Name": "msg",
           "MessageTextLines": [
             "<DI><SHIFT:73>P A U S E<THREE_CHOICES>",
-            "<G>Voir les règles",
-            "À propos de la musique",
-            "Retour à l'Écran Titre<Shift:31><B_BUTTON><W> Retour"
+            "<G>Show rules",
+            "About the song",
+            "Quit to Title Screen<Shift:42><B_BUTTON><W> Back"
           ],
           "Type": 1,
           "Position": 2
@@ -101331,11 +101432,11 @@
             "",
             "",
             "",
-            "1. Les cartes sont distribuées...",
-            "2. Vous choisissez combien miser",
-            "en cliquant sur le Rubis,",
-            "et quelles cartes changer",
-            "en cliquant dessus..."
+            "1. The cards are drawn...",
+            "2. You pick how much to bet",
+            "by clicking the Rupee,",
+            "and which cards to replace",
+            "by clicking them..."
           ],
           "Type": 6,
           "Position": 0
@@ -101351,10 +101452,9 @@
             "",
             "",
             "",
-            "3. Ingo choisit sa mise et",
-            "les cartes à changer...",
-            "4. Le gagnant remporte tout,",
-            "fois deux !"
+            "3. Ingo decides his bet and",
+            "cards to replace...",
+            "4. Winner gets all, times 2!"
           ],
           "Type": 6,
           "Position": 0
@@ -101362,18 +101462,18 @@
         {
           "Name": "ingoHint",
           "MessageTextLines": [
-            "<SPEED:102>ohhhh-kay.<PAUSE:5> T'es bon !",
+            "<SPEED:102>Awwwright.<PAUSE:5> You're good!",
             "<NEW_BOX>",
-            "Alors j'vais t'dire un autre secret.",
+            "I'll tell ya another secret, then.",
             "<NEW_BOX>",
-            "Tu vois ce procureur, <SOUND:HINT><R>Dragmire<W> ?",
+            "You know that prosecutor, <SOUND:HINT><R>Dragmire<W>?",
             "<NEW_BOX>",
-            "Quand il est à l'écran, appuie, sur",
-            "le <C><D_PAD><W> Pad Directionel...",
+            "When he's on screen, press, on",
+            "the <C><D_PAD><W> D-Pad...",
             "<NEW_BOX>",
-            "<R><PAUSE:5>HAUT<PAUSE:3> HAUT<PAUSE:3> BAS<PAUSE:3> BAS<PAUSE:3> GAUCHE<PAUSE:3> DROITE<PAUSE:3> ",
-            "GAUCHE<PAUSE:3> DROITE<PAUSE:3> B<W>...<PAUSE:5> et quelque chose",
-            "devrait se passer !<SQUARE>"
+            "<R><PAUSE:5>UP<PAUSE:3> UP<PAUSE:3> DOWN<PAUSE:3> DOWN<PAUSE:3> LEFT<PAUSE:3> RIGHT<PAUSE:3> ",
+            "LEFT<PAUSE:3> RIGHT<PAUSE:3> B<W>...<PAUSE:5> and something should",
+            "happen!<SQUARE>"
           ],
           "Type": 0,
           "Position": 0
@@ -101381,9 +101481,8 @@
         {
           "Name": "bail",
           "MessageTextLines": [
-            "Félicitations !",
-            "Vous avez réuni assez d'argent pour",
-            "payer la caution !<SQUARE>"
+            "Congratulations!!!",
+            "You got enough money to pay bail!<SQUARE>"
           ],
           "Type": 1,
           "Position": 2
@@ -101392,37 +101491,38 @@
           "Name": "About_Tutorial",
           "MessageTextLines": [
             "<SOUND:0><LC><R>Courageous Deductions",
-            "<LC><W>(Déductions courageuses)",
             "<LC><C>(RoadrunnerWMC)",
             "<NEW_BOX>",
-            "<SOUND:0>Au début du développement, notre",
-            "musique placeholder pour cette piste",
-            "était <R>Cour du château<W>....",
+            "<SOUND:0>In early development, our placeholder",
+            "music for this track was <R>Hyrule Castle",
+            "Courtyard<W>...",
             "<NEW_BOX>",
-            "<SOUND:0>...alors quand il est venu temps d'écrire",
-            "la veritable musique, j'ai d'abord",
-            "essayé de l'utiliser comme base.",
+            "<SOUND:0>...so when it came time to write the",
+            "real music, I tried to use that as the",
+            "basis for it first.",
             "<NEW_BOX>",
-            "<SOUND:0>Mais avec autant de chromatismes",
-            "(notes hors tonalité), l'adapter",
-            "au style voulu n'a pas été facile.",
+            "<SOUND:0>But because of the amount of",
+            "chromaticism (notes that don't fit the",
+            "key signature) in that song, adapting",
+            "it to the style we wanted wasn't easy.",
             "<NEW_BOX>",
-            "<SOUND:0>Au lieu de cela, j'ai (clairement) basé",
-            "cette chanson sur le <R>Thème du hibou<W>.",
+            "<SOUND:0>So instead, I (obviously) based this",
+            "song on <R>Kaepora Gaebora's Theme<W>.",
             "<NEW_BOX>",
-            "<SOUND:0>La nouvelle mélodie est faite pour bien",
-            "s'harmoniser avec le Thème du Hibou.<PAUSE:3>",
-            "Quand l'original monte ou descend",
-            "une gamme, elle fait pareil.",
+            "<SOUND:0>The new melody is designed to mesh",
+            "well with Kaepora Gaebora's.<PAUSE:3> Whenever",
+            "the original melody runs up or down a",
+            "scale, the new one does, too.",
             "<NEW_BOX>",
-            "<SOUND:0>Les accords en dessous flottent un peu",
-            "au hasard, sans vraie logique.<PAUSE:3> ",
-            "J'ai juste varié les notes jusqu'à ce",
-            "que ça sonne bien.",
+            "<SOUND:0>The chords underneath flow around",
+            "somewhat aimlessly, without much",
+            "logic behind them.<PAUSE:3> I mostly just varied",
+            "the notes until they sounded nice.",
             "<NEW_BOX>",
-            "<SOUND:0>C'est subtil, mais le triolet du shaker",
-            "à la fin du thème du hibou est un clin",
-            "d'oeil à un autre jeu Ace Attorney...<SQUARE>"
+            "<SOUND:0>It's subtle, but the triplet played on the",
+            "shaker at the very end of the owl's",
+            "melody is a nod to the corresponding",
+            "theme from another attorney game...<SQUARE>"
           ],
           "Type": 2,
           "Position": 2
@@ -101431,44 +101531,45 @@
           "Name": "About_Title_a",
           "MessageTextLines": [
             "<SOUND:0><LC><R>Title Theme",
-            "<LC><W>(Thème Principal)",
             "<LC><C>(RoadrunnerWMC)",
             "<NEW_BOX>",
-            "<SOUND:0>Ce morceau a une histoire un peu",
-            "inhabituelle.",
+            "<SOUND:0>This song had a bit of an unusual",
+            "history.",
             "<NEW_BOX>",
-            "<SOUND:0>J'ai réussi à écrire les 30 premières",
-            "secondes <EMDASH>une reprise du <R>Thème",
-            "Principal<W> du jeu original <EMDASH> du",
-            "premier coup...",
+            "<SOUND:0>I was able to write the first 30 seconds",
+            "of it <EMDASH> a rearrangement of the original",
+            "game's <R>Title Theme<W> <EMDASH> on my first try...",
             "<NEW_BOX>",
-            "<SOUND:0>...mais j'ai eu un blocage, et je ne",
-            "savais pas comment continuer.",
+            "<SOUND:0>...but then I got writer's block",
+            "(\"composer's block\"?), and couldn't",
+            "figure out how to continue it.",
             "<NEW_BOX>",
-            "<SOUND:0>J'ai donc tenté une deuxième version",
-            "de zéro.<PAUSE:3> Elle était moins bonne, mais",
-            "plus énergique, donc j'avais plus d'idées.",
+            "<SOUND:0>So I started a second attempt from",
+            "scratch.<PAUSE:3> I soon saw that it wasn't as",
+            "good, but I found it easier to think of",
+            "ideas for because it was more energetic.",
             "<NEW_BOX>",
-            "<SOUND:0>J'ai repris plein d'idées de la deuxième",
-            "version pour améliorer la première, et",
-            "obtenir le meilleur des deux !",
+            "<SOUND:0>Then I adapted many of those ideas",
+            "back into the first version, to get the",
+            "best of both!",
             "<NEW_BOX>",
-            "<SOUND:0>Les passages inspirés par la <R>Fontaine de",
-            "la Grande Fée<W>, le thème de <R>The Legend",
-            "of Zelda<W> et le <R>Thème Principal<W> de <R>Newer",
-            "Super Mario Bros. Wii<W> viennent de là...",
+            "<SOUND:0>The sections based on <R>Great Fairy's",
+            "Fountain<W>, <R>The Legend of Zelda<W> main",
+            "theme, and the <R>Title Theme<W> from <R>Newer",
+            "Super Mario Bros. Wii<W> are from there...",
             "<NEW_BOX>",
-            "<SOUND:0>...mais un passage basé sur le thème",
-            "de <R>Ganondorf<W> n'a pas été retenu.",
+            "<SOUND:0>...but a section based on <R>Ganondorf's",
+            "Theme<W> didn't make the cut.",
             "<NEW_BOX>",
-            "<SOUND:0>(Et oui, vous avez bien lu.<PAUSE:3> ",
-            "il y a une référence à Newer Super",
-            "Mario Bros. Wii vers la fin du theme,",
-            "si vous ne l'aviez pas remarqué !)",
+            "<SOUND:0>(Also, yes, you read that right.<PAUSE:3> ",
+            "There's a Newer Super Mario Bros. Wii",
+            "reference near the end of the song,",
+            "if you hadn't caught it!)",
             "<NEW_BOX>",
-            "<SOUND:0>Autre détail : la harpe vers la fin joue",
-            "presque les mêmes notes que le piano",
-            "du thème principal original.",
+            "<SOUND:0>Something else you might not have",
+            "noticed is that the harp near the end",
+            "plays mostly the same notes as the piano",
+            "from the original game's Title Theme.",
             "<NEW_BOX>",
             "<PERSISTENT>"
           ],
@@ -101479,31 +101580,26 @@
           "Name": "About_Lobby",
           "MessageTextLines": [
             "<SOUND:0><LC><R>Defendant Lobby",
-            "<LC><W>(Hall d'attente)",
             "<LC><C>(RoadrunnerWMC)",
             "<NEW_BOX>",
-            "<SOUND:0>Mes premiers essais pour un thème",
-            "du hall des accusés sonnaient trop",
-            "joyeux, alors j'ai opté pour une ambiance",
-            "plus sombre.",
+            "<SOUND:0>My first few attempts at writing a",
+            "Defendant Lobby theme sounded too",
+            "bright, so I went for a darker tone with",
+            "this one.",
             "<NEW_BOX>",
-            "<SOUND:0>Au début, c'était même TROP sombre,",
-            "avec une basse de piano forte et un",
-            "chœur chantant les accords au-dessus.",
+            "<SOUND:0>At first, it was actually TOO dark,",
+            "though, with a loud piano bass and a",
+            "choir singing the chords above it.",
             "<NEW_BOX>",
-            "<SOUND:0>On m'a dit que ça \"sonnait plus comme",
-            "une exécution qu'un lobby!\"<PAUSE:3>",
-            "Heureusement, j'ai pu corriger ça",
-            "en changeant les instruments.",
+            "<SOUND:0>I was told it \"sounded more like death",
+            "row than a lobby!\"<PAUSE:3> Thankfully, I was able",
+            "to get the right mood by changing the",
+            "instrumentation.",
             "<NEW_BOX>",
-            "<SOUND:0>La mélodie du <R>Chant des Tempêtes<W>",
-            "symbolise la \"tempête\" qui gronde dans",
-            "la salle d'audience.",
-            "<NEW_BOX>",
-            "<SOUND:0>Dernièrement, la basse martelée que",
-            "l'on peut entrendre plus tard dans",
-            "la musique fait référence à un autre",
-            "thème d'un jeu Ace Attorney...<SQUARE>"
+            "<SOUND:0>The <R>Song of Storms<W> melody symbolizes",
+            "the \"storm\" brewing in the courtroom.<PAUSE:3> ",
+            "The pounding bass later on references",
+            "another attorney game's lobby theme...<SQUARE>"
           ],
           "Type": 2,
           "Position": 2
@@ -101511,22 +101607,22 @@
         {
           "Name": "About_Trial1",
           "MessageTextLines": [
-            "<SOUND:0><LC><R>Ouverture de séance",
-            "<LC><W>",
+            "<SOUND:0><LC><R>Court is Now in Session",
             "<LC><C>(RoadrunnerWMC)",
             "<NEW_BOX>",
-            "<SOUND:0>Voici le tout premier morceau original",
-            "écrit pour le jeu, en 2022.",
+            "<SOUND:0>This was the very first piece of original",
+            "music written for the game, back in",
+            "2022.",
             "<NEW_BOX>",
-            "<SOUND:0>C'est un réarrangement du thème",
-            "de la <R>Maison<W>.<PAUSE:3> À l'origine, il devait",
-            "servir de thème pour le hall d'attente,",
-            "mais on a trouvé qu'il collait mieux ici.",
+            "<SOUND:0>It's a rearrangement of the <R>House<W>",
+            "theme.<PAUSE:3> At first, I planned for this to be",
+            "the Defendant Lobby theme, but we",
+            "decided it would fit better here.",
             "<NEW_BOX>",
-            "<SOUND:0>Contrairement au reste de l'OST,",
-            "la première version n'utilisait pas encore",
-            "les instruments du jeu, car je ne les",
-            "avais pas encore installés !<SQUARE>"
+            "<SOUND:0>Unlike the rest of the soundtrack, the",
+            "first draft wasn't written with the game's",
+            "actual instruments, since I hadn't gotten",
+            "them set up on my computer yet!<SQUARE>"
           ],
           "Type": 2,
           "Position": 2
@@ -101671,10 +101767,9 @@
           "Name": "About_Trial2_a",
           "MessageTextLines": [
             "<SOUND:0><LC><R>The Trial Continues",
-            "<LC><W>(Le Procès Continue)",
             "<LC><C>(RoadrunnerWMC)",
             "<NEW_BOX>",
-            "<SOUND:0>Ouverture de séance was the first",
+            "<SOUND:0>Court is Now in Session was the first",
             "original song I wrote for the game. Over",
             "time, I started to like it less...",
             "<NEW_BOX>",
@@ -101871,7 +101966,7 @@
             "certain game's objection theme.",
             "<NEW_BOX>",
             "<SOUND:0>The piano in the background playing",
-            "erratically was inspired by Hirozaku",
+            "erratically was inspired by Hirokazu",
             "Ando's music for the Kirby series.",
             "<NEW_BOX>",
             "<SOUND:0>I basically clicked random notes into",
@@ -102195,25 +102290,28 @@
         {
           "Name": "About_Title_b",
           "MessageTextLines": [
-            "<SOUND:0>Quoi qu'il en soit, une fois la pièce",
-            "écrite, l'importer fut un défi, car c'était",
-            "la première chanson à dépasser les",
-            "16 pistes autorisées par le jeu.",
+            "<SOUND:0>Anyway, once the piece was written,",
+            "importing it was a challenge, since this",
+            "was the first song to use more than",
+            "the 16 tracks allowed by the game.",
             "<NEW_BOX>",
-            "<SOUND:0>...En fait, elle en demandait BEAUCOUP",
-            "plus.<PAUSE:3> Le fichier final compte <R>54 pistes<W> !",
+            "<SOUND:0>...In fact, it needed a LOT more.<PAUSE:3> ",
+            "The project file for the final version",
+            "has <R>54 tracks<W>!",
             "<NEW_BOX>",
-            "<SOUND:0>Mais à un instant donné, la plupart",
-            "des pistes ne jouent rien.",
+            "<SOUND:0>At any individual moment in time,",
+            "though, most of them aren't playing",
+            "anything.",
             "<NEW_BOX>",
-            "<SOUND:0>Pour caser tout ça, j'ai conçu un nouveau",
-            "système d'importation qui permet de mixer",
-            "différentes parties entre les 16 pistes,",
-            "grâce à un grand tableau.",
+            "<SOUND:0>So to fit it in, I designed a new music",
+            "importing system that let you mix-and-",
+            "match different parts between the 16",
+            "tracks based on a big spreadsheet.",
             "<NEW_BOX>",
-            "<SOUND:0>Ce système a été très utile pour plein",
-            "d'autres morceaux complexes du jeu,",
-            "comme Confrontation - Presto.<SQUARE>"
+            "<SOUND:0>This was very useful later for many of",
+            "the other complex songs to be written",
+            "for the game, such as Confrontation -",
+            "Presto.<SQUARE>"
           ],
           "Type": 2,
           "Position": 2
@@ -102631,8 +102729,8 @@
             {
               "Name": "About_Trial1",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Ouverture de séance",
-                "<LC><W>",
+                "<SOUND:0><LC><R>Court is Now in Session",
+                "<LC><W>(Ouverture de séance)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
                 "<SOUND:0>Voici le tout premier morceau original",
@@ -102655,43 +102753,46 @@
               "Name": "About_CEModerato",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>Cross-Examination - Moderato",
+                "<LC><W>(Contre-interrogatoire - Moderato)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>I wrote this song in one afternoon.<PAUSE:3> The",
-                "first draft turned out so well that I hardly",
-                "needed to change anything <EMDASH> the final",
-                "version is almost exactly the same.",
+                "<SOUND:0>J'ai composé ce morceau en un",
+                "après-midi.<PAUSE:3> Le premier jet était si bon",
+                "que j'ai quasiment rien changé <EMDASH> la",
+                "version finale est presque identique.",
                 "<NEW_BOX>",
-                "<SOUND:0>I wanted to base it on the <R>Lost Woods<W>",
-                "theme, to symbolize the twisty paths of",
-                "logic Link needs to puzzle through",
-                "before he can find the path forward...",
+                "<SOUND:0>Je voulais m'inspirer du thème des",
+                "<R>Bois Perdus<W>, pour symboliser les",
+                "détours logiques que Link doit traverser",
+                "avant de trouver la voie à suivre...",
                 "<NEW_BOX>",
-                "<SOUND:0>...but I found it difficult to fit that song",
-                "into this style.",
+                "<SOUND:0>...mais j'ai eu du mal à adapter ce thème",
+                "au style voulu.",
                 "<NEW_BOX>",
-                "<SOUND:0>However, I WAS able to make it work",
-                "by playing the beginning of the Lost",
-                "Woods melody <R>backwards<W>, and building",
-                "the rest of the song around that!",
+                "<SOUND:0>Cependant, j'ai réussi à avoir un bon",
+                "résultat en jouant le début du thème",
+                "des Bois Perdus <R>à l'envers<W>, et en",
+                "construisant le reste autour !",
                 "<NEW_BOX>",
-                "<SOUND:0>If you reverse this song, you can hear",
-                "the Lost Woods in it.",
+                "<SOUND:0>Si vous jouez celle musique à l'envers,",
+                "vous pouvez entendre le thème des",
+                "Bois Perdus.",
                 "<NEW_BOX>",
-                "<SOUND:0>This was also the first song to get a",
-                "\"Thinking\" variation.",
+                "<SOUND:0>C'est également la première musique à",
+                "avoir reçu une variante \"Thinking\"",
+                "(Réflection)",
                 "<NEW_BOX>",
-                "<SOUND:0>Adding \"Thinking\" versions <EMDASH> where",
-                "the volumes of certain tracks are",
-                "changed while the Court Record is",
-                "open <EMDASH> was my suggestion.<PAUSE:3> ",
+                "<SOUND:0>J'ai proposé d'ajouter ces versions",
+                "\"Thinking\" <EMDASH> où le niveau de certains",
+                "Instruments changent quand le",
+                "Dossier du procès est ouvert.<PAUSE:3> ",
                 "<NEW_BOX>",
-                "<SOUND:0>Not all of the other developers were",
-                "on board with the idea at first...",
+                "<SOUND:0>Au début, les autres développeurs",
+                "n'étaient pas tous convaincus...",
                 "<NEW_BOX>",
-                "<SOUND:0>...but after we made an in-game",
-                "demonstration using this song as an",
-                "example, they were convinced!<SQUARE>"
+                "<SOUND:0>...mais après une démo en jeu avec",
+                "ce morceau comme exemple,",
+                "ils ont été convaincus !<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -102700,34 +102801,34 @@
               "Name": "About_Objection",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>Objection!",
+                "<LC><W>(Objection!)",
                 "<LC><C>(Meatball132)",
                 "<NEW_BOX>",
-                "<SOUND:0>The track that became the Pursuit music",
-                "was originally the Objection music.<PAUSE:3> But",
-                "it was too energetic.",
+                "<SOUND:0>Le morceau devenu le thème de Poursuite",
+                "était à l'origine le thème d'Objection!,<PAUSE:3>",
+                "Mais il était trop énergique.  ",
                 "<NEW_BOX>",
-                "<SOUND:0>The goal for this version, then, was",
-                "to make something that sounded",
-                "triumphant, but not TOO exciting, which",
-                "I think I pulled off.",
+                "<SOUND:0>L'objectif ici était donc de créer quelque  ",
+                "chose de triomphant, mais pas TROP  ",
+                "excitant, et je pense avoir réussi. ",
                 "<NEW_BOX>",
-                "<SOUND:0>The rhythm played by the strings is",
-                "fairly close to the rhythm in the music",
-                "I used as a reference from another",
-                "attorney game series.",
+                "<SOUND:0>Le rythme joué par les cordes est assez  ",
+                "proche de celui d'une musique que j'ai  ",
+                "prise en référence, issue d'un autre  ",
+                "jeu Ace Attorney.  ",
                 "<NEW_BOX>",
-                "<SOUND:0>The second half of this track is directly",
-                "based on the countermelody near the",
-                "end of Pursuit, by the way.",
+                "<SOUND:0>La deuxième moitié de ce thème est  ",
+                "directement basée sur la contre-mélodie  ",
+                "vers la fin de Poursuite, d'ailleurs.  ",
                 "<NEW_BOX>",
-                "<SOUND:0>I deviated from that more than I intended",
-                "to after discovering the current chord",
-                "progression, though.<PAUSE:3> It sounds much more",
-                "satisfying to me than the original idea!",
+                "<SOUND:0>Je m'en suis plus éloigné que prévu après  ",
+                "avoir trouvé la progression d'accords  ",
+                "actuelle.<PAUSE:3> Elle sonne bien plus satisfaisante  ",
+                "que l'idée originale, selon moi !  ",
                 "<NEW_BOX>",
-                "<SOUND:0>Still, I liked the idea of this soundtrack",
-                "having a couple of its own little unique",
-                "leitmotifs.<SQUARE>"
+                "<SOUND:0>J'aimais quand même l'idée que cette  ",
+                "BO ait ses propres petits leitmotivs  ",
+                "uniques.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -102736,22 +102837,29 @@
               "Name": "About_Tension",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>Suspense",
+                "<LC><W>(Suspense)",
                 "<LC><C>(Meatball132)",
                 "<NEW_BOX>",
-                "<SOUND:0>I made the very first music created for this",
-                "mod, which was just taken directly from",
-                "the original attorney game, adapted to",
-                "mostly Zelda (but some custom) instruments.",
+                "<SOUND:0>J'ai fait la toute première musique créée  ",
+                "pour ce mod, un portage direct d'un thème",
+                "du jeu Ace Attorney original, adapté avec",
+                "des instruments Zelda (mais pas que).",
                 "<NEW_BOX>",
-                "<SOUND:0>It didn't turn out great, and we knew it'd",
-                "be best to make original arrangements",
-                "anyway.<PAUSE:3> So this is the first thing I wrote",
-                "after we made the decision to do that.",
+                "<SOUND:0>Le résultat n'était pas terrible, et on savait  ",
+                "qu'il valait mieux faire des arrangements  ",
+                "originaux de toute façon.",
                 "<NEW_BOX>",
-                "<SOUND:0>The idea for this soundtrack was to make",
-                "it mostly Zelda, with some attorney game",
-                "references sprinkled in, too.<PAUSE:3> This is",
-                "perhaps the most obvious example of that.<SQUARE>"
+                "<SOUND:0>Donc ce thème est la première chose",
+                "que j'ai composée après qu'on",
+                "ait pris cette décision.  ",
+                "<NEW_BOX>",
+                "<SOUND:0>L'idée de cette BO était de faire quelque  ",
+                "chose de principalement Zelda, avec  ",
+                "quelques clins d'œil aux jeux",
+                "Ace Attorney ici et là.",
+                "<NEW_BOX>",
+                "<SOUND:0>Ce thème en est probablement l'exemple",
+                "le plus évident et flagrant.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -102760,29 +102868,30 @@
               "Name": "About_Zelda",
               "MessageTextLines": [
                 "<SOUND:0><LC><SHIFT:1><R>Zelda's Theme",
+                "<LC><W>(Thème de Zelda)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>This was the second piece of original",
-                "music written for the game.",
+                "<SOUND:0>Cette musique est le deuxième thème",
+                "original composé pour le jeu.",
                 "<NEW_BOX>",
-                "<SOUND:0>Just like Court is Now in Session, I",
-                "originally wrote the intro intending for it",
-                "to be the start of a lobby theme, which is",
-                "why it starts with the <R>Hyrule Field<W> melody.",
+                "<SOUND:0>Comme pour Ouverture de séance, j'avais",
+                "d'abord composé l'intro en pensant en  ",
+                "faire le début d'un thème de hall, d'où",
+                "la mélodie de la <R>Plaine d'Hyrule<W> au début. ",
                 "<NEW_BOX>",
-                "<SOUND:0>After some discussion, we decided to",
-                "make it Zelda's theme instead, so I",
-                "continued the song by adding <R>Zelda's",
-                "Lullaby<W> as the main melody.",
+                "<SOUND:0>Après discussion, on a décidé d'en faire  ",
+                "le thème de Zelda, alors j'ai continué  ",
+                "la chanson en ajoutant la <R>Berceuse  ",
+                "de Zelda<W> comme mélodie principale.",
                 "<NEW_BOX>",
-                "<SOUND:0>At the end of the song, I even",
-                "managed to layer both melodies",
-                "together in a way that sounds nice!",
+                "<SOUND:0>À la fin, j'ai même réussi à combiner  ",
+                "les deux mélodies d'une façon qui  ",
+                "sonne bien ! ",
                 "<NEW_BOX>",
-                "<SOUND:0>We wanted our version of Princess",
-                "Zelda to be regal but also somewhat",
-                "immature, and I think the final",
-                "arrangement captures that contrast well.<SQUARE>"
+                "<SOUND:0>On voulait que notre version de la  ",
+                "Princesse Zelda soit royale, mais  ",
+                "aussi un peu immature, et je trouve  ",
+                "que l'arrangement final reflète bien ça.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -102794,27 +102903,34 @@
                 "<LC><W>(Le Procès Continue)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>Ouverture de séance was the first",
-                "original song I wrote for the game. Over",
-                "time, I started to like it less...",
+                "<SOUND:0>Ouverture de séance était la première",
+                "musique originale que j'ai composée pour",
+                "le jeu.  Avec le temps, j'ai commencé à",
+                "moins l'apprécier...",
                 "<NEW_BOX>",
-                "<SOUND:0>...but the other developers seem to still",
-                "like it, so maybe I'm being too critical",
-                "of myself.",
+                "<SOUND:0>...mais les autres développeurs ont  ",
+                "l'air de toujours bien l'aimer, donc je",
+                "suis  peut-être juste juste trop critique",
+                "envers moi-même.  ",
                 "<NEW_BOX>",
-                "<SOUND:0>Either way, I thought I could do better.<PAUSE:3> ",
-                "So I wrote this.",
+                "<SOUND:0>Bon, en tout cas, je savais que je",
+                "pouvais faire mieux.<PAUSE:3> ",
+                "Donc j'ai composé ce thème.",
                 "<NEW_BOX>",
-                "<SOUND:0>Like Court is Now in Session, it's a remix",
-                "of <R>House<W>.<PAUSE:3> It's hard to tell, but the melody",
-                "does start with the same notes as House",
-                "<EMDASH> albeit with a different rhythm and key.",
+                "<SOUND:0>Comme Ouverture de séance, c'est un",
+                "remix de <R>Maison<W>.",
                 "<NEW_BOX>",
-                "<SOUND:0>At the very end is a rendition of the",
-                "<R>Got a Treasure<W> jingle.<PAUSE:3> I'd like to say",
-                "there's some deep meaning behind it...",
+                "<SOUND:0>C'est difficile à entendre, mais la",
+                "mélodie commence bien par les",
+                "mêmes notes <EMDASH> avec un rythme  ",
+                "et une tonalité différents. ",
                 "<NEW_BOX>",
-                "<SOUND:0>...but I just thought it'd sound fun.",
+                "<SOUND:0>À la toute fin, il y a une reprise du  ",
+                "jingle <R>Trésor obtenu<W>.<PAUSE:3> J'aimerais dire  ",
+                "qu'il y a un sens profond derrière ça...",
+                "<NEW_BOX>",
+                "<SOUND:0>...mais je trouvais juste que ça",
+                "sonnait cool.",
                 "<NEW_BOX>",
                 "<PERSISTENT>"
               ],
@@ -102825,33 +102941,35 @@
               "Name": "About_CEAllegro",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>Cross-Examination - Allegro",
+                "<LC><W>(Contre-interrogatoire - Allegro)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>Cross-Examination - Moderato is based",
-                "on just the beginning of the <R>Lost Woods<W>",
-                "theme.<PAUSE:3> For Allegro, I wanted to feature",
-                "almost <R>the entire song<W> reversed.",
+                "<SOUND:0>Contre-interrogatoire - Moderato est  ",
+                "basé uniquement sur le début du thème  ",
+                "des <R>Bois Perdus<W>.<PAUSE:3> Pour l'Allegro, je voulais",
+                "inverser presque <R>toute la chanson<W>.  ",
                 "<NEW_BOX>",
-                "<SOUND:0>The trumpet does that.<PAUSE:3> The two",
-                "countermelodies help make it sound",
-                "more natural, as if the melody was",
-                "always intended to play in that direction.",
+                "<SOUND:0>La trompette fait ça.<PAUSE:3> Les deux  ",
+                "contre-mélodies aident à rendre le tout  ",
+                "plus naturel, comme si la mélodie avait  ",
+                "toujours été censée aller dans ce sens.  ",
                 "<NEW_BOX>",
-                "<SOUND:0>There are some nods to the Lost",
-                "Woods theme when listening forwards,",
-                "too.",
+                "<SOUND:0>Il y a aussi des clins d'œil au thème  ",
+                "des Bois Perdus quand on l'écoute  ",
+                "à l'endroit.  ",
                 "<NEW_BOX>",
-                "<SOUND:0>The tambourine rhythm and the four",
-                "quick pounding chords just before the",
-                "loop are both direct references to it.",
+                "<SOUND:0>Le rythme du tambourin et les quatre  ",
+                "accents rapides juste avant la boucle  ",
+                "en sont des références directes.",
                 "<NEW_BOX>",
-                "<SOUND:0>Near the end, part of the Lost Woods",
-                "melody is played (forwards), while",
-                "another instrument plays the main",
-                "Cross-Examination melody.",
+                "<SOUND:0>Vers la fin, une partie de la mélodie  ",
+                "des Bois Perdus est jouée (à l'endroit),  ",
+                "tandis qu'un autre instrument joue le",
+                "thème principal du Contre-interrogatoire. ",
                 "<NEW_BOX>",
-                "<SOUND:0>That means the same melody is briefly",
-                "played in two directions at once!<SQUARE>"
+                "<SOUND:0>Ça veut dire que la même mélodie  ",
+                "est brièvement jouée dans deux  ",
+                "sens en même temps !<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -102860,27 +102978,29 @@
               "Name": "About_Incident",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>Reminiscences",
+                "<LC><W>(Souvenirs)",
                 "<LC><C>(Meatball132)",
                 "<NEW_BOX>",
-                "<SOUND:0>This one is obviously based on <R>Zelda's",
-                "Lullaby<W>, but I made it a lot more",
-                "emotional.<PAUSE:3> It starts off tense, then it",
-                "becomes sad.",
+                "<SOUND:0>Cette piste est évidemment basée sur  ",
+                "la <R>Berceuse de Zelda<W>, mais je l'ai rendue  ",
+                "beaucoup plus émotive.<PAUSE:3> Elle commence  ",
+                "tendue, puis devient triste.  ",
                 "<NEW_BOX>",
-                "<SOUND:0>The \"sad\" section is led by a piano with",
-                "a fake delay effect.",
+                "<SOUND:0>La partie \"triste\" est menée par un piano  ",
+                "avec un faux effet d'écho.",
                 "<NEW_BOX>",
-                "<SOUND:0>This was produced by playing the part",
-                "multiple times, slightly offset, quieter,",
-                "and panned in the other direction to",
-                "simulate the sound bouncing off a wall.",
+                "<SOUND:0>J'ai produit cet effet en jouant la même",
+                "partie plusieurs fois, changeant légèrement",
+                "le volume et le ton, et orienté dans une",
+                "autre direction pour simuler un effet d'echo.",
                 "<NEW_BOX>",
-                "<SOUND:0>So actually, there are three pianos here.<PAUSE:3> ",
-                "Each subsequent piano is offset further,",
-                "quieter, and panned farther than the last.",
+                "<SOUND:0>Donc en réalité, il y a trois pianos ici.<PAUSE:3>  ",
+                "Chaque piano est plus décalé, plus faible  ",
+                "et plus éloigné que le précédent.",
                 "<NEW_BOX>",
-                "<SOUND:0>But it's supposed to sound like one",
-                "piano, played in an echoey space.<SQUARE>"
+                "<SOUND:0>Mais ça doit donner l'impression  ",
+                "d'un seul piano, joué dans une pièce  ",
+                "résonnante.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -102889,20 +103009,21 @@
               "Name": "About_Ingo1",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>Ingo, The Ingenuous",
+                "<LC><W>(Ingo, l'Ingénu)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>This is a pretty simple rearrangement",
-                "of <R>Ingo's Theme<W> from the original game.",
+                "<SOUND:0>Ceci est un réarrangement assez simple  ",
+                "du <R>Thème d'Ingo<W> du jeu original.",
                 "<NEW_BOX>",
-                "<SOUND:0>The whistle sound is newly imported.<PAUSE:3> ",
-                "We tried several whistle instruments",
-                "from different synthesizers before",
-                "choosing this one from the Korg Triton.",
+                "<SOUND:0>Le son de sifflet est une importation ",
+                "récente.<PAUSE:3> On a testé plusieurs instruments",
+                "de sifflement sur différents synthétiseurs",
+                "avant de choisir celui du Korg Triton.",
                 "<NEW_BOX>",
-                "<SOUND:0>The whistling captures Ingo's carefree",
-                "demeanour at this point in the game",
-                "(maybe even suspiciously carefree...),",
-                "and the cowbell helps tie it to the ranch.<SQUARE>"
+                "<SOUND:0>Le sifflement capte l'air insouciant  ",
+                "d'Ingo à ce moment du jeu  ",
+                "(peut-être même trop insouciant...),  ",
+                "et la cloche de vache rappelle la ferme.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -102911,28 +103032,29 @@
               "Name": "About_ThoughtRoute_a",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>Revisualization",
+                "<LC><W>(Revisualisation)",
                 "<LC><C>(Meatball132)",
                 "<NEW_BOX>",
-                "<SOUND:0>RoadrunnerWMC handled this track",
-                "at first, but struggled to get it right.",
+                "<SOUND:0>RoadrunnerWMC s'occupait de ce",
+                "thème initialement, mais il avait du",
+                "mal à trouver la bonne direction.",
                 "<NEW_BOX>",
-                "<SOUND:0>The original idea was to arrange",
-                "<R>The Legend of Hyrule<W>, as it fit",
-                "thematically with the scene.",
+                "<SOUND:0>L'idée originale était d'arranger le",
+                "thème de la <R>Légende d'Hyrule<W>, car ça",
+                "collait thématiquement à la scène.  ",
                 "<NEW_BOX>",
-                "<SOUND:0>He made a couple arrangements",
-                "before giving up.<PAUSE:3> The song is just",
-                "too musically sparse and unusual.",
+                "<SOUND:0>Il a fait quelques arrangements avant",
+                "d'abandonner.<PAUSE:3> La musique était trop",
+                "minimaliste et bizarre musicalement.  ",
                 "<NEW_BOX>",
-                "<SOUND:0>After the track was reassigned to me, and",
-                "my attempts at arranging the same melody",
-                "similarly failed, I decided to try basing",
-                "it on something more conventional.",
+                "<SOUND:0>Après que le morceau m'a été confié, et",
+                "que mes essais d'arranger la même mélodie  ",
+                "ont aussi échoué, j'ai décidé de m'appuyer  ",
+                "sur quelque chose de plus classique.",
                 "<NEW_BOX>",
-                "<SOUND:0>I chose some fitting alternatives:<PAUSE:2> ",
-                "<R>Nayru's Song<W> from <R>Oracle of Ages<W> and",
-                "<R>The Ballad of the Goddess<W> from <R>Skyward",
-                "Sword<W>.",
+                "<SOUND:0>J'ai choisi quelques alternatives adaptées :<PAUSE:2>  ",
+                "la <R>Chanson de Nayru<W> de <R>Oracle of Ages<W> et  ",
+                "la <R>Ballade de la Déesse<W> de <R>Skyward Sword<W>.  ",
                 "<NEW_BOX>",
                 "<PERSISTENT>"
               ],
@@ -102943,33 +103065,38 @@
               "Name": "About_Ingo2",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>Ingo, The Restless",
+                "<LC><W>(Ingo, l'Agité)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>My first attempt at writing an \"evil\"",
-                "version of Ingo's theme was to add",
-                "some very dissonant piano chords",
-                "underneath the \"normal\" version.",
+                "<SOUND:0>Ma première tentative pour écrire une  ",
+                "version \"méchante\" du thème d'Ingo, ",
+                "c'était  d'ajouter des accords de piano",
+                "très dissonants sous la version \"normale\".  ",
                 "<NEW_BOX>",
-                "<SOUND:0>That would've let us fade between the",
-                "two versions dynamically.<PAUSE:3> But it sounded",
-                "more \"unhinged\" than \"evil\", and the",
-                "dynamic fading wasn't necessary.",
+                "<SOUND:0>Ça nous aurait permis de faire un fondu  ",
+                "dynamique entre les deux versions...",
                 "<NEW_BOX>",
-                "<SOUND:0>Instead, I went for a simple minor-key",
-                "version, with a slower tempo and",
-                "different instrumentation.",
+                "<SOUND:0>Mais ça sonnait plus \"cinglé\" que",
+                "\"méchant\", et le fondu dynamique",
+                "n'était pas nécessaire.",
                 "<NEW_BOX>",
-                "<SOUND:0>The whistling is replaced with a clarinet,",
-                "and the guitar bass is a tuba now. The",
-                "percussion is also heavier, to show that",
-                "Ingo has a darker side deep down.",
+                "<SOUND:0>Du coup, j'ai opté pour une simple",
+                "version en mineur, avec un tempo plus",
+                "lent et une instrumentation différente.  ",
                 "<NEW_BOX>",
-                "<SOUND:0>This song was rejected at first for not",
-                "sounding \"evil\" enough...",
+                "<SOUND:0>Le sifflement est remplacé par une",
+                "clarinette, et la basse devient un tuba.",
                 "<NEW_BOX>",
-                "<SOUND:0>...but after I wrote Ingo, The Manic, we",
-                "decided to bring it back as an",
-                "intermediate version.<SQUARE>"
+                "<SOUND:0>Les percussions de sont également plus",
+                "lourdes, pour montrer que Ingo a un",
+                "côté plus sombre au fond de lui.",
+                "<NEW_BOX>",
+                "<SOUND:0>Cette musique a d'abord été rejetée",
+                "car elle ne sonnait pas assez \"maléfique\"...  ",
+                "<NEW_BOX>",
+                "<SOUND:0>...mais après avoir écrit Ingo, le",
+                "Frénétique, on a décidé de la remettre",
+                "comme version intermédiaire.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -102978,6 +103105,7 @@
               "Name": "About_Pursuit",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>Pursuit",
+                "<LC><W>(Poursuite)",
                 "<LC><C>(Meatball132)",
                 "<NEW_BOX>",
                 "<SOUND:0>This was originally supposed to be",
@@ -103019,6 +103147,7 @@
               "Name": "About_Rebuttal_a",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>Confrontation - Presto",
+                "<LC><W>",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
                 "<SOUND:0>The \"Rebuttal\" scene wasn't initially",
@@ -103062,6 +103191,7 @@
               "Name": "About_Ingo3",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>Ingo, The Manic",
+                "<LC><W>(Ingo, le Frénétique)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
                 "<SOUND:0>This theme shows the full extent of",
@@ -103110,6 +103240,7 @@
               "Name": "About_Ingo4",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>Ingo, The Despondent",
+                "<LC><W>(Ingo, l'Abattu)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
                 "<SOUND:0>The first three variations of Ingo's",
@@ -103149,6 +103280,7 @@
               "Name": "About_HappyEnd_a",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>Victory!",
+                "<LC><W>",
                 "<LC><C>(Meatball132)",
                 "<NEW_BOX>",
                 "<SOUND:0>What do you think this music is an",
@@ -103193,6 +103325,7 @@
               "Name": "About_Credits_a",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>End Credits",
+                "<LC><W>",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
                 "<SOUND:0>This is the second-to-last song I wrote",
@@ -103241,6 +103374,7 @@
               "Name": "About_RonRon",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>(Bonus) Super Talon Game",
+                "<LC><W>",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
                 "<SOUND:0>This song is a joke.",
@@ -103279,6 +103413,7 @@
               "Name": "About_Owl",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>(Bonus) Owl's Theme",
+                "<LC><W>",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
                 "<SOUND:0>The original <R>Owl<W> theme from <R>The",
@@ -103341,40 +103476,45 @@
             {
               "Name": "About_Trial2_b",
               "MessageTextLines": [
-                "<SOUND:0>Unfortunately, the way that song works",
-                "<EMDASH> by adding more and more",
-                "instruments over time <EMDASH> made it hard",
-                "to include here for technical reasons.",
+                "<SOUND:0>Malheureusement, la façon dont cette  ",
+                "musique fonctionne <EMDASH> en ajoutant de plus  ",
+                "en plus d'instruments au fil du temps <EMDASH>  ",
+                "a posé des problèmes techniques ici.",
                 "<NEW_BOX>",
-                "<SOUND:0>I wanted it to play on top of the other",
-                "instruments, but I didn't realize how",
-                "close it gets to the game's polyphony",
-                "(simultaneous playing sounds) limit.",
+                "<SOUND:0>Je voulais qu'elle se joue par-dessus les",
+                "autres instruments, mais je ne m'étais pas",
+                "rendu compte à quel point elle frôlait la",
+                "limite de polyphonie du jeu.",
                 "<NEW_BOX>",
-                "<SOUND:0>By putting the two songs on top of each",
-                "other, I blew way past that limit, which",
-                "made notes start to cut each other off.",
+                "<SOUND:0>(La limite de polyphonie étant le",
+                "nombre de sons que le jeu peut",
+                "jouer simultanément)",
                 "<NEW_BOX>",
-                "<SOUND:0>I did what I could to lower the number",
-                "of notes without changing the sound",
-                "too much...",
+                "<SOUND:0>En superposant les deux musiques,  ",
+                "j'ai largement dépassé cette limite,  ",
+                "ce qui faisait couper certaines notes.",
                 "<NEW_BOX>",
-                "<SOUND:0>...but it's still not perfect, sadly.<PAUSE:5> ",
-                "I hope it doesn't bother you too much.",
+                "<SOUND:0>J'ai fait ce que j'ai pu pour réduire  ",
+                "le nombre de notes sans trop changer  ",
+                "le rendu sonore...  ",
                 "<NEW_BOX>",
-                "The soundtrack version (available from",
-                "our website), at least, includes all the",
-                "notes, since there are no limits there.",
+                "<SOUND:0>...mais ce n'est toujours pas parfait,  ",
+                "hélas.<PAUSE:5> J'espère que ça ne vous gêne  ",
+                "pas trop.",
+                "<NEW_BOX>Au moins, la version bande-son",
+                "(disponible sur notre site) contient  ",
+                "toutes les notes, puisque les limitations",
+                "du moteur d'OOT ne s'appliquent pas.",
                 "<NEW_BOX>",
-                "<SOUND:0>At any rate, once this theme was",
-                "finished, the others raised concerns",
-                "that it might sound too dark for the",
-                "start of a trial...",
+                "<SOUND:0>Quoi qu'il en soit, une fois le thème  ",
+                "terminé, certains ont trouvé qu'il  ",
+                "semblait trop sombre pour le début  ",
+                "d'un procès...  ",
                 "<NEW_BOX>",
-                "<SOUND:0>...so in the end, we decided to keep",
-                "both of them, and use this one for the",
-                "second half, when the trial gets more",
-                "serious.<SQUARE>"
+                "<SOUND:0>...donc au final, on a décidé de garder  ",
+                "les deux, et d'utiliser celui-ci pour la  ",
+                "deuxième moitié, quand le procès  ",
+                "devient plus sérieux.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -103382,27 +103522,31 @@
             {
               "Name": "About_ThoughtRoute_b",
               "MessageTextLines": [
-                "<SOUND:0>As an aside, because of all the SFX in",
-                "this scene, I rammed right into the",
-                "game's polyphony (simultaneous playing",
-                "sounds) limit.<PAUSE:3> Notes kept cutting out!",
+                "<SOUND:0>Au passage, à cause de tous les effets  ",
+                "sonores dans cette scène, j'ai tapé  ",
+                "direct dans la limite de polyphonie du jeu.",
+                "<PAUSE:3> Les notes sautaient sans arrêt !",
                 "<NEW_BOX>",
-                "<SOUND:0>We tried raising the limit, but the game",
-                "immediately started chugging hard, so",
-                "I had to make some changes to reduce",
-                "the song's polyphony.",
+                "<SOUND:0>(La limite de polyphonie étant le",
+                "nombre de sons que le jeu peut",
+                "jouer simultanément)",
                 "<NEW_BOX>",
-                "<SOUND:0>Namely, the piano uses the same delay",
-                "effect as Reminiscences.",
+                "<SOUND:0>On a essayé d'augmenter la limite,  ",
+                "mais le jeu s'est mis à ramer sévère,  ",
+                "donc j'ai dû faire des changements pour  ",
+                "réduire la polyphonie de la musique.  ",
                 "<NEW_BOX>",
-                "<SOUND:0>I had to cut this down from two delay",
-                "tracks to only one, and remove it entirely",
-                "when the music reaches its climax.<PAUSE:3> It",
-                "isn't too audible, though.",
+                "<SOUND:0>Notamment, le piano utilise le même  ",
+                "effet de délai que Souvenirs. ",
                 "<NEW_BOX>",
-                "<SOUND:0>Notes can still cut out, rarely, but the",
-                "song isn't totally broken anymore, so",
-                "I think this fix is sufficient.<SQUARE>"
+                "<SOUND:0>J'ai dû passer de deux pistes de délai  ",
+                "à une seule, et la retirer complètement  ",
+                "lorsque la musique atteint son climax.<PAUSE:3>  ",
+                "Ça s'entend pas trop, ceci dit.",
+                "<NEW_BOX>",
+                "<SOUND:0>Parfois, des notes sautent encore,  ",
+                "mais ça casse plus la musique,  ",
+                "donc je pense que cette solution suffit.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -105090,7 +105234,8 @@
           "NpcM_Destroy",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_TALON_TALONGAME",
@@ -106375,7 +106520,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_GOAL_TALONGAME",
@@ -106597,7 +106743,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_CARDDECK",
@@ -106816,7 +106963,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_MUSIC_CONTROLLER",
@@ -107518,7 +107666,8 @@
           "",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_CAT_BEANS",
@@ -107721,7 +107870,8 @@
           null,
           null
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_GALLERY_MAMU",
@@ -107920,7 +108070,8 @@
           null,
           null
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_SETTINGS",
@@ -108433,15 +108584,15 @@
                 "<Shift:30>Anticrénelage (&&&)",
                 "",
                 "",
-                "<Shift:30>Changer la taille de l'écran",
+                "<Shift:30>Changer la taille",
                 "",
                 "",
                 "",
                 "",
-                "<Shift:30>Changer la position de l'écran",
+                "<Shift:30>Changer la position",
                 "",
                 "",
-                "<Shift:30>Rétablir les paramètres par défaut",
+                "<Shift:30>Paramètres par défaut",
                 "",
                 "",
                 "",
@@ -108502,14 +108653,6 @@
                 "<Shift:184><L_BUTTON> + <R_BUTTON> + <Z_BUTTON>"
               ],
               "Type": 6,
-              "Position": 0
-            },
-            {
-              "Name": "ScreenSize_b",
-              "MessageTextLines": [
-                ""
-              ],
-              "Type": 0,
               "Position": 0
             }
           ]
@@ -108903,7 +109046,8 @@
           "NpcM_Destroy",
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "SCENE_TRAILER_2",
@@ -109207,7 +109351,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_SAVEQUESTION",
@@ -109441,7 +109586,8 @@
           null,
           null
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "OBJ_SAVECORRUPTED",
@@ -109662,7 +109808,8 @@
           null,
           null
         ]
-      }
+      },
+      "Omitted": false
     }
   ],
   "GlobalHeaders": [
