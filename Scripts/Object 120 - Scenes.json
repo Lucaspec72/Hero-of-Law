@@ -31705,8 +31705,8 @@
               "Name": "ZELDA4",
               "MessageTextLines": [
                 "Mademoiselle Malon et son père étaient",
-                "les seuls sur les lieux du crime,<PAUSE:5>",
-                "alors ce ne peut être qu'elle, la coupable !<SQUARE>"
+                "les seuls sur les lieux du crime,<PAUSE:5> alors ce",
+                "ne peut être qu'elle, la coupable !<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -32018,9 +32018,9 @@
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
-                "I see.<PAUSE:5> You only saw the aftermath",
-                "of the scene, not the actual crime",
-                "being committed."
+                "Je vois.<PAUSE:5> Vous n'avez vu que les",
+                "conséquences de la scène, pas",
+                "le crime lui-même."
               ],
               "Type": 0,
               "Position": 0
@@ -32028,8 +32028,9 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "Very well.<PAUSE:5> Hopefully there are no",
-                "issues in your testimony this time."
+                "Très bien.<PAUSE:5> Espérons que votre",
+                "témoignage ne posera plus de",
+                "problème cette fois-ci."
               ],
               "Type": 0,
               "Position": 0
@@ -32037,8 +32038,8 @@
             {
               "Name": "JUDGE30",
               "MessageTextLines": [
-                "Defence, it's time for your",
-                "<SOUND:HINT>cross-examination."
+                "La parole est à la défense pour le",
+                "<SOUND:HINT>contre-interrogatoire."
               ],
               "Type": 0,
               "Position": 0
@@ -32046,7 +32047,7 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "Naturally, Your Honour."
+                "Merci, Votre Honneur."
               ],
               "Type": 0,
               "Position": 0
@@ -32054,10 +32055,10 @@
             {
               "Name": "LINK15",
               "MessageTextLines": [
-                "<SOUND:0><C><SOUND:CLUE>(Dragmire still looks pretty angry.)",
+                "<SOUND:0><C><SOUND:CLUE>(Dragmire a toujours l'air enragé.)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(I bet he didn't expect such a blatant",
-                "contradiction to pop up.)"
+                "<SOUND:0><C>(Je parie qu'il ne s'attendait pas à une",
+                "contradiction aussi énorme.)"
               ],
               "Type": 0,
               "Position": 0
@@ -32065,10 +32066,10 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(If I could just find another one like that,",
-                "the princess's testimony would become",
-                "<SOUND:CLUE><R>completely untrustworthy<C> in the eyes",
-                "of the judge!)<SQUARE>"
+                "<SOUND:0><C>(Maintenant, Si je pouvais juste en",
+                "trouver une autre du même genre, le",
+                "témoignage de la princesse perdrait",
+                "<SOUND:CLUE><R>toute crédibilité<C> aux yeux du juge !)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -33536,7 +33537,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"What I Actually Saw\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Ce que j'ai réellement vu\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -33544,8 +33545,8 @@
             {
               "Name": "ZELDA1",
               "MessageTextLines": [
-                "<DI><G>I am sorry for embellishing the truth",
-                "a little bit.<PERSISTENT>"
+                "<DI><G>Je suis désolée d'avoir un peu embelli",
+                "la vérité.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -33553,8 +33554,8 @@
             {
               "Name": "ZELDA2",
               "MessageTextLines": [
-                "<DI><G>I did not see the actual moment of",
-                "the attack...<PERSISTENT>"
+                "<DI><G>Je n'ai pas vu le moment précis de",
+                "l'attaque...<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -33562,8 +33563,9 @@
             {
               "Name": "ZELDA3",
               "MessageTextLines": [
-                "<DI><G>...but it had to have happened shortly",
-                "before I went into the ranch house.<PERSISTENT>"
+                "<DI><G>...mais cela a forcément eu lieu peu",
+                "avant que j'entre dans la maison du",
+                "ranch.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -33571,8 +33573,8 @@
             {
               "Name": "ZELDA4",
               "MessageTextLines": [
-                "<DI><G>The murder weapon was still stuck into",
-                "the victim's body, after all.<PERSISTENT>"
+                "<DI><G>L'arme du crime était toujours plantée",
+                "dans le corps de la victime, après tout.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -33580,9 +33582,9 @@
             {
               "Name": "ZELDA5",
               "MessageTextLines": [
-                "<DI><G>Miss Malon and her father were the",
-                "only ones at the scene of the crime,",
-                "so she must be the culprit!<PERSISTENT>"
+                "<DI><G>Mademoiselle Malon et son père étaient",
+                "les seuls sur les lieux du crime, alors ce",
+                "ne peut être qu'elle, la coupable !<SQUARE><PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -33590,7 +33592,7 @@
             {
               "Name": "CONS1_LINK10",
               "MessageTextLines": [
-                "Hm...<PAUSE:5> This testimony is<SOUND:CLUE> pretty vague..."
+                "Hm...<PAUSE:5> Ce témoignage est<SOUND:CLUE> assez vague..."
               ],
               "Type": 0,
               "Position": 0
@@ -33598,8 +33600,8 @@
             {
               "Name": "CONS1_MALON10",
               "MessageTextLines": [
-                "It seems the princess is being a bit",
-                "more careful about details now."
+                "On dirait que la princesse fait un peu",
+                "plus attention aux détails, cette fois."
               ],
               "Type": 0,
               "Position": 0
@@ -33607,8 +33609,9 @@
             {
               "Name": "CONS1_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(In situations like these, it's best for me",
-                "to <R>press<C> for more information.)<SQUARE>"
+                "<SOUND:0><C>(Dans ce genre de situation, le mieux,",
+                "c'est de <R>faire pression<C> pour obtenir",
+                "plus d'infos.)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -33616,8 +33619,8 @@
             {
               "Name": "CONS_LINK10",
               "MessageTextLines": [
-                "Hmm...<PAUSE:3> This is a bit trickier than the",
-                "last cross-examination."
+                "Hmm...<PAUSE:3> C'est un peu plus corsé que le",
+                "dernier contre-interrogatoire."
               ],
               "Type": 0,
               "Position": 0
@@ -33625,8 +33628,8 @@
             {
               "Name": "CONS_MALON10",
               "MessageTextLines": [
-                "It feels to me like we're back to",
-                "square one."
+                "J'ai l'impression qu'on est de retour",
+                "à la case départ."
               ],
               "Type": 0,
               "Position": 0
@@ -33634,7 +33637,8 @@
             {
               "Name": "CONS_LINK20",
               "MessageTextLines": [
-                "<SOUND:HINT>...!<PAUSE:3> You know, you might be right!"
+                "<SOUND:HINT>Attend...<PAUSE:3> En fait, c'est peut-être une",
+                "bonne chose !"
               ],
               "Type": 0,
               "Position": 0
@@ -33642,7 +33646,7 @@
             {
               "Name": "CONS_MALON20",
               "MessageTextLines": [
-                "Eh?<PAUSE:3> <SOUND:CLUE>What do you mean?"
+                "Hein ?<PAUSE:3> <SOUND:CLUE>Qu'est-ce que tu veux dire ?"
               ],
               "Type": 0,
               "Position": 0
@@ -33650,9 +33654,9 @@
             {
               "Name": "CONS_LINK30",
               "MessageTextLines": [
-                "Think back to the first testimony!<PAUSE:3> ",
-                "How did the first contradiction get",
-                "wiped away?"
+                "Repense au premier témoignage !<PAUSE:3> ",
+                "Comment la première contradiction",
+                "a-t-elle été balayée ?"
               ],
               "Type": 0,
               "Position": 0
@@ -33660,9 +33664,9 @@
             {
               "Name": "CONS_MALON30",
               "MessageTextLines": [
-                "<SOUND:HINT>Oh, of course!<PAUSE:4> Both this testimony",
-                "and what the prosecutor said I did",
-                "can't be true at the same time!"
+                "<SOUND:HINT>Oh, mais bien sûr !<PAUSE:4> Ce témoignage et ce",
+                "que le procureur affirme que j'ai fait ne",
+                "peuvent pas être vrais en même temps !"
               ],
               "Type": 0,
               "Position": 0
@@ -33670,8 +33674,8 @@
             {
               "Name": "CONS_LINK40",
               "MessageTextLines": [
-                "<SOUND:0><C>(The court can't look past two blatant",
-                "untruths in a row!)<SQUARE>"
+                "<SOUND:0><C>(Le tribunal ne pourra pas ignorer deux",
+                "énormes mensonges d'affilée !)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
