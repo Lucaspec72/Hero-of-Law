@@ -26776,7 +26776,7 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(Oh bon dieu.)"
+                "<SOUND:0><C>(Oh hylia...)"
               ],
               "Type": 0,
               "Position": 0
@@ -27379,7 +27379,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"The Scene Behind the Door\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"La scène derrière la porte\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -27387,9 +27387,9 @@
             {
               "Name": "ZELDA1",
               "MessageTextLines": [
-                "I arrived at Lon Lon Ranch a little",
-                "after 8 AM, accompanied by my loyal",
-                "guards."
+                "Je suis arrivée au Ranch Lon Lon un",
+                "peu après 8h, accompagnée de mes",
+                "fidèles gardes."
               ],
               "Type": 0,
               "Position": 0
@@ -27397,9 +27397,9 @@
             {
               "Name": "ZELDA2",
               "MessageTextLines": [
-                "I remember being surprised at how",
-                "quiet everything was.<PAUSE:3> There was",
-                "nobody there to welcome us..."
+                "Je me souviens avoir été surprise par le",
+                "silence qui y régnait.<PAUSE:3> Personne n'était",
+                "là pour nous accueillir..."
               ],
               "Type": 0,
               "Position": 0
@@ -27407,9 +27407,9 @@
             {
               "Name": "ZELDA3",
               "MessageTextLines": [
-                "I could sense that something was",
-                "wrong. I opened the door to the ranch",
-                "house and went inside..."
+                "Je sentais que quelque chose n'allait",
+                "pas. J'ai ouvert la porte de la maison",
+                "du ranch et suis entrée..."
               ],
               "Type": 0,
               "Position": 0
@@ -27417,9 +27417,9 @@
             {
               "Name": "ZELDA4",
               "MessageTextLines": [
-                "The room was mostly empty.<PAUSE:5> There",
-                "was a table with some kind of crystal",
-                "bottle on top of it..."
+                "La pièce était presque vide.<PAUSE:5> Il y avait",
+                "une table, avec une sorte de flacon",
+                "en cristal posé dessus..."
               ],
               "Type": 0,
               "Position": 0
@@ -27427,10 +27427,10 @@
             {
               "Name": "ZELDA5",
               "MessageTextLines": [
-                "...but in front of the table, a terrifying",
-                "scene was unveiling!<PAUSE:5> The defendant",
-                "<SOUND:STAB>hacked at the ranch owner's chest",
-                "with the saw she was holding!"
+                "...mais devant cette table, une scène",
+                "terrifiante était en train de se dérouler !<PAUSE:5> ",
+                "L'accusée <SOUND:STAB>sciait la poitrine du maître",
+                "des lieux avec la scie qu'elle tenait !"
               ],
               "Type": 0,
               "Position": 0
@@ -27438,9 +27438,9 @@
             {
               "Name": "ZELDA6",
               "MessageTextLines": [
-                "I was overcome with fear, and I",
-                "screamed.<PAUSE:3> I will never forget what I",
-                "saw that day..."
+                "J'ai été submergée par la peur, et j'ai",
+                "hurlé.<PAUSE:3> Je n'oublierai jamais ce que",
+                "j'ai vu ce jour-là..."
               ],
               "Type": 0,
               "Position": 0
@@ -27448,10 +27448,10 @@
             {
               "Name": "ZELDA7",
               "MessageTextLines": [
-                "I heard that Talon and his daughter",
-                "were incredibly kind...<PAUSE:3> I cannot",
-                "believe she would commit such",
-                "horrible violence...<SQUARE>"
+                "J'ai entendu dire que Talon et sa fille",
+                "étaient d'une grande bonté...<PAUSE:3>",
+                "Je n'arrive pas à croire qu'elle",
+                "ait pu commettre une telle atrocité...<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -28166,7 +28166,7 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Whaaaaaaaaaaat?!"
+                "<SOUND:EXPLOSION><DI>Quoooooooooi ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -28174,8 +28174,8 @@
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
-                "<SOUND:WHAP>Oh my!<PAUSE:3> You saw the very moment the",
-                "victim was killed?!"
+                "<SOUND:WHAP>Oh là là !<PAUSE:3> Vous avez vu le moment",
+                "même où la victime a été tuée ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -28191,7 +28191,7 @@
             {
               "Name": "DRAGMIRE20",
               "MessageTextLines": [
-                "...There you go!<PAUSE:10> Decisive testimony!"
+                "...Voilà !<PAUSE:10> Un témoignage décisif !"
               ],
               "Type": 0,
               "Position": 0
@@ -28199,9 +28199,9 @@
             {
               "Name": "DRAGMIRE30",
               "MessageTextLines": [
-                "<SPEED:104>As there is no need to doubt the",
-                "princess's statement, I call for the",
-                "judge to make a<SOUND:CLUE> ruling right away!<SPEED:102>"
+                "<SPEED:104>Comme il n'y a aucune raison de douter",
+                "des paroles de la princesse, je demande",
+                "au juge de rendre un<SOUND:CLUE> verdict immédiat !<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -28209,9 +28209,9 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "<SPEED:103>Hey, now,<SOUND:WHAP> hold on!<SPEED:102><PAUSE:10> ",
-                "I didn't get to cross-examine the",
-                "witness yet!"
+                "<SPEED:103>Hé oh,<SOUND:WHAP> du calme !<SPEED:102><PAUSE:10> ",
+                "Je n'ai même pas encore pu",
+                "contre-interroger le témoin !"
               ],
               "Type": 0,
               "Position": 0
@@ -28219,9 +28219,9 @@
             {
               "Name": "DRAGMIRE40",
               "MessageTextLines": [
-                "You haven't,<SOUND:EXPLOSION> fool, because there is no",
-                "need!<PAUSE:6> Did you not hear one word of",
-                "what I said?!"
+                "vous ne l'avez pas fait,<SOUND:EXPLOSION> imbécile,",
+                "parce que c'est inutile !<PAUSE:6> N'avez vous rien",
+                "écouté de ce que je viens de dire ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -28229,9 +28229,9 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "Didn't you just say we should follow",
-                "all the procedures and treat the",
-                "princess like<SOUND:CLUE> any other witness?"
+                "Vous venez juste de dire qu'on devait",
+                "suivre toutes les procédures et traiter",
+                "la princesse comme<SOUND:CLUE> n'importe quel témoin !"
               ],
               "Type": 0,
               "Position": 0
@@ -28239,7 +28239,7 @@
             {
               "Name": "LINK40",
               "MessageTextLines": [
-                "This is <SOUND:WHAP>the defence's right!"
+                "C'est <SOUND:WHAP>un droit de la défense !"
               ],
               "Type": 0,
               "Position": 0
@@ -28247,7 +28247,7 @@
             {
               "Name": "DRAGMIRE50",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>You complete<EMDASH><FADE:10>"
+                "<SOUND:EXPLOSION><DI>Tu es un parfait<EMDASH><FADE:10>"
               ],
               "Type": 0,
               "Position": 0
@@ -28255,10 +28255,10 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "I believe the defence has a point.<PAUSE:10> ",
-                "They do have every right to perform",
-                "a cross-examination, no matter who",
-                "is testifying."
+                "Je crois que la défense a un argument",
+                "valable.<PAUSE:10> Elle a parfaitement le droit",
+                "d'effectuer un contre-interrogatoire,",
+                "peu importe qui témoigne."
               ],
               "Type": 0,
               "Position": 0
@@ -28266,8 +28266,8 @@
             {
               "Name": "ZELDA10",
               "MessageTextLines": [
-                "I was quite looking forward to this",
-                "part<SOUND:HINT> myself!"
+                "J'attendais ce moment avec une",
+                "certaine impatience<SOUND:HINT> moi-même !"
               ],
               "Type": 0,
               "Position": 0
@@ -28275,8 +28275,9 @@
             {
               "Name": "ZELDA20",
               "MessageTextLines": [
-                "I have only ever read about court",
-                "proceedings in the Royal Library."
+                "Je n'ai encore jamais vu de procès",
+                "en vrai, je n'en ai lu que dans la",
+                "Bibliothèque Royale."
               ],
               "Type": 0,
               "Position": 0
@@ -28284,7 +28285,7 @@
             {
               "Name": "DRAGMIRE60",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Hmmmmph."
+                "<SOUND:WHAP><DI>Hmph."
               ],
               "Type": 0,
               "Position": 0
@@ -28292,9 +28293,9 @@
             {
               "Name": "JUDGE30",
               "MessageTextLines": [
-                "That being said, I will not tolerate",
-                "any reckless accusations towards the",
-                "princess.<PAUSE:10> <DI><SOUND:WHAP>Is that clear?"
+                "Ceci dit, je ne tolérerai aucune",
+                "accusation irréfléchie envers la",
+                "princesse.<PAUSE:10> <DI><SOUND:WHAP>Est-ce bien clair ?"
               ],
               "Type": 0,
               "Position": 0
@@ -28302,7 +28303,7 @@
             {
               "Name": "LINK41",
               "MessageTextLines": [
-                "Naturally, Your Honour."
+                "Bien sûr, Votre Honneur."
               ],
               "Type": 0,
               "Position": 0
@@ -28310,9 +28311,8 @@
             {
               "Name": "LINK42",
               "MessageTextLines": [
-                "<SOUND:0><C>(How am I going to cross-examine",
-                "the princess? This isn't going to end",
-                "well...)"
+                "<SOUND:0><C>(Comment je vais bien pouvoir contre-",
+                "interroger la princesse ? Ça sent pas bon...)"
               ],
               "Type": 0,
               "Position": 0
@@ -28320,9 +28320,9 @@
             {
               "Name": "MALON10",
               "MessageTextLines": [
-                "What's gotten into the prosecutor?<PAUSE:3> ",
-                "That seemed like a rather intense",
-                "outburst."
+                "Qu'est-ce que le procureur a en tête ? <pause:3> ",
+                "Ca avait l'air plutôt intense,",
+                "comme réaction."
               ],
               "Type": 0,
               "Position": 0
@@ -28332,7 +28332,7 @@
               "MessageTextLines": [
                 "Hmm...",
                 "<NEW_BOX>",
-                "Well, I do have a guess."
+                "Bon, j'ai ma petite idée."
               ],
               "Type": 0,
               "Position": 0
@@ -28340,7 +28340,7 @@
             {
               "Name": "MALON20",
               "MessageTextLines": [
-                "Oh?"
+                "Ah oui ?"
               ],
               "Type": 0,
               "Position": 0
@@ -28348,13 +28348,12 @@
             {
               "Name": "LINK60",
               "MessageTextLines": [
-                "Because of the princess's status, it's",
-                "possible that Dragmire <SOUND:CLUE><R>didn't have an",
-                "opportunity<W> to discuss her testimony",
-                "with her.",
+                "Vu le statut de la princesse, il est possible",
+                "que Dragmire <SOUND:CLUE><R>n'ait pas eu l'occasion<W> de",
+                "discuter de son témoignage avec elle.",
                 "<NEW_BOX>",
-                "That might mean that this testimony is",
-                "a surprise even to him!"
+                "Ce témoignage est peut-être une",
+                "surprise pour lui aussi !"
               ],
               "Type": 0,
               "Position": 0
@@ -28362,7 +28361,7 @@
             {
               "Name": "LINK80",
               "MessageTextLines": [
-                "<SOUND:0><C>(This could be my chance!)"
+                "<SOUND:0><C>(C'est peut-être mon ouverture !)"
               ],
               "Type": 0,
               "Position": 0
@@ -28370,8 +28369,8 @@
             {
               "Name": "JUDGE40",
               "MessageTextLines": [
-                "Before we begin, there is just one",
-                "thing that caught my attention..."
+                "Avant de commencer, il y a juste un",
+                "détail qui a attiré mon attention..."
               ],
               "Type": 0,
               "Position": 0
@@ -28379,9 +28378,9 @@
             {
               "Name": "JUDGE50",
               "MessageTextLines": [
-                "I believe the princess mentioned seeing",
-                "some kind of glass bottle at the crime",
-                "scene?"
+                "Je crois que la princesse a mentionné",
+                "avoir vu une sorte de flacon en cristal",
+                "sur les lieux du crime ?"
               ],
               "Type": 0,
               "Position": 0
@@ -28397,7 +28396,7 @@
             {
               "Name": "DRAGMIRE80",
               "MessageTextLines": [
-                "That would be this, I presume?"
+                "Ce serait ceci, je suppose ?"
               ],
               "Type": 0,
               "Position": 0
@@ -28405,7 +28404,7 @@
             {
               "Name": "ZELDA30",
               "MessageTextLines": [
-                "Why, yes, that is exactly it!"
+                "Oh, oui, c'est exactement ça !"
               ],
               "Type": 0,
               "Position": 0
@@ -28413,7 +28412,7 @@
             {
               "Name": "LINK90",
               "MessageTextLines": [
-                "What IS that?"
+                "Mais, c'est quoi ça ?"
               ],
               "Type": 0,
               "Position": 0
@@ -28421,9 +28420,9 @@
             {
               "Name": "MALON30",
               "MessageTextLines": [
-                "Oh, this is the bottle of perfume that",
-                "Father intended to<SOUND:CLUE> gift to Her Highness",
-                "when she arrived!"
+                "Oh, c'est le flacon de parfum que",
+                "Père comptait<SOUND:CLUE> offrir à Son Altesse",
+                "lors de sa venue !"
               ],
               "Type": 0,
               "Position": 0
@@ -28431,12 +28430,12 @@
             {
               "Name": "MALON40",
               "MessageTextLines": [
-                "He quickly rode out to town to get",
-                "it at the last moment.",
+                "Il est allé en ville l'acheter à la",
+                "dernière minute.",
                 "<NEW_BOX>",
-                "We didn't know that the princess was",
-                "coming instead of the King until only",
-                "about two hours before the visitation."
+                "Nous avons appris que la princesse",
+                "viendrait à la place du roi seulement",
+                "deux heures avant la visite."
               ],
               "Type": 0,
               "Position": 0
@@ -28444,8 +28443,8 @@
             {
               "Name": "ZELDA40",
               "MessageTextLines": [
-                "Oh, how thoughtful!<PAUSE:3> He really did not",
-                "need to bother himself so!"
+                "Oh, quelle attention !<PAUSE:3> Il n'avait vraiment",
+                "pas besoin de se donner cette peine !"
               ],
               "Type": 0,
               "Position": 0
@@ -28453,9 +28452,9 @@
             {
               "Name": "DRAGMIRE90",
               "MessageTextLines": [
-                "As fascinating as this all is, the",
-                "prosecution doesn't believe it's",
-                "relevant to the case."
+                "Aussi fascinant que cela puisse être,",
+                "je doute que cela soit pertinent",
+                "à l'affaire."
               ],
               "Type": 0,
               "Position": 0
@@ -28463,8 +28462,8 @@
             {
               "Name": "LINK100",
               "MessageTextLines": [
-                "It's good to have a full picture of the",
-                "crime scene!"
+                "Mieux vaut avoir une image complète",
+                "de la scène du crime !"
               ],
               "Type": 0,
               "Position": 0
@@ -28472,8 +28471,8 @@
             {
               "Name": "LINK110",
               "MessageTextLines": [
-                "The defence requests the bottle be",
-                "accepted into evidence!"
+                "La défense demande que ce flacon soit",
+                "ajouté au dossier de l'affaire!"
               ],
               "Type": 0,
               "Position": 0
@@ -28481,10 +28480,10 @@
             {
               "Name": "DRAGMIRE100",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Bah!",
+                "<SOUND:WHAP><DI>Bah !",
                 "<NEW_BOX>",
-                "Desperate to latch onto every little",
-                "thing, are you?"
+                "Toujours prêt à vous accrocher au",
+                "moindre détail, hein ?"
               ],
               "Type": 0,
               "Position": 0
@@ -28492,8 +28491,8 @@
             {
               "Name": "DRAGMIRE110",
               "MessageTextLines": [
-                "<PAUSE:5><DI><DC>...Whatever.<PAUSE:5> You can add it to the",
-                "evidence if it'll make you happy."
+                "<PAUSE:5><DI><DC>...Peu importe.<PAUSE:5> Ajoutez-le au dossier,",
+                "si ça peut vous faire plaisir."
               ],
               "Type": 0,
               "Position": 0
@@ -28501,7 +28500,7 @@
             {
               "Name": "DRAGMIRE120",
               "MessageTextLines": [
-                "<SOUND:CLUE>No skin off my teeth."
+                "<SOUND:CLUE>Ça ne m'empêchera pas de dormir."
               ],
               "Type": 0,
               "Position": 0
@@ -28509,8 +28508,8 @@
             {
               "Name": "JUDGE70",
               "MessageTextLines": [
-                "In that case, the court accepts this",
-                "bottle into evidence."
+                "Dans ce cas, le tribunal accepte ce",
+                "flacon comme pièce à conviction."
               ],
               "Type": 0,
               "Position": 0
@@ -28518,8 +28517,8 @@
             {
               "Name": "COURTRECORD1",
               "MessageTextLines": [
-                "<SOUND:ITEMGET><SOUND:0><ICON:5><DI><SQUARE><R>Perfume Bottle<G> added to the",
-                "Court Record."
+                "<SOUND:ITEMGET><SOUND:0><ICON:5><DI><SQUARE><R>Flacon de parfum<G> ajouté au",
+                "Dossier de l'affaire."
               ],
               "Type": 1,
               "Position": 2
@@ -28527,8 +28526,8 @@
             {
               "Name": "JUDGE80",
               "MessageTextLines": [
-                "Now, then, Defence.<PAUSE:3> Begin your",
-                "cross-examination.<SQUARE>"
+                "Maintenant, Défense.<PAUSE:3> Vous pouvez",
+                "procéder au contre-interrogatoire.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -30246,7 +30245,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"The Scene Behind the Door\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"La scène derrière la porte\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -30254,9 +30253,9 @@
             {
               "Name": "ZELDA1",
               "MessageTextLines": [
-                "<DI><G>I arrived at Lon Lon Ranch a little",
-                "after 8 AM, accompanied by my loyal",
-                "guards.<PERSISTENT>"
+                "<DI><G>Je suis arrivée au Ranch Lon Lon un",
+                "peu après 8h, accompagnée de mes",
+                "fidèles gardes.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -30264,9 +30263,9 @@
             {
               "Name": "ZELDA2",
               "MessageTextLines": [
-                "<DI><G>I remember being surprised at how",
-                "quiet everything was. There was",
-                "nobody there to welcome us...<PERSISTENT>"
+                "<DI><G>Je me souviens avoir été surprise par le",
+                "silence qui y régnait. Personne n'était",
+                "là pour nous accueillir...<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -30274,9 +30273,9 @@
             {
               "Name": "ZELDA3",
               "MessageTextLines": [
-                "<DI><G>I could sense that something was",
-                "wrong. I opened the door to the ranch",
-                "house and went inside...<PERSISTENT>"
+                "<DI><G>Je sentais que quelque chose n'allait",
+                "pas. J'ai ouvert la porte de la maison",
+                "du ranch et suis entrée...<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -30284,9 +30283,9 @@
             {
               "Name": "ZELDA4",
               "MessageTextLines": [
-                "<DI><G>The room was mostly empty. There",
-                "was a table with some kind of crystal",
-                "bottle on top of it...<PERSISTENT>"
+                "<DI><G>La pièce était presque vide. Il y avait",
+                "une table, avec une sorte de flacon",
+                "en cristal posé dessus...<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -30294,10 +30293,10 @@
             {
               "Name": "ZELDA5",
               "MessageTextLines": [
-                "<DI><G>...but in front of the table, a terrifying",
-                "scene was unveiling! The defendant",
-                "hacked at the ranch owner's chest",
-                "with the saw she was holding!<PERSISTENT>"
+                "<DI><G>...mais devant cette table, une scène",
+                "terrifiante était en train de se dérouler !",
+                "L'accusée <SOUND:STAB>sciait la poitrine du maître",
+                "des lieux avec la scie qu'elle tenait !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -30305,9 +30304,9 @@
             {
               "Name": "ZELDA6",
               "MessageTextLines": [
-                "<DI><G>I was overcome with fear, and I",
-                "screamed. I will never forget what I",
-                "saw that day...<PERSISTENT>"
+                "<DI><G>J'ai été submergée par la peur, et j'ai",
+                "hurlé. Je n'oublierai jamais ce que",
+                "j'ai vu ce jour-là...<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -30315,10 +30314,10 @@
             {
               "Name": "ZELDA7",
               "MessageTextLines": [
-                "<DI><G>I heard that Talon and his daughter",
-                "were incredibly kind... I cannot",
-                "believe she would commit such",
-                "horrible violence...<PERSISTENT>"
+                "<DI><G>J'ai entendu dire que Talon et sa fille",
+                "étaient d'une grande bonté...",
+                "Je n'arrive pas à croire qu'elle",
+                "ait pu commettre une telle atrocité...<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -30326,16 +30325,16 @@
             {
               "Name": "F_LINK10",
               "MessageTextLines": [
-                "<SOUND:0><C>(Hmm...<PAUSE:3> yeah, that's true.<PAUSE:5> Malon",
-                "probably couldn't wipe off the blade",
-                "while the princess was watching...)",
+                "<SOUND:0><C>(Hmm...<PAUSE:3> ouais, c'est vrai.<PAUSE:5> Malon",
+                "n'a sûrement pas pu essuyer la lame",
+                "sous les yeux de la princesse...)",
                 "<NEW_BOX>",
-                "<SOUND:0><C><PAUSE:5><DI><DC>(...but it's not<SOUND:CLUE> ENTIRELY out of the",
-                "question.)",
+                "<SOUND:0><C><PAUSE:5><DI><DC>(...mais ce n'est pas<SOUND:CLUE> TOTALEMENT",
+                "impossible non plus.)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(There's something much more damning",
-                "in this testimony!<PAUSE:7> I<SOUND:HINT> shouldn't play all my",
-                "cards this early.)<SQUARE>"
+                "<SOUND:0><C>(Y a un détail bien plus accablant dans",
+                "ce témoignage !<PAUSE:7> Je<SOUND:HINT> ferais mieux de pas",
+                "jouer toutes mes cartes si tôt.)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -30343,8 +30342,8 @@
             {
               "Name": "CONS_LINK10",
               "MessageTextLines": [
-                "You seem pretty outraged by this",
-                "testimony."
+                "Tu as l'air sacrément indignée par ce",
+                "témoignage."
               ],
               "Type": 0,
               "Position": 0
@@ -30352,7 +30351,7 @@
             {
               "Name": "CONS_MALON10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Of course!<PAUSE:3> It's completely wrong!"
+                "<SOUND:EXPLOSION><DI>Évidemment !<PAUSE:3> C'est complètement faux !"
               ],
               "Type": 0,
               "Position": 0
@@ -30360,9 +30359,9 @@
             {
               "Name": "CONS_MALON20",
               "MessageTextLines": [
-                "Father was already dead when I",
-                "found him, and the princess got there",
-                "after me!"
+                "Père était déjà mort quand je l'ai",
+                "trouvé, et la princesse est arrivée",
+                "après moi !"
               ],
               "Type": 0,
               "Position": 0
@@ -30370,7 +30369,7 @@
             {
               "Name": "CONS_MALON30",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>She just can't be telling the truth...!"
+                "<SOUND:EXPLOSION>Elle ne peut pas dire la vérité... !"
               ],
               "Type": 0,
               "Position": 0
@@ -30378,8 +30377,9 @@
             {
               "Name": "CONS_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Time and time again, it's the simplest",
-                "things that break testimonies the most...)<SQUARE>"
+                "<SOUND:0><C>(Encore une fois, ce sont les détails",
+                "les plus simples qui font tomber les",
+                "témoignages...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -30387,8 +30387,8 @@
             {
               "Name": "B_MALON10",
               "MessageTextLines": [
-                "<SOUND:WHAP>I can't believe the princess would lie",
-                "like this!"
+                "<SOUND:WHAP>Je n'arrive pas à croire que la princesse",
+                "puisse mentir de la sorte !"
               ],
               "Type": 0,
               "Position": 0
@@ -30396,7 +30396,7 @@
             {
               "Name": "B_LINK10",
               "MessageTextLines": [
-                "Yeah...<PAUSE:3> it really is <SOUND:CLUE>shocking."
+                "Oui...<PAUSE:3> c'est vraiment <SOUND:CLUE>choquant."
               ],
               "Type": 0,
               "Position": 0
@@ -30404,7 +30404,7 @@
             {
               "Name": "B_MALON20",
               "MessageTextLines": [
-                "You don't believe her,<SOUND:WHAP> right?"
+                "Tu ne la crois pas,<SOUND:WHAP> hein ?"
               ],
               "Type": 0,
               "Position": 0
@@ -30412,8 +30412,8 @@
             {
               "Name": "B_MALON30",
               "MessageTextLines": [
-                "Even if she's the princess, that means",
-                "nothing!<PAUSE:10><SOUND:EXPLOSION><DI> I didn't do it!"
+                "Même si c'est la princesse, ça ne veut",
+                "rien dire !<PAUSE:10><SOUND:EXPLOSION><DI> Je ne l'ai pas fait !"
               ],
               "Type": 0,
               "Position": 0
@@ -30421,8 +30421,8 @@
             {
               "Name": "B_LINK20",
               "MessageTextLines": [
-                "<C>(Hmm...<PAUSE:3> to trust authority or your best",
-                "friend...)"
+                "<C>(Hmm...<PAUSE:3> faire confiance à l'autorité ou à",
+                "sa meilleure amie...)"
               ],
               "Type": 0,
               "Position": 0
@@ -30430,9 +30430,9 @@
             {
               "Name": "B_LINK30",
               "MessageTextLines": [
-                "<C>(I'll need something very concrete",
-                "to disprove what the princess is",
-                "saying.)<SQUARE>"
+                "<C>(Il me faudra quelque chose de très",
+                "concret pour contredire les paroles",
+                "de la princesse.)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -30440,8 +30440,9 @@
             {
               "Name": "1_LINK10",
               "MessageTextLines": [
-                "If these guards were with Her Highness,",
-                "why were they<SOUND:CLUE> not called as witnesses?"
+                "Si ces gardes accompagnaient Son",
+                "Altesse, pourquoi n'ont-ils pas été",
+                "appelés à témoigner ?"
               ],
               "Type": 0,
               "Position": 0
@@ -30449,7 +30450,8 @@
             {
               "Name": "1_DRAGMIRE1",
               "MessageTextLines": [
-                "We did question the guards, naturally."
+                "Nous avons bien entendu interrogé",
+                "les gardes."
               ],
               "Type": 0,
               "Position": 0
@@ -30457,8 +30459,8 @@
             {
               "Name": "1_DRAGMIRE5",
               "MessageTextLines": [
-                "Apparently, they didn't get to see",
-                "anything relevant."
+                "Apparemment, ils n'ont rien vu de",
+                "pertinent."
               ],
               "Type": 0,
               "Position": 0
@@ -30466,13 +30468,13 @@
             {
               "Name": "1_ZELDA20",
               "MessageTextLines": [
-                "I was the only one to enter the crime",
-                "scene.",
+                "J'étais la seule à entrer dans la",
+                "maison du ranch.",
                 "<NEW_BOX>",
-                "After seeing what was inside, I stood",
-                "guard and insisted that <R>no one<W> be",
-                "allowed inside until the Sheikah Force",
-                "arrived."
+                "Après avoir vu ce qui s'y trouvait, je",
+                "suis restée à l'entrée et j'ai insisté",
+                "pour que <R>personne<W> n'y entre jusqu'à",
+                "l'arrivée de la Force Sheikah."
               ],
               "Type": 0,
               "Position": 0
@@ -30480,8 +30482,8 @@
             {
               "Name": "1_ZELDA40",
               "MessageTextLines": [
-                "I have read that preserving the scene",
-                "is<SOUND:HINT> vital!"
+                "J'ai lu que préserver la scène du crime",
+                "est<SOUND:HINT> absolument essentiel !"
               ],
               "Type": 0,
               "Position": 0
@@ -30489,7 +30491,7 @@
             {
               "Name": "1_DRAGMIRE10",
               "MessageTextLines": [
-                "Quite correct."
+                "C'est exact."
               ],
               "Type": 0,
               "Position": 0
@@ -30497,8 +30499,8 @@
             {
               "Name": "1_LINK20",
               "MessageTextLines": [
-                "<C>(I'm sure the guards were absolutely",
-                "thrilled with this order.)"
+                "<C>(Je suis sûr que les gardes étaient",
+                "ravis de cet ordre.)"
               ],
               "Type": 0,
               "Position": 0
@@ -30506,7 +30508,7 @@
             {
               "Name": "1_JUDGE10",
               "MessageTextLines": [
-                "Please proceed, witness.<SQUARE>"
+                "Veuillez poursuivre, témoin.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -30514,8 +30516,8 @@
             {
               "Name": "2_LINK10",
               "MessageTextLines": [
-                "Have you conducted these royal",
-                "visitations in the past, Your Highness?"
+                "Avez-vous déjà effectué ces visites",
+                "royales par le passé, Votre Altesse ?"
               ],
               "Type": 0,
               "Position": 0
@@ -30523,7 +30525,7 @@
             {
               "Name": "2_ZELDA10",
               "MessageTextLines": [
-                "Ah, no.<PAUSE:3> This was my<SOUND:CLUE> first one."
+                "Ah, non.<PAUSE:3> C'était ma<SOUND:CLUE> première."
               ],
               "Type": 0,
               "Position": 0
@@ -30531,9 +30533,9 @@
             {
               "Name": "2_ZELDA20",
               "MessageTextLines": [
-                "Up until last year,<PAUSE:2> my father was",
-                "always the one to visit Lon Lon",
-                "Ranch."
+                "Jusqu'à l'année dernière,<PAUSE:2> mon",
+                "père était toujours celui qui visitait",
+                "le Ranch Lon Lon."
               ],
               "Type": 0,
               "Position": 0
@@ -30541,10 +30543,10 @@
             {
               "Name": "2_ZELDA30",
               "MessageTextLines": [
-                "However, he decided I had to start",
-                "preparing for all the royal duties that",
-                "await me...<PAUSE:3> And so<SOUND:HINT> I was to do it",
-                "this time."
+                "Cependant, il a décidé que je devais",
+                "commencer à me préparer à toutes les",
+                "tâches royales qui m'attendent...<PAUSE:3> Et donc<SOUND:HINT>",
+                "la tache m'est revenue cette fois-ci."
               ],
               "Type": 0,
               "Position": 0
@@ -30552,8 +30554,9 @@
             {
               "Name": "2_DRAGMIRE10",
               "MessageTextLines": [
-                "You will doubtlessly perform admirably",
-                "as ruler when the time comes."
+                "Il ne fait aucun doute que, le moment venu,",
+                "vous vous acquitterez admirablement de",
+                "votre tâche de souveraine."
               ],
               "Type": 0,
               "Position": 0
@@ -30561,8 +30564,8 @@
             {
               "Name": "2_LINK20",
               "MessageTextLines": [
-                "What happened when you got to the",
-                "ranch house?<SQUARE>"
+                "Que s'est-il passé quand vous êtes arrivée",
+                "à la maison du ranch ?<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -30570,7 +30573,7 @@
             {
               "Name": "3_LINK10",
               "MessageTextLines": [
-                "And?!<PAUSE:3><DC><SOUND:WHAP> What then?!"
+                "Et?!<PAUSE:3><DC><SOUND:WHAP> Et après ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -30578,8 +30581,8 @@
             {
               "Name": "3_DRAGMIRE10",
               "MessageTextLines": [
-                "Stop interrupting, and let her get to",
-                "the point!"
+                "Cessez donc de l'interrompre, pour l'amour",
+                "de Din !"
               ],
               "Type": 0,
               "Position": 0
@@ -30587,8 +30590,8 @@
             {
               "Name": "3_JUDGE10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Defence!<PAUSE:10> I believe I was clear about",
-                "not badgering the witness!"
+                "<SOUND:EXPLOSION><DI>Défense!<PAUSE:10> Je crois avoir été clair sur le",
+                "fait de ne pas harceler le témoin !"
               ],
               "Type": 0,
               "Position": 0
@@ -30596,7 +30599,7 @@
             {
               "Name": "3_LINK20",
               "MessageTextLines": [
-                "<C>(Drat. I need to calm down.)<SQUARE>"
+                "<C>(Oh zut. Il faut que je me calme.)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -30604,8 +30607,9 @@
             {
               "Name": "4n_LINK10",
               "MessageTextLines": [
-                "You paid attention to something like<SOUND:CLUE>",
-                "THAT after seeing a murder, Princess?"
+                "Vous avez prêté attention à quelque",
+                "chose comme<SOUND:CLUE> ÇA après avoir assisté",
+                "à un meurtre, Princesse ?"
               ],
               "Type": 0,
               "Position": 0
@@ -30613,8 +30617,9 @@
             {
               "Name": "4n_ZELDA10",
               "MessageTextLines": [
-                "Well, I spent a rather long time in there",
-                "waiting for the Sheikah Force to arrive."
+                "Et bien, j'ai passé un temps assez long",
+                "sur la scène du crime à attendre l'arrivée",
+                "de la Force Sheikah."
               ],
               "Type": 0,
               "Position": 0
@@ -30622,8 +30627,8 @@
             {
               "Name": "4n_ZELDA20",
               "MessageTextLines": [
-                "Plus, that bottle is quite beautiful.<PAUSE:5> ",
-                "<SOUND:WHAP><DI>It just stood out!<SQUARE>"
+                "De plus, cette bouteille est très belle.<PAUSE:5> ",
+                "<SOUND:WHAP><DI>Elle se démarque!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -30631,8 +30636,8 @@
             {
               "Name": "4_LINK10",
               "MessageTextLines": [
-                "You were there at the exact time of",
-                "the murder, Your Highness?"
+                "Vous étiez là moment même du",
+                "meurtre, Votre Altesse ?"
               ],
               "Type": 0,
               "Position": 0
@@ -30640,7 +30645,7 @@
             {
               "Name": "4_ZELDA10",
               "MessageTextLines": [
-                "That is correct."
+                "C'est exact."
               ],
               "Type": 0,
               "Position": 0
@@ -30648,7 +30653,7 @@
             {
               "Name": "4_MALON10",
               "MessageTextLines": [
-                "<SPEED:104>That's impossible!<PAUSE:5><SOUND:EXPLOSION> You're lying!<SPEED:102>"
+                "<SPEED:104>C'est impossible!<PAUSE:5><SOUND:EXPLOSION> Vous mentez!<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -30656,8 +30661,8 @@
             {
               "Name": "4_JUDGE10",
               "MessageTextLines": [
-                "<SPEED:103>The defendant will curb her outbursts!<PAUSE:3> <SOUND:WHAP><DI><SPEED:102>",
-                "You're addressing royalty!"
+                "<SPEED:103>L'accusée va modérer ses emportements !<PAUSE:3> <SOUND:WHAP><DI><SPEED:102>",
+                "Vous vous adressez à la royauté !"
               ],
               "Type": 0,
               "Position": 0
@@ -30665,10 +30670,10 @@
             {
               "Name": "4_LINK20",
               "MessageTextLines": [
-                "<C>(Hmm. This is really bad. What now?)<THREE_CHOICES><G>",
-                "Ask about the crime scene",
-                "Ask about what was outside",
-                "Accuse Zelda of the crime!"
+                "<C>(Mmh. C'est  vraiment pas bon. Que faire ?)<THREE_CHOICES><G>",
+                "À propos de la scène du crime ?",
+                "Qu'y avait-il dehors ?",
+                "Accuser Zelda du crime !"
               ],
               "Type": 0,
               "Position": 0
@@ -30676,8 +30681,8 @@
             {
               "Name": "4_1_LINK10",
               "MessageTextLines": [
-                "Where were the victim and the ",
-                "defendant at this time?"
+                "Où se trouvaient la victime et",
+                "l'accusée à ce moment-là ?"
               ],
               "Type": 0,
               "Position": 0
@@ -30685,9 +30690,9 @@
             {
               "Name": "4_1_ZELDA10",
               "MessageTextLines": [
-                "The ranch owner was in front of a",
-                "little <R>table<W> that is directly across from",
-                "the entrance door..."
+                "Le propriétaire du ranch se trouvait",
+                "devant une petite <R>table<W>, juste en face",
+                "de la porte d'entrée..."
               ],
               "Type": 0,
               "Position": 0
@@ -30695,8 +30700,9 @@
             {
               "Name": "4_1_ZELDA20",
               "MessageTextLines": [
-                "The defendant was<SOUND:CLUE> right in front of him,",
-                "and quickly fainted after her attack..."
+                "L'accusée était<SOUND:CLUE> juste en face de lui,",
+                "et s'est évanouie rapidement après",
+                "son attaque..."
               ],
               "Type": 0,
               "Position": 0
@@ -30704,8 +30710,9 @@
             {
               "Name": "4_1_ZELDA25",
               "MessageTextLines": [
-                "A <R>large pool of blood<W> started forming",
-                "where the victim was..."
+                "Une <R>grande flaque de sang<W> a commencé à",
+                "se former à l'endroit où était la",
+                "victime..."
               ],
               "Type": 0,
               "Position": 0
@@ -30713,8 +30720,8 @@
             {
               "Name": "4_1_ZELDA30",
               "MessageTextLines": [
-                "I had a rather good view of the <SOUND:HINT>whole",
-                "scene."
+                "J'avais une assez bonne visibilité de<SOUND:HINT>",
+                "l'ensemble de la scène."
               ],
               "Type": 0,
               "Position": 0
@@ -30722,7 +30729,7 @@
             {
               "Name": "4_1_LINK20",
               "MessageTextLines": [
-                "Right..."
+                "Bien sûr..."
               ],
               "Type": 0,
               "Position": 0
