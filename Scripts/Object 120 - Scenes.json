@@ -31668,7 +31668,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Ce que j'ai réellement vu\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Ce que j'ai vraiment vu\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -33537,7 +33537,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Ce que j'ai réellement vu\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Ce que j'ai vraiment vu\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -33683,8 +33683,8 @@
             {
               "Name": "B_LINK10",
               "MessageTextLines": [
-                "Well, this is a little more plausible than",
-                "the last testimony she gave."
+                "Eh bien, c'est déjà un peu plus crédible",
+                "que son dernier témoignage."
               ],
               "Type": 0,
               "Position": 0
@@ -33692,8 +33692,8 @@
             {
               "Name": "B_MALON10",
               "MessageTextLines": [
-                "Yes, I suppose it matches the",
-                "detective's account, doesn't it?"
+                "Oui, je suppose que ça colle avec",
+                "le rapport de l'inspectrice, non ?"
               ],
               "Type": 0,
               "Position": 0
@@ -33701,8 +33701,9 @@
             {
               "Name": "B_LINK20",
               "MessageTextLines": [
-                "<C>(Still, I feel like something here sticks",
-                "out like a sore thumb...)<SQUARE>"
+                "<C>(Peut être, mais j'ai l'impression qu'il y",
+                "a quand même un truc qui cloche,",
+                "là-dedans...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -33710,8 +33711,8 @@
             {
               "Name": "1_LINK10",
               "MessageTextLines": [
-                "Why did you do that, Your Highness?<PAUSE:3> ",
-                "There's a life on the line here!"
+                "Pourquoi avoir fait ça, Votre Altesse ?<PAUSE:3> ",
+                "C'est la vie de quelqu'un qui est en jeu !"
               ],
               "Type": 0,
               "Position": 0
@@ -33719,9 +33720,10 @@
             {
               "Name": "1_ZELDA10",
               "MessageTextLines": [
-                "I really am sorry...<PAUSE:5> I suppose I got a",
-                "bit too excited about being a witness",
-                "in an actual murder trial."
+                "Je suis vraiment désolée...<PAUSE:5> Je suppose",
+                "que j'ai été un peu trop exaltée à",
+                "l'idée d'être le témoin d'un véritable",
+                "procès pour meurtre."
               ],
               "Type": 0,
               "Position": 0
@@ -33729,7 +33731,7 @@
             {
               "Name": "1_LINK20",
               "MessageTextLines": [
-                "Really, now?"
+                "Vraiment ?"
               ],
               "Type": 0,
               "Position": 0
@@ -33737,7 +33739,8 @@
             {
               "Name": "1_LINK30",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Most people hate testifying!"
+                "<SOUND:WHAP><DI>La plupart des gens détestent",
+                "témoigner !"
               ],
               "Type": 0,
               "Position": 0
@@ -33745,11 +33748,10 @@
             {
               "Name": "1_ZELDA20",
               "MessageTextLines": [
-                "<SPEED:101>Yes, well...<SPEED:102><PAUSE:5> The life of a princess is",
-                "rather boring, you know.",
+                "<SPEED:101>Oui, bon...<SPEED:102><PAUSE:5> La vie de princesse est",
+                "plutôt monotone, vous savez.",
                 "<NEW_BOX>",
-                "<SPEED:103>This is quite the break from the",
-                "routine, for me!<SPEED:102>"
+                "<SPEED:103>Ça me change un peu de l'ordinaire !<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -33757,7 +33759,7 @@
             {
               "Name": "1_LINK40",
               "MessageTextLines": [
-                "<C>(Should just get a hobby, then...)<SQUARE>"
+                "<C>(Elle devrait juste se trouver un hobby...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -33765,8 +33767,9 @@
             {
               "Name": "2_LINK10",
               "MessageTextLines": [
-                "In that case,<SOUND:WHAP><SPEED:103> it can't be conclusively",
-                "proven that the defendant did it!<SPEED:102>"
+                "Dans ce cas,<SOUND:WHAP><SPEED:103> nous ne pouvons pas",
+                "affirmer avec certitude que l'accusée",
+                "est coupable !<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -33774,9 +33777,8 @@
             {
               "Name": "2_DRAGMIRE10",
               "MessageTextLines": [
-                "Defence, did you exhaust your <SOUND:EXPLOSION>singular",
-                "brain cell on that last contradiction you",
-                "found?!"
+                "La défense a-t-elle grillé son <SOUND:EXPLOSION>unique",
+                "neurone sur la contradiction précédente ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -33784,8 +33786,8 @@
             {
               "Name": "2_DRAGMIRE20",
               "MessageTextLines": [
-                "There's a Death Mountain's worth of",
-                "evidence pointing to the defendant!"
+                "Y a une montagne de la mort de preuves",
+                "contre l'accusée !"
               ],
               "Type": 0,
               "Position": 0
@@ -33793,9 +33795,9 @@
             {
               "Name": "2_DRAGMIRE30",
               "MessageTextLines": [
-                "Just because no one saw the actual",
-                "moment of the crime,<PAUSE:3> doesn't mean",
-                "anyone else could've done it!"
+                "Personne n'a vu le moment exact du",
+                "crime, certes,<PAUSE:3> mais ça ne veut pas dire",
+                "que quelqu'un d'autre ait pu le faire !"
               ],
               "Type": 0,
               "Position": 0
@@ -33803,8 +33805,8 @@
             {
               "Name": "2_LINK20",
               "MessageTextLines": [
-                "<C>(I think you're making a Death",
-                "Mountain out of a Death Molehill...)<SQUARE>"
+                "<C>(Tu fais d'une taupinière une Montagne",
+                "de la Mort, là...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -33812,8 +33814,8 @@
             {
               "Name": "3_LINK10",
               "MessageTextLines": [
-                "How can you be so sure of that,",
-                "Princess?"
+                "Comment pouvez vous en être si sûre,",
+                "Princesse ?"
               ],
               "Type": 0,
               "Position": 0
@@ -33821,11 +33823,11 @@
             {
               "Name": "3_ZELDA10",
               "MessageTextLines": [
-                "<SPEED:101>Well...<SPEED:102>",
+                "<SPEED:101>Eh bien...<SPEED:102>",
                 "<NEW_BOX>",
-                "<PAUSE:4>When I entered the ranch house, the",
-                "victim still had the murder weapon",
-                "embedded into his body."
+                "<PAUSE:4>Quand je suis entrée dans la maison,",
+                "l'arme du crime était encore plantée",
+                "dans le corps de la victime."
               ],
               "Type": 0,
               "Position": 0
@@ -33833,7 +33835,7 @@
             {
               "Name": "3_DRAGMIRE10",
               "MessageTextLines": [
-                "<DI>What?!"
+                "<DI>Quoi ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -33841,9 +33843,9 @@
             {
               "Name": "3_ZELDA20",
               "MessageTextLines": [
-                "It is obvious what that means, is it not?<PAUSE:5> ",
-                "The killer did not even have enough",
-                "time to try to<SOUND:CLUE> hide the weapon!"
+                "C'est évident, non ?<PAUSE:5>  Le coupable n'a",
+                "même pas eu le temps de <SOUND:CLUE>cacher",
+                "l'arme du crime !"
               ],
               "Type": 0,
               "Position": 0
@@ -33851,9 +33853,9 @@
             {
               "Name": "3_ZELDA30",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Yes!<PAUSE:5> I might have not seen the murder",
-                "first-hand...<PAUSE:2> <SPEED:103>but I must have been very",
-                "close to doing so!<SPEED:102>"
+                "<SOUND:WHAP><DI>Oui !<PAUSE:5> Je n'ai peut-être pas",
+                "vu le crime directement...<PAUSE:2> ",
+                "<SPEED:103>mais j'ai dû arriver juste après !<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -33861,9 +33863,10 @@
             {
               "Name": "3_JUDGE10",
               "MessageTextLines": [
-                "<DI>Oh my!",
+                "<DI>Oh sainte déesse !",
                 "<NEW_BOX>",
-                "<SOUND:CLUE>This seems like a very important detail!"
+                "<SOUND:CLUE>Voilà un détail qu'il aurait été bon",
+                "de mentionner plus tôt !"
               ],
               "Type": 0,
               "Position": 0
@@ -33871,8 +33874,8 @@
             {
               "Name": "3_JUDGE20",
               "MessageTextLines": [
-                "<PAUSE:7>I think it would be advisable for Her",
-                "Highness to amend her testimony."
+                "<PAUSE:7>Je pense qu'un petit ajustement de vôtre",
+                "témoignage s'impose, Votre Altesse."
               ],
               "Type": 0,
               "Position": 0
@@ -33880,7 +33883,7 @@
             {
               "Name": "3_ZELDA40",
               "MessageTextLines": [
-                "Certainly, Your Honour!"
+                "Bien entendu, Votre Honneur !"
               ],
               "Type": 0,
               "Position": 0
@@ -33888,7 +33891,7 @@
             {
               "Name": "3_LINK18",
               "MessageTextLines": [
-                "<C>(Interesting...)"
+                "<C>(Intéressant...)"
               ],
               "Type": 0,
               "Position": 0
@@ -33896,9 +33899,8 @@
             {
               "Name": "3_LINK20",
               "MessageTextLines": [
-                "<C>(Dragmire certainly doesn't look",
-                "very happy about this development,",
-                "<SOUND:CLUE>does he?)"
+                "<C>(Dragmire a pas l'air ravi par cette",
+                "tournure,<SOUND:CLUE> pas vrai ?)"
               ],
               "Type": 0,
               "Position": 0
@@ -33906,8 +33908,8 @@
             {
               "Name": "3_LINK30",
               "MessageTextLines": [
-                "<C><PAUSE:5>(...Thinking about it,<PAUSE:5> I might just",
-                "know why.)<SQUARE>"
+                "<C><PAUSE:5>(...Et si je creuse un peu,<PAUSE:5> je crois",
+                "savoir pourquoi.)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
