@@ -36179,7 +36179,7 @@
             {
               "Name": "1_DRAGMIRE60",
               "MessageTextLines": [
-                "La position de l’accusation reste la",
+                "La position de l'accusation reste la",
                 "même, évidemment."
               ],
               "Type": 0,
@@ -37380,7 +37380,8 @@
             {
               "Name": "ZELDA10",
               "MessageTextLines": [
-                "And here it is!<PAUSE:10> The oil bottle I found!"
+                "Et le voilà !<PAUSE:10> Le flacon d'huile que",
+                "j'ai trouvé !"
               ],
               "Type": 0,
               "Position": 0
@@ -37396,7 +37397,7 @@
             {
               "Name": "ZELDA20",
               "MessageTextLines": [
-                "Is...<PAUSE:10> <SOUND:CLUE>something wrong?"
+                "Y a-t-il...<PAUSE:10> <SOUND:CLUE>un problème ?"
               ],
               "Type": 0,
               "Position": 0
@@ -37404,8 +37405,8 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "<SOUND:0><C>(Oh no. This might actually be",
-                "completely irrelevant...)"
+                "<SOUND:0><C>(Oh non. C'est peut-être",
+                "complètement hors sujet...)"
               ],
               "Type": 0,
               "Position": 0
@@ -37413,7 +37414,7 @@
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
-                "Yes, well..."
+                "Oui, eh bien..."
               ],
               "Type": 0,
               "Position": 0
@@ -37421,8 +37422,8 @@
             {
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
-                "Of course there is,<SOUND:EXPLOSION> foolish girl!<PAUSE:10> ",
-                "<DI>That has nothing to do with anything!"
+                "Évidemment qu'il y en a un,<SOUND:EXPLOSION> idiote !<PAUSE:10> ",
+                "<DI>Ça n'a rien à voir avec quoi que ce soit !"
               ],
               "Type": 0,
               "Position": 0
@@ -37430,8 +37431,9 @@
             {
               "Name": "DRAGMIRE20",
               "MessageTextLines": [
-                "Your great finding is some random",
-                "fire on a ranch?!<PAUSE:10> <SOUND:WHAP>Please!"
+                "Votre grande découverte, c'est une",
+                "simple tache d'huile dans une ferme ?!<PAUSE:10><SOUND:WHAP>",
+                "Franchement !"
               ],
               "Type": 0,
               "Position": 0
@@ -37439,9 +37441,9 @@
             {
               "Name": "DRAGMIRE30",
               "MessageTextLines": [
-                "What next?!<PAUSE:10> ",
-                "Are you going to declare every rake",
-                "on the premises suspicious?!"
+                "C'est quoi la suite ?!<PAUSE:10> ",
+                "Vous allez soumettre chaque râteau du",
+                "domaine comme preuve à conviction ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -37449,7 +37451,7 @@
             {
               "Name": "ZELDA30",
               "MessageTextLines": [
-                "Well, I<EMDASH><FADE:10>"
+                "Eh bien, je<EMDASH><FADE:10>"
               ],
               "Type": 0,
               "Position": 0
@@ -37457,7 +37459,7 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "The prosecution will calm down."
+                "L'accusation va se calmer."
               ],
               "Type": 0,
               "Position": 0
@@ -37465,7 +37467,7 @@
             {
               "Name": "LINK15",
               "MessageTextLines": [
-                "<SOUND:0><C>(This is bad...!)"
+                "<SOUND:0><C>(C'est mal parti...!)"
               ],
               "Type": 0,
               "Position": 0
@@ -37473,7 +37475,7 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Your Honour!"
+                "<SOUND:WHAP><DI>Votre Honneur !"
               ],
               "Type": 0,
               "Position": 0
@@ -37481,10 +37483,10 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "Despite the fact that this evidence",
-                "might not seem to add anything at",
-                "the moment,<PAUSE:5> the defence still asserts",
-                "its right to a cross-examination!"
+                "Même si cette preuve ne semble",
+                "pas très utile pour l'instant,<PAUSE:5> la défense",
+                "fait tout de même valoir son droit",
+                "à un contre-interrogatoire !"
               ],
               "Type": 0,
               "Position": 0
@@ -37492,7 +37494,8 @@
             {
               "Name": "LINK40",
               "MessageTextLines": [
-                "<SOUND:0><C>(Some straws have been grasped...)"
+                "<SOUND:0><C>(On en est à tirer sur les dernières",
+                "ficelles...)"
               ],
               "Type": 0,
               "Position": 0
@@ -37500,12 +37503,12 @@
             {
               "Name": "DRAGMIRE40",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Why must you insist on this charade,",
-                "Defence?",
+                "<SOUND:EXPLOSION>Pourquoi vous obstinez-vous dans",
+                "cette mascarade, Défense ?",
                 "<NEW_BOX>",
-                "The princess has merely recounted",
-                "the same view of the crime scene as",
-                "the head detective!"
+                "La princesse n'a fait que répéter la",
+                "même version de la scène que",
+                "l'inspectrice !"
               ],
               "Type": 0,
               "Position": 0
@@ -37513,8 +37516,8 @@
             {
               "Name": "DRAGMIRE60",
               "MessageTextLines": [
-                "You haven't been able to find any",
-                "<SOUND:HINT>contradictions in her statements!"
+                "Vous n'avez relevé aucune<SOUND:HINT> contradiction",
+                "dans ses déclarations !"
               ],
               "Type": 0,
               "Position": 0
@@ -37522,9 +37525,9 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "Ah, uh...<PAUSE:10> I believe there might be a",
-                "way to tie the princess's new",
-                "evidence into the case."
+                "Ah, euh...<PAUSE:10> Je pense qu'il y a peut-être",
+                "moyen de rattacher cette nouvelle",
+                "preuve de la princesse à l'affaire."
               ],
               "Type": 0,
               "Position": 0
@@ -37532,7 +37535,7 @@
             {
               "Name": "DRAGMIRE70",
               "MessageTextLines": [
-                "Ridiculous!<SOUND:EXPLOSION>"
+                "C'est tout bonnement absurde !<SOUND:EXPLOSION>"
               ],
               "Type": 0,
               "Position": 0
@@ -37540,9 +37543,9 @@
             {
               "Name": "JUDGE40",
               "MessageTextLines": [
-                "Regardless of what the prosecution",
-                "thinks,<PAUSE:5> the defence does have a right",
-                "to a cross-examination."
+                "Peu importe ce que pense l'accusation,<PAUSE:5> ",
+                "la défense a bel et bien le droit de",
+                "procéder à un contre-interrogatoire."
               ],
               "Type": 0,
               "Position": 0
@@ -37550,8 +37553,8 @@
             {
               "Name": "JUDGE45",
               "MessageTextLines": [
-                "The court admits the oil bottle into",
-                "evidence."
+                "Le flacon d'huile est admis comme",
+                "pièce à conviction."
               ],
               "Type": 0,
               "Position": 0
@@ -37559,8 +37562,8 @@
             {
               "Name": "COURTRECORD1",
               "MessageTextLines": [
-                "<SOUND:ITEMGET><SOUND:0><ICON:8><DI><SQUARE><R>Oil Bottle<G> added to the Court",
-                "Record."
+                "<SOUND:ITEMGET><SOUND:0><ICON:8><DI><SQUARE><R>Flacon d'huile<G> ajouté au Dossier",
+                "de l'affaire."
               ],
               "Type": 1,
               "Position": 2
@@ -37568,11 +37571,10 @@
             {
               "Name": "JUDGE50",
               "MessageTextLines": [
-                "I just really hope this isn't a complete",
-                "waste of time, Defence.",
+                "J'espère vraiment que ce ne sera",
+                "pas une perte de temps totale, Défense.",
                 "<NEW_BOX>",
-                "For both your own sake, and your",
-                "client's.<SQUARE>"
+                "Pour votre bien,<PAUSE:5> et celui de votre cliente.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -39893,8 +39895,8 @@
             {
               "Name": "DRAGMIRE40",
               "MessageTextLines": [
-                "The prosecution's stance is still the",
-                "same, of course."
+                "La position de l'accusation reste la",
+                "même, évidemment."
               ],
               "Type": 0,
               "Position": 0
@@ -39902,8 +39904,9 @@
             {
               "Name": "DRAGMIRE50",
               "MessageTextLines": [
-                "We maintain that the evidence on its",
-                "own is enough to convict the defendant."
+                "Nous maintenons que les preuves à",
+                "elles seules suffisent à condamner",
+                "l'accusée."
               ],
               "Type": 0,
               "Position": 0
@@ -39911,8 +39914,8 @@
             {
               "Name": "JUDGE50",
               "MessageTextLines": [
-                "Hmm... I do believe I am nearly ready",
-                "to hand down my<SOUND:HINT> verdict..."
+                "Hmm... Je pense être presque prêt",
+                "à prononcer mon <SOUND:HINT>verdict..."
               ],
               "Type": 0,
               "Position": 0
@@ -39920,9 +39923,9 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "<SOUND:WHAP>But, Your Honour!<PAUSE:10> There's nothing",
-                "that definitively shows that Malon",
-                "committed the crime!"
+                "<SOUND:WHAP>Mais, Votre Honneur !<PAUSE:10> Rien ne prouve",
+                "formellement que Malon ait commis",
+                "ce crime !"
               ],
               "Type": 0,
               "Position": 0
@@ -39930,9 +39933,9 @@
             {
               "Name": "LINK40",
               "MessageTextLines": [
-                "<DI><SOUND:WHAP>This is all circumstantial!<PAUSE:10> ",
-                "<DC>There's no way she could kill her own",
-                "father!"
+                "<DI><SOUND:WHAP>Toutes ces preuves sont",
+                "circonstancielles !<PAUSE:10> <DC>Elle n'aurait jamais",
+                "pu tuer son propre père !"
               ],
               "Type": 0,
               "Position": 0
@@ -39940,7 +39943,7 @@
             {
               "Name": "JUDGE60",
               "MessageTextLines": [
-                "Ah, that is an<SOUND:HINT> excellent point, Defence!"
+                "Ah, voilà un <SOUND:HINT>excellent point, Défense !"
               ],
               "Type": 0,
               "Position": 0
@@ -39948,8 +39951,8 @@
             {
               "Name": "JUDGE70",
               "MessageTextLines": [
-                "The prosecution has yet to elaborate",
-                "on the defendant's motive!"
+                "L'accusation n'a toujours pas expliqué",
+                "le mobile de l'accusée !"
               ],
               "Type": 0,
               "Position": 0
@@ -39957,8 +39960,8 @@
             {
               "Name": "JUDGE80",
               "MessageTextLines": [
-                "Patricide is not something a person",
-                "<SOUND:CLUE>commits lightly..."
+                "On ne commet pas un",
+                "<SOUND:CLUE>parricide sans raison valable..."
               ],
               "Type": 0,
               "Position": 0
@@ -39966,8 +39969,8 @@
             {
               "Name": "DRAGMIRE60",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Bah!<PAUSE:5> I did briefly touch on the subject",
-                "during my opening statement..."
+                "<SOUND:EXPLOSION>Bah !<PAUSE:5> J'avais brièvement abordé le",
+                "sujet dans ma déclaration d'ouverture..."
               ],
               "Type": 0,
               "Position": 0
@@ -39975,8 +39978,8 @@
             {
               "Name": "DRAGMIRE70",
               "MessageTextLines": [
-                "But, naturally,<PAUSE:10><SOUND:CLUE> the prosecution is fully",
-                "prepared to elaborate on the matter."
+                "Mais, naturellement,<PAUSE:10><SOUND:CLUE> l'accusation est",
+                "parfaitement prête à développer le sujet."
               ],
               "Type": 0,
               "Position": 0
@@ -39984,7 +39987,8 @@
             {
               "Name": "DRAGMIRE80",
               "MessageTextLines": [
-                "I would like to call in my third witness!"
+                "Je souhaite appeler mon troisième",
+                "témoin !"
               ],
               "Type": 0,
               "Position": 0
