@@ -77141,9 +77141,9 @@
             {
               "Name": "INGO20",
               "MessageTextLines": [
-                "Grrrrhhhhhhhnnnngnhghhhhhh~~~!",
+                "Grrrrhhhhhhhnnnngnhghhhhhh~~~ !",
                 "<NEW_BOX>",
-                "Grgghhhh...<PAUSE:3> this is...<PAUSE:3> <DI><SOUND:EXPLOSION>slander!"
+                "Grgghhhh...<PAUSE:3> c'est...<PAUSE:3> <DI><SOUND:EXPLOSION>de la diffamation !"
               ],
               "Type": 0,
               "Position": 0
@@ -77151,7 +77151,7 @@
             {
               "Name": "INGO30",
               "MessageTextLines": [
-                "Why would I...<PAUSE:3> <SOUND:CLUE>kill...<PAUSE:3> Talon?!"
+                "Pourquoi est-ce que je...<PAUSE:3> <SOUND:CLUE>tuerais...<PAUSE:3> Talon ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -77159,9 +77159,9 @@
             {
               "Name": "INGO40",
               "MessageTextLines": [
-                "Sure, he's a bit of a layabout, but he",
-                "did give me a job!<PAUSE:3> Why would I want",
-                "him dead?!"
+                "Bon, c'est pas le plus bosseur du coin,",
+                "mais il m'a filé un boulot !<PAUSE:3>",
+                "Pourquoi j'voudrais le voir mort ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -77169,7 +77169,7 @@
             {
               "Name": "LINK140",
               "MessageTextLines": [
-                "<SOUND:HINT>The motive?"
+                "<SOUND:HINT>Le mobile ?"
               ],
               "Type": 0,
               "Position": 0
@@ -77177,8 +77177,9 @@
             {
               "Name": "LINK150",
               "MessageTextLines": [
-                "That's simple.<PAUSE:5> <SOUND:CLUE>Why, I'm surprised",
-                "you're even asking about it."
+                "C'est évident.<PAUSE:5> <SOUND:CLUE>Franchement, je suis",
+                "étonné que vous posiez encore la",
+                "question."
               ],
               "Type": 0,
               "Position": 0
@@ -77194,8 +77195,8 @@
             {
               "Name": "LINK160",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI><G>This evidence easily explains your",
-                "motive!<PERSISTENT>"
+                "<SOUND:WHAP><DI><G>Cette preuve explique clairement votre",
+                "mobile !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -77203,7 +77204,7 @@
             {
               "Name": "F2_INGO10",
               "MessageTextLines": [
-                "Bah hah!<PAUSE:3> That doesn't explain anything!"
+                "Bah hah !<PAUSE:3> Ça n'explique rien du tout !"
               ],
               "Type": 0,
               "Position": 0
@@ -77211,7 +77212,7 @@
             {
               "Name": "F2_LINK10",
               "MessageTextLines": [
-                "Errrr..."
+                "Euhhh..."
               ],
               "Type": 0,
               "Position": 0
@@ -77219,9 +77220,9 @@
             {
               "Name": "F2_INGO20",
               "MessageTextLines": [
-                "Out of aces to pull out of your sleeve?<PAUSE:3> ",
-                "Maybe you're gonna call some cows",
-                "to testify against me next? Hohohoho..."
+                "Plus de cartes dans votre manche ?<PAUSE:3> ",
+                "Vous allez faire témoigner des vaches",
+                "contre moi, maintenant ? Hohohoho..."
               ],
               "Type": 0,
               "Position": 0
@@ -77229,11 +77230,11 @@
             {
               "Name": "F2_LINK20",
               "MessageTextLines": [
-                "Hey, cows are very intelligent, you",
-                "know!",
+                "Hé, les vaches sont très intelligentes,",
+                "vous savez !",
                 "<NEW_BOX>",
-                "They CAN talk if you play them some",
-                "nice music..."
+                "Elles PEUVENT parler si on leur joue",
+                "de la bonne musique..."
               ],
               "Type": 0,
               "Position": 0
@@ -77241,11 +77242,11 @@
             {
               "Name": "F2_INGO30",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Nonsense!<PAUSE:3> They're just animals driven",
-                "by primal instincts!",
+                "<SOUND:EXPLOSION><DI>Balivernes !<PAUSE:3> Ce sont juste des bêtes",
+                "poussées par des instincts primitifs !",
                 "<NEW_BOX>",
-                "I've worked with them for years, I",
-                "would've noticed!"
+                "Je bosse avec elles depuis des années,",
+                "je l'aurais vu venir !"
               ],
               "Type": 0,
               "Position": 0
@@ -77253,9 +77254,9 @@
             {
               "Name": "F2_INGO40",
               "MessageTextLines": [
-                "There's...<PAUSE:3> no way you're telling the",
-                "truth!<PAUSE:3> You're just trying to get a rise",
-                "out of me!"
+                "Il n'y a...<PAUSE:3> aucune chance que vous",
+                "disiez la vérité !<PAUSE:3> Vous essayez juste",
+                "de me faire sortir de mes gonds !"
               ],
               "Type": 0,
               "Position": 0
@@ -77263,12 +77264,12 @@
             {
               "Name": "F2_JUDGE10",
               "MessageTextLines": [
-                "Defence, transporting the cows all the",
-                "way across Hyrule Field and into the",
-                "courtroom would be quite stressful for",
-                "them.",
+                "Défense, transporter les vaches à",
+                "travers toute la plaine d'Hyrule jusque",
+                "dans la salle d'audience serait assez",
+                "traumatisant pour ces vaches.",
                 "<NEW_BOX>",
-                "I'll have to overrule that idea."
+                "Je vais devoir rejeter cette idée."
               ],
               "Type": 0,
               "Position": 0
@@ -77276,7 +77277,7 @@
             {
               "Name": "F2_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C><DI><SOUND:WHAP>(I never suggested doing that!)"
+                "<SOUND:0><C><DI><SOUND:WHAP>(Je n'ai jamais proposé de faire ça !)"
               ],
               "Type": 0,
               "Position": 0
@@ -77284,7 +77285,7 @@
             {
               "Name": "F2_LINK40",
               "MessageTextLines": [
-                "Never mind. Back to the topic at hand!"
+                "Peu importe. Revenons à nos moutons !"
               ],
               "Type": 0,
               "Position": 0
@@ -77292,18 +77293,18 @@
             {
               "Name": "LINK170",
               "MessageTextLines": [
-                "The very inheritance document you",
-                "brought to the court's attention states",
-                "the following:",
+                "Le document d'héritage que vous",
+                "avez soumis à la cour indique",
+                "clairement :",
                 "<NEW_BOX>",
-                "\"In case of the testator's death, his",
-                "daughter, Malon of Lon Lon Ranch,",
-                "will inherit the ranch.\"",
+                "\"En cas de décès du testateur, sa",
+                "fille, Malon du Ranch Lon Lon,",
+                "héritera du domaine.\"",
                 "<NEW_BOX>",
-                "\"Unless she is unable to oversee it,",
-                "in which case it shall be divided",
-                "between the Crown and the remaining",
-                "employees.\""
+                "\"Sauf si elle est dans l'incapacité de",
+                "le gérer, auquel cas il sera partagé",
+                "entre la Couronne et les employés",
+                "restants.\""
               ],
               "Type": 0,
               "Position": 0
@@ -77311,7 +77312,7 @@
             {
               "Name": "JUDGE30",
               "MessageTextLines": [
-                "<SOUND:HINT><DI>Ah!"
+                "<SOUND:HINT><DI>Ah !"
               ],
               "Type": 0,
               "Position": 0
@@ -77319,7 +77320,7 @@
             {
               "Name": "INGO60",
               "MessageTextLines": [
-                "<PAUSE:5><DC>.<PAUSE:3><DC>.<PAUSE:3><DC>.<PAUSE:3><DC><DI><SOUND:DON>Whaaaaaaaaaaaaaaaaat?!"
+                "<PAUSE:5><DC>.<PAUSE:3><DC>.<PAUSE:3><DC>.<PAUSE:3><DC><DI><SOUND:DON>Quoooooooooooooooooi ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -77327,10 +77328,10 @@
             {
               "Name": "LINK200",
               "MessageTextLines": [
-                "<DI><SOUND:DON>You not only killed Talon, but decided",
-                "to frame Malon for the crime as well,",
-                "so YOU would be the one to inherit",
-                "part of the ranch!"
+                "<DI><SOUND:DON>Vous n'avez pas seulement tué Talon,",
+                "vous avez aussi décidé de faire accuser",
+                "Malon pour le crime, histoire que VOUS",
+                "puissiez hériter d'une partie du ranch !"
               ],
               "Type": 0,
               "Position": 0
@@ -77338,15 +77339,17 @@
             {
               "Name": "LINK210",
               "MessageTextLines": [
-                "That's why you volunteered to work",
-                "in the silo all day!<PAUSE:3> It gave you an alibi",
-                "so that Malon would be the only",
-                "possible culprit!",
+                "C'est pour ça que vous vous êtes porté",
+                "volontaire pour travailler dans le silo toute",
+                "la journée !",
                 "<NEW_BOX>",
-                "Of course you knew about the royal",
-                "visitation in advance. You knew Malon",
-                "would go back to the ranch house to",
-                "prepare before they arrived."
+                "Ça vous a donné un alibi, laissant Malon",
+                "comme seule suspecte possible !",
+                "<NEW_BOX>",
+                "Bien sûr, vous saviez pour la",
+                "visite royale à l'avance. Vous saviez que",
+                "Malon allait revenir à la maison du ranch",
+                "pour tout préparer."
               ],
               "Type": 0,
               "Position": 0
@@ -77354,8 +77357,8 @@
             {
               "Name": "LINK230",
               "MessageTextLines": [
-                "A perfect setup for the royals to find",
-                "her next to the body!"
+                "Un plan parfait pour que les royaux",
+                "la trouvent à côté du corps !"
               ],
               "Type": 0,
               "Position": 0
@@ -77363,7 +77366,7 @@
             {
               "Name": "INGO70",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>No!<PAUSE:3> <SOUND:WHAP><DI>No!<PAUSE:3> <SOUND:DON><DI>Noooo!"
+                "<SOUND:WHAP><DI>Non !<PAUSE:3> <SOUND:WHAP><DI>Non !<PAUSE:3> <SOUND:DON><DI>Noooooon !"
               ],
               "Type": 0,
               "Position": 0
@@ -77371,8 +77374,8 @@
             {
               "Name": "INGO80",
               "MessageTextLines": [
-                "What are you talking about?<PAUSE:3> ",
-                "Talon, signing the ranch over to me?!"
+                "De quoi vous parlez ?<PAUSE:3> ",
+                "Talon, qui me lègue le ranch ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -77380,7 +77383,7 @@
             {
               "Name": "INGO90",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Preposterous!"
+                "<SOUND:EXPLOSION><DI>C'est absurde !"
               ],
               "Type": 0,
               "Position": 0
@@ -77388,11 +77391,10 @@
             {
               "Name": "LINK240",
               "MessageTextLines": [
-                "<SOUND:0><C>(Did he... <SOUND:CLUE>really not know...?)",
+                "<SOUND:0><C>(Est-ce qu'il... <SOUND:CLUE>ne savait vraiment pas... ?)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(I guess it WAS Dragmire who",
-                "procured the actual document, not",
-                "him.)"
+                "<SOUND:0><C>(J'imagine que c'est Dragmire",
+                "qui a produit le document, pas lui.)"
               ],
               "Type": 0,
               "Position": 0
@@ -77400,7 +77402,7 @@
             {
               "Name": "SOLDIER10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Your Honour!"
+                "<SOUND:WHAP><DI>Votre Honneur !"
               ],
               "Type": 0,
               "Position": 0
@@ -77408,7 +77410,7 @@
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
-                "What is it, <SOUND:CLUE>soldier?"
+                "Qu'y a-t-il, <SOUND:CLUE>soldat ?"
               ],
               "Type": 0,
               "Position": 0
@@ -77416,7 +77418,8 @@
             {
               "Name": "SOLDIER20",
               "MessageTextLines": [
-                "The box you requested is here!"
+                "La boîte que vous avez demandée",
+                "est arrivée !"
               ],
               "Type": 0,
               "Position": 0
@@ -77424,7 +77427,7 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "<SOUND:CLUE>Already?<PAUSE:3> That was quite fast..."
+                "<SOUND:CLUE>Déjà ?<PAUSE:3> C'était rapide..."
               ],
               "Type": 0,
               "Position": 0
@@ -77432,13 +77435,12 @@
             {
               "Name": "SOLDIER30",
               "MessageTextLines": [
-                "Apparently the team at the ranch had",
-                "already noticed something awry with",
-                "it on their own.",
+                "Apparemment, l'équipe au ranch avait",
+                "déjà remarqué quelque chose d'anormal.",
                 "<NEW_BOX>",
-                "The box arrived just as we were",
-                "about to rush out a courier to deliver",
-                "our message."
+                "La boîte est arrivée juste quand on",
+                "allait envoyer un coursier avec notre",
+                "message."
               ],
               "Type": 0,
               "Position": 0
@@ -77446,8 +77448,8 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "Well, well, well.<PAUSE:3> Let's see for ourselves,",
-                "then, shall we?"
+                "Tiens, tiens, tiens.<PAUSE:3> Voyons cela",
+                "nous-mêmes, d'accord ?"
               ],
               "Type": 0,
               "Position": 0
@@ -77455,8 +77457,8 @@
             {
               "Name": "LINK15",
               "MessageTextLines": [
-                "<G>The part of the shipment that proves",
-                "my case is...<FADE:30>"
+                "<G>La partie de la cargaison qui prouve",
+                "mon argument est...<FADE:30>"
               ],
               "Type": 0,
               "Position": 0
@@ -77464,7 +77466,7 @@
             {
               "Name": "F_LINK10",
               "MessageTextLines": [
-                "<SOUND:0><C>(...Nothing there.)"
+                "<SOUND:0><C>(...Il n'y a rien ici.)"
               ],
               "Type": 0,
               "Position": 0
@@ -77472,8 +77474,8 @@
             {
               "Name": "F_DRAGMIRE10",
               "MessageTextLines": [
-                "...Oh, is your theory not working out",
-                "after all?"
+                "... Oh, votre théorie ne tiendrait pas la",
+                "route après tout ?"
               ],
               "Type": 0,
               "Position": 0
@@ -77481,7 +77483,8 @@
             {
               "Name": "F_DRAGMIRE20",
               "MessageTextLines": [
-                "Or are you just wasting time?"
+                "Ou êtes-vous simplement en train de",
+                "nous faire perdre du temps ?"
               ],
               "Type": 0,
               "Position": 0
@@ -77489,8 +77492,8 @@
             {
               "Name": "F_JUDGE10",
               "MessageTextLines": [
-                "Either way, you should take this",
-                "penalty."
+                "Quoi qu'il en soit, vous méritez cette",
+                "pénalité."
               ],
               "Type": 0,
               "Position": 0
@@ -77498,7 +77501,7 @@
             {
               "Name": "F_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(C'mon now, don't overthink this...)"
+                "<SOUND:0><C>(Aller, faut pas se prendre la tête...)"
               ],
               "Type": 0,
               "Position": 0
@@ -77506,9 +77509,9 @@
             {
               "Name": "F_LINK30",
               "MessageTextLines": [
-                "Uh...<PAUSE:2> sorry, I...<PAUSE:2> had a sudden finger",
-                "cramp, and...<PAUSE:3> <SPEED:101>pointed the wrong way.<PAUSE:0><SHIFT:0><PAUSE:2> ",
-                "<SPEED:2>...Yeah.<SPEED:1><SPEED:102>"
+                "Euh...<PAUSE:2> désolé, j'ai...<PAUSE:2> eu une crampe",
+                "au doigt, et...<PAUSE:3> <SPEED:101>j'ai pointé du mauvais côté.<PAUSE:0><SHIFT:0><PAUSE:2> ",
+                "<SPEED:2>...Ouais.<SPEED:1><SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -77516,9 +77519,9 @@
             {
               "Name": "F_LINK40",
               "MessageTextLines": [
-                "...A-anyway,<PAUSE:2> as I was saying,<PAUSE:3> <G>the",
-                "part of the shipment that proves my",
-                "case is...<FADE:30>"
+                "...E-enfin bref,<PAUSE:2> comme je disais,<PAUSE:3> <G>la",
+                "partie de la cargaison qui prouve mon",
+                "point, c'est...<FADE:30>"
               ],
               "Type": 0,
               "Position": 0
@@ -77526,8 +77529,9 @@
             {
               "Name": "MALONcbf_10",
               "MessageTextLines": [
-                "No, wait, it's not that!<PAUSE:5> ",
-                "It must be the bottle that's tinted red!"
+                "Non, attend, ce n'est pas ça !<PAUSE:5> ",
+                "Ça doit être la bouteille avec une",
+                "teinte rougeâtre !"
               ],
               "Type": 0,
               "Position": 0
@@ -77535,8 +77539,8 @@
             {
               "Name": "LINKcbf_10",
               "MessageTextLines": [
-                "Hmm...?<PAUSE:5> Oh!<PAUSE:5> ",
-                "...Uh, yeah, that's what I meant!"
+                "Hmm...?<PAUSE:5> Oh !<PAUSE:5> ",
+                "...Euh, oui, c'est ce que je voulais dire !"
               ],
               "Type": 0,
               "Position": 0
@@ -77544,8 +77548,8 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "Here it is!<PAUSE:5> From the bottle with a slight",
-                "red tint to the milk!"
+                "La voilà !<PAUSE:5> La bouteille avec une légère",
+                "teinte rouge dans le lait !"
               ],
               "Type": 0,
               "Position": 0
@@ -77553,9 +77557,9 @@
             {
               "Name": "LINK25",
               "MessageTextLines": [
-                "Looks like some kind of <SOUND:HINT>serrated knife.<PAUSE:5> ",
-                "That explains the irregular wound",
-                "pretty nicely."
+                "On dirait une sorte de <SOUND:HINT>couteau dentelé.<PAUSE:5> ",
+                "Ça explique plutôt bien la blessure",
+                "irrégulière."
               ],
               "Type": 0,
               "Position": 0
@@ -77563,8 +77567,8 @@
             {
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>How could those Sheikah idiots have",
-                "missed this?!"
+                "<SOUND:EXPLOSION><DI>Comment ces crétins de Sheikah ont-ils",
+                "pu rater ça ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -77572,9 +77576,10 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "I'm sure the milk was pure white when",
-                "they first checked it.<PAUSE:3> It took a whole",
-                "day for the blood to dissolve in it."
+                "Je suis certain que le lait était tout blanc",
+                "quand ils l'ont vérifié au départ.<PAUSE:3>",
+                "Il a fallu une journée entière pour que",
+                "le sang se dissolve."
               ],
               "Type": 0,
               "Position": 0
@@ -77582,8 +77587,9 @@
             {
               "Name": "LINK40",
               "MessageTextLines": [
-                "<DI><SOUND:DON>Either way, no matter how you slice it,",
-                "this proves my theory right!"
+                "<DI><SOUND:DON>Quoi qu'il en soit, peu importe comment",
+                "vous retournez ça, ça prouve que",
+                "j'avais raison !"
               ],
               "Type": 0,
               "Position": 0
@@ -77599,8 +77605,8 @@
             {
               "Name": "INGO100",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Ohh, I've had it!<PAUSE:5> <SOUND:WHAP>Fine!<PAUSE:3> <SOUND:WHAP>Fine!<PAUSE:3> ",
-                "You wanna know why?!"
+                "<SOUND:EXPLOSION>Ohh, j'en ai marre !<PAUSE:5> <SOUND:WHAP>Très bien !<PAUSE:3> <SOUND:WHAP>Très bien !<PAUSE:3> ",
+                "Vous voulez savoir pourquoi ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -77608,8 +77614,8 @@
             {
               "Name": "INGO110",
               "MessageTextLines": [
-                "You wanna know why I<PAUSE> <SPEED:101>really<PAUSE><SPEED:102> killed",
-                "that <PAUSE:3><SOUND:WHAP><DI>scumbag?!"
+                "Vous voulez savoir pourquoi j'ai<PAUSE><SPEED:102> tué",
+                "ce <PAUSE:3><SOUND:WHAP><DI>sac à merde ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -77617,7 +77623,7 @@
             {
               "Name": "DRAGMIRE80",
               "MessageTextLines": [
-                "No!<PAUSE:5> <SOUND:EXPLOSION><DI>NO! What are you<EMDASH><FADE:20>"
+                "Non !<PAUSE:5> <SOUND:EXPLOSION><DI>NON ! Qu'est-ce que vous<EMDASH><FADE:20>"
               ],
               "Type": 0,
               "Position": 0
@@ -77625,7 +77631,7 @@
             {
               "Name": "MALON10",
               "MessageTextLines": [
-                "So...<PAUSE:3> so you admit it?!"
+                "Alors...<PAUSE:3> vous l'admettez ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -77633,11 +77639,11 @@
             {
               "Name": "INGO120",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Yes!<PAUSE:3> Yes, I admit it!",
+                "<SOUND:EXPLOSION>Oui !<PAUSE:3> Oui, je l'admets !",
                 "<NEW_BOX>",
-                "What would YOU do, if,<PAUSE:2> one day,<PAUSE:2> after",
-                "YEARS of backbreaking labour,<PAUSE:2> despite",
-                "putting your<PAUSE:5><DI> ALL<PAUSE:5> into the ranch..."
+                "Qu'est-ce que VOUS auriez fait, si,<PAUSE:2> un jour,<PAUSE:2>",
+                "après DES ANNÉES de boulot pénible,<PAUSE:2> après",
+                "avoir mis votre<PAUSE:5><DI> TOUT<PAUSE:5> dans ce fichu ranch..."
               ],
               "Type": 0,
               "Position": 0
@@ -77645,9 +77651,9 @@
             {
               "Name": "INGO130",
               "MessageTextLines": [
-                "...you were thrown away like rubbish!<PAUSE:8> ",
-                "<SOUND:WHAP><DI>Without any reason!<PAUSE:12> <DI>Fired!<PAUSE:12> Farewell,<PAUSE:3> ",
-                "<DI>we<PAUSE:2><SHIFT:0><DI> don't<PAUSE:2><SHIFT:0><DI> need<PAUSE:2><SHIFT:0><DI> you<PAUSE:2><SHIFT:0><DI><SOUND:WHAP> anymore!"
+                "...on vous jetait comme un déchet !<PAUSE:8> ",
+                "<SOUND:WHAP><DI>Sans la moindre raison !<PAUSE:12> <DI>VIRÉ !<PAUSE:12> Adieu,<PAUSE:3> ",
+                "<DI>on<PAUSE:2><SHIFT:0><DI> n'a<PAUSE:2><SHIFT:0><DI> plus<PAUSE:2><SHIFT:0><DI> besoin<PAUSE:2><SHIFT:0><DI><SOUND:WHAP> de toi !"
               ],
               "Type": 0,
               "Position": 0
@@ -77655,8 +77661,8 @@
             {
               "Name": "MALON20",
               "MessageTextLines": [
-                "...What?<PAUSE:3> ",
-                "But that doesn't make any sense..."
+                "...Quoi ?<PAUSE:3> ",
+                "Mais ça n'a aucun sens..."
               ],
               "Type": 0,
               "Position": 0
@@ -77664,7 +77670,7 @@
             {
               "Name": "INGO140",
               "MessageTextLines": [
-                "<SOUND:NA_SE_VO_IN_LASH_1>Ho ho!<PAUSE:3> Don't lie!<PAUSE:3> <SOUND:EXPLOSION><DI>I heard it all!"
+                "<SOUND:NA_SE_VO_IN_LASH_1>Ho ho !<PAUSE:3> Ne mentez pas !<PAUSE:3> <SOUND:EXPLOSION><DI>J'ai tout entendu !"
               ],
               "Type": 0,
               "Position": 0
@@ -77672,9 +77678,9 @@
             {
               "Name": "INGO150",
               "MessageTextLines": [
-                "I was just returning back from another",
-                "day of <PAUSE:2><SHIFT:0><DI>SPINE<PAUSE:3><SHIFT:0><DI>-WRENCHING<PAUSE:3> <DI>WORK<PAUSE:4>, and,",
-                "lo and behold, what's this?!"
+                "Je rentrais d'une autre journée de ",
+                "<PAUSE:2><SHIFT:0><DI>TRAVAIL<PAUSE:3><SHIFT:0><DI> ÉCRASANT<PAUSE:3> <DI>ET ÉPUISANT<PAUSE:4>, et là,",
+                "qu'est-ce que je j'entend ?"
               ],
               "Type": 0,
               "Position": 0
@@ -77682,10 +77688,10 @@
             {
               "Name": "INGO160",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Malon and Talon are talking behind",
-                "my back!",
+                "<SOUND:WHAP><DI>Malon et Talon en train de parler dans",
+                "mon dos !",
                 "<NEW_BOX>",
-                "I heard it all!"
+                "J'ai tout entendu !"
               ],
               "Type": 0,
               "Position": 0
@@ -77693,9 +77699,9 @@
             {
               "Name": "INGO170",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>\"We'll let him go after the visitation!\"",
+                "<SOUND:WHAP><DI>\"On le laissera partir après la visite royale !\"",
                 "<NEW_BOX>",
-                "<SOUND:WHAP><DI>\"We can handle things without him!\""
+                "<SOUND:WHAP><DI>\"On peut s'en sortir sans lui !\""
               ],
               "Type": 0,
               "Position": 0
@@ -77703,11 +77709,11 @@
             {
               "Name": "INGO172",
               "MessageTextLines": [
-                "And so...",
-                "<NEW_BOX>After volunteering to work on that",
-                "shipment, I quietly slipped out while",
-                "the girl was busy, and shanked the",
-                "good-for-nothing slacker."
+                "Alors...",
+                "<NEW_BOX>Après m'être porté volontaire pour ce",
+                "chargement, je me suis discrètement",
+                "éclipsé pendant que la fille était occupée,",
+                "et j'ai planté ce bon à rien de feignant."
               ],
               "Type": 0,
               "Position": 0
@@ -77715,8 +77721,8 @@
             {
               "Name": "INGO175",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Hah!<PAUSE:3> You should've seen his face!<PAUSE:3> ",
-                "He didn't expect it at all!"
+                "<SOUND:WHAP><DI>Hah !<PAUSE:3> Vous auriez dû voir sa tête !<PAUSE:3> ",
+                "Il s'y attendait pas du tout !"
               ],
               "Type": 0,
               "Position": 0
@@ -77724,8 +77730,8 @@
             {
               "Name": "INGO180",
               "MessageTextLines": [
-                "So, yes, MALON.<PAUSE:3> I killed that lazy bum",
-                "you called a father!"
+                "Donc oui, MALON.<PAUSE:3> J'ai tué cette",
+                "feignasse que tu appelais ton père !"
               ],
               "Type": 0,
               "Position": 0
@@ -77733,7 +77739,7 @@
             {
               "Name": "INGO190",
               "MessageTextLines": [
-                "<NS><SPEED:101><SOUND:0>And he <SPEED:2>DESERVED IT<SPEED:0>.<SPEED:102><FADE:60>"
+                "<NS><SPEED:101><SOUND:0>Et il <SPEED:2>L'AVAIT BIEN MÉRITÉ<SPEED:0>.<SPEED:102><FADE:60>"
               ],
               "Type": 0,
               "Position": 0
@@ -77741,8 +77747,8 @@
             {
               "Name": "JUDGE40",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Order!<DC> <PAUSE:5>The witness will cease his",
-                "boasting over such a terrible deed!"
+                "<SOUND:EXPLOSION><DI>Silence !<DC> <PAUSE:5>Le témoin va cesser de se",
+                "vanter d'un acte aussi abominable !"
               ],
               "Type": 0,
               "Position": 0
@@ -77750,8 +77756,8 @@
             {
               "Name": "JUDGE50",
               "MessageTextLines": [
-                "I think we've heard enough!<PAUSE:5> ",
-                "Soldiers, take him away!<FADE:20>"
+                "Je pense qu'on a assez entendu !<PAUSE:5> ",
+                "Soldats, emmenez-le !<FADE:20>"
               ],
               "Type": 0,
               "Position": 0
@@ -77759,7 +77765,7 @@
             {
               "Name": "MALON30",
               "MessageTextLines": [
-                "<DI>Wait just a moment!"
+                "<DI>Attendez un instant !"
               ],
               "Type": 0,
               "Position": 0
@@ -77775,8 +77781,8 @@
             {
               "Name": "INGO200",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Yes, girl?<DC> <PAUSE:4>Want to apologise for what",
-                "you've done?"
+                "<SOUND:WHAP><DI>Oui, fillette ?<DC> <PAUSE:4>Tu veux t'excuser pour ce",
+                "que tu as fait ?"
               ],
               "Type": 0,
               "Position": 0
@@ -77784,11 +77790,11 @@
             {
               "Name": "MALON50",
               "MessageTextLines": [
-                "Apologise?!<PAUSE:3> Me?!<PAUSE:5> <SOUND:EXPLOSION>You're horrible!",
+                "M'excuser ?!<PAUSE:3><SOUND:WHAP> MOI ?!<PAUSE:5> <SOUND:EXPLOSION>Tu es immonde !",
                 "<NEW_BOX>",
-                "We weren't planning to fire you at all!<PAUSE:3> ",
-                "<SOUND:WHAP><DI>You completely misunderstood what",
-                "we were saying!"
+                "On n'avait jamais prévu de te virer !<PAUSE:3> ",
+                "<SOUND:WHAP><DI>Tu as complètement mal compris ce",
+                "qu'on disait !"
               ],
               "Type": 0,
               "Position": 0
@@ -77796,7 +77802,7 @@
             {
               "Name": "INGO210",
               "MessageTextLines": [
-                "<SOUND:CLUE>...Whuh?<SQUARE>"
+                "<SOUND:CLUE>...Hein ?<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
