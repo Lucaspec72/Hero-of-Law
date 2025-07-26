@@ -63740,7 +63740,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"The Murder Weapon\"<FADE:38>"
+                "<NS><SOUND:0><LC><R>\"L'arme du crime\"<FADE:38>"
               ],
               "Type": 0,
               "Position": 0
@@ -63748,9 +63748,9 @@
             {
               "Name": "DRAGMIRE1",
               "MessageTextLines": [
-                "<G>You lack the murder weapon!<PAUSE:5> ",
-                "If Ingo was the murderer, then",
-                "it couldn't have been the saw!<PERSISTENT>"
+                "<G>Il vous manque l'arme du crime !<PAUSE:5> ",
+                "Si Ingo était le meurtrier, alors",
+                "ça ne pouvait pas être la scie !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -63758,9 +63758,9 @@
             {
               "Name": "DI_DRAGMIRE1",
               "MessageTextLines": [
-                "<G><DI>You lack the murder weapon!",
-                "If Ingo was the murderer, then",
-                "it couldn't have been the saw!<PERSISTENT>"
+                "<G><DI>Il vous manque l'arme du crime !",
+                "Si Ingo était le meurtrier, alors",
+                "ça ne pouvait pas être la scie !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -63768,8 +63768,8 @@
             {
               "Name": "DRAGMIRE2",
               "MessageTextLines": [
-                "<G>Where would this supposed other",
-                "murder weapon have even come from?!<PERSISTENT>"
+                "<G>D'où aurait bien pu provenir cette",
+                "autre arme du crime supposée ?!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -63777,8 +63777,8 @@
             {
               "Name": "DI_DRAGMIRE2",
               "MessageTextLines": [
-                "<G><DI>Where would this supposed other",
-                "murder weapon have even come from?!<PERSISTENT>"
+                "<G><DI>D'où aurait bien pu provenir cette",
+                "autre arme du crime supposée ?!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -63786,9 +63786,10 @@
             {
               "Name": "DRAGMIRE3",
               "MessageTextLines": [
-                "<G>We checked all sharp objects on the",
-                "ranch and searched everyone! No",
-                "fresh blood was found anywhere else!<PERSISTENT>"
+                "<G>Nous avons vérifié tous les objets",
+                "tranchants du ranch et fouillé tout le",
+                "monde ! Aucune trace de sang frais",
+                "n'a été trouvée ailleurs !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -63796,9 +63797,10 @@
             {
               "Name": "DI_DRAGMIRE3",
               "MessageTextLines": [
-                "<G><DI>We checked all sharp objects on the",
-                "ranch and searched everyone! No",
-                "fresh blood was found anywhere else!<PERSISTENT>"
+                "<G><DI>Nous avons vérifié tous les objets",
+                "tranchants du ranch et fouillé tout le",
+                "monde ! Aucune trace de sang frais",
+                "n'a été trouvée ailleurs !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -63806,9 +63808,9 @@
             {
               "Name": "DRAGMIRE4",
               "MessageTextLines": [
-                "<G>No items from the ranch's inventory",
-                "list were missing, and that list is",
-                "indisputable!<PERSISTENT>"
+                "<G>Aucun article de la liste d'inventaire",
+                "du ranch ne manquait à l'appel, et cette",
+                "liste est incontestable !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -63816,9 +63818,9 @@
             {
               "Name": "DI_DRAGMIRE4",
               "MessageTextLines": [
-                "<G><DI>No items from the ranch's inventory",
-                "list were missing, and that list is",
-                "indisputable!<PERSISTENT>"
+                "<G><DI>Aucun article de la liste d'inventaire",
+                "du ranch ne manquait à l'appel, et cette",
+                "liste est incontestable !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -63826,7 +63828,7 @@
             {
               "Name": "DRAGMIRE5",
               "MessageTextLines": [
-                "<G>Nothing could have left the ranch!<PERSISTENT>"
+                "<G>Rien n'aurait pu quitter le ranch !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -63834,7 +63836,7 @@
             {
               "Name": "DI_DRAGMIRE5",
               "MessageTextLines": [
-                "<G><DI>Nothing could have left the ranch!<PERSISTENT>"
+                "<G><DI>Rien n'aurait pu quitter le ranch !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -63842,9 +63844,9 @@
             {
               "Name": "DRAGMIRE6",
               "MessageTextLines": [
-                "<G>A weapon in a milk bottle wouldn't just",
-                "go unnoticed! Someone would have",
-                "reported it!<PERSISTENT>"
+                "<G>Une arme dans une bouteille de lait",
+                "ne passerait pas inaperçue !",
+                "Quelqu'un l'aurait signalée !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -63852,9 +63854,9 @@
             {
               "Name": "DI_DRAGMIRE6",
               "MessageTextLines": [
-                "<G><DI>A weapon in a milk bottle wouldn't just",
-                "go unnoticed! Someone would have",
-                "reported it!<PERSISTENT>"
+                "<G><DI>Une arme dans une bouteille de lait",
+                "ne passerait pas inaperçue !",
+                "Quelqu'un l'aurait signalée !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -63862,7 +63864,7 @@
             {
               "Name": "1_LINK10",
               "MessageTextLines": [
-                "<SOUND:CLUE>And why is that?"
+                "<SOUND:CLUE>Et pourquoi donc ?"
               ],
               "Type": 0,
               "Position": 0
@@ -63870,7 +63872,7 @@
             {
               "Name": "1_DRAGMIRE10",
               "MessageTextLines": [
-                "It's simple."
+                "C'est on ne peut plus simple."
               ],
               "Type": 0,
               "Position": 0
@@ -63878,10 +63880,10 @@
             {
               "Name": "1_DRAGMIRE20",
               "MessageTextLines": [
-                "If the girl's story about working on the",
-                "fence is true, then she was using the",
-                "saw while her father was being",
-                "murdered!"
+                "Si l'histoire de la fille concernant la",
+                "clôture est vraie, alors elle utilisait",
+                "la scie au moment où son père",
+                "se faisait tuer !"
               ],
               "Type": 0,
               "Position": 0
@@ -63889,8 +63891,8 @@
             {
               "Name": "1_DRAGMIRE40",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>It couldn't have been in two places at",
-                "the same time!"
+                "<SOUND:EXPLOSION><DI>Elle ne pouvait pas être à deux endroits",
+                "à la fois !"
               ],
               "Type": 0,
               "Position": 0
@@ -63898,10 +63900,10 @@
             {
               "Name": "1_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Hmm... do I agree with this?)<DI>",
+                "<SOUND:0><C>(Hmm... est-ce que je suis d'accord ?)<DI>",
                 "<TWO_CHOICES>",
-                "<G>Yes",
-                "No"
+                "<G>Oui",
+                "Non"
               ],
               "Type": 0,
               "Position": 0
@@ -63909,8 +63911,8 @@
             {
               "Name": "1_1_LINK10",
               "MessageTextLines": [
-                "I believe we're in complete agreement",
-                "on this point."
+                "Je pense que nous sommes en",
+                "parfait accord sur ce point."
               ],
               "Type": 0,
               "Position": 0
@@ -63918,7 +63920,7 @@
             {
               "Name": "1_1_DRAGMIRE10",
               "MessageTextLines": [
-                "...!"
+                "... !"
               ],
               "Type": 0,
               "Position": 0
@@ -63926,8 +63928,8 @@
             {
               "Name": "1_1_DRAGMIRE20",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>You do realize the problems that",
-                "creates for you, right?"
+                "<SOUND:EXPLOSION>Vous réalisez les problèmes que",
+                "ça vous apporte, j'espère ?"
               ],
               "Type": 0,
               "Position": 0
@@ -63935,7 +63937,7 @@
             {
               "Name": "1_1_LINK20",
               "MessageTextLines": [
-                "I'm sure it can all be explained."
+                "Je suis sûr qu'il y a une explication."
               ],
               "Type": 0,
               "Position": 0
@@ -63943,7 +63945,7 @@
             {
               "Name": "1_1_DRAGMIRE30",
               "MessageTextLines": [
-                "Hah! As if!"
+                "Hah ! Mais bien sûr !"
               ],
               "Type": 0,
               "Position": 0
@@ -63951,9 +63953,9 @@
             {
               "Name": "1_1_DRAGMIRE40",
               "MessageTextLines": [
-                "But, very well.<PAUSE:3> Then let's move on to",
-                "why nothing else could have been the",
-                "murder weapon, either!<SQUARE>"
+                "Mais soit.<PAUSE:3> Parlons donc de pourquoi",
+                "aucun autre objet n'aurait pu servir",
+                "d'arme du crime non plus !<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -63961,7 +63963,8 @@
             {
               "Name": "1_2_LINK10",
               "MessageTextLines": [
-                "No, the saw <SOUND:WHAP>WAS the murder weapon!"
+                "Non, c'est bien la <SOUND:WHAP>scie qui a servi",
+                "d'arme du crime !"
               ],
               "Type": 0,
               "Position": 0
@@ -63969,8 +63972,9 @@
             {
               "Name": "1_2_DRAGMIRE10",
               "MessageTextLines": [
-                "Truly?<PAUSE:3> Well, if that's the case, present",
-                "some proof!"
+                "Vraiment ?<PAUSE:3> Eh bien, dans ce cas,",
+                "présentez donc une preuve de",
+                "ce dont vous avancez !"
               ],
               "Type": 0,
               "Position": 0
@@ -63978,8 +63982,9 @@
             {
               "Name": "1_2_DRAGMIRE20",
               "MessageTextLines": [
-                "Enlighten us on how it could have",
-                "been in two places at the same time!"
+                "Éclairez-nous sur la façon dont elle",
+                "aurait pu se trouver à deux endroits",
+                "à la fois !"
               ],
               "Type": 0,
               "Position": 0
@@ -63987,7 +63992,8 @@
             {
               "Name": "1_2_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Hmm. I really need to think about this.)<SQUARE>"
+                "<SOUND:0><C>(Hmm. Je dois vraiment bien réfléchir",
+                "à tout ça.)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -63995,7 +64001,7 @@
             {
               "Name": "2_LINK1",
               "MessageTextLines": [
-                "<SOUND:CLUE>Couldn't he have used any old thing?"
+                "<SOUND:CLUE>Il n'aurait pas pu utiliser n'importe quoi ?"
               ],
               "Type": 0,
               "Position": 0
@@ -64003,8 +64009,8 @@
             {
               "Name": "2_DRAGMIRE1",
               "MessageTextLines": [
-                "Either answer the question, Defence,",
-                "<SOUND:WHAP>or this discussion is over!"
+                "Soit vous répondez à la question,",
+                "Défense,<SOUND:WHAP> soit cette discussion est close !"
               ],
               "Type": 0,
               "Position": 0
@@ -64012,7 +64018,7 @@
             {
               "Name": "2_LINK2",
               "MessageTextLines": [
-                "<SOUND:0><C>(No need to overthink this.)"
+                "<SOUND:0><C>(Pas besoin de trop se prendre la tête.)"
               ],
               "Type": 0,
               "Position": 0
@@ -64020,9 +64026,9 @@
             {
               "Name": "2_LINK3",
               "MessageTextLines": [
-                "<SOUND:0><C>(Anywhere Ingo could've gotten a",
-                "weapon from will do.<PAUSE:3> <SOUND:CLUE>I'll worry about",
-                "the exact details later!)<SQUARE>"
+                "<SOUND:0><C>(N'importe quel endroit où Ingo aurait pu",
+                "se procurer une arme fera l'affaire.<PAUSE:3> <SOUND:CLUE>Je me",
+                "soucierai des détails plus tard !)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -64030,8 +64036,8 @@
             {
               "Name": "2_LINK10",
               "MessageTextLines": [
-                "Have you forgotten this murder",
-                "happened on a ranch?"
+                "Avez-vous oublié que ce meurtre",
+                "a eu lieu dans un ranch ?"
               ],
               "Type": 0,
               "Position": 0
@@ -64039,8 +64045,8 @@
             {
               "Name": "2_LINK20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>There are plenty of sharp things on",
-                "site!"
+                "<SOUND:WHAP><DI>Il y a plein d'objets tranchants",
+                "sur place !"
               ],
               "Type": 0,
               "Position": 0
@@ -64048,9 +64054,9 @@
             {
               "Name": "2_DRAGMIRE10",
               "MessageTextLines": [
-                "Hoh, hoh!",
+                "Hoh, hoh !",
                 "<NEW_BOX>",
-                "<SOUND:EXPLOSION><DI>That's simply impossible!<SQUARE>"
+                "<SOUND:EXPLOSION><DI>C'est tout bonnement impossible !<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -64058,10 +64064,10 @@
             {
               "Name": "3_LINK10",
               "MessageTextLines": [
-                "Couldn't Ingo have just...",
-                "<THREE_CHOICES><SOUND:0><G><DI>Hidden it?",
-                "Disposed of it?",
-                "Wiped it off?"
+                "Ingo n'aurait-il pas pu juste...",
+                "<THREE_CHOICES><SOUND:0><G><DI>La cacher ?",
+                "S'en débarrasser ?",
+                "La nettoyer ?"
               ],
               "Type": 0,
               "Position": 0
@@ -64069,7 +64075,8 @@
             {
               "Name": "3_1_LINK10",
               "MessageTextLines": [
-                "Couldn't Ingo have just <SOUND:CLUE>hidden it?"
+                "Ingo n'aurait pas pu simplement <SOUND:CLUE>",
+                "la cacher ?"
               ],
               "Type": 0,
               "Position": 0
@@ -64077,8 +64084,8 @@
             {
               "Name": "3_1_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Bah!<PAUSE:3> The kingdom's best investigators",
-                "are on this case!"
+                "<SOUND:EXPLOSION><DI>Bah!<PAUSE:3> Les meilleurs enquêteurs du",
+                "royaume sont sur cette affaire !"
               ],
               "Type": 0,
               "Position": 0
@@ -64086,16 +64093,16 @@
             {
               "Name": "3_1_DRAGMIRE20",
               "MessageTextLines": [
-                "We found no signs of anything buried",
-                "on the premises.",
+                "Nous n'avons trouvé aucun signe",
+                "de quoi que ce soit d'enfoui.",
                 "<NEW_BOX>",
-                "And even if Ingo skipped part of his",
-                "work, he still wouldn't have had time to",
-                "hide anything very far from the ranch.",
+                "Et même s'il avait sauté une partie de",
+                "son travail, il n'aurait pas eu le temps",
+                "de cacher une arme loin du ranch.",
                 "<NEW_BOX>",
-                "He may be an idiot, but do you really",
-                "think he would have risked the weapon",
-                "being found?!"
+                "C'est peut-être un imbécile, mais vous",
+                "pensez vraiment qu'il aurait pris le risque",
+                "qu'on la retrouve ?"
               ],
               "Type": 0,
               "Position": 0
@@ -64103,7 +64110,7 @@
             {
               "Name": "3_1_INGO10",
               "MessageTextLines": [
-                "Now, listen here<EMDASH><FADE:10>"
+                "Alors écoutez-moi bien<EMDASH><FADE:10>"
               ],
               "Type": 0,
               "Position": 0
@@ -64111,7 +64118,7 @@
             {
               "Name": "3_1_DRAGMIRE30",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Silence!"
+                "<SOUND:EXPLOSION><DI>Silence !"
               ],
               "Type": 0,
               "Position": 0
@@ -64119,7 +64126,7 @@
             {
               "Name": "3_1_INGO20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Waaaah!<FADE:15>"
+                "<SOUND:WHAP><DI>Waaaah !<FADE:15>"
               ],
               "Type": 0,
               "Position": 0
@@ -64127,8 +64134,9 @@
             {
               "Name": "3_1_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Well, I guess that is a good point...",
-                "I may have to rethink this.)"
+                "<SOUND:0><C>(Bon, je suppose que c'est pas idiot...",
+                "Je vais peut-être devoir reconsidérer",
+                "ce point.)"
               ],
               "Type": 0,
               "Position": 0
@@ -64136,10 +64144,10 @@
             {
               "Name": "3_1_LINK30",
               "MessageTextLines": [
-                "Couldn't Ingo have just...",
-                "<THREE_CHOICES><SOUND:0><G><DI>Disposed of it?",
-                "Wiped it off?",
-                "Never mind."
+                "Ingo n'aurait-il pas pu juste...",
+                "<THREE_CHOICES><SOUND:0><G><DI>S'en débarrasser ?",
+                "La nettoyer ?",
+                "Laisse tomber."
               ],
               "Type": 0,
               "Position": 0
@@ -64147,8 +64155,8 @@
             {
               "Name": "3_2_LINK10",
               "MessageTextLines": [
-                "Couldn't Ingo have just <SOUND:CLUE>disposed of it",
-                "in some way?"
+                "Ingo n'aurait pas pu <SOUND:CLUE>s'en débarrasser",
+                "d'une façon ou d'une autre ?"
               ],
               "Type": 0,
               "Position": 0
@@ -64156,7 +64164,7 @@
             {
               "Name": "3_2_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Hah!<PAUSE:3> That's impossible.<PAUSE:3> You see...<SQUARE>"
+                "<SOUND:WHAP><DI>Hah !<PAUSE:3> Impossible.<PAUSE:3> Voyez-vous...<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -64164,7 +64172,7 @@
             {
               "Name": "3_3_LINK10",
               "MessageTextLines": [
-                "Couldn't Ingo have just <SOUND:CLUE>wiped it off?"
+                "Il n'aurait pas pu <SOUND:CLUE>la nettoyer ?"
               ],
               "Type": 0,
               "Position": 0
@@ -64172,8 +64180,8 @@
             {
               "Name": "3_3_DRAGMIRE10",
               "MessageTextLines": [
-                "<PAUSE:3><DC>...Blood leaves traces.<PAUSE:3> It's not that",
-                "easy to get rid of."
+                "<PAUSE:3><DC>...Le sang laisse des traces.<PAUSE:3> Ce n'est",
+                "pas si facile à faire disparaître."
               ],
               "Type": 0,
               "Position": 0
@@ -64181,9 +64189,9 @@
             {
               "Name": "3_3_DRAGMIRE20",
               "MessageTextLines": [
-                "People like us aren't so sensitive,<PAUSE:3> ",
-                "but other beings like the Zoras can",
-                "easily tell by smell."
+                "Les gens comme nous ne le remarquent",
+                "pas, <PAUSE:3>mais d'autres, comme les",
+                "Zoras, le sentent facilement."
               ],
               "Type": 0,
               "Position": 0
@@ -64191,8 +64199,9 @@
             {
               "Name": "3_3_DRAGMIRE30",
               "MessageTextLines": [
-                "Naturally, the Sheikah Force employs",
-                "people for just this task."
+                "Naturellement, la Force Sheikah",
+                "emploie des individus pour",
+                "cette tâche précise."
               ],
               "Type": 0,
               "Position": 0
@@ -64200,13 +64209,12 @@
             {
               "Name": "3_3_DRAGMIRE40",
               "MessageTextLines": [
-                "Also, as Lon Lon Ranch focuses on",
-                "selling horses and milk, the animals",
-                "there aren't regularly butchered...",
+                "De plus, comme le Ranch Lon Lon vend",
+                "surtout des chevaux et du lait, les outils ne",
+                "servent généralement pas à l'abattage...",
                 "<NEW_BOX>",
-                "...so there's no good reason why any",
-                "of the tools would have fresh blood",
-                "on them."
+                "...donc aucun d'eux n'avait de raison",
+                "d'être couvert de sang frais."
               ],
               "Type": 0,
               "Position": 0
@@ -64214,8 +64222,8 @@
             {
               "Name": "3_3_DRAGMIRE50",
               "MessageTextLines": [
-                "<DI><SOUND:DON>Any such implement would've stood",
-                "out like a sore thumb!"
+                "<DI><SOUND:DON>Un tel outil se serait remarqué",
+                "immédiatement !"
               ],
               "Type": 0,
               "Position": 0
@@ -64223,10 +64231,10 @@
             {
               "Name": "3_3_LINK20",
               "MessageTextLines": [
-                "Couldn't Ingo have just...",
-                "<THREE_CHOICES><SOUND:0><G>Hidden it?",
-                "Disposed of it?",
-                "Never mind."
+                "Ingo n'aurait-il pas pu juste...",
+                "<THREE_CHOICES><SOUND:0><G>La cacher ?",
+                "S'en débarrasser ?",
+                "Laisse tomber."
               ],
               "Type": 0,
               "Position": 0
@@ -64242,8 +64250,8 @@
             {
               "Name": "3_4_DRAGMIRE10",
               "MessageTextLines": [
-                "\"Couldn't Ingo have just\"...<PAUSE:2> what?<PAUSE:6> ",
-                "<DI><SOUND:EXPLOSION>Spit it out!"
+                "\"Il n'aurait pas pu juste\"...<PAUSE:2> quoi ?<PAUSE:6> ",
+                "<DI><SOUND:EXPLOSION>Allez, crachez le morceau !"
               ],
               "Type": 0,
               "Position": 0
@@ -64251,7 +64259,7 @@
             {
               "Name": "3_4_LINK20",
               "MessageTextLines": [
-                "Sorry.<PAUSE:2> Still collecting my thoughts."
+                "Désolé.<PAUSE:2> Je rassemble encore mes idées."
               ],
               "Type": 0,
               "Position": 0
@@ -64259,8 +64267,8 @@
             {
               "Name": "3_4_DRAGMIRE20",
               "MessageTextLines": [
-                "Hmph.<PAUSE:2> Do all the collecting you want.<PAUSE:3> ",
-                "It won't change the facts!"
+                "Hmph.<PAUSE:2> Prenez tout votre temps.<PAUSE:3> ",
+                "Ça ne changera rien aux faits !"
               ],
               "Type": 0,
               "Position": 0
@@ -64268,8 +64276,8 @@
             {
               "Name": "4_LINK10",
               "MessageTextLines": [
-                "How can you be so sure the inventory",
-                "is accurate?"
+                "Comment pouvez-vous être certain que",
+                "l'inventaire est fiable ?"
               ],
               "Type": 0,
               "Position": 0
@@ -64277,7 +64285,7 @@
             {
               "Name": "4_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Bah!<PAUSE:3> Use your head!"
+                "<SOUND:EXPLOSION>Bah !<PAUSE:3> Réfléchissez un peu !"
               ],
               "Type": 0,
               "Position": 0
@@ -64285,8 +64293,7 @@
             {
               "Name": "4_DRAGMIRE20",
               "MessageTextLines": [
-                "There was a royal visitation scheduled",
-                "for that day!"
+                "Une visite royale était prévue ce jour-là !"
               ],
               "Type": 0,
               "Position": 0
@@ -64294,9 +64301,9 @@
             {
               "Name": "4_DRAGMIRE30",
               "MessageTextLines": [
-                "<SOUND:WHAP>The ranch owner needed everything to",
-                "be in order!<PAUSE:3> He would've double-, even",
-                "triple-checked that list when he wrote it!"
+                "<SOUND:WHAP>Le propriétaire du ranch devait tout",
+                "avoir en ordre !<PAUSE:3> Il a dû vérifier cette",
+                "liste deux, trois fois, au minimum !"
               ],
               "Type": 0,
               "Position": 0
@@ -64304,7 +64311,7 @@
             {
               "Name": "4_LINK15",
               "MessageTextLines": [
-                "<SOUND:0><C>(Hmm. I suppose he would've, but...)<SQUARE>"
+                "<SOUND:0><C>(Hmm. Ça se tient, mais...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -64312,7 +64319,7 @@
             {
               "Name": "4_LINK20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>The inventory list itself is false!"
+                "<SOUND:WHAP><DI>La liste d'inventaire est fausse !"
               ],
               "Type": 0,
               "Position": 0
@@ -64320,10 +64327,10 @@
             {
               "Name": "4_DRAGMIRE50",
               "MessageTextLines": [
-                "Oh?<PAUSE:3> Fascinating!",
+                "Oh ?<PAUSE:3> Fascinant !",
                 "<NEW_BOX>",
-                "What exactly makes you question the",
-                "veracity of this document?"
+                "Et qu'est-ce qui vous pousse à douter",
+                "de la véracité de ce document ?"
               ],
               "Type": 0,
               "Position": 0
@@ -64331,10 +64338,10 @@
             {
               "Name": "4_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(That would be...)",
+                "<SOUND:0><C>(Ce serait...)",
                 "<TWO_CHOICES>",
-                "<G>Another piece of evidence",
-                "Something about the inventory itself"
+                "<G>Une autre preuve",
+                "Quelque chose dans la liste elle-même"
               ],
               "Type": 0,
               "Position": 0
@@ -64342,8 +64349,7 @@
             {
               "Name": "4_1_LINK10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Another piece of evidence contradicts",
-                "the list!"
+                "<SOUND:WHAP><DI>Une autre preuve contredit cette liste !"
               ],
               "Type": 0,
               "Position": 0
@@ -64351,7 +64357,7 @@
             {
               "Name": "4_1_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:CLUE>Is that so?<PAUSE:3> Well, go on, then!"
+                "<SOUND:CLUE>Vraiment ?<PAUSE:3> Eh bien, montrez-la donc !"
               ],
               "Type": 0,
               "Position": 0
@@ -64359,8 +64365,8 @@
             {
               "Name": "4_1_DRAGMIRE20",
               "MessageTextLines": [
-                "<G>Show us which piece of evidence",
-                "contradicts the inventory list!<PERSISTENT>"
+                "<G>Indiquez-nous quelle preuve entre en",
+                "contradiction avec l'inventaire !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -64368,7 +64374,7 @@
             {
               "Name": "4_1_LINK20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>It's this, of course!"
+                "<SOUND:WHAP><DI>C'est ça, bien sûr !"
               ],
               "Type": 0,
               "Position": 0
@@ -64376,9 +64382,8 @@
             {
               "Name": "4_1_DRAGMIRE30",
               "MessageTextLines": [
-                "<SOUND:CLUE>...Judge?<PAUSE:3> Do you have any idea what",
-                "the defence is blathering on about",
-                "now?"
+                "<SOUND:CLUE>...Juge ?<PAUSE:3> Avez-vous la moindre idée de",
+                "ce que la défense radote cette fois ?"
               ],
               "Type": 0,
               "Position": 0
@@ -64386,7 +64391,7 @@
             {
               "Name": "4_1_JUDGE10",
               "MessageTextLines": [
-                "Um...<PAUSE:3> <SOUND:HINT>no."
+                "Euh...<PAUSE:3> <SOUND:HINT>non."
               ],
               "Type": 0,
               "Position": 0
@@ -64394,8 +64399,9 @@
             {
               "Name": "4_1_DRAGMIRE40",
               "MessageTextLines": [
-                "Naturally, it's not the list that's dubious,",
-                "but the defence's own shaky claims!<SQUARE>"
+                "De toute évidence, ce n'est pas la liste",
+                "qui est douteuse, mais bien les allégations",
+                "bancales de la défense !<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -64403,7 +64409,7 @@
             {
               "Name": "4_2_LINK10",
               "MessageTextLines": [
-                "It's simple."
+                "C'est simple."
               ],
               "Type": 0,
               "Position": 0
@@ -64411,8 +64417,8 @@
             {
               "Name": "4_2_LINK20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>You only need a brief look at the",
-                "inventory to see it can't be trusted."
+                "<SOUND:WHAP><DI>Un simple coup d'œil à l'inventaire suffit",
+                "à comprendre qu'il n'est pas fiable."
               ],
               "Type": 0,
               "Position": 0
@@ -64420,10 +64426,11 @@
             {
               "Name": "4_2_DRAGMIRE10",
               "MessageTextLines": [
-                "Hoh, hoh!",
+                "Ha !",
                 "<NEW_BOX>",
-                "You can't just go around making such",
-                "general statements, Defence!"
+                "Vous ne pouvez pas vous permettre de",
+                "faire des affirmations aussi vagues,",
+                "Défense !"
               ],
               "Type": 0,
               "Position": 0
@@ -64431,8 +64438,8 @@
             {
               "Name": "4_2_DRAGMIRE20",
               "MessageTextLines": [
-                "<G>Point out what exactly about the",
-                "inventory makes it suspect!<PERSISTENT>"
+                "<G>Indiquez précisément ce qui rend",
+                "cet inventaire suspect !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -64440,7 +64447,7 @@
             {
               "Name": "4_2_F_LINK10",
               "MessageTextLines": [
-                "Er,<PAUSE:3> this part looks...<PAUSE:3> off?"
+                "Euh,<PAUSE:3> cette partie semble...<PAUSE:3> louche ?"
               ],
               "Type": 0,
               "Position": 0
@@ -64448,9 +64455,8 @@
             {
               "Name": "4_2_F_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>The only thing that's off here is your",
-                "brain!<PAUSE:3> There's nothing suspicious",
-                "there!"
+                "<SOUND:EXPLOSION>La seule chose de louche ici, c'est votre",
+                "cerveau !<PAUSE:3> Rien de suspect là-dedans !"
               ],
               "Type": 0,
               "Position": 0
@@ -64458,7 +64464,8 @@
             {
               "Name": "4_2_F_JUDGE10",
               "MessageTextLines": [
-                "I have to concur.<PAUSE:3> <SOUND:HINT>All seems valid to me."
+                "Je dois admettre que je suis d'accord.<PAUSE:3> <SOUND:HINT>",
+                "Tout cela me semble correct."
               ],
               "Type": 0,
               "Position": 0
@@ -64466,7 +64473,7 @@
             {
               "Name": "4_2_F_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Drat.)"
+                "<SOUND:0><C>(Mince.)"
               ],
               "Type": 0,
               "Position": 0
@@ -64474,9 +64481,10 @@
             {
               "Name": "4_2_F_LINK25",
               "MessageTextLines": [
-                "<SOUND:0><C>(Think, think, think!<PAUSE:5> There was no",
-                "reason to doubt this list before,<PAUSE:2> but",
-                "now that I have a suspect in mind...)"
+                "<SOUND:0><C>(Réfléchissons, voyons !<PAUSE:5> Il n'y avait",
+                "aucune raison de douter de cette liste",
+                "avant,<PAUSE:2> mais maintenant que j'ai un",
+                "suspect...)"
               ],
               "Type": 0,
               "Position": 0
@@ -64484,10 +64492,10 @@
             {
               "Name": "4_2_F_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(Well, should I try pointing out",
-                "something else on the inventory list?)<TWO_CHOICES><G>",
-                "Yes",
-                "No"
+                "<SOUND:0><C>(Bon, est-ce que je tente d'indiquer",
+                "autre chose sur cette liste ?)<TWO_CHOICES><G>",
+                "Oui",
+                "Non"
               ],
               "Type": 0,
               "Position": 0
@@ -64495,8 +64503,8 @@
             {
               "Name": "4_2_F_1_LINK10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Wait!<PAUSE:3> There's something else I'd like to",
-                "point out!"
+                "<SOUND:WHAP><DI>Attendez !<PAUSE:3> Il y a un autre détail que je",
+                "souhaite signaler !"
               ],
               "Type": 0,
               "Position": 0
@@ -64504,9 +64512,9 @@
             {
               "Name": "4_2_F_1_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:WHAP>Well, get to it, then!<PAUSE:3> The sooner you",
-                "get your greasy mitts off the list, the",
-                "better!"
+                "<SOUND:WHAP>Alors allez-y !<PAUSE:3> Et plus vite vous",
+                "retirez vos sales pattes de cette liste,",
+                "mieux ce sera !"
               ],
               "Type": 0,
               "Position": 0
@@ -64514,7 +64522,7 @@
             {
               "Name": "4_2_F_2_LINK10",
               "MessageTextLines": [
-                "<SOUND:0><C>(I need to rethink this whole thing...)<SQUARE>"
+                "<SOUND:0><C>(Il faut que je revoie toute cette histoire...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -64522,10 +64530,10 @@
             {
               "Name": "4_2_LINK30",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Just look here!",
+                "<SOUND:WHAP><DI>Regardez ici !",
                 "<NEW_BOX>",
-                "The one who compiled this list was",
-                "Ingo himself!"
+                "Celui qui a rédigé cette liste, c'est",
+                "Ingo lui-même !"
               ],
               "Type": 0,
               "Position": 0
@@ -64533,8 +64541,8 @@
             {
               "Name": "4_2_LINK40",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>He could've easily falsified the counts",
-                "as part of his plan!"
+                "<SOUND:WHAP><DI>Il aurait très bien pu truquer les chiffres",
+                "dans le cadre de son plan !"
               ],
               "Type": 0,
               "Position": 0
@@ -64542,7 +64550,7 @@
             {
               "Name": "4_2_DRAGMIRE30",
               "MessageTextLines": [
-                "Nnnnngh!"
+                "Nnnnngh !"
               ],
               "Type": 0,
               "Position": 0
@@ -64550,7 +64558,7 @@
             {
               "Name": "4_2_DRAGMIRE40",
               "MessageTextLines": [
-                "That doesn't matter!<SQUARE>"
+                "Ça n'a aucune importance !<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -64558,8 +64566,8 @@
             {
               "Name": "5_LINK10",
               "MessageTextLines": [
-                "Wouldn't Ingo have been able to just",
-                "throw the item out over the fence?"
+                "Ingo n'aurait-il pas pu simplement",
+                "jeter l'objet par-dessus la barrière ?"
               ],
               "Type": 0,
               "Position": 0
@@ -64567,8 +64575,8 @@
             {
               "Name": "5_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:WHAP>Bah!<PAUSE:3> Obviously, we searched the",
-                "perimeter of the ranch as well!"
+                "<SOUND:WHAP>Bah !<PAUSE:3> Évidemment, nous avons",
+                "inspecté le périmètre du ranch !"
               ],
               "Type": 0,
               "Position": 0
@@ -64576,7 +64584,7 @@
             {
               "Name": "5_DRAGMIRE20",
               "MessageTextLines": [
-                "Nothing was found anywhere!"
+                "Rien n'a été trouvé, nulle part !"
               ],
               "Type": 0,
               "Position": 0
@@ -64584,8 +64592,9 @@
             {
               "Name": "5_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Hmm. This is the most important point.",
-                "<SOUND:CLUE>Has nothing really been able to leave?)<SQUARE>"
+                "<SOUND:0><C>(Hmm. Voilà le point crucial.",
+                "<SOUND:CLUE>Est-ce que rien n'a vraiment pu quitter",
+                "les lieux ?)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -64593,8 +64602,8 @@
             {
               "Name": "5_LINK30",
               "MessageTextLines": [
-                "Are you REALLY sure nothing left the",
-                "ranch?"
+                "Êtes-vous VRAIMENT sûr que rien n'a",
+                "quitté le ranch ?"
               ],
               "Type": 0,
               "Position": 0
@@ -64602,8 +64611,7 @@
             {
               "Name": "5_LINK40",
               "MessageTextLines": [
-                "<SOUND:WHAP>What about a few little shipments of",
-                "milk?"
+                "<SOUND:WHAP>Et les livraisons de lait, alors ?"
               ],
               "Type": 0,
               "Position": 0
@@ -64611,12 +64619,12 @@
             {
               "Name": "5_DRAGMIRE30",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Preposterous!",
+                "<SOUND:WHAP><DI>Absurde !",
                 "<NEW_BOX>",
-                "Have you forgotten that said shipments",
-                "had been checked by the Sheikah",
-                "Force before they were allowed to",
-                "leave?"
+                "Auriez-vous oublié que ces livraisons",
+                "avaient été inspectées par la Force",
+                "Sheikah avant d'être autorisées à",
+                "partir ?"
               ],
               "Type": 0,
               "Position": 0
@@ -64624,7 +64632,7 @@
             {
               "Name": "5_LINK50",
               "MessageTextLines": [
-                "<SOUND:0><C>(That's true...<PAUSE:3> But...)"
+                "<SOUND:0><C>(C'est vrai...<PAUSE:3> Mais...)"
               ],
               "Type": 0,
               "Position": 0
@@ -64632,8 +64640,8 @@
             {
               "Name": "5_LINK60",
               "MessageTextLines": [
-                "There was a place the Sheikah",
-                "could've overlooked."
+                "Il y a un endroit que les Sheikah",
+                "ont pu négliger."
               ],
               "Type": 0,
               "Position": 0
@@ -64641,13 +64649,12 @@
             {
               "Name": "5_DRAGMIRE40",
               "MessageTextLines": [
-                "What in Din's name are you babbling",
-                "about?<PAUSE:3> We're talking about bog",
-                "standard crates here, boy!",
+                "Mais qu'est-ce que vous racontez,",
+                "pour l'amour de Din ?<PAUSE:3> On parle de",
+                "caisses basiques, garçon !",
                 "<NEW_BOX>",
-                "Not exactly vast dungeons full of",
-                "nooks and crannies to stuff things",
-                "into, are they?!"
+                "Ce ne sont pas des donjons remplis de",
+                "cachettes pour y planquer des objets !"
               ],
               "Type": 0,
               "Position": 0
@@ -64655,8 +64662,8 @@
             {
               "Name": "5_DRAGMIRE50",
               "MessageTextLines": [
-                "Where could they have missed a",
-                "murder weapon?!"
+                "Où auraient-ils pu rater une arme",
+                "du crime ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -64664,10 +64671,10 @@
             {
               "Name": "5_LINK70",
               "MessageTextLines": [
-                "It's simple.<PAUSE:3> They overlooked...<THREE_CHOICES><G>",
-                "The contents of the crates",
-                "The contents of the bottles",
-                "The crates themselves"
+                "C'est simple.<PAUSE:3> Ils ont négligé...<THREE_CHOICES><G>",
+                "Le contenu des caisses",
+                "Le contenu des bouteilles",
+                "Les caisses elles-mêmes"
               ],
               "Type": 0,
               "Position": 0
@@ -64675,9 +64682,9 @@
             {
               "Name": "5_1_LINK10",
               "MessageTextLines": [
-                "The murder weapon was just left in",
-                "one of the crates, between the milk",
-                "bottles!"
+                "L'arme du crime était tout simplement",
+                "dans une des caisses, entre les",
+                "bouteilles de lait !"
               ],
               "Type": 0,
               "Position": 0
@@ -64685,8 +64692,8 @@
             {
               "Name": "5_1_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Do you really consider the Sheikah",
-                "that incompetent?"
+                "<SOUND:EXPLOSION>Vous pensez vraiment que les",
+                "Sheikah sont aussi incompétents ?"
               ],
               "Type": 0,
               "Position": 0
@@ -64694,10 +64701,12 @@
             {
               "Name": "5_1_DRAGMIRE20",
               "MessageTextLines": [
-                "That would be the first place to check!",
+                "C'est la première chose qu'ils",
+                "auraient vérifié !",
                 "<NEW_BOX>",
-                "Besides, do you think the murderer",
-                "would risk something that obvious?"
+                "Et puis, vous croyez vraiment que le",
+                "meurtrier aurait pris un risque aussi",
+                "évident ?"
               ],
               "Type": 0,
               "Position": 0
@@ -64705,7 +64714,7 @@
             {
               "Name": "5_1_LINK20",
               "MessageTextLines": [
-                "Ah,<PAUSE:3> uh,<PAUSE:3> perhaps not, then."
+                "Ah,<PAUSE:3> euh,<PAUSE:3> peut-être pas, alors."
               ],
               "Type": 0,
               "Position": 0
@@ -64713,8 +64722,8 @@
             {
               "Name": "5_1_JUDGE10",
               "MessageTextLines": [
-                "Defence, your entire argument hinges",
-                "on this point, you know!"
+                "Défense, tout votre argument repose",
+                "sur ce point, vous savez !"
               ],
               "Type": 0,
               "Position": 0
@@ -64722,8 +64731,8 @@
             {
               "Name": "5_1_JUDGE20",
               "MessageTextLines": [
-                "Try to think through your answer a bit",
-                "more carefully next time."
+                "Essayez de réfléchir un peu mieux la",
+                "prochaine fois."
               ],
               "Type": 0,
               "Position": 0
@@ -64731,7 +64740,7 @@
             {
               "Name": "5_1_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(All right, all right...)"
+                "<SOUND:0><C>(Bon, c'est bon...)"
               ],
               "Type": 0,
               "Position": 0
@@ -64739,10 +64748,10 @@
             {
               "Name": "5_3_LINK10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>It's the crates themselves!<PAUSE:3> ",
-                "The killer used a big chunk of wood to",
-                "kill the victim, and then nailed it to the",
-                "crates to conceal it!"
+                "<SOUND:WHAP><DI>Ce sont les caisses elles-mêmes !<PAUSE:3> ",
+                "Le tueur a utilisé une grosse planche",
+                "de bois pour tuer la victime, puis l'a",
+                "clouée à une des caisses pour la cacher !"
               ],
               "Type": 0,
               "Position": 0
@@ -64750,13 +64759,14 @@
             {
               "Name": "5_3_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>No, the weapon was definitely metal!<PAUSE:3> ",
-                "No stray bit of lumber could create a",
-                "wound like that!",
+                "<SOUND:EXPLOSION>Non, l'arme était clairement en métal !<PAUSE:3> ",
+                "Un morceau de bois ne pourrait pas",
+                "provoquer une telle blessure !",
                 "<NEW_BOX>",
-                "Plus, if the weapon WAS wooden, he",
-                "would've just burned it together with his",
-                "clothes, to ensure we'd never find it!"
+                "Et si elle avait été en bois, il l'aurait",
+                "simplement brûlée avec ses vêtements",
+                "pour s'assurer qu'on ne la retrouve",
+                "jamais !"
               ],
               "Type": 0,
               "Position": 0
@@ -64764,7 +64774,7 @@
             {
               "Name": "5_3_LINK20",
               "MessageTextLines": [
-                "Ah, right..."
+                "Ah, en effet..."
               ],
               "Type": 0,
               "Position": 0
@@ -64772,10 +64782,9 @@
             {
               "Name": "5_2_LINK10",
               "MessageTextLines": [
-                "There is one place inside the crates",
-                "that the Sheikah couldn't have",
-                "checked thoroughly without ruining",
-                "the shipments."
+                "Il existe un endroit dans les caisses",
+                "que les Sheikah n'ont pas pu examiner",
+                "sans ruiner la cargaison."
               ],
               "Type": 0,
               "Position": 0
@@ -64783,7 +64792,7 @@
             {
               "Name": "5_2_DRAGMIRE10",
               "MessageTextLines": [
-                "<PAUSE:3><SOUND:CLUE>\"Without ruining the shipments\"...?"
+                "<PAUSE:3><SOUND:CLUE>\"Sans ruiner la cargaison\"... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -64791,7 +64800,7 @@
             {
               "Name": "5_2_DRAGMIRE20",
               "MessageTextLines": [
-                "...!"
+                "... !"
               ],
               "Type": 0,
               "Position": 0
@@ -64799,9 +64808,9 @@
             {
               "Name": "5_2_LINK20",
               "MessageTextLines": [
-                "<NS>That's right <EMDASH><PAUSE:3> <DI><SOUND:DON>Ingo put the murder",
-                "weapon <R>inside<W> one of the bottles to",
-                "conceal it from the search!"
+                "<NS>C'est exact <EMDASH><PAUSE:3> <DI><SOUND:DON>Ingo a dissimulé l'arme",
+                "du crime <R>dans<W> une des bouteilles pour",
+                "la cacher durant l'inspection !"
               ],
               "Type": 0,
               "Position": 0
@@ -64809,7 +64818,7 @@
             {
               "Name": "5_2_JUDGE5",
               "MessageTextLines": [
-                "That does seem plausible..."
+                "Cela semble plausible..."
               ],
               "Type": 0,
               "Position": 0
@@ -64817,7 +64826,7 @@
             {
               "Name": "5_2_DRAGMIRE30",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Now wait just a moment!<SQUARE>"
+                "<SOUND:EXPLOSION>Attendez un instant !<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -64825,7 +64834,7 @@
             {
               "Name": "6_LINK10",
               "MessageTextLines": [
-                "How can you be so sure?"
+                "Et qu'est-ce qui vous le prouve ?"
               ],
               "Type": 0,
               "Position": 0
@@ -64833,11 +64842,12 @@
             {
               "Name": "6_DRAGMIRE10",
               "MessageTextLines": [
-                "Do you even know how much milk",
-                "an average milk bar uses <SOUND:WHAP>each day?",
+                "Vous savez combien de lait un bar",
+                "consomme <SOUND:WHAP>chaque jour ?",
                 "<NEW_BOX>",
-                "All those shipments have most certainly",
-                "been completely used up by now!"
+                "Toutes ces livraisons ont très",
+                "probablement été entièrement",
+                "consommées !"
               ],
               "Type": 0,
               "Position": 0
@@ -64845,9 +64855,9 @@
             {
               "Name": "6_DRAGMIRE20",
               "MessageTextLines": [
-                "Someone drinking from that bottle",
-                "would have found it for sure!<PAUSE:3> <SOUND:EXPLOSION>Choked on",
-                "it, even, if they took too large a swig!"
+                "Quelqu'un aurait trouvé l'arme, c'est",
+                "certain !<PAUSE:3> <SOUND:EXPLOSION>Il s'en serait étouffé, même,",
+                "s'il avait bu trop vite !"
               ],
               "Type": 0,
               "Position": 0
@@ -64855,7 +64865,7 @@
             {
               "Name": "6_DRAGMIRE30",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION_NOSHAKE><DI>It would be a huge scandal!<FADE:30>"
+                "<SOUND:EXPLOSION_NOSHAKE><DI>Ce serait un scandale énorme !<FADE:30>"
               ],
               "Type": 0,
               "Position": 0
@@ -64863,8 +64873,8 @@
             {
               "Name": "6_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Well, he's right about that...<PAUSE:3> but he's",
-                "missing some vital information!)<SQUARE>"
+                "<SOUND:0><C>(Bon, là-dessus il a raison...<PAUSE:3> mais il",
+                "ignore un détail crucial !)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -64872,9 +64882,9 @@
             {
               "Name": "6_POST_LINK10",
               "MessageTextLines": [
-                "You would be correct that a weapon",
-                "showing up in someone's milkshake",
-                "would cause quite a stir..."
+                "Vous auriez raison de dire qu'une",
+                "arme dans un milkshake ferait grand",
+                "bruit..."
               ],
               "Type": 0,
               "Position": 0
@@ -64882,8 +64892,8 @@
             {
               "Name": "6_POST_LINK20",
               "MessageTextLines": [
-                "If the milk ever actually <SOUND:CLUE>made it to any",
-                "milk bar, that is."
+                "Si le lait avait vraiment <SOUND:CLUE>été livré à un",
+                "bar, bien sûr."
               ],
               "Type": 0,
               "Position": 0
@@ -64891,7 +64901,7 @@
             {
               "Name": "5_2_DRAGMIRE60",
               "MessageTextLines": [
-                "...!"
+                "... !"
               ],
               "Type": 0,
               "Position": 0
@@ -64899,13 +64909,13 @@
             {
               "Name": "5_2_LINK50",
               "MessageTextLines": [
-                "You see, I overheard a very interesting",
-                "tale during the recess...",
+                "Voyez-vous, j'ai entendu une histoire",
+                "intéressante pendant la pause...",
                 "<NEW_BOX>",
-                "Word was sent from the ranch not long",
-                "ago that one of the shipments was",
-                "returned unopened due to being",
-                "misaddressed."
+                "Un message a été envoyé depuis le",
+                "ranch : l'une des caisses a été renvoyée",
+                "non ouverte car elle avait été mal",
+                "adressée."
               ],
               "Type": 0,
               "Position": 0
@@ -64913,7 +64923,7 @@
             {
               "Name": "5_2_INGO10",
               "MessageTextLines": [
-                "Wh<EMDASH><PAUSE:6> <SOUND:EXPLOSION><DI>Nooooooo!"
+                "Qu<EMDASH><PAUSE:6> <SOUND:EXPLOSION><DI>Noooooooon !"
               ],
               "Type": 0,
               "Position": 0
@@ -64921,8 +64931,8 @@
             {
               "Name": "5_2_LINK70",
               "MessageTextLines": [
-                "Indeed.<PAUSE:3> If you recall, Ingo was the one",
-                "who handled all of that."
+                "En effet.<PAUSE:3> Et je vous rappelle que",
+                "c'est Ingo qui gérait tout ça."
               ],
               "Type": 0,
               "Position": 0
@@ -64930,13 +64940,12 @@
             {
               "Name": "5_2_LINK80",
               "MessageTextLines": [
-                "Now, that's strange.<PAUSE:3> The ranch supplies",
-                "the same milk bars every day.",
+                "Voilà qui est étrange.<PAUSE:3> Le ranch livre",
+                "toujours les mêmes bars chaque jour.",
                 "<NEW_BOX>",
-                "Even if he had messed up the street",
-                "address a little,<PAUSE:3> <SOUND:CLUE>the couriers would've",
-                "known where the shipment was meant",
-                "to go."
+                "Même s'il avait fait une erreur dans",
+                "l'adresse,<PAUSE:3> <SOUND:CLUE>les livreurs auraient su",
+                "où la livraison devait aller."
               ],
               "Type": 0,
               "Position": 0
@@ -64944,8 +64953,8 @@
             {
               "Name": "5_2_LINK85",
               "MessageTextLines": [
-                "How could he have bungled it <PAUSE:5>THAT<PAUSE:5> ",
-                "badly?"
+                "Comment a-t-il pu se tromper <PAUSE:5>À CE",
+                "POINT<PAUSE:5> ?"
               ],
               "Type": 0,
               "Position": 0
@@ -64953,9 +64962,9 @@
             {
               "Name": "5_2_LINK90",
               "MessageTextLines": [
-                "<NS>It's almost as if...<PAUSE:3><DI><SOUND:DON> he didn't want",
-                "anyone receiving a bottle of milk with",
-                "a murder weapon in it!"
+                "<NS>C'est presque comme si...<PAUSE:3><DI><SOUND:DON> il ne voulait",
+                "surtout pas qu'on reçoive une bouteille",
+                "contenant une arme du crime !"
               ],
               "Type": 0,
               "Position": 0
@@ -64971,11 +64980,11 @@
             {
               "Name": "5_2_LINK100",
               "MessageTextLines": [
-                "I bet Ingo expected this box to stay",
-                "in shipping limbo a while longer.",
+                "Je parie qu'Ingo comptait sur le fait que",
+                "ce colis reste bloqué plus longtemps.",
                 "<NEW_BOX>",
-                "How unfortunate for him that the postal",
-                "service was on its game today."
+                "Malheureusement pour lui, les services",
+                "postaux ont fait leur boulot aujourd'hui."
               ],
               "Type": 0,
               "Position": 0
@@ -64983,8 +64992,8 @@
             {
               "Name": "5_2_LINK110",
               "MessageTextLines": [
-                "<SOUND:0><C>(...Maybe because they were worried",
-                "it'd start to smell.)"
+                "<SOUND:0><C>(...Peut-être parce qu'ils craignaient",
+                "que ça commence à sentir.)"
               ],
               "Type": 0,
               "Position": 0
@@ -64992,8 +65001,8 @@
             {
               "Name": "5_2_JUDGE10",
               "MessageTextLines": [
-                "I believe this calls for us to investigate",
-                "these boxes of milk more closely."
+                "Je pense qu'il est temps d'examiner",
+                "ces caisses de lait de plus près."
               ],
               "Type": 0,
               "Position": 0
@@ -65001,8 +65010,8 @@
             {
               "Name": "5_2_JUDGE20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Soldiers!<PAUSE:3> Have these boxes retrieved",
-                "from the ranch immediately!<SQUARE>"
+                "<SOUND:WHAP><DI>Soldats !<PAUSE:3> Faites rapatrier ces caisses",
+                "depuis le ranch immédiatement !<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
