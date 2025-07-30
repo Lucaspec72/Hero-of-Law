@@ -2,6 +2,8 @@
 #include "vt.h"
 #include "../../../../actor/_custom-1.0/common.h"
 
+// This eats into Message_DrawTextChar
+// If injection space is moved, then Font_LoadRuntimeChar also has to be moved.
 void Message_HandleChoiceSelection(PlayState* play, u8 numChoices) 
 {
     static s16 sAnalogStickHeld = false;

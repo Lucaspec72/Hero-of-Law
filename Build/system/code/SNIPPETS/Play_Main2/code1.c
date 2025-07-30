@@ -35,6 +35,14 @@ void Play_Main2(PlayState* play)
 {
     D_8012D1F8 = &play->state.input[0];
 
+    RuntimeFont* f = (RuntimeFont*)&play->msgCtx.font.charTexBuf;
+    
+    if (f->numUsed != 0 || f->usedChar[0] != 0xFF)
+    {
+        Lib_MemSet(&f->usedChar[0], RUNTIME_CHAR_COUNT, 0xFF);
+        f->numUsed = 0;
+    }
+
     DebugDisplay_Init();
     Play_Update(play);
     Play_Draw(play);

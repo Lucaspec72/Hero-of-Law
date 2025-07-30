@@ -2,6 +2,7 @@
 #define _Z_OPENING_H
 
 #define SAVE_STUFF
+#define GET_DIMENSIONS_FUNCS
 
 #include "../../../actor/_custom-1.0/holText.h"
 #include "../../../actor/_custom-1.0/draw2D.h"
@@ -69,6 +70,9 @@ typedef struct
     int hzChoiceTimer;
     bool hzChoiceMade;
     bool hzChoiceForce;
+    bool noController;
+    bool langChoice;
+    int langChoiceCoold;
     s16 hzChoiceAlpha;
     float logoScale;
     float colorInterpolationFraction;
@@ -78,7 +82,7 @@ typedef struct
     Color_RGBA8 n64TextColorPrim;
     Color_RGBA8 n64TextColorEnv;    
     
-    u8* fontGfx;
+    Font* font;
     u8* controllerInfoGfx;
     u8 segBuf[CONSOLE_LOGO_SIZE] __attribute__ ((aligned (16)));
 
@@ -106,23 +110,49 @@ Color_RGB8 controllerInfoFontColor = (Color_RGB8){0, 0, 0};
 Color_RGB8 hzSwitchFontColor = (Color_RGB8){255, 255, 255};
 Color_RGB8 hzSwitchShadowFontColor = (Color_RGB8){10, 10, 10};
 
-char* noExpPakLine1 = "- EXPANSION PAK NOT DETECTED -";
-char* noExpPakLine2 = "This game requires expanded memory to run.";
-char* noExpPakLine3 = "Please put an Expansion Pak into your console";
-char* noExpPakLine4 = "or adjust your emulator settings.";
-            
-char* noControllerLine1 = "- NO CONTROLLER -";
-char* noControllerLine2 = "Turn the power OFF, and plug a controller into";
-char* noControllerLine3 = "Controller Port 1 or adjust your emulator settings.";
+Color_RGB8 langSelectFontColor = (Color_RGB8){255, 255, 255};
+Color_RGB8 langSelectShadowFontColor = (Color_RGB8){10, 10, 10};
 
-            
-char* controllerInfoLine1 = "If you're playing with an official N64 controller,";
-char* controllerInfoLine2 = "please hold it like this.";
+char* noExpPakLines[] = 
+{
+    "\xFD""- EXPANSION PAK NOT DETECTED -\x01\xFDThis game requires expanded memory to run.\x01\xFD""Please put an Expansion Pak into your console\x01\xFD""or adjust your emulator settings.\x02",
+    "\xFD""- EXPANSION PAK NOT DETECTED -\x01\xFDThis game requires expanded memory to run.\x01\xFD""Please put an Expansion Pak into your console\x01\xFD""or adjust your emulator settings.\x02",
+};
 
-char* pickHzLine1 = "This game is best played in 60 Hz mode.";
-char* pickHzLine2 = "If your TV does not display correctly in 60 Hz mode,";
-char* pickHzLine3 = "please select 50 Hz mode.";
+char* noControllerLines[] = 
+{
+    "\xFD- NO CONTROLLER -\x01\xFD""Turn the power OFF, and plug a controller into\x01\xFD""Controller Port 1 or adjust your emulator settings.\x02",
+    "\xFD- NO CONTROLLER -\x01\xFD""Turn the power OFF, and plug a controller into\x01\xFD""Controller Port 1 or adjust your emulator settings.\x02",
+};
 
+char* controllerInfoLines[] =
+{
+    "\xFD""If you're playing with an official N64 controller,\x01\xFD""please hold it like this.\x02",
+    "\xFD""If you're playing with an official N64 controller,\x01\xFD""please hold it like this.\x02",
+};
+
+char* pickHzLines[] =
+{
+    "\xFD""This game is best played in 60 Hz mode.\x01\xFD""If your TV does not display correctly in 60 Hz mode,\x01\xFD""please select 50 Hz mode.\x02",
+    "\xFD""This game is best played in 60 Hz mode.\x01\xFD""If your TV does not display correctly in 60 Hz mode,\x01\xFD""please select 50 Hz mode.\x02",  
+};
+
+//#define LANGUAGE_PICKER
+
+char* pickLanguageLines[] = 
+{
+    "\xFD\x05\x41""- LANGUAGE SELECT -\x01\xFD\x05\x40""Please select your language:\x02",
+    "\xFD\x05\x41""- LANGUAGE SELECT -\x01\xFD\x05\x40""Please select your language:\x02",
+};
+
+char* languageCursor = "\xFD<                     >";
+    
+char* languageNames[] =
+{
+    "\xFD""English\x02",
+    "\xFD""Fran\x94""ais\x02",
+};    
+   
 char* hzOption1 = "60 Hz";
 char* hzOption2 = "50 Hz";
 char* hzCursor = ">         <";
@@ -143,6 +173,7 @@ typedef enum
 
 typedef enum 
 {
+    LOGOSTATE_PREINIT,
     LOGOSTATE_INIT,
     LOGOSTATE_MEMORY_MISSING_MOVE_UP,
     LOGOSTATE_MEMORY_MISSING,
@@ -151,12 +182,14 @@ typedef enum
     LOGOSTATE_PICK6050HZ_MOVE_UP,
     LOGOSTATE_PICK6050HZ,
     LOGOSTATE_PICK6050HZ_MOVE_DOWN,
+    LOGOSTATE_PICK_LANGUAGE_MOVE_UP,
+    LOGOSTATE_PICK_LANGUAGE,
+    LOGOSTATE_PICK_LANGUAGE_MOVE_DOWN,
     LOGOSTATE_SPEEDUP,
     LOGOSTATE_MOVE,
     LOGOSTATE_DONE,
     
 } TitleState;
-
 
 #define REFRESH_RATE_PAL 50
 #define REFRESH_RATE_MPAL 60

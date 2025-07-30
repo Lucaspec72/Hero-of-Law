@@ -21,10 +21,26 @@ void Opening_SetupTitleScreen(TitleSetupState* this)
     gSaveContext.gameMode = 1;
     this->state.running = false;
     gSaveContext.linkAge = 0;
+    
+    // Preserve language
+    int Language = SAVE_LANGUAGE;
     Sram_InitDefSave();
+    SAVE_LANGUAGE = Language;
+    
     gSaveContext.cutsceneIndex = 0xFFF3;
     gSaveContext.sceneLayer = 7;
     SET_NEXT_GAMESTATE(&this->state, (void*)0x8009A750, PlayState);
+}
+
+void SetupRuntimeFont(GameState* thisx)
+{
+    RuntimeFont* f = (RuntimeFont*)&that->font->charTexBuf;
+    
+    if (f->numUsed != 0 || f->usedChar[0] != 0xFF)
+    {
+        Lib_MemSet(&f->usedChar[0], RUNTIME_CHAR_COUNT, 0xFF);
+        f->numUsed = 0;       
+    }
 }
 
 void Opening_Main(GameState* thisx) 
@@ -36,6 +52,8 @@ void Opening_Main(GameState* thisx)
     Gfx* gfx = Graph_GfxPlusOne(gfxRef);
     gSPDisplayList(OVERLAY_DISP++, gfx);
     Gfx_SetupFrame(this->state.gfxCtx, 0, 0, 0);
+    
+    SetupRuntimeFont(thisx);   
     
     Environment_FillScreen(this->state.gfxCtx, 255, 255, 255, (s16)255, FILL_SCREEN_XLU);     
  
@@ -95,8 +113,9 @@ void Opening_Main(GameState* thisx)
         {
             Draw2DInternal(IA4_Setup39, (u8*)that->controllerInfoGfx, NULL, &gfx, SCREEN_WIDTH / 2, 90, CONTROLLER_GRAPHIC_X, CONTROLLER_GRAPHIC_Y, CONTROLLER_GRAPHIC_X, CONTROLLER_GRAPHIC_Y, 255 - that->fade); 
             
-            HoL_DrawMessageTextInternal(NULL, that->fontGfx, &gfx, controllerInfoFontColor, controllerInfoShadowColor, 255 - that->fade, 255 - that->fade, controllerInfoLine1, GetStringCenterX(controllerInfoLine1, 75), 186, 1, 1, NULL, 75, OPERATION_DRAW_SHADOW);
-            HoL_DrawMessageTextInternal(NULL, that->fontGfx, &gfx, controllerInfoFontColor, controllerInfoShadowColor, 255 - that->fade, 255 - that->fade, controllerInfoLine2, GetStringCenterX(controllerInfoLine2, 75), 202, 1, 1, NULL, 75, OPERATION_DRAW_SHADOW);
+            HoL_DrawMessageTextInternal(NULL, that->font, &gfx, controllerInfoFontColor, controllerInfoShadowColor, 255 - that->fade, 255 - that->fade, 
+                                        controllerInfoLines[MIN(LANGUAGE_MAX - 1, SAVE_LANGUAGE)], 
+                                        0, 186, 1, 1, NULL, 75, OPERATION_DRAW_SHADOW);
         }
     }
     else if (that->controllerInfoState == STATE_EXIT)
@@ -237,11 +256,16 @@ void ConsoleLogo_Main(GameState* thisx)
 
     Gfx_SetupFrame(this->state.gfxCtx, 0, 0, 0);
     
+    SetupRuntimeFont(thisx);       
+    
     that->logoRot += that->spinSpeed;
     ConsoleLogo_Calc(this);
     ConsoleLogo_Draw(this);
     
-    if (that->logoState == LOGOSTATE_INIT)
+    if (gSaveContext.fileNum == 0xFEDC)
+        that->noController = true;
+    
+    if (that->logoState == LOGOSTATE_PREINIT)
     {
         int res = LoadSaveAndVerify(0);
         int res2 = SAVE_NOT_HOL;
@@ -259,7 +283,11 @@ void ConsoleLogo_Main(GameState* thisx)
             SAVE_SCREENSIZEX = 225;
             SAVE_SCREENSIZEY = 225;
             SAVE_WIDESCREEN = 0;
+            SAVE_LANGUAGE = 0;
+            that->langChoice = true;
         }
+        
+        that->logoState = LOGOSTATE_INIT;
     }
     
     #if DEBUGVER == 1
@@ -274,7 +302,14 @@ void ConsoleLogo_Main(GameState* thisx)
     {
         case LOGOSTATE_INIT:
         {
-            if (*memSize < 0x800000 || gSaveContext.fileNum == 0xFEDC)
+#ifdef LANGUAGE_PICKER
+            if (that->langChoice || CHECK_BTN_ALL(this->state.input->cur.button, BTN_START))
+            {
+                that->logoState = LOGOSTATE_PICK_LANGUAGE_MOVE_UP;
+                break;
+            }
+#endif
+            if (*memSize < 0x800000 || that->noController)
             {           
                 if (that->visibleDuration < 165)
                 {
@@ -292,7 +327,7 @@ void ConsoleLogo_Main(GameState* thisx)
                     that->visibleDuration = 0xFFFF;
                     Audio_PlaySfxGeneral(NA_SE_SY_ERROR, &gSfxDefaultPos, 4, &gSfxDefaultFreqAndVolScale, &gSfxDefaultFreqAndVolScale, &gSfxDefaultReverb);
                     
-                    if (gSaveContext.fileNum == 0xFEDC)
+                    if (that->noController)
                         that->logoState = LOGOSTATE_NO_CONTROLLER_MOVE_UP;
                     else
                         that->logoState = LOGOSTATE_MEMORY_MISSING_MOVE_UP;
@@ -309,10 +344,14 @@ void ConsoleLogo_Main(GameState* thisx)
             }
 #endif
             else
-                that->logoState = LOGOSTATE_SPEEDUP;
+            {
+                if (that->visibleDuration < 150)
+                    that->logoState = LOGOSTATE_SPEEDUP;
+            }
             
             break;
         }
+        case LOGOSTATE_PICK_LANGUAGE_MOVE_UP:
         case LOGOSTATE_NO_CONTROLLER_MOVE_UP:
         case LOGOSTATE_MEMORY_MISSING_MOVE_UP:
         case LOGOSTATE_PICK6050HZ_MOVE_UP:
@@ -328,23 +367,74 @@ void ConsoleLogo_Main(GameState* thisx)
                     case LOGOSTATE_MEMORY_MISSING_MOVE_UP: 
                         that->logoState = LOGOSTATE_MEMORY_MISSING; break;
                     case LOGOSTATE_PICK6050HZ_MOVE_UP: 
-                        that->logoState = LOGOSTATE_PICK6050HZ; break;                        
+                        that->logoState = LOGOSTATE_PICK6050HZ; break;     
+                    case LOGOSTATE_PICK_LANGUAGE_MOVE_UP:
+                        that->logoState = LOGOSTATE_PICK_LANGUAGE; break;
                 }
             }
             
             break;
+        }
+        case LOGOSTATE_PICK_LANGUAGE:
+        {
+            Gfx* gfx = POLY_OPA_DISP;
+            Gfx_SetupDL_39Ptr(&gfx);
+            
+            HoL_DrawMessageTextInternal(NULL, that->font, &gfx, langSelectFontColor, langSelectShadowFontColor, 255, 255, 
+                                        pickLanguageLines[MIN(LANGUAGE_MAX - 1, SAVE_LANGUAGE)], 
+                                        0, 150, 1, 1, NULL, 75, 1);
+            HoL_DrawMessageTextInternal(NULL, that->font, &gfx, langSelectFontColor, langSelectShadowFontColor, 255, 255, 
+                                        languageCursor, 
+                                        0, 180, 1, 1, NULL, 75, 1);      
+
+
+            HoL_DrawMessageTextInternal(NULL, that->font, &gfx, langSelectFontColor, langSelectShadowFontColor, 255, 255, 
+                                        languageNames[MIN(LANGUAGE_MAX - 1, SAVE_LANGUAGE)], 
+                                        0, 180, 1, 1, NULL, 75, 1);                                        
+                                        
+                                        
+            if (that->langChoiceCoold == 0)
+            {
+                if (CHECK_BTN_ALL(this->state.input->press.button, BTN_DRIGHT) || this->state.input->cur.stick_x > 20)
+                {
+                    that->langChoiceCoold = 3;
+                    
+                    if (SAVE_LANGUAGE < LANGUAGE_MAX - 1)
+                        SAVE_LANGUAGE++;
+                }    
+                else if (CHECK_BTN_ALL(this->state.input->press.button, BTN_DLEFT) || this->state.input->cur.stick_x < -20)
+                {
+                    that->langChoiceCoold = 3;
+                    
+                    if (SAVE_LANGUAGE > 0)
+                        SAVE_LANGUAGE--;
+                }
+            }
+            else
+                that->langChoiceCoold--;
+            
+            
+            if (CHECK_BTN_ALL(this->state.input->press.button, BTN_A))
+            {
+                that->langChoice = false;
+                that->logoState =  LOGOSTATE_PICK_LANGUAGE_MOVE_DOWN;
+            }
+
+            that->visibleDuration = 0xFFFF;
+            POLY_OPA_DISP = gfx;          
+            
+            break;              
         }
         case LOGOSTATE_NO_CONTROLLER:
         {
             Gfx* gfx = POLY_OPA_DISP;
             Gfx_SetupDL_39Ptr(&gfx);  
 
-            HoL_DrawMessageTextInternal(NULL, that->fontGfx, &gfx, noExpPakFontColor, noExpPakShadowColor, 255, 255, noControllerLine1, GetStringCenterX(noControllerLine1, 75), 130, 1, 1, NULL, 75, 1);
-            HoL_DrawMessageTextInternal(NULL, that->fontGfx, &gfx, noExpPakFontColor, noExpPakShadowColor, 255, 255, noControllerLine2, GetStringCenterX(noControllerLine2, 75), 160, 1, 1, NULL, 75, 1);
-            HoL_DrawMessageTextInternal(NULL, that->fontGfx, &gfx, noExpPakFontColor, noExpPakShadowColor, 255, 255, noControllerLine3, GetStringCenterX(noControllerLine3, 75), 176, 1, 1, NULL, 75, 1);
-
+            HoL_DrawMessageTextInternal(NULL, that->font, &gfx, noExpPakFontColor, noExpPakShadowColor, 255, 255, 
+                                        noControllerLines[MIN(LANGUAGE_MAX - 1, SAVE_LANGUAGE)], 
+                                        0, 130, 1, 1, NULL, 75, 1);
+            
             that->visibleDuration = 0xFFFF;
-
             POLY_OPA_DISP = gfx;          
             
             break;            
@@ -354,13 +444,11 @@ void ConsoleLogo_Main(GameState* thisx)
             Gfx* gfx = POLY_OPA_DISP;
             Gfx_SetupDL_39Ptr(&gfx);  
 
-            HoL_DrawMessageTextInternal(NULL, that->fontGfx, &gfx, noExpPakFontColor, noExpPakShadowColor, 255, 255, noExpPakLine1, GetStringCenterX(noExpPakLine1, 75), 130, 1, 1, NULL, 75, 1);
-            HoL_DrawMessageTextInternal(NULL, that->fontGfx, &gfx, noExpPakFontColor, noExpPakShadowColor, 255, 255, noExpPakLine2, GetStringCenterX(noExpPakLine2, 75), 160, 1, 1, NULL, 75, 1);
-            HoL_DrawMessageTextInternal(NULL, that->fontGfx, &gfx, noExpPakFontColor, noExpPakShadowColor, 255, 255, noExpPakLine3, GetStringCenterX(noExpPakLine3, 75), 176, 1, 1, NULL, 75, 1);
-            HoL_DrawMessageTextInternal(NULL, that->fontGfx, &gfx, noExpPakFontColor, noExpPakShadowColor, 255, 255, noExpPakLine4, GetStringCenterX(noExpPakLine4, 75), 192, 1, 1, NULL, 75, 1);
+            HoL_DrawMessageTextInternal(NULL, that->font, &gfx, noExpPakFontColor, noExpPakShadowColor, 255, 255, 
+                                        noExpPakLines[MIN(LANGUAGE_MAX - 1, SAVE_LANGUAGE)], 
+                                        0, 130, 1, 1, NULL, 75, 1);
             
             that->visibleDuration = 0xFFFF;
-
             POLY_OPA_DISP = gfx;          
             
             break;            
@@ -417,14 +505,14 @@ void ConsoleLogo_Main(GameState* thisx)
             else
                 Math_ApproachS(&that->hzChoiceAlpha, 0, 1, 15);
             
-            HoL_DrawMessageTextInternal(NULL, that->fontGfx, &gfx, hzSwitchFontColor, hzSwitchShadowFontColor, that->hzChoiceAlpha, that->hzChoiceAlpha, pickHzLine1, GetStringCenterX(pickHzLine1, 75), 130, 1, 1, NULL, 75, 1);
-            HoL_DrawMessageTextInternal(NULL, that->fontGfx, &gfx, hzSwitchFontColor, hzSwitchShadowFontColor, that->hzChoiceAlpha, that->hzChoiceAlpha, pickHzLine2, GetStringCenterX(pickHzLine2, 75), 160, 1, 1, NULL, 75, 1);
-            HoL_DrawMessageTextInternal(NULL, that->fontGfx, &gfx, hzSwitchFontColor, hzSwitchShadowFontColor, that->hzChoiceAlpha, that->hzChoiceAlpha, pickHzLine3, GetStringCenterX(pickHzLine3, 75), 176, 1, 1, NULL, 75, 1);
+            HoL_DrawMessageTextInternal(NULL, that->font, &gfx, hzSwitchFontColor, hzSwitchShadowFontColor, that->hzChoiceAlpha, that->hzChoiceAlpha, 
+                                        pickHzLines[MIN(LANGUAGE_MAX - 1, SAVE_LANGUAGE)], 
+                                        0, 130, 1, 1, NULL, 75, 1);
+
+            HoL_DrawMessageTextInternal(NULL, that->font, &gfx, hzSwitchFontColor, hzSwitchShadowFontColor, that->hzChoiceAlpha, that->hzChoiceAlpha, hzOption1, 90, 192, 1, 1, NULL, 75, 1);
+            HoL_DrawMessageTextInternal(NULL, that->font, &gfx, hzSwitchFontColor, hzSwitchShadowFontColor, that->hzChoiceAlpha, that->hzChoiceAlpha, hzOption2, 200, 192, 1, 1, NULL, 75, 1);
             
-            HoL_DrawMessageTextInternal(NULL, that->fontGfx, &gfx, hzSwitchFontColor, hzSwitchShadowFontColor, that->hzChoiceAlpha, that->hzChoiceAlpha, hzOption1, 90, 192, 1, 1, NULL, 75, 1);
-            HoL_DrawMessageTextInternal(NULL, that->fontGfx, &gfx, hzSwitchFontColor, hzSwitchShadowFontColor, that->hzChoiceAlpha, that->hzChoiceAlpha, hzOption2, 200, 192, 1, 1, NULL, 75, 1);
-            
-            HoL_DrawMessageTextInternal(NULL, that->fontGfx, &gfx, hzSwitchFontColor, hzSwitchShadowFontColor, that->hzChoiceAlpha, that->hzChoiceAlpha, hzCursor, 80 + (that->hzChoice * 110), 192, 1, 1, NULL, 75, 1); 
+            HoL_DrawMessageTextInternal(NULL, that->font, &gfx, hzSwitchFontColor, hzSwitchShadowFontColor, that->hzChoiceAlpha, that->hzChoiceAlpha, hzCursor, 80 + (that->hzChoice * 110), 192, 1, 1, NULL, 75, 1); 
             
             that->visibleDuration = 0xFFFF;
             
@@ -432,6 +520,7 @@ void ConsoleLogo_Main(GameState* thisx)
             
             break;
         }
+        case LOGOSTATE_PICK_LANGUAGE_MOVE_DOWN:
         case LOGOSTATE_PICK6050HZ_MOVE_DOWN:
         {
             if (that->logoPosOffs.y != 0)
@@ -439,30 +528,36 @@ void ConsoleLogo_Main(GameState* thisx)
             else
             {
                 that->visibleDuration = 150;
-                that->logoState = LOGOSTATE_SPEEDUP;
+                
+                if (that->logoState == LOGOSTATE_PICK_LANGUAGE_MOVE_DOWN)
+                {
+                    that->visibleDuration = 200;
+                    that->logoState = LOGOSTATE_INIT;
+                }
+                else
+                    that->logoState = LOGOSTATE_SPEEDUP;
             }
+            
+            break;
         }
         case LOGOSTATE_SPEEDUP:
         {
-            if (that->visibleDuration <= 150)
+            RudimentaryColorInterpolate(primBlue, primGold, that->colorInterpolationFraction, &that->n64TextColorPrim);
+            RudimentaryColorInterpolate(envBlue, envGold, that->colorInterpolationFraction, &that->n64TextColorEnv);
+            
+            that->colorInterpolationFraction += 0.025;
+                
+            if (that->colorInterpolationFraction > 1)
+                that->colorInterpolationFraction = 1;                
+            
+            
+            if (that->spinSpeed != 2000)
+                that->spinSpeed += 20;
+            else
             {
-                RudimentaryColorInterpolate(primBlue, primGold, that->colorInterpolationFraction, &that->n64TextColorPrim);
-                RudimentaryColorInterpolate(envBlue, envGold, that->colorInterpolationFraction, &that->n64TextColorEnv);
-                
-                that->colorInterpolationFraction += 0.025;
-                    
-                if (that->colorInterpolationFraction > 1)
-                    that->colorInterpolationFraction = 1;                
-                
-                
-                if (that->spinSpeed != 2000)
-                    that->spinSpeed += 20;
-                else
-                {
-                    that->visibleDuration = 200;
-                    that->logoState = LOGOSTATE_MOVE;
-                    that->logoPosMoveDiff = -2.5;
-                }
+                that->visibleDuration = 200;
+                that->logoState = LOGOSTATE_MOVE;
+                that->logoPosMoveDiff = -2.5;
             }
             
             break;
@@ -530,7 +625,8 @@ void ConsoleLogo_Main(GameState* thisx)
         gSPDisplayList(OVERLAY_DISP++, gfx);
         
         Gfx_SetupFrame(this->state.gfxCtx, 0, 0, 0);
-        
+        SetupRuntimeFont(thisx);  
+
         gDPPipeSync(gfx++);
         gDPSetCycleType(gfx++, G_CYC_FILL);
         gDPSetRenderMode(gfx++, G_RM_NOOP, G_RM_NOOP2);
@@ -554,8 +650,8 @@ void ConsoleLogo_Main(GameState* thisx)
             SetMusicTempo(-1, 0, 1000);    
         
 
-        HoL_DrawMessageTextInternal(NULL, that->fontGfx, &gfx, noExpPakFontColor, noExpPakShadowColor, 255, 255, debugMusicString, GetStringCenterX(debugMusicString, 75) + Rand_S16Offset(-2 - FastForward, 2 + FastForward), 110 + Rand_S16Offset(-2 - FastForward, 2 + FastForward), 1, 1, NULL, 75, 1);
-        HoL_DrawMessageTextInternal(NULL, that->fontGfx, &gfx, noExpPakFontColor, noExpPakShadowColor, 255, 255, debugMusicStringControls, GetStringCenterX(debugMusicStringControls, 75), 200, 1, 1, NULL, 75, 1);
+        HoL_DrawMessageTextInternal(NULL, that->font, &gfx, noExpPakFontColor, noExpPakShadowColor, 255, 255, debugMusicString, GetStringCenterX(debugMusicString, 75) + Rand_S16Offset(-2 - FastForward, 2 + FastForward), 110 + Rand_S16Offset(-2 - FastForward, 2 + FastForward), 1, 1, NULL, 75, 1);
+        HoL_DrawMessageTextInternal(NULL, that->font, &gfx, noExpPakFontColor, noExpPakShadowColor, 255, 255, debugMusicStringControls, GetStringCenterX(debugMusicStringControls, 75), 200, 1, 1, NULL, 75, 1);
         
         gSPEndDisplayList(gfx++);
         Graph_BranchDlist(gfxRef, gfx);
@@ -614,8 +710,8 @@ void Opening_Init(GameState* thisx)
 
     // Font.
     RomFile* fnt = &objectTable[9];
-    that->fontGfx = (u8*)THA_AllocTailAlign16(&thisx->tha, fnt->vromEnd - fnt->vromStart);
-    DmaMgr_SendRequest1(that->fontGfx, fnt->vromStart, fnt->vromEnd - fnt->vromStart);
+    that->font = (Font*)THA_AllocTailAlign16(&thisx->tha, sizeof(Font));
+    DmaMgr_SendRequest1(that->font->fontBuf, fnt->vromStart, fnt->vromEnd - fnt->vromStart);
     
     // Logo.
     DmaMgr_SendRequest1(that->segBuf, gDmaDataTable[938].vromStart, gDmaDataTable[938].vromEnd - gDmaDataTable[938].vromStart);   
@@ -644,7 +740,7 @@ void Opening_Init(GameState* thisx)
     that->timer = 0;
     
     that->controllerInfoState = STATE_INIT;
-    that->logoState = LOGOSTATE_INIT;
+    that->logoState = LOGOSTATE_PREINIT;
     
 #ifdef MUSID
     Audio_QueueSeqCmd(MUSID); 

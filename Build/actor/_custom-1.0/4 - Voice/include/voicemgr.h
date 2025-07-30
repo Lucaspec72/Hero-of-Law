@@ -1,6 +1,8 @@
 #ifndef _Z_VOICEMGR_H_
 #define _Z_VOICEMGR_H_
 
+#define GET_DIMENSIONS_FUNCS
+
 #include <z64hdr/oot_u10/z64hdr.h>
 #include "PR/controller_voice.h"
 #include "z64voice.h"

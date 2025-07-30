@@ -1,18 +1,7 @@
 #include "global.h"
+#include "message_data_static.h"
 #include "../../../../actor/_custom-1.0/common.h"
-
-typedef enum TextBoxType {
-    /*  0 */ TEXTBOX_TYPE_BLACK,
-    /*  1 */ TEXTBOX_TYPE_WOODEN,
-    /*  2 */ TEXTBOX_TYPE_BLUE,
-    /*  3 */ TEXTBOX_TYPE_OCARINA,
-    /*  4 */ TEXTBOX_TYPE_NONE_BOTTOM,
-    /*  5 */ TEXTBOX_TYPE_NONE_NO_SHADOW,
-    /* 11 */ TEXTBOX_TYPE_CREDITS = 11
-} TextBoxType;
-
-int ugh = 0;
-int ugh2 = 0;
+#include "../../../../actor/_custom-1.0/draw2D.h"
 
 void Message_DrawTextBox(PlayState* play, Gfx** p) 
 {
@@ -23,17 +12,17 @@ void Message_DrawTextBox(PlayState* play, Gfx** p)
     gDPSetPrimColor(gfx++, 0, 0, msgCtx->textboxColorRed, msgCtx->textboxColorGreen, msgCtx->textboxColorBlue,
                     msgCtx->textboxColorAlphaCurrent);
                     
-    int textboxTexWidth = R_TEXTBOX_TEXWIDTH;
     int textboxWidth = R_TEXTBOX_WIDTH;
     int textboxPosX = R_TEXTBOX_X;
     
     if (SAVE_WIDESCREEN)
     {
-        textboxTexWidth = textboxTexWidth / 65 * 100;
-        textboxWidth = textboxWidth * 73 / 100;
+        textboxWidth *= WIDESCREEN_SCALEX;
         textboxPosX += WIDESCREEN_TXBOX_OFFSX;        
     }
-        
+    
+    int textboxDsDx = GET_DSD(R_TEXTBOX_WIDTH, textboxWidth);     
+    int textboxDsDy = GET_DSD(R_TEXTBOX_HEIGHT, R_TEXTBOX_HEIGHT);      
 
     if (!(msgCtx->textBoxType) || msgCtx->textBoxType == TEXTBOX_TYPE_BLUE)
     {
@@ -48,8 +37,7 @@ void Message_DrawTextBox(PlayState* play, Gfx** p)
     }
 
     gSPTextureRectangle(gfx++, textboxPosX << 2, R_TEXTBOX_Y << 2, (textboxPosX + textboxWidth) << 2,
-                        (R_TEXTBOX_Y + R_TEXTBOX_HEIGHT) << 2, G_TX_RENDERTILE, 0, 0, textboxTexWidth << 1,
-                        R_TEXTBOX_TEXHEIGHT << 1);
+                        (R_TEXTBOX_Y + R_TEXTBOX_HEIGHT) << 2, G_TX_RENDERTILE, 0, 0, textboxDsDx, textboxDsDy);
 
     *p = gfx;
 }

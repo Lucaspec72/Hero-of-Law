@@ -1,7 +1,7 @@
-#include <z64hdr/oot_u10/z64hdr.h>
-
 #ifndef IS64_PRINTF
 #define IS64_PRINTF
+
+#include <z64hdr/oot_u10/z64hdr.h>
 
 extern void _isPrintfInit();
     asm("_isPrintfInit = 0x800D5EF0");

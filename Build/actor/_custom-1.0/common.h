@@ -14,7 +14,7 @@ u32* tpakBeingUsed = (u32*)0x80198954;
 OSPiHandle** sISVHandle = (OSPiHandle**)0x8019894C;
 
 #define WIDESCREEN_OFFSX 40
-#define WIDESCREEN_TXBOX_OFFSX (WIDESCREEN_OFFSX - 6)
+#define WIDESCREEN_TXBOX_OFFSX (WIDESCREEN_OFFSX - 8)
 #define WIDESCREEN_SCALEX 0.75117370f
 
 #define SAVE_HEALTH gSaveContext.healthCapacity
@@ -63,6 +63,14 @@ OSPiHandle** sISVHandle = (OSPiHandle**)0x8019894C;
     #define MIN(a, b) ((a) < (b) ? (a) : (b))
 #endif
 
+#define COLOR_BLACK (Color_RGB8){0,0,0}
+#define COLOR_WHITE (Color_RGB8){255,255,255}
+
+#define objectTable (*(RomFile(*)[]) 0x800F8FF8)
+
+#define OBJECT_FONT 9
+
+
 #ifdef SAVE_STUFF
 
     #define SAVE_OK 0
@@ -110,6 +118,9 @@ OSPiHandle** sISVHandle = (OSPiHandle**)0x8019894C;
 
 #endif
 
+#define LANGUAGE_ENGLISH 0
+#define LANGUAGE_FRENCH 1
+#define LANGUAGE_MAX 2
 
 extern void Screen_Adjust(GameState* state, View* view);
     asm("Screen_Adjust = 0x8006CA64 + 0x8");
@@ -118,6 +129,4 @@ extern void SsSram_ReadWrite(u32 addr, void* dramAddr, size_t size, s32 directio
     asm("SsSram_ReadWrite = 0x80091474");
     
     
-    
-
 #endif

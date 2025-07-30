@@ -4,11 +4,13 @@
 #define GET_DIMENSIONS_FUNCS
 
 #include <z64hdr/oot_u10/z64hdr.h>
+#include "message_data_static.h"
 #include "../../draw2D.h"
 #include "../../holText.h"
 #include "../../common.h"
 #include "../../3 - NPC Maker/include/npc_maker_types.h"
 #include "../../4 - Voice/include/voicemgr.h"
+#include "structs.h"
 
 #ifndef MAX
     #define MAX(a, b) ((a) > (b) ? (a) : (b))
@@ -257,7 +259,10 @@
 #define CR_TEXT_Y CR_BASE_POSY - 39
 
 #define CR_TEXT_MAX_XSIZE 172
-#define CR_TEXT_MAX_YSIZE 60
+#define CR_TEXT_MAX_YSIZE 62
+
+#define SPEAKER_INDICATOR_MAX_XSIZE 100
+#define SPEAKER_INDICATOR_MIN_XSIZE 64
 
 #define CR_MAX_EVIDENCE_PER_PAGE 12
 #define CR_STICK_COOLDOWN 3 * (float)((float)3 / (float)R_UPDATE_RATE);
@@ -270,7 +275,8 @@
 #define evidenceNum this->CrDataNpcMaker->scriptVars[2]
 #define speakerData ((SpeakerEntry*)(this->CrDataNpcMaker->scriptVars[3]))
 #define speakerNum this->CrDataNpcMaker->scriptVars[4]
-#define crMagicEnd this->CrDataNpcMaker->scriptVars[5]
+#define msgSubtitlesIDStart this->CrDataNpcMaker->scriptVars[5]
+#define crMagicEnd this->CrDataNpcMaker->scriptVars[6]
 
 #define COURT_RECORD_MAGIC 0xABABCDCD
 #define MSGLOG_MAGIC 0x12121212
@@ -322,6 +328,8 @@
 
 #define ACTOR_VRS 4
 
+#define SPEAKERBUF_SIZE 60
+
 typedef struct {
     /* 0x00000 */ u16 headMagic; // GFXPOOL_HEAD_MAGIC
     /* 0x00008 */ Gfx polyOpaBuffer[0x4FE0];
@@ -356,50 +364,11 @@ typedef struct LoggedMsg
     int msgYSize;
 } LoggedMsg;
 
-typedef struct SpeakerEntry
-{
-	u8 id;
-    bool disableIndicator;
-    u16 sndID;
-	f32 sndPitch;
-	Color_RGB8 textboxColor;
-	Color_RGB8 textColor;
-	Color_RGB8 textShadowColor;
-	char* text;    
-} SpeakerEntry;
 
 typedef struct UIStruct
 {
-    Actor actor;
-    u8 guiSpeaker;
-    u8 guiToEnable;
-    u8 guiArrows;
-    u8 guiSubtitle;
-    u8 guiShowHearts;
-    s8 guiDrawIcon;
-    u8 guiShowHeartsDamageFrame;
-    u8 guiDrawCheckmark;
-    u8 guiCEStatementCount;
-    u8 guiCECurStatement;
-    u8 guiPickerEnabled;
-    u8 guiExplodeTextboxStatus;
-    u8 guiMsgLoggingDisabled;
-    u8 guiMsgLogStatus;
-    u8 guiMsgLogCurrentScene;
-    u8 guiCourtRecordStatus;
-    s8 guiCourtRecordPlayerPresented;
-    u8 guiCourtRecordMode;
-    s8 guiCourtRecordListOnly;
-    s8 guiSpeakerForce;
-    s8 guiLogSubtitle;
-    u8 guiShowConsult;
-    u8 forcedPresent;
-    s8 forceMicShow;
-    s16 guiPickerPosX;
-    s16 guiPickerPosY;
-    SpeakerEntry* curSpeakerData;
-    SpeakerEntry* curTestimonySpeakerData;
-
+    UI_STRUCT_FIELDS
+    
 // Only add new stuff below; the above struct must stay intact unless adjusted in npcmaker
 
     u8 speakerLastFrame;
@@ -442,6 +411,9 @@ typedef struct UIStruct
     NpcMaker* CrDataNpcMaker;
     VoiceMgr* VoiceM;
     LoggedMsg* msgLog;
+    
+    int speakerBuffered;
+    char speakerBuf[SPEAKERBUF_SIZE];
     
 #ifdef USE_INTERNAL_BUFFER
     int bufCur;
@@ -494,22 +466,6 @@ typedef enum
     UIACTOR_EXPLOSION_ONGOING = 2,
     UIACTOR_EXPLOSION_COMPLETE = 3
 } TextboxExplosionState;
-
-
-typedef enum
-{
-    SPEAKER_COMMON_FIRST = 249,
-    SPEAKER_TYPEWRITER = 250,
-    //SPEAKER_NOLOG can be used to mark messages that should not be logged.
-    //It is also used internally to log scene breaks in the message log.
-    //I.e SPEAKER_NOLOG messages should not appear normally in the log,
-    //But if one does, then it's a scene break message.
-    SPEAKER_NOLOG = 251,
-    SPEAKER_CROSS_EXAM = 252,
-    SPEAKER_REBUTTAL = 253,
-    SPEAKER_UNKNOWN = 254,
-    SPEAKER_NONE = 255
-} SpeakerType;
 
 typedef enum
 {
@@ -566,64 +522,6 @@ typedef enum
     DIR_OUT = 1,
     DIR_IN = 2,
 } GUIAlphaDir;
-
-SpeakerEntry commonSpeakers[] =
-{	
-	{
-		.id = SPEAKER_NOLOG,
-        .disableIndicator = true,
-		.text = "Skawo",
-		.sndID = 0,
-		.sndPitch = 1.0f,
-	},
-	{
-		.id = SPEAKER_TYPEWRITER,
-        .disableIndicator = true,
-		.text = "ParallelSkawo",
-		.sndID = 0x0F01,
-		.sndPitch = 1.0f,
-	},
-	{
-		.id = SPEAKER_CROSS_EXAM,
-		.text = "99 / 99",
-		.textboxColor = {.r = 201, .g = 201, .b = 201},
-		.textColor = {.r = 0, .g = 0, .b = 0},
-		.textShadowColor = {.r = 255, .g = 255, .b = 255},
-		.sndID = 0,
-		.sndPitch = 1.0f,
-	},
-	{
-		.id = SPEAKER_REBUTTAL,
-		.text = "Argument 99",
-		.textboxColor = {.r = 59, .g = 3, .b = 92},
-		.textColor = {.r = 255, .g = 255, .b = 255},
-		.textShadowColor = {.r = 0, .g = 0, .b = 0},
-		.sndID = 0,
-		.sndPitch = 1.0f,
-	},
-	{
-		.id = SPEAKER_UNKNOWN,
-		.text = "????",
-		.textboxColor = {.r = 201, .g = 201, .b = 201},
-		.textColor = {.r = 0, .g = 0, .b = 0},
-		.textShadowColor = {.r = 255, .g = 255, .b = 255},
-		.sndID = 0,
-		.sndPitch = 1.0f,
-	},   
-};
-
-char* subtitles[] =
-{
-    "(Hold it!)",
-    "(Objection!)",
-    "(Take that!)",
-    "(Witness Testimony)",
-    "(Cross-Examination)",
-    "(Guilty)",
-    "(Not Guilty)",
-    "(Rebuttal)",
-    "(Argument Complete)",
-};
 
 char* msgLogEnd = "--                    --";
 char* consultMsg = "\x05""\x46""\xA7""\x05""\x40"" Consult\x02";

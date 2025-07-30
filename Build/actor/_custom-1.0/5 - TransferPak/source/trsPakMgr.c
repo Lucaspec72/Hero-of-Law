@@ -303,7 +303,8 @@ void ShowWaitMsg(Actor* thisx, PlayState* play)
     {
         this->msgEntry->settings = 0x12;
         Message_StartTextbox(play, DUMMY_MSG_ENTRY, NULL);
-        bcopy(&waitMessage, play->msgCtx.font.msgBuf, ARRAY_COUNT(waitMessage));
+        char* msg = waitMessage[MIN(SAVE_LANGUAGE, LANGUAGE_MAX - 1)];
+        bcopy(msg, play->msgCtx.font.msgBuf, strlen(msg));
     }    
 }
 

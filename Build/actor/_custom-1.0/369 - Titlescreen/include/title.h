@@ -2,6 +2,7 @@
 #define _Z_TITLE_H_
 
 #define SAVE_STUFF
+#define GET_DIMENSIONS_FUNCS
 
 #include <z64hdr/oot_u10/z64hdr.h>
 #include "../../draw2D.h"
@@ -50,13 +51,36 @@
 #define NPCMAKER_ACTOR_SETTINGS 108
 #define NPCMAKER_ACTOR_OVERWRITEQ 110
 #define NPCMAKER_ACTOR_CORRUPTED 111
+#define NPCMAKER_ACTOR_SCENE_SELECT 112
 
 char sDebugVersion[] = "DEBUG VERSION";
-char NewGameString[] = "NEW GAME";
-char ContinueString[] = "CONTINUE";
-char SceneSelectString[] = "SCENE SELECT / EXTRAS";
-char StringVERSION[] = "v1.04";
-char StringSETTINGS[] = "\xA3"" Settings";
+
+char* ContinueString[] =
+{
+    "CONTINUE",
+    "CONTINUE"
+};
+
+char* NewGameString[] = 
+{
+    "NEW GAME",
+    "NEW GAME"
+};
+
+char* SceneSelectString[] = 
+{
+    "SCENE SELECT / EXTRAS",
+    "SCENE SELECT / EXTRAS"
+};
+
+char StringVERSION[] = "v1.05";
+
+char* StringSETTINGS[] = 
+{
+    "\xA3"" Settings",
+    "\xA3"" Settings",
+};
+
 char BUILDUSERSTRING[] = "BUILDUSERBUILDUSERBUILDUSERBUILDUSE";
 char* gbCamEasterEggStrings[] = 
 {
@@ -65,7 +89,7 @@ char* gbCamEasterEggStrings[] =
     "Lights, camera, action!",
     "Be not afraid...",
     "KONAMI Code + Dragmire",
-    "Very very interesting...",
+    "Very, very interesting...",
 };
 
 void TitleLogo_DrawSceneSelect(Actor* thisx, PlayState* play);
@@ -97,13 +121,9 @@ typedef struct TitleLogo
     u8 highlightedOption;
     u8 stopTextAlphaCounter;
     s8 selectedScene;
-    s8 selectedSceneId;
-    u8 numScenesVisible;
-    u8 scenesDisplayed[30];
     u8 sceneSelectRed;
     u8 drawGbCamEasterEgg;
     u8 stringSlot;
-    u8 firstInput;
     u8 initialTimer;
     bool saveCorrupted;
     s16 gbCamEasterEggAlpha;

@@ -47,6 +47,7 @@ void GameUI_Init(Actor* thisx, PlayState* play)
     this->guiSpeakerForce = -1;
     this->guiLogSubtitle = -1;
     this->forceMicShow = -1;
+    this->guiTestimonySpeaker = -1;
     this->curSpeakerData = NULL;
 
     this->guiAlphaDir = DIR_NONE;
@@ -190,9 +191,9 @@ void GameUI_Update(Actor* thisx, PlayState* play)
     if (this->guiSpeaker != this->speakerLastFrame)
         this->curSpeakerData = GetSpeakerEntry(thisx, play, this->guiSpeaker);
     
-    // If testimony speaker is defined (textboxBackgroundYOffsetIdx is reused for this purpose), then get the testimony speaker entry, too.
-    if (play->msgCtx.textboxBackgroundYOffsetIdx > 0)
-        this->curTestimonySpeakerData = GetSpeakerEntry(thisx, play, play->msgCtx.textboxBackgroundYOffsetIdx);
+    // Get testimony speaker
+    if (this->guiTestimonySpeaker >= 0)
+        this->curTestimonySpeakerData = GetSpeakerEntry(thisx, play, this->guiTestimonySpeaker);
     else
         this->curTestimonySpeakerData = NULL;
         
@@ -436,7 +437,7 @@ void GameUI_Draw(Actor* thisx, PlayState* play)
     
     DrawUIElements(thisx, play, &gfx);
     
-    if (this->guiSpeaker != SPEAKER_NONE && this->curSpeakerData != NULL)
+    if (this->CrDataNpcMaker != NULL && this->guiSpeaker != SPEAKER_NONE && this->curSpeakerData != NULL)
         DrawSpeakerIndicator(thisx, play, &gfx);
 
     if (this->guiSubtitle >= 3)
@@ -637,13 +638,10 @@ SpeakerEntry* GetSpeakerEntry(Actor* thisx, PlayState* play, int entry)
             return NULL;
         else
         {
-            SpeakerEntry* entries = (entry > SPEAKER_COMMON_FIRST ? commonSpeakers : speakerData);
-            int EntriesNum = (entry > SPEAKER_COMMON_FIRST ? ARRAY_COUNT(commonSpeakers) : speakerNum);
-            
-            for (int i = 0; i < EntriesNum; i++)
+            for (int i = 0; i < speakerNum; i++)
             {
-                if (entries[i].id == entry)
-                    return &entries[i]; 
+                if (speakerData[i].id == entry)
+                    return &speakerData[i]; 
             }            
         }    
     }
@@ -727,8 +725,13 @@ void TryLogMessage(Actor* thisx, PlayState* play)
     // Store subtitle in log with magic ID of ABCDDCBA.
     if (this->guiLogSubtitle >= 0 && this->guiSubtitle)
     {
-        StoreMessageInLog(thisx, play, subtitles[this->guiSubtitle - 3], strlen(subtitles[this->guiSubtitle - 3]), MSGLOG_SUBTITLE_MAGIC, this->guiLogSubtitle);
-        this->guiLogSubtitle = -1;
+        if (this->CrDataNpcMaker != NULL)
+        {
+            void* msg = this->CrDataNpcMaker->GetInternalMsgPtrFunc(this->CrDataNpcMaker, play, this->guiSubtitle - 3 + msgSubtitlesIDStart);
+        
+            StoreMessageInLog(thisx, play, msg, MAX(200, strlen(msg)), MSGLOG_SUBTITLE_MAGIC, this->guiLogSubtitle);
+            this->guiLogSubtitle = -1;
+        }
     }
 }
 
@@ -790,91 +793,81 @@ void DrawSpeakerIndicator(Actor* thisx, PlayState* play, Gfx** gfxp)
 
     Gfx_SetupDL_39Ptr(&gfx);
     gDPPipeSync(gfx++);
-
-    int rTextboxTexX = 512 << 3;
-    int rTextboxTexY = 512 << 3;
-    int rTextboxWidth = 64;
-    int rTextboxWidthAct = rTextboxWidth;
-    int rTextboxHeight = 16;
-    int rTextboxX = 40;
-    int rTextboxXAct = rTextboxX;
-    int rTextboxY = 0;
-      
-    if (R_TEXTBOX_Y < 128)
-        rTextboxY = R_TEXTBOX_Y + 64;
-    else
-        rTextboxY = R_TEXTBOX_Y - 18;
     
+    int textboxPosX = R_TEXTBOX_X + 8;
+    int textboxPosY = (R_TEXTBOX_Y < 128) ? R_TEXTBOX_Y + 64 : R_TEXTBOX_Y - 18;    
+    
+    int textboxPosXActual = textboxPosX;
+
     if (SAVE_WIDESCREEN)
     {
-        rTextboxTexX = rTextboxTexX / 65 * 100;
-        rTextboxWidthAct = rTextboxWidth * 66 / 100;
-        rTextboxXAct *= WIDESCREEN_SCALEX;
-        rTextboxXAct += WIDESCREEN_OFFSX;    
+        textboxPosXActual *= WIDESCREEN_SCALEX;
+        textboxPosXActual += WIDESCREEN_OFFSX;    
     }    
     
     if (!this->curSpeakerData->disableIndicator)
     {
+        if (this->speakerLastFrame == this->guiSpeaker)
+        {        
+            void* msg = this->CrDataNpcMaker->GetInternalMsgPtrFunc(this->CrDataNpcMaker, play, this->curSpeakerData->textID);
+
+            switch (this->guiSpeaker)
+            {
+                case SPEAKER_CROSS_EXAM:
+                    sprintf(this->speakerBuf, "%d / %d", this->guiCECurStatement, this->guiCEStatementCount); break;
+                case SPEAKER_REBUTTAL:
+                    sprintf(this->speakerBuf, "%s %d", msg, this->guiCECurStatement); break;
+                default:
+                    bcopy(msg, this->speakerBuf, MAX(SPEAKERBUF_SIZE, strlen(msg)));
+            }
+        }            
+        
+        int textboxHeight = 16;
+        
+        int textWidth = GetTextPxWidth(this->speakerBuf, TEXT_SCALE);
+        int textboxWidth = MIN(SPEAKER_INDICATOR_MAX_XSIZE, MAX(SPEAKER_INDICATOR_MIN_XSIZE, textWidth));
+        int textboxWidthActual = textboxWidth * (SAVE_WIDESCREEN ? WIDESCREEN_SCALEX : 1);
+        
+        int textboxDsDx = GET_DSD(R_TEXTBOX_WIDTH, textboxWidthActual);
+        int textboxDsDy = GET_DSD(R_TEXTBOX_HEIGHT, textboxHeight); 
+           
         Color_RGB8 txtBoxColor = this->curSpeakerData->textboxColor;
         gDPSetPrimColor(gfx++, 0, 0, txtBoxColor.r, txtBoxColor.g, txtBoxColor.b, this->curSpeakerTextboxAlpha);
 
         u8 textureType = G_IM_FMT_IA;
 
-        if (!(play->msgCtx.textBoxType) || play->msgCtx.textBoxType == 2)
+        if (play->msgCtx.textBoxType == TEXTBOX_TYPE_BLACK || play->msgCtx.textBoxType == TEXTBOX_TYPE_BLUE)
             textureType = G_IM_FMT_I;
 
         gDPLoadTextureBlock_4b(gfx++, play->msgCtx.textboxSegment, textureType, 128, 64, 0, G_TX_MIRROR, G_TX_MIRROR, 7, 0, G_TX_NOLOD, G_TX_NOLOD);
-        gSPTextureRectangle(gfx++, rTextboxXAct << 2, rTextboxY << 2, (rTextboxXAct + rTextboxWidthAct) << 2, (rTextboxY + rTextboxHeight) << 2, G_TX_RENDERTILE, 0, 0, rTextboxTexX, rTextboxTexY);
+        gSPTextureRectangle(gfx++, textboxPosXActual << 2, textboxPosY << 2, (textboxPosXActual + textboxWidthActual) << 2, (textboxPosY + textboxHeight) << 2, G_TX_RENDERTILE, 0, 0, textboxDsDx, textboxDsDy);
 
-        if (this->speakerLastFrame == this->guiSpeaker)
-        {
-            switch (this->guiSpeaker)
-            {
-                case SPEAKER_CROSS_EXAM:
-                {
-                    if (this->guiDrawCheckmark)
-                        Draw2D(CI4_Setup39, OBJ_GRAPHICS_COMMON, play, &gfx, rTextboxX + rTextboxWidthAct + (SAVE_WIDESCREEN ? 15 : 3), rTextboxY, (u8*)CHECKMARK_OFFSET + 0x20, (u8*)CHECKMARK_OFFSET, CHECKMARK_XSIZE, CHECKMARK_YSIZE, this->curSpeakerTextboxAlpha);
-                    
-                    sprintf(this->curSpeakerData->text, "%d / %d", this->guiCECurStatement, this->guiCEStatementCount); break;
-                }
-                case SPEAKER_REBUTTAL:
-                    sprintf(this->curSpeakerData->text, "Argument %d", this->guiCECurStatement); break;
-                default:
-                    break;
-            }        
-           
-            gDPPipeSync(gfx++);
-            s32 TEXT_POS_X = rTextboxX + ((rTextboxWidthAct - GetTextPxWidth(this->curSpeakerData->text, TEXT_SCALE)) / 2);
-            s32 TEXT_POS_Y = rTextboxY + rTextboxHeight - 14;
-            
-            if (SAVE_WIDESCREEN)
-            {
-                TEXT_POS_X += 8;               
-            }
-
-            HoL_DrawMessageText(play, 
-                                &gfx, 
-                                this->curSpeakerData->textColor, 
-                                this->curSpeakerData->textShadowColor, 
-                                this->curSpeakerTextAlpha, 
-                                this->curSpeakerTextAlpha, 
-                                this->curSpeakerData->text, 
-                                TEXT_POS_X, 
-                                TEXT_POS_Y, 
-                                0, 
-                                1, 
+        if (this->guiSpeaker == SPEAKER_CROSS_EXAM && this->guiDrawCheckmark)
+            Draw2D(CI4_Setup39, OBJ_GRAPHICS_COMMON, play, &gfx, textboxPosX + textboxWidth + 3, textboxPosY, (u8*)CHECKMARK_OFFSET + 0x20, (u8*)CHECKMARK_OFFSET, CHECKMARK_XSIZE, CHECKMARK_YSIZE, this->curSpeakerTextboxAlpha);            
+        gDPPipeSync(gfx++);  
+        int scaleX = GetTextScaleToFitXFromWidth(textWidth, TEXT_SCALE, textboxWidth);
+        
+        if (SAVE_WIDESCREEN)
+            scaleX *= WIDESCREEN_SCALEX;
+       
+        s32 textPosX = textboxPosXActual + ((textboxWidthActual - GetTextPxWidth(this->speakerBuf, scaleX)) / 2);
+        s32 textPosY = textboxPosY + textboxHeight - 14;
+       
+        HoL_DrawMessageTextImpl(play, NULL, &gfx, 
+                                this->curSpeakerData->textColor, this->curSpeakerData->textShadowColor, 
+                                this->curSpeakerTextAlpha, this->curSpeakerTextAlpha, 
+                                this->speakerBuf, 
+                                textPosX, textPosY, 
+                                0, 1, 
                                 NULL, 
-                                TEXT_SCALE, 
-                                OPERATION_DRAW_SHADOW);
-        }
+                                scaleX, TEXT_SCALE, 0,
+                                true, OPERATION_DRAW_SHADOW);
+        
     }
     
-    if (R_TEXTBOX_Y < 128)
-        rTextboxY = R_TEXTBOX_Y + 64 - 10;
-    else
-        rTextboxY = R_TEXTBOX_Y - 18 + 10; 
+    textboxPosY = (R_TEXTBOX_Y < 128) ? (R_TEXTBOX_Y + 64 - 10) : (R_TEXTBOX_Y - 18 + 10);
     
-    int logPosX = rTextboxX + 256 - 75;
+    int logPosX = textboxPosX + 256 - 75;
     
     if (SAVE_WIDESCREEN)
     {
@@ -899,7 +892,7 @@ void DrawSpeakerIndicator(Actor* thisx, PlayState* play, Gfx** gfxp)
                             historyBtnAlpha, 
                             logMsg, 
                             logPosX + 12, 
-                            rTextboxY - 6, 
+                            textboxPosY - 6, 
                             1, 
                             1, 
                             NULL, 
@@ -991,7 +984,7 @@ void DrawCourtRecord(Actor* thisx, PlayState* play, Gfx** gfxp)
 
             // Draw evidence icon and then a border above it
             void* offs = (void*)(crE.id * EVIDENCE_ICON_X * EVIDENCE_ICON_Y * 4);
-            Draw2DScaled((SAVE_WIDESCREEN ? RGBA32_Setup39 : RGBA32), OBJ_GRAPHICS_ICONS, play, &gfx, posX, CR_DARKSLOT_POSY, offs, NULL, EVIDENCE_ICON_X, EVIDENCE_ICON_Y, 16, 16, this->crAlpha);
+            Draw2DScaled(RGBA32, OBJ_GRAPHICS_ICONS, play, &gfx, posX, CR_DARKSLOT_POSY, offs, NULL, EVIDENCE_ICON_X, EVIDENCE_ICON_Y, 16, 16, this->crAlpha);
             Draw2D(IA4_Setup39, OBJ_GRAPHICS_COMMON, play, &gfx, posX, CR_BORDER_FIRSTPOSY, (u8*)CR_BORDER_OFFSET, NULL, CR_BORDER_X, CR_BORDER_Y, this->crAlpha);
 
             listPos++;
@@ -1012,7 +1005,7 @@ void DrawCourtRecord(Actor* thisx, PlayState* play, Gfx** gfxp)
     void* offs = (void*)(this->selectedCREntry->id * EVIDENCE_ICON_X * EVIDENCE_ICON_Y * 4);
 
     // Draw the big evidence icon and then a border above it
-    Draw2DScaled((SAVE_WIDESCREEN ? RGBA32_Setup39 : RGBA32), 7, play, &gfx, CR_BIG_BORDER_POSX, CR_BIG_BORDER_POSY, offs, NULL, EVIDENCE_ICON_X, EVIDENCE_ICON_Y, 64, 64, this->crAlpha);
+    Draw2DScaled(RGBA32, 7, play, &gfx, CR_BIG_BORDER_POSX, CR_BIG_BORDER_POSY, offs, NULL, EVIDENCE_ICON_X, EVIDENCE_ICON_Y, 64, 64, this->crAlpha);
     Draw2D(IA4_Setup39, OBJ_GRAPHICS_COMMON, play, &gfx, CR_BIG_BORDER_POSX, CR_BIG_BORDER_POSY, (u8*)CR_BIG_BORDER_OFFSET, NULL, CR_BIG_BORDER_X, CR_BIG_BORDER_Y, this->crAlpha);
 
     // Get the text
@@ -1027,24 +1020,15 @@ void DrawCourtRecord(Actor* thisx, PlayState* play, Gfx** gfxp)
         }
     }
     
-    int scale = GetTextScaleToFit(this->msgBufCR, TEXT_SCALE, CR_TEXT_MAX_XSIZE, CR_TEXT_MAX_YSIZE);
-    
-    
-   
-    HoL_DrawMessageText(play, 
-                        &gfx, 
-                        colorWhite, 
-                        colorBlack, 
-                        this->crAlpha, 
-                        this->crAlpha, 
-                        this->msgBufCR, 
-                        CR_TEXT_X, 
-                        CR_TEXT_Y, 
-                        1, 
-                        1, 
-                        NULL, 
-                        scale, 
-                        OPERATION_DRAW_SHADOW);
+    HoL_DrawMessageTextImpl(play, NULL, &gfx,
+                            colorWhite, colorBlack, 
+                            this->crAlpha, this->crAlpha, 
+                            this->msgBufCR, 
+                            CR_TEXT_X, CR_TEXT_Y, 
+                            1, 1, 
+                            NULL, 
+                            TEXT_SCALE, GetTextScaleToFitY(this->msgBufCR, TEXT_SCALE, CR_TEXT_MAX_YSIZE), CR_TEXT_MAX_XSIZE, 
+                            false, OPERATION_DRAW_SHADOW);
                         
                         
     if (this->guiCourtRecordShowingList)
@@ -1072,29 +1056,23 @@ void DrawCourtRecord(Actor* thisx, PlayState* play, Gfx** gfxp)
 void DrawSubtitle(Actor* thisx, PlayState* play, Gfx** gfxp)
 {
     UIStruct* this = THIS;
-    Gfx* gfx = *gfxp;
+    
+    if (this->CrDataNpcMaker == NULL || this->guiSubtitle < 3)
+        return;
+    
+    void* msg = this->CrDataNpcMaker->GetInternalMsgPtrFunc(this->CrDataNpcMaker, play, this->guiSubtitle - 3 + msgSubtitlesIDStart);
 
+    s32 TEXT_POS_X = 0;
+    s32 TEXT_POS_Y = 215;
+    
+    Gfx* gfx = *gfxp;
     Gfx_SetupDL_39Ptr(&gfx);
     gDPPipeSync(gfx++);
-
-    s32 TEXT_POS_X = GetStringCenterX(subtitles[this->guiSubtitle - 3], TEXT_SCALE);
-    s32 TEXT_POS_Y = 215;
-
-    if (this->guiSubtitle)
-        HoL_DrawMessageText(play, 
-                            &gfx, 
-                            colorWhite, 
-                            colorBlack, 
-                            255, 
-                            255, 
-                            subtitles[this->guiSubtitle - 3], 
-                            TEXT_POS_X, 
-                            TEXT_POS_Y, 
-                            0, 
-                            1, 
-                            NULL, 
-                            TEXT_SCALE, 
-                            OPERATION_DRAW_SHADOW);
+  
+    HoL_DrawMessageText(play, &gfx, colorWhite, colorBlack, 255, 255, 
+                        msg, 
+                        TEXT_POS_X, TEXT_POS_Y, 0, 1, 
+                        NULL, TEXT_SCALE, OPERATION_DRAW_SHADOW);
 
     *gfxp = gfx;
 }
@@ -1183,6 +1161,7 @@ void DrawUIElements(Actor* thisx, PlayState* play, Gfx** gfxp)
     f32 SinOffset = sinf(play->state.frames);
     
     s16 arrowAlpha = (this->guiEffective == GUI_CROSS_EXAMINATION ? this->guiAlpha : this->crAlpha);
+    u8 wideScreenRArrowOffs = SAVE_WIDESCREEN ? 1 : 0;
 
     if (this->guiEffective >= GUI_COURTRECORD_EVIDENCE && this->guiEffective <= GUI_CROSS_EXAMINATION && this->guiAlphaDir != DIR_OUT)
     {
@@ -1196,13 +1175,13 @@ void DrawUIElements(Actor* thisx, PlayState* play, Gfx** gfxp)
             }
             case ARROWS_RIGHT:
             {
-                Draw2D(CI4, OBJ_GRAPHICS_COMMON, play, &gfx, ARROW_R_XPOS + SinOffset, ARROW_YPOS, (u8*)RARROW_OFFSET + 0x20, (u8*)RARROW_OFFSET, ARROW_XSIZE, ARROW_YSIZE, arrowAlpha);
+                Draw2D(CI4, OBJ_GRAPHICS_COMMON, play, &gfx, ARROW_R_XPOS + SinOffset + wideScreenRArrowOffs, ARROW_YPOS, (u8*)RARROW_OFFSET + 0x20, (u8*)RARROW_OFFSET, ARROW_XSIZE, ARROW_YSIZE, arrowAlpha);
                 break;
             }
             case ARROWS_BOTH:
             {
                 Draw2D(CI4, OBJ_GRAPHICS_COMMON, play, &gfx, ARROW_L_XPOS - SinOffset, ARROW_YPOS, (u8*)LARROW_OFFSET + 0x20, (u8*)LARROW_OFFSET, ARROW_XSIZE, ARROW_YSIZE, arrowAlpha);
-                Draw2D(CI4, OBJ_GRAPHICS_COMMON, play, &gfx, ARROW_R_XPOS + SinOffset, ARROW_YPOS, (u8*)RARROW_OFFSET + 0x20, (u8*)RARROW_OFFSET, ARROW_XSIZE, ARROW_YSIZE, arrowAlpha);
+                Draw2D(CI4, OBJ_GRAPHICS_COMMON, play, &gfx, ARROW_R_XPOS + SinOffset + wideScreenRArrowOffs, ARROW_YPOS, (u8*)RARROW_OFFSET + 0x20, (u8*)RARROW_OFFSET, ARROW_XSIZE, ARROW_YSIZE, arrowAlpha);
                 break;
             }
         }
@@ -1280,7 +1259,7 @@ void DrawMsgLogTriforce(PlayState* play, Gfx** gfxp, int yPos)
                         255, 
                         255, 
                         msgLogEnd, 
-                        GetStringCenterX(msgLogEnd, TEXT_SCALE) - (SAVE_WIDESCREEN ? 10 : 0), 
+                        GetStringCenterX(msgLogEnd, TEXT_SCALE), 
                         yPos, 
                         0, 
                         1, 
@@ -1319,19 +1298,20 @@ void DrawMsgLog(Actor* thisx, PlayState* play, Gfx** gfxp)
 
                 int TextPosXName = TexPosX - MSGLOG_SPEAKERNAME_OFFSET;
                 int TextPosYName = TexPosY - R_TEXT_LINE_SPACING;
-
+                
                 if (displaySpeaker)
                 {
                     SpeakerEntry* entry = GetSpeakerEntry(thisx, play, this->msgLog[f].speakerId);
                     int z = 0;
-                    
+
                     if (entry != NULL)
                     {
-                        char nameBuffer[20];                    
-                        
-                        while (entry->text[z] != 0x0)
+                        char* msg = this->CrDataNpcMaker->GetInternalMsgPtrFunc(this->CrDataNpcMaker, play, entry->textID);
+                        static char nameBuffer[SPEAKERBUF_SIZE + 1];         
+
+                        while (msg[z] != 0x0 && msg[z] != 0x2)
                         {
-                            nameBuffer[z] = entry->text[z];
+                            nameBuffer[z] = msg[z];
                             z++;
                         }
 
@@ -1387,11 +1367,11 @@ void DrawMsgLog(Actor* thisx, PlayState* play, Gfx** gfxp)
                         int index = msgChoice & 0xF;
                         int posOffset = (msgChoice >= TEXTBOX_ENDTYPE_3_CHOICE ? 0 : R_TEXT_LINE_SPACING) + (index * R_TEXT_LINE_SPACING) + R_TEXT_LINE_SPACING;
                         
-                        DrawCharTexture(play, 
-                                        &gfx, 
+                        DrawCharTexture(&gfx, 
                                         this->arrowGraphic, 
                                         TexPosX + (SAVE_WIDESCREEN ? 20 : 0), 
                                         TexPosY + this->msgLogPosition + posOffset, 
+                                        TEXT_SCALE, 
                                         TEXT_SCALE, 
                                         true, 
                                         255, 
@@ -1400,7 +1380,8 @@ void DrawMsgLog(Actor* thisx, PlayState* play, Gfx** gfxp)
                                         true, 
                                         255, 
                                         0, 
-                                        1);
+                                        1,
+                                        false);
                     }
                 }
             }

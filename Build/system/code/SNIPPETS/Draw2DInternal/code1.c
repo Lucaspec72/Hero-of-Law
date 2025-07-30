@@ -69,13 +69,7 @@ void Draw2DInternal(u8 RGBAType, u8* texture, u8* palette, Gfx** gfxp, s16 cente
 static TextureFormat GetTextureFormat(u8 RGBAType);
 static void SetUpTextureEnvironment(Gfx** gfxp, TextureFormat format, u8* palette, s16 alpha);
 
-//800756F0
-void Interface_Draw(PlayState* play)
-{
-	return;
-}
-
-//800756F0 + 0x8
+//800D7B00
 void Draw2DInternal(u8 RGBAType, u8* texture, u8* palette, Gfx** gfxp, s16 centerX, s16 centerY,
                     u32 width, u32 height, u32 drawWidth, u32 drawHeight, s16 alpha)
 {

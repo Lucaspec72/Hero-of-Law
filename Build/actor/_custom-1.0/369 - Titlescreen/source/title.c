@@ -41,12 +41,20 @@ void TitleLogo_Init(Actor* thisx, PlayState* play)
     this->initialTimer = 30;
     
     int curCutsceneIndex = gSaveContext.cutsceneIndex;
-    
+    int Language = SAVE_LANGUAGE;
+ 
     int res = LoadSaveAndVerify(0);  // Slot 1.
     int res2 = SAVE_NOT_HOL;
     
     if (res)
         res2 = LoadSaveAndVerify(3); // Backup for slot 1.
+    
+    // Clear save file if L + R + Z held    
+    if (CHECK_BTN_ALL(play->state.input[0].cur.button, BTN_L | BTN_R | BTN_Z))
+    {
+        res = SAVE_NOT_HOL;
+        res2 = SAVE_NOT_HOL;
+    }
     
     if (res == SAVE_OK || res2 == SAVE_OK)
     {
@@ -91,7 +99,8 @@ void TitleLogo_Init(Actor* thisx, PlayState* play)
     SAVE_DEBUGMODE = 0;
     SAVE_LAUNCHSCENE = 0;
     SAVE_LAUNCHLEVEL = 0;
-    SAVE_LANGUAGE = 1;
+    
+    SAVE_LANGUAGE = Language;
     
     gSaveContext.audioSetting = SAVE_AUDIOSETTING;
     gSaveContext.cutsceneIndex = curCutsceneIndex;
@@ -119,6 +128,50 @@ void SetTrsPakDisableStatus(Actor* thisx, bool status)
 void HaltCutscene(PlayState* play)
 {
     play->csCtx.frames = 30;
+}
+
+void TitleLogo_Update_SceneSelect(Actor* thisx, PlayState* play)
+{
+    TitleLogo* this = THIS;
+    HaltCutscene(play);
+    
+    if (this->aux->scriptVars[0] < 0)
+        return;
+    
+    switch (this->aux->scriptVars[0])
+    {
+        case 0x8000:
+        {
+            this->stopTextAlphaCounter = TEXT_FADE_SPEED_PAUSE_DURATION;
+            this->textAlpha = TEXT_ALPHA_TARGET_FULL;            
+            this->globalState = TITLESCREEN_STATE_DISPLAY;
+            Audio_PlaySfxGeneral(NA_SE_SY_CANCEL, &gSfxDefaultPos, 4, &gSfxDefaultFreqAndVolScale, &gSfxDefaultFreqAndVolScale, &gSfxDefaultReverb);   
+            break;            
+        }
+        case 0x8001:
+        {
+            TitleLogo_GoTalonGame(thisx, play);
+            break;    
+        }
+        case 0x8002:
+        {
+            TitleLogo_GoIngoCasino(thisx, play); 
+            break;    
+        }
+        default:
+        {
+            SAVE_PROGRESS = this->aux->scriptVars[0];   
+            SAVE_HEALTH = 5;
+            TitleLogo_InvalidateMsgLogChecksum();
+            this->globalState = TITLESCREEN_STATE_STARTING_GAME;  
+            break;               
+        }
+    }
+    
+    SetTrsPakDisableStatus(thisx, false);  
+    Actor_Kill(&this->aux->actor);
+    this->actor.update = &TitleLogo_Update;
+    this->actor.draw = &TitleLogo_Draw; 
 }
 
 void TitleLogo_Update_Settings(Actor* thisx, PlayState* play)
@@ -319,37 +372,14 @@ void TitleLogo_Update(Actor* thisx, PlayState* play)
             {
                 if (this->highlightedOption == OPTION_STAGESELECT)
                 {
-                    this->numScenesVisible = 0;
-                    bzero(this->scenesDisplayed, 30);
-                    
-                    // Count the number of scenes that will be shown...
-                    for (int i = 0; i < ARRAY_COUNT(SceneSelectData); i++)
-                    {
-                        if ((SAVE_HASBEATENGAME && SceneSelectData[i].extraScene == 0) ||
-                            (SAVE_HASBEATENGAME && SceneSelectData[i].extraScene == (1 << 0)) ||
-                            (SAVE_EXTRASCENES & SceneSelectData[i].extraScene))
-                            {
-                                if (this->numScenesVisible == 0)
-                                    this->selectedScene = SceneSelectData[i].idx;
-                                
-                                this->scenesDisplayed[this->numScenesVisible] = SceneSelectData[i].idx;
-                                this->numScenesVisible++;
-                            }
-                    }
-                    
                     this->sceneSelectRed = 0;
-                    this->textAlpha = 255;
-                    this->actor.draw = &TitleLogo_DrawSceneSelect;
-                    this->globalState = TITLESCREEN_STATE_SCENE_SELECT;
-                    SetTrsPakDisableStatus(thisx, true);
-                    
-                    play->envCtx.fillScreen = 1;
-                    play->envCtx.screenFillColor[0] = 0;
-                    play->envCtx.screenFillColor[1] = 0;
-                    play->envCtx.screenFillColor[2] = 0;
-                    play->envCtx.screenFillColor[3] = 150;  
-                    
                     Audio_PlaySfxGeneral(NA_SE_SY_LOCK_ON_HUMAN, &gSfxDefaultPos, 4, &gSfxDefaultFreqAndVolScale, &gSfxDefaultFreqAndVolScale, &gSfxDefaultReverb);
+                    this->aux = (NpcMaker*)Actor_Spawn(&play->actorCtx, play, 3, 0, 0, 0, 0, 0, NPCMAKER_ACTOR_SCENE_SELECT, NPCMAKER_FILE);
+                    this->actor.update = &TitleLogo_Update_SceneSelect;
+                    this->actor.draw = &TitleLogo_DrawSceneSelect;    
+
+                    SetTrsPakDisableStatus(thisx, true);
+                    return;                    
                 }
                 else
                 { 
@@ -418,106 +448,7 @@ void TitleLogo_Update(Actor* thisx, PlayState* play)
         Actor_Spawn(&play->actorCtx, play, 3, 0, 0, 0, 0, 0, NPCMAKER_ACTOR_CONTROLLER, NPCMAKER_FILE);
         this->globalState = TITLESCREEN_STATE_FADE_OUT;        
         SetTrsPakDisableStatus(thisx, true);   
-    }
-    else if (this->globalState == TITLESCREEN_STATE_SCENE_SELECT)
-    {
-        bool scrollInputMade = false;
-        
-        if (this->inputPauseTimer)
-            this->firstInput = false;
-        else
-            this->firstInput = true;
-        
-        if (ABS(play->state.input[0].cur.stick_y) > 20 || CHECK_BTN_ANY(play->state.input[0].cur.button, BTN_DUP | BTN_DDOWN))
-            scrollInputMade = true;
-
-        if (CHECK_BTN_ALL(play->state.input[0].press.button, BTN_START) ||
-            CHECK_BTN_ALL(play->state.input[0].press.button, BTN_A))
-        {
-            sSelectEntry* selectedEntry = &SceneSelectData[0];
-            
-            for (int i = 0; i < ARRAY_COUNT(SceneSelectData); i++)
-            {
-                if (SceneSelectData[i].idx == this->selectedScene)
-                    selectedEntry = &SceneSelectData[i];
-            }
-            
-            Audio_PlaySfxGeneral(NA_SE_SY_PIECE_OF_HEART, &gSfxDefaultPos, 4, &gSfxDefaultFreqAndVolScale, &gSfxDefaultFreqAndVolScale, &gSfxDefaultReverb);
-            
-            switch (selectedEntry->idx)
-            {
-                case EXTRA_TALONGAME:
-                {
-                    TitleLogo_GoTalonGame(thisx, play); 
-                    break;
-                }
-                case EXTRA_ZELDA:
-                {
-                    TitleLogo_GoIngoCasino(thisx, play); 
-                    break;                    
-                }
-                default:
-                {
-                    SAVE_PROGRESS = selectedEntry->progress;   
-                    SAVE_HEALTH = 5;
-                    TitleLogo_InvalidateMsgLogChecksum();
-                    this->globalState = TITLESCREEN_STATE_STARTING_GAME;
-                }
-            }
-        }                
-        else if (!this->inputPauseTimer && (CHECK_BTN_ALL(play->state.input[0].cur.button, BTN_DDOWN) || play->state.input[0].cur.stick_y <= -20))
-        {        
-            u8 before = this->selectedSceneId;
-            this->selectedSceneId++;
-            
-            if (this->selectedSceneId >= this->numScenesVisible)
-                this->selectedSceneId = 0;
-            
-            this->selectedScene = this->scenesDisplayed[this->selectedSceneId];
-            
-            if (before != this->selectedSceneId)
-                Audio_PlaySfxGeneral(NA_SE_SY_FSEL_CURSOR, &gSfxDefaultPos, 4, &gSfxDefaultFreqAndVolScale, &gSfxDefaultFreqAndVolScale, &gSfxDefaultReverb); 
-        }
-        else if (!this->inputPauseTimer && (CHECK_BTN_ALL(play->state.input[0].cur.button, BTN_DUP) || play->state.input[0].cur.stick_y >= 20))
-        {        
-            u8 before = this->selectedSceneId;
-            this->selectedSceneId--;
-            
-            if (this->selectedSceneId < 0)
-                this->selectedSceneId = this->numScenesVisible - 1;
-            
-            this->selectedScene = this->scenesDisplayed[this->selectedSceneId];
-            
-            if (before != this->selectedSceneId)
-                Audio_PlaySfxGeneral(NA_SE_SY_FSEL_CURSOR, &gSfxDefaultPos, 4, &gSfxDefaultFreqAndVolScale, &gSfxDefaultFreqAndVolScale, &gSfxDefaultReverb); 
-        } 
-        else if (CHECK_BTN_ALL(play->state.input[0].press.button, BTN_B))
-        {
-            this->stopTextAlphaCounter = TEXT_FADE_SPEED_PAUSE_DURATION;
-            this->textAlpha = TEXT_ALPHA_TARGET_FULL;            
-            this->globalState = TITLESCREEN_STATE_DISPLAY;
-            this->actor.draw = &TitleLogo_Draw;
-            play->envCtx.fillScreen = 0;
-            Audio_PlaySfxGeneral(NA_SE_SY_CANCEL, &gSfxDefaultPos, 4, &gSfxDefaultFreqAndVolScale, &gSfxDefaultFreqAndVolScale, &gSfxDefaultReverb);
-            SetTrsPakDisableStatus(thisx, false);  
-        } 
-        
-        if (scrollInputMade)
-        {
-            if (!this->inputPauseTimer)
-            {
-                this->inputPauseTimer = 2;
-                
-                if (this->firstInput)
-                    this->inputPauseTimer *= 3;
-            }
-        }
-        else
-        {
-            this->firstInput = true;
-            this->inputPauseTimer = 0;
-        }
-    }      
+    }  
  #endif
 
     if (this->globalState == TITLESCREEN_STATE_FADE_IN)
@@ -639,6 +570,8 @@ void TitleLogo_Draw(Actor* thisx, PlayState* play)
 
     if (this->mainAlpha > 0)
     {
+        int pxWidth = GetTextPxWidth(StringVERSION, 65);
+        
         HoL_DrawMessageText(play, 
                            &gfx, 
                            cDisabled, 
@@ -646,7 +579,7 @@ void TitleLogo_Draw(Actor* thisx, PlayState* play)
                            this->mainAlpha, 
                            this->mainAlpha, 
                            StringVERSION, 
-                           285 + (SAVE_WIDESCREEN ? 50 : 0), 
+                           320 - pxWidth - 15 + (SAVE_WIDESCREEN ? 50 : 0), 
                            220, 
                            1, 
                            1, 
@@ -657,15 +590,17 @@ void TitleLogo_Draw(Actor* thisx, PlayState* play)
                                    
         if (this->globalState == TITLESCREEN_STATE_DISPLAY)
         {
+            int pxWidth = GetTextPxWidth(StringSETTINGS[MIN(LANGUAGE_MAX - 1, SAVE_LANGUAGE)], 65);
+            
             HoL_DrawMessageText(play, 
                                &gfx, 
                                cDisabled, 
                                cOutline, 
                                this->mainAlpha, 
                                this->mainAlpha, 
-                               StringSETTINGS, 
-                               265 + (SAVE_WIDESCREEN ? 50 : 0), 
-                               20, 
+                               StringSETTINGS[MIN(LANGUAGE_MAX - 1, SAVE_LANGUAGE)], 
+                               320 - pxWidth - 15 + (SAVE_WIDESCREEN ? 50 : 0), 
+                               10, 
                                1, 
                                1, 
                                NULL, 
@@ -678,6 +613,10 @@ void TitleLogo_Draw(Actor* thisx, PlayState* play)
     if (this->globalState >= TITLESCREEN_STATE_DISPLAY)
     {         
         int stageSelectOffset = ((SAVE_HASBEATENGAME || SAVE_EXTRASCENES) ? 12 : 0);
+        
+        char* ngString = NewGameString[MIN(LANGUAGE_MAX - 1, SAVE_LANGUAGE)];
+        char* ssString = SceneSelectString[MIN(LANGUAGE_MAX - 1, SAVE_LANGUAGE)];
+        char* contString = ContinueString[MIN(LANGUAGE_MAX - 1, SAVE_LANGUAGE)];
 
         if (!this->hasFile)
         {
@@ -687,8 +626,8 @@ void TitleLogo_Draw(Actor* thisx, PlayState* play)
                                 cOutline, 
                                 this->highlightedOption == 0 ? this->textAlpha : this->textAlphaFull, 
                                 this->highlightedOption == 0 ? this->textAlpha : this->textAlphaFull, 
-                                NewGameString, 
-                                GetStringCenterX(NewGameString, TEXT_SCALE_TITLE), 
+                                ngString, 
+                                GetStringCenterX(ngString, TEXT_SCALE_TITLE), 
                                 170 - stageSelectOffset, 
                                 1, 
                                 1, 
@@ -704,8 +643,8 @@ void TitleLogo_Draw(Actor* thisx, PlayState* play)
                                     cOutline, 
                                     this->highlightedOption == 2 ? this->textAlpha : this->textAlphaFull, 
                                     this->highlightedOption == 2 ? this->textAlpha : this->textAlphaFull, 
-                                    SceneSelectString, 
-                                    GetStringCenterX(SceneSelectString, TEXT_SCALE_TITLE) + (SAVE_WIDESCREEN ? 5 : 0), 
+                                    ssString, 
+                                    GetStringCenterX(ssString, TEXT_SCALE_TITLE) + (SAVE_WIDESCREEN ? 5 : 0), 
                                     186 - stageSelectOffset, 
                                     1, 
                                     1, 
@@ -722,23 +661,23 @@ void TitleLogo_Draw(Actor* thisx, PlayState* play)
                                 cOutline, 
                                 this->highlightedOption == 0 ? this->textAlpha : this->textAlphaFull, 
                                 this->highlightedOption == 0 ? this->textAlpha : this->textAlphaFull, 
-                                NewGameString, 
-                                GetStringCenterX(NewGameString, TEXT_SCALE_TITLE) - 50, 
+                                ngString, 
+                                GetStringCenterX(ngString, TEXT_SCALE_TITLE) - 50, 
                                 170 - stageSelectOffset, 
                                 1, 
                                 1, 
                                 NULL, 
                                 TEXT_SCALE_TITLE, 
                                 OPERATION_DRAW_SHADOW);
-            
+                                
             HoL_DrawMessageText(play, 
                                 &gfx, 
                                 this->highlightedOption == 1 ? cEnabled : cDisabled, 
                                 cOutline, 
                                 this->highlightedOption == 1 ? this->textAlpha : this->textAlphaFull, 
                                 this->highlightedOption == 1 ? this->textAlpha : this->textAlphaFull, 
-                                ContinueString, 
-                                GetStringCenterX(ContinueString, TEXT_SCALE_TITLE) + 50 + (SAVE_WIDESCREEN ? 5 : 2), 
+                                contString, 
+                                GetStringCenterX(contString, TEXT_SCALE_TITLE) + 50 + (SAVE_WIDESCREEN ? 5 : 2), 
                                 170 - stageSelectOffset, 
                                 1, 
                                 1, 
@@ -755,8 +694,8 @@ void TitleLogo_Draw(Actor* thisx, PlayState* play)
                                     cOutline, 
                                     this->highlightedOption == 2 ? this->textAlpha : this->textAlphaFull, 
                                     this->highlightedOption == 2 ? this->textAlpha : this->textAlphaFull, 
-                                    SceneSelectString, 
-                                    GetStringCenterX(SceneSelectString, TEXT_SCALE_TITLE) + (SAVE_WIDESCREEN ? 5 : 0), 
+                                    ssString, 
+                                    GetStringCenterX(ssString, TEXT_SCALE_TITLE) + (SAVE_WIDESCREEN ? 5 : 0), 
                                     186 - stageSelectOffset, 
                                     1, 
                                     1, 
@@ -1099,72 +1038,4 @@ int GetScreenCenterY(int Size)
 
 void TitleLogo_DrawSceneSelect(Actor* thisx, PlayState* play)
 {
-    TitleLogo* this = THIS;
-    Gfx* gfx;
-    Gfx* gfxRef;
-
-    GraphicsContext* __gfxCtx = play->state.gfxCtx;
-
-    gfxRef = POLY_OPA_DISP;
-    gfx = Graph_GfxPlusOne(gfxRef);
-    gSPDisplayList(OVERLAY_DISP++, gfx);
-    
-    Gfx_SetupDL_39Ptr(&gfx);
-    gDPPipeSync(gfx++);      
-       
-    Color_RGB8 cOutline = (Color_RGB8){0, 0, 0};
-    Color_RGB8 cEnabled = (Color_RGB8){0xFF, 0xFF, 0x43};
-    Color_RGB8 cDisabled = (Color_RGB8){0xA6, 0xA6, 0xA6};    
-    Color_RGB8 cHeader = (Color_RGB8){0xFF, 0x00, 0x00}; 
-
-    HoL_DrawMessageText(play, 
-                        &gfx, 
-                        cHeader, 
-                        cOutline, 
-                        this->textAlpha, 
-                        this->textAlpha, 
-                        SceneSelectString, 
-                        GetStringCenterX(SceneSelectString, TEXT_SCALE_TITLE), 
-                        20, 
-                        1, 
-                        1, 
-                        NULL, 
-                        TEXT_SCALE_TITLE, 
-                        OPERATION_DRAW_SHADOW);     
-                        
-                        
-    int posY = 48;        
-    int start = (this->selectedSceneId / 13) * 13;
-    
-    for (int i = start; i < ARRAY_COUNT(SceneSelectData); i++)
-    {
-        if ((SceneSelectData[i].extraScene == 0 && SAVE_HASBEATENGAME) || 
-            (SAVE_EXTRASCENES & SceneSelectData[i].extraScene) || 
-            (SAVE_HASBEATENGAME && SceneSelectData[i].extraScene == (1 << 0))) 
-        {
-            if (posY + 16 < 240)
-            {
-                HoL_DrawMessageText(play, 
-                                    &gfx, 
-                                    this->selectedScene == SceneSelectData[i].idx ? cEnabled : cDisabled, 
-                                    cOutline, 
-                                    this->textAlpha, 
-                                    this->textAlpha, 
-                                    SceneSelectData[i].name, 
-                                    GetStringCenterX(SceneSelectData[i].name, 85), 
-                                    posY, 
-                                    1, 
-                                    1, 
-                                    NULL, 
-                                    85, 
-                                    OPERATION_DRAW_SHADOW); 
-            }
-
-            posY += 14;
-        }
-    }  
-
-    gSPEndDisplayList(gfx++);
-    Graph_BranchDlist(gfxRef, gfx);
-    POLY_OPA_DISP = gfx;    
 }
