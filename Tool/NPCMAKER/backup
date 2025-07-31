@@ -752,9 +752,8 @@
               "Name": "BloodyCloth",
               "MessageTextLines": [
                 "<Y>Tissu ensanglanté<W>",
-                "Trouvé dans les mains de",
-                "Malon sur la scène du crime.",
-                "Supposément, elle aurait",
+                "Trouvé dans les mains de Malon sur la ",
+                "scène du crime. Supposément, elle aurait",
                 "essuyé la scie avec...?<PERSISTENT><PERSISTENT>"
               ],
               "Type": 1,
@@ -764,9 +763,8 @@
               "Name": "OilBottle",
               "MessageTextLines": [
                 "<Y>Bouteille d'huile<W>",
-                "Found at the ranch near a",
-                "burned-out fire. Has a tiny bit of",
-                "oil inside.<PERSISTENT>"
+                "Trouvée au ranch à côté d'un feu éteint. ",
+                "Il reste un fond à l'intérieur.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -991,7 +989,7 @@
             {
               "Name": "Speaker_Judge",
               "MessageTextLines": [
-                "Judge<BYTE:0>"
+                "Juge<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1007,7 +1005,7 @@
             {
               "Name": "Speaker_Soldier",
               "MessageTextLines": [
-                "Soldier<BYTE:0>"
+                "Soldat<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1023,7 +1021,7 @@
             {
               "Name": "Speaker_Talon?",
               "MessageTextLines": [
-                "Talon?<BYTE:0>"
+                "Talon ?<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1031,7 +1029,7 @@
             {
               "Name": "Speaker_Malon?",
               "MessageTextLines": [
-                "Malon?<BYTE:0>"
+                "Malon ?<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1055,7 +1053,7 @@
             {
               "Name": "Speaker_Koholink",
               "MessageTextLines": [
-                "<FONT_TOGGLE>THIEF<FONT_TOGGLE><BYTE:0>"
+                "<FONT_TOGGLE>VOYOU<FONT_TOGGLE><BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1063,7 +1061,7 @@
             {
               "Name": "Speaker_Shopkeeper",
               "MessageTextLines": [
-                "Shopkeeper<BYTE:0>"
+                "Vendeur<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1071,7 +1069,7 @@
             {
               "Name": "Speaker_Owl",
               "MessageTextLines": [
-                "Owl<BYTE:0>"
+                "Hibou<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1079,7 +1077,7 @@
             {
               "Name": "Subtitle_HoldIt",
               "MessageTextLines": [
-                "<LC>Hold it!<BYTE:0>"
+                "<LC>Un Instant !<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1087,7 +1085,7 @@
             {
               "Name": "Subtitle_Objection",
               "MessageTextLines": [
-                "<LC>Objection!<BYTE:0>"
+                "<LC>Objection !<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1095,7 +1093,7 @@
             {
               "Name": "Subtitle_TakeThat",
               "MessageTextLines": [
-                "<LC>Take that!<BYTE:0>"
+                "<LC>Prends ça !<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1103,7 +1101,7 @@
             {
               "Name": "Subtitle_WitnessTestimony",
               "MessageTextLines": [
-                "<LC>Witness Testimony<BYTE:0>"
+                "<LC>Déposition du Témoin<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1111,7 +1109,7 @@
             {
               "Name": "Subtitle_CrossExam",
               "MessageTextLines": [
-                "<LC>Cross-Examination<BYTE:0>"
+                "<LC>Contre interrogatoire<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1119,7 +1117,7 @@
             {
               "Name": "Subtitle_Guilty",
               "MessageTextLines": [
-                "<LC>Guilty<BYTE:0>"
+                "<LC>Coupable<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1127,7 +1125,7 @@
             {
               "Name": "Subtitle_NotGuilty",
               "MessageTextLines": [
-                "<LC>Not Guilty<BYTE:0>"
+                "<LC>Non Coupable<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1135,7 +1133,7 @@
             {
               "Name": "Subtitle_Rebuttal",
               "MessageTextLines": [
-                "<LC>Rebuttal<BYTE:0>"
+                "<LC>Réfutation<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1143,7 +1141,7 @@
             {
               "Name": "Subtitle_ArgumentComplete",
               "MessageTextLines": [
-                "<LC>Argument Complete<BYTE:0>"
+                "<LC>Argument Completé<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
