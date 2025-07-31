@@ -671,8 +671,8 @@
               "Name": "AttorneyBadge",
               "MessageTextLines": [
                 "<Y>Badge d'avocat<W>",
-                "Preuve que je peux me",
-                "présenter devant un",
+                "La preuve que je peux ",
+                "me présenter devant un",
                 "tribunal en tant qu'avocat.<PERSISTENT>"
               ],
               "Type": 1,
@@ -707,8 +707,8 @@
                 "<Y>Scie<W>",
                 "Arme du crime présumée.",
                 "trouvée dans les mains",
-                "de Malon. Aucune trace",
-                "de sang.<PERSISTENT>"
+                "de Malon. Elle ne comporte",
+                "aucune trace de sang.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -718,8 +718,9 @@
               "MessageTextLines": [
                 "<Y>Inventaire du ranch<W>",
                 "Une liste d'équipement",
-                "dans le ranch. Appuyez",
-                "sur <B><A Button><W> pour plus de détails.<PERSISTENT>"
+                "du ranch. Appuyez",
+                "sur <B><A Button><W> pour plus",
+                "de détails.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -739,7 +740,7 @@
             {
               "Name": "Shipment1",
               "MessageTextLines": [
-                "<Y>Chargements de lait<W>",
+                "<Y>Cargaisons de lait<W>",
                 "Des commandes de lait qui",
                 "ont quitté le ranch peu",
                 "de temps après le crime.<PERSISTENT>"
@@ -750,10 +751,11 @@
             {
               "Name": "BloodyCloth",
               "MessageTextLines": [
-                "<Y>Vêtement ensanglanté<W>",
-                "Trouvé empoigné par Malon sur le scène ",
-                "du crime. Supposément, elle aurait essuyé ",
-                "la scie avec...?<PERSISTENT><PERSISTENT>"
+                "<Y>Tissu ensanglanté<W>",
+                "Trouvé dans les mains de",
+                "Malon sur la scène du crime.",
+                "Supposément, elle aurait",
+                "essuyé la scie avec...?<PERSISTENT><PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -773,9 +775,10 @@
               "Name": "Shipment2",
               "MessageTextLines": [
                 "<Y>Cargaison de lait Renvoyée<W>",
-                "Apparemment, une des cargaisons de ",
-                "lait est retournée au ranch pour cause de ",
-                "mauvaise adresse.",
+                "Apparemment, une des",
+                "cargaisons de lait à été",
+                "renvoyée au ranch pour ",
+                "cause de mauvaise adresse.",
                 "<PERSISTENT>"
               ],
               "Type": 1,
@@ -795,8 +798,9 @@
               "Name": "RanchInheritance",
               "MessageTextLines": [
                 "<Y>Acte de succession du Ranch<W>",
-                "\"Malon héritera du ranch. Si elle est ",
-                "inapte, diviser l'acte entre la Couronne et ",
+                "\"Malon héritera du ranch.",
+                "Si elle est inapte, diviser",
+                "l'acte entre la Couronne et ",
                 "les employés restants.\"<PERSISTENT>"
               ],
               "Type": 1,
