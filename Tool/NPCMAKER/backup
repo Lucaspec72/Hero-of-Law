@@ -752,8 +752,9 @@
               "Name": "BloodyCloth",
               "MessageTextLines": [
                 "<Y>Tissu ensanglanté<W>",
-                "Trouvé dans les mains de Malon sur la ",
-                "scène du crime. Supposément, elle aurait",
+                "Trouvé dans les mains de ",
+                "Malon sur la scène du crime. ",
+                "Supposément, elle aurait",
                 "essuyé la scie avec...?<PERSISTENT><PERSISTENT>"
               ],
               "Type": 1,
@@ -763,7 +764,8 @@
               "Name": "OilBottle",
               "MessageTextLines": [
                 "<Y>Bouteille d'huile<W>",
-                "Trouvée au ranch à côté d'un feu éteint. ",
+                "Trouvée au ranch à ",
+                "côté d'un feu éteint. ",
                 "Il reste un fond à l'intérieur.<PERSISTENT>"
               ],
               "Type": 1,
@@ -1109,7 +1111,7 @@
             {
               "Name": "Subtitle_CrossExam",
               "MessageTextLines": [
-                "<LC>Contre interrogatoire<BYTE:0>"
+                "<LC>Contre-interrogatoire<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -9718,7 +9720,7 @@
               "Name": "FA_LINK10",
               "MessageTextLines": [
                 "Cette preuve va faire <SOUND:EXPLOSION>toute la lumière",
-                "sur cette affaire!"
+                "sur cette affaire !"
               ],
               "Type": 0,
               "Position": 0
@@ -9734,7 +9736,7 @@
             {
               "Name": "FA_DRAGMIRE10",
               "MessageTextLines": [
-                "Vous ne voyez donc pas, Juge?"
+                "Vous ne voyez donc pas, Juge ?"
               ],
               "Type": 0,
               "Position": 0
@@ -27335,7 +27337,7 @@
             {
               "Name": "DRAGMIRE50",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Bah!"
+                "<SOUND:EXPLOSION>Bah !"
               ],
               "Type": 0,
               "Position": 0
@@ -27985,7 +27987,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"La scène derrière la porte\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"La Scène Derrière la Porte\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -28825,7 +28827,7 @@
             {
               "Name": "DRAGMIRE40",
               "MessageTextLines": [
-                "vous ne l'avez pas fait,<SOUND:EXPLOSION> imbécile,",
+                "Vous ne l'avez pas fait,<SOUND:EXPLOSION> imbécile,",
                 "parce que c'est inutile !<PAUSE:6> N'avez vous rien",
                 "écouté de ce que je viens de dire ?!"
               ],
@@ -29078,7 +29080,7 @@
               "Name": "LINK110",
               "MessageTextLines": [
                 "La défense demande que ce flacon soit",
-                "ajouté au dossier de l'affaire!"
+                "ajouté au dossier de l'affaire !"
               ],
               "Type": 0,
               "Position": 0
@@ -30851,7 +30853,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"La scène derrière la porte\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"La Scène Derrière la Porte\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -54232,7 +54234,7 @@
               "Name": "1_DRAGMIRE30",
               "MessageTextLines": [
                 "Je parie que vous ne pourriez même pas ",
-                "encaisser une gorgée du \"Vai meets Voi\" ",
+                "encaisser une gorgée du \"Vaï meets Voï\" ",
                 "des Gerudos, une VRAIE boisson d'homme !"
               ],
               "Type": 0,
@@ -86897,7 +86899,7 @@
             {
               "Name": "2_MUTOH10_BLUE",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>J'le jure sur ma mère !<PAUSE:5> C'tait pas un",
+                "<SOUND:EXPLOSION>Sur la tête de ma mère !<PAUSE:5> C'tait pas un",
                 "hérisson ou aut' chose !"
               ],
               "Type": 0,
@@ -86906,7 +86908,7 @@
             {
               "Name": "2_MUTOH10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>J'le jure sur ma mère !"
+                "<SOUND:EXPLOSION>Sur la tête de ma mère !"
               ],
               "Type": 0,
               "Position": 0
@@ -88017,7 +88019,7 @@
             {
               "Name": "LINK95",
               "MessageTextLines": [
-                "<C><SOUND:CLUE>(Quitter l'ile...?)"
+                "<C><SOUND:CLUE>(Quitter l'île...?)"
               ],
               "Type": 0,
               "Position": 0
@@ -88293,7 +88295,7 @@
               "MessageTextLines": [
                 "Mmmh..., euh, <PAUSE:5><SOUND:HINT>Hibou,<PAUSE:5> veuillez nous dire ",
                 "tout ce que nous avons besoin de savoir ",
-                "sur l'ile Cocolint.<SQUARE>"
+                "sur l'île Cocolint.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -109686,7 +109688,7 @@
             {
               "Name": "SceneSelectString",
               "MessageTextLines": [
-                "<LC><R>SCENE SELECT / EXTRAS"
+                "<LC><R>SELECTION DE SCÈNE / EXTRAS"
               ],
               "Type": 0,
               "Position": 0
@@ -109694,7 +109696,7 @@
             {
               "Name": "Scene1",
               "MessageTextLines": [
-                "<LC>Intro Scene"
+                "<LC>Scène d'Intro"
               ],
               "Type": 0,
               "Position": 0
@@ -109702,7 +109704,7 @@
             {
               "Name": "Scene2",
               "MessageTextLines": [
-                "<LC>Before the Trial"
+                "<LC>Avant le Procès"
               ],
               "Type": 0,
               "Position": 0
@@ -109710,7 +109712,7 @@
             {
               "Name": "Scene3",
               "MessageTextLines": [
-                "<LC>The Trial Begins"
+                "<LC>Début du Procès"
               ],
               "Type": 0,
               "Position": 0
@@ -109718,7 +109720,7 @@
             {
               "Name": "Scene4",
               "MessageTextLines": [
-                "<LC>Impa Enters"
+                "<LC>Arrivée d'Impa"
               ],
               "Type": 0,
               "Position": 0
@@ -109726,7 +109728,7 @@
             {
               "Name": "Scene5",
               "MessageTextLines": [
-                "<LC>Impa's Testimony"
+                "<LC>Témoignage d'Impa"
               ],
               "Type": 0,
               "Position": 0
@@ -109734,7 +109736,7 @@
             {
               "Name": "Scene6",
               "MessageTextLines": [
-                "<LC>Zelda Enters"
+                "<LC>Arrivée de Zelda"
               ],
               "Type": 0,
               "Position": 0
@@ -109742,7 +109744,7 @@
             {
               "Name": "Scene7",
               "MessageTextLines": [
-                "<LC>Zelda's First Testimony"
+                "<LC>Premier Témoignage de Zelda"
               ],
               "Type": 0,
               "Position": 0
@@ -109750,7 +109752,7 @@
             {
               "Name": "Scene8",
               "MessageTextLines": [
-                "<LC>Zelda's Second Testimony"
+                "<LC>Second Témoignage de Zelda"
               ],
               "Type": 0,
               "Position": 0
@@ -109758,7 +109760,7 @@
             {
               "Name": "Scene9",
               "MessageTextLines": [
-                "<LC>Zelda's New Evidence"
+                "<LC>Nouvelle Preuve de Zelda"
               ],
               "Type": 0,
               "Position": 0
@@ -109766,7 +109768,7 @@
             {
               "Name": "Scene10",
               "MessageTextLines": [
-                "<LC>Zelda's Third Testimony"
+                "<LC>Troisième Témoignage de Zelda"
               ],
               "Type": 0,
               "Position": 0
@@ -109774,7 +109776,7 @@
             {
               "Name": "Scene11",
               "MessageTextLines": [
-                "<LC>Recess"
+                "<LC>Pause"
               ],
               "Type": 0,
               "Position": 0
@@ -109782,7 +109784,7 @@
             {
               "Name": "Scene12",
               "MessageTextLines": [
-                "<LC>Ingo Enters"
+                "<LC>Arrivée d'Ingo"
               ],
               "Type": 0,
               "Position": 0
@@ -109790,7 +109792,7 @@
             {
               "Name": "Scene13",
               "MessageTextLines": [
-                "<LC>Ingo's First Testimony"
+                "<LC>Premier Témoignage d'Ingo"
               ],
               "Type": 0,
               "Position": 0
@@ -109798,7 +109800,7 @@
             {
               "Name": "Scene14",
               "MessageTextLines": [
-                "<LC>Ingo's Second Testimony"
+                "<LC>Second Témoignage d'Ingo"
               ],
               "Type": 0,
               "Position": 0
@@ -109806,7 +109808,7 @@
             {
               "Name": "Scene15",
               "MessageTextLines": [
-                "<LC>Deep Thought"
+                "<LC>Dans les Pensées"
               ],
               "Type": 0,
               "Position": 0
@@ -109814,7 +109816,7 @@
             {
               "Name": "Scene16",
               "MessageTextLines": [
-                "<LC>Accusing Ingo"
+                "<LC>Accusation d'Ingo"
               ],
               "Type": 0,
               "Position": 0
@@ -109822,7 +109824,7 @@
             {
               "Name": "Scene17",
               "MessageTextLines": [
-                "<LC>Ingo's Third Testimony"
+                "<LC>Troisième Témoignage d'Ingo"
               ],
               "Type": 0,
               "Position": 0
@@ -109830,7 +109832,7 @@
             {
               "Name": "Scene18",
               "MessageTextLines": [
-                "<LC>Dragmire's Rebuttal"
+                "<LC>Réfutation de Dragmire"
               ],
               "Type": 0,
               "Position": 0
@@ -109838,7 +109840,7 @@
             {
               "Name": "Scene19",
               "MessageTextLines": [
-                "<LC>The Truth Revealed"
+                "<LC>La Vérité Révélée"
               ],
               "Type": 0,
               "Position": 0
@@ -109846,7 +109848,7 @@
             {
               "Name": "Scene20",
               "MessageTextLines": [
-                "<LC>A Flashback"
+                "<LC>Un Flashback"
               ],
               "Type": 0,
               "Position": 0
@@ -109854,7 +109856,7 @@
             {
               "Name": "Scene21",
               "MessageTextLines": [
-                "<LC>The Verdict"
+                "<LC>Le Verdict"
               ],
               "Type": 0,
               "Position": 0
@@ -109862,7 +109864,7 @@
             {
               "Name": "Scene22",
               "MessageTextLines": [
-                "<LC>Epilogue"
+                "<LC>Épilogue"
               ],
               "Type": 0,
               "Position": 0
@@ -109870,7 +109872,7 @@
             {
               "Name": "Scene23",
               "MessageTextLines": [
-                "<LC>Credits"
+                "<LC>Crédits"
               ],
               "Type": 0,
               "Position": 0
@@ -109878,7 +109880,7 @@
             {
               "Name": "Scene24",
               "MessageTextLines": [
-                "<LC>EXTRA 1: Meanwhile, Somewhere Else..."
+                "<LC>EXTRA 1 : Pendant ce temps, ailleurs..."
               ],
               "Type": 0,
               "Position": 0
@@ -109886,7 +109888,7 @@
             {
               "Name": "Scene25",
               "MessageTextLines": [
-                "<LC>EXTRA 2: Ingo's Casino"
+                "<LC>EXTRA 2 : Le Casino d'Ingo"
               ],
               "Type": 0,
               "Position": 0
@@ -109894,7 +109896,7 @@
             {
               "Name": "Scene26",
               "MessageTextLines": [
-                "<LC>EXTRA 3: Turnabout Thief"
+                "<LC>EXTRA 3 : VOYOU et Volte-face"
               ],
               "Type": 0,
               "Position": 0
