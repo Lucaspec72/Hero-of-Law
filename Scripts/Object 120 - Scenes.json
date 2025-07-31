@@ -761,7 +761,7 @@
             {
               "Name": "OilBottle",
               "MessageTextLines": [
-                "<Y>Flacon d'huile<W>",
+                "<Y>Bouteille d'huile<W>",
                 "Found at the ranch near a",
                 "burned-out fire. Has a tiny bit of",
                 "oil inside.<PERSISTENT>"
