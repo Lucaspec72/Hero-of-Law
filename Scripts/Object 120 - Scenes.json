@@ -101897,7 +101897,7 @@
             {
               "Name": "msgPause",
               "MessageTextLines": [
-                "<BYTE:0xF8> Pause / See rules"
+                "<BYTE:0xF8> Pause / Voir les règles"
               ],
               "Type": 0,
               "Position": 0
@@ -101905,7 +101905,7 @@
             {
               "Name": "msgChangeMus",
               "MessageTextLines": [
-                "<Y><C_Up><W>/<Y><C_Down><W> Change music"
+                "<Y><C_Up><W>/<Y><C_Down><W> Changer la musique"
               ],
               "Type": 0,
               "Position": 0
@@ -101913,7 +101913,7 @@
             {
               "Name": "msgRulesTitle",
               "MessageTextLines": [
-                "<R>RULES"
+                "<R>Règles"
               ],
               "Type": 0,
               "Position": 0
@@ -101955,7 +101955,7 @@
             {
               "Name": "msgRulesBack",
               "MessageTextLines": [
-                "<G><B_BUTTON><W> Back"
+                "<G><B_BUTTON><W> Retour"
               ],
               "Type": 0,
               "Position": 0
@@ -101971,7 +101971,7 @@
             {
               "Name": "msgBtnHold",
               "MessageTextLines": [
-                "H O L D"
+                "G A R D E R"
               ],
               "Type": 0,
               "Position": 0
@@ -101979,7 +101979,7 @@
             {
               "Name": "msgBtnDraw",
               "MessageTextLines": [
-                "D R A W"
+                "T I R E R"
               ],
               "Type": 0,
               "Position": 0
@@ -101987,7 +101987,7 @@
             {
               "Name": "figureNothing",
               "MessageTextLines": [
-                "Nothing"
+                "Rien"
               ],
               "Type": 0,
               "Position": 0
@@ -101995,7 +101995,7 @@
             {
               "Name": "figureOnePair",
               "MessageTextLines": [
-                "One Pair"
+                "Une Paire"
               ],
               "Type": 0,
               "Position": 0
@@ -102003,7 +102003,7 @@
             {
               "Name": "figureTwoPairs",
               "MessageTextLines": [
-                "Two Pairs"
+                "Deux Paires"
               ],
               "Type": 0,
               "Position": 0
@@ -102011,7 +102011,7 @@
             {
               "Name": "figureThreeOfAKind",
               "MessageTextLines": [
-                "Three of a Kind"
+                "Brelan"
               ],
               "Type": 0,
               "Position": 0
@@ -102019,7 +102019,7 @@
             {
               "Name": "figureFullHouse",
               "MessageTextLines": [
-                "Full House"
+                "Full"
               ],
               "Type": 0,
               "Position": 0
@@ -102027,7 +102027,7 @@
             {
               "Name": "figureFourOfAKind",
               "MessageTextLines": [
-                "Four of a Kind"
+                "Carré"
               ],
               "Type": 0,
               "Position": 0
@@ -102035,7 +102035,7 @@
             {
               "Name": "figureFiveOfaKind",
               "MessageTextLines": [
-                "Five of a Kind"
+                "Quinte"
               ],
               "Type": 0,
               "Position": 0
@@ -102051,7 +102051,7 @@
             {
               "Name": "resultWin",
               "MessageTextLines": [
-                "You won!"
+                "Tu a gagné !"
               ],
               "Type": 0,
               "Position": 0
@@ -102059,7 +102059,7 @@
             {
               "Name": "resultLose",
               "MessageTextLines": [
-                "You lost..."
+                "Tu a perdu..."
               ],
               "Type": 0,
               "Position": 0
@@ -102067,7 +102067,7 @@
             {
               "Name": "resultDraw",
               "MessageTextLines": [
-                "It's a draw!"
+                "Match nul !"
               ],
               "Type": 0,
               "Position": 0
@@ -102075,7 +102075,7 @@
             {
               "Name": "resultGameOver",
               "MessageTextLines": [
-                "Game Over..."
+                "Fin de partie..."
               ],
               "Type": 0,
               "Position": 0
@@ -102094,7 +102094,13 @@
                 "<NEW_BOX>",
                 "<R><PAUSE:5>HAUT<PAUSE:3> HAUT<PAUSE:3> BAS<PAUSE:3> BAS<PAUSE:3> GAUCHE<PAUSE:3> DROITE<PAUSE:3> ",
                 "GAUCHE<PAUSE:3> DROITE<PAUSE:3> B<W>...<PAUSE:5> et quelque chose",
-                "devrait se passer !<SQUARE>"
+                "devrait se passer !",
+                "<NEW_BOX>",
+                "T'a compris ?<PAUSE:3> Très bien.",
+                "<NEW_BOX>",
+                "Bon, maintenant, on joue le <SOUND:NA_SE_VO_IN_LASH_0>GROS LOT !<PAUSE:3>",
+                "Pas de limites de pari !<PAUSE:5> <DI><SOUND:WHAP>",
+                "Mise autant que tu veux !<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
