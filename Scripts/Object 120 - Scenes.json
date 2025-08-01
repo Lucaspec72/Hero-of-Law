@@ -719,8 +719,7 @@
                 "<Y>Inventaire du ranch<W>",
                 "Une liste des équipements ",
                 "du ranch. Appuyez",
-                "sur <B><A Button><W> pour plus",
-                "de détails.<PERSISTENT>"
+                "sur <B><A Button><W> pour plus de détails.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -764,9 +763,9 @@
               "Name": "OilBottle",
               "MessageTextLines": [
                 "<Y>Bouteille d'huile<W>",
-                "Trouvée au ranch à ",
-                "côté d'un feu éteint. ",
-                "Il reste un fond à l'intérieur.<PERSISTENT>"
+                "Trouvée au ranch à côté",
+                "d'un feu éteint. Il reste un",
+                "fond à l'intérieur.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -787,9 +786,9 @@
             {
               "Name": "IngoClothes",
               "MessageTextLines": [
-                "<Y>Vêtements d'Ingo<W>",
-                "Ingo porte généralement son bleu de ",
-                "travail autour du ranch.<PERSISTENT>"
+                "<Y>Vêtements d'Ingo<R> (!) INUTILISÉ (!)",
+                "<W>Ingo porte généralement son",
+                "bleu de travail autour du ranch.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -810,8 +809,8 @@
               "Name": "Malon",
               "MessageTextLines": [
                 "<Y>Malon<W> (Âge: 27)",
-                "Mon amie de longue date, et l'accusée ",
-                "de cette affaire.<PERSISTENT>"
+                "Mon amie de longue date, et",
+                "l'accusée de cette affaire.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -820,8 +819,8 @@
               "Name": "Talon",
               "MessageTextLines": [
                 "<Y>Talon<W> (Décédé)",
-                "La victime. Propriétaire du Ranch Lon Lon, ",
-                "et père de Malon.<PERSISTENT>"
+                "La victime. Propriétaire du",
+                "Ranch Lon Lon, et père de Malon.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -830,8 +829,8 @@
               "Name": "Judge",
               "MessageTextLines": [
                 "<Y>Juge<W> (Age: ??)",
-                "Le vieux monsieur qui a présidé la ",
-                "plupart de mes affaires.<PERSISTENT>"
+                "Le vieux monsieur qui a présidé",
+                "la plupart de mes affaires.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -841,8 +840,8 @@
               "MessageTextLines": [
                 "<Y>Ganondorf Dragmire<W> (Age: 59)",
                 "Procureur assigné à l'affaire. ",
-                "Impoli envers les autres et facilement",
-                "irritable.<PERSISTENT>"
+                "Impoli envers les autres et",
+                "facilement irritable.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -852,7 +851,8 @@
               "MessageTextLines": [
                 "<Y>Impa<W> (Age: 34)",
                 "Inspectrice en cheffe. ",
-                "Désignée pour enquêter sur l'affaire.<PERSISTENT>"
+                "Désignée pour enquêter",
+                "sur l'affaire.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -871,9 +871,10 @@
               "Name": "Ingo",
               "MessageTextLines": [
                 "<Y>Ingo<W> (Age: 44)",
-                "Homme obséquieux qui travaille au ranch.",
-                "D'habitude il travaille dans son bleu de travail, ",
-                "mais il s'est bien habillé pour le procès.<PERSISTENT>"
+                "Homme obséquieux qui travaille",
+                "au ranch. D'habitude il travaille",
+                "dans son bleu de travail, mais il",
+                "s'est bien habillé pour le procès.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -882,9 +883,10 @@
               "Name": "Milk",
               "MessageTextLines": [
                 "<Y>Lait de Lon Lon<W>",
-                "Vient d'une des cargaisons d'hier.",
-                "Impa l'a apporté pendant la pause.",
-                "Il est bizarrement insipide...<PERSISTENT>"
+                "Vient d'une des cargaisons",
+                "d'hier. Impa l'a apporté",
+                "pendant la pause. Il est",
+                "bizarrement insipide...<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -893,9 +895,10 @@
               "Name": "WaresList",
               "MessageTextLines": [
                 "<Y>Liste d'objets<W>",
-                "La liste des objets présents dans le Bazar",
-                "du Centre à Cocolint. Appuyez sur <B><A Button><W> pour",
-                "la voir.<PERSISTENT>"
+                "La liste des objets présents",
+                "dans le Bazar du Centre",
+                "à Cocolint.",
+                "Appuyez sur <B><A Button><W> pour la voir.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -904,7 +907,8 @@
               "Name": "Koholink",
               "MessageTextLines": [
                 "<Y>VOYOU<W> (Age: ??)",
-                "Mon moi cleptomane d'un autre monde...?<PERSISTENT>"
+                "Mon moi cleptomane",
+                "d'un autre monde...?<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -913,7 +917,8 @@
               "Name": "Shopkeeper",
               "MessageTextLines": [
                 "<Y>Vendeur<W> (Age: ??)",
-                "La victime du crime. Propriétaire du Bazar ",
+                "La victime du crime.",
+                "Propriétaire du Bazar ",
                 "du Centre à Cocolint.<PERSISTENT>"
               ],
               "Type": 1,
@@ -923,8 +928,8 @@
               "Name": "Owl",
               "MessageTextLines": [
                 "<Y>Hibou<W> (Age: ??)",
-                "Aide VOYOU dans son aventure sur l'ile ",
-                "Cocolint.<PERSISTENT>"
+                "Aide VOYOU dans son",
+                "aventure sur l'ile Cocolint.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 0
@@ -942,8 +947,8 @@
               "Name": "Owl2",
               "MessageTextLines": [
                 "<Y>Hibou<W> (Age: ??)",
-                "Aide <FONT_TOGGLE>$$$$$<FONT_TOGGLE> dans son aventure sur l'ile ",
-                "Cocolint.<PERSISTENT>"
+                "Aide <FONT_TOGGLE>$$$$$<FONT_TOGGLE> dans son",
+                "aventure sur l'ile Cocolint.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 0
