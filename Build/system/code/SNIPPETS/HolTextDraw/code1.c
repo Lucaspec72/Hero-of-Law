@@ -385,9 +385,10 @@ int HoL_DrawMessageTextImpl(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 
                         Font_LoadMessageBoxIcon(font, TEXTBOX_ICON_TRIANGLE);
                         charLast = 0;
                     }
-                    
-                    i = 200;
                 }
+                
+                i = 200;
+                
                 break;
             }
             case MESSAGE_SFX:
