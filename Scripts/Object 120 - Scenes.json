@@ -86,6 +86,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -95,6 +96,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -104,6 +106,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -159,6 +162,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Icons",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -175,6 +179,7 @@
         },
         {
           "Name": "Case1Evidence",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -1724,7 +1729,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_GALLERY_ANJU",
@@ -1811,6 +1818,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 20112,
           "ObjID": -1,
           "Speed": 1.0,
@@ -1820,6 +1828,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -1829,6 +1838,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -1864,18 +1874,21 @@
         [
           {
             "Name": "Eye1",
+            "HeaderDefinition": "",
             "Address": 2248,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "Eye2",
+            "HeaderDefinition": "",
             "Address": 4296,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "Eye3",
+            "HeaderDefinition": "",
             "Address": 6344,
             "ObjectID": -1,
             "FileStart": -1
@@ -1898,6 +1911,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "LimbDisabled1",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -1914,6 +1928,7 @@
         },
         {
           "Name": "LimbDisabled2",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -1930,6 +1945,7 @@
         },
         {
           "Name": "LimbDisabled3",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -1946,6 +1962,7 @@
         },
         {
           "Name": "LimbDisabled4",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -1962,6 +1979,7 @@
         },
         {
           "Name": "LimbDisabled5",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -1978,6 +1996,7 @@
         },
         {
           "Name": "LimbDisabled6",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -2052,7 +2071,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_GALLERY_GORON",
@@ -2139,6 +2160,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 8656,
           "ObjID": -1,
           "Speed": 1.0,
@@ -2148,6 +2170,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -2157,6 +2180,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -2209,18 +2233,21 @@
         [
           {
             "Name": "Eye1",
+            "HeaderDefinition": "",
             "Address": 52864,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "Eye2",
+            "HeaderDefinition": "",
             "Address": 53888,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "Eye3",
+            "HeaderDefinition": "",
             "Address": 54912,
             "ObjectID": -1,
             "FileStart": -1
@@ -2229,6 +2256,7 @@
         [
           {
             "Name": "Mouth",
+            "HeaderDefinition": "",
             "Address": 56960,
             "ObjectID": -1,
             "FileStart": -1
@@ -2250,6 +2278,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "LimbDisabled3",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -2266,6 +2295,7 @@
         },
         {
           "Name": "LimbDisabled4",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -2282,6 +2312,7 @@
         },
         {
           "Name": "LimbDisabled5",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -2298,6 +2329,7 @@
         },
         {
           "Name": "LimbDisabled6",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -2314,6 +2346,7 @@
         },
         {
           "Name": "LimbDisabled7",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -2330,6 +2363,7 @@
         },
         {
           "Name": "LimbDisabled9",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -2346,6 +2380,7 @@
         },
         {
           "Name": "LimbDisabled13",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -2362,6 +2397,7 @@
         },
         {
           "Name": "LimbDisabled14",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -2378,6 +2414,7 @@
         },
         {
           "Name": "LimbDisabled15",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -2452,7 +2489,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_GALLERY_BEARD",
@@ -2539,6 +2578,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 18312,
           "ObjID": -1,
           "Speed": 1.0,
@@ -2548,6 +2588,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 27232,
           "ObjID": -1,
           "Speed": 1.0,
@@ -2557,6 +2598,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -2614,6 +2656,7 @@
         [
           {
             "Name": "Texture_0",
+            "HeaderDefinition": "",
             "Address": 0,
             "ObjectID": -5,
             "FileStart": 0
@@ -2622,6 +2665,7 @@
         [
           {
             "Name": "Texture_0",
+            "HeaderDefinition": "",
             "Address": 0,
             "ObjectID": -5,
             "FileStart": 0
@@ -2630,18 +2674,21 @@
         [
           {
             "Name": "Eye1",
+            "HeaderDefinition": "",
             "Address": 1404,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "Eye2",
+            "HeaderDefinition": "",
             "Address": 1660,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "Eye3",
+            "HeaderDefinition": "",
             "Address": 1916,
             "ObjectID": -1,
             "FileStart": -1
@@ -2662,6 +2709,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "LimbDisabled1",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -2678,6 +2726,7 @@
         },
         {
           "Name": "LimbDisabled2",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -2694,6 +2743,7 @@
         },
         {
           "Name": "LimbDisabled3",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -2710,6 +2760,7 @@
         },
         {
           "Name": "LimbDisabled4",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -2726,6 +2777,7 @@
         },
         {
           "Name": "LimbDisabled5",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -2742,6 +2794,7 @@
         },
         {
           "Name": "LimbDisabled6",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -2758,6 +2811,7 @@
         },
         {
           "Name": "Arm",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -2774,6 +2828,7 @@
         },
         {
           "Name": "Arm2",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -2790,6 +2845,7 @@
         },
         {
           "Name": "Self",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -2864,7 +2920,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_GALLERY_LAUGHM",
@@ -2951,6 +3009,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 42544,
           "ObjID": -1,
           "Speed": 1.0,
@@ -2960,6 +3019,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -2969,6 +3029,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -3022,6 +3083,7 @@
         [
           {
             "Name": "Texture_0",
+            "HeaderDefinition": "",
             "Address": 0,
             "ObjectID": -5,
             "FileStart": -1
@@ -3030,6 +3092,7 @@
         [
           {
             "Name": "Texture_0",
+            "HeaderDefinition": "",
             "Address": 0,
             "ObjectID": -5,
             "FileStart": -1
@@ -3038,18 +3101,21 @@
         [
           {
             "Name": "Eye1",
+            "HeaderDefinition": "",
             "Address": 1532,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "Eye2",
+            "HeaderDefinition": "",
             "Address": 1788,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "Eye3",
+            "HeaderDefinition": "",
             "Address": 2044,
             "ObjectID": -1,
             "FileStart": -1
@@ -3070,6 +3136,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "LimbDisabled1",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -3086,6 +3153,7 @@
         },
         {
           "Name": "LimbDisabled2",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -3102,6 +3170,7 @@
         },
         {
           "Name": "LimbDisabled3",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -3118,6 +3187,7 @@
         },
         {
           "Name": "LimbDisabled4",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -3134,6 +3204,7 @@
         },
         {
           "Name": "LimbDisabled5",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -3150,6 +3221,7 @@
         },
         {
           "Name": "LimbDisabled6",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -3224,7 +3296,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_JUDGE",
@@ -3311,6 +3385,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 87012,
           "ObjID": -1,
           "Speed": 0.8,
@@ -3320,6 +3395,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 87012,
           "ObjID": -1,
           "Speed": 0.8,
@@ -3329,6 +3405,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 87012,
           "ObjID": -1,
           "Speed": 0.8,
@@ -3338,6 +3415,7 @@
         },
         {
           "Name": "HeadRaised",
+          "HeaderDefinition": "",
           "Address": 83064,
           "ObjID": -1,
           "Speed": 0.6,
@@ -3347,6 +3425,7 @@
         },
         {
           "Name": "Nodding",
+          "HeaderDefinition": "",
           "Address": 88452,
           "ObjID": -1,
           "Speed": 1.2,
@@ -3356,6 +3435,7 @@
         },
         {
           "Name": "ShakingHead",
+          "HeaderDefinition": "",
           "Address": 93756,
           "ObjID": -1,
           "Speed": 2.0,
@@ -3365,6 +3445,7 @@
         },
         {
           "Name": "RaiseGavel",
+          "HeaderDefinition": "",
           "Address": 90244,
           "ObjID": -1,
           "Speed": 1.0,
@@ -3374,6 +3455,7 @@
         },
         {
           "Name": "Surprise",
+          "HeaderDefinition": "",
           "Address": 95308,
           "ObjID": -1,
           "Speed": 1.0,
@@ -3383,6 +3465,7 @@
         },
         {
           "Name": "GavelLoop",
+          "HeaderDefinition": "",
           "Address": 90244,
           "ObjID": -1,
           "Speed": 0.7,
@@ -3392,6 +3475,7 @@
         },
         {
           "Name": "HoldHands",
+          "HeaderDefinition": "",
           "Address": 86104,
           "ObjID": -1,
           "Speed": 1.0,
@@ -3401,6 +3485,7 @@
         },
         {
           "Name": "HoldHandsLoop",
+          "HeaderDefinition": "",
           "Address": 86104,
           "ObjID": -1,
           "Speed": 1.0,
@@ -3410,6 +3495,7 @@
         },
         {
           "Name": "HoldHandsEnd",
+          "HeaderDefinition": "",
           "Address": 86104,
           "ObjID": -1,
           "Speed": 1.0,
@@ -3553,24 +3639,28 @@
         [
           {
             "Name": "EyeNormal",
+            "HeaderDefinition": "",
             "Address": 10304,
             "ObjectID": -1,
             "FileStart": 0
           },
           {
             "Name": "EyeHalf",
+            "HeaderDefinition": "",
             "Address": 10816,
             "ObjectID": -1,
             "FileStart": 0
           },
           {
             "Name": "EyeClose",
+            "HeaderDefinition": "",
             "Address": 11328,
             "ObjectID": -1,
             "FileStart": 0
           },
           {
             "Name": "EyeSurprise",
+            "HeaderDefinition": "",
             "Address": 11840,
             "ObjectID": -1,
             "FileStart": -1
@@ -3579,36 +3669,42 @@
         [
           {
             "Name": "MouthClosed",
+            "HeaderDefinition": "",
             "Address": 16704,
             "ObjectID": -1,
             "FileStart": 0
           },
           {
             "Name": "MouthOpen1",
+            "HeaderDefinition": "",
             "Address": 13632,
             "ObjectID": -1,
             "FileStart": 0
           },
           {
             "Name": "MouthOpen2",
+            "HeaderDefinition": "",
             "Address": 14656,
             "ObjectID": -1,
             "FileStart": 0
           },
           {
             "Name": "MouthOpen3",
+            "HeaderDefinition": "",
             "Address": 15680,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthOpen4",
+            "HeaderDefinition": "",
             "Address": 17728,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthOpen5",
+            "HeaderDefinition": "",
             "Address": 18752,
             "ObjectID": -1,
             "FileStart": -1
@@ -3630,6 +3726,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Gavel",
+          "HeaderDefinition": "",
           "Address": 59664,
           "TransX": -1100.0,
           "TransY": -900.0,
@@ -3646,6 +3743,7 @@
         },
         {
           "Name": "Soundblock",
+          "HeaderDefinition": "",
           "Address": 81824,
           "TransX": -38.0,
           "TransY": 35.0,
@@ -3662,6 +3760,7 @@
         },
         {
           "Name": "Head",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -3678,6 +3777,7 @@
         },
         {
           "Name": "LimbDisabled1",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -3694,6 +3794,7 @@
         },
         {
           "Name": "Hand1",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -3710,6 +3811,7 @@
         },
         {
           "Name": "Hand2",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -3810,7 +3912,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_GALLERY_ANOUKI",
@@ -3897,6 +4001,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 21628,
           "ObjID": -1,
           "Speed": 0.9,
@@ -3906,6 +4011,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -3915,6 +4021,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -3924,6 +4031,7 @@
         },
         {
           "Name": "Shocked",
+          "HeaderDefinition": "",
           "Address": 22492,
           "ObjID": -1,
           "Speed": 1.0,
@@ -3933,6 +4041,7 @@
         },
         {
           "Name": "Talking",
+          "HeaderDefinition": "",
           "Address": 23196,
           "ObjID": -1,
           "Speed": 1.0,
@@ -3988,12 +4097,14 @@
         [
           {
             "Name": "Eye1",
+            "HeaderDefinition": "",
             "Address": 256,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "Eye2",
+            "HeaderDefinition": "",
             "Address": 512,
             "ObjectID": -1,
             "FileStart": -1
@@ -4002,6 +4113,7 @@
         [
           {
             "Name": "Mouth",
+            "HeaderDefinition": "",
             "Address": 0,
             "ObjectID": -1,
             "FileStart": -1
@@ -4023,6 +4135,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "LimbDisable1",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -4039,6 +4152,7 @@
         },
         {
           "Name": "LimbDisable2",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -4055,6 +4169,7 @@
         },
         {
           "Name": "LimbDisable3",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -4071,6 +4186,7 @@
         },
         {
           "Name": "LimbDisable4",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -4087,6 +4203,7 @@
         },
         {
           "Name": "LimbDisable5",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -4103,6 +4220,7 @@
         },
         {
           "Name": "LimbDisable6",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -4119,6 +4237,7 @@
         },
         {
           "Name": "Crate",
+          "HeaderDefinition": "",
           "Address": 2400,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -4193,7 +4312,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_LINK",
@@ -4280,6 +4401,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 80088,
           "ObjID": -1,
           "Speed": 1.0,
@@ -4289,6 +4411,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -4298,6 +4421,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -4307,6 +4431,7 @@
         },
         {
           "Name": "Point",
+          "HeaderDefinition": "",
           "Address": 86596,
           "ObjID": -1,
           "Speed": 1.1,
@@ -4316,6 +4441,7 @@
         },
         {
           "Name": "DeskSlam",
+          "HeaderDefinition": "",
           "Address": 103468,
           "ObjID": -1,
           "Speed": 1.0,
@@ -4325,6 +4451,7 @@
         },
         {
           "Name": "Paper",
+          "HeaderDefinition": "",
           "Address": 92680,
           "ObjID": -1,
           "Speed": 1.0,
@@ -4334,6 +4461,7 @@
         },
         {
           "Name": "Thinking",
+          "HeaderDefinition": "",
           "Address": 116696,
           "ObjID": -1,
           "Speed": 1.0,
@@ -4343,6 +4471,7 @@
         },
         {
           "Name": "Shocked",
+          "HeaderDefinition": "",
           "Address": 96616,
           "ObjID": -1,
           "Speed": 1.0,
@@ -4352,6 +4481,7 @@
         },
         {
           "Name": "Sweat",
+          "HeaderDefinition": "",
           "Address": 110588,
           "ObjID": -1,
           "Speed": 1.0,
@@ -4361,6 +4491,7 @@
         },
         {
           "Name": "Confident",
+          "HeaderDefinition": "",
           "Address": 71420,
           "ObjID": -1,
           "Speed": 1.0,
@@ -4370,6 +4501,7 @@
         },
         {
           "Name": "Abashed",
+          "HeaderDefinition": "",
           "Address": 66400,
           "ObjID": -1,
           "Speed": 1.0,
@@ -4379,6 +4511,7 @@
         },
         {
           "Name": "DeskSlammed",
+          "HeaderDefinition": "",
           "Address": 103468,
           "ObjID": -1,
           "Speed": 1.0,
@@ -4388,6 +4521,7 @@
         },
         {
           "Name": "PointLoop",
+          "HeaderDefinition": "",
           "Address": 86596,
           "ObjID": -1,
           "Speed": 1.0,
@@ -4397,6 +4531,7 @@
         },
         {
           "Name": "AbashedLoop",
+          "HeaderDefinition": "",
           "Address": 66400,
           "ObjID": -1,
           "Speed": 1.0,
@@ -4406,6 +4541,7 @@
         },
         {
           "Name": "ThinkingLoop",
+          "HeaderDefinition": "",
           "Address": 116696,
           "ObjID": -1,
           "Speed": 1.0,
@@ -4415,6 +4551,7 @@
         },
         {
           "Name": "SweatLoop",
+          "HeaderDefinition": "",
           "Address": 110588,
           "ObjID": -1,
           "Speed": 1.0,
@@ -4424,6 +4561,7 @@
         },
         {
           "Name": "ShockedLoop",
+          "HeaderDefinition": "",
           "Address": 96616,
           "ObjID": -1,
           "Speed": 1.0,
@@ -4433,6 +4571,7 @@
         },
         {
           "Name": "ConfidentLoop",
+          "HeaderDefinition": "",
           "Address": 71420,
           "ObjID": -1,
           "Speed": 1.0,
@@ -4442,6 +4581,7 @@
         },
         {
           "Name": "PaperLoop",
+          "HeaderDefinition": "",
           "Address": 92680,
           "ObjID": -1,
           "Speed": 1.0,
@@ -4451,6 +4591,7 @@
         },
         {
           "Name": "Gallery",
+          "HeaderDefinition": "",
           "Address": 76568,
           "ObjID": -1,
           "Speed": 1.0,
@@ -4460,6 +4601,7 @@
         },
         {
           "Name": "GetUp",
+          "HeaderDefinition": "",
           "Address": 126672,
           "ObjID": -1,
           "Speed": 0.95,
@@ -4469,6 +4611,7 @@
         },
         {
           "Name": "SweatGetUp",
+          "HeaderDefinition": "",
           "Address": 110588,
           "ObjID": -1,
           "Speed": 1.0,
@@ -4837,54 +4980,63 @@
         [
           {
             "Name": "EyeNormal",
+            "HeaderDefinition": "",
             "Address": 11520,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeHalf",
+            "HeaderDefinition": "",
             "Address": 13568,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeClose",
+            "HeaderDefinition": "",
             "Address": 15616,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeWide",
+            "HeaderDefinition": "",
             "Address": 17664,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeDown",
+            "HeaderDefinition": "",
             "Address": 19712,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeThink",
+            "HeaderDefinition": "",
             "Address": 21760,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeSad",
+            "HeaderDefinition": "",
             "Address": 23808,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeSweat",
+            "HeaderDefinition": "",
             "Address": 25856,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeMood",
+            "HeaderDefinition": "",
             "Address": 27904,
             "ObjectID": -1,
             "FileStart": -1
@@ -4893,30 +5045,35 @@
         [
           {
             "Name": "MouthClosed",
+            "HeaderDefinition": "",
             "Address": 29952,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthHalf",
+            "HeaderDefinition": "",
             "Address": 30976,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthOpen",
+            "HeaderDefinition": "",
             "Address": 32000,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthSmile",
+            "HeaderDefinition": "",
             "Address": 33024,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthConfident",
+            "HeaderDefinition": "",
             "Address": 34048,
             "ObjectID": -1,
             "FileStart": -1
@@ -4938,6 +5095,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Point",
+          "HeaderDefinition": "",
           "Address": 8832,
           "TransX": 372.0,
           "TransY": 133.0,
@@ -4954,6 +5112,7 @@
         },
         {
           "Name": "Paper",
+          "HeaderDefinition": "",
           "Address": 2496,
           "TransX": 777.0,
           "TransY": -54.0,
@@ -4970,6 +5129,7 @@
         },
         {
           "Name": "Root",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -4986,6 +5146,7 @@
         },
         {
           "Name": "ActionCone",
+          "HeaderDefinition": "",
           "Address": 5208,
           "TransX": 900.0,
           "TransY": 1800.0,
@@ -5178,7 +5339,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_MALON",
@@ -5265,6 +5428,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 51032,
           "ObjID": -1,
           "Speed": 1.0,
@@ -5274,6 +5438,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -5283,6 +5448,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -5292,6 +5458,7 @@
         },
         {
           "Name": "Pensive",
+          "HeaderDefinition": "",
           "Address": 70532,
           "ObjID": -1,
           "Speed": 1.0,
@@ -5301,6 +5468,7 @@
         },
         {
           "Name": "Happy",
+          "HeaderDefinition": "",
           "Address": 48680,
           "ObjID": -1,
           "Speed": 1.0,
@@ -5310,6 +5478,7 @@
         },
         {
           "Name": "Sad",
+          "HeaderDefinition": "",
           "Address": 74772,
           "ObjID": -1,
           "Speed": 1.0,
@@ -5319,6 +5488,7 @@
         },
         {
           "Name": "Angry",
+          "HeaderDefinition": "",
           "Address": 39252,
           "ObjID": -1,
           "Speed": 1.0,
@@ -5328,6 +5498,7 @@
         },
         {
           "Name": "Give",
+          "HeaderDefinition": "",
           "Address": 44760,
           "ObjID": -1,
           "Speed": 1.0,
@@ -5337,6 +5508,7 @@
         },
         {
           "Name": "Dead",
+          "HeaderDefinition": "",
           "Address": 54948,
           "ObjID": -1,
           "Speed": 1.0,
@@ -5346,6 +5518,7 @@
         },
         {
           "Name": "Shocked",
+          "HeaderDefinition": "",
           "Address": 78244,
           "ObjID": -1,
           "Speed": 1.0,
@@ -5355,6 +5528,7 @@
         },
         {
           "Name": "HappyLoop",
+          "HeaderDefinition": "",
           "Address": 48680,
           "ObjID": -1,
           "Speed": 1.0,
@@ -5364,6 +5538,7 @@
         },
         {
           "Name": "SadLoop",
+          "HeaderDefinition": "",
           "Address": 74772,
           "ObjID": -1,
           "Speed": 1.0,
@@ -5373,6 +5548,7 @@
         },
         {
           "Name": "AngryDesk",
+          "HeaderDefinition": "",
           "Address": 42244,
           "ObjID": -1,
           "Speed": 1.0,
@@ -5382,6 +5558,7 @@
         },
         {
           "Name": "AngryLoop",
+          "HeaderDefinition": "",
           "Address": 39252,
           "ObjID": -1,
           "Speed": 1.0,
@@ -5391,6 +5568,7 @@
         },
         {
           "Name": "AngryDeskLoop",
+          "HeaderDefinition": "",
           "Address": 42244,
           "ObjID": -1,
           "Speed": 1.0,
@@ -5400,6 +5578,7 @@
         },
         {
           "Name": "ShockedLoop",
+          "HeaderDefinition": "",
           "Address": 78244,
           "ObjID": -1,
           "Speed": 1.0,
@@ -5409,6 +5588,7 @@
         },
         {
           "Name": "PensiveLoop",
+          "HeaderDefinition": "",
           "Address": 70532,
           "ObjID": -1,
           "Speed": 1.0,
@@ -5418,6 +5598,7 @@
         },
         {
           "Name": "Sitting",
+          "HeaderDefinition": "",
           "Address": 81024,
           "ObjID": -1,
           "Speed": 1.0,
@@ -5427,6 +5608,7 @@
         },
         {
           "Name": "Milk",
+          "HeaderDefinition": "",
           "Address": 63860,
           "ObjID": -1,
           "Speed": 1.0,
@@ -5436,6 +5618,7 @@
         },
         {
           "Name": "MilkConfused",
+          "HeaderDefinition": "",
           "Address": 63860,
           "ObjID": -1,
           "Speed": 1.0,
@@ -5445,6 +5628,7 @@
         },
         {
           "Name": "MilkLoop",
+          "HeaderDefinition": "",
           "Address": 63860,
           "ObjID": -1,
           "Speed": 1.0,
@@ -5816,42 +6000,49 @@
         [
           {
             "Name": "EyeOpen",
+            "HeaderDefinition": "",
             "Address": 0,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeMid",
+            "HeaderDefinition": "",
             "Address": 1024,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeClosed",
+            "HeaderDefinition": "",
             "Address": 2048,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeWide",
+            "HeaderDefinition": "",
             "Address": 3072,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeAngry",
+            "HeaderDefinition": "",
             "Address": 4096,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeAngryClosed",
+            "HeaderDefinition": "",
             "Address": 5120,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeSad",
+            "HeaderDefinition": "",
             "Address": 6144,
             "ObjectID": -1,
             "FileStart": -1
@@ -5860,48 +6051,56 @@
         [
           {
             "Name": "MouthIdle",
+            "HeaderDefinition": "",
             "Address": 7168,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthHappy",
+            "HeaderDefinition": "",
             "Address": 7680,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthHappyOpen",
+            "HeaderDefinition": "",
             "Address": 8192,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthAngry",
+            "HeaderDefinition": "",
             "Address": 8704,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthOpen3",
+            "HeaderDefinition": "",
             "Address": 9216,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthOpen4",
+            "HeaderDefinition": "",
             "Address": 9728,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthSad",
+            "HeaderDefinition": "",
             "Address": 10240,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthFrownOpen",
+            "HeaderDefinition": "",
             "Address": 10752,
             "ObjectID": -1,
             "FileStart": -1
@@ -5923,6 +6122,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Head",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -5939,6 +6139,7 @@
         },
         {
           "Name": "Torso",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -5955,6 +6156,7 @@
         },
         {
           "Name": "Pictograph",
+          "HeaderDefinition": "",
           "Address": 2496,
           "TransX": 256.0,
           "TransY": -600.0,
@@ -5971,6 +6173,7 @@
         },
         {
           "Name": "PictographRH",
+          "HeaderDefinition": "",
           "Address": 2496,
           "TransX": -345.0,
           "TransY": -600.0,
@@ -5987,6 +6190,7 @@
         },
         {
           "Name": "HandL",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -6003,6 +6207,7 @@
         },
         {
           "Name": "HandR",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -6019,6 +6224,7 @@
         },
         {
           "Name": "ElbowL",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -6035,6 +6241,7 @@
         },
         {
           "Name": "ElbowR",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -6051,6 +6258,7 @@
         },
         {
           "Name": "Saw",
+          "HeaderDefinition": "",
           "Address": 2016,
           "TransX": -1100.0,
           "TransY": -400.0,
@@ -6067,6 +6275,7 @@
         },
         {
           "Name": "LobbyDisable1",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -6083,6 +6292,7 @@
         },
         {
           "Name": "LobbyDisable2",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -6099,6 +6309,7 @@
         },
         {
           "Name": "LobbyDisable3",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -6115,6 +6326,7 @@
         },
         {
           "Name": "LobbyDisable4",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -6131,6 +6343,7 @@
         },
         {
           "Name": "MIlk1",
+          "HeaderDefinition": "",
           "Address": 4192,
           "TransX": -100.0,
           "TransY": -500.0,
@@ -6147,6 +6360,7 @@
         },
         {
           "Name": "Milk2",
+          "HeaderDefinition": "",
           "Address": 4744,
           "TransX": -100.0,
           "TransY": -500.0,
@@ -6356,7 +6570,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_DRAGMIRE",
@@ -6443,6 +6659,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 94628,
           "ObjID": -1,
           "Speed": 1.0,
@@ -6452,6 +6669,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 125964,
           "ObjID": -1,
           "Speed": 1.0,
@@ -6461,6 +6679,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -6470,6 +6689,7 @@
         },
         {
           "Name": "Angry",
+          "HeaderDefinition": "",
           "Address": 69952,
           "ObjID": -1,
           "Speed": 1.0,
@@ -6479,6 +6699,7 @@
         },
         {
           "Name": "Angry2Evidence",
+          "HeaderDefinition": "",
           "Address": 73720,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6488,6 +6709,7 @@
         },
         {
           "Name": "Angry2Idle",
+          "HeaderDefinition": "",
           "Address": 75640,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6497,6 +6719,7 @@
         },
         {
           "Name": "Angry2Point",
+          "HeaderDefinition": "",
           "Address": 77296,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6506,6 +6729,7 @@
         },
         {
           "Name": "Angry2Slam",
+          "HeaderDefinition": "",
           "Address": 79832,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6515,6 +6739,7 @@
         },
         {
           "Name": "Angry2Shock",
+          "HeaderDefinition": "",
           "Address": 83188,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6524,6 +6749,7 @@
         },
         {
           "Name": "Evidence",
+          "HeaderDefinition": "",
           "Address": 85320,
           "ObjID": -1,
           "Speed": 1.0,
@@ -6533,6 +6759,7 @@
         },
         {
           "Name": "Evidence2Idle",
+          "HeaderDefinition": "",
           "Address": 88648,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6542,6 +6769,7 @@
         },
         {
           "Name": "Evidence2Slam",
+          "HeaderDefinition": "",
           "Address": 92416,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6551,6 +6779,7 @@
         },
         {
           "Name": "Laugh",
+          "HeaderDefinition": "",
           "Address": 106840,
           "ObjID": -1,
           "Speed": 1.0,
@@ -6560,6 +6789,7 @@
         },
         {
           "Name": "Idle2Angry",
+          "HeaderDefinition": "",
           "Address": 109068,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6569,6 +6799,7 @@
         },
         {
           "Name": "Idle2Evidence",
+          "HeaderDefinition": "",
           "Address": 112308,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6578,6 +6809,7 @@
         },
         {
           "Name": "Idle2Point",
+          "HeaderDefinition": "",
           "Address": 114492,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6587,6 +6819,7 @@
         },
         {
           "Name": "Idle2Slam",
+          "HeaderDefinition": "",
           "Address": 117292,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6596,6 +6829,7 @@
         },
         {
           "Name": "Intro",
+          "HeaderDefinition": "",
           "Address": 120116,
           "ObjID": -1,
           "Speed": 1.0,
@@ -6605,6 +6839,7 @@
         },
         {
           "Name": "Intro2Idle",
+          "HeaderDefinition": "",
           "Address": 124412,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6614,6 +6849,7 @@
         },
         {
           "Name": "Point",
+          "HeaderDefinition": "",
           "Address": 129408,
           "ObjID": -1,
           "Speed": 1.0,
@@ -6623,6 +6859,7 @@
         },
         {
           "Name": "Point2Angry",
+          "HeaderDefinition": "",
           "Address": 131824,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6632,6 +6869,7 @@
         },
         {
           "Name": "Point2Evidence",
+          "HeaderDefinition": "",
           "Address": 135064,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6641,6 +6879,7 @@
         },
         {
           "Name": "Point2Idle",
+          "HeaderDefinition": "",
           "Address": 137336,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6650,6 +6889,7 @@
         },
         {
           "Name": "Point2Slam",
+          "HeaderDefinition": "",
           "Address": 140488,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6659,6 +6899,7 @@
         },
         {
           "Name": "Shock",
+          "HeaderDefinition": "",
           "Address": 143144,
           "ObjID": -1,
           "Speed": 1.0,
@@ -6668,6 +6909,7 @@
         },
         {
           "Name": "Shock2Angry",
+          "HeaderDefinition": "",
           "Address": 145560,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6677,6 +6919,7 @@
         },
         {
           "Name": "Shock2Evidence",
+          "HeaderDefinition": "",
           "Address": 149152,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6686,6 +6929,7 @@
         },
         {
           "Name": "Shock2Idle",
+          "HeaderDefinition": "",
           "Address": 152128,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6695,6 +6939,7 @@
         },
         {
           "Name": "Shock2Slam",
+          "HeaderDefinition": "",
           "Address": 157728,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6704,6 +6949,7 @@
         },
         {
           "Name": "Slam",
+          "HeaderDefinition": "",
           "Address": 159532,
           "ObjID": -1,
           "Speed": 1.0,
@@ -6713,6 +6959,7 @@
         },
         {
           "Name": "Slam2Angry",
+          "HeaderDefinition": "",
           "Address": 161948,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6722,6 +6969,7 @@
         },
         {
           "Name": "Slam2Evidence",
+          "HeaderDefinition": "",
           "Address": 165716,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6731,6 +6979,7 @@
         },
         {
           "Name": "Slam2Idle",
+          "HeaderDefinition": "",
           "Address": 167636,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6740,6 +6989,7 @@
         },
         {
           "Name": "Slam2Point",
+          "HeaderDefinition": "",
           "Address": 169820,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6749,6 +6999,7 @@
         },
         {
           "Name": "Wag",
+          "HeaderDefinition": "",
           "Address": 174996,
           "ObjID": -1,
           "Speed": 1.0,
@@ -6758,6 +7009,7 @@
         },
         {
           "Name": "Shock2Point",
+          "HeaderDefinition": "",
           "Address": 154136,
           "ObjID": -1,
           "Speed": 1.1,
@@ -6767,6 +7019,7 @@
         },
         {
           "Name": "Any2Shock",
+          "HeaderDefinition": "",
           "Address": 83188,
           "ObjID": -1,
           "Speed": 1.1,
@@ -7094,36 +7347,42 @@
         [
           {
             "Name": "EyeOpen",
+            "HeaderDefinition": "",
             "Address": 3840,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeMid",
+            "HeaderDefinition": "",
             "Address": 4352,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeClosed",
+            "HeaderDefinition": "",
             "Address": 4864,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeSad",
+            "HeaderDefinition": "",
             "Address": 5376,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeShock1",
+            "HeaderDefinition": "",
             "Address": 5888,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeShock2",
+            "HeaderDefinition": "",
             "Address": 6400,
             "ObjectID": -1,
             "FileStart": -1
@@ -7146,6 +7405,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Mouth",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -7162,6 +7422,7 @@
         },
         {
           "Name": "MOON",
+          "HeaderDefinition": "",
           "Address": 4320,
           "TransX": 300.0,
           "TransY": 400.0,
@@ -7178,6 +7439,7 @@
         },
         {
           "Name": "MOON2",
+          "HeaderDefinition": "",
           "Address": 4440,
           "TransX": 300.0,
           "TransY": 400.0,
@@ -7194,6 +7456,7 @@
         },
         {
           "Name": "HeadDefault",
+          "HeaderDefinition": "",
           "Address": 31456,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -7210,6 +7473,7 @@
         },
         {
           "Name": "HeadGrin",
+          "HeaderDefinition": "",
           "Address": 40712,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -7226,6 +7490,7 @@
         },
         {
           "Name": "HeadGasp",
+          "HeaderDefinition": "",
           "Address": 46032,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -7242,6 +7507,7 @@
         },
         {
           "Name": "HeadSmirk",
+          "HeaderDefinition": "",
           "Address": 51352,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -7258,6 +7524,7 @@
         },
         {
           "Name": "HeadSerious",
+          "HeaderDefinition": "",
           "Address": 56672,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -7274,6 +7541,7 @@
         },
         {
           "Name": "HeadFuming",
+          "HeaderDefinition": "",
           "Address": 61992,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -7290,6 +7558,7 @@
         },
         {
           "Name": "HeadPog",
+          "HeaderDefinition": "",
           "Address": 67312,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -7306,6 +7575,7 @@
         },
         {
           "Name": "HandFist",
+          "HeaderDefinition": "",
           "Address": 33320,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -7322,6 +7592,7 @@
         },
         {
           "Name": "HandPoint",
+          "HeaderDefinition": "",
           "Address": 36184,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -7338,6 +7609,7 @@
         },
         {
           "Name": "EvidenceHeld",
+          "HeaderDefinition": "",
           "Address": 2496,
           "TransX": 301.0,
           "TransY": -992.0,
@@ -7354,6 +7626,7 @@
         },
         {
           "Name": "ActionCone",
+          "HeaderDefinition": "",
           "Address": 5208,
           "TransX": -700.0,
           "TransY": 2200.0,
@@ -7370,6 +7643,7 @@
         },
         {
           "Name": "LobbyDisable1",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -7386,6 +7660,7 @@
         },
         {
           "Name": "LobbyDisable2",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -7402,6 +7677,7 @@
         },
         {
           "Name": "LobbyDisable3",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -7418,6 +7694,7 @@
         },
         {
           "Name": "LobbyDisable4",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -7434,6 +7711,7 @@
         },
         {
           "Name": "PerfumeCap",
+          "HeaderDefinition": "",
           "Address": 1664,
           "TransX": 100.0,
           "TransY": -750.0,
@@ -7450,6 +7728,7 @@
         },
         {
           "Name": "PerfumeBottle",
+          "HeaderDefinition": "",
           "Address": 1896,
           "TransX": 100.0,
           "TransY": -750.0,
@@ -7466,6 +7745,7 @@
         },
         {
           "Name": "CapeShoulder1",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 400.0,
@@ -7482,6 +7762,7 @@
         },
         {
           "Name": "CapeShoulder2",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 400.0,
@@ -7498,6 +7779,7 @@
         },
         {
           "Name": "CapeArm1",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -7514,6 +7796,7 @@
         },
         {
           "Name": "CapeArm2",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -7530,6 +7813,7 @@
         },
         {
           "Name": "CapeExtra",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": -30.0,
           "TransY": 20.0,
@@ -8033,7 +8317,9 @@
           "NpcM_GetLimbPositionsForCape"
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_CONTROLLER",
@@ -8120,6 +8406,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -8129,6 +8416,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -8138,6 +8426,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -9179,6 +9468,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "DebugLIGHTPos",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -11279,7 +11569,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_IMPA",
@@ -11366,6 +11658,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 52308,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11375,6 +11668,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11384,6 +11678,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11393,6 +11688,7 @@
         },
         {
           "Name": "LookUp",
+          "HeaderDefinition": "",
           "Address": 65696,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11402,6 +11698,7 @@
         },
         {
           "Name": "Stance",
+          "HeaderDefinition": "",
           "Address": 55108,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11411,6 +11708,7 @@
         },
         {
           "Name": "Glare",
+          "HeaderDefinition": "",
           "Address": 50072,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11420,6 +11718,7 @@
         },
         {
           "Name": "Thinking",
+          "HeaderDefinition": "",
           "Address": 57764,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11429,6 +11728,7 @@
         },
         {
           "Name": "LookUpLoop",
+          "HeaderDefinition": "",
           "Address": 65696,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11438,6 +11738,7 @@
         },
         {
           "Name": "StanceLoop",
+          "HeaderDefinition": "",
           "Address": 55108,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11447,6 +11748,7 @@
         },
         {
           "Name": "GlareLoop",
+          "HeaderDefinition": "",
           "Address": 50072,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11456,6 +11758,7 @@
         },
         {
           "Name": "ThinkingLoop",
+          "HeaderDefinition": "",
           "Address": 57764,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11465,6 +11768,7 @@
         },
         {
           "Name": "Unglare",
+          "HeaderDefinition": "",
           "Address": 59948,
           "ObjID": -1,
           "Speed": 1.2,
@@ -11474,6 +11778,7 @@
         },
         {
           "Name": "Look",
+          "HeaderDefinition": "",
           "Address": 46904,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11483,6 +11788,7 @@
         },
         {
           "Name": "LookLoop",
+          "HeaderDefinition": "",
           "Address": 46904,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11492,6 +11798,7 @@
         },
         {
           "Name": "LookUpEnd",
+          "HeaderDefinition": "",
           "Address": 65696,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11647,24 +11954,28 @@
         [
           {
             "Name": "EyeOpen",
+            "HeaderDefinition": "",
             "Address": 3904,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeMid",
+            "HeaderDefinition": "",
             "Address": 4928,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeClosed",
+            "HeaderDefinition": "",
             "Address": 5952,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeAngry",
+            "HeaderDefinition": "",
             "Address": 6976,
             "ObjectID": -1,
             "FileStart": -1
@@ -11687,6 +11998,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Jaw",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -11703,6 +12015,7 @@
         },
         {
           "Name": "Noif",
+          "HeaderDefinition": "",
           "Address": 41984,
           "TransX": 303.0,
           "TransY": -306.0,
@@ -11719,6 +12032,7 @@
         },
         {
           "Name": "LobbyDisable1",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -11735,6 +12049,7 @@
         },
         {
           "Name": "LobbyDisable2",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -11751,6 +12066,7 @@
         },
         {
           "Name": "Root",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -11831,7 +12147,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_ZELDA",
@@ -11918,6 +12236,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 71756,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11927,6 +12246,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 104388,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11936,6 +12256,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11945,6 +12266,7 @@
         },
         {
           "Name": "Thinking",
+          "HeaderDefinition": "",
           "Address": 100552,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11954,6 +12276,7 @@
         },
         {
           "Name": "ThinkingLoop",
+          "HeaderDefinition": "",
           "Address": 100552,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11963,6 +12286,7 @@
         },
         {
           "Name": "Pray",
+          "HeaderDefinition": "",
           "Address": 78044,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11972,6 +12296,7 @@
         },
         {
           "Name": "PrayLoop",
+          "HeaderDefinition": "",
           "Address": 78044,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11981,6 +12306,7 @@
         },
         {
           "Name": "Bow",
+          "HeaderDefinition": "",
           "Address": 62016,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11990,6 +12316,7 @@
         },
         {
           "Name": "Eureka",
+          "HeaderDefinition": "",
           "Address": 70260,
           "ObjID": -1,
           "Speed": 1.0,
@@ -11999,6 +12326,7 @@
         },
         {
           "Name": "Shocked",
+          "HeaderDefinition": "",
           "Address": 91864,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12008,6 +12336,7 @@
         },
         {
           "Name": "Sad",
+          "HeaderDefinition": "",
           "Address": 85740,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12017,6 +12346,7 @@
         },
         {
           "Name": "Concerned",
+          "HeaderDefinition": "",
           "Address": 66456,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12026,6 +12356,7 @@
         },
         {
           "Name": "Angry",
+          "HeaderDefinition": "",
           "Address": 58520,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12035,6 +12366,7 @@
         },
         {
           "Name": "AngryLoop",
+          "HeaderDefinition": "",
           "Address": 58520,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12044,6 +12376,7 @@
         },
         {
           "Name": "ConcernedLoop",
+          "HeaderDefinition": "",
           "Address": 66456,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12053,6 +12386,7 @@
         },
         {
           "Name": "ShockedLoop",
+          "HeaderDefinition": "",
           "Address": 91864,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12062,6 +12396,7 @@
         },
         {
           "Name": "Pleased",
+          "HeaderDefinition": "",
           "Address": 75648,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12071,6 +12406,7 @@
         },
         {
           "Name": "PleasedLoop",
+          "HeaderDefinition": "",
           "Address": 75648,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12080,6 +12416,7 @@
         },
         {
           "Name": "SadLoop",
+          "HeaderDefinition": "",
           "Address": 85740,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12089,6 +12426,7 @@
         },
         {
           "Name": "EurekaLoop",
+          "HeaderDefinition": "",
           "Address": 70260,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12098,6 +12436,7 @@
         },
         {
           "Name": "WalkEnd",
+          "HeaderDefinition": "",
           "Address": 104388,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12375,48 +12714,56 @@
         [
           {
             "Name": "EyeOpen",
+            "HeaderDefinition": "",
             "Address": 6016,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeMid",
+            "HeaderDefinition": "",
             "Address": 8064,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeClosed",
+            "HeaderDefinition": "",
             "Address": 10112,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeLookLeft",
+            "HeaderDefinition": "",
             "Address": 12160,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeLookRight",
+            "HeaderDefinition": "",
             "Address": 14208,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyePleased",
+            "HeaderDefinition": "",
             "Address": 16256,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeWide",
+            "HeaderDefinition": "",
             "Address": 18304,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeAngry",
+            "HeaderDefinition": "",
             "Address": 20352,
             "ObjectID": -1,
             "FileStart": -1
@@ -12425,48 +12772,56 @@
         [
           {
             "Name": "MouthIdle",
+            "HeaderDefinition": "",
             "Address": 22400,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthFrown",
+            "HeaderDefinition": "",
             "Address": 23424,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthOpen1",
+            "HeaderDefinition": "",
             "Address": 24448,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthHappy",
+            "HeaderDefinition": "",
             "Address": 25472,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthOpen2",
+            "HeaderDefinition": "",
             "Address": 26496,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthOpen3",
+            "HeaderDefinition": "",
             "Address": 27520,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthOpenFrown",
+            "HeaderDefinition": "",
             "Address": 28544,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthSad",
+            "HeaderDefinition": "",
             "Address": 29568,
             "ObjectID": -1,
             "FileStart": -1
@@ -12488,6 +12843,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "LobbyDisable1",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -12504,6 +12860,7 @@
         },
         {
           "Name": "LobbyDisable2",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -12520,6 +12877,7 @@
         },
         {
           "Name": "Head",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -12594,7 +12952,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_INGO",
@@ -12681,6 +13041,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 71300,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12690,6 +13051,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12699,6 +13061,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12708,6 +13071,7 @@
         },
         {
           "Name": "IdleSmarmy",
+          "HeaderDefinition": "",
           "Address": 101056,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12717,6 +13081,7 @@
         },
         {
           "Name": "Breakdown",
+          "HeaderDefinition": "",
           "Address": 36532,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12726,6 +13091,7 @@
         },
         {
           "Name": "Happy",
+          "HeaderDefinition": "",
           "Address": 69372,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12735,6 +13101,7 @@
         },
         {
           "Name": "Pleading",
+          "HeaderDefinition": "",
           "Address": 82376,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12744,6 +13111,7 @@
         },
         {
           "Name": "SlamStand",
+          "HeaderDefinition": "",
           "Address": 98216,
           "ObjID": -1,
           "Speed": 1.2,
@@ -12753,6 +13121,7 @@
         },
         {
           "Name": "Laughing",
+          "HeaderDefinition": "",
           "Address": 78920,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12762,6 +13131,7 @@
         },
         {
           "Name": "BreakdownFrame",
+          "HeaderDefinition": "",
           "Address": 36532,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12771,6 +13141,7 @@
         },
         {
           "Name": "Angry",
+          "HeaderDefinition": "",
           "Address": 32068,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12780,6 +13151,7 @@
         },
         {
           "Name": "AngryLoop",
+          "HeaderDefinition": "",
           "Address": 32068,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12789,6 +13161,7 @@
         },
         {
           "Name": "FallOver",
+          "HeaderDefinition": "",
           "Address": 66904,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12798,6 +13171,7 @@
         },
         {
           "Name": "Prisyadka",
+          "HeaderDefinition": "",
           "Address": 84556,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12807,6 +13181,7 @@
         },
         {
           "Name": "Sad",
+          "HeaderDefinition": "",
           "Address": 92796,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12816,6 +13191,7 @@
         },
         {
           "Name": "SadLoop",
+          "HeaderDefinition": "",
           "Address": 92796,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12825,6 +13201,7 @@
         },
         {
           "Name": "Sitting",
+          "HeaderDefinition": "",
           "Address": 64464,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12834,6 +13211,7 @@
         },
         {
           "Name": "SittingLoop",
+          "HeaderDefinition": "",
           "Address": 64464,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12843,6 +13221,7 @@
         },
         {
           "Name": "SlamStandLoop",
+          "HeaderDefinition": "",
           "Address": 98216,
           "ObjID": -1,
           "Speed": 0.75,
@@ -12852,6 +13231,7 @@
         },
         {
           "Name": "CardDealSt",
+          "HeaderDefinition": "",
           "Address": 40652,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12861,6 +13241,7 @@
         },
         {
           "Name": "CardIdle",
+          "HeaderDefinition": "",
           "Address": 44896,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12870,6 +13251,7 @@
         },
         {
           "Name": "CardLoseSt",
+          "HeaderDefinition": "",
           "Address": 48364,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12879,6 +13261,7 @@
         },
         {
           "Name": "CardShuffleSt",
+          "HeaderDefinition": "",
           "Address": 51808,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12888,6 +13271,7 @@
         },
         {
           "Name": "CardWinSt",
+          "HeaderDefinition": "",
           "Address": 55520,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12897,6 +13281,7 @@
         },
         {
           "Name": "CardDealLoop",
+          "HeaderDefinition": "",
           "Address": 40652,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12906,6 +13291,7 @@
         },
         {
           "Name": "CardLoseLoop",
+          "HeaderDefinition": "",
           "Address": 48364,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12915,6 +13301,7 @@
         },
         {
           "Name": "CardWinLoop",
+          "HeaderDefinition": "",
           "Address": 55520,
           "ObjID": -1,
           "Speed": 1.0,
@@ -12924,6 +13311,7 @@
         },
         {
           "Name": "CardShuffleLoop",
+          "HeaderDefinition": "",
           "Address": 51808,
           "ObjID": -1,
           "Speed": 1.0,
@@ -13279,24 +13667,28 @@
         [
           {
             "Name": "EyeOpen",
+            "HeaderDefinition": "",
             "Address": 0,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeMid",
+            "HeaderDefinition": "",
             "Address": 1024,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeClosed",
+            "HeaderDefinition": "",
             "Address": 2048,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeClosedHappy",
+            "HeaderDefinition": "",
             "Address": 3072,
             "ObjectID": -1,
             "FileStart": -1
@@ -13319,6 +13711,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Stache",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -13335,6 +13728,7 @@
         },
         {
           "Name": "Root",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -13351,6 +13745,7 @@
         },
         {
           "Name": "Deck1",
+          "HeaderDefinition": "",
           "Address": 28592,
           "TransX": 200.0,
           "TransY": -600.0,
@@ -13367,6 +13762,7 @@
         },
         {
           "Name": "Deck2",
+          "HeaderDefinition": "",
           "Address": 28592,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -13512,7 +13908,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_EFFECTS",
@@ -13599,6 +13997,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 2620,
           "ObjID": -1,
           "Speed": 1.0,
@@ -13608,6 +14007,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 2620,
           "ObjID": -1,
           "Speed": 1.0,
@@ -13617,6 +14017,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 2620,
           "ObjID": -1,
           "Speed": 1.0,
@@ -13972,6 +14373,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Gavel",
+          "HeaderDefinition": "",
           "Address": 28912,
           "TransX": -31.0,
           "TransY": 51.0,
@@ -13988,6 +14390,7 @@
         },
         {
           "Name": "Soundblock",
+          "HeaderDefinition": "",
           "Address": 81824,
           "TransX": -38.0,
           "TransY": 35.0,
@@ -14004,6 +14407,7 @@
         },
         {
           "Name": "Bubble",
+          "HeaderDefinition": "",
           "Address": 1672,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -14020,6 +14424,7 @@
         },
         {
           "Name": "HoldIt",
+          "HeaderDefinition": "",
           "Address": 7544,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -14036,6 +14441,7 @@
         },
         {
           "Name": "Objection",
+          "HeaderDefinition": "",
           "Address": 65360,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -14052,6 +14458,7 @@
         },
         {
           "Name": "TakeThat",
+          "HeaderDefinition": "",
           "Address": 18808,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -14068,6 +14475,7 @@
         },
         {
           "Name": "Witness1",
+          "HeaderDefinition": "",
           "Address": 13304,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -14084,6 +14492,7 @@
         },
         {
           "Name": "NotGuilty1",
+          "HeaderDefinition": "",
           "Address": 36568,
           "TransX": -200.0,
           "TransY": 550.0,
@@ -14100,6 +14509,7 @@
         },
         {
           "Name": "NotGuilty2",
+          "HeaderDefinition": "",
           "Address": 35056,
           "TransX": 200.0,
           "TransY": 550.0,
@@ -14116,6 +14526,7 @@
         },
         {
           "Name": "Guilty2",
+          "HeaderDefinition": "",
           "Address": 31664,
           "TransX": 50.0,
           "TransY": 550.0,
@@ -14132,6 +14543,7 @@
         },
         {
           "Name": "Guilty1",
+          "HeaderDefinition": "",
           "Address": 29232,
           "TransX": 250.0,
           "TransY": 550.0,
@@ -14148,6 +14560,7 @@
         },
         {
           "Name": "Witness2",
+          "HeaderDefinition": "",
           "Address": 22304,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -14164,6 +14577,7 @@
         },
         {
           "Name": "CrossExam1",
+          "HeaderDefinition": "",
           "Address": 27488,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -14180,6 +14594,7 @@
         },
         {
           "Name": "CrossExam2",
+          "HeaderDefinition": "",
           "Address": 39368,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -14196,6 +14611,7 @@
         },
         {
           "Name": "RebuttalTop",
+          "HeaderDefinition": "",
           "Address": 54840,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -14212,6 +14628,7 @@
         },
         {
           "Name": "RebuttalBottom",
+          "HeaderDefinition": "",
           "Address": 59256,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -14228,6 +14645,7 @@
         },
         {
           "Name": "Argument1",
+          "HeaderDefinition": "",
           "Address": 42056,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -14244,6 +14662,7 @@
         },
         {
           "Name": "Argument2",
+          "HeaderDefinition": "",
           "Address": 45248,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -14260,6 +14679,7 @@
         },
         {
           "Name": "Argument3",
+          "HeaderDefinition": "",
           "Address": 47552,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -14276,6 +14696,7 @@
         },
         {
           "Name": "Argument4",
+          "HeaderDefinition": "",
           "Address": 49520,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -14292,6 +14713,7 @@
         },
         {
           "Name": "HandRauru",
+          "HeaderDefinition": "",
           "Address": 15848,
           "TransX": -31.0,
           "TransY": 51.0,
@@ -14308,6 +14730,7 @@
         },
         {
           "Name": "HandLink",
+          "HeaderDefinition": "",
           "Address": 31816,
           "TransX": -31.0,
           "TransY": 51.0,
@@ -14596,7 +15019,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_SOLDIER",
@@ -14683,6 +15108,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 23600,
           "ObjID": -1,
           "Speed": 1.0,
@@ -14692,6 +15118,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 22656,
           "ObjID": -1,
           "Speed": 1.0,
@@ -14701,6 +15128,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -14710,6 +15138,7 @@
         },
         {
           "Name": "SpearSlam",
+          "HeaderDefinition": "",
           "Address": 21760,
           "ObjID": -1,
           "Speed": 1.0,
@@ -14719,6 +15148,7 @@
         },
         {
           "Name": "Sitting",
+          "HeaderDefinition": "",
           "Address": 50244,
           "ObjID": -1,
           "Speed": 1.0,
@@ -14827,18 +15257,21 @@
         [
           {
             "Name": "Mouth1",
+            "HeaderDefinition": "",
             "Address": 24128,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "Mouth2",
+            "HeaderDefinition": "",
             "Address": 84240,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "Mouth3",
+            "HeaderDefinition": "",
             "Address": 84496,
             "ObjectID": -1,
             "FileStart": -1
@@ -14861,6 +15294,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Arm1",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -14877,6 +15311,7 @@
         },
         {
           "Name": "Arm2",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -14893,6 +15328,7 @@
         },
         {
           "Name": "Arm3",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -14909,6 +15345,7 @@
         },
         {
           "Name": "Head",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -14983,7 +15420,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "",
@@ -15137,7 +15576,9 @@
           null
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_LOBBY_INTRO",
@@ -15224,6 +15665,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -15233,6 +15675,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -15242,6 +15685,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -16920,7 +17364,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_GALLERY_ZORA",
@@ -17007,6 +17453,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 1432,
           "ObjID": -1,
           "Speed": 1.0,
@@ -17016,6 +17463,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 1432,
           "ObjID": -1,
           "Speed": 1.0,
@@ -17025,6 +17473,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 1432,
           "ObjID": -1,
           "Speed": 1.0,
@@ -17034,6 +17483,7 @@
         },
         {
           "Name": "Swoosh",
+          "HeaderDefinition": "",
           "Address": 8604,
           "ObjID": -1,
           "Speed": 1.0,
@@ -17075,18 +17525,21 @@
         [
           {
             "Name": "Eye1",
+            "HeaderDefinition": "",
             "Address": 15936,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "Eye2",
+            "HeaderDefinition": "",
             "Address": 17984,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "Eye3",
+            "HeaderDefinition": "",
             "Address": 20032,
             "ObjectID": -1,
             "FileStart": -1
@@ -17109,6 +17562,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "LimbDisabled1",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -17125,6 +17579,7 @@
         },
         {
           "Name": "LimbDisabled2",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -17141,6 +17596,7 @@
         },
         {
           "Name": "LimbDisabled3",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -17157,6 +17613,7 @@
         },
         {
           "Name": "LimbDisabled4",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -17173,6 +17630,7 @@
         },
         {
           "Name": "LimbDisabled5",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -17189,6 +17647,7 @@
         },
         {
           "Name": "LimbDisabled6",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -17205,6 +17664,7 @@
         },
         {
           "Name": "LimbDisabled8",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -17221,6 +17681,7 @@
         },
         {
           "Name": "LimbDisabled9",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -17237,6 +17698,7 @@
         },
         {
           "Name": "LimbDisabled10",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -17253,6 +17715,7 @@
         },
         {
           "Name": "LimbDisabled12",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -17269,6 +17732,7 @@
         },
         {
           "Name": "LimbDisabled13",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -17343,7 +17807,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_UNIMPLEMENTED",
@@ -17430,6 +17896,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -17439,6 +17906,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -17448,6 +17916,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -17608,7 +18077,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_TEST",
@@ -17695,6 +18166,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -17704,6 +18176,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -17713,6 +18186,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -19505,7 +19979,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_OPENINGSTATEMENT",
@@ -19592,6 +20068,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -19601,6 +20078,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -19610,6 +20088,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -20454,7 +20933,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_IMPA_INTRODUCTION",
@@ -20541,6 +21022,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -20550,6 +21032,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -20559,6 +21042,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -21633,7 +22117,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_IMPA_1",
@@ -21720,6 +22206,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -21729,6 +22216,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -21738,6 +22226,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -22020,7 +22509,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_IMPA_POST",
@@ -22107,6 +22598,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -22116,6 +22608,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -22125,6 +22618,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -23817,7 +24311,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_IMPA_CROSSEXAM",
@@ -23904,6 +24400,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -23913,6 +24410,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -23922,6 +24420,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -26392,7 +26891,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDA_INTRODUCTION",
@@ -26479,6 +26980,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -26488,6 +26990,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -26497,6 +27000,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -27705,7 +28209,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDA_1",
@@ -27792,6 +28298,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -27801,6 +28308,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -27810,6 +28318,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -28121,7 +28630,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDA_POST",
@@ -28208,6 +28719,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -28217,6 +28729,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -28226,6 +28739,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -29197,7 +29711,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDA_1_CROSSEXAM",
@@ -29284,6 +29800,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -29293,6 +29810,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -29302,6 +29820,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -32032,7 +32551,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDA_2",
@@ -32119,6 +32640,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -32128,6 +32650,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -32137,6 +32660,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -32376,7 +32900,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDA_2_POST",
@@ -32463,6 +32989,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -32472,6 +32999,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -32481,6 +33009,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -32739,7 +33268,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDA_2_CROSSEXAM",
@@ -32826,6 +33357,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -32835,6 +33367,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -32844,6 +33377,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -35081,7 +35615,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDAS_NEW_EVIDENCE",
@@ -35168,6 +35704,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -35177,6 +35714,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -35186,6 +35724,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -37133,7 +37672,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDA_3",
@@ -37220,6 +37761,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -37229,6 +37771,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -37238,6 +37781,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -37546,7 +38090,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDA_3_POST",
@@ -37633,6 +38179,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -37642,6 +38189,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -37651,6 +38199,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -38244,7 +38793,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDA_3_CROSSEXAM",
@@ -38331,6 +38882,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -38340,6 +38892,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -38349,6 +38902,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -40712,7 +41266,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_ENTERS",
@@ -40799,6 +41355,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -40808,6 +41365,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -40817,6 +41375,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -41667,7 +42226,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_1",
@@ -41754,6 +42315,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -41763,6 +42325,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -41772,6 +42335,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -42036,7 +42600,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_1_POST",
@@ -42123,6 +42689,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -42132,6 +42699,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -42141,6 +42709,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -42537,7 +43106,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_1_CROSSEXAM",
@@ -42624,6 +43195,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -42633,6 +43205,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -42642,6 +43215,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -48917,7 +49491,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_LOBBY_RECESS",
@@ -49004,6 +49580,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -49013,6 +49590,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -49022,6 +49600,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -50680,7 +51259,9 @@
           null
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_2",
@@ -50767,6 +51348,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -50776,6 +51358,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -50785,6 +51368,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -51044,7 +51628,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_2_POST",
@@ -51131,6 +51717,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -51140,6 +51727,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -51149,6 +51737,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -51355,7 +51944,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_2_CROSSEXAM",
@@ -51442,6 +52033,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -51451,6 +52043,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -51460,6 +52053,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -55688,7 +56282,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_THINKING_CONTROLLER",
@@ -55775,6 +56371,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -55784,6 +56381,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -55793,6 +56391,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -55849,6 +56448,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Background",
+          "HeaderDefinition": "",
           "Address": 7176,
           "TransX": 100.0,
           "TransY": 0.0,
@@ -55865,6 +56465,7 @@
         },
         {
           "Name": "Icons",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -55881,6 +56482,7 @@
         },
         {
           "Name": "Case1Evidence",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -56009,7 +56611,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_GODDESS",
@@ -56096,6 +56700,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -56105,6 +56710,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -56114,6 +56720,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -56208,6 +56815,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Goddess",
+          "HeaderDefinition": "",
           "Address": 15440,
           "TransX": 0.0,
           "TransY": -10.0,
@@ -56224,6 +56832,7 @@
         },
         {
           "Name": "Light",
+          "HeaderDefinition": "",
           "Address": 816,
           "TransX": 0.0,
           "TransY": 50.0,
@@ -56240,6 +56849,7 @@
         },
         {
           "Name": "Chunk1",
+          "HeaderDefinition": "",
           "Address": 32,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -56256,6 +56866,7 @@
         },
         {
           "Name": "Chunk2",
+          "HeaderDefinition": "",
           "Address": 4840,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -56272,6 +56883,7 @@
         },
         {
           "Name": "Chunk3",
+          "HeaderDefinition": "",
           "Address": 5360,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -56288,6 +56900,7 @@
         },
         {
           "Name": "Chunk4",
+          "HeaderDefinition": "",
           "Address": 7544,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -56304,6 +56917,7 @@
         },
         {
           "Name": "Chunk5",
+          "HeaderDefinition": "",
           "Address": 8864,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -56320,6 +56934,7 @@
         },
         {
           "Name": "Chunk6",
+          "HeaderDefinition": "",
           "Address": 11064,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -56336,6 +56951,7 @@
         },
         {
           "Name": "Chunk7",
+          "HeaderDefinition": "",
           "Address": 12400,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -56352,6 +56968,7 @@
         },
         {
           "Name": "Chunk8",
+          "HeaderDefinition": "",
           "Address": 13800,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -56368,6 +56985,7 @@
         },
         {
           "Name": "Chunk9",
+          "HeaderDefinition": "",
           "Address": 15184,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -56384,6 +57002,7 @@
         },
         {
           "Name": "Chunk10",
+          "HeaderDefinition": "",
           "Address": 18024,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -56400,6 +57019,7 @@
         },
         {
           "Name": "Chunk11",
+          "HeaderDefinition": "",
           "Address": 20584,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -56416,6 +57036,7 @@
         },
         {
           "Name": "Chunk12",
+          "HeaderDefinition": "",
           "Address": 23264,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -56432,6 +57053,7 @@
         },
         {
           "Name": "Chunk13",
+          "HeaderDefinition": "",
           "Address": 25008,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -56448,6 +57070,7 @@
         },
         {
           "Name": "Chunk14",
+          "HeaderDefinition": "",
           "Address": 27224,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -56636,7 +57259,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_TRIFORCE",
@@ -56723,6 +57348,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -56732,6 +57358,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -56741,6 +57368,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -56786,6 +57414,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Triforce",
+          "HeaderDefinition": "",
           "Address": 1536,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -56802,6 +57431,7 @@
         },
         {
           "Name": "LoadConclusion",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -56963,7 +57593,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_PURSUIT",
@@ -57050,6 +57682,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -57059,6 +57692,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -57068,6 +57702,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -57879,7 +58514,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_VERDICT",
@@ -57966,6 +58603,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -57975,6 +58613,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -57984,6 +58623,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -58878,7 +59518,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_CUCCO",
@@ -58965,6 +59607,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 232,
           "ObjID": -1,
           "Speed": 1.0,
@@ -58974,6 +59617,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 232,
           "ObjID": -1,
           "Speed": 1.0,
@@ -58983,6 +59627,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -59159,6 +59804,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Neck",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -59175,6 +59821,7 @@
         },
         {
           "Name": "WingL",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -59191,6 +59838,7 @@
         },
         {
           "Name": "WingR",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -59207,6 +59855,7 @@
         },
         {
           "Name": "FeatherModel",
+          "HeaderDefinition": "",
           "Address": 4048,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -59333,7 +59982,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_LOBBY_ENDING",
@@ -59420,6 +60071,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -59429,6 +60081,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -59438,6 +60091,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -61394,7 +62048,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_VISCEN",
@@ -61481,6 +62137,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 4544,
           "ObjID": -1,
           "Speed": 1.0,
@@ -61490,6 +62147,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -61499,6 +62157,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -61508,6 +62167,7 @@
         },
         {
           "Name": "Talk",
+          "HeaderDefinition": "",
           "Address": 2228,
           "ObjID": -1,
           "Speed": 1.0,
@@ -61578,18 +62238,21 @@
         [
           {
             "Name": "MouthClosed",
+            "HeaderDefinition": "",
             "Address": 29336,
             "ObjectID": -1,
             "FileStart": 50912
           },
           {
             "Name": "MouthHalf",
+            "HeaderDefinition": "",
             "Address": 33200,
             "ObjectID": -1,
             "FileStart": 50912
           },
           {
             "Name": "MouthOpen",
+            "HeaderDefinition": "",
             "Address": 33264,
             "ObjectID": -1,
             "FileStart": 50912
@@ -61669,7 +62332,9 @@
           null
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_AUTOSAVENOTICE",
@@ -61756,6 +62421,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -61765,6 +62431,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -61774,6 +62441,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -61903,7 +62571,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "RANCH_INTRO_CONTROLLER",
@@ -61990,6 +62660,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -61999,6 +62670,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -62008,6 +62680,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -62120,6 +62793,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Bottle",
+          "HeaderDefinition": "",
           "Address": 1896,
           "TransX": 187.0,
           "TransY": 47.0,
@@ -62136,6 +62810,7 @@
         },
         {
           "Name": "Cap",
+          "HeaderDefinition": "",
           "Address": 1664,
           "TransX": 187.0,
           "TransY": 47.0,
@@ -62296,7 +62971,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "INTRO_TALON",
@@ -62383,6 +63060,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 6120,
           "ObjID": -1,
           "Speed": 1.0,
@@ -62392,6 +63070,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -62401,6 +63080,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -62415,6 +63095,7 @@
         [
           {
             "Name": "Eye",
+            "HeaderDefinition": "",
             "Address": 29376,
             "ObjectID": -1,
             "FileStart": -1
@@ -62423,6 +63104,7 @@
         [
           {
             "Name": "Nose",
+            "HeaderDefinition": "",
             "Address": 29376,
             "ObjectID": -1,
             "FileStart": -1
@@ -62501,7 +63183,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_DRAGMIRE_REBUTTAL",
@@ -62588,6 +63272,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -62597,6 +63282,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -62606,6 +63292,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -65804,7 +66491,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_COURTROOM",
@@ -65891,6 +66580,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -65900,6 +66590,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -65909,6 +66600,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -65978,6 +66670,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Court",
+          "HeaderDefinition": "",
           "Address": 105024,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -65994,6 +66687,7 @@
         },
         {
           "Name": "CourtDark",
+          "HeaderDefinition": "",
           "Address": 161696,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -66010,6 +66704,7 @@
         },
         {
           "Name": "JudgeCloseUp",
+          "HeaderDefinition": "",
           "Address": 110616,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -66026,6 +66721,7 @@
         },
         {
           "Name": "JudgeCloseUpDark",
+          "HeaderDefinition": "",
           "Address": 173352,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -66042,6 +66738,7 @@
         },
         {
           "Name": "Stand",
+          "HeaderDefinition": "",
           "Address": 182544,
           "TransX": 1.0,
           "TransY": 0.0,
@@ -66058,6 +66755,7 @@
         },
         {
           "Name": "StandDark",
+          "HeaderDefinition": "",
           "Address": 179896,
           "TransX": -1.0,
           "TransY": 0.0,
@@ -66197,7 +66895,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_DARKPLANE",
@@ -66284,6 +66984,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -66293,6 +66994,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -66302,6 +67004,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -66344,6 +67047,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "DarkPlane",
+          "HeaderDefinition": "",
           "Address": 169320,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -66418,7 +67122,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "CREDITS_CONTROLLER",
@@ -66505,6 +67211,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -66514,6 +67221,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -66523,6 +67231,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -67026,6 +67735,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "TitleLogo",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -68710,7 +69420,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_HORSE_CREDITS",
@@ -68797,6 +69509,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 17792,
           "ObjID": -1,
           "Speed": 1.0,
@@ -68806,6 +69519,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 21692,
           "ObjID": -1,
           "Speed": 1.0,
@@ -68815,6 +69529,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -68860,6 +69575,7 @@
         [
           {
             "Name": "Eye",
+            "HeaderDefinition": "",
             "Address": 21720,
             "ObjectID": -1,
             "FileStart": -1
@@ -68939,7 +69655,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_SOLDIER_CREDITS_HORSE_FIRE",
@@ -69026,6 +69744,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 23600,
           "ObjID": -1,
           "Speed": 1.0,
@@ -69035,6 +69754,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 22656,
           "ObjID": -1,
           "Speed": 1.5,
@@ -69044,6 +69764,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -69053,6 +69774,7 @@
         },
         {
           "Name": "SpearSlam",
+          "HeaderDefinition": "",
           "Address": 21760,
           "ObjID": -1,
           "Speed": 1.0,
@@ -69062,6 +69784,7 @@
         },
         {
           "Name": "Sitting",
+          "HeaderDefinition": "",
           "Address": 50244,
           "ObjID": -1,
           "Speed": 1.0,
@@ -69103,18 +69826,21 @@
         [
           {
             "Name": "Mouth1",
+            "HeaderDefinition": "",
             "Address": 24128,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "Mouth2",
+            "HeaderDefinition": "",
             "Address": 84240,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "Mouth3",
+            "HeaderDefinition": "",
             "Address": 84496,
             "ObjectID": -1,
             "FileStart": -1
@@ -69137,6 +69863,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Arm1",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -69153,6 +69880,7 @@
         },
         {
           "Name": "Arm2",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -69169,6 +69897,7 @@
         },
         {
           "Name": "Arm3",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -69185,6 +69914,7 @@
         },
         {
           "Name": "Head",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -69259,7 +69989,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "",
@@ -69413,7 +70145,9 @@
           null
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "",
@@ -69567,7 +70301,9 @@
           null
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_TEST_BUFFERS",
@@ -69654,6 +70390,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -69663,6 +70400,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -69672,6 +70410,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -69883,7 +70622,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_GROG",
@@ -69970,6 +70711,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 1472,
           "ObjID": -1,
           "Speed": 1.0,
@@ -69979,6 +70721,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -69988,6 +70731,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -70017,6 +70761,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Mohawk",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -70033,6 +70778,7 @@
         },
         {
           "Name": "Bags",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -70107,7 +70853,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_PRISONBARS",
@@ -70194,6 +70942,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -70203,6 +70952,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -70212,6 +70962,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -70275,6 +71026,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Bars",
+          "HeaderDefinition": "",
           "Address": 7376,
           "TransX": -212.0,
           "TransY": -100.0,
@@ -70349,7 +71101,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "FLAME_EMITTER",
@@ -70436,6 +71190,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -70445,6 +71200,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -70454,6 +71210,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -70564,7 +71321,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_PROF_SHIKASHI",
@@ -70651,6 +71410,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 5280,
           "ObjID": 254,
           "Speed": 1.0,
@@ -70660,6 +71420,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 38956,
           "ObjID": 254,
           "Speed": 1.0,
@@ -70669,6 +71430,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -70683,6 +71445,7 @@
         [
           {
             "Name": "Stub",
+            "HeaderDefinition": "",
             "Address": 0,
             "ObjectID": -5,
             "FileStart": -1
@@ -70691,6 +71454,7 @@
         [
           {
             "Name": "Stub",
+            "HeaderDefinition": "",
             "Address": 0,
             "ObjectID": -5,
             "FileStart": -1
@@ -70699,18 +71463,21 @@
         [
           {
             "Name": "Eye1",
+            "HeaderDefinition": "",
             "Address": 1532,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "Eye2",
+            "HeaderDefinition": "",
             "Address": 2556,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "Eye3",
+            "HeaderDefinition": "",
             "Address": 3580,
             "ObjectID": -1,
             "FileStart": -1
@@ -70788,7 +71555,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_UNUSED",
@@ -70875,6 +71644,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -70884,6 +71654,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -70893,6 +71664,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -71127,7 +71899,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_TALON",
@@ -71214,6 +71988,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 52560,
           "ObjID": -1,
           "Speed": 1.0,
@@ -71223,6 +71998,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -71232,6 +72008,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -71246,6 +72023,7 @@
         [
           {
             "Name": "Texture_0",
+            "HeaderDefinition": "",
             "Address": 30400,
             "ObjectID": -1,
             "FileStart": -1
@@ -71254,6 +72032,7 @@
         [
           {
             "Name": "Texture_0",
+            "HeaderDefinition": "",
             "Address": 29376,
             "ObjectID": -1,
             "FileStart": -1
@@ -71332,7 +72111,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_FLASHBACK_INGO",
@@ -71419,6 +72200,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 85160,
           "ObjID": -1,
           "Speed": 1.0,
@@ -71428,6 +72210,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -71437,6 +72220,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -71451,12 +72235,14 @@
         [
           {
             "Name": "EyeNorm",
+            "HeaderDefinition": "",
             "Address": 13712,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeHalf",
+            "HeaderDefinition": "",
             "Address": 18384,
             "ObjectID": -1,
             "FileStart": -1
@@ -71465,6 +72251,7 @@
         [
           {
             "Name": "Texture_0",
+            "HeaderDefinition": "",
             "Address": 10576,
             "ObjectID": -1,
             "FileStart": -1
@@ -71486,6 +72273,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Bucket",
+          "HeaderDefinition": "",
           "Address": 31264,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -71502,6 +72290,7 @@
         },
         {
           "Name": "Pitchfork",
+          "HeaderDefinition": "",
           "Address": 31736,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -71576,7 +72365,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "RANCH_FLASHBACK",
@@ -71663,6 +72454,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -71672,6 +72464,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -71681,6 +72474,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -72006,7 +72800,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_3",
@@ -72093,6 +72889,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -72102,6 +72899,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -72111,6 +72909,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -72370,7 +73169,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_3_POST",
@@ -72457,6 +73258,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -72466,6 +73268,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -72475,6 +73278,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -72715,7 +73519,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_3_CROSSEXAM",
@@ -72802,6 +73608,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -72811,6 +73618,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -72820,6 +73628,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -75377,7 +76186,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "GANON_ORGAN",
@@ -75464,6 +76275,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 24572,
           "ObjID": 381,
           "Speed": 0.8,
@@ -75473,6 +76285,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -75482,6 +76295,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -75496,6 +76310,7 @@
         [
           {
             "Name": "Eye1",
+            "HeaderDefinition": "",
             "Address": 39456,
             "ObjectID": -1,
             "FileStart": -1
@@ -75518,6 +76333,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Hand2",
+          "HeaderDefinition": "",
           "Address": 51688,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -75534,6 +76350,7 @@
         },
         {
           "Name": "Eye",
+          "HeaderDefinition": "",
           "Address": 48784,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -75608,7 +76425,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_AFTER_REBUTTAL",
@@ -75695,6 +76514,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -75704,6 +76524,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -75713,6 +76534,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -77410,7 +78232,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "HORSEWAGON",
@@ -77497,6 +78321,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 106000,
           "ObjID": -1,
           "Speed": 1.0,
@@ -77506,6 +78331,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 106000,
           "ObjID": -1,
           "Speed": 1.0,
@@ -77515,6 +78341,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 106000,
           "ObjID": -1,
           "Speed": 1.0,
@@ -77553,6 +78380,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Wheel",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -77569,6 +78397,7 @@
         },
         {
           "Name": "Wheel2",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -77585,6 +78414,7 @@
         },
         {
           "Name": "Cremia",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -77601,6 +78431,7 @@
         },
         {
           "Name": "Cremia1",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -77617,6 +78448,7 @@
         },
         {
           "Name": "Cremia2",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -77633,6 +78465,7 @@
         },
         {
           "Name": "Cremia3",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -77649,6 +78482,7 @@
         },
         {
           "Name": "Cremia4",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -77665,6 +78499,7 @@
         },
         {
           "Name": "Cremia5",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -77681,6 +78516,7 @@
         },
         {
           "Name": "Cremia6",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -77697,6 +78533,7 @@
         },
         {
           "Name": "Cremia7",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -77713,6 +78550,7 @@
         },
         {
           "Name": "Cremia8",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -77729,6 +78567,7 @@
         },
         {
           "Name": "Cremia9",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -77745,6 +78584,7 @@
         },
         {
           "Name": "Cremia10",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -77761,6 +78601,7 @@
         },
         {
           "Name": "Main",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -77835,7 +78676,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_TRSPAKCHECK",
@@ -77922,6 +78765,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -77931,6 +78775,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -77940,6 +78785,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -78555,7 +79401,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_KOHOLINK",
@@ -78642,6 +79490,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 80088,
           "ObjID": 20,
           "Speed": 1.0,
@@ -78651,6 +79500,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": 20,
           "Speed": 1.0,
@@ -78660,6 +79510,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": 20,
           "Speed": 1.0,
@@ -78669,6 +79520,7 @@
         },
         {
           "Name": "Point",
+          "HeaderDefinition": "",
           "Address": 86596,
           "ObjID": 20,
           "Speed": 1.1,
@@ -78678,6 +79530,7 @@
         },
         {
           "Name": "DeskSlam",
+          "HeaderDefinition": "",
           "Address": 103468,
           "ObjID": 20,
           "Speed": 1.0,
@@ -78687,6 +79540,7 @@
         },
         {
           "Name": "Paper",
+          "HeaderDefinition": "",
           "Address": 92680,
           "ObjID": 20,
           "Speed": 1.0,
@@ -78696,6 +79550,7 @@
         },
         {
           "Name": "Thinking",
+          "HeaderDefinition": "",
           "Address": 86464,
           "ObjID": -1,
           "Speed": 1.0,
@@ -78705,6 +79560,7 @@
         },
         {
           "Name": "Shocked",
+          "HeaderDefinition": "",
           "Address": 80912,
           "ObjID": -1,
           "Speed": 1.0,
@@ -78714,6 +79570,7 @@
         },
         {
           "Name": "Sweat",
+          "HeaderDefinition": "",
           "Address": 110588,
           "ObjID": 20,
           "Speed": 1.0,
@@ -78723,6 +79580,7 @@
         },
         {
           "Name": "Confident",
+          "HeaderDefinition": "",
           "Address": 71420,
           "ObjID": 20,
           "Speed": 1.0,
@@ -78732,6 +79590,7 @@
         },
         {
           "Name": "Abashed",
+          "HeaderDefinition": "",
           "Address": 66400,
           "ObjID": 20,
           "Speed": 1.0,
@@ -78741,6 +79600,7 @@
         },
         {
           "Name": "DeskSlammed",
+          "HeaderDefinition": "",
           "Address": 103468,
           "ObjID": 20,
           "Speed": 1.0,
@@ -78750,6 +79610,7 @@
         },
         {
           "Name": "PointLoop",
+          "HeaderDefinition": "",
           "Address": 86596,
           "ObjID": 20,
           "Speed": 1.0,
@@ -78759,6 +79620,7 @@
         },
         {
           "Name": "AbashedLoop",
+          "HeaderDefinition": "",
           "Address": 66400,
           "ObjID": 20,
           "Speed": 1.0,
@@ -78768,6 +79630,7 @@
         },
         {
           "Name": "ThinkingLoop",
+          "HeaderDefinition": "",
           "Address": 86464,
           "ObjID": -1,
           "Speed": 1.0,
@@ -78777,6 +79640,7 @@
         },
         {
           "Name": "SweatLoop",
+          "HeaderDefinition": "",
           "Address": 110588,
           "ObjID": 20,
           "Speed": 1.0,
@@ -78786,6 +79650,7 @@
         },
         {
           "Name": "ShockedLoop",
+          "HeaderDefinition": "",
           "Address": 80912,
           "ObjID": -1,
           "Speed": 1.0,
@@ -78795,6 +79660,7 @@
         },
         {
           "Name": "ConfidentLoop",
+          "HeaderDefinition": "",
           "Address": 71420,
           "ObjID": 20,
           "Speed": 1.0,
@@ -78804,6 +79670,7 @@
         },
         {
           "Name": "PaperLoop",
+          "HeaderDefinition": "",
           "Address": 92680,
           "ObjID": 20,
           "Speed": 1.0,
@@ -78813,6 +79680,7 @@
         },
         {
           "Name": "Gallery",
+          "HeaderDefinition": "",
           "Address": 76568,
           "ObjID": 20,
           "Speed": 1.0,
@@ -78822,6 +79690,7 @@
         },
         {
           "Name": "Guilty",
+          "HeaderDefinition": "",
           "Address": 75168,
           "ObjID": -1,
           "Speed": 1.0,
@@ -78831,6 +79700,7 @@
         },
         {
           "Name": "GuiltyLoop",
+          "HeaderDefinition": "",
           "Address": 75168,
           "ObjID": -1,
           "Speed": 1.0,
@@ -78840,6 +79710,7 @@
         },
         {
           "Name": "Angry",
+          "HeaderDefinition": "",
           "Address": 70260,
           "ObjID": -1,
           "Speed": 1.0,
@@ -78849,6 +79720,7 @@
         },
         {
           "Name": "AngryLoop",
+          "HeaderDefinition": "",
           "Address": 70260,
           "ObjID": -1,
           "Speed": 1.0,
@@ -78858,6 +79730,7 @@
         },
         {
           "Name": "Annoyed",
+          "HeaderDefinition": "",
           "Address": 78032,
           "ObjID": -1,
           "Speed": 1.0,
@@ -79113,60 +79986,70 @@
         [
           {
             "Name": "EyeNormal",
+            "HeaderDefinition": "",
             "Address": 2304,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeHalf",
+            "HeaderDefinition": "",
             "Address": 4352,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeClose",
+            "HeaderDefinition": "",
             "Address": 6400,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeWide",
+            "HeaderDefinition": "",
             "Address": 8448,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeAngry",
+            "HeaderDefinition": "",
             "Address": 10496,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeThink",
+            "HeaderDefinition": "",
             "Address": 12544,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeSad",
+            "HeaderDefinition": "",
             "Address": 14592,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeSweat",
+            "HeaderDefinition": "",
             "Address": 16640,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeRight",
+            "HeaderDefinition": "",
             "Address": 18688,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "EyeLeft",
+            "HeaderDefinition": "",
             "Address": 20736,
             "ObjectID": -1,
             "FileStart": -1
@@ -79175,36 +80058,42 @@
         [
           {
             "Name": "MouthClosed",
+            "HeaderDefinition": "",
             "Address": 29952,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthHalf",
+            "HeaderDefinition": "",
             "Address": 25856,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthOpen",
+            "HeaderDefinition": "",
             "Address": 26880,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthSmile",
+            "HeaderDefinition": "",
             "Address": 27904,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthConfident",
+            "HeaderDefinition": "",
             "Address": 28928,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "MouthUnamused",
+            "HeaderDefinition": "",
             "Address": 24832,
             "ObjectID": -1,
             "FileStart": -1
@@ -79226,6 +80115,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Point",
+          "HeaderDefinition": "",
           "Address": 62640,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -79242,6 +80132,7 @@
         },
         {
           "Name": "Paper",
+          "HeaderDefinition": "",
           "Address": 2496,
           "TransX": 777.0,
           "TransY": -54.0,
@@ -79258,6 +80149,7 @@
         },
         {
           "Name": "Root",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -79274,6 +80166,7 @@
         },
         {
           "Name": "ActionCone",
+          "HeaderDefinition": "",
           "Address": 5208,
           "TransX": 1200.0,
           "TransY": 1800.0,
@@ -79290,6 +80183,7 @@
         },
         {
           "Name": "Waist",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -79306,6 +80200,7 @@
         },
         {
           "Name": "Head",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -79465,7 +80360,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "",
@@ -79619,7 +80516,9 @@
           null
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_MUTOH",
@@ -79706,6 +80605,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 17068,
           "ObjID": 254,
           "Speed": 1.0,
@@ -79715,6 +80615,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -79724,6 +80625,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -79733,6 +80635,7 @@
         },
         {
           "Name": "Yelling",
+          "HeaderDefinition": "",
           "Address": 28000,
           "ObjID": -1,
           "Speed": 1.0,
@@ -79742,6 +80645,7 @@
         },
         {
           "Name": "Thinking",
+          "HeaderDefinition": "",
           "Address": 20112,
           "ObjID": 254,
           "Speed": 1.0,
@@ -79751,6 +80655,7 @@
         },
         {
           "Name": "Explaining",
+          "HeaderDefinition": "",
           "Address": 22536,
           "ObjID": 254,
           "Speed": 1.0,
@@ -79760,6 +80665,7 @@
         },
         {
           "Name": "Shrug",
+          "HeaderDefinition": "",
           "Address": 1816,
           "ObjID": 254,
           "Speed": 1.0,
@@ -79769,6 +80675,7 @@
         },
         {
           "Name": "Clap",
+          "HeaderDefinition": "",
           "Address": 4068,
           "ObjID": 254,
           "Speed": 1.0,
@@ -79778,6 +80685,7 @@
         },
         {
           "Name": "LookAround",
+          "HeaderDefinition": "",
           "Address": 4840,
           "ObjID": 254,
           "Speed": 1.0,
@@ -79787,6 +80695,7 @@
         },
         {
           "Name": "TurnTo",
+          "HeaderDefinition": "",
           "Address": 5712,
           "ObjID": 254,
           "Speed": 1.0,
@@ -79796,6 +80705,7 @@
         },
         {
           "Name": "TurnBack",
+          "HeaderDefinition": "",
           "Address": 6304,
           "ObjID": 254,
           "Speed": 1.0,
@@ -79805,6 +80715,7 @@
         },
         {
           "Name": "Whisper",
+          "HeaderDefinition": "",
           "Address": 9680,
           "ObjID": 254,
           "Speed": 1.0,
@@ -79814,6 +80725,7 @@
         },
         {
           "Name": "Panic",
+          "HeaderDefinition": "",
           "Address": 16888,
           "ObjID": 254,
           "Speed": 0.6,
@@ -79823,6 +80735,7 @@
         },
         {
           "Name": "Angry2",
+          "HeaderDefinition": "",
           "Address": 2196,
           "ObjID": 254,
           "Speed": 1.0,
@@ -79832,6 +80745,7 @@
         },
         {
           "Name": "RubHands",
+          "HeaderDefinition": "",
           "Address": 30076,
           "ObjID": -1,
           "Speed": 1.0,
@@ -79983,12 +80897,14 @@
         [
           {
             "Name": "eye1",
+            "HeaderDefinition": "",
             "Address": 1216,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "eye2",
+            "HeaderDefinition": "",
             "Address": 2240,
             "ObjectID": -1,
             "FileStart": -1
@@ -80011,6 +80927,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Jaw",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": -39.0,
@@ -80027,6 +80944,7 @@
         },
         {
           "Name": "Arm",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -80043,6 +80961,7 @@
         },
         {
           "Name": "Root",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 3400.0,
@@ -80059,6 +80978,7 @@
         },
         {
           "Name": "Arm2",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -80075,6 +80995,7 @@
         },
         {
           "Name": "Test",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -80213,7 +81134,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_OWL",
@@ -80300,6 +81223,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 28268,
           "ObjID": -1,
           "Speed": 1.0,
@@ -80309,6 +81233,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -80318,6 +81243,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -80327,6 +81253,7 @@
         },
         {
           "Name": "Revelation",
+          "HeaderDefinition": "",
           "Address": 35236,
           "ObjID": -1,
           "Speed": 1.0,
@@ -80336,6 +81263,7 @@
         },
         {
           "Name": "RevelationLoop",
+          "HeaderDefinition": "",
           "Address": 35236,
           "ObjID": -1,
           "Speed": 1.0,
@@ -80345,6 +81273,7 @@
         },
         {
           "Name": "Scratch",
+          "HeaderDefinition": "",
           "Address": 43844,
           "ObjID": -1,
           "Speed": 1.0,
@@ -80354,6 +81283,7 @@
         },
         {
           "Name": "Thonk",
+          "HeaderDefinition": "",
           "Address": 57172,
           "ObjID": -1,
           "Speed": 1.0,
@@ -80363,6 +81293,7 @@
         },
         {
           "Name": "ThonkLoop",
+          "HeaderDefinition": "",
           "Address": 57172,
           "ObjID": -1,
           "Speed": 1.0,
@@ -80372,6 +81303,7 @@
         },
         {
           "Name": "ScratchEnd",
+          "HeaderDefinition": "",
           "Address": 43844,
           "ObjID": -1,
           "Speed": 1.0,
@@ -80491,18 +81423,21 @@
         [
           {
             "Name": "eye1",
+            "HeaderDefinition": "",
             "Address": 1024,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "eye2",
+            "HeaderDefinition": "",
             "Address": 2048,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "eye3",
+            "HeaderDefinition": "",
             "Address": 3072,
             "ObjectID": -1,
             "FileStart": -1
@@ -80525,6 +81460,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Beak",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -80541,6 +81477,7 @@
         },
         {
           "Name": "Root",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 20.0,
           "TransY": 2200.0,
@@ -80557,6 +81494,7 @@
         },
         {
           "Name": "Foot",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -80573,6 +81511,7 @@
         },
         {
           "Name": "Head",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -80665,7 +81604,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_TRIALSTART",
@@ -80752,6 +81693,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -80761,6 +81703,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -80770,6 +81713,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -82701,7 +83645,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_SHOPK_ENTERS",
@@ -82788,6 +83734,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -82797,6 +83744,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -82806,6 +83754,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -83171,7 +84120,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_SHOPK_TESTIMONY",
@@ -83258,6 +84209,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -83267,6 +84219,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -83276,6 +84229,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -83673,7 +84627,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_SHOPK_POST",
@@ -83760,6 +84716,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -83769,6 +84726,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -83778,6 +84736,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -84097,7 +85056,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_SHOPK_CROSSEXAM",
@@ -84184,6 +85145,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -84193,6 +85155,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -84202,6 +85165,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -88387,7 +89351,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_OWL_TESTIMONY",
@@ -88474,6 +89440,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -88483,6 +89450,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -88492,6 +89460,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -88750,7 +89719,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_OWL_POST",
@@ -88837,6 +89808,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -88846,6 +89818,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -88855,6 +89828,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -89160,7 +90134,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_OWL_CROSSEXAM",
@@ -89247,6 +90223,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -89256,6 +90233,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -89265,6 +90243,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -93341,7 +94320,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THINKING_RANCH",
@@ -93428,6 +94409,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -93437,6 +94419,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -93446,6 +94429,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -94230,7 +95214,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THINKING_THIEF",
@@ -94317,6 +95303,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -94326,6 +95313,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -94335,6 +95323,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -95041,7 +96030,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_VERDICT",
@@ -95128,6 +96119,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -95137,6 +96129,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -95146,6 +96139,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -97914,7 +98908,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_EPILOGUE",
@@ -98001,6 +98997,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -98010,6 +99007,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -98019,6 +99017,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -98448,7 +99447,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ANTIPIRACY_EDGB",
@@ -98535,6 +99536,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -98544,6 +99546,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -98553,6 +99556,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -98767,7 +99771,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_N64_PRERENDER",
@@ -98854,6 +99860,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -98863,6 +99870,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -98872,6 +99880,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -99372,7 +100381,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_SCREENSHOTTER",
@@ -99459,6 +100470,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -99468,6 +100480,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -99477,6 +100490,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -99654,7 +100668,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ANTIPIRACY_EZJR",
@@ -99741,6 +100757,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -99750,6 +100767,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -99759,6 +100777,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -99946,7 +100965,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_SOUNDBLOCK",
@@ -100033,6 +101054,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -100042,6 +101064,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -100051,6 +101074,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -100111,6 +101135,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Soundblock",
+          "HeaderDefinition": "",
           "Address": 81824,
           "TransX": -38.0,
           "TransY": 35.0,
@@ -100185,7 +101210,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_CASINOCONTROLLER",
@@ -100272,6 +101299,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -100281,6 +101309,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -100290,6 +101319,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -100579,6 +101609,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Graphics",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -100595,6 +101626,7 @@
         },
         {
           "Name": "GraphicsCommon",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -104766,7 +105798,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_TALON_TALONGAME",
@@ -104853,6 +105887,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 7316,
           "ObjID": -1,
           "Speed": 1.0,
@@ -104862,6 +105897,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 51288,
           "ObjID": -1,
           "Speed": 1.0,
@@ -104871,6 +105907,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -104880,6 +105917,7 @@
         },
         {
           "Name": "Jump",
+          "HeaderDefinition": "",
           "Address": 51288,
           "ObjID": -1,
           "Speed": 1.0,
@@ -104889,6 +105927,7 @@
         },
         {
           "Name": "Jump2",
+          "HeaderDefinition": "",
           "Address": 51288,
           "ObjID": -1,
           "Speed": 1.0,
@@ -104898,6 +105937,7 @@
         },
         {
           "Name": "Duck",
+          "HeaderDefinition": "",
           "Address": 48952,
           "ObjID": -1,
           "Speed": 1.0,
@@ -104907,6 +105947,7 @@
         },
         {
           "Name": "Fall",
+          "HeaderDefinition": "",
           "Address": 53032,
           "ObjID": -1,
           "Speed": 1.0,
@@ -105449,24 +106490,28 @@
         [
           {
             "Name": "Eye1",
+            "HeaderDefinition": "",
             "Address": 32640,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "Eye2",
+            "HeaderDefinition": "",
             "Address": 28352,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "Eye3",
+            "HeaderDefinition": "",
             "Address": 29376,
             "ObjectID": -1,
             "FileStart": -1
           },
           {
             "Name": "Eye4",
+            "HeaderDefinition": "",
             "Address": 30400,
             "ObjectID": -1,
             "FileStart": -1
@@ -105475,6 +106520,7 @@
         [
           {
             "Name": "Mouth",
+            "HeaderDefinition": "",
             "Address": 29376,
             "ObjectID": -1,
             "FileStart": -1
@@ -105496,6 +106542,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Head",
+          "HeaderDefinition": "",
           "Address": 38608,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -105512,6 +106559,7 @@
         },
         {
           "Name": "Model",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -105528,6 +106576,7 @@
         },
         {
           "Name": "Logo",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -105544,6 +106593,7 @@
         },
         {
           "Name": "Shroom",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -105560,6 +106610,7 @@
         },
         {
           "Name": "Evidence",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -105576,6 +106627,7 @@
         },
         {
           "Name": "Icons",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -106050,7 +107102,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_GOAL_TALONGAME",
@@ -106137,6 +107191,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -106146,6 +107201,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -106155,6 +107211,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -106199,6 +107256,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Shroom",
+          "HeaderDefinition": "",
           "Address": 2512,
           "TransX": 0.0,
           "TransY": 20.0,
@@ -106273,7 +107331,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_CARDDECK",
@@ -106360,6 +107420,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -106369,6 +107430,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -106378,6 +107440,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -106419,6 +107482,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "Deck",
+          "HeaderDefinition": "",
           "Address": 28592,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -106493,7 +107557,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_MUSIC_CONTROLLER",
@@ -106580,6 +107646,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -106589,6 +107656,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -106598,6 +107666,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -107196,7 +108265,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_CAT_BEANS",
@@ -107283,6 +108354,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 16800,
           "ObjID": -1,
           "Speed": 1.0,
@@ -107292,6 +108364,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -107301,6 +108374,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -107400,7 +108474,9 @@
           null
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_GALLERY_MAMU",
@@ -107487,6 +108563,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 43856,
           "ObjID": -1,
           "Speed": 1.0,
@@ -107496,6 +108573,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -107505,6 +108583,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -107600,7 +108679,9 @@
           null
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_SETTINGS",
@@ -107687,6 +108768,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -107696,6 +108778,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -107705,6 +108788,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -108576,7 +109660,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_TRAILER_2",
@@ -108663,6 +109749,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -108672,6 +109759,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -108681,6 +109769,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -108812,8 +109901,8 @@
             {
               "Name": "Msg1",
               "MessageTextLines": [
-                "It appears that the defence is unable",
-                "to attend the trial.<FADE:50>"
+                "Il semblerait que la défense soit incapble",
+                "d'assiter au procès.<FADE:50>"
               ],
               "Type": 0,
               "Position": 0
@@ -108821,8 +109910,8 @@
             {
               "Name": "Msg2",
               "MessageTextLines": [
-                "As such,<PAUSE:3> I pronounce Malon of Lon",
-                "Lon Ranch...<FADE:20>"
+                "Par conséquent,<PAUSE:3> je déclare Malon du ",
+                "Ranch Lon Lon...<FADE:20>"
               ],
               "Type": 0,
               "Position": 0
@@ -108881,7 +109970,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_SAVEQUESTION",
@@ -108968,6 +110059,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -108977,6 +110069,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -108986,6 +110079,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -109116,7 +110210,9 @@
           null
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_SAVECORRUPTED",
@@ -109203,6 +110299,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -109212,6 +110309,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -109221,6 +110319,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -109338,7 +110437,9 @@
           null
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_SCENE_SELECT",
@@ -109425,6 +110526,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -109434,6 +110536,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -109443,6 +110546,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -110319,7 +111423,9 @@
           ""
         ]
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     }
   ],
   "GlobalHeaders": [
