@@ -68450,7 +68450,7 @@
                 "",
                 "",
                 "",
-                "<Shift:150><R>PROJECT LEAD<W>",
+                "<Shift:150><R>CHEF DE PROJET<W>",
                 "",
                 "",
                 "<Shift:220>Skawo",
@@ -68466,18 +68466,7 @@
                 "",
                 "",
                 "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "<Shift:140><R>SCENARIO<W>",
+                "<Shift:140><R>SCÉNARIO<W>",
                 "",
                 "",
                 "<Shift:180>Skawo",
@@ -68489,6 +68478,17 @@
                 "<Shift:180>LuigiXHero",
                 "",
                 "<Shift:180>Meatball132",
+                "",
+                "",
+                "",
+                "<Shift:140><R>TRADUCTION FRANÇAISE<W>",
+                "",
+                "",
+                "<Shift:180>Lucaspec72",
+                "",
+                "<Shift:180>Ronano",
+                "",
+                "<Shift:180>Loloiiiiiou",
                 "<PERSISTENT>"
               ],
               "Type": 6,
@@ -68513,9 +68513,9 @@
                 "",
                 "",
                 "",
+                "<Shift:143><R>MODÉLISATION",
                 "",
-                "",
-                "<Shift:140><R>SCENE MODELING<W>",
+                "<Shift:150>DES DÉCORS<W>",
                 "",
                 "",
                 "<Shift:200>LuigiXHero",
@@ -68547,9 +68547,9 @@
                 "",
                 "",
                 "",
+                "<Shift:140><R>MODÉLISATION DES",
                 "",
-                "",
-                "<Shift:120><R>CHARACTER MODELING<W>",
+                "<Shift:153>PERSONNAGES<W>",
                 "",
                 "",
                 "<Shift:200>oonga",
@@ -68583,9 +68583,9 @@
                 "",
                 "",
                 "",
+                "<Shift:146><R>ANIMATION DES",
                 "",
-                "",
-                "<Shift:120><R>CHARACTER ANIMATION<W>",
+                "<Shift:148>PERSONNAGES<W>",
                 "",
                 "",
                 "<Shift:200>Jimbo Slim",
@@ -68620,7 +68620,7 @@
                 "",
                 "",
                 "",
-                "<Shift:180><R>2D ART<W>",
+                "<Shift:180><R>ART 2D<W>",
                 "",
                 "",
                 "<Shift:200>Jimbo Slim",
@@ -68657,7 +68657,7 @@
                 "",
                 "",
                 "",
-                "<Shift:140><R>PROGRAMMING<W>",
+                "<Shift:140><R>PROGRAMMATION<W>",
                 "",
                 "",
                 "<Shift:180>Skawo",
@@ -68727,7 +68727,7 @@
                 "",
                 "",
                 "",
-                "<Shift:170><R>MUSIC<W>",
+                "<Shift:170><R>MUSIQUE<W>",
                 "",
                 "",
                 "<Shift:180>RoadrunnerWMC",
@@ -68741,7 +68741,7 @@
             {
               "Name": "Tools1",
               "MessageTextLines": [
-                "<Shift:72><R>TOOL PROGRAMMING<W>",
+                "<Shift:45><R>PROGRAMMATION DES OUTILS<W>",
                 "",
                 "",
                 "<Shift:5>Skawo",
@@ -68813,7 +68813,7 @@
                 "",
                 "",
                 "",
-                "<Shift:140><R>CREATED USING<W>",
+                "<Shift:140><R>CRÉÉ AVEC<W>",
                 "",
                 "",
                 "<Shift:180>OoT NPC Maker",
@@ -68933,7 +68933,7 @@
             {
               "Name": "SpecialThanks1",
               "MessageTextLines": [
-                "<Shift:130><R>SPECIAL THANKS<W>",
+                "<Shift:120><R>MENTIONS SPÉCIALES<W>",
                 "",
                 "<PERSISTENT>"
               ],
@@ -68996,9 +68996,11 @@
                 "",
                 "",
                 "",
+                "<Shift:140>L'équipe de ",
+                "",
                 "<Shift:140>THE LEGEND OF ZELDA:",
                 "",
-                "<Shift:140>OCARINA OF TIME Staff",
+                "<Shift:140>OCARINA OF TIME",
                 "",
                 "",
                 "<PERSISTENT>"
@@ -69027,7 +69029,7 @@
                 "",
                 "",
                 "",
-                "<Shift:175>Toi, pour avoir joué.",
+                "<Shift:140>Vous, pour avoir joué.",
                 "",
                 "<PERSISTENT>"
               ],
@@ -69047,7 +69049,7 @@
                 "",
                 "",
                 "",
-                "<Shift:86><R>FIN",
+                "<Shift:115><R>FIN",
                 "",
                 "",
                 "",
@@ -69068,7 +69070,7 @@
             {
               "Name": "Unlocked1",
               "MessageTextLines": [
-                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC><R>Scene Select<W> is now unlocked!<SQUARE>"
+                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC><R>Choix de Scène<W> est maintenant débloqué !<SQUARE>"
               ],
               "Type": 1,
               "Position": 2
@@ -69076,9 +69078,9 @@
             {
               "Name": "Unlocked2",
               "MessageTextLines": [
-                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC><R>Extra 1<W> is now unlocked!",
+                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC><R>Extra 1<W> est maintenant débloqué !",
                 "",
-                "<LC>Check it out in the Scene Select!<SQUARE>"
+                "<LC>Découvrez-le dans le menu Choix de Scène !<SQUARE>"
               ],
               "Type": 1,
               "Position": 2
@@ -69086,10 +69088,10 @@
             {
               "Name": "UnlockedWiiUGCN",
               "MessageTextLines": [
-                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC><R>Extra 1<W>, <R>Extra 2<W> and <R>Extra 3<W>",
-                "<LC>are now unlocked!",
+                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC><R>Extra 1<W>, <R>Extra 2<W> et <R>Extra 3<W>",
+                "<LC>sont maintenant débloqués !",
                 "",
-                "<LC>Check them out in the Scene Select!<SQUARE>"
+                "<LC>Découvrez-les dans le menu Choix de Scène !<SQUARE>"
               ],
               "Type": 1,
               "Position": 2
