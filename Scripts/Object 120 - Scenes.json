@@ -95053,8 +95053,8 @@
                 "<PAUSE:3><DC>...Mais dans ce cas, je ne pense pas qu'il ",
                 "travaillerait dans un ranch.",
                 "<NEW_BOX>",
-                "Il doit y avoir une meilleure explication de ",
-                "pourquoi il a changé de vêtements."
+                "Il doit y avoir une meilleure explication pour",
+                "laquelle il a changé de vêtements."
               ],
               "Type": 2,
               "Position": 3
@@ -95062,7 +95062,7 @@
             {
               "Name": "A2_3",
               "MessageTextLines": [
-                "Les vaches ont confondus les vêtements ",
+                "Les vaches ont confondu les vêtements ",
                 "d'Ingo avec de la nourriture et les ont ",
                 "mangé !",
                 "<NEW_BOX>",
@@ -97943,7 +97943,7 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "C'est honteux...<FADE:20>"
+                "C'est dommage...<FADE:20>"
               ],
               "Type": 0,
               "Position": 0
@@ -98126,9 +98126,9 @@
             {
               "Name": "TRSPAK_REMOVE_NOTINITED",
               "MessageTextLines": [
-                "Transfer Pak was not used to initialize ",
-                "this case, so the THIEF moniker cannot ",
-                "be removed.<SQUARE>"
+                "Le Transfer Pak n'a pas été utilisé pour ",
+                "commencer cette affaire. Par conséquent,",
+                "le surnom VOYOU ne peut être retiré.<SQUARE>"
               ],
               "Type": 1,
               "Position": 2
@@ -98572,7 +98572,7 @@
                 "Mais attends un peu, t'avais pas dit que les ",
                 "avocats n'existaient pas dans ton monde ?<PAUSE:5>",
                 "Ton monde a-t-il même des tribunaux...?<PAUSE:8> ",
-                "...Euh, passons à autre chose.",
+                "...Enfin, passons à autre chose.",
                 "."
               ],
               "Type": 0,
