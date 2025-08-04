@@ -711,7 +711,7 @@
               "MessageTextLines": [
                 "<Y>Scie<W>",
                 "Arme du crime présumée.",
-                "trouvée dans les mains",
+                "Trouvée dans les mains",
                 "de Malon. Elle ne comporte",
                 "aucune trace de sang.<PERSISTENT>"
               ],
@@ -855,7 +855,7 @@
               "Name": "Impa",
               "MessageTextLines": [
                 "<Y>Impa<W> (Age: 34)",
-                "Inspectrice en cheffe. ",
+                "Inspectrice en chef. ",
                 "Désignée pour enquêter",
                 "sur l'affaire.<PERSISTENT>"
               ],
@@ -934,7 +934,7 @@
               "MessageTextLines": [
                 "<Y>Hibou<W> (Age: ??)",
                 "Aide VOYOU dans son",
-                "aventure sur l'ile Cocolint.<PERSISTENT>"
+                "aventure sur l'île Cocolint.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 0
@@ -953,7 +953,7 @@
               "MessageTextLines": [
                 "<Y>Hibou<W> (Age: ??)",
                 "Aide <FONT_TOGGLE>$$$$$<FONT_TOGGLE> dans son",
-                "aventure sur l'ile Cocolint.<PERSISTENT>"
+                "aventure sur l'île Cocolint.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 0
@@ -10138,7 +10138,7 @@
             {
               "Name": "F6_DRAGMIRE20",
               "MessageTextLines": [
-                "<SOUND:SHOCK><DI>Certainement pas par un <R>Héros de la loose<W> ",
+                "<SOUND:SHOCK><DI>Certainement pas par un <R>Héros de la lose<W> ",
                 "comme vous !"
               ],
               "Type": 0,
@@ -10147,7 +10147,7 @@
             {
               "Name": "F6_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C><PAUSE:2><DI><DC>(...Ouais,<PAUSE:3> Je l'ai probablement mérité.)<SQUARE>"
+                "<SOUND:0><C><PAUSE:2><DI><DC>(...Ouais,<PAUSE:3> je l'ai probablement mérité.)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -10273,8 +10273,8 @@
               "Name": "F3_DRAGMIRE10",
               "MessageTextLines": [
                 "Hmph, comment pouvez-vous être impoli à ",
-                "ce point ? <SOUND:EXPLOSION>",
-                "C'est à la royauté que vous vous adressez ! "
+                "ce point ? <SOUND:EXPLOSION>C'est à une princesse que vous ",
+                "vous adressez ! "
               ],
               "Type": 0,
               "Position": 0
@@ -10300,7 +10300,7 @@
             {
               "Name": "F3_LINK25",
               "MessageTextLines": [
-                "C'est,<PAUSE:3> euuh,<PAUSE:3> ça..."
+                "Eh bien,<PAUSE:3> euuh,<PAUSE:3> la voici..."
               ],
               "Type": 0,
               "Position": 0
@@ -10382,7 +10382,7 @@
               "Name": "F4_DRAGMIRE10",
               "MessageTextLines": [
                 "D'un autre côté, certains avocats le sont, ",
-                "comme le démontre<SOUND:EXPLOSION> la non utilité de ce que ",
+                "comme le démontre<SOUND:EXPLOSION> la non-utilité de ce que ",
                 "vous venez de présenter !"
               ],
               "Type": 0,
@@ -16767,7 +16767,7 @@
             {
               "Name": "SomeTimeLater",
               "MessageTextLines": [
-                "<NS><LC><R>Quelques temps plus tard...<FADE:30>"
+                "<NS><LC><R>Quelques instants plus tard...<FADE:30>"
               ],
               "Type": 2,
               "Position": 0
@@ -16802,7 +16802,7 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "<C>(Fait tout pour rester professionnel.)",
+                "<C>(Reste professionnel, reste professionnel...)",
                 "<NEW_BOX>",
                 "Ah,<PAUSE:3> euuh,<PAUSE:3> non, non !<PAUSE:5> T'inquiètes pas.<PAUSE:3> ",
                 "Tout va...<PAUSE:2> bien. "
@@ -16835,7 +16835,7 @@
             {
               "Name": "MALON30",
               "MessageTextLines": [
-                "Si tout va bien...<PAUSE:3><SOUND:CLUE> pourquoi tu as ",
+                "Si tout va bien...<PAUSE:3><SOUND:CLUE> pourquoi as-tu ",
                 "l'air si inquiet ? "
               ],
               "Type": 0,
@@ -16880,7 +16880,7 @@
             {
               "Name": "LINK72",
               "MessageTextLines": [
-                "...Peu importe, que te voulais le procureur ?"
+                "...Peu importe, que te voulait le procureur ?"
               ],
               "Type": 0,
               "Position": 0
@@ -17056,7 +17056,7 @@
               "Name": "LINK_n55",
               "MessageTextLines": [
                 "<PAUSE:3>Bizarre...<PAUSE:3> il vient de ton propre ranch.<PAUSE:3> <SOUND:WHAP><DI>",
-                "Laisse moi essayer !"
+                "Laisse-moi essayer !"
               ],
               "Type": 0,
               "Position": 0
@@ -17083,9 +17083,8 @@
             {
               "Name": "LINK_n70",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Impossible !<PAUSE:10> Tu peux garder du lait ",
-                "frais plus longtemps que ça si il est ",
-                "bien conservé !"
+                "<SOUND:WHAP><DI>Impossible !<PAUSE:10> Le lait frais se conserve bien ",
+                "plus longtemps dans de bonnes conditions !"
               ],
               "Type": 0,
               "Position": 0
@@ -17194,7 +17193,7 @@
               "Name": "LINK100",
               "MessageTextLines": [
                 "Euh, eh bien, vous semblez heureux ",
-                "ensembles...",
+                "ensemble...",
                 "<New_box>Je pourrai la présenter pour...<PAUSE:3> <SOUND:HINT>montrer ",
                 "que vous aviez une relation saine !  "
               ],
@@ -17246,7 +17245,7 @@
                 "peux-tu me dire ce qu'il s'est vraiment ",
                 "passé ?  ",
                 "<NEW_BOX>",
-                "J'ai peu de chances de m'en sortir si il ",
+                "J'ai peu de chances de m'en sortir s'il ",
                 "me manque ta version de l'histoire..."
               ],
               "Type": 0,
@@ -17281,7 +17280,7 @@
                 "<New_box>",
                 "Le procureur s'est moqué de moi depuis ",
                 "le début, mais tôt ou tard, son arrogance ",
-                "sera vaincue. ",
+                "provoquera sa perte. ",
                 "<NEW_BOX>",
                 "Allons à l'intérieur."
               ],
@@ -20816,7 +20815,7 @@
               "Name": "LINK60",
               "MessageTextLines": [
                 "<SOUND:0><C>(...Il en a l'air, au moins.<PAUSE:5><SOUND:EXPLOSION><DI> Qui porte des ",
-                "armures complètes au tribuinal ?!)"
+                "armures complètes au tribunal ?!)"
               ],
               "Type": 0,
               "Position": 0
@@ -21683,7 +21682,7 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "<SOUND:0><C>(Oh meec...)"
+                "<SOUND:0><C>(Ouh là...)"
               ],
               "Type": 0,
               "Position": 0
@@ -21699,8 +21698,8 @@
             {
               "Name": "IMPA30",
               "MessageTextLines": [
-                "Je suis Impa, Inspectrice en cheffe des ",
-                "Force Sheikah.<PAUSE:3><SOUND:HINT> Brigade des homicides."
+                "Je suis Impa, Inspectrice en chef des ",
+                "Forces Sheikah.<PAUSE:3><SOUND:HINT> Brigade des homicides."
               ],
               "Type": 0,
               "Position": 0
@@ -21708,7 +21707,7 @@
             {
               "Name": "DRAGMIRE_n10",
               "MessageTextLines": [
-                "C'est vrai. Pour l'instant du moins."
+                "C'est vrai. Du moins, pour l'instant."
               ],
               "Type": 0,
               "Position": 0
@@ -21818,7 +21817,7 @@
             {
               "Name": "JUDGE_n10",
               "MessageTextLines": [
-                "<SOUND:CLUE>Affaires officielles ?<PAUSE:3> Comme lesquelles ?"
+                "<SOUND:CLUE>Affaires officielles ?<PAUSE:3> C'est-à-dire ?"
               ],
               "Type": 0,
               "Position": 0
@@ -21827,7 +21826,7 @@
               "Name": "IMPA_n42",
               "MessageTextLines": [
                 "Tel que je le comprends,<PAUSE:3> le ranch fournit ",
-                "au royaumes des services essentiels... "
+                "au royaume des services essentiels... "
               ],
               "Type": 0,
               "Position": 0
@@ -21857,7 +21856,7 @@
               "MessageTextLines": [
                 "Quand les Forces Sheikah sont arrivées,<PAUSE:3> ",
                 "elles ont trouvé la victime gisant au sol,",
-                "dans une marre de sang. ",
+                "dans une mare de sang. ",
                 "<NEW_BOX>",
                 "À côté de lui gisait sa fille, Malon, ",
                 "vivante, mais inconsciente. "
@@ -21931,8 +21930,8 @@
               "Name": "JUDGE10",
               "MessageTextLines": [
                 "Le Roi en personne ??<PAUSE:3> ",
-                "Cela n'arrive pas très souvent, ",
-                "je me trompe ? "
+                "Si je ne m'abuse, cela n'arrive pas très ",
+                "souvent."
               ],
               "Type": 0,
               "Position": 0
@@ -21970,7 +21969,7 @@
             {
               "Name": "IMPA60",
               "MessageTextLines": [
-                "Eh bien, comme je l'ai dit, le Ranch Lon lon ",
+                "Eh bien, comme je l'ai dit, le Ranch Lon Lon ",
                 "est un fournisseur de marchandises ",
                 "très important..."
               ],
@@ -22400,7 +22399,7 @@
             {
               "Name": "IMPA1",
               "MessageTextLines": [
-                "C'est avec regrets que je me range à ",
+                "C'est avec regret que je me range à ",
                 "l'avis de Dragmire.<PAUSE:3> Toutes les preuves ",
                 "suggèrent que cette fille est coupable."
               ],
@@ -23705,7 +23704,7 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Argh.<PAUSE:5> A ce rythme, ils vont dépeindre ",
+                "<SOUND:0><C>(Argh.<PAUSE:5> À ce rythme, ils vont dépeindre ",
                 "Malon comme un monstre sans-coeur.) "
               ],
               "Type": 0,
@@ -23915,7 +23914,7 @@
               "Name": "1_LINK25",
               "MessageTextLines": [
                 "<SOUND:HINT>Ouaip !<PAUSE:5> Comme le témoin doit répondre ",
-                "immédiatement,<PAUSE:4> si il ment,<PAUSE:4> le pousser à ",
+                "immédiatement,<PAUSE:4> s'il ment,<PAUSE:4> le pousser à ",
                 "donner plus de détails peut le faire tomber."
               ],
               "Type": 0,
@@ -24081,9 +24080,9 @@
             {
               "Name": "3_LINK_VRS",
               "MessageTextLines": [
-                "Essayons-le ! Appuye sur <Y><C_DOWN><W> et dit",
+                "Faisons un essai ! Appuie sur <Y><C_DOWN><W> et dis",
                 "<R>\"Igiari!\"<W> dans le micro VRS !<PAUSE:5> ",
-                "<C>(Appuye sur <G><B_BUTTON><C> pour passer.)<PERSISTENT>"
+                "<C>(Appuie sur <G><B_BUTTON><C> pour passer.)<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -24091,9 +24090,9 @@
             {
               "Name": "3_LINK_VRU",
               "MessageTextLines": [
-                "Essayons-le ! Appuye sur <Y><C_DOWN><W> et dit",
-                "<R>\"Objection!\"<W> idans le micro VRU !<PAUSE:5> ",
-                "<C>(Press <G><B_BUTTON><C> pour passer.)<PERSISTENT>"
+                "Faisons un essai ! Appuie sur <Y><C_DOWN><W> et dis",
+                "<R>\"Objection!\"<W> dans le micro VRU !<PAUSE:5> ",
+                "<C>(Appuie sur <G><B_BUTTON><C> pour passer.)<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -24154,7 +24153,7 @@
             {
               "Name": "1_DRAGMIRE15",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>La défense a-t-elle fini de crirer et ",
+                "<SOUND:EXPLOSION><DI>La défense a-t-elle fini de crier et ",
                 "de chuchoter ?"
               ],
               "Type": 0,
@@ -24164,7 +24163,7 @@
               "Name": "1_DRAGMIRE10",
               "MessageTextLines": [
                 "<SOUND:EXPLOSION><DI>La défense a-t-elle fini avec ses ",
-                "Messes basses ?"
+                "messes basses ?"
               ],
               "Type": 0,
               "Position": 0
@@ -24180,8 +24179,8 @@
             {
               "Name": "1_LINK55",
               "MessageTextLines": [
-                "<SOUND:0><C>(Si il est tant agacé, pourquoiil n'appuye ",
-                "juste pas sur<SOUND:CLUE> <Y><C_RIGHT><C> pour passer les dialogues ",
+                "<SOUND:0><C>(S'il est tant agacé, pourquoi n'appuie-t-il ",
+                "juste pas sur <SOUND:CLUE> <Y><C_RIGHT><C> pour passer les dialogues ",
                 "plus vite ?)  "
               ],
               "Type": 0,
@@ -25840,7 +25839,7 @@
             {
               "Name": "IMPA1",
               "MessageTextLines": [
-                "<DI><G>C'est avec regrets que je me range à ",
+                "<DI><G>C'est avec regret que je me range à ",
                 "l'avis de Dragmire. Toutes les preuves ",
                 "suggèrent que cette fille est coupable.<PERSISTENT>"
               ],
@@ -26017,7 +26016,7 @@
               "Name": "1_DRAGMIRE10",
               "MessageTextLines": [
                 "Elle allait justement vous le dire !<PAUSE:3> ",
-                "<SOUND:EXPLOSION>Fermez-là et écoutez !"
+                "<SOUND:EXPLOSION>Fermez-la et écoutez !"
               ],
               "Type": 0,
               "Position": 0
@@ -26086,7 +26085,7 @@
               "Name": "2_IMPA35",
               "MessageTextLines": [
                 "Le chemin vers la maison du ranch n'est",
-                "absolument pas pavée."
+                "absolument pas pavé."
               ],
               "Type": 0,
               "Position": 0
@@ -26167,7 +26166,7 @@
             {
               "Name": "3_IMPA10",
               "MessageTextLines": [
-                "En effet.<PAUSE:5> nous sommes à peu près certains ",
+                "En effet.<PAUSE:5> Nous sommes à peu près certains ",
                 "que l'employé du ranch ne peut pas ",
                 "être impliqué."
               ],
@@ -26255,10 +26254,10 @@
             {
               "Name": "3_MALON30",
               "MessageTextLines": [
-                "Tu dois traire toutes les vaches,<PAUSE:3> nettoyer ",
+                "Il faut traire toutes les vaches,<PAUSE:3> nettoyer ",
                 "toutes les bouteilles,<PAUSE:3> verser le lait à ",
                 "l'intérieur,<PAUSE:3> les ranger dans les caisses,<PAUSE:3> ",
-                "et enfin charger le tout sur une charette."
+                "et enfin charger le tout sur une charrette."
               ],
               "Type": 0,
               "Position": 0
@@ -26278,7 +26277,7 @@
                 "Les cargaisons étaient déjà prêtes ",
                 "lorsqu'on est arrivés au ranch.",
                 "<NEW_BOX>",
-                "Lorqu'on a vérifiés les boites, elles étaient ",
+                "Lorqu'on a vérifié les caisses, elles étaient ",
                 "toutes remplies de bouteilles de lait pleines."
               ],
               "Type": 0,
@@ -26287,7 +26286,7 @@
             {
               "Name": "3_LINK40",
               "MessageTextLines": [
-                "Donc ce Ingo a pu faire le travail de deux ",
+                "Donc cet Ingo a pu faire le travail de deux ",
                 "personnes tout seul ?<PAUSE:7> <SOUND:CLUE>C'est pas un peu ",
                 "improbable ?"
               ],
@@ -26316,8 +26315,8 @@
             {
               "Name": "3_LINK50",
               "MessageTextLines": [
-                "<C>(Toute cette histoire me parait ",
-                "êxtremement suspecte, si on me demande...<PAUSE:6> ",
+                "<C>(Toute cette histoire me paraît ",
+                "extrêmement suspecte, si on me demande...<PAUSE:6> ",
                 "Mais je suppose que je n'ai rien pour le ",
                 "contredire...)<SQUARE>"
               ],
@@ -26335,8 +26334,8 @@
             {
               "Name": "4_IMPA10",
               "MessageTextLines": [
-                "Exact.<PAUSE:6> Nous n'avons pas réussi à la ",
-                "réveiller avant longtemps."
+                "Exact.<PAUSE:6> Malgré nos efforts, il nous a fallu du ",
+                "temps pour la réveiller."
               ],
               "Type": 0,
               "Position": 0
@@ -26419,7 +26418,7 @@
               "Name": "5_IMPA25",
               "MessageTextLines": [
                 "Et, comme je l'ai déjà mentionné...<PAUSE:5> ",
-                "Nous avons aussi inspectés tous les ",
+                "Nous avons aussi inspecté tous les ",
                 "autres objets tranchants dans le ranch.",
                 "<NEW_BOX>",
                 "Aucun n'a de sang frais dessus."
@@ -26498,9 +26497,8 @@
             {
               "Name": "6_DRAGMIRE20",
               "MessageTextLines": [
-                "<SOUND:DON>Peut-être que vous êtes tout simplement ",
-                "de mauvais juges de caractère, tous les ",
-                "deux."
+                "<SOUND:DON>Peut-être que vous ne savez tout simplement ",
+                "pas juger les gens, tous les deux."
               ],
               "Type": 0,
               "Position": 0
@@ -26508,7 +26506,7 @@
             {
               "Name": "6_LINK20",
               "MessageTextLines": [
-                "Impossible !<PAUSE:5> Donnez moi un peu de temps, ",
+                "Impossible !<PAUSE:5> Donnez-moi un peu de temps, ",
                 "et je vais<SOUND:WHAP> le prouver !"
               ],
               "Type": 0,
@@ -26666,7 +26664,7 @@
             {
               "Name": "JUDGE30",
               "MessageTextLines": [
-                "La cour accepte le vêtement ensanglanté ",
+                "La cour accepte le tissu ensanglanté ",
                 "comme preuve !"
               ],
               "Type": 0,
@@ -26675,7 +26673,7 @@
             {
               "Name": "COURTRECORD1",
               "MessageTextLines": [
-                "<SOUND:ITEMGET><SOUND:0><ICON:7><DI><SQUARE><R>Vêtement ensanglanté<G> ajouté au ",
+                "<SOUND:ITEMGET><SOUND:0><ICON:7><DI><SQUARE><R>Tissu ensanglanté<G> ajouté au ",
                 "Dossier de l'affaire."
               ],
               "Type": 1,
@@ -26685,7 +26683,7 @@
               "Name": "LINK80",
               "MessageTextLines": [
                 "Dooonc...<PAUSE:3> il s'est passé quoi avec ",
-                "ce vêtement ?"
+                "ce tissu ?"
               ],
               "Type": 0,
               "Position": 0
@@ -26704,9 +26702,9 @@
             {
               "Name": "MALON6",
               "MessageTextLines": [
-                "Je ne suis plus trop sûr de quand ça s'est ",
+                "Je ne suis plus trop sûre de quand ça s'est ",
                 "produit, mais parfois un des chevaux ",
-                "deviens un peu...<SOUND:HINT>trop turbulent, tu vois ?"
+                "devient un peu...<SOUND:HINT>trop turbulent, tu vois ?"
               ],
               "Type": 0,
               "Position": 0
@@ -27853,7 +27851,7 @@
               "Name": "DRAGMIRE60",
               "MessageTextLines": [
                 "Devant la loi, la princesse n'est",
-                "pas<SOUND:DON> différente d'un simple gueu !"
+                "pas<SOUND:DON> différente d'un simple gueux !"
               ],
               "Type": 0,
               "Position": 0
@@ -27891,7 +27889,7 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(Oh hylia...)"
+                "<SOUND:0><C>(Oh par Hylia...)"
               ],
               "Type": 0,
               "Position": 0
@@ -28124,7 +28122,7 @@
               "MessageTextLines": [
                 "Nous en recherchons une.",
                 "<NEW_BOX>",
-                "Évidemment, ces standards<SOUND:CLUE> sont très",
+                "Évidemment, nos standards<SOUND:CLUE> sont très",
                 "élevés..."
               ],
               "Type": 0,
@@ -29521,7 +29519,7 @@
             {
               "Name": "DRAGMIRE80",
               "MessageTextLines": [
-                "Ce serait ceci, je suppose ?"
+                "J'imagine que vous parlez de ceci ?"
               ],
               "Type": 0,
               "Position": 0
@@ -29579,7 +29577,7 @@
               "MessageTextLines": [
                 "Aussi fascinant que cela puisse être,",
                 "je doute que cela soit pertinent",
-                "à l'affaire."
+                "pour notre affaire affaire."
               ],
               "Type": 0,
               "Position": 0
@@ -29651,8 +29649,8 @@
             {
               "Name": "JUDGE80",
               "MessageTextLines": [
-                "Maintenant, Défense.<PAUSE:3> Vous pouvez",
-                "procéder au contre-interrogatoire.<SQUARE>"
+                "Vous pouvez maintenant procéder au ",
+                "contre-interrogatoire, <PAUSE:3>Défense.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -31676,7 +31674,7 @@
                 "Cependant, il a décidé que je devais",
                 "commencer à me préparer à toutes les",
                 "tâches royales qui m'attendent...<PAUSE:3> Et donc<SOUND:HINT>",
-                "la tache m'est revenue cette fois-ci."
+                "la tâche m'est revenue cette fois-ci."
               ],
               "Type": 0,
               "Position": 0
@@ -31766,7 +31764,7 @@
             {
               "Name": "4_LINK10",
               "MessageTextLines": [
-                "Vous étiez là moment même du",
+                "Vous étiez là au moment même du",
                 "meurtre, Votre Altesse ?"
               ],
               "Type": 0,
@@ -31888,7 +31886,7 @@
                 "<C>(Est-ce que je pose une autre question ?)<THREE_CHOICES><G>",
                 "Qu'y avait-il dehors ?",
                 "Accuser Zelda du crime !",
-                "Nope, that's enough"
+                "Non, ça suffit."
               ],
               "Type": 0,
               "Position": 0
@@ -32113,8 +32111,8 @@
             {
               "Name": "4_3_LINK60",
               "MessageTextLines": [
-                "<C>(Bon... c'était franchement une sacré",
-                "idée de... je me comprend.)"
+                "<C>(Bon... c'était franchement une sacrée",
+                "idée de... je me comprends.)"
               ],
               "Type": 0,
               "Position": 0
@@ -32145,8 +32143,8 @@
                 "Êtes-vous sûre d'avoir bien vu,",
                 "Votre Altesse ?",
                 "<NEW_BOX>",
-                "Vous n'avez pas détourné les yeux de",
-                "panique ?"
+                "Vous n'avez pas détourné les yeux sous ",
+                "l'effet de la panique ?"
               ],
               "Type": 0,
               "Position": 0
@@ -32391,7 +32389,7 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "Silence, Silence dans la salle !"
+                "Silence ! Silence dans la salle !"
               ],
               "Type": 0,
               "Position": 0
@@ -35206,7 +35204,7 @@
               "Name": "4_1_JUDGE20",
               "MessageTextLines": [
                 "Essayez de conserver une once de",
-                "crédibilité, je vous en prie.<SQUARE>"
+                "crédibilité, je vous prie.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -35273,7 +35271,7 @@
             {
               "Name": "5_LINK20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Et s'ils avaient sauté d'une fenêtre ?!"
+                "<SOUND:WHAP><DI>Et si on avait sauté d'une fenêtre ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -36991,7 +36989,7 @@
               "Name": "LINK20",
               "MessageTextLines": [
                 "<SOUND:0><C>(Il dépasse les bornes, mais...<PAUSE:10> ",
-                "Pour une fois, je suis daccord",
+                "Pour une fois, je suis d'accord",
                 "avec Dragmire.)"
               ],
               "Type": 0,
