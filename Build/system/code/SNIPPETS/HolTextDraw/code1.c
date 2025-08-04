@@ -610,7 +610,7 @@ int HoL_DrawMessageTextImpl(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 
                 if (i != 0 && (u8)msgData[i - 1] == '(' && strchr("CGOQScdeotuvw~(@$^?<", curChar)) 
                     TexPosX -= 1;
                 
-                if (isAGraphicsOp && curChar != CHAR_SPACE) // Don't draw anything for spaces.
+                if (curChar != CHAR_SPACE) // Don't draw anything for spaces.
                 {
                     int ActualX = TexPosX;
                     int ActualY = TexPosY;
