@@ -84025,8 +84025,7 @@
               "Name": "MUTOH30",
               "MessageTextLines": [
                 "Et même si c'est le seul magasin ?<PAUSE:5> ",
-                "<SOUND:EXPLOSION>Y'a pas mieux !<PAUSE:5> Dans ce monde, ou le ",
-                "prochain !"
+                "<SOUND:EXPLOSION>Y'a pas mieux !<PAUSE:5> Dans ce monde, ou un autre !"
               ],
               "Type": 0,
               "Position": 0
@@ -84060,7 +84059,7 @@
             {
               "Name": "MUTOH50",
               "MessageTextLines": [
-                "Oui !<PAUSE:5> J'vais tout vous dire !<PAUSE:5> Ecoutez-moi ",
+                "Oui !<PAUSE:5> J'vais tout vous dire !<PAUSE:5> Écoutez-moi ",
                 "donc !<SQUARE>"
               ],
               "Type": 0,
@@ -87955,7 +87954,7 @@
               "Name": "2_DRAGMIRE20",
               "MessageTextLines": [
                 "Avez-vous oublié que la culpabilité de votre",
-                "doppelgänger a déjà été établie, Défense ?"
+                "doppelganger a déjà été établie, Défense ?"
               ],
               "Type": 0,
               "Position": 0
@@ -88006,8 +88005,7 @@
               "Name": "3_JUDGE16",
               "MessageTextLines": [
                 "Elle a appelé ça, hum, une<SOUND:HINT> <R>\"limitation ",
-                "technique\"<W>.<PAUSE:5> Peu importe ce que ça veut ",
-                "dire..."
+                "technique\"<W>.<PAUSE:5> Quoi que cela veuille dire..."
               ],
               "Type": 0,
               "Position": 0
@@ -88262,7 +88260,7 @@
             {
               "Name": "6_MUTOH10",
               "MessageTextLines": [
-                "Par tous les saints !<PAUSE:5> La cordre visqueuse !<SQUARE>"
+                "Par tous les saints !<PAUSE:5> La corde visqueuse !<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -88591,7 +88589,7 @@
             {
               "Name": "9_MUTOH10",
               "MessageTextLines": [
-                "Oh, oh.<PAUSE:5> Mais je parlais bien sûr que la ",
+                "Oh, oh.<PAUSE:5> Mais je parlais bien sûr de la ",
                 "malédiction que je lui lancée, n'était-ce ",
                 "pas clair ?"
               ],
@@ -88785,7 +88783,7 @@
               "Name": "MUTOH45",
               "MessageTextLines": [
                 "<SOUND:EXPLOSION>C'est sans importance !<PAUSE:5> Tout ça à cause ",
-                "de c'foutu \"jeu du vent\" !"
+                "de c'foutu \"jeu dans le vent\" !"
               ],
               "Type": 0,
               "Position": 0
@@ -88978,7 +88976,7 @@
               "Name": "KOHOLINK20",
               "MessageTextLines": [
                 "Je n'essayais pas juste de survivre !<PAUSE:5> ",
-                "J'essayais aussi de quitter l'ile !"
+                "J'essayais aussi de quitter l'île !"
               ],
               "Type": 0,
               "Position": 0
@@ -88997,7 +88995,7 @@
                 "<SOUND:EXPLOSION>Bah !",
                 "<NEW_BOX>",
                 "Et comment feriez-vous cela avec cet ",
-                "assortiment d'objets, je vous prie ?"
+                "assortiment d'objets, dites-moi ?"
               ],
               "Type": 0,
               "Position": 0
@@ -89005,7 +89003,7 @@
             {
               "Name": "DRAGMIRE80",
               "MessageTextLines": [
-                "Aviez-vous prévu de quitter l'ile en ",
+                "Aviez-vous prévu de quitter l'île en ",
                 "ramant avec une pelle ?"
               ],
               "Type": 0,
@@ -89015,7 +89013,7 @@
               "Name": "KOHOLINK30",
               "MessageTextLines": [
                 "<SOUND:EXPLOSION>Non, pas directement comme ça !<PAUSE:5> On ne ",
-                "peut pas s'échapper de l'ile par des ",
+                "peut pas s'échapper de l'île par des ",
                 "moyens conventionnels !"
               ],
               "Type": 0,
@@ -89153,7 +89151,7 @@
               "Name": "OWL35",
               "MessageTextLines": [
                 "Il est dans une quête spéciale...<PAUSE:5> ",
-                "<SOUND:CLUE>Et Cocolint n'est pas une ile ordinaire, ",
+                "<SOUND:CLUE>Et Cocolint n'est pas une île ordinaire, ",
                 "loin de là."
               ],
               "Type": 0,
@@ -89171,7 +89169,7 @@
             {
               "Name": "LINK155",
               "MessageTextLines": [
-                "Oh, merci aux déesses..."
+                "Oh, merci aux Déesses..."
               ],
               "Type": 0,
               "Position": 0
