@@ -83328,7 +83328,7 @@
             {
               "Name": "JUDGE220",
               "MessageTextLines": [
-                "<SOUND:HINT>...<R>VOYOU<W> de l'ile Cocolint."
+                "<SOUND:HINT>...<R>VOYOU<W> de l'île Cocolint."
               ],
               "Type": 0,
               "Position": 0
@@ -83372,7 +83372,7 @@
               "Name": "DRAGMIRE150",
               "MessageTextLines": [
                 "Je suppose que c'est de ce \"châtiment\" ",
-                "dont nous devons juger si il est juste ou ",
+                "dont nous devons juger s'il est juste ou ",
                 "non."
               ],
               "Type": 0,
@@ -83401,7 +83401,7 @@
               "Name": "DRAGMIRE155",
               "MessageTextLines": [
                 "Eh bien, en ce qui me concerne, cela ",
-                "me parait juste.",
+                "me paraît juste.",
                 "<NEW_BOX>",
                 "Après tout,<PAUSE:5> tout le monde ne fait que dire ",
                 "la vérité, n'est-ce pas ?"
@@ -83440,7 +83440,7 @@
               "Name": "KOHOLINK50",
               "MessageTextLines": [
                 "En fait...<PAUSE:5> il se pourrait que je l'ai vraiment ",
-                "fait ?"
+                "fait..."
               ],
               "Type": 0,
               "Position": 0
@@ -83530,7 +83530,7 @@
             {
               "Name": "JUDGE300",
               "MessageTextLines": [
-                "Il devrait être celui qui connait le mieux ",
+                "Il devrait être celui qui connaît le mieux ",
                 "les faits."
               ],
               "Type": 0,
@@ -83545,7 +83545,7 @@
                 "sait qu'il ne faut jamais se défendre ",
                 "soi-même...)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(...Est-ce que ÇA ça compte ?)<SQUARE>"
+                "<SOUND:0><C>(...Est-ce que dans CE cas ça compte ?)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
