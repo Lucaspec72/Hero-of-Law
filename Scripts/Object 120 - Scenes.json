@@ -14144,7 +14144,7 @@
             "    while EFFECT_TEMP != 20",
             "        await frames 0",
             "",
-            "        ccall NpcM_DrawTestimony",
+            "        ccall NpcM_DrawTestimony _ MSGID_Subtitle_Testimony",
             "",
             "        if ext_var OBJ_CONTROLLER CONTROLLER_MSGLOG_DISABLED == 1 or \\",
             "           ext_var OBJ_CONTROLLER CONTROLLER_CAN_OPEN_COURTRECORD == 0",
@@ -14747,11 +14747,29 @@
         }
       ],
       "DisplayListColors": [],
-      "Messages": [],
+      "Messages": [
+        {
+          "Name": "Subtitle_Testimony",
+          "MessageTextLines": [
+            "(Déposition)"
+          ],
+          "Type": 0,
+          "Position": 0
+        }
+      ],
       "Localization": [
         {
           "Language": "French",
-          "Messages": []
+          "Messages": [
+            {
+              "Name": "Subtitle_Testimony",
+              "MessageTextLines": [
+                "(Déposition)"
+              ],
+              "Type": 0,
+              "Position": 0
+            }
+          ]
         }
       ],
       "DEBUGShowCols": false,
@@ -14818,6 +14836,9 @@
           "#define EXCL_ARGUMENTCOMPLETE 11",
           "#define EXCL_TESTIMONY 12",
           "#define EXCL_CUTINS 13",
+          "",
+          "#define WIDESCREEN_OFFSX 40",
+          "#define WIDESCREEN_SCALEX 0.75117370f",
           "",
           "void NpcM_Init(NpcMaker* npc, PlayState* play)",
           "{",
@@ -14906,7 +14927,7 @@
           "    }",
           "}",
           "",
-          "void NpcM_DrawTestimony(NpcMaker* npc, PlayState* play)",
+          "void NpcM_DrawTestimony(NpcMaker* npc, PlayState* play, float msgID)",
           "{",
           "    GraphicsContext* __gfxCtx = play->state.gfxCtx;",
           "    Gfx* gfxRef = POLY_OPA_DISP;",
@@ -14914,11 +14935,40 @@
           "",
           "    gSPDisplayList(OVERLAY_DISP++, gfx);",
           "",
-          "    #define TESTIMONY_POS_X 45",
+          "    #define TESTIMONY_POS_X 50",
           "    #define TESTIMONY_POS_Y 30",
           "",
-          "    Draw2DScaled(RGBA32, 3, play, &gfx, 40, 30, (u8*)GRAPHIC_TESTIMONY, NULL, GRAPHIC_TESTIMONY_WIDTH, GRAPHIC_TESTIMONY_HEIGHT, GRAPHIC_TESTIMONY_WIDTH / 2, GRAPHIC_TESTIMONY_HEIGHT / 2, 255);",
-          "    HoL_DrawMessageText(play, &gfx, (Color_RGB8){255, 255, 255}, (Color_RGB8){0, 0, 0}, 255, 255, \"(Testimony)\", TESTIMONY_POS_X - GRAPHIC_TESTIMONY_WIDTH / 4 - 2, TESTIMONY_POS_Y + GRAPHIC_TESTIMONY_HEIGHT / 4 + 2, 1, 1, NULL, 75, OPERATION_DRAW_SHADOW);",
+          "    Draw2DScaled(RGBA32, 3, play, &gfx, TESTIMONY_POS_X, TESTIMONY_POS_Y, (u8*)GRAPHIC_TESTIMONY, NULL, ",
+          "                GRAPHIC_TESTIMONY_WIDTH, GRAPHIC_TESTIMONY_HEIGHT, ",
+          "                GRAPHIC_TESTIMONY_WIDTH / 2, GRAPHIC_TESTIMONY_HEIGHT / 2, 255);",
+          "",
+          "",
+          "    #define TESTIMONY_WIDTH_EXTRA 12",
+          "",
+          "    u8* msgTestimony = npc->GetInternalMsgPtrFunc(npc, play, msgID - 0x8000);",
+          "    int dimX = GetTextPxWidth(msgTestimony, TEXT_SCALE);",
+          "    int maxDimX = GRAPHIC_TESTIMONY_WIDTH / 2 + TESTIMONY_WIDTH_EXTRA;",
+          "",
+          "    int testimonyMsgScale = MIN(TEXT_SCALE, (int)(TEXT_SCALE * (float)maxDimX / dimX)); ",
+          "    int testimonyPosOffset = TESTIMONY_WIDTH_EXTRA / 2;",
+          "    int testimonyXInitial = TESTIMONY_POS_X - GRAPHIC_TESTIMONY_WIDTH / 4;",
+          "",
+          "    if (SAVE_WIDESCREEN)",
+          "    {",
+          "        testimonyMsgScale *= WIDESCREEN_SCALEX;",
+          "        testimonyPosOffset *= WIDESCREEN_SCALEX;",
+          "        testimonyXInitial *= WIDESCREEN_SCALEX;",
+          "        maxDimX *= WIDESCREEN_SCALEX;",
+          "        testimonyXInitial += WIDESCREEN_OFFSX;",
+          "    }",
+          "",
+          "    s32 textPosX = testimonyXInitial + ((maxDimX - testimonyPosOffset - GetTextPxWidth(msgTestimony, testimonyMsgScale)) / 2);",
+          "    s32 textPosY = TESTIMONY_POS_Y + GRAPHIC_TESTIMONY_HEIGHT / 4 + 2;",
+          "",
+          "    HoL_DrawMessageTextImpl(play, NULL, &gfx, COLOR_WHITE, COLOR_BLACK, 255, 255, ",
+          "                            npc->GetInternalMsgPtrFunc(npc, play, 0),",
+          "                            textPosX, textPosY,",
+          "                            1, 1, NULL, testimonyMsgScale, TEXT_SCALE, -1, true, OPERATION_DRAW_SHADOW);",
           "",
           "    gSPEndDisplayList(gfx++);",
           "    Graph_BranchDlist(gfxRef, gfx);",
@@ -68462,8 +68512,6 @@
               "MessageTextLines": [
                 "",
                 "",
-                "",
-                "",
                 "<Shift:140><R>SCÉNARIO<W>",
                 "",
                 "",
@@ -68487,6 +68535,8 @@
                 "<Shift:180>Ronano",
                 "",
                 "<Shift:180>Loloiiiiiou",
+                "",
+                "<Shift:180>Spacewiki",
                 "<PERSISTENT>"
               ],
               "Type": 6,
@@ -104135,8 +104185,8 @@
                 "impact, au final !",
                 "<NEW_BOX>",
                 "Vous avez le bonjour de <R>Lucaspec72<W>,<PAUSE:3>",
-                "<G>Ronano<W><PAUSE:3> et <B>Loloiiiiiou<W> à l'équipe",
-                "de traduction FR !",
+                "<G>Ronano<W><PAUSE:3>, <B>Loloiiiiiou<W> et <C>Spacewiki<W>",
+                "à l'équipe de traduction FR !",
                 "<NEW_BOX>",
                 "<SOUND:0>Bon, on en était où<PAUSE:1>.<PAUSE:2>.<PAUSE:3>.<PAUSE:5> Ah, oui !<PAUSE:5> donc, on",
                 "s'est dit que un lag de l'émulateur ou de",
