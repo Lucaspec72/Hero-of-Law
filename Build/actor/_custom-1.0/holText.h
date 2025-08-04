@@ -125,18 +125,38 @@ __attribute__((always_inline)) inline int GetTextPxWidthWidescreenAdjust(char* s
         int len = GetTextPxWidth(string, scale);
         return (SCREEN_WIDTH / 2) - len / 2;
     }    
-    
-    int GetTextScaleToFitXFromWidth(int dimX, int scaleMax, int maxXSize)
+      
+    int GetTextScaleToFitX(char* msg, int scaleMax, int maxXSize)
     {
-        return MIN(scaleMax, scaleMax * ((float)maxXSize / (float)dimX));
-    }    
+        int dimX = GetTextPxWidth(msg, scaleMax);
+        
+        if (dimX <= maxXSize || dimX == 0)
+            return scaleMax;
+        
+        // Calculate initial scaled value, capped at scaleMax
+        int ret = MIN(scaleMax, (int)(scaleMax * (float)maxXSize / dimX));
 
-    int GetTextScaleToFitX(char* string, int scaleMax, int maxXSize, bool noWidescreenAdjust)
-    {
-        int dimX = HoL_DrawMessageTextImpl(NULL, NULL, NULL, COLOR_BLACK, COLOR_BLACK, 0, 0, string, 
-                                           0, 0, 0, 0, NULL, scaleMax, scaleMax, 0, noWidescreenAdjust, OPERATION_EVALUATE_XSIZE);
-                                                                                                                         
-        return GetTextScaleToFitXFromWidth(dimX, scaleMax, maxXSize); 
+        // Calculate the size at that scale
+        int dimXNew = GetTextPxWidth(msg, ret);
+        
+        // Adjust downward if still too large
+        while (dimXNew > maxXSize && ret > 0)
+            dimXNew = GetTextPxWidth(msg, --ret);
+        
+        // Try to adjust upward if there's room
+        while (ret < scaleMax) 
+        {
+            int nextDim = GetTextPxWidth(msg, ret + 1);
+            if (nextDim <= maxXSize)
+            {
+                dimXNew = nextDim;
+                ret++;
+            }
+            else
+                break;
+        }
+        
+        return ret;
     }
     
     int GetTextScaleToFitYFromHeight(int dimY, int scaleMax, int maxXSize)
@@ -149,25 +169,7 @@ __attribute__((always_inline)) inline int GetTextPxWidthWidescreenAdjust(char* s
         int dimY = HoL_DrawMessageTextImpl(NULL, NULL, NULL, COLOR_BLACK, COLOR_BLACK, 0, 0, string, 
                                            0, 0, 0, 0, NULL, scaleMax, scaleMax, 0, false, OPERATION_EVALUATE_YSIZE);
         return GetTextScaleToFitYFromHeight(dimY, scaleMax, maxYSize);                                        
-    }   
-
-    int GetTextScaleToFit(char* string, int scaleMax, int maxXSize, int maxYSize, bool noWidescreenAdjust)
-    {
-        Vec2s dimensions = GetTextDimensions(string, scaleMax, noWidescreenAdjust);
-       
-        float scale = scaleMax;
-        float scaleX = MIN(scaleMax, scaleMax * ((float)maxXSize / (float)dimensions.x));
-        float scaleY = MIN(scaleMax, scaleMax * ((float)maxYSize / (float)dimensions.y));
-
-        if (((scaleY / scale) * dimensions.x) <= maxXSize)
-            scale = scaleY;
-        else if (((scaleX / scale) * dimensions.y) <= maxYSize)
-            scale = scaleX;
-        else
-            scale = scaleMax * ((scaleX / scale) * (scaleY / scale));  
-
-        return scale; 
-    }    
+    }      
 #endif
 
 #endif

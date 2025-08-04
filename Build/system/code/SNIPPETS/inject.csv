@@ -27,3 +27,4 @@
 "ScreenAdjust/code1.bin","../code.bin",0x5B9C4,0xB28
 "MessageHandleSelection/code1.bin","../code.bin",0xC51F0,0x300 
 "LoadRuntimeFontChar/code1.bin","../code.bin",0xC54F0,0x258
+"Sram_WriteSave/code1.bin","../code.bin",0x7F534,0x14C

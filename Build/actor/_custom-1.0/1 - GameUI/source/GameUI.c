@@ -71,8 +71,8 @@ void GameUI_Init(Actor* thisx, PlayState* play)
     char* msglogd = (char*)this->msgLog;
     
     // Load message log from savefile
-    SsSram_ReadWrite(OS_K1_TO_PHYSICAL(0xA8000000) + SLOT_OFFSET(1), buf, 16, OS_READ);
-    SsSram_ReadWrite(OS_K1_TO_PHYSICAL(0xA8000000) + SLOT_OFFSET(1) + 16, this->msgLog, MSG_LOG_SIZE * sizeof(LoggedMsg), OS_READ);
+    SsSram_ReadWrite(OS_K1_TO_PHYSICAL(0xA8000000) + SLOT_OFFSET(2), buf, 16, OS_READ);
+    SsSram_ReadWrite(OS_K1_TO_PHYSICAL(0xA8000000) + SLOT_OFFSET(2) + 16, this->msgLog, MSG_LOG_SIZE * sizeof(LoggedMsg), OS_READ);
     
     bcopy(&buf, &saved_checksum, 4);
     bcopy(&buf[4], &msgLogPos, 4);    
@@ -142,8 +142,8 @@ void GameUI_Destroy(Actor* thisx, PlayState* play)
     header[3] = 0;
     
     // Write message log to save.
-    SsSram_ReadWrite(OS_K1_TO_PHYSICAL(0xA8000000) + SLOT_OFFSET(1), &header, 16, OS_WRITE);
-    SsSram_ReadWrite(OS_K1_TO_PHYSICAL(0xA8000000) + SLOT_OFFSET(1) + 16, this->msgLog, MSG_LOG_SIZE * sizeof(LoggedMsg), OS_WRITE);
+    SsSram_ReadWrite(OS_K1_TO_PHYSICAL(0xA8000000) + SLOT_OFFSET(2), &header, 16, OS_WRITE);
+    SsSram_ReadWrite(OS_K1_TO_PHYSICAL(0xA8000000) + SLOT_OFFSET(2) + 16, this->msgLog, MSG_LOG_SIZE * sizeof(LoggedMsg), OS_WRITE);
     
 #endif    
     
@@ -845,7 +845,7 @@ void DrawSpeakerIndicator(Actor* thisx, PlayState* play, Gfx** gfxp)
         if (this->guiSpeaker == SPEAKER_CROSS_EXAM && this->guiDrawCheckmark)
             Draw2D(CI4_Setup39, OBJ_GRAPHICS_COMMON, play, &gfx, textboxPosX + textboxWidth + 3, textboxPosY, (u8*)CHECKMARK_OFFSET + 0x20, (u8*)CHECKMARK_OFFSET, CHECKMARK_XSIZE, CHECKMARK_YSIZE, this->curSpeakerTextboxAlpha);            
         gDPPipeSync(gfx++);  
-        int scaleX = GetTextScaleToFitXFromWidth(textWidth, TEXT_SCALE, textboxWidth);
+        int scaleX = GetTextScaleToFitX(this->speakerBuf, TEXT_SCALE, textboxWidth);
         
         if (SAVE_WIDESCREEN)
             scaleX *= WIDESCREEN_SCALEX;

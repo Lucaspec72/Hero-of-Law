@@ -70,19 +70,19 @@ OSPiHandle** sISVHandle = (OSPiHandle**)0x8019894C;
 
 #define OBJECT_FONT 9
 
+#define SAVE_OK 0
+#define SAVE_CORRUPTED 0x5
+#define SAVE_NOT_HOL 0x12
+
+#define SRAM_BASE_ADDR OS_K1_TO_PHYSICAL(0xA8000000)
+#define SRAM_SIZE 0x8000
+#define SRAM_HEADER_SIZE 0x10
+#define SLOT_SIZE (sizeof(SaveContext) + 0x28)
+#define SLOT_OFFSET(index) (SRAM_HEADER_SIZE + 0x10 + (index * SLOT_SIZE))
+#define SAVESTRUCT_SIZE 0x1354
+#define CHECKSUM_SIZE (SAVESTRUCT_SIZE / 2)
 
 #ifdef SAVE_STUFF
-
-    #define SAVE_OK 0
-    #define SAVE_CORRUPTED 0x5
-    #define SAVE_NOT_HOL 0x12
-
-    #define SRAM_SIZE 0x8000
-    #define SRAM_HEADER_SIZE 0x10
-    #define SLOT_SIZE (sizeof(SaveContext) + 0x28)
-    #define SLOT_OFFSET(index) (SRAM_HEADER_SIZE + 0x10 + (index * SLOT_SIZE))
-    #define SAVESTRUCT_SIZE 0x1354
-    #define CHECKSUM_SIZE (SAVESTRUCT_SIZE / 2)
 
     char sSaveDefaultMagic[] = {0x98, 0x09, 0x10, 0x21, 'Z', 'E', 'L', 'D', 'A'};
     char sHeroOfLawMagic[] = {'H', 'E', 'R', 'O', '+', 'L', 'A', 'W'};
@@ -91,10 +91,10 @@ OSPiHandle** sISVHandle = (OSPiHandle**)0x8019894C;
     {
         gSaveContext.fileNum = 0;
         
-        u16 i, j, oldChecksum, newChecksum, offset;
+        u16 i, oldChecksum, newChecksum, offset;
         u16* ptr;
           
-        SsSram_ReadWrite(OS_K1_TO_PHYSICAL(0xA8000000) + SLOT_OFFSET(slot), &gSaveContext, SAVESTRUCT_SIZE, OS_READ);
+        SsSram_ReadWrite(SRAM_BASE_ADDR + SLOT_OFFSET(slot), &gSaveContext, SAVESTRUCT_SIZE, OS_READ);
         
         if (bcmp(sHeroOfLawMagic, &gSaveContext.playerName, ARRAY_COUNTU(sHeroOfLawMagic)))
             return SAVE_NOT_HOL;     
@@ -103,15 +103,8 @@ OSPiHandle** sISVHandle = (OSPiHandle**)0x8019894C;
         gSaveContext.checksum = 0;  
         ptr = (u16*)&gSaveContext;
 
-        for (i = newChecksum = j = 0; i < CHECKSUM_SIZE; i++, offset += 2) 
-        {
-            j += 2;
-            
-            if (j == 0x20) 
-                j = 0;
-            
+        for (i = newChecksum = 0; i < CHECKSUM_SIZE; i++, offset += 2) 
             newChecksum += *ptr++;
-        } 
         
         return oldChecksum == newChecksum ? SAVE_OK : SAVE_CORRUPTED;
     }
@@ -122,11 +115,17 @@ OSPiHandle** sISVHandle = (OSPiHandle**)0x8019894C;
 #define LANGUAGE_FRENCH 1
 #define LANGUAGE_MAX 2
 
+extern f32 fmodf(f32 x, f32 y);
+
 extern void Screen_Adjust(GameState* state, View* view);
     asm("Screen_Adjust = 0x8006CA64 + 0x8");
     
 extern void SsSram_ReadWrite(u32 addr, void* dramAddr, size_t size, s32 direction);
     asm("SsSram_ReadWrite = 0x80091474");
+    
+extern void Font_LoadFont(Font* font);
+    asm("Font_LoadFont = 0x8005BD78");
+    
     
     
 #endif

@@ -42,7 +42,7 @@
 
 float GetCharWidth(u8 curChar, bool widescreenAdjust);
 Color_RGB8 GetTextColor(u8 textboxType, u8 colorIndex, Color_RGB8 defaultColor);
-int GetNewScaleX(char* msg, int baseScaleX, int lineMaxX, bool noWidescreenAdjust);
+int GetNewScaleX(char* msg, int baseScaleX, int lineMaxX);
 f32* fontWidths = (f32*)0x80112F40;
 
 u8 lastSFXAt = 0;
@@ -99,14 +99,8 @@ int HoL_DrawMessageTextImpl(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 
     int baseScaleX = scaleX;
     int baseScaleY = scaleY;
     
-    float fScaleX = (scaleX / 100.0f);
-    float fScaleY = (scaleY / 100.0f);
-    
     if (lineMaxX > 0)
-    {
-        scaleX = GetNewScaleX(msgData, baseScaleX, lineMaxX, noWidescreenAdjust);
-        fScaleX = (scaleX / 100.0f);
-    }    
+        scaleX = GetNewScaleX(msgData, baseScaleX, lineMaxX); 
     
     int outYSize = TexPosY;
                     
@@ -236,7 +230,6 @@ int HoL_DrawMessageTextImpl(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 
                     {
                         baseScaleX = value;
                         scaleX = value;
-                        fScaleX = (scaleX / 100.0f);
                         
                         if (type == TEXT_EFFECT_SCALEX)
                             break;
@@ -245,7 +238,6 @@ int HoL_DrawMessageTextImpl(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 
                     {
                         baseScaleY = value;
                         scaleY = value;
-                        fScaleY = (scaleY / 100.0f);
                         break;
                     }         
                     case TEXT_EFFECT_AUTOFIT:
@@ -254,8 +246,7 @@ int HoL_DrawMessageTextImpl(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 
                             value = 180;
                         
                         lineMaxX = value;
-                        scaleX = GetNewScaleX(msgData, baseScaleX, lineMaxX, noWidescreenAdjust);
-                        fScaleX = (scaleX / 100.0f);  
+                        scaleX = GetNewScaleX(msgData, baseScaleX, lineMaxX); 
                         break;
                     }
                     case TEXT_EFFECT_SHAKE:
@@ -306,7 +297,7 @@ int HoL_DrawMessageTextImpl(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 
             }
             case CHAR_START_BUTTON:
             { 
-                float sc = 16 * fScaleX;
+                float sc = ((16 * scaleX) / 100);
                 
                 if (isAGraphicsOp) 
                 {
@@ -344,15 +335,12 @@ int HoL_DrawMessageTextImpl(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 
                     if (operation != OPERATION_DRAW_CREDITS && 
                         operation != OPERATION_DRAW_CREDITS_SHADOW && 
                         operation != OPERATION_SET_POSITIONS_CREDITS)
-                        TexPosY += TEXT_LINE_SPACING * fScaleY;
+                        TexPosY += ((TEXT_LINE_SPACING * scaleY) / 100);
                     else
                         TexPosY += TEXT_LINE_SPACING_CREDITS;
                     
                     if (lineMaxX > 0)
-                    {
-                        scaleX = GetNewScaleX(&msgData[i + 1], baseScaleX, lineMaxX, noWidescreenAdjust);
-                        fScaleX = (scaleX / 100.0f);
-                    }                                 
+                        scaleX = GetNewScaleX(&msgData[i + 1], baseScaleX, lineMaxX);                               
                 }
                    
                 break;
@@ -360,10 +348,12 @@ int HoL_DrawMessageTextImpl(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 
             case MESSAGE_COLOR: 
             {
                 u8 colorIdx = msgData[++i] & 0xF;
-                
                 // No sound for blue text (since it's used for thinking)
                 disableSnd = (colorIdx == TEXT_COLOR_BLUE || colorIdx == TEXT_COLOR_LIGHTBLUE);
-                ActualColor = GetTextColor(isTyper ? msgCtx->textBoxType : TEXTBOX_TYPE_BLACK, colorIdx, Color);
+                
+                if (isAGraphicsOp)
+                    ActualColor = GetTextColor(isTyper ? msgCtx->textBoxType : TEXTBOX_TYPE_BLACK, colorIdx, Color);
+
                 break;
             }
             case MESSAGE_BOX_BREAK:
@@ -620,7 +610,7 @@ int HoL_DrawMessageTextImpl(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 
                 if (i != 0 && (u8)msgData[i - 1] == '(' && strchr("CGOQScdeotuvw~(@$^?<", curChar)) 
                     TexPosX -= 1;
                 
-                if (curChar != CHAR_SPACE) // Don't draw anything for spaces.
+                if (isAGraphicsOp && curChar != CHAR_SPACE) // Don't draw anything for spaces.
                 {
                     int ActualX = TexPosX;
                     int ActualY = TexPosY;
@@ -713,7 +703,7 @@ int HoL_DrawMessageTextImpl(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 
                     } 
                 }
                 
-                TexPosX += (s32)(GetCharWidth(curChar, widescreenAdjust) * fScaleX);
+                TexPosX += (s32)((GetCharWidth(curChar, widescreenAdjust) * scaleX) / 100);
             }
         }
     }
@@ -736,25 +726,27 @@ int HoL_DrawMessageTextImpl(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 
     }
 
     // Handle icon drawing
-    if (isAGraphicsOp && iconDrawn > 0 && play != NULL) 
+    if (isAGraphicsOp) 
     {
-        void* offs = (void*)(iconDrawn * 64 * 64 * 4);
-        
-        int iconPosX = widescreenAdjust ? posX - 16 : posX;
-        int iconPosY = posY + 8 + (numLines * 6);
-        
-        if (isTyper)
+        if (iconDrawn > 0 && play != NULL)
         {
-            iconPosX += R_TEXTBOX_ICON_XPOS + 16;
-            iconPosY = R_TEXTBOX_ICON_YPOS + 16;
+            void* offs = (void*)(iconDrawn * 64 * 64 * 4);
+            
+            int iconPosX = widescreenAdjust ? posX - 16 : posX;
+            int iconPosY = posY + 8 + (numLines * 6);
+            
+            if (isTyper)
+            {
+                iconPosX += R_TEXTBOX_ICON_XPOS + 16;
+                iconPosY = R_TEXTBOX_ICON_YPOS + 16;
+            }
+            
+            Draw2DScaled(RGBA32, 7, play, &gfx, iconPosX, iconPosY, offs, NULL, 64, 64, 32, 32, 255);
+            Gfx_SetupDL_39Ptr(&gfx);
         }
         
-        Draw2DScaled(RGBA32, 7, play, &gfx, iconPosX, iconPosY, offs, NULL, 64, 64, 32, 32, 255);
-        Gfx_SetupDL_39Ptr(&gfx);
-    }
-
-    if (isAGraphicsOp)
         *gfxp = gfx;
+    }
 
     // Return appropriate value based on operation
     switch (operation)
@@ -843,21 +835,31 @@ Color_RGB8 GetTextColor(u8 textboxType, u8 colorIndex, Color_RGB8 defaultColor)
     }
 }
 
-int GetNewScaleX(char* msg, int baseScaleX, int lineMaxX, bool noWidescreenAdjust)
+int GetNewScaleX(char* msg, int baseScaleX, int lineMaxX)
 {
-    int dimX = GetTextPxWidth(msg, baseScaleX);                
-                                       
-    int ret = baseScaleX;
+    int dimX = GetTextPxWidth(msg, baseScaleX);
     
-    if (dimX != 0)
+    if (dimX <= lineMaxX || dimX == 0)
+        return baseScaleX;
+    
+    // Calculate initial scaled value, capped at baseScaleX
+    int ret = MIN(baseScaleX, (int)(baseScaleX * (float)lineMaxX / dimX));
+
+    // Calculate the size at that scale
+    int dimXNew = GetTextPxWidth(msg, ret);
+    
+    // Adjust downward if still too large
+    while (dimXNew > lineMaxX && ret > 0)
+        dimXNew = GetTextPxWidth(msg, --ret);
+    
+    // Try to adjust upward if there's room
+    while (ret < baseScaleX) 
     {
-        float reScale = ((float)lineMaxX / (float)dimX);
-        float newScale = baseScaleX * reScale;
-        
-        if (newScale > baseScaleX)
-            ret = baseScaleX;
+        int nextDim = GetTextPxWidth(msg, ret + 1);
+        if (nextDim <= lineMaxX)
+            ret++;
         else
-            ret = newScale;
+            break;
     }
     
     return ret;
