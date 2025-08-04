@@ -89636,7 +89636,7 @@
             {
               "Name": "OWL2",
               "MessageTextLines": [
-                "Tant que le Poisson-Rêve dort,<PAUSE:3> l'ile est ",
+                "Tant que le Poisson-Rêve dort,<PAUSE:3> l'île est ",
                 "impossible à fuir...<PAUSE:5> <SOUND:CLUE>comme un horrible ",
                 "cauchemar."
               ],
@@ -90054,7 +90054,7 @@
             {
               "Name": "OWL30",
               "MessageTextLines": [
-                "S'il vous plait, si vous avez des questions, ",
+                "S'il vous plaît, si vous avez des questions, ",
                 "je me ferai un plaisir d'y répondre.<PAUSE:5><SOUND:OWLHOOT> ",
                 "Houu !<PAUSE:2><SOUND:OWLHOOT> Hou !"
               ],
@@ -90073,7 +90073,7 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "Défense..<PAUSE:3> veuillez poursuivre.<SQUARE>"
+                "Défense...<PAUSE:3> veuillez poursuivre.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -92591,7 +92591,7 @@
             {
               "Name": "OWL2",
               "MessageTextLines": [
-                "<G><DI>Tant que le Poisson-Rêve dort,<PAUSE:3> l'ile est ",
+                "<G><DI>Tant que le Poisson-Rêve dort,<PAUSE:3> l'île est ",
                 "impossible à fuir... comme un horrible ",
                 "cauchemar.<PERSISTENT>"
               ],
@@ -92602,7 +92602,7 @@
               "Name": "OWL3",
               "MessageTextLines": [
                 "<G><DI>Ce jeune épéiste doit ainsi réunir les huit",
-                "Instruments des Sirènes, et jouer la ballade ",
+                "<R>Instruments des Sirènes<G>, et jouer la ballade ",
                 "qui réveillera le Grand Être.<PERSISTENT>"
               ],
               "Type": 0,
@@ -92751,14 +92751,13 @@
               "Name": "2_OWL20",
               "MessageTextLines": [
                 "Peut-être que,<PAUSE:5> peu importe combien de ",
-                "temps vous auriez navigué,<PAUSE:5> l'ile ne se ",
+                "temps vous auriez navigué,<PAUSE:5> l'île ne se ",
                 "serait jamais effacée de votre vue....",
                 "<NEW_BOX>",
                 "<PAUSE:5>Le mer serait sans fin, à la manière d'un ",
                 "escalier infini...<PAUSE:5> jusqu'à ce que vous vous ",
-                "retournier et que vous vous rendiez compte ",
-                "que vous êtes retourné à votre point de ",
-                "départ."
+                "retourniez et que vous remarquiez être",
+                "de retour à votre point de départ."
               ],
               "Type": 0,
               "Position": 0
@@ -92819,7 +92818,7 @@
               "MessageTextLines": [
                 "Les Instruments des Sirènes dorment ",
                 "profondément au plus profond de temples ",
-                "éparpillés au quatre coins de l'ile...",
+                "éparpillés au quatre coins de l'île...",
                 "<NEW_BOX>",
                 "Remplis de monstres, de pièges et d'autres ",
                 "dangers...<PAUSE:5> À la fin de chacun d'entre eux :<PAUSE:5> ",
@@ -92834,7 +92833,7 @@
               "MessageTextLines": [
                 "Oui...<PAUSE:5> <SOUND:OWLHOOT>houu.<PAUSE:5> Obtenir tous les instruments ",
                 "d'antan revient à abattre tous ceux qui ",
-                "corrompent l'ile de l'intérieur."
+                "corrompent l'île de l'intérieur."
               ],
               "Type": 0,
               "Position": 0
@@ -93131,7 +93130,7 @@
             {
               "Name": "4_OWL40",
               "MessageTextLines": [
-                "...<PAUSE:5>L'ile Cocolint est un endroit magique né ",
+                "...<PAUSE:5>L'île Cocolint est un endroit magique né ",
                 "du sommeil du Poisson-Rêve."
               ],
               "Type": 0,
@@ -93158,10 +93157,10 @@
             {
               "Name": "4_OWL60",
               "MessageTextLines": [
-                "<SOUND:OWLHOOT>Houu ! Evidemment !",
+                "<SOUND:OWLHOOT>Houu ! Évidemment !",
                 "<NEW_BOX>",
                 "Une fois le Poisson-Rêve réveillé, Cocolint ",
-                "disparaitra...<PAUSE:5> <SPEED:101>Et il n'en restera rien.<SPEED:102>"
+                "disparaîtra...<PAUSE:5> <SPEED:101>Et il n'en restera rien.<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -93243,7 +93242,7 @@
               "Name": "4_LINK80",
               "MessageTextLines": [
                 "Qu'en est-il des habitants alors ?<PAUSE:5> ",
-                "Où iront-ils une fois l'ile disparaue...?"
+                "Où iront-ils une fois l'île disparaue...?"
               ],
               "Type": 0,
               "Position": 0
@@ -93274,7 +93273,7 @@
                 "fait.",
                 "<NEW_BOX>",
                 "En plus de cela,<PAUSE:3> pour s'échapper de cette ",
-                "ile, il a dû entreprendre une quête au péril ",
+                "île, il a dû entreprendre une quête au péril ",
                 "de sa vie."
               ],
               "Type": 0,
@@ -93632,7 +93631,7 @@
               "Name": "KOHOLINK20",
               "MessageTextLines": [
                 "<SOUND:EXPLOSION>C-comment osez vous !<PAUSE:5> Je ne suis pas un ",
-                "collectionneur avare de trésors !"
+                "avare collectionneur de trésors !"
               ],
               "Type": 0,
               "Position": 0
@@ -93684,7 +93683,7 @@
               "Name": "OWL90",
               "MessageTextLines": [
                 "Tous les trésors étant une part de Cocolint,<PAUSE:5> ",
-                "ils disparaitraient naturellement avec elle."
+                "ils disparaîtraient naturellement avec elle."
               ],
               "Type": 0,
               "Position": 0
@@ -93889,7 +93888,7 @@
               "MessageTextLines": [
                 "Je n'ai pas la moindre idée de comment ",
                 "mon esprit a pu inventer pareille absurdité....<PAUSE:5> ",
-                "Je n'aurais pas dû boire ce Vai meets Voi ",
+                "Je n'aurais pas dû boire ce Vaï meets Voï",
                 "avant de dormir..."
               ],
               "Type": 0,
@@ -93919,7 +93918,7 @@
               "MessageTextLines": [
                 "<C>(Pendant ce temps, MON imagination est ",
                 "un peu trop active en ce moment.<PAUSE:5> ",
-                "Et je n'ai pas bu de Vai meets Voi...!)"
+                "Et je n'ai pas bu de Vaï meets Voï...!)"
               ],
               "Type": 0,
               "Position": 0
@@ -93927,7 +93926,7 @@
             {
               "Name": "KOHOLINK40",
               "MessageTextLines": [
-                "Attendez s'il vous plait !"
+                "Attendez s'il vous plaît !"
               ],
               "Type": 0,
               "Position": 0
@@ -94155,7 +94154,7 @@
                 "Quel que soit l'hôte de ce rêve,<PAUSE:5> <SOUND:HINT>il ",
                 "POURRAIT<PAUSE:5> en effet juste se réveiller...",
                 "<NEW_BOX>",
-                "<PAUSE:5>...Même si j'imagine que la déesse Hylia ne ",
+                "<PAUSE:5>...Même si j'imagine que la Déesse Hylia ne ",
                 "serait pas ravie de cette conclusion,<PAUSE:5><SOUND:ClUE> après ",
                 "avoir fourni tant d'efforts pour amener son ",
                 "élu ici."
@@ -95878,7 +95877,7 @@
                 "Mais attends... Le hibou semble vraiment ",
                 "favorable à mon homologue....",
                 "<NEW_BOX>",
-                "Si il était vraiment en contrôle total, il ",
+                "S'il était vraiment en contrôle total, il ",
                 "aurait déjà mis fin au procès."
               ],
               "Type": 2,
@@ -95892,7 +95891,7 @@
                 "<NEW_BOX>",
                 "Hmm...<PAUSE:5> non.<PAUSE:5> Décider si sa propre ",
                 "malédiction est juste ?<PAUSE:5> Impossible que ",
-                "la déesse Hylia autorise ça."
+                "la Déesse Hylia autorise ça."
               ],
               "Type": 2,
               "Position": 3
@@ -95904,7 +95903,7 @@
                 "vendeur...",
                 "<NEW_BOX>",
                 "Ils auraient déjà mis fin au procès en leur ",
-                "faveur si ils avaient été en contrôle.",
+                "faveur s'ils avaient été en contrôle.",
                 "<NEW_BOX>",
                 "<PAUSE:2>.<PAUSE:2>.<PAUSE:2>.<PAUSE:5>Et je sais déjà que VOYOU n'est pas ",
                 "l'hôte...<PAUSE:5> Donc il reste..."
@@ -98020,7 +98019,7 @@
             {
               "Name": "JUDGE_FLSH",
               "MessageTextLines": [
-                "Elle a décidé que quelqu'un d'autre devrait ",
+                "Elle a décidé que quelqu'un d'autre devait ",
                 "déterminer si cette punition était juste ou ",
                 "non,<PAUSE:3> afin de s'assurer que ses propres biais ",
                 "n'influenceraient pas le résultat."
@@ -98486,7 +98485,7 @@
               "Name": "THIEF_LINK30",
               "MessageTextLines": [
                 "<SOUND:STAB>Ngooooooh<EMDASH>!<PAUSE:5> ",
-                "<DI><SOUND:EXPLOSION>DEGAGE DE LÀÀÀÀÀÀÀÀ"
+                "<DI><SOUND:EXPLOSION>DEGAGE DE LÀÀÀÀÀÀÀÀ !!!"
               ],
               "Type": 0,
               "Position": 0
