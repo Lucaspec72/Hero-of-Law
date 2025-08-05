@@ -59308,8 +59308,8 @@
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
-                "Nous avons assistés aujourd'hui au ",
-                "résultat d'un quiproquo horrifique."
+                "Nous avons assisté aujourd'hui au ",
+                "résultat d'un quiproquo tragique."
               ],
               "Type": 0,
               "Position": 0
@@ -59390,7 +59390,7 @@
               "Name": "JUDGE30",
               "MessageTextLines": [
                 "L'état émotionnel de l'accusation mis à ",
-                "part, Je pense qu'il est temps d'annoncer ",
+                "part, je pense qu'il est temps d'annoncer ",
                 "le verdict."
               ],
               "Type": 0,
@@ -59408,7 +59408,7 @@
             {
               "Name": "JUDGE50",
               "MessageTextLines": [
-                "Jeune femme, Je suis vraiment désolé que ",
+                "Jeune femme, je suis vraiment désolé que ",
                 "vous vous soyez retrouvée dans une telle ",
                 "situation."
               ],
@@ -59435,7 +59435,7 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "<SOUND:0><C>(Aww, merci !)"
+                "<SOUND:0><C>(Oooh, merci !)"
               ],
               "Type": 0,
               "Position": 0
@@ -61217,7 +61217,7 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>On l'a fait !"
+                "<SOUND:WHAP><DI>On a réussi !"
               ],
               "Type": 0,
               "Position": 0
@@ -61611,7 +61611,7 @@
                 "<NEW_BOX>",
                 "Des temps difficiles sont à venir.",
                 "<NEW_BOX>",
-                "Il lui faudra rassembler toute la confiance ",
+                "Il lui faudra rassembler le plus de confiance ",
                 "possible pour mener le royaume à travers ",
                 "ces épreuves."
               ],
