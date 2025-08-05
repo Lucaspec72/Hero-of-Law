@@ -40509,7 +40509,7 @@
             {
               "Name": "2_LINK20",
               "MessageTextLines": [
-                "...et aux parties de jeu occasionnelles."
+                "...et aux jeux occasionnels."
               ],
               "Type": 0,
               "Position": 0
@@ -40518,7 +40518,7 @@
               "Name": "2_MALON20",
               "MessageTextLines": [
                 "Ah, bien sûr !<PAUSE:10> ",
-                "Le fameux<SOUND:HINT> jeu de cocottes de père !"
+                "Le fameux<SOUND:HINT> jeu des cocottes de père !"
               ],
               "Type": 0,
               "Position": 0
@@ -40543,7 +40543,7 @@
             {
               "Name": "2_DRAGMIRE20",
               "MessageTextLines": [
-                "Vous aurez tout le temps de révasser",
+                "Vous aurez tout le temps de rêvasser",
                 "lorsque l'accusée sera derrière les",
                 "barreaux !"
               ],
@@ -42106,7 +42106,7 @@
               "Name": "INGO60",
               "MessageTextLines": [
                 "D'autres s'y sont essayés et ont ",
-                "abandonnés, mais moi, Ingo, j'ai",
+                "abandonné, mais moi, Ingo, j'ai",
                 "persévéré à travers toutes les difficultés !"
               ],
               "Type": 0,
@@ -42124,7 +42124,7 @@
               "Name": "MALON40",
               "MessageTextLines": [
                 "Eh bien, il lui arrive d'être un peu pompeux, ",
-                "mais M. Ingo est une aide précieuse !"
+                "mais M. Ingo est d'une aide précieuse !"
               ],
               "Type": 0,
               "Position": 0
@@ -42214,8 +42214,7 @@
             {
               "Name": "INGO100",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Écoutez mon histoire, honorable cour ",
-                "de justice !<SQUARE>"
+                "<SOUND:WHAP><DI>Écoutez mon histoire, honorable tribunal !<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -47084,7 +47083,7 @@
             {
               "Name": "B_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(Ça, c'est ce qu'on appelle de la dévotion.)",
+                "<SOUND:0><C>(Ça, c'est ce qu'on appelle du dévouement.)",
                 "<NEW_BOX>",
                 "<SOUND:0><C>(Malgré tout, il y a vraiment quelque ",
                 "chose qui cloche...)<SQUARE>"
@@ -47129,8 +47128,8 @@
               "Name": "1_INGO30",
               "MessageTextLines": [
                 "Talon commençait à prendre de l'âge.<PAUSE:5> ",
-                "Autant régler la question plus tôt que ",
-                "trop tard, n'est-ce pas ?"
+                "Autant régler la question avant qu'il ne ",
+                "soit trop tard, n'est-ce pas ?"
               ],
               "Type": 0,
               "Position": 0
@@ -47185,7 +47184,7 @@
               "Name": "2_INGO15",
               "MessageTextLines": [
                 "Tous ces sales<SOUND:WHAP> gosses ingrats qui jettent ",
-                "leurs vieux dans des maisons de retraites ",
+                "leurs vieux dans des maisons de retraite ",
                 "à partir du moment où l'acte de propriété ",
                 "est signé !"
               ],
@@ -47227,8 +47226,8 @@
               "MessageTextLines": [
                 "Aah les enfants de nos jours !<PAUSE:5> Vous les ",
                 "nourrissez,<PAUSE:3> vous les élevez,<PAUSE:5> tout ça pour ",
-                "vous trahir de la sorte dès que vous leur",
-                "<SOUND:WHAP>donnez un coup de main !"
+                "qu'ils vous poignardent dans le dos dès ",
+                "que vous leur <SOUND:WHAP>donnez un coup de main !"
               ],
               "Type": 0,
               "Position": 0
@@ -47305,7 +47304,7 @@
                 "<DI>Wah !",
                 "<NEW_BOX>",
                 "Elle bâcle souvent son travail, pendant ",
-                "que moi, l'infatigable Ingo, doit repasser ",
+                "que moi, l'infatigable Ingo, je dois repasser ",
                 "derrière elle !"
               ],
               "Type": 0,
@@ -47508,8 +47507,8 @@
               "MessageTextLines": [
                 "<SOUND:WHAP><DI>Comme c'est admirable !",
                 "<NEW_BOX>",
-                "Je suppoose que les liens familiaux ont ",
-                "surpassés sa volonté d'aider le royaume.<PAUSE:5> ",
+                "Je suppose que les liens familiaux ont ",
+                "supplanté sa volonté d'aider le royaume.<PAUSE:5> ",
                 "Quelle honte..."
               ],
               "Type": 0,
@@ -47689,7 +47688,7 @@
             {
               "Name": "4_2_LINK20",
               "MessageTextLines": [
-                "Très bien.<PAUSE:3> La défense souhaiterais ",
+                "Très bien.<PAUSE:3> La défense souhaiterait ",
                 "changer de sujet."
               ],
               "Type": 0,
@@ -47735,7 +47734,7 @@
             {
               "Name": "5_LINK20",
               "MessageTextLines": [
-                "Vous souvenez vous d'éléments précis ",
+                "Vous souvenez-vous d'éléments précis ",
                 "qui auraient été évoqués ?"
               ],
               "Type": 0,
@@ -47762,7 +47761,7 @@
               "Name": "5_INGO40",
               "MessageTextLines": [
                 "\"Je suis vraiment désolé, Malon, mais le plus ",
-                "importante, c'est de s'assurer que le Roi ",
+                "important, c'est de s'assurer que le Roi ",
                 "ait toujours un approvisionnement régulier ",
                 "en chevaux de qualité.\""
               ],
@@ -47805,7 +47804,7 @@
                 "<SOUND:DON><DI>\"Je croyais que tu aimais le ranch !<PAUSE:8> <DC>Tous ",
                 "les animaux sont là, et Ingo est toujours là ",
                 "pour s'occuper des corvées aussi.<PAUSE:3> ",
-                "<SPEED:103>Il est vraiment fort tu ne trouves pas ?\"<SPEED:102>"
+                "<SPEED:103>Il est vraiment fort, tu ne trouves pas ?\"<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -47913,7 +47912,7 @@
               "Name": "5_DRAGMIRE50",
               "MessageTextLines": [
                 "Peu importe.<PAUSE:5> Continuez votre témoignage, ",
-                "fermier.<PAUSE:5> Partagez nous la véritable nature ",
+                "fermier.<PAUSE:5> Révélez-nous la véritable nature ",
                 "de l'accusée !<SQUARE>"
               ],
               "Type": 0,
@@ -47991,7 +47990,7 @@
             {
               "Name": "6_1_LINK10",
               "MessageTextLines": [
-                "<DI>Votre Honneur !<PAUSE:3> La défense souhaiterais ",
+                "<DI>Votre Honneur !<PAUSE:3> La défense souhaiterait ",
                 "ajouter la déclaration à propos du parfum ",
                 "au témoignage !"
               ],
@@ -48028,7 +48027,7 @@
               "Name": "6_1_DRAGMIRE30",
               "MessageTextLines": [
                 "Mais...<PAUSE:5> Je suppose que l'accusation n'a pas ",
-                "d'objections à renforcer son dossier.."
+                "d'objections à renforcer son dossier."
               ],
               "Type": 0,
               "Position": 0
@@ -48101,7 +48100,7 @@
                 "avait dépensé plus de son salaire pour moi, ",
                 "l'infatigable Ingo...",
                 "<NEW_BOX>",
-                "Je me lève et part au travail dès l'aube ",
+                "Je me lève et pars au travail dès l'aube ",
                 "tous les jours, vous savez !"
               ],
               "Type": 0,
@@ -48257,7 +48256,7 @@
             {
               "Name": "LINK80",
               "MessageTextLines": [
-                "Cette info remets une chose en question...",
+                "Cette info remet une chose en question...",
                 "<THREE_CHOICES><G>Les goûts de Talon en cadeaux",
                 "Les déplacements de quelqu'un",
                 "Le témoignage de la princesse"
@@ -48356,8 +48355,8 @@
               "Name": "A1_MALON10",
               "MessageTextLines": [
                 "Pour une fois, je suis d'accord avec lui.<PAUSE:3> <SOUND:EXPLOSION>",
-                "S'il te plait, à l'avenir évite de juger les ",
-                "gens de la sorte, Link "
+                "S'il te plaît, à l'avenir évite de juger les ",
+                "gens de la sorte, Link. "
               ],
               "Type": 0,
               "Position": 0
@@ -48383,7 +48382,7 @@
             {
               "Name": "AF_LINK10",
               "MessageTextLines": [
-                "Err...<PAUSE:3><SPEED:101> eh eh, désolé.<SPEED:102>"
+                "Aaah...<PAUSE:3><SPEED:101> eh eh, désolé.<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -48402,7 +48401,7 @@
             {
               "Name": "AF_LINK30",
               "MessageTextLines": [
-                "Cette info remets une chose en question...",
+                "Cette info remet une chose en question...",
                 "<THREE_CHOICES><G>Les goûts de Talon en cadeaux",
                 "Les déplacements de quelqu'un",
                 "Le témoignage de la princesse"
@@ -48414,7 +48413,7 @@
               "Name": "A3_LINK10",
               "MessageTextLines": [
                 "Encore une fois, le témoignage de ",
-                "Sa Majesté doit être faux ! "
+                "Son Altesse doit être faux ! "
               ],
               "Type": 0,
               "Position": 0
@@ -48553,8 +48552,8 @@
               "Name": "A2_M_MALON30",
               "MessageTextLines": [
                 "Allez, Link !<PAUSE:2> ",
-                "T'es supposé être de mon côté !<PAUSE:2> ",
-                "<SOUND:EXPLOSION><DI>Réveilles-toi un peu bon sang !"
+                "T'es censé être de mon côté !<PAUSE:2> ",
+                "<SOUND:EXPLOSION><DI>Réveille-toi un peu bon sang !"
               ],
               "Type": 0,
               "Position": 0
@@ -48893,7 +48892,7 @@
               "Name": "B4_LINK20",
               "MessageTextLines": [
                 "Toute la vérité sera dévoilée si on se ",
-                "mets à le sentir !<PAUSE:5> <SOUND:HINT>Votre Honneur, je ",
+                "met à le sentir !<PAUSE:5> <SOUND:HINT>Votre Honneur, je ",
                 "vous prie ?"
               ],
               "Type": 0,
@@ -48980,7 +48979,7 @@
               "Name": "B4_LINK60",
               "MessageTextLines": [
                 "<SOUND:CLUE>L'odeur est très puissante, donc le parfum ",
-                "ne peux pas être si vieux que ça ?"
+                "ne peut pas être si vieux que ça ?"
               ],
               "Type": 0,
               "Position": 0
