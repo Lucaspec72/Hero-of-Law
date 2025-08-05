@@ -50885,9 +50885,8 @@
             {
               "Name": "MALON60",
               "MessageTextLines": [
-                "Hmph.<PAUSE:3> Vous savez que la route vers le",
-                "<SOUND:WHAP>Monde des Ténèbres est pavé de ces ",
-                "famauses intentions, n'est-ce pas ?"
+                "Hmph.<PAUSE:3> Vous savez que le monde des ",
+                "Ténèbres en est pavé, n'est-ce pas ?"
               ],
               "Type": 0,
               "Position": 0
@@ -50922,7 +50921,7 @@
               "Name": "LINK110",
               "MessageTextLines": [
                 "<SOUND:0><C>(C'est exact... la mort mystérieuse de la ",
-                "première princesse Zelda.)",
+                "précédente princesse Zelda.)",
                 "<NEW_BOX>",
                 "<SOUND:0><C>(Hyrule peine encore à se remettre des ",
                 "événements de ce jour-là...)",
@@ -50932,7 +50931,7 @@
                 "<NEW_BOX>",
                 "<SOUND:0><C>(À cause du manque d'informations, les ",
                 "théories du complot se sont déchainées... ",
-                "les gens ont accusés la Garde Royale, les ",
+                "les gens ont accusé la Garde Royale, les ",
                 "Sheikah... et même le Roi lui-même.)"
               ],
               "Type": 2,
@@ -51017,7 +51016,7 @@
               "MessageTextLines": [
                 "<PAUSE:3><DC>...Qu'y a-t-il, soldat ?<PAUSE:3> ",
                 "Je suis plutôt occupée en ce moment, donc ",
-                "soyez rapide je vous prie."
+                "soyez bref, je vous prie."
               ],
               "Type": 0,
               "Position": 0
@@ -51032,8 +51031,8 @@
                 "de lait renvoyée au ranch à cause d'une ",
                 "erreur d'adresse du destinataire !",
                 "<NEW_BOX>",
-                "Ils vous demande de vous rendre sur ",
-                "place pour constater tout ça."
+                "Ils vous demandent de vous rendre sur ",
+                "place pour le constater par vous-même."
               ],
               "Type": 0,
               "Position": 0
@@ -51049,7 +51048,7 @@
             {
               "Name": "IMPA228",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Je n'ai pas le temps pour ça !",
+                "<SOUND:EXPLOSION><DI>Je n'ai pas le temps !",
                 "<NEW_BOX>",
                 "Envoyez quelqu'un d'autre. Je dois escorter ",
                 "la princesse au château."
@@ -51070,7 +51069,7 @@
               "MessageTextLines": [
                 "...<PAUSE:8>Tiens, ça me fait penser...<PAUSE:8> J'ai confisqué ",
                 "cette bouteille de lait à un <SOUND:CLUE>duo de gardes",
-                "qui tiraient au flan tout à l'heure."
+                "qui tiraient au flanc tout à l'heure."
               ],
               "Type": 0,
               "Position": 0
@@ -51141,7 +51140,7 @@
                 "<NEW_BOX>",
                 "Mais c'est du bon lait de Lon Lon...<PAUSE:3> ",
                 "Son goût est inégalable ! Tu es sûre ",
-                "que c'est juste nerveux ?",
+                "que c'est juste les nerfs ?",
                 "<NEW_BOX>",
                 "<SOUND:WHAP><DI>Laisse-moi en prendre une gorgée !"
               ],
@@ -51602,8 +51601,8 @@
             {
               "Name": "INGO4",
               "MessageTextLines": [
-                "Je ne suis jamais retourné à la maison du ",
-                "ranch depuis ce moment-là."
+                "Je n'ai pas remis les pieds dans la maison ",
+                "du ranch depuis."
               ],
               "Type": 0,
               "Position": 0
@@ -51919,7 +51918,7 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "Je vais... éviter."
+                "Sans façon... merci."
               ],
               "Type": 0,
               "Position": 0
@@ -54555,8 +54554,8 @@
             {
               "Name": "INGO4",
               "MessageTextLines": [
-                "<DI><G>Je ne suis jamais retourné à la maison du ",
-                "ranch depuis ce moment-là.<PERSISTENT>"
+                "<DI><G>Je n'ai pas remis les pieds dans la maison ",
+                "du ranch depuis.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -54622,7 +54621,7 @@
             {
               "Name": "CONS2_MALON10",
               "MessageTextLines": [
-                "Eh bien, J'imagine qu'il n'avait pas ",
+                "Eh bien, j'imagine qu'il n'avait pas ",
                 "d'autres endroits où dormir...",
                 "<NEW_BOX>",
                 "Père l'a laissé emménager avec nous ",
@@ -54809,7 +54808,7 @@
               "Name": "1_INGO50",
               "MessageTextLines": [
                 "En effet.<PAUSE:5> Talon et sa fille s'occupaient ",
-                "généralmeent des commandes de lait."
+                "généralement des commandes de lait."
               ],
               "Type": 0,
               "Position": 0
@@ -54830,7 +54829,7 @@
               "MessageTextLines": [
                 "Après le meurtre, j'ai eu peur que l'enquête ",
                 "des Forces Sheikah reporte la livraison, et ",
-                "que moi, le grand Ingo, <SOUND:CLUE>serait blâmé pour ",
+                "que moi, le grand Ingo, <SOUND:CLUE>serais blâmé pour ",
                 "ça !"
               ],
               "Type": 0,
@@ -54865,8 +54864,8 @@
             {
               "Name": "1_DRAGMIRE20",
               "MessageTextLines": [
-                "Devenir pompette à cause de quelque ",
-                "chose comme du lait ?"
+                "Finir pompette juste en buvant un peu de ",
+                "cette piquette qu'est le lait ?"
               ],
               "Type": 0,
               "Position": 0
@@ -55040,7 +55039,7 @@
               "Name": "3_INGO20",
               "MessageTextLines": [
                 "<SOUND:WHAP>Hop !<PAUSE:5> <SOUND:WHAP>Yaa ! <PAUSE:5><SOUND:WHAP>Pow ! <PAUSE:5><SOUND:WHAP>Bam !<PAUSE:5> ",
-                "<SOUND:WHAP><SPEED:105>Je finis les taches en un rien de temps !<SPEED:102>"
+                "<SOUND:WHAP><SPEED:105>Je finis les tâches en un rien de temps !<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
