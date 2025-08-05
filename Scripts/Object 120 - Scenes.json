@@ -55069,7 +55069,7 @@
             {
               "Name": "4_LINK10",
               "MessageTextLines": [
-                "En êtes-vous sûrs ?"
+                "En êtes-vous sûr ?"
               ],
               "Type": 0,
               "Position": 0
@@ -55094,7 +55094,7 @@
             {
               "Name": "4_INGO20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Bah !<PAUSE:5> <SOUND:EXPLOSION><DI>Ils ne m'ont PAS LAISSÉ entrer !"
+                "<SOUND:WHAP><DI>Bah !<PAUSE:5> <SOUND:EXPLOSION><DI>Ils ne m'ont MÊME PAS LAISSÉ entrer !"
               ],
               "Type": 0,
               "Position": 0
@@ -55112,7 +55112,7 @@
             {
               "Name": "4_INGO40",
               "MessageTextLines": [
-                "Après m'être fait interrogé, tout le monde ",
+                "Après m'être fait interroger, tout le monde ",
                 "m'a ignoré !<PAUSE:5> J'ai même dû dormir dans les ",
                 "écuries cette nuit-là !<PAUSE:5> <DI><SOUND:WHAP>C'était horrible !"
               ],
@@ -55238,7 +55238,7 @@
             {
               "Name": "5_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(En fait pas vraiment.<PAUSE:3> je doute qu'une ",
+                "<SOUND:0><C>(En fait pas vraiment.<PAUSE:3> Je doute qu'une ",
                 "seule nuit pourrait ruiner ce mec.<PAUSE:3> Rien qu'à ",
                 "sa tenue ça se voit !)<SQUARE>"
               ],
@@ -55425,7 +55425,7 @@
               "Name": "T_INGO40",
               "MessageTextLines": [
                 "Donc, j'ai décidé de me faire quelque ",
-                "chose pendant le travail"
+                "chose pendant le travail."
               ],
               "Type": 0,
               "Position": 0
@@ -55564,7 +55564,7 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "Vous dites que vous n'avez pu récupéré ",
+                "Vous dites que vous n'avez pu récupérer ",
                 "aucune de vos affaires, parce qu'elles ",
                 "étaient toutes dans la maison du ranch,",
                 "c'est bien cela ?",
@@ -55578,7 +55578,7 @@
             {
               "Name": "INGO20",
               "MessageTextLines": [
-                "C'est...<PAUSE:3> <SOUND:HINT>correct ?"
+                "C'est...<PAUSE:3> <SOUND:HINT>exact ?"
               ],
               "Type": 0,
               "Position": 0
@@ -55660,7 +55660,7 @@
                 "<NEW_BOX>",
                 "Ils sont neufs !<PAUSE:5> <SOUND:WHAP>Ouais !<PAUSE:5> ",
                 "Sur le chemin vers le tribunal, je suis ",
-                "allé l'acheter."
+                "allé les acheter."
               ],
               "Type": 0,
               "Position": 0
@@ -55706,7 +55706,7 @@
             {
               "Name": "INGO80",
               "MessageTextLines": [
-                "Tout à fait.<PAUSE:5> <SOUND:CLUE>ce matin, pour être exact !<PAUSE:5> ",
+                "Tout à fait.<PAUSE:5> <SOUND:CLUE>Ce matin, pour être exact !<PAUSE:5> ",
                 "Dois-je encore me répéter ?"
               ],
               "Type": 0,
@@ -55776,7 +55776,7 @@
               "Name": "A1_LINK20",
               "MessageTextLines": [
                 "<SOUND:WHAP><DI>Ahem, attendez...<PAUSE:3> en fait, est-ce que je ",
-                "peux reconsidérer mon avis sur le témoin ?"
+                "peux revoir mon avis sur le témoin ?"
               ],
               "Type": 0,
               "Position": 0
@@ -55895,7 +55895,7 @@
               "Name": "FAIL_DRAGMIRE10",
               "MessageTextLines": [
                 "<SOUND:WHAP><DI>Bah !<PAUSE:3> Parce qu'il n'y en a aucun !<PAUSE:3> ",
-                "La défense ne fais que gaspiller notre ",
+                "La défense ne fait que gaspiller notre ",
                 "temps, comme toujours !"
               ],
               "Type": 0,
@@ -56216,10 +56216,10 @@
             {
               "Name": "JUDGE100",
               "MessageTextLines": [
-                "Cependant,<PAUSE:5> le fait que le témoin n'ai pas ",
+                "Cependant,<PAUSE:5> le fait que le témoin n'ait pas ",
                 "directement évoqué ce fait de lui-même, et",
-                "ai à la place fabriqué un mensonge à base ",
-                "vêtement achetés, <SOUND:CLUE>est en effet très curieux."
+                "ait à la place fabriqué un mensonge à base de ",
+                "vêtements achetés, <SOUND:CLUE>est en effet très curieux."
               ],
               "Type": 0,
               "Position": 0
@@ -58305,7 +58305,8 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "<SOUND:CLUE>Mais vous avez tout à fait raison procureur."
+                "<SOUND:CLUE>Mais vous avez tout à fait raison, monsieur ",
+                "le procureur."
               ],
               "Type": 0,
               "Position": 0
@@ -58463,7 +58464,7 @@
             {
               "Name": "LINK130",
               "MessageTextLines": [
-                "Eh bien, qu'en dites vous, témoin ?<PAUSE:3> ",
+                "Eh bien, qu'en dites-vous, témoin ?<PAUSE:3> ",
                 "Mon scénario explique absolument tout !"
               ],
               "Type": 0,
