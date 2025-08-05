@@ -49460,7 +49460,7 @@
               "Name": "INGO150",
               "MessageTextLines": [
                 "Grrrhm.<PAUSE:3> <SOUND:WHAP><DI>Très bien.<PAUSE:3> Par contre, il n'y a pas ",
-                "grand chose à dire."
+                "grand-chose à dire."
               ],
               "Type": 0,
               "Position": 0
@@ -50624,7 +50624,7 @@
                 "Ouais, c'était...<PAUSE:3> surprenant.",
                 "<NEW_BOX>",
                 "Par contre, on n'a toujours pas réussi à<SOUND:CLUE> ",
-                "réfuter le coeur de son argument..."
+                "réfuter le cœur de son argument..."
               ],
               "Type": 0,
               "Position": 0
@@ -50670,7 +50670,7 @@
               "Name": "IMPA20",
               "MessageTextLines": [
                 "Vous avez vraiment réussi à mettre ",
-                "Dragmire en colère vous savez ?"
+                "Dragmire en colère, vous savez ?"
               ],
               "Type": 0,
               "Position": 0
@@ -50715,7 +50715,7 @@
             {
               "Name": "LINK60",
               "MessageTextLines": [
-                "Eh bien, ce serait inquiétant... si il avait ",
+                "Eh bien, ce serait inquiétant... s'il avait ",
                 "quoi que ce soit à abattre..."
               ],
               "Type": 0,
@@ -50763,7 +50763,7 @@
               "Name": "IMPA70",
               "MessageTextLines": [
                 "Ne vous méprenez pas. Pour l'instant, je ",
-                "suis convaincu qu'elle est coupable."
+                "suis convaincue qu'elle est coupable."
               ],
               "Type": 0,
               "Position": 0
@@ -50771,7 +50771,7 @@
             {
               "Name": "IMPA80",
               "MessageTextLines": [
-                "Nous avons enquêté et sommes venus à ",
+                "Nous avons enquêté et sommes arrivés à ",
                 "cette conclusion pour une raison."
               ],
               "Type": 0,
@@ -50789,7 +50789,7 @@
               "Name": "IMPA90",
               "MessageTextLines": [
                 "Mais je tiens à considérer toutes les ",
-                "possiblités.",
+                "possibilités.",
                 "<NEW_BOX>",
                 "Cet incendie est franchement bizarre, et ",
                 "j'ose dire que ça pourrait être votre seule",
@@ -50812,10 +50812,10 @@
               "Name": "IMPA110",
               "MessageTextLines": [
                 "Étant la seule autre personne présente au ",
-                "ranch à ce moment-là, seul lui aurait pu ",
-                "allumer ce feu.",
+                "ranch à ce moment-là, il est le seul qui aurait ",
+                "pu allumer ce feu.",
                 "<NEW_BOX>",
-                "Si il nous cache quelque chose,<SOUND:CLUE> je pense ",
+                "S'il nous cache quelque chose,<SOUND:CLUE> je pense ",
                 "que la cour mérite de savoir."
               ],
               "Type": 0,
