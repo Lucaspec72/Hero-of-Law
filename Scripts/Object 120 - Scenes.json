@@ -49283,8 +49283,8 @@
             {
               "Name": "JUDGE180",
               "MessageTextLines": [
-                "Continuons...<PAUSE:3> Object acheté :",
-                "Une bouteille de <R>\"Rubisland Rosé\"<W>."
+                "Continuons...<PAUSE:3> Objet acheté :",
+                "Un flacon de <R>\"Rubisland Rosé\"<W>."
               ],
               "Type": 0,
               "Position": 0
@@ -49301,7 +49301,7 @@
             {
               "Name": "LINK160",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Votre Honneur !<PAUSE:3> S'il vous plait !<PAUSE:3> ",
+                "<SOUND:EXPLOSION>Votre Honneur !<PAUSE:3> S'il vous plaît !<PAUSE:3> ",
                 "<DI>Quelle est la date de l'achat ?"
               ],
               "Type": 0,
@@ -49360,7 +49360,7 @@
             {
               "Name": "DRAGMIRE80",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Bah !<PAUSE:3> Ça ne veux rien dire !"
+                "<SOUND:EXPLOSION>Bah !<PAUSE:3> Ça ne veut rien dire !"
               ],
               "Type": 0,
               "Position": 0
@@ -49398,7 +49398,7 @@
             {
               "Name": "INGO130",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>J'ai dû voir la bouteille à ce moment-là !"
+                "<SOUND:WHAP><DI>J'ai dû voir le flacon à ce moment-là !"
               ],
               "Type": 0,
               "Position": 0
@@ -49406,7 +49406,7 @@
             {
               "Name": "MALON60",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Oh, s'il vous plait !<PAUSE:3> Vous pensez sincèrement ",
+                "<SOUND:EXPLOSION>Oh, s'il vous plaît !<PAUSE:3> Vous pensez sincèrement ",
                 "qu'on va vous croire ?!"
               ],
               "Type": 0,
@@ -49415,8 +49415,7 @@
             {
               "Name": "DRAGMIRE100",
               "MessageTextLines": [
-                "Avez-vous la moindre preuve qu'il dit ",
-                "faux ?"
+                "Avez-vous la moindre preuve qu'il ment ?"
               ],
               "Type": 0,
               "Position": 0
