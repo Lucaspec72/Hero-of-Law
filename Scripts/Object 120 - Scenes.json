@@ -49005,7 +49005,7 @@
             {
               "Name": "B4_LINK80",
               "MessageTextLines": [
-                "<C>(Ouais, Je ne suis pas vraiment sûr de ce ",
+                "<C>(Ouais, je ne suis pas vraiment sûr de ce ",
                 "que je pensais accomplir avec ça.)"
               ],
               "Type": 0,
@@ -49138,7 +49138,7 @@
             {
               "Name": "JUDGE90",
               "MessageTextLines": [
-                "Nous allons faire une pause supplémtentaire ",
+                "Nous allons faire une pause supplémentaire ",
                 "en attendant.",
                 "<NEW_BOX>",
                 "L'audience est suspendue !"
@@ -49200,7 +49200,7 @@
               "Name": "JUDGE130",
               "MessageTextLines": [
                 "*ahem*",
-                "De...<PAUSE:5> <SOUND:CLUE><R>\"Tingle's Mysterious Smells\"<W>..."
+                "De...<PAUSE:5> <SOUND:CLUE><R>\"Fragrances Ésotériques de Tingle\"<W>..."
               ],
               "Type": 0,
               "Position": 0
