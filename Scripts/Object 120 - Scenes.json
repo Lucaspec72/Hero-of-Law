@@ -40897,7 +40897,7 @@
             {
               "Name": "6_LINK34",
               "MessageTextLines": [
-                "<SOUND:0><SOUND:HINT>... !"
+                "<SOUND:0><SOUND:HINT>...!"
               ],
               "Type": 0,
               "Position": 0
@@ -40935,7 +40935,7 @@
               "Name": "7_LINK10",
               "MessageTextLines": [
                 "Bien sûr... et elle vous a autorisé à",
-                "le présenter ?"
+                "la présenter ?"
               ],
               "Type": 0,
               "Position": 0
@@ -40943,7 +40943,7 @@
             {
               "Name": "7_ZELDA10",
               "MessageTextLines": [
-                "Eh bien...<PAUSE:5> C'est moi qui l'ai trouvé...<PAUSE:5> et",
+                "Eh bien...<PAUSE:5> C'est moi qui l'ai trouvée...<PAUSE:5> et",
                 "puisque j'allais au procès de toute façon..."
               ],
               "Type": 0,
