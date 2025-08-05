@@ -37425,7 +37425,7 @@
             {
               "Name": "1_JUDGE60",
               "MessageTextLines": [
-                "Ah, voilà un <SOUND:HINT>excellent point, Défense !"
+                "Ah, voilà qui est <SOUND:HINT>très juste, Défense !"
               ],
               "Type": 0,
               "Position": 0
@@ -37631,7 +37631,7 @@
             {
               "Name": "2_JUDGE50",
               "MessageTextLines": [
-                "Très bien alors.<PAUSE:10> Votre Altesse,",
+                "Très bien.<PAUSE:10> En ce cas, Votre Altesse,",
                 "je vous invite à témoigner à nouveau",
                 "au sujet de cette preuve découverte",
                 "pendant votre propre enquête."
