@@ -61827,7 +61827,7 @@
               "Name": "DRAGMIRE85",
               "MessageTextLines": [
                 "...Ce qui s'est passé est des plus ",
-                "regrettable.<PAUSE:7> Je ne peux que vous ",
+                "regrettables.<PAUSE:7> Je ne peux que vous ",
                 "offrir mes condoléances."
               ],
               "Type": 0,
@@ -61870,7 +61870,8 @@
               "Name": "DRAGMIRE50",
               "MessageTextLines": [
                 "Retenez bien mes paroles : elle regrettera ",
-                "ce qu'elle a fait sur des <SOUND:EXPLOSION>GÉNÉRATIONS."
+                "ce qu'elle a fait pour le <SOUND:EXPLOSION>RESTANT DE SES ",
+                "JOURS."
               ],
               "Type": 0,
               "Position": 0
@@ -61880,8 +61881,8 @@
               "MessageTextLines": [
                 "<PAUSE:5><SOUND:CLUE>...Waouh, c'était quelque chose.",
                 "<NEW_BOX>",
-                "Je ne sais pas si il était sincère, ou si il ",
-                "voulait juste rejetter la faute sur quelqu'un ",
+                "Je ne sais pas s'il était sincère, ou s'il ",
+                "voulait juste rejeter la faute sur quelqu'un ",
                 "d'autre..."
               ],
               "Type": 0,
@@ -61943,7 +61944,7 @@
               "Name": "MALON160",
               "MessageTextLines": [
                 "J'ai vraiment envie de te remercier ",
-                "d'avoir dévoiler la vértié."
+                "d'avoir dévoilé la vértié."
               ],
               "Type": 0,
               "Position": 0
@@ -61970,8 +61971,8 @@
             {
               "Name": "LINK210",
               "MessageTextLines": [
-                "Ainsi se termina une affaire qui me tenais ",
-                "particulèrement à coeur.",
+                "Ainsi se termina une affaire qui me tenait ",
+                "particulièrement à cœur.",
                 "<NEW_BOX>",
                 "J'ai l'impression qu'un poids s'était",
                 "enlevé de mes épaules..",
