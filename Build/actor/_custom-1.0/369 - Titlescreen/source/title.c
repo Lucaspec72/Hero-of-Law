@@ -47,7 +47,7 @@ void TitleLogo_Init(Actor* thisx, PlayState* play)
     int res2 = SAVE_NOT_HOL;
     
     if (res)
-        res2 = LoadSaveAndVerify(3); // Backup for slot 1.
+        res2 = LoadSaveAndVerify(1); // Backup for slot 1.
     
     // Clear save file if L + R + Z held    
     if (CHECK_BTN_ALL(play->state.input[0].cur.button, BTN_L | BTN_R | BTN_Z))

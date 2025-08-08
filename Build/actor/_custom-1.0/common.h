@@ -83,27 +83,24 @@ OSPiHandle** sISVHandle = (OSPiHandle**)0x8019894C;
 #define CHECKSUM_SIZE (SAVESTRUCT_SIZE / 2)
 
 #ifdef SAVE_STUFF
-
     char sSaveDefaultMagic[] = {0x98, 0x09, 0x10, 0x21, 'Z', 'E', 'L', 'D', 'A'};
     char sHeroOfLawMagic[] = {'H', 'E', 'R', 'O', '+', 'L', 'A', 'W'};
 
     int LoadSaveAndVerify(int slot)
     {
         gSaveContext.fileNum = 0;
-        
-        u16 i, oldChecksum, newChecksum, offset;
-        u16* ptr;
-          
         SsSram_ReadWrite(SRAM_BASE_ADDR + SLOT_OFFSET(slot), &gSaveContext, SAVESTRUCT_SIZE, OS_READ);
         
         if (bcmp(sHeroOfLawMagic, &gSaveContext.playerName, ARRAY_COUNTU(sHeroOfLawMagic)))
             return SAVE_NOT_HOL;     
         
-        oldChecksum = gSaveContext.checksum;
+        u16 oldChecksum = gSaveContext.checksum;
+        u16 newChecksum = 0;
+        
         gSaveContext.checksum = 0;  
-        ptr = (u16*)&gSaveContext;
+        u16* ptr = (u16*)&gSaveContext;
 
-        for (i = newChecksum = 0; i < CHECKSUM_SIZE; i++, offset += 2) 
+        for (int i = 0; i < CHECKSUM_SIZE; i++) 
             newChecksum += *ptr++;
         
         return oldChecksum == newChecksum ? SAVE_OK : SAVE_CORRUPTED;

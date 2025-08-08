@@ -71,8 +71,8 @@ void GameUI_Init(Actor* thisx, PlayState* play)
     char* msglogd = (char*)this->msgLog;
     
     // Load message log from savefile
-    SsSram_ReadWrite(OS_K1_TO_PHYSICAL(0xA8000000) + SLOT_OFFSET(2), buf, 16, OS_READ);
-    SsSram_ReadWrite(OS_K1_TO_PHYSICAL(0xA8000000) + SLOT_OFFSET(2) + 16, this->msgLog, MSG_LOG_SIZE * sizeof(LoggedMsg), OS_READ);
+    SsSram_ReadWrite(SRAM_BASE_ADDR + SLOT_OFFSET(2), buf, 16, OS_READ);
+    SsSram_ReadWrite(SRAM_BASE_ADDR + SLOT_OFFSET(2) + 16, this->msgLog, MSG_LOG_SIZE * sizeof(LoggedMsg), OS_READ);
     
     bcopy(&buf, &saved_checksum, 4);
     bcopy(&buf[4], &msgLogPos, 4);    
@@ -142,8 +142,8 @@ void GameUI_Destroy(Actor* thisx, PlayState* play)
     header[3] = 0;
     
     // Write message log to save.
-    SsSram_ReadWrite(OS_K1_TO_PHYSICAL(0xA8000000) + SLOT_OFFSET(2), &header, 16, OS_WRITE);
-    SsSram_ReadWrite(OS_K1_TO_PHYSICAL(0xA8000000) + SLOT_OFFSET(2) + 16, this->msgLog, MSG_LOG_SIZE * sizeof(LoggedMsg), OS_WRITE);
+    SsSram_ReadWrite(SRAM_BASE_ADDR + SLOT_OFFSET(2), &header, 16, OS_WRITE);
+    SsSram_ReadWrite(SRAM_BASE_ADDR + SLOT_OFFSET(2) + 16, this->msgLog, MSG_LOG_SIZE * sizeof(LoggedMsg), OS_WRITE);
     
 #endif    
     

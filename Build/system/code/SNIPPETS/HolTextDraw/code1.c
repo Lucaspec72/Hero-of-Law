@@ -192,10 +192,8 @@ int HoL_DrawMessageTextImpl(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 
         *useSquareEnd = false;
         msgUnskippable = false;
     }
-    
-    int typeoutTo = isTyper ? MIN(200, msgCtx->textDrawPos) : 200;
-    
-    for (i = 0; i < typeoutTo; i++) 
+
+    for (i = 0; i < (isTyper ? MIN(200, msgCtx->textDrawPos) : 200); i++) 
     {
         curChar = (u8)msgData[i];
         curCharSFXDisabled = false;
@@ -204,14 +202,18 @@ int HoL_DrawMessageTextImpl(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 
         {
             // Unused tags
             case MESSAGE_OCARINA:
-            case MESSAGE_BACKGROUND:
             case MESSAGE_EVENT:
-            case MESSAGE_TEXTID:
             case MESSAGE_AWAIT_BUTTON_PRESS:
             case MESSAGE_NOP:
             {
                 break;
-            }         
+            }     
+            case MESSAGE_BACKGROUND:
+            {
+                i += 3;
+                break;
+            }             
+            case MESSAGE_TEXTID:
             case MESSAGE_FADE2:
             {
                 i += 2;
@@ -440,36 +442,48 @@ int HoL_DrawMessageTextImpl(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 
                     // This is way more complex than in the original code because it needs to account for multiple
                     // characters being printed per frame
                     if (i >= lastDIAt && (msgCtx->msgMode == MSGMODE_TEXT_DISPLAYING ||
-                                                         (msgCtx->msgMode >= MSGMODE_OCARINA_STARTING &&
-                                                          msgCtx->msgMode < MSGMODE_SCARECROW_LONG_RECORDING_START))) 
+                                         (msgCtx->msgMode >= MSGMODE_OCARINA_STARTING &&
+                                          msgCtx->msgMode < MSGMODE_SCARECROW_LONG_RECORDING_START))) 
                     {
                                                     
                         int j = i;
                         lastDIAt = i + 1;
                         
+                        // Walk through the message until we find a place to stop
                         while (true) 
                         {
                             u8 character = (u8)msgData[j];
                             
-                            if (character == MESSAGE_SHIFT)
+                            switch (character)
                             {
-                                j += 2;
+                                case MESSAGE_COLOR:
+                                case MESSAGE_TEXT_SPEED:
+                                case MESSAGE_ITEM_ICON:
+                                case MESSAGE_SHIFT:                     j += 2; break;
+                                case MESSAGE_TEXTID:
+                                case MESSAGE_SFX:                       j += 3; break;
+                                case MESSAGE_BACKGROUND:                j += 4; break;
+                                case MESSAGE_QUICKTEXT_DISABLE:
+                                case MESSAGE_PERSISTENT:
+                                case MESSAGE_EVENT:
+                                case MESSAGE_BOX_BREAK:
+                                case MESSAGE_BOX_BREAK_DELAYED:
+                                case MESSAGE_AWAIT_BUTTON_PRESS:
+                                case MESSAGE_END:
+                                case CHAR_NULL:
+                                case MESSAGE_FADE:
+                                case MESSAGE_FADE2:                     goto exit_loop;
+                                default:                                j += 1; break;   
                             }
-                            else if ((character != MESSAGE_QUICKTEXT_DISABLE) && (character != MESSAGE_PERSISTENT) &&
-                                     (character != MESSAGE_EVENT) && (character != MESSAGE_BOX_BREAK_DELAYED) &&
-                                     (character != MESSAGE_AWAIT_BUTTON_PRESS) && (character != MESSAGE_BOX_BREAK) &&
-                                     (character != MESSAGE_END))
-                                     {
-                                        j++;
-                                     }
-                                     else
-                                         break;
                         }
+                        
+                        exit_loop:
                         
                         i = j - 1;
                         lastCommaAt = i + 1;
                         msgCtx->textDrawPos = i + 1;
                         curCharSFXDisabled = true;
+                        
                     }
                 }
                 break;  
@@ -555,15 +569,16 @@ int HoL_DrawMessageTextImpl(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 
                 {
                     if (msgCtx->msgMode == MSGMODE_TEXT_DISPLAYING) 
                     {                        
+                        msgCtx->msgMode = MSGMODE_TEXT_DONE;  
+                
                         if (msgCtx->textboxEndType == TEXTBOX_ENDTYPE_DEFAULT) 
                         {
                             Font_LoadMessageBoxIcon(font, *useSquareEnd ? TEXTBOX_ICON_SQUARE : TEXTBOX_ICON_TRIANGLE);
                             charLast = 0;
                         }
-                    }
-                    
-                    gTextboxPaused = UNPAUSED_OR_ENDED;
-                    msgCtx->msgMode = MSGMODE_TEXT_DONE;                    
+                        
+                        gTextboxPaused = UNPAUSED_OR_ENDED;
+                    }                 
                 }
 
                 i = 200;
@@ -572,7 +587,7 @@ int HoL_DrawMessageTextImpl(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 
             case MESSAGE_FADE:
             {
                 if (isTyper)
-                {                
+                {           
                     if (msgCtx->msgMode == MSGMODE_TEXT_DISPLAYING) 
                     {
                         Font_LoadMessageBoxIcon(font, *useSquareEnd  ? TEXTBOX_ICON_SQUARE : TEXTBOX_ICON_TRIANGLE);
