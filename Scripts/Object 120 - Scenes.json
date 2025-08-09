@@ -20657,7 +20657,7 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "...!"
+                "... !"
               ],
               "Type": 0,
               "Position": 0
@@ -20665,7 +20665,7 @@
             {
               "Name": "MALON10",
               "MessageTextLines": [
-                "<DI><SOUND:EXPLOSION><R>\"Gamin pathétique\"<W>?!<PAUSE:3> ",
+                "<DI><SOUND:EXPLOSION><R>\"Gamin pathétique\"<W> ?!<PAUSE:3> ",
                 "Qu'est-ce qui vous donne le droit de<EMDASH><FADE:5>"
               ],
               "Type": 0,
@@ -20766,7 +20766,7 @@
               "Name": "LINK40",
               "MessageTextLines": [
                 "<SOUND:WHAP><DI>Votre Honneur !<PAUSE:3><DC> Vous ne pouvez ",
-                "pas autoriser cet hommme à insulter ",
+                "pas autoriser cet homme à insulter ",
                 "l'accusée comme ça !"
               ],
               "Type": 0,
