@@ -20835,11 +20835,11 @@
                 "<SOUND:0><C>(Un barbare grossier venu de ",
                 "la <R>Vallée Gerudo<C>...)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(Il parait qu'il est fier de son palmarès ",
+                "<SOUND:0><C>(Il paraît qu'il est fier de son palmarès ",
                 "presque sans échecs qu'il entretient depuis ",
                 "des décennies.)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(...Le tout en manquant de respect à toute ",
+                "<SOUND:0><C>(... Le tout en manquant de respect à toute ",
                 "la cour, le juge compris !) "
               ],
               "Type": 0,
@@ -20857,7 +20857,7 @@
             {
               "Name": "LINK60",
               "MessageTextLines": [
-                "<SOUND:0><C>(...Il en a l'air, au moins.<PAUSE:5><SOUND:EXPLOSION><DI> Qui porte des ",
+                "<SOUND:0><C>(... Il en a l'air, du moins.<PAUSE:5><SOUND:EXPLOSION><DI> Qui porte des ",
                 "armures complètes au tribunal ?!)"
               ],
               "Type": 0,
@@ -20913,7 +20913,7 @@
             {
               "Name": "LINK80",
               "MessageTextLines": [
-                "<SOUND:0><C>(...ce qui m'inquiète.)",
+                "<SOUND:0><C>(... ce qui m'inquiète.)",
                 "<NEW_BOX>",
                 "<SOUND:0><C>(Elle pourrait pas faire une erreur juste ",
                 "pour cette fois ?)<SQUARE>"
