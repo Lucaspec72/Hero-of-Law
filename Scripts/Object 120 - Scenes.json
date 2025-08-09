@@ -35505,7 +35505,7 @@
             {
               "Name": "ZELDA40",
               "MessageTextLines": [
-                "...!"
+                "... !"
               ],
               "Type": 0,
               "Position": 0
@@ -35576,8 +35576,8 @@
               "MessageTextLines": [
                 "Votre Altesse.",
                 "<NEW_BOX>",
-                "La cour de justice n'est pas un terrain",
-                "de jeu pour caprices royaux."
+                "Le tribunal n'est pas un terrain de jeu ",
+                "pour caprices royaux."
               ],
               "Type": 0,
               "Position": 0
@@ -35587,7 +35587,7 @@
               "MessageTextLines": [
                 "Dans ces conditions,<PAUSE:3> je crains que",
                 "nous devions<SOUND:HINT> rayer vos déclarations",
-                "du Dossier de l'affaire."
+                "du dossier de l'affaire."
               ],
               "Type": 0,
               "Position": 0
