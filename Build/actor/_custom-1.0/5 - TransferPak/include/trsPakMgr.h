@@ -56,10 +56,15 @@ u8 LA_SAVESLOT_MAGIC[] = {0x01, 0x03, 0x05, 0x07, 0x09};
 
 u8 GB_CAMERA_MAGIC[] = {0x4D, 0x61, 0x67, 0x69, 0x63};
 
-char* waitMessage[] = 
-{
-    "\x08""Accessing the Transfer Pak...\x01""\x05""\x41""Do not remove the Transfer Pak or touch\x01""the POWER switch.\x05""\x40""\x0E""\x14""\x02\0x00",    
-    "\x08""Accessing the Transfer Pak...\x01""\x05""\x41""Do not remove the Transfer Pak or touch\x01""the POWER switch.\x05""\x40""\x0E""\x14""\x02\0x00", 
+//char* waitMessage[] =
+//{
+//    "\x08""Accessing the Transfer Pak...\x01""\x05""\x41""Do not remove the Transfer Pak or touch\x01""the POWER switch.\x05""\x40""\x0E""\x14""\x02\0x00",
+//    "\x08""Accessing the Transfer Pak...\x01""\x05""\x41""Do not remove the Transfer Pak or touch\x01""the POWER switch.\x05""\x40""\x0E""\x14""\x02\0x00",
+//};
+// TODO: add multilanguage support for this message.
+char* waitMessage[] = {
+    "\x08""Lecture du Transfer Pak en cours...\x01""\x05""\x41""Ne retirez pas le Transfer Pak.\x01Ne touchez pas au bouton POWER.\x05""\x40""\x0E""\x14""\x02\0x00",
+    "\x08""Ecriture dans le Transfer Pak en cours...\x01""\x05""\x41""Ne retirez pas le Transfer Pak.\x01Ne touchez pas au bouton POWER.\x05""\x40""\x0E""\x14""\x02\0x00",
 };
 
 char emptyName[] = "?????";
