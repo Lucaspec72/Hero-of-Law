@@ -697,7 +697,7 @@
             {
               "Name": "Autopsy",
               "MessageTextLines": [
-                "<Y>Rapport d'autopsie<W>",
+                "<Y>Rapport d'Autopsie<W>",
                 "\"Plaie profonde et irrégulière",
                 "infligée par un objet métallique",
                 "tranchant. La victime est décédée",
@@ -720,7 +720,7 @@
             {
               "Name": "RanchInventory",
               "MessageTextLines": [
-                "<Y>Inventaire du ranch<W>",
+                "<Y>Inventaire du Ranch<W>",
                 "Une liste des équipements ",
                 "du ranch. Appuyez",
                 "sur <B><A Button><W> pour plus de détails.<PERSISTENT>"
@@ -22001,7 +22001,7 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "De qui est impliqué...?",
+                "De qui est impliqué... ?",
                 "<NEW_BOX>",
                 "Est-ce que la mort du patron du ranch ",
                 "est si importante que ça pour le Roi ? "
@@ -22434,7 +22434,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Les raisons de l'arrestation\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Les Raisons de l'Arrestation\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
