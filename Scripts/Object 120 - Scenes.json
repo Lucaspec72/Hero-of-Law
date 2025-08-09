@@ -26165,7 +26165,7 @@
             {
               "Name": "2_LINK30",
               "MessageTextLines": [
-                "<C>(...Ok, on dirait que l'emplacement de la ",
+                "<C>(... Ok, on dirait que l'emplacement de la ",
                 "scène de crime est confirmé.<PAUSE:5> Mais je ne ",
                 "vais pas abandonner pour autant !)<SQUARE>"
               ],
@@ -26200,7 +26200,7 @@
               "Name": "3_DRAGMIRE20",
               "MessageTextLines": [
                 "Si vous avez écouté le reste de ce qu'a ",
-                "dit l'Inspectrice,<PAUSE:5> vous avez dû remarquer ",
+                "dit l'inspectrice,<PAUSE:5> vous avez dû remarquer ",
                 "qu'elle a mentionné un <R>alibi<W>."
               ],
               "Type": 0,
@@ -26577,7 +26577,7 @@
               "MessageTextLines": [
                 "J'ai juste envie d'être sûr à propos d'un ",
                 "élément...<PAUSE:3> l'état actuel de la scie est le ",
-                "même qu'au moment où vous l'avez trouvé ",
+                "même qu'au moment où vous l'avez trouvée ",
                 "sur la scène de crime ?"
               ],
               "Type": 0,
@@ -26596,7 +26596,7 @@
               "MessageTextLines": [
                 "C'est étrange.<PAUSE:10> En prenant en compte le ",
                 "saignement abondant de la victime, et la ",
-                "profondeur de la plaie......"
+                "profondeur de la plaie..."
               ],
               "Type": 0,
               "Position": 0
@@ -26604,7 +26604,7 @@
             {
               "Name": "LINK40",
               "MessageTextLines": [
-                "<DI><SOUND:DON>...pourquoi n'y a-t-il pas de sang sur ",
+                "<DI><SOUND:DON>... pourquoi n'y a-t-il pas de sang sur ",
                 "l'arme du crime supposée ?"
               ],
               "Type": 0,
@@ -26621,7 +26621,7 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "...<PAUSE:10><SOUND:CLUE>Hein ?"
+                "...<PAUSE:10><SOUND:CLUE> Hein ?"
               ],
               "Type": 0,
               "Position": 0
@@ -26734,7 +26734,7 @@
             {
               "Name": "MALON5",
               "MessageTextLines": [
-                "Bon...<PAUSE:5> Alors que je faisais une dernière ",
+                "Baah...<PAUSE:5> Alors que je faisais une dernière ",
                 "inspection autour du ranch, j'ai remarqué ",
                 "qu'une <SOUND:CLUE>partie de la clôture autour du ",
                 "paddock des chevaux était endommagée..."
@@ -26747,7 +26747,7 @@
               "MessageTextLines": [
                 "Je ne suis plus trop sûre de quand ça s'est ",
                 "produit, mais parfois un des chevaux ",
-                "devient un peu...<SOUND:HINT>trop turbulent, tu vois ?"
+                "devient un peu...<SOUND:HINT> trop turbulent, tu vois ?"
               ],
               "Type": 0,
               "Position": 0
@@ -26803,7 +26803,7 @@
                 "<NEW_BOX>",
                 "En fait, j'étais en route vers la maison du ",
                 "ranch pour demander à Père de m'aider ",
-                "avec la clotûre....."
+                "avec la clotûre..."
               ],
               "Type": 0,
               "Position": 0
