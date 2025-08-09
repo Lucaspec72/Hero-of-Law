@@ -531,7 +531,7 @@ char* micMsg = "\x05""\x46""\xA6""\x05""\x40"" MIC\x02";
 char* micMsgJpn[] = { "\"IGIARI!\"", "\"MATTA!\"", "\"KURAE!\"" };
 char* micMsgEng[] = { "\"OBJECTION!\"", "\"HOLD IT!\"", "\"TAKE THAT!\"" };
 
-char* logMsg = "\x05""\x41""\xF8""\x05""\x40"" History\x02";
+char* logMsg = "\x05""\x41""\xF8""\x05""\x40"" Historique\x02";
 
 Color_RGB8 explosionTextColor = {.r = 70, .g = 255, .b = 80};
 Color_RGBA8 msgLogBackgroundColor = {.r = 0, .g = 0, .b = 0, .a = 127};
