@@ -892,9 +892,9 @@
             {
               "Name": "WaresList",
               "MessageTextLines": [
-                "<Y>Liste de biens<W>",
+                "<Y>Liste d'objets<W>",
                 "La liste des objets vendus dans ",
-                "le Bazar du Centre au Village des Mouettes.",
+                "le Bazar du Centre à Cocolint.",
                 "Appuyez sur <B><A Button><W> pour la voir.<PERSISTENT>"
               ],
               "Type": 1,
@@ -10031,7 +10031,7 @@
             {
               "Name": "FA_DRAGMIRE20",
               "MessageTextLines": [
-                "Il est Avocat!<PAUSE:5> Les Avocats sont<SOUND:HINT> très",
+                "Il est Avocat !<PAUSE:5> Les Avocats sont<SOUND:HINT> très",
                 "intelligents.<PAUSE:10><SOUND:CLUE> Clairement, nous devrions",
                 "croire tout ce qu'il dit sur parole sans",
                 "la moindre hésitation."
@@ -87693,8 +87693,7 @@
               "MessageTextLines": [
                 "<DI><G>Il l'a fait plus d'une fois, ce p'tit voyou !!",
                 "Mais pour quoi faire, j'vous l'demande ?",
-                "Tout est si peu cher...! J'vous jure, ",
-                "j'devrais<EMDASH><PERSISTENT>"
+                "Tout est si peu cher...! J'vous jure, j'devrais<EMDASH><PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
