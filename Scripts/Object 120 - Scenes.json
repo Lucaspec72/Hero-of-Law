@@ -25874,7 +25874,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Les raisons de l'arrestation\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Les Raisons de l'Arrestation\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -26022,7 +26022,7 @@
             {
               "Name": "BANTER_LINK20",
               "MessageTextLines": [
-                "...Ceci dit, je pense que<SOUND:CLUE> <R>si<W> il y a une ",
+                "...Ceci dit, je pense que<SOUND:CLUE> <R>si<W> on a une ",
                 "piste... Ça doit être ça !   "
               ],
               "Type": 0,
