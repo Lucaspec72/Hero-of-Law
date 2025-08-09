@@ -742,7 +742,7 @@
             {
               "Name": "Shipment1",
               "MessageTextLines": [
-                "<Y>Cargaisons de lait<W>",
+                "<Y>Cargaisons de Lait<W>",
                 "Des commandes de lait qui",
                 "ont quitté le ranch peu",
                 "de temps après le crime.<PERSISTENT>"
@@ -23866,7 +23866,7 @@
               "Name": "LINK30",
               "MessageTextLines": [
                 "Eh bien, c'est là que j'interviens en ",
-                "procédant à un<SOUND:CLUE><R> contre-interrogatoire.<W>. "
+                "procédant à un<SOUND:CLUE><R> contre-interrogatoire<W>. "
               ],
               "Type": 0,
               "Position": 0
@@ -24161,7 +24161,7 @@
             {
               "Name": "1_JUDGE_VRS",
               "MessageTextLines": [
-                "<SOUND:WHAP>Ho, ho!<PAUSE:5> Je n'avais jamais entendu ",
+                "<SOUND:WHAP>Ho, ho !<PAUSE:5> Je n'avais jamais entendu ",
                 "une telle objection ! "
               ],
               "Type": 0,
