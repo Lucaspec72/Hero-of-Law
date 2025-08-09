@@ -16969,7 +16969,7 @@
               "MessageTextLines": [
                 "<DI><SOUND:WHAP>Bien sûr que je te crois !",
                 "<New_box>",
-                "...Même si, pour être honnête, tout n'est ",
+                "... Même si, pour être honnête, tout n'est ",
                 "pas très clair pour l'instant."
               ],
               "Type": 0,
@@ -16987,7 +16987,7 @@
             {
               "Name": "2_MALON10",
               "MessageTextLines": [
-                "<DI><SOUND:EXPLOSION>Ah ah, très drôle...!"
+                "<DI><SOUND:EXPLOSION>Ah ah, très drôle... !"
               ],
               "Type": 0,
               "Position": 0
@@ -16998,7 +16998,7 @@
                 "Ah, ah, pardon !<PAUSE:3> ",
                 "<SOUND:WHAP><DI>Bien sûr que je te crois !",
                 "<New_box>",
-                "...Même si, pour être honnête, tout n'est ",
+                "... Même si, pour être honnête, tout n'est ",
                 "pas très clair pour l'instant."
               ],
               "Type": 0,
@@ -17018,7 +17018,7 @@
                 "<C>(J'aimerais tellement savoir comment ",
                 "l'encourager là tout de suite...)",
                 "<NEW_BOX>",
-                "<C><PAUSE:5>(...J'ai jamais été fort pour les discours ",
+                "<C><PAUSE:5>(... J'ai jamais été fort pour les discours ",
                 "de motivation...)"
               ],
               "Type": 0,
@@ -17041,7 +17041,7 @@
             {
               "Name": "MALON_n10",
               "MessageTextLines": [
-                "Oh...?"
+                "Oh... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -17057,7 +17057,7 @@
             {
               "Name": "MALON_n30",
               "MessageTextLines": [
-                "<SOUND:0><SOUND:CLUE>...?"
+                "<SOUND:0><SOUND:CLUE>... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -17065,7 +17065,7 @@
             {
               "Name": "LINK_n40",
               "MessageTextLines": [
-                "Un problème...?"
+                "Un problème... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -17160,7 +17160,7 @@
               "MessageTextLines": [
                 "...Mmmh.<PAUSE:3> T'es en train d'essayer <SOUND:CLUE>de me ",
                 "faire penser à autre chose qu'au ",
-                "procès, c'est ça...? "
+                "procès, c'est ça... ? "
               ],
               "Type": 0,
               "Position": 0
@@ -17169,7 +17169,7 @@
               "Name": "LINK_n90",
               "MessageTextLines": [
                 "Eheh, humm... <SOUND:0>",
-                "<PAUSE:3><C>(C'était si évident que ça...?)"
+                "<PAUSE:3><C>(C'était si évident que ça... ?)"
               ],
               "Type": 0,
               "Position": 0
@@ -17214,12 +17214,12 @@
                 "<SOUND:0><C>(J'aimerais tellement savoir comment ",
                 "l'encourager là tout de suite...)",
                 "<NEW_BOX>",
-                "<C><PAUSE:5><DI><DC>(...Je ne suis pas particulièrement à l'aise ",
+                "<C><PAUSE:5><DI><DC>(... Je ne suis pas particulièrement à l'aise ",
                 "dans la gestion des clients à forte charge ",
                 "émotionnelle....)",
                 "<New_box>",
                 "<PAUSE:3><SPEED:101>Hé,<PAUSE:5> t-<SPEED:102>tu sais,<PAUSE:3> cette photo pourrait être ",
-                "très utile pour le procès...!"
+                "très utile pour le procès... !"
               ],
               "Type": 0,
               "Position": 0
@@ -17274,8 +17274,8 @@
                 "<SOUND:0><C>(Au moins, je vais y aller avec",
                 "<SOUND:WHAP>UN TRUC en dehors de mon <R>badge<C>...) ",
                 "<NEW_BOX>",
-                "<C>(...mais attends !<PAUSE> On devrait arrêter de ",
-                "parler comme si de rien n'était...!)"
+                "<C>(... mais attends !<PAUSE> On devrait arrêter de ",
+                "parler comme si de rien n'était... !)"
               ],
               "Type": 0,
               "Position": 0
