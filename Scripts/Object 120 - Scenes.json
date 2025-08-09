@@ -28588,7 +28588,7 @@
             {
               "Name": "ZELDA5",
               "MessageTextLines": [
-                "...mais devant cette table, une scène",
+                "... mais devant cette table, une scène",
                 "terrifiante était en train de se dérouler !<PAUSE:5> ",
                 "L'accusée <SOUND:STAB>sciait la poitrine du maître",
                 "des lieux avec la scie qu'elle tenait !"
@@ -29357,7 +29357,7 @@
             {
               "Name": "DRAGMIRE20",
               "MessageTextLines": [
-                "...Voilà !<PAUSE:10> Un témoignage décisif !"
+                "... Voilà !<PAUSE:10> Un témoignage décisif !"
               ],
               "Type": 0,
               "Position": 0
@@ -31464,7 +31464,7 @@
             {
               "Name": "ZELDA5",
               "MessageTextLines": [
-                "<DI><G>...mais devant cette table, une scène",
+                "<DI><G>... mais devant cette table, une scène",
                 "terrifiante était en train de se dérouler !",
                 "L'accusée <SOUND:STAB>sciait la poitrine du maître",
                 "des lieux avec la scie qu'elle tenait !<PERSISTENT>"
@@ -31500,7 +31500,7 @@
                 "n'a sûrement pas pu essuyer la lame",
                 "sous les yeux de la princesse...)",
                 "<NEW_BOX>",
-                "<SOUND:0><C><PAUSE:5><DI><DC>(...mais ce n'est pas<SOUND:CLUE> TOTALEMENT",
+                "<SOUND:0><C><PAUSE:5><DI><DC>(... mais ce n'est pas<SOUND:CLUE> TOTALEMENT",
                 "impossible non plus.)",
                 "<NEW_BOX>",
                 "<SOUND:0><C>(Y a un détail bien plus accablant dans",
@@ -31540,7 +31540,7 @@
             {
               "Name": "CONS_MALON30",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Elle ne peut pas dire la vérité...!"
+                "<SOUND:EXPLOSION>Elle ne peut pas dire la vérité... !"
               ],
               "Type": 0,
               "Position": 0
@@ -31584,7 +31584,7 @@
               "Name": "B_MALON30",
               "MessageTextLines": [
                 "Même si c'est la princesse, ça ne veut",
-                "rien dire !<PAUSE:10><SOUND:EXPLOSION><DI> Je ne l'ai pas fait !"
+                "rien dire !<PAUSE:10><SOUND:EXPLOSION><DI> Je n'ai rien fait !"
               ],
               "Type": 0,
               "Position": 0
@@ -31833,7 +31833,7 @@
               "Name": "4_JUDGE10",
               "MessageTextLines": [
                 "<SPEED:103>L'accusée va modérer ses emportements !<PAUSE:3> <SOUND:WHAP><DI><SPEED:102>",
-                "Vous vous adressez à la royauté !"
+                "C'est à la royauté que vous vous adressez !"
               ],
               "Type": 0,
               "Position": 0
@@ -31954,7 +31954,7 @@
             {
               "Name": "4_2_ZELDA20",
               "MessageTextLines": [
-                "...Quoique, j'ai vu un ouvrier arriver",
+                "... Quoique, j'ai vu un ouvrier arriver",
                 "plus tard avec une charrette chargée,",
                 "quand un coursier est venu poser des",
                 "questions sur les livraisons de lait."
@@ -32081,8 +32081,8 @@
             {
               "Name": "4_3_JUDGE20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Faites immédiatement cesser cette",
-                "ligne de questions !"
+                "<SOUND:WHAP><DI>Cessez immédiatement cet angle ",
+                "d'argumentation !"
               ],
               "Type": 0,
               "Position": 0
@@ -32869,7 +32869,7 @@
             {
               "Name": "ZELDA3",
               "MessageTextLines": [
-                "...mais cela a forcément eu lieu peu",
+                "... mais cela a forcément eu lieu peu",
                 "avant que j'entre dans la maison du",
                 "ranch."
               ],
@@ -33246,7 +33246,7 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Maintenant, Si je pouvais juste en",
+                "<SOUND:0><C>(Maintenant, si je pouvais juste en",
                 "trouver une autre du même genre, le",
                 "témoignage de la princesse perdrait",
                 "<SOUND:CLUE><R>toute crédibilité<C> aux yeux du juge !)<SQUARE>"
@@ -34748,7 +34748,7 @@
             {
               "Name": "ZELDA3",
               "MessageTextLines": [
-                "<DI><G>...mais cela a forcément eu lieu peu",
+                "<DI><G>... mais cela a forcément eu lieu peu",
                 "avant que j'entre dans la maison du",
                 "ranch.<PERSISTENT>"
               ],
