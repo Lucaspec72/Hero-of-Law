@@ -89306,7 +89306,7 @@
               "Name": "LINK160",
               "MessageTextLines": [
                 "Oh, donc vous avez accepté tout le reste, ",
-                "mais le hibou c'est trop !?"
+                "mais le hibou c'est trop ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -92721,7 +92721,7 @@
             {
               "Name": "C_KOHOLINK10",
               "MessageTextLines": [
-                "...T'as fait exprès de te faire pénaliser",
+                "... T'as fait exprès de te faire pénaliser",
                 "juste parce que tu voulais voir ce que ",
                 "j'avais à dire ?"
               ],
@@ -92741,7 +92741,7 @@
               "MessageTextLines": [
                 "Oh purée !<PAUSE:5> Tu sais pas ce que ",
                 "j'aurais fait juste pour pouvoir interroger ",
-                "ce hibou comme ça plus tôt.."
+                "ce hibou comme ça plus tôt."
               ],
               "Type": 0,
               "Position": 0
@@ -92853,7 +92853,7 @@
               "MessageTextLines": [
                 "Peut-être que,<PAUSE:5> peu importe combien de ",
                 "temps vous auriez navigué,<PAUSE:5> l'île ne se ",
-                "serait jamais effacée de votre vue....",
+                "serait jamais effacée de votre vue...",
                 "<NEW_BOX>",
                 "<PAUSE:5>La mer serait sans fin, à la manière d'un ",
                 "escalier infini...<PAUSE:5> jusqu'à ce que vous vous ",
@@ -92874,7 +92874,7 @@
             {
               "Name": "2_KOHOLINK10",
               "MessageTextLines": [
-                "<SOUND:STAB>Hiii...!<PAUSE:5> C'est une possibilité ?!"
+                "<SOUND:STAB>Hiii... !<PAUSE:5> C'est une possibilité ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -92959,7 +92959,7 @@
             {
               "Name": "3_OWL60",
               "MessageTextLines": [
-                "<SPEED:101>...Oui...<SPEED:102><PAUSE:3> Il semblerait que nos mondes",
+                "<SPEED:101>... Oui...<SPEED:102><PAUSE:3> Il semblerait que nos mondes",
                 "soient peut-être bien plus différents l'un ",
                 "de l'autre...<PAUSE:3><SOUND:CLUE><SPEED:101> que je ne le pensais...<SPEED:102>"
               ],
@@ -93042,7 +93042,7 @@
               "MessageTextLines": [
                 "<C>(Il a remarqué, lui aussi...<PAUSE:3> ",
                 "Est-ce que ce serait juste une ",
-                "coïncidence...?)"
+                "coïncidence... ?)"
               ],
               "Type": 0,
               "Position": 0
@@ -93100,7 +93100,7 @@
               "MessageTextLines": [
                 "C'est peut-être même la raison pour ",
                 "laquelle Sa Grâce a choisi de nous ",
-                "envoyer dans ce monde...."
+                "envoyer dans ce monde..."
               ],
               "Type": 0,
               "Position": 0
@@ -93108,7 +93108,7 @@
             {
               "Name": "3_LINK20",
               "MessageTextLines": [
-                "...Tu as la moindre idée de quoi il parle...?"
+                "... Tu as la moindre idée de quoi il parle... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -93150,7 +93150,7 @@
               "Name": "3_LINK50",
               "MessageTextLines": [
                 "<SOUND:HINT>Bon, est-ce qu'on peut revenir au sujet ",
-                "qui nous importe...?"
+                "qui nous importe... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -93185,7 +93185,7 @@
             {
               "Name": "4_OWL10",
               "MessageTextLines": [
-                "<SOUND:OWLHOOT>Houu <SOUND:OWLHOOT>hou~ <SOUND:OWLHOOT>hou~ <SOUND:OWLHOOT>hou~!<PAUSE:8> ",
+                "<SOUND:OWLHOOT>Houu <SOUND:OWLHOOT>hou~ <SOUND:OWLHOOT>hou~ <SOUND:OWLHOOT>hou~ !<PAUSE:8> ",
                 "Bien sûr que non, très cher avocat."
               ],
               "Type": 0,
@@ -93212,7 +93212,7 @@
             {
               "Name": "4_LINK30",
               "MessageTextLines": [
-                "...D'accord.<PAUSE:5> Mais, euuh...<PAUSE:5> que vouliez ",
+                "... D'accord.<PAUSE:5> Mais, euuh...<PAUSE:5> que vouliez ",
                 "vous dire avec la dernière partie de votre ",
                 "phrase ?"
               ],
@@ -93223,7 +93223,7 @@
               "Name": "4_LINK40",
               "MessageTextLines": [
                 "Est-ce que quelque chose arrivera à ",
-                "Cocolint si le Poisson-Rêve se réveille...?"
+                "Cocolint si le Poisson-Rêve se réveille... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -93231,7 +93231,7 @@
             {
               "Name": "4_OWL40",
               "MessageTextLines": [
-                "...<PAUSE:5>L'île Cocolint est un endroit magique né ",
+                "...<PAUSE:5> L'île Cocolint est un endroit magique né ",
                 "du sommeil du Poisson-Rêve."
               ],
               "Type": 0,
@@ -93250,7 +93250,7 @@
             {
               "Name": "4_LINK50",
               "MessageTextLines": [
-                "<SOUND:SHOCK>Vous voulez dire...!"
+                "<SOUND:SHOCK>Vous voulez dire... !"
               ],
               "Type": 0,
               "Position": 0
@@ -93333,7 +93333,7 @@
             {
               "Name": "4_LINK75",
               "MessageTextLines": [
-                "<C>(...Des villages d'animaux qui parlent ?<PAUSE:5> J'ai ",
+                "<C>(... Des villages d'animaux qui parlent ?<PAUSE:5> J'ai ",
                 "dû rater cette information...)"
               ],
               "Type": 0,
@@ -93343,7 +93343,7 @@
               "Name": "4_LINK80",
               "MessageTextLines": [
                 "Qu'en est-il des habitants alors ?<PAUSE:5> ",
-                "Où iront-ils une fois l'île disparue...?"
+                "Où iront-ils une fois l'île disparue... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -93360,7 +93360,7 @@
               "Name": "LINK10",
               "MessageTextLines": [
                 "Après tout ce qu'on a entendu ici,<PAUSE:5><SOUND:CLUE> je pense ",
-                "qu'une chose est devenue claire...."
+                "qu'une chose est devenue claire..."
               ],
               "Type": 0,
               "Position": 0
@@ -93496,7 +93496,7 @@
             {
               "Name": "DRAGMIRE20",
               "MessageTextLines": [
-                "...juste pour faire<SOUND:CLUE> de ce procès une ",
+                "... juste pour faire<SOUND:CLUE> de ce procès une ",
                 "blague ?"
               ],
               "Type": 0,
@@ -93550,7 +93550,7 @@
             {
               "Name": "LINK60",
               "MessageTextLines": [
-                "...?"
+                "... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -93586,7 +93586,7 @@
               "Name": "DRAGMIRE80",
               "MessageTextLines": [
                 "Dites-moi,<PAUSE:5> est-ce que ces instruments ",
-                "étaient tout ce qu'il y avait à l'intérieur...?"
+                "étaient tout ce qu'il y avait à l'intérieur... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -93594,7 +93594,7 @@
             {
               "Name": "OWL30",
               "MessageTextLines": [
-                "<SOUND:CLUE><SOUND:OWLHOOT>Houu...?<PAUSE:10> ",
+                "<SOUND:CLUE><SOUND:OWLHOOT>Houu... ?<PAUSE:10> ",
                 "<SPEED:101>Non, je suppose qu'il y avait autre chose, ",
                 "<SOUND:OWLHOOT>houu.<SPEED:102>"
               ],
@@ -93700,7 +93700,7 @@
             {
               "Name": "LINK100",
               "MessageTextLines": [
-                "<SOUND:SHOCK>Ah...!"
+                "<SOUND:SHOCK>Ah... !"
               ],
               "Type": 0,
               "Position": 0
@@ -93724,7 +93724,7 @@
                 "<NEW_BOX>",
                 "Ou...<PAUSE:5> peut-être que ce vil serpent avait ",
                 "l'intention de garder tous les trésors juste ",
-                "pour lui...?"
+                "pour lui... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -93750,7 +93750,7 @@
             {
               "Name": "DRAGMIRE160",
               "MessageTextLines": [
-                "<NS><SOUND:DON><DI>...Mais je dirais que cette raison n'était ",
+                "<NS><SOUND:DON><DI>... Mais je dirais que cette raison n'était ",
                 "rien d'autre que de l'égoïsme !<FADE:60>"
               ],
               "Type": 0,
@@ -93793,7 +93793,7 @@
             {
               "Name": "DRAGMIRE170",
               "MessageTextLines": [
-                "<SOUND:0><SOUND:HINT>...!"
+                "<SOUND:0><SOUND:HINT>... !"
               ],
               "Type": 0,
               "Position": 0
@@ -93801,7 +93801,7 @@
             {
               "Name": "DRAGMIRE180",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Bah...!<PAUSE:5> ",
+                "<SOUND:EXPLOSION>Bah... !<PAUSE:5> ",
                 "Ça ne veut rien dire !"
               ],
               "Type": 0,
@@ -93827,7 +93827,7 @@
             {
               "Name": "JUDGE60",
               "MessageTextLines": [
-                "Hmmm...!<PAUSE:5> Nous sommes en effet dans un ",
+                "Hmmm... !<PAUSE:5> Nous sommes en effet dans un ",
                 "sacré pétrin.",
                 "<NEW_BOX>",
                 "L'accusation a soulevé de bons arguments...<PAUSE:5><SOUND:HINT> ",
@@ -93920,7 +93920,7 @@
             {
               "Name": "OWL120",
               "MessageTextLines": [
-                "...<SOUND:OWLHOOT>Houu !<PAUSE:5> ",
+                "...<SOUND:OWLHOOT> Houu !<PAUSE:5> ",
                 "Je pensais que c'était clair.<PAUSE:5> ",
                 "Mes excuses."
               ],
@@ -93968,7 +93968,7 @@
             {
               "Name": "DRAGMIRE220",
               "MessageTextLines": [
-                "<PAUSE:5>...Eh bien, c'est peut-être la chose la plus ",
+                "<PAUSE:5>... Eh bien, c'est peut-être la chose la plus ",
                 "sensée que vous ayez proposée jusqu'à",
                 "présent, Défense."
               ],
@@ -93989,7 +93989,7 @@
               "Name": "DRAGMIRE235",
               "MessageTextLines": [
                 "Je n'ai pas la moindre idée de comment ",
-                "mon esprit a pu inventer pareille absurdité....<PAUSE:5> ",
+                "mon esprit a pu inventer pareille absurdité...<PAUSE:5> ",
                 "Je n'aurais pas dû boire ce Vaï meets Voï",
                 "avant de dormir..."
               ],
@@ -94020,7 +94020,7 @@
               "MessageTextLines": [
                 "<C>(Pendant ce temps, MON imagination est ",
                 "un peu trop active en ce moment.<PAUSE:5> ",
-                "Et je n'ai pas bu de Vaï meets Voï...!)"
+                "Et je n'ai pas bu de Vaï meets Voï... !)"
               ],
               "Type": 0,
               "Position": 0
@@ -94036,7 +94036,7 @@
             {
               "Name": "LINK180",
               "MessageTextLines": [
-                "...Hein ?"
+                "... Hein ?"
               ],
               "Type": 0,
               "Position": 0
@@ -94080,7 +94080,7 @@
             {
               "Name": "JUDGE100",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>...Procureur Dragmire !<PAUSE:5> ",
+                "<SOUND:WHAP><DI>... Procureur Dragmire !<PAUSE:5> ",
                 "Je refuse de prononcer un verdict erroné !<PAUSE:5> ",
                 "<SOUND:EXPLOSION>Même dans mes rêves !"
               ],
@@ -94099,7 +94099,7 @@
             {
               "Name": "JUDGE120",
               "MessageTextLines": [
-                "...Hmm.<PAUSE:4> Étrange.<PAUSE:6> <SOUND:CLUE>Il semblerait que je n'y ",
+                "... Hmm.<PAUSE:4> Étrange.<PAUSE:6> <SOUND:CLUE>Il semblerait que je n'y ",
                 "arrive pas..."
               ],
               "Type": 0,
@@ -94256,7 +94256,7 @@
                 "Quel que soit l'hôte de ce rêve,<PAUSE:5> <SOUND:HINT>il ",
                 "POURRAIT<PAUSE:5> en effet juste se réveiller...",
                 "<NEW_BOX>",
-                "<PAUSE:5>...Même si j'imagine que la Déesse Hylia ne ",
+                "<PAUSE:5>... Même si j'imagine que la Déesse Hylia ne ",
                 "serait pas ravie de cette conclusion,<PAUSE:5><SOUND:ClUE> après ",
                 "avoir fourni tant d'efforts pour amener son ",
                 "élu ici."
@@ -94267,7 +94267,7 @@
             {
               "Name": "KOHOLINK60",
               "MessageTextLines": [
-                "<PAUSE:5>...C-comment pouvez-vous savoir ça ?"
+                "<PAUSE:5>... C-comment pouvez-vous savoir ça ?"
               ],
               "Type": 0,
               "Position": 0
@@ -94323,7 +94323,7 @@
             {
               "Name": "OWL240",
               "MessageTextLines": [
-                "<PAUSE:5><SOUND:OWLHOOT>...Houu."
+                "<PAUSE:5><SOUND:OWLHOOT>... Houu."
               ],
               "Type": 0,
               "Position": 0
@@ -94354,7 +94354,7 @@
                 "<C>(Alors voilà...<PAUSE:5> Tout se joue ici.)",
                 "<NEW_BOX>",
                 "<C>(Qui est donc ce Poisson-Rêve ?<PAUSE:5> ",
-                "Je dois considérer tous les faits !)<SQUARE>"
+                "Je dois prendre en compte tous les faits !)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
