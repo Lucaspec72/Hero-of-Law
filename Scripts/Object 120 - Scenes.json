@@ -40352,7 +40352,7 @@
             {
               "Name": "ZELDA6",
               "MessageTextLines": [
-                "<DI><G>J'ai suivi l'odeur jusqu'au restes d'un <SOUND:CLUE>feu ",
+                "<DI><G>J'ai suivi l'odeur jusqu'aux restes d'un <SOUND:CLUE>feu ",
                 "éteint non loin de là, ainsi qu'une bouteille",
                 "d'huile de lampe presque vide !<PERSISTENT>"
               ],
@@ -40399,7 +40399,7 @@
             {
               "Name": "B_LINK10",
               "MessageTextLines": [
-                "Savez-vous pourquoi il y aurait eu un",
+                "Tu sais pourquoi il y aurait eu un",
                 "feu au ranch ce jour-là ?"
               ],
               "Type": 0,
