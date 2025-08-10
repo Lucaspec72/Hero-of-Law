@@ -72761,7 +72761,7 @@
             {
               "Name": "Msg7",
               "MessageTextLines": [
-                "<NS>Wah, ah !<PAUSE:5> Très bonne idée !<PAUSE:3> ",
+                "<NS>Ouah, ah !<PAUSE:5> Très bonne idée !<PAUSE:3> ",
                 "Ça lui ferait du bien de juste déconnecter ",
                 "un moment !<FADE:30>"
               ],
@@ -75206,7 +75206,7 @@
             {
               "Name": "CONS_MALON5",
               "MessageTextLines": [
-                "<SPEED:101>\"Par tous les moyens possibles\"...?<SPEED:102>"
+                "<SPEED:101>\"Par tous les moyens possibles\"... ?<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -75377,7 +75377,7 @@
             {
               "Name": "2_DRAGMIRE20",
               "MessageTextLines": [
-                "...Et comme notre inspectrice attitrée nous ",
+                "... Et comme notre inspectrice attitrée nous ",
                 "l'a indiqué, elles étaient <SOUND:CLUE>pleinement chargées ",
                 "de bouteilles de lait."
               ],
@@ -75445,7 +75445,7 @@
                 "Il faut traire les vaches,<PAUSE:2> nettoyer les ",
                 "bouteilles,<PAUSE:2> les remplir de lait,<PAUSE:2> les mettres ",
                 "dans des caisses,<PAUSE:2> et charger le tout dans ",
-                "un chariot."
+                "une charrette."
               ],
               "Type": 0,
               "Position": 0
@@ -79155,7 +79155,7 @@
                 "Cette affaire contient des spoils de",
                 "<R>The Legend of Zelda: Link's Awakening<W>.",
                 "<NEW_BOX>",
-                "Progresser dans cette histoire va effacer",
+                "Avancer dans cette histoire va effacer",
                 "votre progression dans l'histoire principale ",
                 "de <R>Hero of Law<W>.",
                 "<NEW_BOX>",
