@@ -722,7 +722,8 @@
               "MessageTextLines": [
                 "<Y>Inventaire du Ranch<W>",
                 "Une liste des équipements du ranch.",
-                "Appuyez sur <B><A Button><W> pour plus de détails.<PERSISTENT>"
+                "Appuyez sur <B><A Button><W> pour plus de ",
+                "détails.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
