@@ -97907,7 +97907,7 @@
             {
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Alors...?<PAUSE:5> D'où vous vient cet air suffisant ?"
+                "<SOUND:EXPLOSION>Alors... ?<PAUSE:5> D'où vous vient cet air suffisant ?"
               ],
               "Type": 0,
               "Position": 0
@@ -97925,8 +97925,8 @@
             {
               "Name": "DRAGMIRE20",
               "MessageTextLines": [
-                "Non...!<PAUSE:5> ",
-                "Ce n'est pas vrai...!",
+                "Non... !<PAUSE:5> ",
+                "Ce n'est pas vrai... !",
                 "C'est impossiiiible !!!"
               ],
               "Type": 0,
@@ -97944,7 +97944,7 @@
               "Name": "JUDGE10",
               "MessageTextLines": [
                 "Par Hylia !<PAUSE:5> Vous voulez dire...<PAUSE:5> que vous ",
-                "êtes celui...?"
+                "êtes celui... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -97985,7 +97985,7 @@
             {
               "Name": "KOHOLINK10",
               "MessageTextLines": [
-                "<SPEED:101>M-<PAUSE:5><SOUND:CLUE>Marine...?<SPEED:102>"
+                "<SPEED:101>M-<PAUSE:5><SOUND:CLUE>Marine... ?<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -98033,7 +98033,7 @@
             {
               "Name": "JUDGE30",
               "MessageTextLines": [
-                "Ce...!<PAUSE:5><SOUND:EXPLOSION> Je ne tolèrerai pas cela !<PAUSE:5> ",
+                "Ce... !<PAUSE:5><SOUND:EXPLOSION> Je ne tolèrerai pas cela !<PAUSE:5> ",
                 "Vous ne pouvez pas juste vous donner un ",
                 "adversaire plus facile !"
               ],
@@ -98363,7 +98363,7 @@
               "Name": "LETTER_LINK15",
               "MessageTextLines": [
                 "<SOUND:CLUE>Ce n'est pas simplement ta première ",
-                "initiale...?"
+                "initiale... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -98389,7 +98389,7 @@
             {
               "Name": "LINK_LINK10",
               "MessageTextLines": [
-                "<PAUSE:5>...Oh.<PAUSE:5> C'est le même.<PAUSE:5> ",
+                "<PAUSE:5>... Oh.<PAUSE:5> C'est le même.<PAUSE:5> ",
                 "Bien sûr, on a le même nom."
               ],
               "Type": 0,
@@ -98461,7 +98461,7 @@
             {
               "Name": "GANON_KOHOLINK10",
               "MessageTextLines": [
-                "...Ah ah, non.<PAUSE:5> ",
+                "... Ah ah, non.<PAUSE:5> ",
                 "C'est juste une coïncidence."
               ],
               "Type": 0,
@@ -98489,7 +98489,7 @@
             {
               "Name": "MALON_TALON_INGO_KOHOLINK10",
               "MessageTextLines": [
-                "...?"
+                "... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -98507,7 +98507,7 @@
             {
               "Name": "IMPA_KOHOLINK10",
               "MessageTextLines": [
-                "<SOUND:0><SOUND:CLUE>...?"
+                "<SOUND:0><SOUND:CLUE>... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -98515,7 +98515,7 @@
             {
               "Name": "MARIN_LINK10",
               "MessageTextLines": [
-                "...Attends, c'est TON nom ?<PAUSE:5> ",
+                "... Attends, c'est TON nom ?<PAUSE:5> ",
                 "Mais t'as pas justement mentionné ce ",
                 "nom un peu plus tôt ?"
               ],
@@ -98571,7 +98571,7 @@
             {
               "Name": "THIEF_LINK20",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Quoi ?! Ton vrai nom est \"<FONT_TOGGLE>$$$$$<FONT_TOGGLE>\"?!",
+                "<SOUND:EXPLOSION>Quoi ?! Ton vrai nom est \"<FONT_TOGGLE>$$$$$<FONT_TOGGLE>\" ?!",
                 "<NEW_BOX>",
                 "Mais alors pourquoi on est là ?<PAUSE:5> ",
                 "C'était juste une pure perte de temps !"
@@ -98624,7 +98624,7 @@
             {
               "Name": "SKAWO_KOHOLINK20",
               "MessageTextLines": [
-                "<SOUND:HINT>Ah...!"
+                "<SOUND:HINT>Ah... !"
               ],
               "Type": 0,
               "Position": 0
@@ -98633,7 +98633,7 @@
               "Name": "SKAWO_LINK30",
               "MessageTextLines": [
                 "Pour le crime d'usurpation d'identité,<PAUSE:5> je ",
-                "déclare l'accusé...!"
+                "déclare l'accusé... !"
               ],
               "Type": 0,
               "Position": 0
@@ -98642,7 +98642,7 @@
               "Name": "RRWMC_LINK10",
               "MessageTextLines": [
                 "...Hmm, pourquoi ce nom me paraît-il",
-                "familier...?"
+                "familier... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -98672,8 +98672,8 @@
               "MessageTextLines": [
                 "Mais attends un peu, t'avais pas dit que les ",
                 "avocats n'existaient pas dans ton monde ?<PAUSE:5>",
-                "Ton monde a-t-il même des tribunaux...?<PAUSE:8> ",
-                "...Enfin, passons à autre chose."
+                "Ton monde a-t-il même des tribunaux... ?<PAUSE:8> ",
+                "... Enfin, passons à autre chose."
               ],
               "Type": 0,
               "Position": 0
@@ -98707,7 +98707,7 @@
               "Name": "AAAAA_LINK10",
               "MessageTextLines": [
                 "<SOUND:WHAP><DI>AAAAAAAAAAAAAAAAAAAAAAAAAAA !<PAUSE:15> ",
-                "...Comment c'était ?"
+                "... Comment c'était ?"
               ],
               "Type": 0,
               "Position": 0
