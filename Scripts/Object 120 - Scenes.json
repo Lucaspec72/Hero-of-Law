@@ -892,8 +892,8 @@
             {
               "Name": "WaresList",
               "MessageTextLines": [
-                "<Y>Liste de biens<W>",
-                "La liste des biens vendus dans ",
+                "<Y>Liste d'objets<W>",
+                "La liste des objets vendus dans ",
                 "le Bazar du Centre à Cocolint.",
                 "Appuyez sur <B><A Button><W> pour la voir.<PERSISTENT>"
               ],
@@ -50731,7 +50731,7 @@
             {
               "Name": "IMPA60",
               "MessageTextLines": [
-                "Allons, voyons.",
+                "Allez, s'il vous plaît.",
                 "<NEW_BOX>",
                 "Je parle de <SOUND:CLUE>la grande découverte de la ",
                 "princesse, bien sûr."
@@ -50820,7 +50820,7 @@
                 "<NEW_BOX>",
                 "Ça risque d'être compliqué de mettre le ",
                 "sujet du feu sur la table sans que ",
-                "Dragmire ne nous barre la route."
+                "Dragmire nous barre la route."
               ],
               "Type": 0,
               "Position": 0
@@ -50839,7 +50839,7 @@
                 "<SOUND:0><C>(Même si ça ne me plaît pas, elle a raison.)",
                 "<NEW_BOX>",
                 "<SOUND:0><C>(Il n'y a pas vraiment autre chose sur ",
-                "quoi s'appuyer.)",
+                "quoi s'appuyuer.)",
                 "<NEW_BOX>",
                 "Eh bien, euh, merci."
               ],
@@ -50985,10 +50985,10 @@
             {
               "Name": "LINK130",
               "MessageTextLines": [
-                "<SOUND:0><C>(Ouah, quel discours intense. Je n'aurais ",
+                "<SOUND:0><C>(Wow, quel discours intense. Je n'aurais ",
                 "jamais imaginé Impa être si...<PAUSE:3> émotionnelle ?)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(C'est sans doute à cause de tout cela ",
+                "<SOUND:0><C>(C'est sans doute en raison de tout cela ",
                 "qu'elle a décidé de prendre en charge ",
                 "l'enquête improvisée menée par la ",
                 "princesse...)"
@@ -51020,7 +51020,7 @@
                 "<SOUND:WHAP>L'équipe d'investigation présente au ",
                 "ranch a du nouveau !",
                 "<NEW_BOX>",
-                "C'est au sujet d'une cargaison",
+                "Quelque chose à propos d'une cargaison",
                 "de lait renvoyée au ranch à cause d'une ",
                 "erreur d'adresse du destinataire !",
                 "<NEW_BOX>",
@@ -51100,7 +51100,7 @@
             {
               "Name": "IMPA230",
               "MessageTextLines": [
-                "Bon.<PAUSE:3> Je pense que la calèche de la ",
+                "Bien, alors.<PAUSE:3> Je pense que la calèche de la ",
                 "princesse<SOUND:HINT> est enfin prête."
               ],
               "Type": 0,
@@ -51151,7 +51151,7 @@
             {
               "Name": "LINK_n60",
               "MessageTextLines": [
-                "Je suppose qu'il vient d'une des ",
+                "Je suppoose qu'il vient d'une des ",
                 "cargaisons d'hier...?"
               ],
               "Type": 0,
@@ -51172,7 +51172,7 @@
               "Name": "LINK_n70",
               "MessageTextLines": [
                 "<PAUSE:3>.<PAUSE:3>.<PAUSE:3>.<PAUSE:8><DI><DC> Non, je ne pense pas.<PAUSE:5> Ça n'a pas le ",
-                "goût d'un produit qui a tourné..."
+                "goût d'un produit tourné..."
               ],
               "Type": 0,
               "Position": 0
@@ -51180,9 +51180,8 @@
             {
               "Name": "LINK_n80",
               "MessageTextLines": [
-                "D'ailleurs, le garde a dit qu'une des ",
-                "cargaisons d'hier avait été mal adressée,",
-                "n'est-ce pas ?",
+                "Aussi, le garde a dit qu'une des cargaisons ",
+                "d'hier avait été mal adressée, n'est-ce pas ?",
                 "<NEW_BOX>",
                 "Hmm...<PAUSE:8> et tout a été géré par",
                 "<SOUND:CLUE>Ingo,<PAUSE:8> non... ? "
@@ -51204,7 +51203,7 @@
             {
               "Name": "COURTRECORD1",
               "MessageTextLines": [
-                "<SOUND:ITEMGET><SOUND:0><ICON:9><DI><SQUARE><R>Cargaison de Lait Renvoyée",
+                "<SOUND:ITEMGET><SOUND:0><ICON:9><DI><SQUARE><R>Cargaison de lait Renvoyée",
                 "<G>ajoutée au Dossier de l'affaire."
               ],
               "Type": 1,
@@ -51559,7 +51558,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Mes Déplacements Normaux\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Mes Déplacements Non Suspects\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -51605,7 +51604,7 @@
               "Name": "INGO6",
               "MessageTextLines": [
                 "À un moment donné, l'inspectrice est venue ",
-                "me raconter ce qui s'était passé.<PAUSE:5> Et, ouah, ",
+                "me raconter ce qui s'était passé.<PAUSE:5> Et wow, ",
                 "quelle femme remarquable !<SQUARE>"
               ],
               "Type": 0,
@@ -54501,7 +54500,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Mes Déplacements Normaux\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Mes Déplacements Non Suspects\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -54568,7 +54567,7 @@
               "Name": "INGO6",
               "MessageTextLines": [
                 "<DI><G>À un moment donné, l'inspectrice est venue ",
-                "me raconter ce qui s'était passé.<PAUSE:5> Et, ouah, ",
+                "me raconter ce qui s'était passé.<PAUSE:5> Et wow, ",
                 "quelle femme remarquable !<PERSISTENT>"
               ],
               "Type": 0,
@@ -61328,7 +61327,7 @@
                 "<SOUND:WHAP><DI>Votre Altesse ?!",
                 "<NEW_BOX>",
                 "Je croyais que vous étiez retournée au ",
-                "château d'Hyrule...?"
+                "château d'Hyrule... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -61400,7 +61399,7 @@
             {
               "Name": "ZELDA40",
               "MessageTextLines": [
-                "Comment pouvez-vous dire ça, Inspectrice ?<PAUSE:5> ",
+                "Comment pouvez-vous dire ça, inspectrice ?<PAUSE:5> ",
                 "<SOUND:WHAP>J'ai failli faire condamner une innocente à ",
                 "la prison !"
               ],
@@ -61668,7 +61667,7 @@
             {
               "Name": "IMPA150",
               "MessageTextLines": [
-                "<SOUND:0><PAUSE:3>.<PAUSE:3>.<PAUSE:3>.<PAUSE:3><SOUND:0>Au minimum."
+                "<SOUND:0><PAUSE:3>.<PAUSE:3>.<PAUSE:3>.<PAUSE:3><SOUND:0> Au minimum."
               ],
               "Type": 0,
               "Position": 0
@@ -61756,9 +61755,9 @@
             {
               "Name": "DRAGMIRE30",
               "MessageTextLines": [
-                "Voir ma réputation ainsi ternie...!<PAUSE:5><SOUND:EXPLOSION> Par un ",
+                "Voir ma réputation ainsi ternie... !<PAUSE:5><SOUND:EXPLOSION> Par un ",
                 "avocat débutant venu du fin fond de la ",
-                "cambrousse....!"
+                "cambrousse... !"
               ],
               "Type": 0,
               "Position": 0
@@ -61812,7 +61811,7 @@
             {
               "Name": "LINK160",
               "MessageTextLines": [
-                "<SOUND:0><C><SOUND:HINT>(...!)"
+                "<SOUND:0><C><SOUND:HINT>(... !)"
               ],
               "Type": 0,
               "Position": 0
@@ -61820,7 +61819,7 @@
             {
               "Name": "DRAGMIRE85",
               "MessageTextLines": [
-                "...Ce qui s'est passé est des plus ",
+                "... Ce qui s'est passé est des plus ",
                 "regrettables.<PAUSE:7> Je ne peux que vous ",
                 "offrir mes condoléances."
               ],
@@ -61844,7 +61843,7 @@
             {
               "Name": "LINK165",
               "MessageTextLines": [
-                "<C><PAUSE:5>(...Je suppose qu'il y a une part de vérité ",
+                "<C><PAUSE:5>(... Je suppose qu'il y a une part de vérité ",
                 "dans ce qu'il dit.)"
               ],
               "Type": 0,
@@ -61873,7 +61872,7 @@
             {
               "Name": "MALON120",
               "MessageTextLines": [
-                "<PAUSE:5><SOUND:CLUE>...Waouh, c'était quelque chose.",
+                "<PAUSE:5><SOUND:CLUE>... Waouh, c'était quelque chose.",
                 "<NEW_BOX>",
                 "Je ne sais pas s'il était sincère, ou s'il ",
                 "voulait juste rejeter la faute sur quelqu'un ",
@@ -61982,7 +61981,7 @@
                 "Ce que je ne savais pas, c'était qu'une ",
                 "terrible tragédie allait bientôt bouleverser ",
                 "tout le royaume, et que j'allais me retrouver ",
-                "au coeur de celle-ci."
+                "au cœur de celle-ci."
               ],
               "Type": 2,
               "Position": 0
@@ -62551,7 +62550,7 @@
                 "<DI><LC><R>Ce jeu sauvegarde automatiquement ",
                 "<Shift:45>après chaque scène.<W>",
                 "<LC>N'éteignez pas la console durant les ",
-                "<LC>changements de scène.<FADE:160> "
+                "<LC>transitions entre les scènes.<FADE:160> "
               ],
               "Type": 0,
               "Position": 2
@@ -62933,7 +62932,7 @@
               "Name": "Msg3",
               "MessageTextLines": [
                 "<NS>Oublier une visite royale ?<PAUSE:3> Personne ne ",
-                "pourrait commettre une telle bourde, ",
+                "pourrait commettre une telle erreur, ",
                 "Princesse.<FADE:80>"
               ],
               "Type": 0,
@@ -62951,7 +62950,7 @@
             {
               "Name": "Msg5",
               "MessageTextLines": [
-                "<NS><SPEED:103>...!<SPEED:102><FADE:28>"
+                "<NS><SPEED:103>... !<SPEED:102><FADE:28>"
               ],
               "Type": 0,
               "Position": 0
@@ -65143,7 +65142,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"L'arme du crime\"<FADE:38>"
+                "<NS><SOUND:0><LC><R>\"L'Arme du Crime\"<FADE:38>"
               ],
               "Type": 0,
               "Position": 0
@@ -88184,7 +88183,7 @@
             {
               "Name": "COURTRECORD1",
               "MessageTextLines": [
-                "<SOUND:ITEMGET><SOUND:0><ICON:23><DI><SQUARE><R>Liste de biens<G> ajoutée au Dossier ",
+                "<SOUND:ITEMGET><SOUND:0><ICON:23><DI><SQUARE><R>Liste d'objets<G> ajoutée au Dossier ",
                 "de l'affaire."
               ],
               "Type": 1,
