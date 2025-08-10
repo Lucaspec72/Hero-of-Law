@@ -65528,7 +65528,7 @@
             {
               "Name": "3_1_INGO20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Waaaah !<FADE:15>"
+                "<SOUND:WHAP><DI>Ouaaaah !<FADE:15>"
               ],
               "Type": 0,
               "Position": 0
@@ -65582,7 +65582,7 @@
             {
               "Name": "3_3_DRAGMIRE10",
               "MessageTextLines": [
-                "<PAUSE:3><DC>...Le sang laisse des traces.<PAUSE:3> Ce n'est",
+                "<PAUSE:3><DC>... Le sang laisse des traces.<PAUSE:3> Ce n'est",
                 "pas si facile à faire disparaître."
               ],
               "Type": 0,
@@ -65615,7 +65615,7 @@
                 "surtout des chevaux et du lait, les outils ne",
                 "servent généralement pas à l'abattage...",
                 "<NEW_BOX>",
-                "...donc aucun d'eux n'avait de raison",
+                "... donc aucun d'eux n'avait de raison",
                 "d'être couvert de sang frais."
               ],
               "Type": 0,
@@ -65784,7 +65784,7 @@
             {
               "Name": "4_1_DRAGMIRE30",
               "MessageTextLines": [
-                "<SOUND:CLUE>...Juge ?<PAUSE:3> Avez-vous la moindre idée de",
+                "<SOUND:CLUE>... Juge ?<PAUSE:3> Avez-vous la moindre idée de",
                 "ce que la défense radote cette fois ?"
               ],
               "Type": 0,
@@ -66124,7 +66124,7 @@
             {
               "Name": "5_1_JUDGE10",
               "MessageTextLines": [
-                "Défense, tout votre argument repose",
+                "Défense, tout votre argumentaire repose",
                 "sur ce point, vous savez !"
               ],
               "Type": 0,
@@ -66314,10 +66314,9 @@
                 "Voyez-vous, j'ai entendu une histoire",
                 "intéressante pendant la pause...",
                 "<NEW_BOX>",
-                "Un message a été envoyé depuis le",
-                "ranch : l'une des caisses a été renvoyée",
-                "non ouverte car elle avait été mal",
-                "adressée."
+                "Un message a été envoyé depuis le ranch : ",
+                "l'une des cargaisons a été renvoyée non ",
+                "ouverte car elle avait été mal adressée."
               ],
               "Type": 0,
               "Position": 0
@@ -66374,7 +66373,7 @@
             {
               "Name": "5_2_DRAGMIRE70",
               "MessageTextLines": [
-                "<SOUND:NA_SE_EN_GANON_DAMAGE2><DI>Guwooooooooooh !<FADE:15>"
+                "<SOUND:NA_SE_EN_GANON_DAMAGE2><DI>Gwooooooooooh !<FADE:15>"
               ],
               "Type": 0,
               "Position": 0
@@ -66394,7 +66393,7 @@
             {
               "Name": "5_2_LINK110",
               "MessageTextLines": [
-                "<SOUND:0><C>(...Peut-être parce qu'ils craignaient",
+                "<SOUND:0><C>(... Peut-être parce qu'ils craignaient",
                 "que ça commence à sentir mauvais.)"
               ],
               "Type": 0,
