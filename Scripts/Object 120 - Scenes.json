@@ -40609,7 +40609,7 @@
               "Name": "3_ZELDA30",
               "MessageTextLines": [
                 "Je<EMDASH><PAUSE:10> ",
-                "...je n'y avais même pas pensé."
+                "... je n'y avais même pas pensé."
               ],
               "Type": 0,
               "Position": 0
@@ -40625,7 +40625,7 @@
             {
               "Name": "3_ZELDA40",
               "MessageTextLines": [
-                "...M-mais les gardes étaient tout près !<PAUSE:10> ",
+                "... M-mais les gardes étaient tout près !<PAUSE:10> ",
                 "J'aurais été<SOUND:HINT> en sécurité."
               ],
               "Type": 0,
@@ -40845,7 +40845,7 @@
             {
               "Name": "6_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(...!<PAUSE:7><SOUND:CLUE> Donc <R>vers le moment du crime<C> !)"
+                "<SOUND:0><C>(... !<PAUSE:7><SOUND:CLUE> Donc <R>vers le moment du crime<C> !)"
               ],
               "Type": 0,
               "Position": 0
@@ -40880,7 +40880,7 @@
             {
               "Name": "6_DRAGMIRE40",
               "MessageTextLines": [
-                "...<PAUSE:5><DC>Ce devait être l'employé du ranch,",
+                "...<PAUSE:5><DC> Ce devait être l'employé du ranch,",
                 "occupé à préparer les livraisons de",
                 "lait à ce moment-là."
               ],
@@ -40890,7 +40890,7 @@
             {
               "Name": "6_LINK34",
               "MessageTextLines": [
-                "<SOUND:0><SOUND:HINT>...!"
+                "<SOUND:0><SOUND:HINT>... !"
               ],
               "Type": 0,
               "Position": 0
@@ -41005,7 +41005,7 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "...Non, je suppose que non, Monsieur",
+                "... Non, je suppose que non, Monsieur",
                 "le Juge."
               ],
               "Type": 0,
@@ -41043,7 +41043,7 @@
             {
               "Name": "ZELDA10",
               "MessageTextLines": [
-                "...<PAUSE:5><DI><DC>Non, rien de plus."
+                "...<PAUSE:5><DI><DC> Non, rien de plus."
               ],
               "Type": 0,
               "Position": 0
@@ -41085,7 +41085,7 @@
             {
               "Name": "ZELDA30",
               "MessageTextLines": [
-                "...Très bien.<SQUARE>"
+                "... Très bien.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
