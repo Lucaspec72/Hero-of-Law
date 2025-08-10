@@ -38000,7 +38000,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Mes découvertes\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Mes Découvertes\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -40293,7 +40293,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Mes découvertes\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Mes Découvertes\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
