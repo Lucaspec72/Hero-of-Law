@@ -82898,7 +82898,7 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "V-vous...!"
+                "V-vous... !"
               ],
               "Type": 0,
               "Position": 0
@@ -82918,7 +82918,7 @@
             {
               "Name": "LINK40",
               "MessageTextLines": [
-                "<SOUND:CLUE>\"Vieux fou\"...?<PAUSE:5> Vous voulez dire le juge ?"
+                "<SOUND:CLUE>\"Vieux fou\"... ?<PAUSE:5> Vous voulez dire le juge ?"
               ],
               "Type": 0,
               "Position": 0
@@ -82954,7 +82954,7 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "<SOUND:HINT>Affaire...?<PAUSE:5> On va faire un procès ?"
+                "<SOUND:HINT>Affaire... ?<PAUSE:5> On va faire un procès ?"
               ],
               "Type": 0,
               "Position": 0
@@ -82962,7 +82962,7 @@
             {
               "Name": "JUDGE30",
               "MessageTextLines": [
-                "...Vous voulez dire que vous n'étiez pas ",
+                "... Vous voulez dire que vous n'étiez pas ",
                 "au courant, Défense ?"
               ],
               "Type": 0,
@@ -83107,7 +83107,7 @@
               "Name": "JUDGE110",
               "MessageTextLines": [
                 "Une de ces personnes...<PAUSE:5> <SPEED:101>prétendait être la ",
-                "déesse elle-même, <R>Hylia<W>.<SPEED:102><FADE:30>"
+                "Déesse elle-même, <R>Hylia<W>.<SPEED:102><FADE:30>"
               ],
               "Type": 0,
               "Position": 0
@@ -83124,7 +83124,7 @@
             {
               "Name": "DRAGMIRE60",
               "MessageTextLines": [
-                "...!"
+                "... !"
               ],
               "Type": 0,
               "Position": 0
@@ -83198,7 +83198,7 @@
             {
               "Name": "DRAGMIRE70",
               "MessageTextLines": [
-                "<PAUSE:2>.<PAUSE:2>.<PAUSE:2>.<PAUSE:2>Oui, il semblerait que le juge ait ",
+                "<PAUSE:2>.<PAUSE:2>.<PAUSE:2>.<PAUSE:2> Oui, il semblerait que le juge ait ",
                 "complètement perdu la boule."
               ],
               "Type": 0,
@@ -83217,7 +83217,7 @@
             {
               "Name": "DRAGMIRE90",
               "MessageTextLines": [
-                "<SOUND:CLUE>...Au moins, nous pouvons retourner ",
+                "<SOUND:CLUE>... Au moins, nous pouvons retourner ",
                 "nous coucher dans l'immédiat."
               ],
               "Type": 0,
@@ -83226,7 +83226,7 @@
             {
               "Name": "LINK115",
               "MessageTextLines": [
-                "<PAUSE:5><SPEED:101>...C'est vrai.<SPEED:102>"
+                "<PAUSE:5><SPEED:101>... C'est vrai.<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -83268,7 +83268,7 @@
             {
               "Name": "KOHOLINK10",
               "MessageTextLines": [
-                "<DI>...?!"
+                "<DI>... ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -83276,7 +83276,7 @@
             {
               "Name": "DRAGMIRE100",
               "MessageTextLines": [
-                "<NS>...de...e...<FADE:40>"
+                "<NS>... de... e...<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -83284,7 +83284,7 @@
             {
               "Name": "DRAGMIRE110",
               "MessageTextLines": [
-                "<NS>D...fens....<FADE:40>"
+                "<NS>D ... fens....<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -83338,7 +83338,7 @@
                 "<NEW_BOX>",
                 "<SOUND:0><C>(Je suppose que je ne peux pas le nier, ",
                 "n'est-ce pas ?<PAUSE:5> ",
-                "C'est... moi.)",
+                "C'est ... moi.)",
                 "<NEW_BOX>",
                 "<C><SOUND:0>(Plus jeune,<PAUSE:5> peut-être plus sauvage...<PAUSE:5> ",
                 "Mais il n'y a aucun doute.)"
@@ -83383,7 +83383,7 @@
             {
               "Name": "JUDGE210_LETTER",
               "MessageTextLines": [
-                "<SPEED:101>...de...<SPEED:103>"
+                "<SPEED:101>... de...<SPEED:103>"
               ],
               "Type": 0,
               "Position": 0
@@ -83399,7 +83399,7 @@
             {
               "Name": "JUDGE220",
               "MessageTextLines": [
-                "<SOUND:HINT>...<R>VOYOU<W> de l'île Cocolint."
+                "<SOUND:HINT>...<R> VOYOU<W> de l'île Cocolint."
               ],
               "Type": 0,
               "Position": 0
@@ -83408,7 +83408,7 @@
               "Name": "LINK180",
               "MessageTextLines": [
                 "<SPEED:103>Votre Honneur, vous ne pouvez pas juste<SOUND:WHAP> ",
-                "le traiter de voyou dès le début !<SPEED:102>"
+                "le traiter de voyou dès le départ !<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -83434,7 +83434,7 @@
             {
               "Name": "DRAGMIRE140",
               "MessageTextLines": [
-                "...<PAUSE:5>Fascinant.<PAUSE:5> Une sorte de malédiction ?"
+                "...<PAUSE:5> Fascinant.<PAUSE:5> Une sorte de malédiction ?"
               ],
               "Type": 0,
               "Position": 0
@@ -83502,7 +83502,7 @@
             {
               "Name": "KOHOLINK40",
               "MessageTextLines": [
-                "...Oh...<PAUSE:5> Alors,<PAUSE:5> <SOUND:CLUE>en parlant de ça..."
+                "... Oh...<PAUSE:5> Alors,<PAUSE:5> <SOUND:CLUE>en parlant de ça..."
               ],
               "Type": 0,
               "Position": 0
@@ -83519,7 +83519,7 @@
             {
               "Name": "LINK210",
               "MessageTextLines": [
-                ".<PAUSE:5>.<PAUSE:5>.<PAUSE:10>Oh."
+                ".<PAUSE:5>.<PAUSE:5>.<PAUSE:10> Oh."
               ],
               "Type": 0,
               "Position": 0
@@ -83555,7 +83555,7 @@
             {
               "Name": "DRAGMIRE160",
               "MessageTextLines": [
-                "<SOUND:CLUE>...Quoi ?"
+                "<SOUND:CLUE>... Quoi ?"
               ],
               "Type": 0,
               "Position": 0
@@ -83583,7 +83583,7 @@
             {
               "Name": "JUDGE280",
               "MessageTextLines": [
-                "<SOUND:0><SOUND:SHOCK><DI>...!"
+                "<SOUND:0><SOUND:SHOCK><DI>... !"
               ],
               "Type": 0,
               "Position": 0
@@ -83616,7 +83616,7 @@
                 "sait qu'il ne faut jamais se défendre ",
                 "soi-même...)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(...Est-ce que dans CE cas ça compte ?)<SQUARE>"
+                "<SOUND:0><C>(... Est-ce que dans CE cas ça compte ?)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
