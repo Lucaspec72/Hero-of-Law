@@ -38642,7 +38642,7 @@
               "MessageTextLines": [
                 "C'est quoi la suite ?!<PAUSE:10> ",
                 "Vous allez soumettre chaque râteau du",
-                "domaine comme preuve à conviction ?!"
+                "domaine comme pièce à conviction ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -38666,7 +38666,7 @@
             {
               "Name": "LINK15",
               "MessageTextLines": [
-                "<SOUND:0><C>(C'est mal parti...!)"
+                "<SOUND:0><C>(C'est mal parti... !)"
               ],
               "Type": 0,
               "Position": 0
