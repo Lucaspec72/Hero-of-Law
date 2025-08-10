@@ -756,7 +756,7 @@
                 "<Y>Tissu ensanglanté<W>",
                 "Trouvé dans les mains de Malon sur la scène ",
                 "du crime. Elle aurait soi-disant ",
-                "essuyé la scie avec...?<PERSISTENT><PERSISTENT>"
+                "essuyé la scie avec... ?<PERSISTENT><PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -905,7 +905,7 @@
               "MessageTextLines": [
                 "<Y>VOYOU<W> (Âge inconnu)",
                 "Mon moi cleptomane",
-                "d'un autre monde...?<PERSISTENT>"
+                "d'un autre monde... ?<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -935,7 +935,7 @@
               "Name": "Koholink2",
               "MessageTextLines": [
                 "<Y><FONT_TOGGLE>$$$$$<FONT_TOGGLE><W> (Âge inconnu)",
-                "Mon moi cleptomane d'un autre monde...?<PERSISTENT>"
+                "Mon moi cleptomane d'un autre monde... ?<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 0
