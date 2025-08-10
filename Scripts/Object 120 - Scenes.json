@@ -75465,7 +75465,7 @@
               "Name": "3_MALON40",
               "MessageTextLines": [
                 "Donc, comme l'a dit M. Ingo, tout le ",
-                "processus prends énormément de temps.",
+                "processus prend énormément de temps.",
                 "<NEW_BOX>",
                 "Père et moi devions généralement nous y ",
                 "mettre à deux pour tout finir avant l'arrivée ",
@@ -75517,7 +75517,7 @@
             {
               "Name": "4_INGO10",
               "MessageTextLines": [
-                "Err...<PAUSE:5> <SOUND:WHAP>Oui. Bien sûr !"
+                "Grrr...<PAUSE:5> <SOUND:WHAP>Oui. Bien sûr !"
               ],
               "Type": 0,
               "Position": 0
@@ -75657,7 +75657,7 @@
             {
               "Name": "F_INGO10",
               "MessageTextLines": [
-                "Waaaah !<PAUSE:5> <SOUND:WHAP><DI>Qu'y a-t-il encore ?!"
+                "Ouaaaah !<PAUSE:5> <SOUND:WHAP><DI>Qu'y a-t-il encore ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -75705,7 +75705,7 @@
             {
               "Name": "F_DRAGMIRE30",
               "MessageTextLines": [
-                "Écrire une adresse ne prends que ",
+                "Écrire une adresse ne prend que ",
                 "quelques secondes.",
                 "<NEW_BOX>",
                 "Même si on réduisait ça à un simple coup ",
@@ -75798,7 +75798,7 @@
               "MessageTextLines": [
                 "Défense, je ne devrais pas avoir à vous ",
                 "rappeler que les Forces Sheikah ont ",
-                "vérifiés minutieusement les caisses."
+                "vérifié minutieusement les caisses."
               ],
               "Type": 0,
               "Position": 0
@@ -75839,7 +75839,7 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "...Hein ?<PAUSE:5> <SOUND:CLUE>Du lait, pour moi ?"
+                "... Hein ?<PAUSE:5> <SOUND:CLUE>Du lait, pour moi ?"
               ],
               "Type": 0,
               "Position": 0
@@ -75890,7 +75890,7 @@
             {
               "Name": "JUDGE40",
               "MessageTextLines": [
-                "<PAUSE:3>.<PAUSE:3>.<PAUSE:3>.<PAUSE:5><DI><DC>Mais, pour être honnête, j'ai un peu soif.<PAUSE:5> ",
+                "<PAUSE:3>.<PAUSE:3>.<PAUSE:3>.<PAUSE:5><DI><DC> Mais, pour être honnête, j'ai un peu soif.<PAUSE:5> ",
                 "Toutes ces délibérations m'ont asséché la ",
                 "gorge, vous savez !"
               ],
@@ -75918,7 +75918,7 @@
             {
               "Name": "JUDGE60",
               "MessageTextLines": [
-                "<PAUSE:3>...<PAUSE:8>Hmm."
+                "<PAUSE:3>...<PAUSE:8> Hmm."
               ],
               "Type": 0,
               "Position": 0
@@ -75935,7 +75935,7 @@
             {
               "Name": "INGO10",
               "MessageTextLines": [
-                "<SOUND:STAB>D-de l'eau...?"
+                "<SOUND:STAB>D-de l'eau... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -75963,7 +75963,7 @@
               "Name": "LINK90",
               "MessageTextLines": [
                 "Mais personne ne pourrait <SOUND:WHAP>en dire autant ",
-                "d'un lait aussi insipide"
+                "d'un lait aussi insipide."
               ],
               "Type": 0,
               "Position": 0
@@ -76009,7 +76009,7 @@
             {
               "Name": "DRAGMIRE50",
               "MessageTextLines": [
-                "...Ah !"
+                "... Ah !"
               ],
               "Type": 0,
               "Position": 0
@@ -76097,7 +76097,7 @@
             {
               "Name": "LINK160",
               "MessageTextLines": [
-                "<SOUND:0><SOUND:CLUE>...?"
+                "<SOUND:0><SOUND:CLUE>... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -76114,7 +76114,7 @@
             {
               "Name": "DRAGMIRE80",
               "MessageTextLines": [
-                "...mais tout ce que vous avez prouvé,<PAUSE:8> c'est ",
+                "... mais tout ce que vous avez prouvé,<PAUSE:8> c'est ",
                 "qu'Ingo <SOUND:HINT>est un tire-au-flanc."
               ],
               "Type": 0,
@@ -76123,7 +76123,7 @@
             {
               "Name": "INGO40",
               "MessageTextLines": [
-                "C-<PAUSE:3>comment <SOUND:EXPLOSION>osez-vous...?!"
+                "C-<PAUSE:3>comment <SOUND:EXPLOSION>osez-vous... ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -76150,7 +76150,7 @@
             {
               "Name": "LINK170",
               "MessageTextLines": [
-                "<SPEED:101>Eh bien,<PAUSE:2> non...<PAUSE:3> <SPEED:102>Mais maintenant on sait ",
+                "<SPEED:101>Eh bien,<PAUSE:2> non...<PAUSE:3> <SPEED:102> Mais maintenant on sait ",
                 "assurément qu'il a pu le faire !"
               ],
               "Type": 0,
@@ -76176,7 +76176,7 @@
             {
               "Name": "DRAGMIRE110",
               "MessageTextLines": [
-                "<SOUND:HINT>...Pourtant, un élément crucial manque ",
+                "<SOUND:HINT>... Pourtant, un élément crucial manque ",
                 "toujours."
               ],
               "Type": 0,
@@ -76185,7 +76185,7 @@
             {
               "Name": "LINK200",
               "MessageTextLines": [
-                "<SOUND:0><SOUND:CLUE>...?"
+                "<SOUND:0><SOUND:CLUE>... ?"
               ],
               "Type": 0,
               "Position": 0
