@@ -99355,7 +99355,7 @@
               "Name": "LINK20",
               "MessageTextLines": [
                 "Quoi<EMDASH><PAUSE:5> Où<EMDASH><PAUSE:10> ",
-                "<C>(<SOUND:CLUE><SPEED:101>...l'agence...?<SPEED:102>)"
+                "<C>(<SOUND:CLUE><SPEED:101>... l'agence... ?<SPEED:102>)"
               ],
               "Type": 0,
               "Position": 0
@@ -99363,7 +99363,7 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "<C>(...C'est vrai, je...<PAUSE:5> suis resté pour rattraper ",
+                "<C>(... C'est vrai, je...<PAUSE:5> suis resté pour rattraper ",
                 "mon travail...<PAUSE:5> <SOUND:HINT>Je suppose que je me suis ",
                 "endormi en lisant des dossiers...)"
               ],
@@ -99381,7 +99381,7 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "<C>(De...<PAUSE:5> <SPEED:101>de quoi il parlait, déjà...?<SPEED:102>)"
+                "<C>(De...<PAUSE:5> <SPEED:101>de quoi il parlait, déjà... ?<SPEED:102>)"
               ],
               "Type": 0,
               "Position": 0
@@ -99397,7 +99397,7 @@
             {
               "Name": "LINK70",
               "MessageTextLines": [
-                "<C>(...<SOUND:WHAP>Ah, mince.<PAUSE:5> Il est déjà parti.<PAUSE:5> ",
+                "<C>(...<SOUND:WHAP> Ah, mince.<PAUSE:5> Il est déjà parti.<PAUSE:5> ",
                 "Impossible de me souvenir de quoi que ",
                 "ce soit.)"
               ],
@@ -99407,7 +99407,7 @@
             {
               "Name": "LINK80",
               "MessageTextLines": [
-                "<C>(<SPEED:101>...Bon...Tant pis.<SPEED:102>)"
+                "<C>(<SPEED:101>... Bon... Tant pis.<SPEED:102>)"
               ],
               "Type": 0,
               "Position": 0
@@ -99786,7 +99786,7 @@
                 "vidéos.",
                 "<NEW_BOX>",
                 "Bien, j'en ai assez vu pour rendre ",
-                "mon verdict..",
+                "mon verdict.",
                 "<NEW_BOX>",
                 "La cour déclare l'accusé, le joueur..."
               ],
@@ -99796,7 +99796,7 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "<SOUND:HINT>...je plaisante !"
+                "<SOUND:HINT>... je plaisante !"
               ],
               "Type": 0,
               "Position": 0
