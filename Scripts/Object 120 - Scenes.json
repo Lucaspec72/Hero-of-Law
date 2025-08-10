@@ -88342,7 +88342,7 @@
             {
               "Name": "5_LINK20",
               "MessageTextLines": [
-                "<C>(Mais c'est une blague...?<PAUSE:5> On est dans un ",
+                "<C>(Mais c'est une blague... ?<PAUSE:5> On est dans un ",
                 "sketch ?)<SQUARE>"
               ],
               "Type": 0,
@@ -88368,7 +88368,7 @@
             {
               "Name": "7_LINK10",
               "MessageTextLines": [
-                "...Votre établissement manque d'une ",
+                "... Votre établissement manque d'une ",
                 "sécurité rigoureuse, n'est-ce pas ?"
               ],
               "Type": 0,
@@ -88436,7 +88436,7 @@
             {
               "Name": "8_KOHOLINK30",
               "MessageTextLines": [
-                "...mais finalement j'avais VRAIMENT",
+                "... mais finalement j'avais VRAIMENT",
                 "besoin d'autre chose..."
               ],
               "Type": 0,
@@ -88445,7 +88445,7 @@
             {
               "Name": "8_KOHOLINK40",
               "MessageTextLines": [
-                "...donc...<PAUSE:5> tu vois..."
+                "... donc...<PAUSE:5> tu vois..."
               ],
               "Type": 0,
               "Position": 0
@@ -88515,7 +88515,7 @@
             {
               "Name": "8A_LINK10",
               "MessageTextLines": [
-                "...Je dois te demander.<PAUSE:5><SOUND:CLUE> Pourquoi avoir eu ",
+                "... Je dois te demander.<PAUSE:5><SOUND:CLUE> Pourquoi avoir eu ",
                 "besoin de voler ce magasin exactement ?"
               ],
               "Type": 0,
@@ -88576,7 +88576,7 @@
             {
               "Name": "8A_DRAGMIRE20",
               "MessageTextLines": [
-                "...Alors, poursuivons.<PAUSE:5> Continuez,",
+                "... Alors, poursuivons.<PAUSE:5> Continuez,",
                 "M. le vendeur.<SQUARE>"
               ],
               "Type": 0,
@@ -88671,7 +88671,7 @@
             {
               "Name": "9_JUDGE10",
               "MessageTextLines": [
-                "<PAUSE:5>...Tout cela semble bien difficile à croire, ",
+                "<PAUSE:5>... Tout cela semble bien difficile à croire, ",
                 "accusé...."
               ],
               "Type": 0,
@@ -88681,7 +88681,7 @@
               "Name": "9_LINK40",
               "MessageTextLines": [
                 "Alors,<PAUSE:5> qu'entendait le témoin par",
-                "<SOUND:CLUE>\"le prix fort\"...?"
+                "<SOUND:CLUE>\"le prix fort\"... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -88699,7 +88699,7 @@
             {
               "Name": "9_MUTOH20",
               "MessageTextLines": [
-                "<SPEED:2><SPEED:101>...Ouaip...<SPEED:1><SPEED:102><PAUSE:2> C'était elle."
+                "<SPEED:2><SPEED:101>... Ouaip...<SPEED:1><SPEED:102><PAUSE:2> C'était elle."
               ],
               "Type": 0,
               "Position": 0
@@ -88717,7 +88717,7 @@
               "MessageTextLines": [
                 "<C>(OK,<PAUSE:5> je commence à avoir la chair de poule.<PAUSE:5> ",
                 "Mais c'est bien tout ce qu'il y a à dire, ",
-                "non...?)<SQUARE>"
+                "non... ?)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -88734,7 +88734,7 @@
             {
               "Name": "9A_MUTOH10",
               "MessageTextLines": [
-                "<SOUND:CLUE><PAUSE:5>.<PAUSE:5>.<PAUSE:5>.<PAUSE:5>Non, ben sûr que non.<PAUSE:5> ",
+                "<SOUND:CLUE><PAUSE:5>.<PAUSE:5>.<PAUSE:5>.<PAUSE:5> Non, ben sûr que non.<PAUSE:5> ",
                 "<SPEED:101>Pourquoi j'f'rais ça...?<SPEED:102>"
               ],
               "Type": 0,
@@ -88770,7 +88770,7 @@
               "MessageTextLines": [
                 "<C>(OK,<PAUSE:5> je commence à avoir la chair de poule.<PAUSE:5> ",
                 "Mais c'est bien tout ce qu'il y a à dire, ",
-                "non...?)<SQUARE>"
+                "non... ?)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -88866,7 +88866,7 @@
               "Name": "LINK40",
               "MessageTextLines": [
                 "Vraiment, témoin ?<PAUSE:5> Dites-moi,<PAUSE:2><SOUND:CLUE> combien de ",
-                "clients avez-vous chaque jour...?"
+                "clients avez-vous chaque jour... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -88874,7 +88874,7 @@
             {
               "Name": "MUTOH40",
               "MessageTextLines": [
-                "<SOUND:HINT>...Hahhhhrm !<FADE:20>"
+                "<SOUND:HINT>... Hahhhhrm !<FADE:20>"
               ],
               "Type": 0,
               "Position": 0
@@ -88909,7 +88909,7 @@
             {
               "Name": "DRAGMIRE20",
               "MessageTextLines": [
-                "<SOUND:CLUE>...Et donc ?"
+                "<SOUND:CLUE>... Et donc ?"
               ],
               "Type": 0,
               "Position": 0
@@ -88999,7 +88999,7 @@
             {
               "Name": "LINK70",
               "MessageTextLines": [
-                "...Ah."
+                "... Ah."
               ],
               "Type": 0,
               "Position": 0
@@ -89015,7 +89015,7 @@
             {
               "Name": "LINK80",
               "MessageTextLines": [
-                "<SOUND:WHAP><SPEED:103>P-peut-être les coeurs ?<SPEED:102><PAUSE:5> ",
+                "<SOUND:WHAP><SPEED:103>P-peut-être les cœurs ?<SPEED:102><PAUSE:5> ",
                 "10 Rubis est un prix bien trop élevé pour ",
                 "ça !"
               ],
@@ -89037,7 +89037,7 @@
             {
               "Name": "LINK90",
               "MessageTextLines": [
-                "<SOUND:HINT>Ouais !<PAUSE:10> <SPEED:101>...Ah.<SPEED:102>"
+                "<SOUND:HINT>Ouais !<PAUSE:10> <SPEED:101>... Ah.<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -89084,7 +89084,7 @@
             {
               "Name": "LINK95",
               "MessageTextLines": [
-                "<C><SOUND:CLUE>(Quitter l'île...?)"
+                "<C><SOUND:CLUE>(Quitter l'île... ?)"
               ],
               "Type": 0,
               "Position": 0
@@ -89147,7 +89147,7 @@
             {
               "Name": "LINK110",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>...mais, c'est quoi, exactement, un ",
+                "<SOUND:EXPLOSION>... mais, c'est quoi, exactement, un ",
                 "\"Poisson-Rêve\" ?!"
               ],
               "Type": 0,
@@ -89173,7 +89173,7 @@
               "Name": "LINK130",
               "MessageTextLines": [
                 "Donc tu savais qu'il devait être",
-                "\"réveillé\"...<PAUSE:5> parce que...?"
+                "\"réveillé\"...<PAUSE:5> parce que... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -89189,7 +89189,7 @@
             {
               "Name": "LINK140",
               "MessageTextLines": [
-                "...Non mais tu le fais exprès, là, c'est ",
+                "... Non mais tu le fais exprès, là, c'est ",
                 "pas possible."
               ],
               "Type": 0,
@@ -89230,7 +89230,7 @@
             {
               "Name": "LINK150",
               "MessageTextLines": [
-                "Donc vous voulez dire...?"
+                "Donc vous voulez dire... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -89306,8 +89306,7 @@
               "Name": "LINK160",
               "MessageTextLines": [
                 "Oh, donc vous avez accepté tout le reste, ",
-                "mais le hibou c'est la goutte qui fait",
-                "déborder le vase ?!"
+                "mais le hibou c'est trop !?"
               ],
               "Type": 0,
               "Position": 0
@@ -89359,7 +89358,7 @@
             {
               "Name": "JUDGE110",
               "MessageTextLines": [
-                "Mmmh..., euh, <PAUSE:5><SOUND:HINT>Hibou,<PAUSE:5> veuillez nous dire ",
+                "Mmmh... euh, <PAUSE:5><SOUND:HINT>Hibou,<PAUSE:5> veuillez nous dire ",
                 "tout ce que nous avons besoin de savoir ",
                 "sur l'île Cocolint.<SQUARE>"
               ],
