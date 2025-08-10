@@ -40355,7 +40355,7 @@
             {
               "Name": "ZELDA6",
               "MessageTextLines": [
-                "<DI><G>J'ai suivi l'odeur jusqu'aux restes d'un <SOUND:CLUE>feu ",
+                "<DI><G>J'ai suivi l'odeur jusqu'aux restes d'un feu ",
                 "éteint non loin de là, ainsi qu'une bouteille",
                 "d'huile de lampe presque vide !<PERSISTENT>"
               ],
