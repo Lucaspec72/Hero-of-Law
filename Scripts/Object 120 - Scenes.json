@@ -36958,7 +36958,7 @@
             {
               "Name": "ZELDA50",
               "MessageTextLines": [
-                "<SOUND:CLUE>Tu étais au courant<SOUND:0><PAUSE:3>.<PAUSE:3>.<PAUSE:3>.<PAUSE:3>?<PAUSE:5> "
+                "<SOUND:CLUE>Tu étais au courant<SOUND:0><PAUSE:3>.<PAUSE:3>.<PAUSE:3>.<PAUSE:3> ?<PAUSE:5> "
               ],
               "Type": 0,
               "Position": 0
@@ -37040,7 +37040,7 @@
             {
               "Name": "LINK25",
               "MessageTextLines": [
-                "<SOUND:0><C>(...<SOUND:CLUE>Et puis, j'y crois pas trop.<PAUSE:3> Impa",
+                "<SOUND:0><C>(...<SOUND:CLUE> Et puis, j'y crois pas trop.<PAUSE:3> Impa",
                 "aurait jamais laissé passer ça.)"
               ],
               "Type": 0,
@@ -37143,7 +37143,7 @@
                 "témoin clé<W>...",
                 "<NEW_BOX>",
                 "En plus, il est possible que ce que la",
-                "princesse va présenter va nuire à",
+                "princesse va présenter nuise à",
                 "notre cause."
               ],
               "Type": 0,
@@ -37293,7 +37293,7 @@
             {
               "Name": "1_IMPA10",
               "MessageTextLines": [
-                "Votre Altesse...<PAUSE:10><SOUND:HINT> je crains que ce soit fini."
+                "Votre Altesse...<PAUSE:10><SOUND:HINT> je crains que ce ne soit fini."
               ],
               "Type": 0,
               "Position": 0
@@ -37547,8 +37547,8 @@
             {
               "Name": "2_LINK40",
               "MessageTextLines": [
-                "<SOUND:WHAP>Ce serait absurde de les rejeter",
-                "comme inutiles sans même savoir",
+                "<SOUND:WHAP>Ce serait absurde de la considérer",
+                "comme inutile sans même savoir",
                 "ce que c'est !"
               ],
               "Type": 0,
@@ -37577,7 +37577,7 @@
             {
               "Name": "2_JUDGE30",
               "MessageTextLines": [
-                "...la déclaration de la princesse sur",
+                "... la déclaration de la princesse sur",
                 "comment elle l'a trouvée doit être",
                 "<SOUND:CLUE><R>prise comme témoignage<W>, ainsi que",
                 "tout ce qu'elle pourrait dire ensuite."
