@@ -54649,7 +54649,7 @@
               "MessageTextLines": [
                 "Hein, absolument toutes ?<PAUSE:3> Ce serait si ",
                 "simple de prouver qu'il est retourné sur ",
-                "la scène si il avait<SOUND:CLUE> quelque chose sur lui ",
+                "la scène s'il avait<SOUND:CLUE> quelque chose sur lui ",
                 "qu'il n'est pas censé avoir...",
                 "<NEW_BOX>",
                 "Peut-être que je devrais vérifier son ",
@@ -54750,7 +54750,7 @@
             {
               "Name": "1_INGO20",
               "MessageTextLines": [
-                "Nous envoyons des tonnes de boites de ",
+                "Nous envoyons des tonnes de caisses de ",
                 "lait aux bars à lait de tout le royaume ",
                 "chaque jour, vous savez."
               ],
