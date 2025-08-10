@@ -59360,7 +59360,8 @@
             {
               "Name": "DRAGMIRE30",
               "MessageTextLines": [
-                "<SOUND:DON><DI>Un espèce d'idiot, habillé comme un clown !"
+                "<SOUND:DON><DI>Une espèce d'idiot, ",
+                "habillé comme un clown !"
               ],
               "Type": 0,
               "Position": 0
@@ -92702,7 +92703,7 @@
               "Name": "OWL3",
               "MessageTextLines": [
                 "<G><DI>Le jeune épéiste ici présent doit ainsi réunir ",
-                "les huit<SOUND:HINT> <R>Instruments des Sirènes<G>, et ",
+                "les huit <R>Instruments des Sirènes<G>, et ",
                 "jouer la ballade qui réveillera le Grand Être.<PERSISTENT>"
               ],
               "Type": 0,
@@ -92711,7 +92712,7 @@
             {
               "Name": "OWL4",
               "MessageTextLines": [
-                "<G><DI><SOUND:OWLHOOT>Houu ! Une fois les Instruments réunis, le ",
+                "<G><DI>Houu ! Une fois les Instruments réunis, le ",
                 "sommeil du Poisson-Rêve prendra fin... ",
                 "tout comme Cocolint.<PERSISTENT>"
               ],
