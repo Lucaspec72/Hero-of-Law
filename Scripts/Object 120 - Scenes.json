@@ -50771,7 +50771,7 @@
             {
               "Name": "MALON40",
               "MessageTextLines": [
-                "<SOUND:CLUE>Mais...?"
+                "<SOUND:CLUE>Mais... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -50782,7 +50782,7 @@
                 "Mais je tiens à considérer toutes les ",
                 "possibilités.",
                 "<NEW_BOX>",
-                "Cet incendie est franchement bizarre, et ",
+                "Ce feu est franchement bizarre, et ",
                 "j'ose dire que ça pourrait être votre seule",
                 "porte de sortie.  "
               ],
@@ -50819,7 +50819,7 @@
                 "témoignage sera focalisé sur le mobile...",
                 "<NEW_BOX>",
                 "Ça risque d'être compliqué de mettre le ",
-                "sujet de l'incendie sur la table sans que ",
+                "sujet du feu sur la table sans que ",
                 "Dragmire nous barre la route."
               ],
               "Type": 0,
@@ -50836,7 +50836,7 @@
             {
               "Name": "LINK100",
               "MessageTextLines": [
-                "<SOUND:0><C>(Même si ça ne me plait pas, elle a raison.)",
+                "<SOUND:0><C>(Même si ça ne me plaît pas, elle a raison.)",
                 "<NEW_BOX>",
                 "<SOUND:0><C>(Il n'y a pas vraiment autre chose sur ",
                 "quoi s'appuyuer.)",
@@ -50919,11 +50919,11 @@
                 "<SOUND:0><C>(Hyrule peine encore à se remettre des ",
                 "événements de ce jour-là...)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(...et à ce jour, personne ne sait ce qui ",
+                "<SOUND:0><C>(... et à ce jour, personne ne sait ce qui ",
                 "s'est passé exactement.)",
                 "<NEW_BOX>",
                 "<SOUND:0><C>(À cause du manque d'informations, les ",
-                "théories du complot se sont déchainées... ",
+                "théories du complot se sont déchaînées... ",
                 "les gens ont accusé la Garde Royale, les ",
                 "Sheikah... et même le Roi lui-même.)"
               ],
@@ -50946,7 +50946,7 @@
             {
               "Name": "LINK120",
               "MessageTextLines": [
-                "<SOUND:0><C>(...Cependant, le comportement qu'a eu la ",
+                "<SOUND:0><C>(... Cependant, le comportement qu'a eu la ",
                 "princesse aujourd'hui n'aidera sûrement ",
                 "pas à régler le manque de confiance que ",
                 "certains ont envers la Couronne...)"
@@ -51007,7 +51007,7 @@
             {
               "Name": "IMPA225",
               "MessageTextLines": [
-                "<PAUSE:3><DC>...Qu'y a-t-il, soldat ?<PAUSE:3> ",
+                "<PAUSE:3><DC>... Qu'y a-t-il, soldat ?<PAUSE:3> ",
                 "Je suis plutôt occupée en ce moment, donc ",
                 "soyez bref, je vous prie."
               ],
@@ -51033,7 +51033,7 @@
             {
               "Name": "IMPA227",
               "MessageTextLines": [
-                "Oh, ces imbéciles...!"
+                "Oh, ces imbéciles... !"
               ],
               "Type": 0,
               "Position": 0
@@ -51060,7 +51060,7 @@
             {
               "Name": "IMPA_n10",
               "MessageTextLines": [
-                "...<PAUSE:8>Tiens, ça me fait penser...<PAUSE:8> J'ai confisqué ",
+                "...<PAUSE:8> Tiens, ça me fait penser...<PAUSE:8> J'ai confisqué ",
                 "cette bouteille de lait à un <SOUND:CLUE>duo de gardes",
                 "qui tiraient au flanc tout à l'heure."
               ],
@@ -51082,7 +51082,7 @@
             {
               "Name": "MALON_n10",
               "MessageTextLines": [
-                "Oh...?<PAUSE:8> Hum,<PAUSE:5> merci !"
+                "Oh... ?<PAUSE:8> Hum,<PAUSE:5> merci !"
               ],
               "Type": 0,
               "Position": 0
@@ -51143,7 +51143,7 @@
             {
               "Name": "LINK_n50",
               "MessageTextLines": [
-                "<PAUSE:8><DI><DC><SOUND:CLUE>...Hein,<PAUSE:3> mais tu as raison !"
+                "<PAUSE:8><DI><DC><SOUND:CLUE>... Hein,<PAUSE:3> mais tu as raison !"
               ],
               "Type": 0,
               "Position": 0
@@ -51171,7 +51171,7 @@
             {
               "Name": "LINK_n70",
               "MessageTextLines": [
-                "<PAUSE:3>.<PAUSE:3>.<PAUSE:3>.<PAUSE:8><DI><DC>Non, je ne pense pas.<PAUSE:5> Ça n'a pas le ",
+                "<PAUSE:3>.<PAUSE:3>.<PAUSE:3>.<PAUSE:8><DI><DC> Non, je ne pense pas.<PAUSE:5> Ça n'a pas le ",
                 "goût d'un produit tourné..."
               ],
               "Type": 0,
@@ -51184,7 +51184,7 @@
                 "d'hier avait été mal adressée, n'est-ce pas ?",
                 "<NEW_BOX>",
                 "Hmm...<PAUSE:8> et tout a été géré par",
-                "<SOUND:CLUE>Ingo,<PAUSE:8> non...?"
+                "<SOUND:CLUE>Ingo,<PAUSE:8> non... ? "
               ],
               "Type": 0,
               "Position": 0
@@ -51195,7 +51195,7 @@
                 "Je pense qu'il se passe quelque chose de ",
                 "bizarre.<PAUSE:5> ",
                 "<C>(Je ferais mieux de noter tout ça dans le ",
-                "Dossier de l'affaire...!)"
+                "Dossier de l'affaire... !)"
               ],
               "Type": 0,
               "Position": 0
@@ -51236,7 +51236,7 @@
                 "Nous y voilà...",
                 "<NEW_BOX>",
                 "La fin approche.<PAUSE:3> ",
-                "<DI><SOUND:OBJECTIONCRY>Il est temps de renverser la situation...!<SQUARE>"
+                "<DI><SOUND:OBJECTIONCRY>Il est temps de renverser la situation... !<SQUARE>"
               ],
               "Type": 2,
               "Position": 0
