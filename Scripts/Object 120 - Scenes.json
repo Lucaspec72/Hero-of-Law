@@ -1084,7 +1084,7 @@
             {
               "Name": "Subtitle_HoldIt",
               "MessageTextLines": [
-                "<LC>(Un Instant !)<BYTE:0>"
+                "<LC>Un Instant !<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1092,7 +1092,7 @@
             {
               "Name": "Subtitle_Objection",
               "MessageTextLines": [
-                "<LC>(Objection !)<BYTE:0>"
+                "<LC>Objection !<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1100,7 +1100,7 @@
             {
               "Name": "Subtitle_TakeThat",
               "MessageTextLines": [
-                "<LC>(Prends ça !)<BYTE:0>"
+                "<LC>Prends ça !<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1108,7 +1108,7 @@
             {
               "Name": "Subtitle_WitnessTestimony",
               "MessageTextLines": [
-                "<LC>(Déposition du Témoin)<BYTE:0>"
+                "<LC>Déposition du Témoin<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1116,7 +1116,7 @@
             {
               "Name": "Subtitle_CrossExam",
               "MessageTextLines": [
-                "<LC>(Contre-Interrogatoire)<BYTE:0>"
+                "<LC>Contre-Interrogatoire<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1124,7 +1124,7 @@
             {
               "Name": "Subtitle_Guilty",
               "MessageTextLines": [
-                "<LC>(Coupable)<BYTE:0>"
+                "<LC>Coupable<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1132,7 +1132,7 @@
             {
               "Name": "Subtitle_NotGuilty",
               "MessageTextLines": [
-                "<LC>(Non Coupable)<BYTE:0>"
+                "<LC>Non Coupable<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1140,7 +1140,7 @@
             {
               "Name": "Subtitle_Rebuttal",
               "MessageTextLines": [
-                "<LC>(Réfutation)<BYTE:0>"
+                "<LC>Réfutation<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1148,7 +1148,7 @@
             {
               "Name": "Subtitle_ArgumentComplete",
               "MessageTextLines": [
-                "<LC>(Argument Réfuté)<BYTE:0>"
+                "<LC>Argument Réfuté<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -84096,7 +84096,8 @@
               "Name": "MUTOH30",
               "MessageTextLines": [
                 "Et même si c'est l'seul magasin ?<PAUSE:5> ",
-                "<SOUND:EXPLOSION>Y'a pas mieux !<PAUSE:5> Dans c'monde, ni un autre !"
+                "<SOUND:EXPLOSION>Y'a pas mieux !<PAUSE:5> Ni dans c'monde, ni ",
+                "dans un autre !"
               ],
               "Type": 0,
               "Position": 0
@@ -84577,7 +84578,7 @@
             {
               "Name": "MUTOH5",
               "MessageTextLines": [
-                "<PAUSE:5><DI><DC><SOUND:CLUE>...Mais l'était pu là."
+                "<PAUSE:5><DI><DC><SOUND:CLUE>... Mais l'était pu là."
               ],
               "Type": 0,
               "Position": 0
@@ -84604,7 +84605,7 @@
               "MessageTextLines": [
                 "Il l'a fait plus d'une fois, ce p'tit voyou !!<PAUSE:5> ",
                 "Mais pour quoi faire, j'vous l'demande ?<PAUSE:5> ",
-                "Tout est si peu cher...!<PAUSE:5> J'vous jure, j'devrais<EMDASH>"
+                "Tout est si peu cher... !<PAUSE:5> J'vous jure, j'devrais<EMDASH>"
               ],
               "Type": 0,
               "Position": 0
@@ -84623,7 +84624,7 @@
             {
               "Name": "MUTOH9",
               "MessageTextLines": [
-                "...Bah,<PAUSE:5> j'suppose qu'il a d'jà payé l'prix fort.<SQUARE>"
+                "... Bah,<PAUSE:5> j'suppose qu'il a d'jà payé l'prix fort.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -85058,7 +85059,7 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "...D'accord. Admettons."
+                "... D'accord. Admettons."
               ],
               "Type": 0,
               "Position": 0
@@ -87667,7 +87668,7 @@
             {
               "Name": "MUTOH5",
               "MessageTextLines": [
-                "<DI><G>...Mais l'était pu là..<PERSISTENT>"
+                "<DI><G>... Mais l'était pu là..<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -87694,7 +87695,7 @@
               "MessageTextLines": [
                 "<DI><G>Il l'a fait plus d'une fois, ce p'tit voyou !!",
                 "Mais pour quoi faire, j'vous l'demande ?",
-                "Tout est si peu cher...! J'vous jure, j'devrais<EMDASH><PERSISTENT>"
+                "Tout est si peu cher... ! J'vous jure, j'devrais<EMDASH><PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -87713,7 +87714,7 @@
             {
               "Name": "MUTOH9",
               "MessageTextLines": [
-                "<DI><G>...Bah, j'suppose qu'il a d'jà payé l'prix ",
+                "<DI><G>... Bah, j'suppose qu'il a d'jà payé l'prix ",
                 "fort.<PERSISTENT>"
               ],
               "Type": 0,
@@ -87806,7 +87807,7 @@
               "Name": "C2_LINK20",
               "MessageTextLines": [
                 "<C>(Eh bien...<PAUSE:5> <SOUND:CLUE>c'est une piste d'attaque,",
-                "non...?)<SQUARE>"
+                "non... ?)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -87814,7 +87815,7 @@
             {
               "Name": "BANTER_LINK10",
               "MessageTextLines": [
-                "...Ouf, ça c'est du témoignage."
+                "... Oof, ça c'est du témoignage."
               ],
               "Type": 0,
               "Position": 0
@@ -87831,7 +87832,7 @@
             {
               "Name": "BANTER_LINK20",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>...Attends un peu,<PAUSE:0> t'es en train de me dire ",
+                "<SOUND:EXPLOSION>... Attends un peu,<PAUSE:0> t'es en train de me dire ",
                 "que les avocats n'existent pas dans ton ",
                 "monde ?<PAUSE:5> <SOUND:WHAP><DI>Pas du tout ?"
               ],
@@ -87841,7 +87842,7 @@
             {
               "Name": "BANTER_KOHOLINK20",
               "MessageTextLines": [
-                "Je crois...<PAUSE:5> <SPEED:101>pas...?<SPEED:102>"
+                "Je crois...<PAUSE:5> <SPEED:101>pas... ?<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
