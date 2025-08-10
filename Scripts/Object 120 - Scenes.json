@@ -54650,7 +54650,7 @@
               "MessageTextLines": [
                 "Hein, absolument toutes ?<PAUSE:3> Ce serait si ",
                 "simple de prouver qu'il est retourné sur ",
-                "la scène si il avait<SOUND:CLUE> quelque chose sur lui ",
+                "la scène s'il avait<SOUND:CLUE> quelque chose sur lui ",
                 "qu'il n'est pas censé avoir...",
                 "<NEW_BOX>",
                 "Peut-être que je devrais vérifier son ",
@@ -54751,7 +54751,7 @@
             {
               "Name": "1_INGO20",
               "MessageTextLines": [
-                "Nous envoyons des tonnes de boites de ",
+                "Nous envoyons des tonnes de caisses de ",
                 "lait aux bars à lait de tout le royaume ",
                 "chaque jour, vous savez."
               ],
@@ -54793,7 +54793,7 @@
                 "Je crois que vous aviez dit plus tôt que ",
                 "votre travail consistait à vous occuper ",
                 "des structures et équipements, c'est ",
-                "bien ça...?"
+                "bien ça... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -54842,7 +54842,7 @@
               "MessageTextLines": [
                 "<SOUND:0><C>(Ouais, et tu étais tellement pressé",
                 "de l'expédier que tu as écrit la <SOUND:EXPLOSION>MAUVAISE ",
-                "ADRESSE DE LIVRAISON dessus...!)"
+                "ADRESSE DE LIVRAISON dessus... !)"
               ],
               "Type": 0,
               "Position": 0
@@ -54879,7 +54879,7 @@
               "MessageTextLines": [
                 "<SOUND:0><C>(\"Une vraie boisson d'homme\" ? La ",
                 "majorité des Gerudos ne sont-elles ",
-                "pas des FEMMES...?)"
+                "pas des FEMMES... ?)"
               ],
               "Type": 0,
               "Position": 0
@@ -54908,7 +54908,7 @@
               "Name": "2_LINKn10",
               "MessageTextLines": [
                 "N'avez-vous pas pensé à prendre une ",
-                "simple gorgée du lait que transportiez ?"
+                "simple gorgée du lait que vous transportiez ?"
               ],
               "Type": 0,
               "Position": 0
@@ -54952,7 +54952,7 @@
             {
               "Name": "2_LINK10",
               "MessageTextLines": [
-                "<SPEED:101>...D'aaaaaaccord.<SPEED:103><PAUSE:6> ",
+                "<SPEED:101>... D'aaaaaaccord.<SPEED:103><PAUSE:6> ",
                 "Donc qu'avez vous vu dans la maison ?"
               ],
               "Type": 0,
@@ -54990,7 +54990,7 @@
               "Name": "2_INGO40",
               "MessageTextLines": [
                 "Il était là, sur la table, à la vue de tous !",
-                "Mwahaha !"
+                "Mouahaha !"
               ],
               "Type": 0,
               "Position": 0
@@ -55071,7 +55071,7 @@
             {
               "Name": "4_INGO10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Aussi sûr que je m'appelle Ingo, mwahaha !"
+                "<SOUND:WHAP><DI>Aussi sûr que je m'appelle Ingo, mouahaha !"
               ],
               "Type": 0,
               "Position": 0
@@ -55117,7 +55117,7 @@
               "Name": "4_LINK_30_A",
               "MessageTextLines": [
                 "<C>(Hmm...<PAUSE:4> <SOUND:CLUE>donc toutes les affaires d'Ingo ",
-                "étaient dans cette maison...?)"
+                "étaient dans cette maison... ?)"
               ],
               "Type": 0,
               "Position": 0
@@ -55215,7 +55215,7 @@
             {
               "Name": "5_INGO20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Pweh !<PAUSE:3> Vous les avocats, toujours à ",
+                "<SOUND:WHAP><DI>Peuh !<PAUSE:3> Vous les avocats, toujours à ",
                 "étaler votre richesse !"
               ],
               "Type": 0,
@@ -55335,7 +55335,7 @@
             {
               "Name": "2_F_LINK10",
               "MessageTextLines": [
-                "...D'aaaaaccord."
+                "... D'aaaaaccord."
               ],
               "Type": 0,
               "Position": 0
@@ -55427,7 +55427,7 @@
             {
               "Name": "T_INGO50",
               "MessageTextLines": [
-                "<SOUND:0><SOUND:HINT>...!<FADE:10>"
+                "<SOUND:0><SOUND:HINT>... !<FADE:10>"
               ],
               "Type": 0,
               "Position": 0
@@ -55590,8 +55590,8 @@
               "Name": "LINK40",
               "MessageTextLines": [
                 "Pardonnez-moi si je me trompe,<PAUSE:5> <DI><SOUND:DON>mais ceux",
-                "que vous portez ne ressemble pas du tout ",
-                "à des habits de travail !"
+                "que vous portez ne ressemblent pas du tout ",
+                "à des vêtements de travail !"
               ],
               "Type": 0,
               "Position": 0
@@ -55617,7 +55617,7 @@
               "MessageTextLines": [
                 "Le témoin s'est très bien habillé pour ",
                 "l'audience ! Je ne peux pas imaginer ",
-                "qu'il voudrait salir ces habits pendant ",
+                "qu'il voudrait salir ces vêtements pendant ",
                 "le travail !"
               ],
               "Type": 0,
@@ -55664,7 +55664,7 @@
               "MessageTextLines": [
                 "Après tout, je ne pouvais pas me ",
                 "présenter à la cour en étant habillé ",
-                "comme un clochard, moo ho ho ho ho...!"
+                "comme un clochard, moo ho ho ho ho... !"
               ],
               "Type": 0,
               "Position": 0
@@ -55729,7 +55729,7 @@
               "Name": "A1_DRAGMIRE10",
               "MessageTextLines": [
                 "Excellent.<PAUSE:3> Enfin cette farce de procès va ",
-                "connaitre une conclusion trop longtemps",
+                "connaître une conclusion trop longtemps",
                 "retardée."
               ],
               "Type": 0,
@@ -55862,7 +55862,7 @@
             {
               "Name": "FAIL_LINK10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Ceci prouve que vous pouviez pas ",
+                "<SOUND:WHAP><DI>Ceci prouve que vous ne pouviez pas ",
                 "acheter ces vêtements !"
               ],
               "Type": 0,
@@ -55952,8 +55952,8 @@
             {
               "Name": "FAIL2_LINK40",
               "MessageTextLines": [
-                "<SOUND:0><C>(Peut-être si je démontre qu'il possédait ",
-                "déjà ces vêtements <SOUND:CLUE>AVANT aujourd'hui...?)"
+                "<SOUND:0><C>(Peut-être que si je démontre qu'il possédait ",
+                "déjà ces vêtements <SOUND:CLUE>AVANT aujourd'hui... ?)"
               ],
               "Type": 0,
               "Position": 0
@@ -55987,7 +55987,7 @@
               "MessageTextLines": [
                 "<PAUSE:5><DC>Ah, cela me rappelle les jours idylliques ",
                 "que j'ai passés avec mon petit-fils à pêcher ",
-                "dans l'étang....<FADE:10>"
+                "dans l'étang...<FADE:10>"
               ],
               "Type": 0,
               "Position": 0
@@ -56221,7 +56221,7 @@
             {
               "Name": "DRAGMIRE100",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>...!<FADE:20>"
+                "<SOUND:EXPLOSION><DI>... !<FADE:20>"
               ],
               "Type": 0,
               "Position": 0
