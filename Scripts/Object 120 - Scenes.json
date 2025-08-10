@@ -87913,7 +87913,7 @@
             {
               "Name": "1_LINK20",
               "MessageTextLines": [
-                "<SOUND:CLUE>\"Jeu dans le vent\"...?"
+                "<SOUND:CLUE>\"Jeu dans le vent\"... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -87939,8 +87939,8 @@
               "Name": "1_LINK30",
               "MessageTextLines": [
                 "<C>(Houlà... il y a vraiment un problème si les ",
-                "gens préfèrent parier sur un jeu de grue ",
-                "plutôt qu'acheter chez ce gars.)"
+                "gens préfèrent parier sur une machine à ",
+                "pince plutôt qu'acheter chez ce gars.)"
               ],
               "Type": 0,
               "Position": 0
@@ -88045,7 +88045,7 @@
               "Name": "2_DRAGMIRE10",
               "MessageTextLines": [
                 "Je vois pas en quoi c'est important en ",
-                "tous cas."
+                "tout cas."
               ],
               "Type": 0,
               "Position": 0
@@ -88124,7 +88124,7 @@
               "MessageTextLines": [
                 "Si c'était un objet très abordable,",
                 "<SOUND:CLUE>peut-on s'accorder pour dire que cette ",
-                "punition est trop sévère...?"
+                "punition est trop sévère... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -88141,7 +88141,7 @@
             {
               "Name": "3_LINK40",
               "MessageTextLines": [
-                "<C>(Mais c'est ridicule...!)"
+                "<C>(Mais c'est ridicule... !)"
               ],
               "Type": 0,
               "Position": 0
@@ -88203,7 +88203,7 @@
               "Name": "4_LINK10",
               "MessageTextLines": [
                 "Les clients peuvent vraiment passer ",
-                "derrière le comptoir comme ça...?"
+                "derrière le comptoir comme ça... ?"
               ],
               "Type": 0,
               "Position": 0
