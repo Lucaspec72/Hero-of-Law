@@ -95061,7 +95061,7 @@
                 "<NEW_BOX>",
                 "Il essaie désespérément de colmater les ",
                 "trous de son témoignage pour cacher ses ",
-                "véritables déplacements.."
+                "véritables déplacements."
               ],
               "Type": 2,
               "Position": 3
@@ -95069,7 +95069,7 @@
             {
               "Name": "Q1",
               "MessageTextLines": [
-                "Pourquoi ferait-il ça...?<THREE_CHOICES><G>",
+                "Pourquoi ferait-il ça... ?<THREE_CHOICES><G>",
                 "Ingo a une armoire dans le silo",
                 "Ingo est la victime",
                 "Ingo est le meurtrier"
@@ -95108,7 +95108,7 @@
                 "<SPEED:103>C'est forcément ça !<SPEED:102><PAUSE:5> <DI><SOUND:WHAP>Toute cette affaire ",
                 "n'était qu'une référence à Ghost Trick !",
                 "<NEW_BOX>",
-                "<PAUSE:5>...Mais qu'est-ce que je raconte ?<PAUSE:3> Tout ça ",
+                "<PAUSE:5>... Mais qu'est-ce que je raconte ?<PAUSE:3> Tout ça ",
                 "n'a aucun sens !"
               ],
               "Type": 2,
@@ -95132,7 +95132,7 @@
             {
               "Name": "Q2",
               "MessageTextLines": [
-                "Qu'est-ce qui a rendu ça nécessaire...?",
+                "Qu'est-ce qui a rendu ça nécessaire... ?",
                 "<THREE_CHOICES><G>Ils étaient sales",
                 "Le sang de Talon était dessus",
                 "Ils ont été mangés par une vache"
@@ -95147,7 +95147,7 @@
                 "supportait pas d'être dans une tenue aussi ",
                 "sale.",
                 "<NEW_BOX>",
-                "<PAUSE:3><DC>...Mais dans ce cas, je ne pense pas qu'il ",
+                "<PAUSE:3><DC>... Mais dans ce cas, je ne pense pas qu'il ",
                 "travaillerait dans un ranch.",
                 "<NEW_BOX>",
                 "Il doit y avoir une meilleure explication pour",
@@ -95166,7 +95166,7 @@
                 "Ça l'a laissé dans une situation",
                 "embarrassante, et il a dû retourner...",
                 "<NEW_BOX>",
-                "<PAUSE:3><DC>.<PAUSE:3><DC>.<PAUSE:3><DC>.<PAUSE:3><DC>Hmm, ça sonne creux.",
+                "<PAUSE:3><DC>.<PAUSE:3><DC>.<PAUSE:3><DC>.<PAUSE:3><DC> Hmm, ça sonne creux.",
                 "<NEW_BOX>",
                 "Il doit y avoir une meilleure raison."
               ],
@@ -95206,7 +95206,7 @@
                 "Un cambrioleur est passé juste au moment ",
                 "où le meurtre a eu lieu !",
                 "<NEW_BOX>",
-                "<PAUSE:3><DC>...Exact, et il n'a pris que des vêtements ",
+                "<PAUSE:3><DC>... Exact, et il n'a pris que des vêtements ",
                 "sales et ensanglantés, puis il est reparti",
                 "joyeusement à ses larcins.",
                 "<NEW_BOX>",
@@ -95221,7 +95221,7 @@
                 "Bien sûr ! Ingo les a juste jetés par-dessus ",
                 "la rambarde !",
                 "<NEW_BOX>",
-                "<PAUSE:3><DC>.<PAUSE:3><DC>.<PAUSE:3><DC>.<PAUSE:3><DC>Mais, non.<PAUSE:3> Je suis sûr que les Forces ",
+                "<PAUSE:3><DC>.<PAUSE:3><DC>.<PAUSE:3><DC>.<PAUSE:3><DC> Mais, non.<PAUSE:3> Je suis sûr que les Forces ",
                 "Sheikah ont aussi cherché aux alentours ",
                 "du ranch.",
                 "<NEW_BOX>",
@@ -95918,7 +95918,7 @@
                 "Dragmire avait l'air d'être sûr d'être celui ",
                 "qui contrôle tout...",
                 "<NEW_BOX>",
-                "<SOUND:HINT>Mais...<PAUSE:5> non...!<PAUSE:5> Je viens de voir qu'il ne ",
+                "<SOUND:HINT>Mais...<PAUSE:5> non... !<PAUSE:5> Je viens de voir qu'il ne ",
                 "pouvait rien contrôler !<PAUSE:5> Ça ne peut pas ",
                 "être lui !"
               ],
@@ -95954,7 +95954,7 @@
                 "manière concluante qu'ils ne sont pas ",
                 "l'hôte de ce rêve.",
                 "<NEW_BOX>",
-                "Qui ça nous laisse...?"
+                "Qui ça nous laisse... ?"
               ],
               "Type": 2,
               "Position": 3
@@ -95962,7 +95962,7 @@
             {
               "Name": "Q2",
               "MessageTextLines": [
-                "Peut-être un de ceux-là...?",
+                "Peut-être un de ceux-là... ?",
                 "<THREE_CHOICES><G>Le hibou",
                 "Le vendeur",
                 "Aucun des deux non plus"
@@ -96007,7 +96007,7 @@
                 "Ils auraient déjà mis fin au procès en leur ",
                 "faveur s'ils avaient été aux commandes.",
                 "<NEW_BOX>",
-                "<PAUSE:2>.<PAUSE:2>.<PAUSE:2>.<PAUSE:5>Et je sais déjà que VOYOU n'est pas ",
+                "<PAUSE:2>.<PAUSE:2>.<PAUSE:2>.<PAUSE:5> Et je sais déjà que VOYOU n'est pas ",
                 "l'hôte...<PAUSE:5> Donc il reste..."
               ],
               "Type": 2,
