@@ -799,8 +799,11 @@
               "MessageTextLines": [
                 "<Y>Acte de succession du Ranch<W>",
                 "\"Malon héritera du ranch.",
-                "Si elle est inapte, diviser l'acte entre ",
-                "la Couronne et les employés restants.\"<PERSISTENT>"
+                "Si elle est dans l'incapacité de",
+                "le gérer, il sera partagé entre ",
+                "la Couronne et les employés restants.\"<PERSISTENT>",
+                "",
+                ""
               ],
               "Type": 1,
               "Position": 2
@@ -77732,7 +77735,7 @@
             {
               "Name": "LINK170",
               "MessageTextLines": [
-                "Le document d'héritage que vous",
+                "L'acte de succession que vous",
                 "avez soumis à la cour indique",
                 "clairement :",
                 "<NEW_BOX>",
@@ -77759,7 +77762,7 @@
             {
               "Name": "INGO60",
               "MessageTextLines": [
-                "<PAUSE:5><DC>.<PAUSE:3><DC>.<PAUSE:3><DC>.<PAUSE:3><DC><DI><SOUND:DON>Quoooooooooooooooooi ?!"
+                "<PAUSE:5><DC>.<PAUSE:3><DC>.<PAUSE:3><DC>.<PAUSE:3><DC><DI><SOUND:DON> Quoooooooooooooooooi ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -77796,7 +77799,7 @@
             {
               "Name": "LINK230",
               "MessageTextLines": [
-                "Un plan parfait pour que les royaux",
+                "Un plan parfait pour que les gardes royaux",
                 "la trouvent à côté du corps !"
               ],
               "Type": 0,
@@ -77833,7 +77836,7 @@
                 "<SOUND:0><C>(Est-ce qu'il... <SOUND:CLUE>ne savait vraiment pas... ?)",
                 "<NEW_BOX>",
                 "<SOUND:0><C>(J'imagine que c'est Dragmire",
-                "qui a produit le document, pas lui.)"
+                "qui s'est procuré le document, pas lui.)"
               ],
               "Type": 0,
               "Position": 0
@@ -77857,7 +77860,7 @@
             {
               "Name": "SOLDIER20",
               "MessageTextLines": [
-                "La boîte que vous avez demandée",
+                "La caisse que vous avez demandée",
                 "est arrivée !"
               ],
               "Type": 0,
@@ -77877,7 +77880,7 @@
                 "Apparemment, l'équipe au ranch avait",
                 "déjà remarqué quelque chose d'anormal.",
                 "<NEW_BOX>",
-                "La boîte est arrivée juste quand on",
+                "La caisse est arrivée juste quand on",
                 "allait envoyer un coursier avec notre",
                 "message."
               ],
@@ -77897,7 +77900,7 @@
               "Name": "LINK15",
               "MessageTextLines": [
                 "<G>La partie de la cargaison qui prouve",
-                "mon argument est...<FADE:30>"
+                "mon idée est...<FADE:30>"
               ],
               "Type": 0,
               "Position": 0
@@ -77905,7 +77908,7 @@
             {
               "Name": "F_LINK10",
               "MessageTextLines": [
-                "<SOUND:0><C>(...Il n'y a rien ici.)"
+                "<SOUND:0><C>(... Il n'y a rien ici.)"
               ],
               "Type": 0,
               "Position": 0
@@ -77940,7 +77943,7 @@
             {
               "Name": "F_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Aller, faut pas se prendre la tête...)"
+                "<SOUND:0><C>(Allez, faut pas se prendre la tête...)"
               ],
               "Type": 0,
               "Position": 0
@@ -77958,9 +77961,9 @@
             {
               "Name": "F_LINK40",
               "MessageTextLines": [
-                "...E-enfin bref,<PAUSE:2> comme je disais,<PAUSE:3> <G>la",
+                "... E-enfin bref,<PAUSE:2> comme je disais,<PAUSE:3> <G>la",
                 "partie de la cargaison qui prouve mon",
-                "point, c'est...<FADE:30>"
+                "idée, c'est...<FADE:30>"
               ],
               "Type": 0,
               "Position": 0
@@ -77968,7 +77971,7 @@
             {
               "Name": "MALONcbf_10",
               "MessageTextLines": [
-                "Non, attend, ce n'est pas ça !<PAUSE:5> ",
+                "Non, attends, ce n'est pas ça !<PAUSE:5> ",
                 "Ça doit être la bouteille avec une",
                 "teinte rougeâtre !"
               ],
@@ -77978,8 +77981,8 @@
             {
               "Name": "LINKcbf_10",
               "MessageTextLines": [
-                "Hmm...?<PAUSE:5> Oh !<PAUSE:5> ",
-                "...Euh, oui, c'est ce que je voulais dire !"
+                "Hmm... ?<PAUSE:5> Oh !<PAUSE:5> ",
+                "... Euh, oui, c'est ce que je voulais dire !"
               ],
               "Type": 0,
               "Position": 0
@@ -78082,7 +78085,7 @@
                 "<NEW_BOX>",
                 "Qu'est-ce que VOUS auriez fait, si,<PAUSE:2> un jour,<PAUSE:2>",
                 "après DES ANNÉES de boulot pénible,<PAUSE:2> après",
-                "avoir mis votre<PAUSE:5><DI> TOUT<PAUSE:5> dans ce fichu ranch..."
+                "avoir<PAUSE:5><DI> TOUT<PAUSE:5> donné pour ce fichu ranch..."
               ],
               "Type": 0,
               "Position": 0
@@ -78090,7 +78093,7 @@
             {
               "Name": "INGO130",
               "MessageTextLines": [
-                "...on vous jetait comme un déchet !<PAUSE:8> ",
+                "... on vous jetait comme un déchet !<PAUSE:8> ",
                 "<SOUND:WHAP><DI>Sans la moindre raison !<PAUSE:12> <DI>VIRÉ !<PAUSE:12> Adieu,<PAUSE:3> ",
                 "<DI>on<PAUSE:2><SHIFT:0><DI> n'a<PAUSE:2><SHIFT:0><DI> plus<PAUSE:2><SHIFT:0><DI> besoin<PAUSE:2><SHIFT:0><DI><SOUND:WHAP> de toi !"
               ],
@@ -78100,7 +78103,7 @@
             {
               "Name": "MALON20",
               "MessageTextLines": [
-                "...Quoi ?<PAUSE:3> ",
+                "... Quoi ?<PAUSE:3> ",
                 "Mais ça n'a aucun sens..."
               ],
               "Type": 0,
@@ -78117,9 +78120,9 @@
             {
               "Name": "INGO150",
               "MessageTextLines": [
-                "Je rentrais d'une autre journée de ",
+                "Je rentrais d'une nouvelle journée de ",
                 "<PAUSE:2><SHIFT:0><DI>TRAVAIL<PAUSE:3><SHIFT:0><DI> ÉCRASANT<PAUSE:3> <DI>ET ÉPUISANT<PAUSE:4>, et là,",
-                "qu'est-ce que je j'entend ?"
+                "qu'est-ce que j'entends ?"
               ],
               "Type": 0,
               "Position": 0
@@ -78151,7 +78154,7 @@
                 "Alors...",
                 "<NEW_BOX>Après m'être porté volontaire pour ce",
                 "chargement, je me suis discrètement",
-                "éclipsé pendant que la fille était occupée,",
+                "éclipsé pendant que la gamine était occupée,",
                 "et j'ai planté ce bon à rien de feignant."
               ],
               "Type": 0,
@@ -78232,8 +78235,7 @@
                 "M'excuser ?!<PAUSE:3><SOUND:WHAP> MOI ?!<PAUSE:5> <SOUND:EXPLOSION>Tu es immonde !",
                 "<NEW_BOX>",
                 "On n'avait jamais prévu de te virer !<PAUSE:3> ",
-                "<SOUND:WHAP><DI>Tu as complètement mal compris ce",
-                "qu'on disait !"
+                "<SOUND:WHAP><DI>Tu as juste mal compris ce qu'on disait !"
               ],
               "Type": 0,
               "Position": 0
@@ -78241,7 +78243,7 @@
             {
               "Name": "INGO210",
               "MessageTextLines": [
-                "<SOUND:CLUE>...Hein ?<SQUARE>"
+                "<SOUND:CLUE>... Hein ?<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -103241,7 +103243,7 @@
                 "T'a compris ?<PAUSE:3> Très bien.",
                 "<NEW_BOX>",
                 "Bon, maintenant, on joue le <SOUND:NA_SE_VO_IN_LASH_0>GROS LOT !<PAUSE:3>",
-                "Pas de limites de pari !<PAUSE:5> <DI><SOUND:WHAP>",
+                "Pas de limite de pari !<PAUSE:5> <DI><SOUND:WHAP>",
                 "Mise autant que tu veux !<SQUARE>"
               ],
               "Type": 0,
@@ -103266,9 +103268,9 @@
                 "<NEW_BOX>",
                 "<SOUND:0>Au début du développement, notre",
                 "musique placeholder pour cette piste",
-                "était <R>Cour du château<W>....",
+                "était <R>Cour du château<W>...",
                 "<NEW_BOX>",
-                "<SOUND:0>...alors quand le moment est venu d'écrire",
+                "<SOUND:0>... alors quand le moment est venu d'écrire",
                 "la vraie musique, j'ai d'abord",
                 "essayé de l'utiliser comme base.",
                 "<NEW_BOX>",
@@ -103311,7 +103313,7 @@
                 "Principal<W> du jeu original <EMDASH> du",
                 "premier coup...",
                 "<NEW_BOX>",
-                "<SOUND:0>...mais j'ai eu un blocage, et je ne",
+                "<SOUND:0>... mais j'ai eu un blocage, et je ne",
                 "savais pas comment continuer.",
                 "<NEW_BOX>",
                 "<SOUND:0>J'ai donc tenté une deuxième version",
@@ -104244,7 +104246,7 @@
                 "<NEW_BOX>",
                 "Vous avez le bonjour de <R>Lucaspec72<W>,<PAUSE:3>",
                 "<G>Ronano<W><PAUSE:3>, <B>Loloiiiiiou<W><PAUSE:3> et <C>Spacewiki<W>",
-                "à l'équipe de traduction FR !",
+                "de l'équipe de traduction FR !",
                 "<NEW_BOX>",
                 "<SOUND:0>Bon, on en était où<PAUSE:1>.<PAUSE:2>.<PAUSE:3>.<PAUSE:5> Ah, oui !<PAUSE:5> Donc, on",
                 "s'est dit que un lag de l'émulateur ou de",
@@ -106847,7 +106849,7 @@
                 "<NEW_BOX>",
                 "En échange, j'vais t'parler d'un <SOUND:CLUE>secret",
                 "qu'j'ai entendu...<PAUSE:5> ",
-                "À ce qu'il parait...",
+                "À ce qu'il paraît...",
                 "<NEW_BOX>",
                 "<SPEED:101>Il existerait un jeu avec un oeuf géant",
                 "dans lequel tu peux <R>devenir un voyou<W>...<SPEED:102>",
@@ -106855,7 +106857,7 @@
                 "<SPEED:101>Et deux jeux sur le <R>changement climatique<W>",
                 "et le <R>voyage dans le temps<W>...<SPEED:102>",
                 "<NEW_BOX>",
-                "Il parait qu'on peut débloquer des extras",
+                "Il paraît qu'on peut débloquer des extras",
                 "en les connectant depuis l'<SOUND:HINT><R>Écran Titre<W>",
                 "avec un <R>certain accessoire<W>."
               ],
@@ -106865,7 +106867,7 @@
             {
               "Name": "msg_entry",
               "MessageTextLines": [
-                "<SHIFT:38><R>APPUYEZ SUR START!<W>",
+                "<SHIFT:38><R>APPUYEZ SUR START !<W>",
                 "",
                 "<C><D_PAD><W> Se Déplacer<SHIFT:12><G><B BUTTON><W> Courir<SHIFT:12><B><A BUTTON><W> Sauter",
                 "<PERSISTENT>",
@@ -106877,7 +106879,7 @@
             {
               "Name": "msg_hint_end_wii",
               "MessageTextLines": [
-                "<SOUND:NA_SE_VO_TA_SURPRISE>...M'enfin, ça serait le cas, mais avec",
+                "<SOUND:NA_SE_VO_TA_SURPRISE>... M'enfin, ça serait le cas, mais avec",
                 "toutes ces histoires de <R>Console Virtuelle<W>,",
                 "j'parie qu't'as déjà tous ces secrets",
                 "débloqués par défaut !",
@@ -109363,7 +109365,9 @@
                 "",
                 "",
                 "",
-                "<Shift:77>Conserver le rapport d'aspect <Shift:20><Z_BUTTON> (Maintenir)",
+                "<Shift:77>Conserver le rapport d'aspect <Shift:20>",
+                "",
+                "                          <Z_BUTTON> (Maintenir)",
                 "",
                 "",
                 "",
@@ -110909,7 +110913,7 @@
             {
               "Name": "SceneSelectString",
               "MessageTextLines": [
-                "<LC><R>SELECTION DE SCÈNE / EXTRAS"
+                "<LC><R>CHOIX DE SCÈNE / EXTRAS"
               ],
               "Type": 0,
               "Position": 0
