@@ -106767,6 +106767,14 @@
           "Position": 2
         },
         {
+          "Name": "courceclear",
+          "MessageTextLines": [
+            ""
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
           "Name": "msg_hint",
           "MessageTextLines": [
             "<SOUND:NA_SE_VO_TA_CRY_0>Wow! I really needed one of those!<PAUSE:5> ",
@@ -106840,6 +106848,14 @@
               ],
               "Type": 1,
               "Position": 2
+            },
+            {
+              "Name": "courceclear",
+              "MessageTextLines": [
+                "<LC><R>NIVEAU TERMINÉ"
+              ],
+              "Type": 0,
+              "Position": 0
             },
             {
               "Name": "msg_hint",
