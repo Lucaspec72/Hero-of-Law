@@ -50687,7 +50687,7 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "...Ah."
+                "... Ah."
               ],
               "Type": 0,
               "Position": 0
@@ -50742,7 +50742,7 @@
             {
               "Name": "LINK80",
               "MessageTextLines": [
-                "L'incendie ? C'est...<PAUSE:5> Je n'ai rien pu faire ",
+                "Le feu ? C'est...<PAUSE:5> Je n'ai rien pu faire ",
                 "avec.",
                 "<NEW_BOX>",
                 "Vous pensez vraiment que c'est important ?"
