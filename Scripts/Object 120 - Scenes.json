@@ -46930,7 +46930,7 @@
             {
               "Name": "CONS1_LINK20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Whoa !<PAUSE:5> Désolé, je ne voulais pas ",
+                "<SOUND:WHAP><DI>Whoua !<PAUSE:5> Désolé, je ne voulais pas ",
                 "sous entendre que tu ne l'étais pas !"
               ],
               "Type": 0,
@@ -46939,7 +46939,7 @@
             {
               "Name": "CONS1_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(...et,<PAUSE:3> en fait,<PAUSE:3> je devrais peut-être<SOUND:CLUE> attaquer ",
+                "<SOUND:0><C>(... et,<PAUSE:3> en fait,<PAUSE:3> je devrais peut-être<SOUND:CLUE> attaquer ",
                 "Ingo sur ce point.)<SQUARE>"
               ],
               "Type": 0,
@@ -46957,7 +46957,7 @@
             {
               "Name": "CONS2_MALON10",
               "MessageTextLines": [
-                "C'était juste avant la visite, à peu près.<PAUSE:5> ",
+                "C'était juste avant la visite.<PAUSE:5> ",
                 "On n'était pas au courant que la princesse ",
                 "devait venir avant la dernière minute."
               ],
@@ -47047,7 +47047,7 @@
               "Name": "B_MALON10",
               "MessageTextLines": [
                 "Eh bien...<PAUSE:5> Il travaille et vit avec nous ",
-                "au ranch depuis aussi loin que je me ",
+                "au ranch depuis aussi longtemps que je me ",
                 "souvienne. "
               ],
               "Type": 0,
@@ -47056,8 +47056,8 @@
             {
               "Name": "B_MALON20",
               "MessageTextLines": [
-                "En fait,<PAUSE:3> maintenant que j'y pense, je ",
-                "ne crois pas qu'il ait manqué un seul ",
+                "En fait,<PAUSE:3> maintenant que j'y pense, je ne ",
+                "crois pas qu'il ait déjà manqué un seul ",
                 "jour de travail..."
               ],
               "Type": 0,
@@ -47163,7 +47163,7 @@
             {
               "Name": "2_INGO10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Wah, bien sûr que non !",
+                "<SOUND:WHAP><DI>Ouah, bien sûr que non !",
                 "<NEW_BOX>",
                 "N'avez-vous pas entendu toutes les ",
                 "rumeurs récemment ?"
@@ -47292,7 +47292,7 @@
             {
               "Name": "3_INGO30",
               "MessageTextLines": [
-                "<DI>Wah !",
+                "<DI>Ouah !",
                 "<NEW_BOX>",
                 "Elle bâcle souvent son travail, pendant ",
                 "que moi, l'infatigable Ingo, je dois repasser ",
@@ -47444,7 +47444,7 @@
             {
               "Name": "4_INGO40",
               "MessageTextLines": [
-                "<DI>Mwahaha !<PAUSE:5> C'est là que vous vous trompez."
+                "<DI>Mouahaha !<PAUSE:5> C'est là que vous vous trompez."
               ],
               "Type": 0,
               "Position": 0
@@ -47580,7 +47580,7 @@
                 "<NEW_BOX>",
                 "Après la fin de la visite, il serait allé à la ",
                 "Citadelle<PAUSE:1> pour partager en deux l'acte de ",
-                "succession comme c'était initalement ",
+                "succession comme c'était initialement ",
                 "prévu !"
               ],
               "Type": 0,
