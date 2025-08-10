@@ -58307,7 +58307,7 @@
             {
               "Name": "DRAGMIRE60",
               "MessageTextLines": [
-                "<SOUND:0><SOUND:CLUE>...?"
+                "<SOUND:0><SOUND:CLUE>... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -58326,7 +58326,7 @@
               "Name": "LINK70",
               "MessageTextLines": [
                 "<G>Il s'est donc servi de ça pour s'en ",
-                "débarasser...!<PERSISTENT>"
+                "débarasser... !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -59293,7 +59293,7 @@
             {
               "Name": "INGO40",
               "MessageTextLines": [
-                "<NS>Dites moi que c'est pas vraiiiiiiiiiiiiiiiii~!<FADE:30>"
+                "<NS>Dites moi que c'est pas vraiiiiiiiiiiiiiiiii~ !<FADE:30>"
               ],
               "Type": 0,
               "Position": 0
@@ -59302,7 +59302,7 @@
               "Name": "JUDGE10",
               "MessageTextLines": [
                 "Nous avons assisté aujourd'hui au ",
-                "résultat d'un quiproquo tragique."
+                "résultat d'un tragique quiproquo."
               ],
               "Type": 0,
               "Position": 0
@@ -59321,7 +59321,7 @@
               "MessageTextLines": [
                 "Talon était un homme bon, aimé de tous ",
                 "ceux qui ont eu la chance de croiser ",
-                "son chemin.."
+                "son chemin."
               ],
               "Type": 0,
               "Position": 0
