@@ -892,8 +892,8 @@
             {
               "Name": "WaresList",
               "MessageTextLines": [
-                "<Y>Liste d'objets<W>",
-                "La liste des objets vendus dans ",
+                "<Y>Liste de biens<W>",
+                "La liste des biens vendus dans ",
                 "le Bazar du Centre à Cocolint.",
                 "Appuyez sur <B><A Button><W> pour la voir.<PERSISTENT>"
               ],
@@ -50731,7 +50731,7 @@
             {
               "Name": "IMPA60",
               "MessageTextLines": [
-                "Allez, s'il vous plaît.",
+                "Allons, voyons.",
                 "<NEW_BOX>",
                 "Je parle de <SOUND:CLUE>la grande découverte de la ",
                 "princesse, bien sûr."
@@ -50820,7 +50820,7 @@
                 "<NEW_BOX>",
                 "Ça risque d'être compliqué de mettre le ",
                 "sujet du feu sur la table sans que ",
-                "Dragmire nous barre la route."
+                "Dragmire ne nous barre la route."
               ],
               "Type": 0,
               "Position": 0
@@ -50839,7 +50839,7 @@
                 "<SOUND:0><C>(Même si ça ne me plaît pas, elle a raison.)",
                 "<NEW_BOX>",
                 "<SOUND:0><C>(Il n'y a pas vraiment autre chose sur ",
-                "quoi s'appuyuer.)",
+                "quoi s'appuyer.)",
                 "<NEW_BOX>",
                 "Eh bien, euh, merci."
               ],
@@ -50985,10 +50985,10 @@
             {
               "Name": "LINK130",
               "MessageTextLines": [
-                "<SOUND:0><C>(Wow, quel discours intense. Je n'aurais ",
+                "<SOUND:0><C>(Ouah, quel discours intense. Je n'aurais ",
                 "jamais imaginé Impa être si...<PAUSE:3> émotionnelle ?)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(C'est sans doute en raison de tout cela ",
+                "<SOUND:0><C>(C'est sans doute à cause de tout cela ",
                 "qu'elle a décidé de prendre en charge ",
                 "l'enquête improvisée menée par la ",
                 "princesse...)"
@@ -51020,7 +51020,7 @@
                 "<SOUND:WHAP>L'équipe d'investigation présente au ",
                 "ranch a du nouveau !",
                 "<NEW_BOX>",
-                "Quelque chose à propos d'une cargaison",
+                "C'est au sujet d'une cargaison",
                 "de lait renvoyée au ranch à cause d'une ",
                 "erreur d'adresse du destinataire !",
                 "<NEW_BOX>",
@@ -51100,7 +51100,7 @@
             {
               "Name": "IMPA230",
               "MessageTextLines": [
-                "Bien, alors.<PAUSE:3> Je pense que la calèche de la ",
+                "Bon.<PAUSE:3> Je pense que la calèche de la ",
                 "princesse<SOUND:HINT> est enfin prête."
               ],
               "Type": 0,
@@ -51151,7 +51151,7 @@
             {
               "Name": "LINK_n60",
               "MessageTextLines": [
-                "Je suppoose qu'il vient d'une des ",
+                "Je suppose qu'il vient d'une des ",
                 "cargaisons d'hier...?"
               ],
               "Type": 0,
@@ -51172,7 +51172,7 @@
               "Name": "LINK_n70",
               "MessageTextLines": [
                 "<PAUSE:3>.<PAUSE:3>.<PAUSE:3>.<PAUSE:8><DI><DC> Non, je ne pense pas.<PAUSE:5> Ça n'a pas le ",
-                "goût d'un produit tourné..."
+                "goût d'un produit qui a tourné..."
               ],
               "Type": 0,
               "Position": 0
@@ -51180,8 +51180,9 @@
             {
               "Name": "LINK_n80",
               "MessageTextLines": [
-                "Aussi, le garde a dit qu'une des cargaisons ",
-                "d'hier avait été mal adressée, n'est-ce pas ?",
+                "D'ailleurs, le garde a dit qu'une des ",
+                "cargaisons d'hier avait été mal adressée,",
+                "n'est-ce pas ?",
                 "<NEW_BOX>",
                 "Hmm...<PAUSE:8> et tout a été géré par",
                 "<SOUND:CLUE>Ingo,<PAUSE:8> non... ? "
@@ -51203,7 +51204,7 @@
             {
               "Name": "COURTRECORD1",
               "MessageTextLines": [
-                "<SOUND:ITEMGET><SOUND:0><ICON:9><DI><SQUARE><R>Cargaison de lait Renvoyée",
+                "<SOUND:ITEMGET><SOUND:0><ICON:9><DI><SQUARE><R>Cargaison de Lait Renvoyée",
                 "<G>ajoutée au Dossier de l'affaire."
               ],
               "Type": 1,
@@ -51558,7 +51559,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Mes Déplacements Non Suspects\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Mes Déplacements Normaux\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -51604,7 +51605,7 @@
               "Name": "INGO6",
               "MessageTextLines": [
                 "À un moment donné, l'inspectrice est venue ",
-                "me raconter ce qui s'était passé.<PAUSE:5> Et wow, ",
+                "me raconter ce qui s'était passé.<PAUSE:5> Et, ouah, ",
                 "quelle femme remarquable !<SQUARE>"
               ],
               "Type": 0,
@@ -54500,7 +54501,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Mes Déplacements Non Suspects\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Mes Déplacements Normaux\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -54567,7 +54568,7 @@
               "Name": "INGO6",
               "MessageTextLines": [
                 "<DI><G>À un moment donné, l'inspectrice est venue ",
-                "me raconter ce qui s'était passé.<PAUSE:5> Et wow, ",
+                "me raconter ce qui s'était passé.<PAUSE:5> Et, ouah, ",
                 "quelle femme remarquable !<PERSISTENT>"
               ],
               "Type": 0,
@@ -88183,7 +88184,7 @@
             {
               "Name": "COURTRECORD1",
               "MessageTextLines": [
-                "<SOUND:ITEMGET><SOUND:0><ICON:23><DI><SQUARE><R>Liste d'objets<G> ajoutée au Dossier ",
+                "<SOUND:ITEMGET><SOUND:0><ICON:23><DI><SQUARE><R>Liste de biens<G> ajoutée au Dossier ",
                 "de l'affaire."
               ],
               "Type": 1,
