@@ -106767,7 +106767,7 @@
           "Position": 2
         },
         {
-          "Name": "courceclear",
+          "Name": "courseclear",
           "MessageTextLines": [
             ""
           ],
@@ -106850,7 +106850,7 @@
               "Position": 2
             },
             {
-              "Name": "courceclear",
+              "Name": "courseclear",
               "MessageTextLines": [
                 "<LC><R>NIVEAU TERMINÉ"
               ],
