@@ -1084,7 +1084,7 @@
             {
               "Name": "Subtitle_HoldIt",
               "MessageTextLines": [
-                "<LC>Un Instant !<BYTE:0>"
+                "<LC>(Un Instant !)<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1092,7 +1092,7 @@
             {
               "Name": "Subtitle_Objection",
               "MessageTextLines": [
-                "<LC>Objection !<BYTE:0>"
+                "<LC>(Objection !)<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1100,7 +1100,7 @@
             {
               "Name": "Subtitle_TakeThat",
               "MessageTextLines": [
-                "<LC>Prends ça !<BYTE:0>"
+                "<LC>(Prends ça !)<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1108,7 +1108,7 @@
             {
               "Name": "Subtitle_WitnessTestimony",
               "MessageTextLines": [
-                "<LC>Déposition du Témoin<BYTE:0>"
+                "<LC>(Déposition du Témoin)<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1116,7 +1116,7 @@
             {
               "Name": "Subtitle_CrossExam",
               "MessageTextLines": [
-                "<LC>Contre-Interrogatoire<BYTE:0>"
+                "<LC>(Contre-Interrogatoire)<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1124,7 +1124,7 @@
             {
               "Name": "Subtitle_Guilty",
               "MessageTextLines": [
-                "<LC>Coupable<BYTE:0>"
+                "<LC>(Coupable)<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1132,7 +1132,7 @@
             {
               "Name": "Subtitle_NotGuilty",
               "MessageTextLines": [
-                "<LC>Non Coupable<BYTE:0>"
+                "<LC>(Non Coupable)<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1140,7 +1140,7 @@
             {
               "Name": "Subtitle_Rebuttal",
               "MessageTextLines": [
-                "<LC>Réfutation<BYTE:0>"
+                "<LC>(Réfutation)<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1148,7 +1148,7 @@
             {
               "Name": "Subtitle_ArgumentComplete",
               "MessageTextLines": [
-                "<LC>Argument Réfuté<BYTE:0>"
+                "<LC>(Argument Réfuté)<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -20759,7 +20759,7 @@
               "Name": "DRAGMIRE70",
               "MessageTextLines": [
                 "Vous ne pouviez pas attendre que ",
-                "l'aut' vieux meure naturellement ? ",
+                "l'autre vieux meure naturellement ? ",
                 "Hein, sale petite fouine avide."
               ],
               "Type": 0,
