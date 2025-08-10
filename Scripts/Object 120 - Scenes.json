@@ -41932,7 +41932,7 @@
               "MessageTextLines": [
                 "Comme évoqué avant la pause...",
                 "<NEW_BOX>",
-                "...Maintenant que nous avons établi que ",
+                "... Maintenant que nous avons établi que ",
                 "l'accusée avait l'occasion et les moyens ",
                 "de commettre le meurtre, il ne reste plus ",
                 "qu'une seule question..",
@@ -42057,7 +42057,7 @@
             {
               "Name": "JUDGE40",
               "MessageTextLines": [
-                "<SOUND:HINT>\"Occuper\"?<PAUSE:5> Qu'est-ce que cela implique ",
+                "<SOUND:HINT>\"Occuper\" ?<PAUSE:5> Qu'est-ce que cela implique ",
                 "exactement ?"
               ],
               "Type": 0,
@@ -42106,7 +42106,7 @@
             {
               "Name": "LINK40",
               "MessageTextLines": [
-                "Il veut une médaille...?"
+                "Il veut une médaille... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -42131,7 +42131,7 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "Woah. C'est ce qu'on appelle être dévoué."
+                "Wouah. C'est ce qu'on appelle être dévoué."
               ],
               "Type": 0,
               "Position": 0
@@ -43029,7 +43029,7 @@
               "MessageTextLines": [
                 "J'ai jugé bon de préparer ceci pour le ",
                 "procès.<PAUSE:5> L'accusation aimerait ajouter ",
-                "l'<R>Acte de succession du ranch<W> au Dossier, ",
+                "l'<R>Acte de succession du ranch<W> au dossier, ",
                 "en tant que preuve."
               ],
               "Type": 0,
