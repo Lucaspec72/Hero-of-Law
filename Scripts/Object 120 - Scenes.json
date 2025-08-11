@@ -65708,8 +65708,8 @@
               "Name": "4_DRAGMIRE30",
               "MessageTextLines": [
                 "<SOUND:WHAP>Le propriétaire du ranch devait tout",
-                "avoir en ordre !<PAUSE:3> Il a dû vérifier cet",
-                "inventaire deux, trois fois, au minimum !"
+                "avoir en ordre !<PAUSE:3> Il a dû vérifier cette",
+                "liste deux, trois fois, au minimum !"
               ],
               "Type": 0,
               "Position": 0
@@ -65747,7 +65747,7 @@
                 "<SOUND:0><C>(Ce serait...)",
                 "<TWO_CHOICES>",
                 "<G>Une autre preuve",
-                "Quelque chose dans l'inventaire lui-même"
+                "Quelque chose dans la liste elle-même"
               ],
               "Type": 0,
               "Position": 0
@@ -65845,7 +65845,7 @@
               "Name": "4_2_DRAGMIRE20",
               "MessageTextLines": [
                 "<G>Indiquez précisément ce qui rend",
-                "cet inventaire suspect !<PERSISTENT>"
+                "cette liste suspecte !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -65919,7 +65919,7 @@
               "Name": "4_2_F_1_DRAGMIRE10",
               "MessageTextLines": [
                 "<SOUND:WHAP>Alors allez-y !<PAUSE:3> Et plus vite vous",
-                "retirerez vos sales pattes de cet inventaire,",
+                "retirerez vos sales pattes de cette liste,",
                 "mieux ce sera !"
               ],
               "Type": 0,
