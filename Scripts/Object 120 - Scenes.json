@@ -29452,8 +29452,8 @@
               "Name": "ZELDA20",
               "MessageTextLines": [
                 "Je n'ai encore jamais vu de procès",
-                "en vrai, je n'en ai lu que dans la",
-                "Bibliothèque Royale."
+                "en vrai, je n'ai que lu des comptes-rendus ",
+                "dans la Bibliothèque Royale."
               ],
               "Type": 0,
               "Position": 0
@@ -29497,7 +29497,7 @@
               "Name": "MALON10",
               "MessageTextLines": [
                 "Qu'est-ce que le procureur a en tête ? <pause:3> ",
-                "Ca avait l'air plutôt intense,",
+                "Ça avait l'air plutôt intense,",
                 "comme réaction."
               ],
               "Type": 0,
