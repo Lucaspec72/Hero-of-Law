@@ -37087,7 +37087,8 @@
             {
               "Name": "JUDGE40",
               "MessageTextLines": [
-                "C'est tout simplement,<SOUND:WHAP> totalement irrégulier !"
+                "C'est tout simplement,<SOUND:WHAP> totalement ",
+                "irrégulier !"
               ],
               "Type": 0,
               "Position": 0
@@ -37149,9 +37150,9 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "Hmm...<PAUSE:5> Si on s'oppose à ce que la preuve",
-                "soit présentée,<SOUND:CLUE> <R>Dragmire perds son",
-                "témoin clé<W>...",
+                "Hmm...<PAUSE:5> Si on s'oppose à ce que la ",
+                "preuve soit présentée,<SOUND:CLUE> <R>Dragmire perd ",
+                "son témoin clé<W>...",
                 "<NEW_BOX>",
                 "En plus, il est possible que ce que la",
                 "princesse va présenter nuise à",
