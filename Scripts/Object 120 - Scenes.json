@@ -34982,7 +34982,7 @@
             {
               "Name": "2_DRAGMIRE20",
               "MessageTextLines": [
-                "Y a une montagne de la mort de preuves",
+                "Y'a une montagne de la mort de preuves",
                 "contre l'accusée !"
               ],
               "Type": 0,
@@ -35039,7 +35039,7 @@
             {
               "Name": "3_ZELDA20",
               "MessageTextLines": [
-                "C'est évident, non ?<PAUSE:5>  Le coupable n'a",
+                "C'est évident, non ?<PAUSE:5> Le coupable n'a",
                 "même pas eu le temps de <SOUND:CLUE>cacher",
                 "l'arme du crime !"
               ],
