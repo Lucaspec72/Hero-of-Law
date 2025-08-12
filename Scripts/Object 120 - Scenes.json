@@ -24091,7 +24091,7 @@
               "Name": "5_LINK_VRU",
               "MessageTextLines": [
                 "Pour objecter, je peux dire<PAUSE:5> <SOUND:OBJECTIONCRY><DI><R>\"Objection!\"<W>.<PAUSE:5> ",
-                "Je peux dire<PAUSE:5> <DI><SOUND:OBJECTIONCRY><R>\"Hold it!\"<W><PAUSE:5> pour attaquer."
+                "Je peux dire<PAUSE:5> <DI><SOUND:OBJECTIONCRY><R>\"Hold it!\" (Un instant !)<W><PAUSE:5> pour attaquer."
               ],
               "Type": 0,
               "Position": 0
