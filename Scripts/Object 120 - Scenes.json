@@ -31851,7 +31851,7 @@
             {
               "Name": "4_LINK20",
               "MessageTextLines": [
-                "<C>(Mmh. C'est  vraiment pas bon. Que faire ?)<THREE_CHOICES><G>",
+                "<C>(Mmh. C'est vraiment pas bon. Que faire ?)<THREE_CHOICES><G>",
                 "À propos de la scène du crime ?",
                 "Qu'y avait-il dehors ?",
                 "Accuser Zelda du crime !"
@@ -32449,7 +32449,7 @@
             {
               "Name": "MALON10",
               "MessageTextLines": [
-                "<DI><SOUND:WHAP>OUI !<PAUSE:3><SPEED:103> Tu l'as surprise en flagrant",
+                "<DI><SOUND:WHAP>OUI !<PAUSE:3><SPEED:103> Tu l'as prise en flagrant",
                 "délit de mensonge !<SPEED:102>"
               ],
               "Type": 0,
