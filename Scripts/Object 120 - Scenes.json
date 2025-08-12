@@ -95896,8 +95896,8 @@
             {
               "Name": "TH1",
               "MessageTextLines": [
-                "Qui est celui que Sa Grâce, Hylia, a choisi ",
-                "pour contrôler ce rêve ?"
+                "Qui est celui que Sa Grâce, Hylia, a ",
+                "choisi pour contrôler ce rêve ?"
               ],
               "Type": 2,
               "Position": 3
@@ -95974,8 +95974,8 @@
             {
               "Name": "A2_1",
               "MessageTextLines": [
-                "Serait-ce le hibou ?<PAUSE:5><SOUND:CLUE> Il en sait quand même ",
-                "sacrément long sur tout....",
+                "Serait-ce le hibou ?<PAUSE:5><SOUND:CLUE> Il en sait quand ",
+                "même sacrément long sur tout....",
                 "<NEW_BOX>",
                 "Mais attends... Le hibou semble vraiment ",
                 "favorable à mon homologue....",
@@ -97994,8 +97994,8 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Défense !<PAUSE:5> Qu'avez vous fait au procureur ",
-                "Dragmire ?!"
+                "<SOUND:EXPLOSION>Défense !<PAUSE:5> Qu'avez vous fait au ",
+                "procureur Dragmire ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -98015,9 +98015,9 @@
             {
               "Name": "LINK44",
               "MessageTextLines": [
-                "J'ai décidé que ce serait quand même plus ",
-                "sympa d'avoir une personne plus gentille ",
-                "avec qui débattre."
+                "J'ai décidé que ce serait quand même ",
+                "plus sympa d'avoir une personne plus ",
+                "gentille avec qui débattre."
               ],
               "Type": 0,
               "Position": 0
@@ -98035,8 +98035,8 @@
               "Name": "JUDGE30",
               "MessageTextLines": [
                 "Ce... !<PAUSE:5><SOUND:EXPLOSION> Je ne tolèrerai pas cela !<PAUSE:5> ",
-                "Vous ne pouvez pas juste vous donner un ",
-                "adversaire plus facile !"
+                "Vous ne pouvez pas juste vous donner ",
+                "un adversaire plus facile !"
               ],
               "Type": 0,
               "Position": 0
@@ -98089,8 +98089,8 @@
               "MessageTextLines": [
                 "C'est...<PAUSE:5> c'est vraiment ok ?",
                 "<NEW_BOX>",
-                "Je croyais que la Déesse voulait un procès ",
-                "équitable..."
+                "Je croyais que la Déesse voulait un ",
+                "procès équitable..."
               ],
               "Type": 0,
               "Position": 0
@@ -98563,8 +98563,8 @@
             {
               "Name": "THIEF_KOHOLINK20",
               "MessageTextLines": [
-                "C'est...<PAUSE:5> c'était en fait mon vrai nom depuis ",
-                "le début."
+                "C'est...<PAUSE:5> c'était en fait mon vrai nom ",
+                "depuis le début."
               ],
               "Type": 0,
               "Position": 0
