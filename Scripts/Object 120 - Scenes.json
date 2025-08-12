@@ -47576,7 +47576,7 @@
             {
               "Name": "4_INGO90",
               "MessageTextLines": [
-                "Oh,<PAUSE:2> ai-je oublier de le préciser ?",
+                "Oh,<PAUSE:2> ai-je oublié de le préciser ?",
                 "<NEW_BOX>",
                 "J'ai entendu Talon <SOUND:HINT><R>se disputer<W> avec elle ",
                 "ce matin-là.<PAUSE:4> Il lui disait qu'il avait à ",
@@ -47632,7 +47632,7 @@
             {
               "Name": "4_MALON20",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Absoluement pas ! <PAUSE:10><DC><SPEED:103>Père n'avait rien ",
+                "<SOUND:EXPLOSION><DI>Absolument pas ! <PAUSE:10><DC><SPEED:103>Père n'avait rien ",
                 "prévu de la sorte, et on ne s'est pas ",
                 "disputés non plus !<SPEED:102>"
               ],
@@ -48247,9 +48247,10 @@
             {
               "Name": "MALON10",
               "MessageTextLines": [
-                "<SOUND:WHAP>Bien sûr que ça l'est !<PAUSE:3> Nous avions préparé ",
-                "un cadeau pour le Roi avant d'apprendre la ",
-                "nouvelle que la princesse allait le remplacer.",
+                "<SOUND:WHAP>Bien sûr que ça l'est !<PAUSE:3> Nous avions ",
+                "préparé un cadeau pour le Roi avant ",
+                "d'apprendre la nouvelle que la princesse ",
+                "allait le remplacer.",
                 "<NEW_BOX>",
                 "Père s'est hâté d'aller à la boutique pour ",
                 "se procurer un nouveau cadeau."
@@ -48537,9 +48538,10 @@
             {
               "Name": "A2_M_MALON20",
               "MessageTextLines": [
-                "J'ai vu Père à la maison juste avant d'aller ",
-                "faire une dernière vérification autour du ",
-                "ranch !<PAUSE:3> <SOUND:WHAP><DI>C'est à ce moment-là qu'il me l'a dit !"
+                "J'ai vu Père à la maison juste avant ",
+                "d'aller faire une dernière vérification ",
+                "autour du ranch !<PAUSE:3> <SOUND:WHAP><DI>C'est à ce moment-là ",
+                "qu'il me l'a dit !"
               ],
               "Type": 0,
               "Position": 0
@@ -48802,7 +48804,7 @@
               "MessageTextLines": [
                 "Je ne vois qu'un seul menteur ici, et c'est ",
                 "vous ! <SOUND:EXPLOSION>Père n'a quitté à aucun moment le ",
-                "ranch ce jour là !"
+                "ranch ce jour-là !"
               ],
               "Type": 0,
               "Position": 0
@@ -49213,7 +49215,7 @@
               "Name": "JUDGE140",
               "MessageTextLines": [
                 "Ah, oui.<PAUSE:2> Il me semble avoir déjà vu ce ",
-                "magasin..<PAUSE:2> C'est cet...<PAUSE:3> endroit à l'apparence ",
+                "magasin.<PAUSE:2> C'est cet...<PAUSE:3> endroit à l'apparence ",
                 "excentrique dans la ruelle de la Citadelle."
               ],
               "Type": 0,
