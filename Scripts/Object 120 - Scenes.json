@@ -16839,7 +16839,7 @@
             {
               "Name": "MALON10",
               "MessageTextLines": [
-                "Hein, quelque chose ne vas pas ?<PAUSE:2> ",
+                "Hein, quelque chose ne va pas ?<PAUSE:2> ",
                 "J'ai cru entendre un cri. "
               ],
               "Type": 0,
@@ -21913,7 +21913,7 @@
             {
               "Name": "IMPA_n70",
               "MessageTextLines": [
-                "Après une enquête approfondie, Nous ",
+                "Après une enquête approfondie, nous ",
                 "l'avons arrêtée, car elle a été considérée ",
                 "comme étant la seule coupable possible."
               ],
@@ -21952,12 +21952,12 @@
             {
               "Name": "JUDGE_n40",
               "MessageTextLines": [
-                "<PAUSE:3>Ce qui me fait penser...<PAUSE:3> <SOUND:HINT>Pourquoi la cheffe ",
-                "des inspecteurs en personne est sur une ",
-                "affaire du genre ?  ",
+                "<PAUSE:3>Ce qui me fait penser...<PAUSE:3> <SOUND:HINT>Pourquoi la ",
+                "cheffe des inspecteurs en personne ",
+                "est-elle chargée d'une affaire si triviale ?  ",
                 "<NEW_BOX>",
-                "Est-ce que les autres inspecteurs ",
-                "étaient indisponibles ?"
+                "Les autres inspecteurs étaient-ils",
+                "indisponibles ?"
               ],
               "Type": 0,
               "Position": 0
