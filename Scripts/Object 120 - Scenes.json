@@ -21943,9 +21943,10 @@
             {
               "Name": "JUDGE_n30",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Oh, oh !<PAUSE:5> Je ne pense pas que l'inspectrice ",
-                "ici présente ait à s'inquiéter pour ça,",
-                "sachant qu'elle est à la <R>tête du département<W>. "
+                "<SOUND:WHAP><DI>Oh, oh !<PAUSE:5> Je ne pense pas que ",
+                "l'inspectrice ici présente ait à ",
+                "s'inquiéter pour ça, sachant qu'elle ",
+                "est à la <R>tête du département<W>. "
               ],
               "Type": 0,
               "Position": 0
@@ -21966,9 +21967,9 @@
             {
               "Name": "IMPA_n80",
               "MessageTextLines": [
-                "Ah,<PAUSE:5> ça doit être parce que j'ai été assignée ",
-                "à cette affaire sur ordre du <SOUND:CLUE><R>Roi d'Hyrule<W> ",
-                "en personne.   "
+                "Ah,<PAUSE:5> ça doit être parce que j'ai été ",
+                "assignée à cette affaire sur ordre ",
+                "du <SOUND:CLUE><R>Roi d'Hyrule<W> en personne.   "
               ],
               "Type": 0,
               "Position": 0
@@ -21977,8 +21978,8 @@
               "Name": "JUDGE10",
               "MessageTextLines": [
                 "Le Roi en personne ??<PAUSE:3> ",
-                "Si je ne m'abuse, cela n'arrive pas très ",
-                "souvent."
+                "Si je ne m'abuse, cela n'arrive ",
+                "pas très souvent."
               ],
               "Type": 0,
               "Position": 0
