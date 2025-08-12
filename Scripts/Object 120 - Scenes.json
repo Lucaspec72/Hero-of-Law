@@ -78212,7 +78212,7 @@
             {
               "Name": "JUDGE50",
               "MessageTextLines": [
-                "Je pense qu'on a assez entendu !<PAUSE:5> ",
+                "Je pense qu'on en a assez entendu !<PAUSE:5> ",
                 "Soldats, emmenez-le !<FADE:20>"
               ],
               "Type": 0,
