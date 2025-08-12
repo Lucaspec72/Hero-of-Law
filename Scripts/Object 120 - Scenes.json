@@ -37346,7 +37346,7 @@
             {
               "Name": "1_IMPA20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>...Hmph.<PAUSE:10><DC> Très bien."
+                "<SOUND:WHAP><DI>... Hmph.<PAUSE:10><DC> Très bien."
               ],
               "Type": 0,
               "Position": 0
@@ -37362,7 +37362,7 @@
             {
               "Name": "1_ZELDA40",
               "MessageTextLines": [
-                "<NS><SPEED:2>.......<SPEED:0><PAUSE:20><DI><SOUND:WHAP>Bouaaaaaaaaaah !!<FADE:20>"
+                "<NS><SPEED:2>....... <SPEED:0><PAUSE:20><DI><SOUND:WHAP>Bouaaaaaaaaaah !!<FADE:20>"
               ],
               "Type": 2,
               "Position": 0
