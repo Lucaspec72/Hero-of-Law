@@ -51574,7 +51574,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Mes Déplacements Non Suspects\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Mes Déplacements Normaux\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -51620,7 +51620,7 @@
               "Name": "INGO6",
               "MessageTextLines": [
                 "À un moment donné, l'inspectrice est venue ",
-                "me raconter ce qui s'était passé.<PAUSE:5> Et wow, ",
+                "me raconter ce qui s'était passé.<PAUSE:5> Et ouah, ",
                 "quelle femme remarquable !<SQUARE>"
               ],
               "Type": 0,
@@ -54516,7 +54516,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Mes Déplacements Non Suspects\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Mes Déplacements Normaux\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -54583,7 +54583,7 @@
               "Name": "INGO6",
               "MessageTextLines": [
                 "<DI><G>À un moment donné, l'inspectrice est venue ",
-                "me raconter ce qui s'était passé.<PAUSE:5> Et wow, ",
+                "me raconter ce qui s'était passé.<PAUSE:5> Et ouah, ",
                 "quelle femme remarquable !<PERSISTENT>"
               ],
               "Type": 0,
@@ -54794,8 +54794,8 @@
               "Name": "1_INGO40",
               "MessageTextLines": [
                 "Et notre lait est connu comme étant le ",
-                "meilleur existant !<PAUSE:3> J'ai déjà entendu que ",
-                "certains osent le diluer.<PAUSE:3> <SOUND:WHAP><DI>Méprisable !"
+                "meilleur existant !<PAUSE:3> J'ai déjà entendu dire ",
+                "que certains osent le diluer.<PAUSE:3> <SOUND:WHAP><DI>Méprisable !"
               ],
               "Type": 0,
               "Position": 0
@@ -55187,7 +55187,7 @@
               "Name": "4_A1_JUDGE10",
               "MessageTextLines": [
                 "Très bien.<PAUSE:5> Témoin, veuillez modifier ",
-                "votre déclaration je vous prie."
+                "votre déclaration, je vous prie."
               ],
               "Type": 0,
               "Position": 0
@@ -55753,10 +55753,10 @@
             {
               "Name": "A1_DRAGMIRE20",
               "MessageTextLines": [
-                "Maintenant que le témoignage de l'employé ",
-                "du ranch a été accepté par l'accusation ET ",
-                "par la défense, il est temps d'annoncer le ",
-                "verdict !"
+                "Maintenant que le témoignage de ",
+                "l'employé du ranch a été accepté par ",
+                "l'accusation ET par la défense, il est ",
+                "temps d'annoncer le verdict !"
               ],
               "Type": 0,
               "Position": 0
@@ -66261,8 +66261,8 @@
             {
               "Name": "6_DRAGMIRE10",
               "MessageTextLines": [
-                "Vous conaissez la quantité de lait qu'un bar",
-                "consomme <SOUND:WHAP>chaque jour ?",
+                "Vous connaissez la quantité de lait ",
+                "qu'un bar consomme <SOUND:WHAP>chaque jour ?",
                 "<NEW_BOX>",
                 "Toutes ces livraisons ont très",
                 "probablement été entièrement",
@@ -75321,7 +75321,7 @@
               "Name": "1_DRAGMIRE20",
               "MessageTextLines": [
                 "C'est le juge qui décide au final !<PAUSE:5> Et tant ",
-                "que cet alibi tiens la route, j'ai du mal à ",
+                "que cet alibi tient la route, j'ai du mal à ",
                 "l'imaginer se ranger de votre côté !"
               ],
               "Type": 0,
@@ -75460,9 +75460,9 @@
               "Name": "3_MALON20",
               "MessageTextLines": [
                 "Il faut traire les vaches,<PAUSE:2> nettoyer les ",
-                "bouteilles,<PAUSE:2> les remplir de lait,<PAUSE:2> les mettres ",
-                "dans des caisses,<PAUSE:2> et charger le tout dans ",
-                "une charrette."
+                "bouteilles,<PAUSE:2> les remplir de lait,<PAUSE:2> les mettre ",
+                "dans des caisses,<PAUSE:2> et charger le tout ",
+                "dans une charrette."
               ],
               "Type": 0,
               "Position": 0
@@ -75899,7 +75899,7 @@
             {
               "Name": "JUDGE30",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>C'est tout à fait contraire au règles !"
+                "<SOUND:WHAP><DI>C'est tout à fait contraire aux règles !"
               ],
               "Type": 0,
               "Position": 0
@@ -76131,8 +76131,8 @@
             {
               "Name": "DRAGMIRE80",
               "MessageTextLines": [
-                "... mais tout ce que vous avez prouvé,<PAUSE:8> c'est ",
-                "qu'Ingo <SOUND:HINT>est un tire-au-flanc."
+                "... mais tout ce que vous avez prouvé,<PAUSE:8> ",
+                "c'est qu'Ingo <SOUND:HINT>est un tire-au-flanc."
               ],
               "Type": 0,
               "Position": 0
@@ -76148,7 +76148,7 @@
             {
               "Name": "DRAGMIRE90",
               "MessageTextLines": [
-                "La ferme,<SOUND:EXPLOSION> sale bâtard !"
+                "La ferme,<SOUND:EXPLOSION> chien galeux !"
               ],
               "Type": 0,
               "Position": 0
