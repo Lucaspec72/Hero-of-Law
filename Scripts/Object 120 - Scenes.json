@@ -35095,7 +35095,7 @@
             {
               "Name": "3_LINK20",
               "MessageTextLines": [
-                "<C>(Dragmire a pas l'air ravi par cette",
+                "<C>(Dragmire n'a pas l'air ravi par cette",
                 "tournure,<SOUND:CLUE> pas vrai ?)"
               ],
               "Type": 0,
@@ -35406,7 +35406,7 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "<DI><SOUND:DON>...alors l'arme n'aurait pas pu être ",
+                "<DI><SOUND:DON>... alors l'arme n'aurait pas pu être ",
                 "nettoyée !"
               ],
               "Type": 0,
@@ -35541,7 +35541,7 @@
                 "<NEW_BOX>",
                 "Chaque fois que j'essaie de parler à",
                 "mon père, il a toujours l'air...<PAUSE:10> <SOUND:CLUE>",
-                "désintéressé."
+                "indifférent."
               ],
               "Type": 0,
               "Position": 0
