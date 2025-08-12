@@ -26451,8 +26451,8 @@
             {
               "Name": "5_DRAGMIRE10",
               "MessageTextLines": [
-                "\"Plaie profonde et irrégulière faite avec un ",
-                "objet métallique tranchant.\" "
+                "\"Plaie profonde et irrégulière faite ",
+                "avec un objet métallique tranchant.\" "
               ],
               "Type": 0,
               "Position": 0
@@ -26500,7 +26500,7 @@
             {
               "Name": "5_DRAGMIRE20",
               "MessageTextLines": [
-                "Ah ouais ?<PAUSE:5> Prouvez le, alors !<PAUSE:3> ",
+                "Ah ouais ?<PAUSE:5> Prouvez-le, alors !<PAUSE:3> ",
                 "<DI><SOUND:EXPLOSION>Montrez-nous la vraie arme du crime !"
               ],
               "Type": 0,
@@ -26813,7 +26813,7 @@
                 "<NEW_BOX>",
                 "En fait, j'étais en route vers la maison du ",
                 "ranch pour demander à Père de m'aider ",
-                "avec la clotûre..."
+                "avec la clôture..."
               ],
               "Type": 0,
               "Position": 0
@@ -26831,9 +26831,9 @@
               "MessageTextLines": [
                 "Et impossible à vérifier maintenant, bien sûr.",
                 "<NEW_BOX>",
-                "Les Forces Sheikah <SOUND:CLUE><R>ont dû utilisé une fée ",
-                "sur l'accusée<W> pour la réveiller de sa ",
-                "supposée inconscience."
+                "Les Forces Sheikah <SOUND:CLUE><R>ont dû utiliser ",
+                "une fée sur l'accusée<W> pour la réveiller ",
+                "de sa supposée inconscience."
               ],
               "Type": 0,
               "Position": 0
