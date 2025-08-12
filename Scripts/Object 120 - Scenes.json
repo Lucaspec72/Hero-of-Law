@@ -23688,7 +23688,7 @@
               "Name": "IMPA33",
               "MessageTextLines": [
                 "Pour être sûrs que ce soit la vraie ",
-                "arme, nous avons menés une enquête",
+                "arme, nous avons mené une enquête",
                 "particulièrement rigoureuse."
               ],
               "Type": 0,
@@ -23782,7 +23782,7 @@
             {
               "Name": "DRAGMIRE11",
               "MessageTextLines": [
-                "Bien sûr, le business ne connait",
+                "Bien sûr, le business ne connaît",
                 "aucun répit."
               ],
               "Type": 0,
@@ -23800,9 +23800,9 @@
             {
               "Name": "IMPA53",
               "MessageTextLines": [
-                "Ces cargaisons ont ensuite quitté le ranch, <SOUND:HINT>",
-                "donc je pense que ça a le mérite d'être ",
-                "mentionné."
+                "Ces cargaisons ont ensuite quitté le ",
+                "ranch, <SOUND:HINT>donc je pense que ça a le mérite ",
+                "d'être mentionné."
               ],
               "Type": 0,
               "Position": 0
@@ -23810,7 +23810,8 @@
             {
               "Name": "LINK11",
               "MessageTextLines": [
-                "Le contenu a été vérifié avant leur départ ?"
+                "Le contenu a été vérifié avant leur ",
+                "départ ?"
               ],
               "Type": 0,
               "Position": 0
@@ -23818,7 +23819,8 @@
             {
               "Name": "IMPA54",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Naturellement.<PAUSE:5> Vous nous prenez pour qui ?"
+                "<SOUND:WHAP><DI>Naturellement.<PAUSE:5> Vous nous prenez ",
+                "pour qui ?"
               ],
               "Type": 0,
               "Position": 0
@@ -23836,9 +23838,9 @@
             {
               "Name": "IMPA56",
               "MessageTextLines": [
-                "Finalement, ce n'étaient que de simples ",
-                "bouteilles de lait, <SOUND:CLUE>donc on les a laissés ",
-                "partir. "
+                "Finalement, ce n'étaient que de ",
+                "simples bouteilles de lait, <SOUND:CLUE>donc on ",
+                "les a laissées partir. "
               ],
               "Type": 0,
               "Position": 0
