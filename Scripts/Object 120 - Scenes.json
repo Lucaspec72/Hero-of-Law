@@ -38073,7 +38073,7 @@
               "MessageTextLines": [
                 "J'ai suivi l'odeur jusqu'aux restes d'un <SOUND:CLUE>feu ",
                 "éteint non loin de là, ainsi qu'une bouteille",
-                "d'huile de lampe presque vide !"
+                "d'huile à lanterne presque vide !"
               ],
               "Type": 0,
               "Position": 0
@@ -40366,7 +40366,7 @@
               "MessageTextLines": [
                 "<DI><G>J'ai suivi l'odeur jusqu'aux restes d'un feu ",
                 "éteint non loin de là, ainsi qu'une bouteille",
-                "d'huile de lampe presque vide !<PERSISTENT>"
+                "d'huile à lanterne presque vide !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -41163,7 +41163,8 @@
             {
               "Name": "JUDGE60",
               "MessageTextLines": [
-                "Ah, voilà un <SOUND:HINT>excellent point, Défense !"
+                "Ah, voilà un <SOUND:HINT>excellent argument, ",
+                "Défense !"
               ],
               "Type": 0,
               "Position": 0
@@ -50827,7 +50828,7 @@
             {
               "Name": "LINK90",
               "MessageTextLines": [
-                "Le problème c'est que... le prochain ",
+                "Le problème, c'est que... le prochain ",
                 "témoignage sera focalisé sur le mobile...",
                 "<NEW_BOX>",
                 "Ça risque d'être compliqué de mettre le ",
@@ -50851,7 +50852,7 @@
                 "<SOUND:0><C>(Même si ça ne me plaît pas, elle a raison.)",
                 "<NEW_BOX>",
                 "<SOUND:0><C>(Il n'y a pas vraiment autre chose sur ",
-                "quoi s'appuyuer.)",
+                "quoi s'appuyer.)",
                 "<NEW_BOX>",
                 "Eh bien, euh, merci."
               ],
@@ -50915,7 +50916,7 @@
                 "toujours été surprotégée en plus d'être ",
                 "inexpérimentée...",
                 "<NEW_BOX>",
-                "Après la mort subite de sa<SOUND:CLUE> <R>grande soeur<W> ",
+                "Après la mort subite de sa<SOUND:CLUE> <R>grande sœur<W> ",
                 "l'année dernière, elle a été propulsée au ",
                 "rôle d'héritière très soudainement."
               ],
@@ -50997,8 +50998,9 @@
             {
               "Name": "LINK130",
               "MessageTextLines": [
-                "<SOUND:0><C>(Wow, quel discours intense. Je n'aurais ",
-                "jamais imaginé Impa être si...<PAUSE:3> émotionnelle ?)",
+                "<SOUND:0><C>(Ouah, quel discours intense. ",
+                "Je n'aurais jamais imaginé Impa ",
+                "être si...<PAUSE:3> émotionnelle ?)",
                 "<NEW_BOX>",
                 "<SOUND:0><C>(C'est sans doute en raison de tout cela ",
                 "qu'elle a décidé de prendre en charge ",
@@ -51032,7 +51034,7 @@
                 "<SOUND:WHAP>L'équipe d'investigation présente au ",
                 "ranch a du nouveau !",
                 "<NEW_BOX>",
-                "Quelque chose à propos d'une cargaison",
+                "C'est au sujet d'une cargaison",
                 "de lait renvoyée au ranch à cause d'une ",
                 "erreur d'adresse du destinataire !",
                 "<NEW_BOX>",
@@ -51112,7 +51114,7 @@
             {
               "Name": "IMPA230",
               "MessageTextLines": [
-                "Bien, alors.<PAUSE:3> Je pense que la calèche de la ",
+                "Bon, alors.<PAUSE:3> Je pense que la calèche de la ",
                 "princesse<SOUND:HINT> est enfin prête."
               ],
               "Type": 0,
