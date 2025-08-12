@@ -51217,7 +51217,7 @@
             {
               "Name": "COURTRECORD1",
               "MessageTextLines": [
-                "<SOUND:ITEMGET><SOUND:0><ICON:9><DI><SQUARE><R>Cargaison de lait Renvoyée",
+                "<SOUND:ITEMGET><SOUND:0><ICON:9><DI><SQUARE><R>Cargaison de Lait Renvoyée",
                 "<G>ajoutée au Dossier de l'affaire."
               ],
               "Type": 1,
