@@ -41960,9 +41960,9 @@
             {
               "Name": "DRAGMIRE40",
               "MessageTextLines": [
-                "L'asccusation est persuadée que l'accusée ",
-                "nourrissait un désir profond qui l'a poussée ",
-                "au parricide.",
+                "L'accusation est persuadée que ",
+                "l'accusée nourrissait un désir profond ",
+                "qui l'a poussée au parricide.",
                 "<NEW_BOX>",
                 "Notre prochain témoin pourra faire la ",
                 "lumière sur la question."
@@ -42989,9 +42989,9 @@
                 "témoignage d'un homme qui vient de ",
                 "tout perdre.",
                 "<NEW_BOX>",
-                "C'est tellement tragique d'assister à ",
-                "une autre famille se déchirer pour ",
-                "l'appât du gain.."
+                "C'est tellement tragique de voir une ",
+                "autre famille se déchirer à cause de ",
+                "l'appât du gain."
               ],
               "Type": 0,
               "Position": 0
@@ -43078,7 +43078,7 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "J'aimerais contre interroger le témoin.<PAUSE:5> Il ",
+                "J'aimerais contre-interroger le témoin.<PAUSE:5> Il ",
                 "reste quelques détails qui peuvent être ",
                 "importants."
               ],
@@ -47228,7 +47228,7 @@
             {
               "Name": "2_INGO50",
               "MessageTextLines": [
-                "Aah les enfants de nos jours !<PAUSE:5> Vous les ",
+                "Aah, les enfants de nos jours !<PAUSE:5> Vous les ",
                 "nourrissez,<PAUSE:3> vous les élevez,<PAUSE:5> tout ça pour ",
                 "qu'ils vous poignardent dans le dos dès ",
                 "que vous leur <SOUND:WHAP>donnez un coup de main !"
@@ -47402,7 +47402,7 @@
               "Name": "4_INGO10",
               "MessageTextLines": [
                 "<SOUND:WHAP><DI>Hmph !<PAUSE:5> Non pas que j'ai envie de le ",
-                "penser, mais, les événements parlent ",
+                "penser, mais les événements parlent ",
                 "d'eux-mêmes, n'est-ce pas ?"
               ],
               "Type": 0,
