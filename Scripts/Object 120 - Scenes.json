@@ -31476,7 +31476,7 @@
               "MessageTextLines": [
                 "<DI><G>... mais devant cette table, une scène",
                 "terrifiante était en train de se dérouler !",
-                "L'accusée <SOUND:STAB>sciait la poitrine du maître",
+                "L'accusée sciait la poitrine du maître",
                 "des lieux avec la scie qu'elle tenait !<PERSISTENT>"
               ],
               "Type": 0,
@@ -31762,8 +31762,8 @@
             {
               "Name": "3_DRAGMIRE10",
               "MessageTextLines": [
-                "Cessez donc de l'interrompre, pour l'amour",
-                "de Din !"
+                "Cessez donc de l'interrompre, ",
+                "pour l'amour de Din !"
               ],
               "Type": 0,
               "Position": 0
@@ -31798,7 +31798,7 @@
             {
               "Name": "4n_ZELDA10",
               "MessageTextLines": [
-                "Et bien, j'ai passé un temps assez long",
+                "Eh bien, j'ai passé un temps assez long",
                 "sur la scène du crime à attendre l'arrivée",
                 "des Forces Sheikah."
               ],
