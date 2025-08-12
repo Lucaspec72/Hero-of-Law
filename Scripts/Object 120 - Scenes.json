@@ -26257,9 +26257,10 @@
             {
               "Name": "3_LINK30",
               "MessageTextLines": [
-                "Vraiment ?<PAUSE:5> Il aurait sûrement eu l'occasion ",
-                "de s'éclipser un instant pour comettre un <SOUND:HINT>",
-                "petit meurtre éclair, non ?"
+                "Vraiment ?<PAUSE:5> Il aurait sûrement eu ",
+                "l'occasion de s'éclipser un instant",
+                "pour commettre un <SOUND:HINT>petit meurtre ",
+                "éclair, non ?"
               ],
               "Type": 0,
               "Position": 0
