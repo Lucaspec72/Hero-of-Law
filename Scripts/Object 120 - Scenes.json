@@ -754,8 +754,8 @@
               "Name": "BloodyCloth",
               "MessageTextLines": [
                 "<Y>Tissu ensanglanté<W>",
-                "Trouvé dans les mains de Malon sur la scène ",
-                "du crime. Elle aurait soi-disant ",
+                "Trouvé dans les mains de Malon sur ",
+                "la scène du crime. Elle aurait soi-disant ",
                 "essuyé la scie avec... ?<PERSISTENT><PERSISTENT>"
               ],
               "Type": 1,
@@ -776,8 +776,8 @@
               "Name": "Shipment2",
               "MessageTextLines": [
                 "<Y>Cargaison de Lait Renvoyée<W>",
-                "Apparemment, une des cargaisons a été",
-                "renvoyée au ranch à cause",
+                "Apparemment, une des cargaisons ",
+                "a été renvoyée au ranch à cause",
                 "d'une erreur d'adresse.",
                 "<PERSISTENT>"
               ],
