@@ -21881,8 +21881,9 @@
               "Name": "IMPA_n44",
               "MessageTextLines": [
                 "Pour s'assurer que tout se passe bien,<PAUSE:2> ",
-                "et en signe de reconnaissance,<PAUSE:2> la Couronne ",
-                "ordonne une <R>visite<W> au ranch chaque année.  "
+                "et en signe de reconnaissance,<PAUSE:2> la ",
+                "Couronne ordonne une <R>visite<W> au",
+                "ranch chaque année.  "
               ],
               "Type": 0,
               "Position": 0
@@ -21995,8 +21996,9 @@
             {
               "Name": "IMPA55",
               "MessageTextLines": [
-                "Cette fois, en revanche, le Roi a jugé cela ",
-                "nécessaire en raison de<SOUND:CLUE><R> qui est impliqué<W>. "
+                "Cette fois, en revanche, le Roi a ",
+                "jugé cela nécessaire en raison de<SOUND:CLUE><R> ",
+                "qui est impliqué<W>. "
               ],
               "Type": 0,
               "Position": 0
@@ -22015,9 +22017,9 @@
             {
               "Name": "IMPA60",
               "MessageTextLines": [
-                "Eh bien, comme je l'ai dit, le Ranch Lon Lon ",
-                "est un fournisseur de marchandises ",
-                "très important..."
+                "Eh bien, comme je l'ai dit, le Ranch ",
+                "Lon Lon est un fournisseur de ",
+                "marchandises très important..."
               ],
               "Type": 0,
               "Position": 0
@@ -22066,8 +22068,8 @@
                 "L'affaire repose sur les mots de ",
                 "la princesse !",
                 "<NEW_BOX>",
-                "En douter reviendrait à douter de votre ",
-                "propre royaume !"
+                "En douter reviendrait à douter de ",
+                "votre propre royaume !"
               ],
               "Type": 0,
               "Position": 0
@@ -22083,7 +22085,8 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(Je peux pas vraiment émettre d'objection !)"
+                "<SOUND:0><C>(Je peux pas vraiment émettre ",
+                "d'objection !)"
               ],
               "Type": 0,
               "Position": 0
@@ -22101,9 +22104,9 @@
             {
               "Name": "JUDGE60",
               "MessageTextLines": [
-                "Inspectrice, veuillez témoigner précisément ",
-                "sur les raisons pour lesquelles l'accusée ",
-                "a été arrêtée.<SQUARE>  "
+                "Inspectrice, veuillez témoigner ",
+                "précisément sur les raisons pour ",
+                "lesquelles l'accusée a été arrêtée.<SQUARE>  "
               ],
               "Type": 0,
               "Position": 0
