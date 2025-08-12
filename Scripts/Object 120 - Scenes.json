@@ -31842,8 +31842,9 @@
             {
               "Name": "4_JUDGE10",
               "MessageTextLines": [
-                "<SPEED:103>L'accusée va modérer ses emportements !<PAUSE:3> <SOUND:WHAP><DI><SPEED:102>",
-                "C'est à la royauté que vous vous adressez !"
+                "<SPEED:103>L'accusée va modérer ses ",
+                "emportements !<PAUSE:3> <SOUND:WHAP><DI><SPEED:102>C'est à la royauté ",
+                "que vous vous adressez !"
               ],
               "Type": 0,
               "Position": 0
@@ -31999,7 +32000,7 @@
                 "l'autre bout.",
                 "<NEW_BOX>",
                 "C'est tout à fait compréhensible qu'elle",
-                "ne l'aie pas vu plus tôt."
+                "ne l'ait pas vu plus tôt."
               ],
               "Type": 0,
               "Position": 0
@@ -32128,8 +32129,8 @@
             {
               "Name": "4_3_DRAGMIRE60",
               "MessageTextLines": [
-                "Il paraît que les traîtres sont promptement",
-                "punis<SOUND:CLUE> de nos jours..."
+                "Il paraît que les traîtres sont ",
+                "promptement punis<SOUND:CLUE> de nos jours..."
               ],
               "Type": 0,
               "Position": 0
@@ -32309,7 +32310,7 @@
             {
               "Name": "6_DRAGMIRE20",
               "MessageTextLines": [
-                "Ah, mais bien sûr !<PAUSE:5> Qu'importe les",
+                "Ah, mais bien sûr !<PAUSE:5> Qu'importent les",
                 "preuves ou les témoignages : du moment",
                 "qu'on SENT que l'accusée est innocente !"
               ],
@@ -32433,7 +32434,7 @@
             {
               "Name": "LINK60",
               "MessageTextLines": [
-                "<DI><SOUND:DON>...car il était déjà mort à ce moment-là !!"
+                "<DI><SOUND:DON>... car il était déjà mort à ce moment-là !!"
               ],
               "Type": 0,
               "Position": 0
