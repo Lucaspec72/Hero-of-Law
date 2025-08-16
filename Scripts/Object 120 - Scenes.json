@@ -16716,7 +16716,7 @@
             {
               "Name": "LINK16",
               "MessageTextLines": [
-                "<C>(...Tiens d'ailleurs, en parlant d'elle...<PAUSE:3> ",
+                "<C>(... Tiens d'ailleurs, en parlant d'elle...<PAUSE:3> ",
                 "<SOUND:CLUE>elle est où ?)",
                 "<New_box>",
                 "<PAUSE:3><DI><DC><SOUND:WHAP>Hé, vous, là-bas !"
@@ -16804,7 +16804,7 @@
             {
               "Name": "LINK27a",
               "MessageTextLines": [
-                "<C><PAUSE:8><DI><DC>(...Mais tout ce que je peux faire ",
+                "<C><PAUSE:8><DI><DC>(... Mais tout ce que je peux faire ",
                 "pour l'instant, c'est attendre...)<SQUARE> "
               ],
               "Type": 0,
@@ -16871,7 +16871,7 @@
                 "à la citadelle d'Hyrule il y a quelques ",
                 "années, on est devenus amis.)",
                 "<New_box>",
-                "<C>(Elle a un coeur pur.<PAUSE:4> ",
+                "<C>(Elle a un cœur pur.<PAUSE:4> ",
                 "Je sais que son père comptait",
                 "énormément pour elle.)"
               ],
