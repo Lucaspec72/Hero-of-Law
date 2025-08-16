@@ -39,6 +39,9 @@ for npc in data['Entries']:
         script['TextLines'] = fix_whitespace(script['TextLines'])
     for message in npc['Messages']:
         message['MessageTextLines'] = fix_whitespace(message['MessageTextLines'], is_message=True)
+    for localization in npc['Localization']:
+        for message in localization['Messages']:
+            message['MessageTextLines'] = fix_whitespace(message['MessageTextLines'], is_message=True)
     npc['EmbeddedOverlayCode']['CodeLines'] = fix_whitespace(npc['EmbeddedOverlayCode']['CodeLines'])
 for header in data['GlobalHeaders']:
     print(header['Name'])
