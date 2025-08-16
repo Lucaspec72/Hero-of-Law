@@ -35032,7 +35032,7 @@
             {
               "Name": "2_DRAGMIRE20",
               "MessageTextLines": [
-                "Y'a une montagne de la mort de",
+                "Y'a une Montagne de la Mort de",
                 "preuves contre l'accusée !"
               ],
               "Type": 0,
@@ -88602,8 +88602,8 @@
             {
               "Name": "6_MUTOH10",
               "MessageTextLines": [
-                "Par tous les saints !<PAUSE:5> La corde",
-                "visqueuse !<SQUARE>"
+                "Par tous les saints !<PAUSE:5> Le serpent Rope",
+                "visqueux !<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
