@@ -712,7 +712,8 @@
                 "<Y>Scie<W>",
                 "Arme du crime présumée.",
                 "Trouvée dans les mains de Malon.",
-                "Elle ne comporte aucune trace de sang.<PERSISTENT>"
+                "Elle ne comporte aucune trace ",
+                "de sang.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -721,9 +722,9 @@
               "Name": "RanchInventory",
               "MessageTextLines": [
                 "<Y>Inventaire du Ranch<W>",
-                "Une liste des équipements du ranch.",
-                "Appuyez sur <B><A Button><W> pour plus de",
-                "détails.<PERSISTENT>"
+                "Une liste des équipements du ",
+                "ranch. Appuyez sur <B><A Button><W> pour ",
+                "plus de détails.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -755,8 +756,8 @@
               "MessageTextLines": [
                 "<Y>Tissu ensanglanté<W>",
                 "Trouvé dans les mains de Malon sur",
-                "la scène du crime. Elle aurait soi-disant",
-                "essuyé la scie avec... ?<PERSISTENT><PERSISTENT>"
+                "la scène du crime. Elle aurait ",
+                "soi-disant essuyé la scie avec... ?<PERSISTENT><PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -874,9 +875,10 @@
               "Name": "Ingo",
               "MessageTextLines": [
                 "<Y>Ingo<W> (44 ans)",
-                "Homme obséquieux qui travaille au ranch.",
-                "D'habitude il porte son bleu de travail, mais",
-                "il s'est bien habillé pour le procès.<PERSISTENT>"
+                "Homme obséquieux qui travaille au ",
+                "ranch. D'habitude il porte son bleu ",
+                "de travail, mais il s'est bien habillé ",
+                "pour le procès.<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 2
@@ -103586,8 +103588,8 @@
                 "<NEW_BOX>",
                 "<SOUND:0>Les accords en dessous flottent un peu",
                 "au hasard, sans vraie logique.<PAUSE:3> ",
-                "J'ai simplement varié les notes jusqu'à ce",
-                "que ça sonne bien.",
+                "J'ai simplement varié les notes jusqu'à ",
+                "ce que ça sonne bien.",
                 "<NEW_BOX>",
                 "<SOUND:0>C'est subtil, mais le triplet du shaker",
                 "à la fin du thème du hibou est un clin",
@@ -103653,8 +103655,8 @@
                 "<NEW_BOX>",
                 "<SOUND:0>Mes premiers essais pour un thème",
                 "de la salle des accusés sonnaient trop",
-                "joyeux, alors j'ai opté pour une ambiance",
-                "plus sombre.",
+                "joyeux, alors j'ai opté pour une ",
+                "ambiance plus sombre.",
                 "<NEW_BOX>",
                 "<SOUND:0>Au début, c'était même TROP sombre,",
                 "avec une basse de piano forte et un",
@@ -104003,9 +104005,10 @@
                 "ont aussi échoué, j'ai décidé de m'appuyer",
                 "sur quelque chose de plus classique.",
                 "<NEW_BOX>",
-                "<SOUND:0>J'ai choisi quelques alternatives adaptées :<PAUSE:2> ",
-                "la <R>Chanson de Nayru<W> de <R>Oracle of Ages<W> et",
-                "la <R>Ballade de la Déesse<W> de <R>Skyward Sword<W>.",
+                "<SOUND:0>J'ai choisi quelques alternatives ",
+                "adaptées :<PAUSE:2> la <R>Chanson de Nayru<W> de ",
+                "<R>Oracle of Ages<W> et la <R>Ballade de la ",
+                "Déesse<W> de <R>Skyward Sword<W>.",
                 "<NEW_BOX>",
                 "<PERSISTENT>"
               ],
@@ -104181,8 +104184,7 @@
                 "liste des musiques du jeu.",
                 "<NEW_BOX>",
                 "<SOUND:0>Et franchement, c'était la bonne décision.<PAUSE:3> ",
-                "Autant éviter de ruiner une partie pour ça.",
-                "<SQUARE>"
+                "Autant éviter de ruiner une partie pour ça.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -104194,10 +104196,12 @@
                 "<LC><W>(Ingo, l'abattu)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0><SOUND:0>Les trois premiers thèmes d'Ingo montraient",
-                "sa descente vers le rôle de méchant.<PAUSE:3> Le",
-                "quatrième illustre le moment où il comprend",
-                "que tout reposait sur un malentendu.",
+                "<SOUND:0><SOUND:0>Les trois premiers thèmes d'Ingo ",
+                "montraient sa descente vers le rôle de ",
+                "méchant.",
+                "<NEW_BOX>Le quatrième illustre le moment où il ",
+                "comprend que tout reposait sur un ",
+                "malentendu.",
                 "<NEW_BOX>",
                 "<SOUND:0>Comme Ingo est un personnage très",
                 "caricatural, j'ai volontairement rendu",
@@ -104335,10 +104339,10 @@
                 "<NEW_BOX>",
                 "<SOUND:0>Cette musique est une blague.",
                 "<NEW_BOX>",
-                "<SOUND:0>Un jour, je me suis dit que ce serait drôle",
-                "de faire une reprise du <R>Thème des Plaines<W>",
-                "de <R>Super Mario Bros. Wonder<W> avec",
-                "tout ces instruments...",
+                "<SOUND:0>Un jour, je me suis dit que ce serait ",
+                "drôle de faire une reprise du <R>Thème des ",
+                "Plaines<W> de <R>Super Mario Bros. Wonder<W> ",
+                "avec tout ces instruments...",
                 "<NEW_BOX>",
                 "<SOUND:0>...plus précisément, avec l'ocarina en",
                 "tant que sifflet, et la voix de Malon en",
@@ -104395,9 +104399,11 @@
                 "pour que ce soit plus unique.",
                 "<NEW_BOX>",
                 "<SOUND:0>À la fin, on trouve une citation claire du",
-                "<R>thème de Kaepora Gaebora<W> d'OoT.<PAUSE:3> ",
-                "Pas évident de caser une mélodie en 4/4",
-                "dans du 3/4 sans que ça sonne trop forcé.",
+                "<R>thème de Kaepora Gaebora<W> d'OoT.",
+                "<NEW_BOX>",
+                "Pas évident de caser une mélodie en ",
+                "4/4 dans du 3/4 sans que ça sonne ",
+                "trop forcé.",
                 "<NEW_BOX>",
                 "<SOUND:0>Au total, cette version du thème du",
                 "Hibou dure environ 56 secondes, soit",
@@ -107168,8 +107174,8 @@
                 "<SPEED:101>Il existerait un jeu avec un oeuf géant",
                 "dans lequel tu peux <R>devenir un voyou<W>...<SPEED:102>",
                 "<NEW_BOX>",
-                "<SPEED:101>Et deux jeux sur le <R>changement climatique<W>",
-                "et le <R>voyage dans le temps<W>...<SPEED:102>",
+                "<SPEED:101>Et deux jeux sur le <R>changement ",
+                "climatique<W> et le <R>voyage dans le temps<W>...<SPEED:102>",
                 "<NEW_BOX>",
                 "Il paraît qu'on peut débloquer des extras",
                 "en les connectant depuis l'<SOUND:HINT><R>Écran Titre<W>",
@@ -110802,8 +110808,8 @@
             {
               "Name": "SaveCorrupt",
               "MessageTextLines": [
-                "<LC><DI><R>Les données de sauvegarde sont",
-                " corrompues...<SQUARE>"
+                "<LC><DI><R>Les données de sauvegarde ",
+                "<LC>sont corrompues...<SQUARE>"
               ],
               "Type": 1,
               "Position": 2
@@ -114692,6 +114698,7 @@
       "Name": "Cases"
     }
   ],
+  "ExtScriptHeaderPath": "",
   "SpaceFromFont": true,
   "CHeaderLines": [
     "#include <z64hdr/oot_u10/z64hdr.h>",
