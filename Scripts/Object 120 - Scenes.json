@@ -10002,7 +10002,7 @@
             {
               "Name": "FMOON_LINK",
               "MessageTextLines": [
-                "...Je suppose que je ne peux rien",
+                "... Je suppose que je ne peux rien",
                 "répondre à ça...<SQUARE>"
               ],
               "Type": 0,
@@ -10020,7 +10020,7 @@
             {
               "Name": "FA_JUDGE10",
               "MessageTextLines": [
-                "...C'est votre Badge d'Avocat."
+                "... C'est votre Badge d'avocat."
               ],
               "Type": 0,
               "Position": 0
@@ -10036,7 +10036,7 @@
             {
               "Name": "FA_DRAGMIRE20",
               "MessageTextLines": [
-                "Il est Avocat !<PAUSE:5> Les Avocats sont<SOUND:HINT> très",
+                "Il est avocat !<PAUSE:5> Les avocats sont<SOUND:HINT> très",
                 "intelligents.<PAUSE:10><SOUND:CLUE> Clairement, nous devrions",
                 "croire tout ce qu'il dit sur parole sans",
                 "la moindre hésitation."
@@ -10047,7 +10047,7 @@
             {
               "Name": "FA_JUDGE20",
               "MessageTextLines": [
-                "...O-on devrait ?"
+                "... O-on devrait ?"
               ],
               "Type": 0,
               "Position": 0
@@ -10072,8 +10072,8 @@
             {
               "Name": "FA2_JUDGE10",
               "MessageTextLines": [
-                "<PAUSE:5>...N'est-ce pas juste votre Badge",
-                "d'Avocat ?"
+                "<PAUSE:5>... N'est-ce pas juste votre badge",
+                "d'avocat ?"
               ],
               "Type": 0,
               "Position": 0
@@ -10145,7 +10145,7 @@
             {
               "Name": "F6_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C><PAUSE:2><DI><DC>(...Ouais,<PAUSE:3> je l'ai probablement mérité.)<SQUARE>"
+                "<SOUND:0><C><PAUSE:2><DI><DC>(... Ouais,<PAUSE:3> je l'ai probablement mérité.)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -10208,7 +10208,7 @@
             {
               "Name": "F2_JUDGE10",
               "MessageTextLines": [
-                "Ce que j'en pense...?",
+                "Ce que j'en pense... ?",
                 "Mais pourquoi cette question?"
               ],
               "Type": 0,
@@ -10407,7 +10407,7 @@
             {
               "Name": "F5_JUDGE10",
               "MessageTextLines": [
-                "<PAUSE:5><DC>...Je crains de ne pas voir comment",
+                "<PAUSE:5><DC>... Je crains de ne pas voir comment",
                 "cette pièce à conviction <SOUND:CLUE>puisse",
                 "démontrer quoi que ce soit, Défense."
               ],
