@@ -17213,7 +17213,7 @@
             {
               "Name": "MALON100",
               "MessageTextLines": [
-                "J'arrive pas à croire qu'il n'est",
+                "Je n'arrive pas à croire qu'il n'est",
                 "plus là..."
               ],
               "Type": 2,
@@ -26202,7 +26202,7 @@
             {
               "Name": "2_LINK30",
               "MessageTextLines": [
-                "<C>(... Ok, on dirait que l'emplacement de",
+                "<C>(... OK, on dirait que l'emplacement de",
                 "la scène de crime est confirmé.<PAUSE:5> Mais je",
                 "ne vais pas abandonner pour autant !)<SQUARE>"
               ],
@@ -26400,8 +26400,8 @@
               "Name": "3_LINK50",
               "MessageTextLines": [
                 "<C>(Toute cette histoire me paraît",
-                "extrêmement suspecte, si on me",
-                "demande...<PAUSE:6> Mais je suppose que je",
+                "extrêmement suspecte, pour être ",
+                "franc...<PAUSE:6> mais je suppose que je",
                 "n'ai rien pour le contredire...)<SQUARE>"
               ],
               "Type": 0,
@@ -26448,7 +26448,7 @@
                 "<DI>Hah !",
                 "<NEW_BOX>",
                 "Elle devait faire semblant !<PAUSE:3> ",
-                "En essayant de faire <R>comme si<W> elle",
+                "En essayant de faire comme si elle",
                 "venait de trouver le corps !"
               ],
               "Type": 0,
