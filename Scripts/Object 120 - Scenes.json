@@ -17283,7 +17283,7 @@
               "Name": "LINK105",
               "MessageTextLines": [
                 "<SOUND:0><C>(Au moins, je vais y aller avec",
-                "<SOUND:WHAP>UN TRUC en dehors de mon <R>badge<C>...)",
+                "<SOUND:WHAP>UN TRUC autre que mon <R>badge<C>...)",
                 "<NEW_BOX>",
                 "<C>(... mais attends !<PAUSE> On devrait arrêter",
                 "de parler comme si de rien n'était... !)"
@@ -17330,13 +17330,13 @@
                 "<SOUND:0><C>(Oh oh.<PAUSE:2> Je n'aurais pas dû lui dire",
                 "qu'on avait peu de chances.)",
                 "<New_box>",
-                "<PAUSE:3><DC>...Bon.<PAUSE:2> <SPEED:101>Tout va bien se passer.<SPEED:102>",
+                "<PAUSE:3><DC>... Bon.<PAUSE:2> <SPEED:101>Tout va bien se passer.<SPEED:102>",
                 "<New_box>",
                 "Le procureur s'est moqué de moi",
                 "depuis le début, mais tôt ou tard, son",
                 "arrogance provoquera sa perte.",
                 "<NEW_BOX>",
-                "Allons à l'intérieur."
+                "Entrons."
               ],
               "Type": 0,
               "Position": 0
