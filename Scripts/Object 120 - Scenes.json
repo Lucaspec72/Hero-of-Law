@@ -16693,8 +16693,8 @@
             {
               "Name": "START",
               "MessageTextLines": [
-                "<SPEED:1><G><LC>17 Mars, 9h37",
-                "<LC>Grand Tribunal d'Hyrule",
+                "<SPEED:1><G><LC>17 mars, 9h37",
+                "<LC>Grand tribunal d'Hyrule",
                 "<LC>Salle des accusés No. 3<SOUND:0>"
               ],
               "Type": 0,
@@ -16707,7 +16707,7 @@
                 "d'années d'expérience, je serais",
                 "habitué au stress.)",
                 "<New_box>",
-                "<C><PAUSE:3><DC><SOUND:EXPLOSION>(Alors pourquoi je tremble...?!)",
+                "<C><PAUSE:3><DC><SOUND:EXPLOSION>(Alors pourquoi je tremble... ?!)",
                 "<New_box>",
                 "",
                 "<C><PAUSE:4><DC>(Raah.<PAUSE:3> Je suppose que c'est bien pire",
@@ -16746,7 +16746,7 @@
                 "que vous sauriez par hasard pourquoi",
                 "ma cliente n'est pas encore là ?",
                 "<NEW_BOX>",
-                "J'ai eu peu d'occasions d'échanger",
+                "J'ai eu peu d'occasions de parler",
                 "avec elle depuis son arrestation, donc...",
                 "<NEW_BOX>",
                 "J'espérais au moins pouvoir échanger",
@@ -16758,7 +16758,7 @@
             {
               "Name": "SOLDIER20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Ah ah !<DC> <PAUSE:5>Vous n'êtes pas le seul à avoir",
+                "<SOUND:WHAP><DI>Ha ha !<DC> <PAUSE:5>Vous n'êtes pas le seul à avoir",
                 "eu cette idée !",
                 "<NEW_BOX>",
                 "Je crois qu'elle est dans<SOUND:CLUE> la salle des",
@@ -16932,7 +16932,7 @@
             {
               "Name": "LINK72",
               "MessageTextLines": [
-                "...Peu importe, que te voulait le",
+                "... Peu importe, que te voulait le",
                 "procureur ?"
               ],
               "Type": 0,
