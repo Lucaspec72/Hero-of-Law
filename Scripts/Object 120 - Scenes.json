@@ -21979,9 +21979,9 @@
             {
               "Name": "IMPA_n80",
               "MessageTextLines": [
-                "Ah,<PAUSE:5> ça doit être parce que j'ai été",
-                "assignée à cette affaire sur ordre du",
-                "<SOUND:CLUE><R>Roi d'Hyrule<W> en personne."
+                "Ah,<PAUSE:5> c'est probablement parce que ",
+                "j'ai été assignée à cette affaire sur ",
+                "ordre du <SOUND:CLUE><R>Roi d'Hyrule<W> en personne."
               ],
               "Type": 0,
               "Position": 0
@@ -22040,10 +22040,11 @@
             {
               "Name": "IMPA70",
               "MessageTextLines": [
-                "Mais ce n'est pas de ça dont je parlais.",
+                "Mais ce n'est pas de ça dont ",
+                "je parlais.",
                 "<NEW_BOX>",
                 "J'imagine que le Roi voulait la crème",
-                "des enquêteurs sur ce cas, comme <SOUND:CLUE>",
+                "des enquêteurs sur cette affaire, comme <SOUND:CLUE>",
                 "c'est <R>la princesse royale<W> elle-même qui",
                 "a découvert la scène du crime."
               ],
@@ -22090,7 +22091,7 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C><SOUND:SHOCK><DI>(C'est mauvais...)"
+                "<SOUND:0><C><SOUND:SHOCK><DI>(Ça sent pas bon...)"
               ],
               "Type": 0,
               "Position": 0
@@ -23672,7 +23673,7 @@
             {
               "Name": "COURTRECORD1",
               "MessageTextLines": [
-                "<SOUND:ITEMGET><SOUND:0><ICON:2><DI><SQUARE><R>Rapport d'Autopsie<G> ajouté au",
+                "<SOUND:ITEMGET><SOUND:0><ICON:2><DI><SQUARE><R>Rapport d'autopsie<G> ajouté au",
                 "Dossier de l'affaire."
               ],
               "Type": 1,
@@ -23728,7 +23729,7 @@
             {
               "Name": "COURTRECORD5",
               "MessageTextLines": [
-                "<SOUND:ITEMGET><SOUND:0><ICON:4><DI><SQUARE><R>Inventaire du Ranch<G> ajouté",
+                "<SOUND:ITEMGET><SOUND:0><ICON:4><DI><SQUARE><R>Inventaire du ranch<G> ajouté",
                 "au Dossier de l'affaire."
               ],
               "Type": 1,
@@ -23776,8 +23777,9 @@
             {
               "Name": "IMPA51",
               "MessageTextLines": [
-                "Il y a une dernière chose que je pense",
-                "devoir mentionner, pour être complète..."
+                "Il y a une dernière chose que je ",
+                "pense devoir mentionner, pour être ",
+                "exhaustive..."
               ],
               "Type": 0,
               "Position": 0
@@ -23871,7 +23873,7 @@
             {
               "Name": "COURTRECORD4",
               "MessageTextLines": [
-                "<SOUND:ITEMGET><SOUND:0><ICON:6><DI><SQUARE><R>Cargaisons de Lait<G> ajoutées au",
+                "<SOUND:ITEMGET><SOUND:0><ICON:6><DI><SQUARE><R>Cargaisons de lait<G> ajoutées au",
                 "Dossier de l'affaire."
               ],
               "Type": 1,
