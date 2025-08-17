@@ -16996,7 +16996,7 @@
             {
               "Name": "2_MALON10",
               "MessageTextLines": [
-                "<DI><SOUND:EXPLOSION>Ah ah, très drôle... !"
+                "<DI><SOUND:EXPLOSION>Ha ha, très drôle... !"
               ],
               "Type": 0,
               "Position": 0
@@ -17004,7 +17004,7 @@
             {
               "Name": "2_LINK20",
               "MessageTextLines": [
-                "Ah, ah, pardon !<PAUSE:3> ",
+                "Ha ha, pardon !<PAUSE:3> ",
                 "<SOUND:WHAP><DI>Bien sûr que je te crois !",
                 "<New_box>",
                 "... Même si, pour être honnête, tout",
@@ -17091,7 +17091,7 @@
             {
               "Name": "LINK_n50",
               "MessageTextLines": [
-                "<PAUSE:3><SOUND:CLUE>...Hein ?<PAUSE:3> Comment ça ?"
+                "<PAUSE:3><SOUND:CLUE>... Hein ?<PAUSE:3> Comment ça ?"
               ],
               "Type": 0,
               "Position": 0
@@ -17116,7 +17116,7 @@
             {
               "Name": "LINK_n60",
               "MessageTextLines": [
-                "<PAUSE:3>...Eurk,<PAUSE:3> tu as raison."
+                "<PAUSE:3>... Eurk,<PAUSE:3> tu as raison."
               ],
               "Type": 0,
               "Position": 0
@@ -17168,7 +17168,7 @@
             {
               "Name": "MALON_n70",
               "MessageTextLines": [
-                "...Mmmh.<PAUSE:3> T'es en train d'essayer <SOUND:CLUE>de",
+                "... Mmmh.<PAUSE:3> T'es en train d'essayer <SOUND:CLUE>de",
                 "me faire penser à autre chose qu'au",
                 "procès, c'est ça... ?"
               ],
@@ -17213,7 +17213,7 @@
             {
               "Name": "MALON100",
               "MessageTextLines": [
-                "J'arrive pas à réaliser qu'il n'est",
+                "J'arrive pas à croire qu'il n'est",
                 "plus là..."
               ],
               "Type": 2,
@@ -17223,7 +17223,7 @@
               "Name": "LINK90",
               "MessageTextLines": [
                 "<SOUND:0><C>(J'aimerais tellement savoir comment",
-                "l'encourager là tout de suite...)",
+                "la réconforter, là tout de suite...)",
                 "<NEW_BOX>",
                 "<C><PAUSE:5><DI><DC>(... Je ne suis pas particulièrement à",
                 "l'aise dans la gestion des clients à",
