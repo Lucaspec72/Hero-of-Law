@@ -23825,8 +23825,8 @@
             {
               "Name": "LINK11",
               "MessageTextLines": [
-                "Le contenu a été vérifié avant leur",
-                "départ ?"
+                "Leur contenu a-t-il été vérifié avant ",
+                "leur départ ?"
               ],
               "Type": 0,
               "Position": 0
@@ -24015,7 +24015,7 @@
             {
               "Name": "1_LINK35",
               "MessageTextLines": [
-                "Oui!<PAUSE:5> Je peux l'ouvrir à tout moment si",
+                "Oui !<PAUSE:5> Je peux l'ouvrir à tout moment si",
                 "j'ai besoin de revérifier les faits."
               ],
               "Type": 0,
@@ -24247,7 +24247,7 @@
             {
               "Name": "1_LINK50",
               "MessageTextLines": [
-                "Ah ah, pardon."
+                "Ha ha, pardon."
               ],
               "Type": 0,
               "Position": 0
@@ -24256,7 +24256,7 @@
               "Name": "1_LINK55",
               "MessageTextLines": [
                 "<SOUND:0><C>(S'il est tant agacé, pourquoi",
-                "n'appuie-t-il juste pas sur <SOUND:CLUE> <Y><C_RIGHT><C> pour",
+                "n'appuie-t-il juste pas sur<SOUND:CLUE> <Y><C_RIGHT><C> pour",
                 "passer les dialogues plus vite ?)"
               ],
               "Type": 0,
