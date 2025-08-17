@@ -697,7 +697,7 @@
             {
               "Name": "Autopsy",
               "MessageTextLines": [
-                "<Y>Rapport d'Autopsie<W>",
+                "<Y>Rapport d'autopsie<W>",
                 "\"Plaie profonde et irrégulière",
                 "infligée par un objet métallique",
                 "tranchant. La victime est décédée",
@@ -721,7 +721,7 @@
             {
               "Name": "RanchInventory",
               "MessageTextLines": [
-                "<Y>Inventaire du Ranch<W>",
+                "<Y>Inventaire du ranch<W>",
                 "Une liste des équipements du ",
                 "ranch. Appuyez sur <B><A Button><W> pour ",
                 "plus de détails.<PERSISTENT>"
@@ -743,7 +743,7 @@
             {
               "Name": "Shipment1",
               "MessageTextLines": [
-                "<Y>Cargaisons de Lait<W>",
+                "<Y>Cargaisons de lait<W>",
                 "Des commandes de lait qui",
                 "ont quitté le ranch peu",
                 "de temps après le crime.<PERSISTENT>"
@@ -776,7 +776,7 @@
             {
               "Name": "Shipment2",
               "MessageTextLines": [
-                "<Y>Cargaison de Lait Renvoyée<W>",
+                "<Y>Cargaison de lait renvoyée<W>",
                 "Apparemment, une des cargaisons",
                 "a été renvoyée au ranch à cause",
                 "d'une erreur d'adresse.",
@@ -798,7 +798,7 @@
             {
               "Name": "RanchInheritance",
               "MessageTextLines": [
-                "<Y>Acte de succession du Ranch<W>",
+                "<Y>Acte de succession du ranch<W>",
                 "\"Malon héritera du ranch.",
                 "Si elle est dans l'incapacité de",
                 "le gérer, il sera partagé entre",
@@ -1086,7 +1086,7 @@
             {
               "Name": "Subtitle_HoldIt",
               "MessageTextLines": [
-                "<LC>(Un Instant !)<BYTE:0>"
+                "<LC>(Un instant !)<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1110,7 +1110,7 @@
             {
               "Name": "Subtitle_WitnessTestimony",
               "MessageTextLines": [
-                "<LC>(Déposition du Témoin)<BYTE:0>"
+                "<LC>(Déposition du témoin)<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1118,7 +1118,7 @@
             {
               "Name": "Subtitle_CrossExam",
               "MessageTextLines": [
-                "<LC>(Contre-Interrogatoire)<BYTE:0>"
+                "<LC>(Contre-interrogatoire)<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -114698,7 +114698,6 @@
       "Name": "Cases"
     }
   ],
-  "ExtScriptHeaderPath": "",
   "SpaceFromFont": true,
   "CHeaderLines": [
     "#include <z64hdr/oot_u10/z64hdr.h>",
