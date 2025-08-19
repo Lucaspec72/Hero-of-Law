@@ -56385,10 +56385,13 @@
               "MessageTextLines": [
                 "Cependant...",
                 "<NEW_BOX>",
-                "Le fait que le témoin n'ait pas directement",
-                "évoqué ce fait de lui-même, et ait à la",
-                "place fabriqué un mensonge à base de",
-                "vêtements achetés, <SOUND:CLUE>est en effet très curieux."
+                "Le fait que le témoin n'ait pas ",
+                "directement évoqué ce fait de ",
+                "lui-même... ",
+                "<NEW_BOX>",
+                "... et ait à la place fabriqué un ",
+                "mensonge à base de vêtements ",
+                "achetés, <SOUND:CLUE>est en effet très curieux."
               ],
               "Type": 0,
               "Position": 0
