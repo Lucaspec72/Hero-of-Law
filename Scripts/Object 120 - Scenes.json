@@ -42175,8 +42175,8 @@
             {
               "Name": "DRAGMIRE90",
               "MessageTextLines": [
-                "Depuis combien de temps vous",
-                "travaillez pour le ranch ?"
+                "Depuis combien de temps ",
+                "travaillez-vous pour le ranch ?"
               ],
               "Type": 0,
               "Position": 0
@@ -49021,7 +49021,8 @@
             {
               "Name": "B4_JUDGE10",
               "MessageTextLines": [
-                "Ouuh, eh bien, si vous le dites, Défense..."
+                "Ouuh, eh bien, si vous le dites, ",
+                "Défense..."
               ],
               "Type": 0,
               "Position": 0
@@ -49045,7 +49046,7 @@
             {
               "Name": "B4_LINK30",
               "MessageTextLines": [
-                "<C>(Mmh. Il semblerait que Talon avait du",
+                "<C>(Mmh. Il semblerait que Talon ait eu du",
                 "nez pour choisir celui-là.)"
               ],
               "Type": 0,
