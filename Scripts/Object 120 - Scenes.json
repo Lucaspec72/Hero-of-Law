@@ -55704,9 +55704,9 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Témoin !<PAUSE:3> Il y un point qui sonne",
-                "sérieusement faux dans votre",
-                "témoignage !"
+                "<SOUND:WHAP><DI>Témoin !<PAUSE:3> Il y a quelque chose ",
+                "qui sonne sérieusement faux ",
+                "dans votre témoignage !"
               ],
               "Type": 0,
               "Position": 0
@@ -55771,7 +55771,7 @@
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
-                "La défense marque un point !"
+                "La défense a raison !"
               ],
               "Type": 0,
               "Position": 0
@@ -55828,7 +55828,7 @@
               "MessageTextLines": [
                 "Après tout, je ne pouvais pas me",
                 "présenter à la cour en étant habillé",
-                "comme un clochard, moo ho ho ho ho... !"
+                "comme un clochard, mou ho ho ho ho... !"
               ],
               "Type": 0,
               "Position": 0
@@ -55847,8 +55847,8 @@
             {
               "Name": "LINK60",
               "MessageTextLines": [
-                "<SOUND:0><C>(Qu'est ce que c'est censé vouloir dire !?<PAUSE:3> ",
-                "<SOUND:WHAP>Je porte ma plus belle Tunique Zora !)"
+                "<SOUND:0><C>(Qu'est ce que c'est censé vouloir dire ?!<PAUSE:3> ",
+                "<SOUND:WHAP>Je porte mon plus beau Costume Zora !)"
               ],
               "Type": 0,
               "Position": 0
