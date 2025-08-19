@@ -55834,10 +55834,10 @@
             {
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
-                "Oui, Défense.<PAUSE:3> Certaines personnes ont",
-                "un minimum de respect pour la cour,",
-                "et se présentent habillées de façon",
-                "appropriée."
+                "Oui, Défense.<PAUSE:3> Certaines personnes ",
+                "ont un minimum de respect pour la ",
+                "cour, et s'y présentent habillées de ",
+                "façon appropriée."
               ],
               "Type": 0,
               "Position": 0
@@ -56318,10 +56318,12 @@
             {
               "Name": "LINK150",
               "MessageTextLines": [
-                "<SOUND:DON><DI>Attendez une minute !<PAUSE:5> C'est fou ce qui se",
-                "passe !<PAUSE:5> Quel genre de parodie de justice",
-                "est-ce donc ?<PAUSE:5> L'accusation ne fait",
-                "qu'inventer des excuses à la volée !"
+                "<SOUND:DON><DI>Attendez une minute !<PAUSE:5> C'est fou ce ",
+                "qui se passe !<PAUSE:5> Quel genre de ",
+                "parodie de justice est-ce donc ?<PAUSE:5> ",
+                "<NEW_BOX>",
+                "L'accusation ne fait qu'inventer ",
+                "des excuses à la volée !"
               ],
               "Type": 0,
               "Position": 0
