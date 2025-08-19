@@ -14764,7 +14764,7 @@
             {
               "Name": "Subtitle_Testimony",
               "MessageTextLines": [
-                "(Déposition)"
+                "(Témoignage)"
               ],
               "Type": 0,
               "Position": 0
@@ -22454,7 +22454,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Les Raisons de l'Arrestation\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Les raisons de l'arrestation\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -25909,7 +25909,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Les Raisons de l'Arrestation\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Les raisons de l'arrestation\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -28589,7 +28589,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"La Scène Derrière la Porte\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"La scène derrière la porte\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -31468,7 +31468,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"La Scène Derrière la Porte\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"La scène derrière la porte\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -32904,7 +32904,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Ce Que J'ai Vraiment Vu\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Ce que j'ai vraiment vu\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -34784,7 +34784,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Ce Que J'ai Vraiment Vu\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Ce que j'ai vraiment vu\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -38075,7 +38075,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Mes Découvertes\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Mes découvertes\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -40373,7 +40373,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Mes Découvertes\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Mes découvertes\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -42632,7 +42632,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"La Question du Mobile\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"La question du mobile\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -43140,7 +43140,7 @@
             {
               "Name": "COURTRECORD1",
               "MessageTextLines": [
-                "<SOUND:ITEMGET><SOUND:0><ICON:11><DI><SQUARE><R>Acte de succession du Ranch<G>",
+                "<SOUND:ITEMGET><SOUND:0><ICON:11><DI><SQUARE><R>Acte de succession du ranch<G>",
                 "ajouté au Dossier de l'affaire."
               ],
               "Type": 1,
@@ -46937,7 +46937,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"La Question du Mobile\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"La question du mobile\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -50706,8 +50706,8 @@
             {
               "Name": "START",
               "MessageTextLines": [
-                "<SPEED:1><G><LC>17 Mars, 11h17",
-                "<LC>Grand Tribunal d'Hyrule",
+                "<SPEED:1><G><LC>17 mars, 11h17",
+                "<LC>Grand tribunal d'Hyrule",
                 "<LC>Salle des accusés No. 3<SOUND:0>"
               ],
               "Type": 0,
@@ -51704,7 +51704,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Mes Déplacements Normaux\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Mes déplacements normaux\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -54648,7 +54648,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Mes Déplacements Normaux\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Mes déplacements normaux\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -61380,8 +61380,8 @@
             {
               "Name": "START",
               "MessageTextLines": [
-                "<SPEED:1><G><LC>17 Mars, 12h32",
-                "<LC>Grand Tribunal d'Hyrule",
+                "<SPEED:1><G><LC>17 mars, 12h32",
+                "<LC>Grand tribunal d'Hyrule",
                 "<LC>Salle des accusés No. 3<SOUND:0>"
               ],
               "Type": 0,
@@ -65336,7 +65336,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"L'Arme du Crime\"<FADE:38>"
+                "<NS><SOUND:0><LC><R>\"L'arme du crime\"<FADE:38>"
               ],
               "Type": 0,
               "Position": 0
@@ -73304,7 +73304,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Trop Occupé Pour Tuer\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Trop occupé pour tuer\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -75341,7 +75341,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Trop Occupé Pour Tuer\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Trop occupé pour tuer\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -83092,8 +83092,8 @@
             {
               "Name": "Place",
               "MessageTextLines": [
-                "<SPEED:1><G><LC>6 Juin, 2h17",
-                "<LC>Grand Tribunal d'Hyrule",
+                "<SPEED:1><G><LC>6 juin, 2h17",
+                "<LC>Grand tribunal d'Hyrule",
                 "<LC>Salle d'audience No. 7<SOUND:0>"
               ],
               "Type": 0,
@@ -84766,7 +84766,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Le Casse du Siècle\"<FADE:20>"
+                "<NS><SOUND:0><LC><R>\"Le casse du siècle\"<FADE:20>"
               ],
               "Type": 0,
               "Position": 0
@@ -87862,7 +87862,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Le Casse du Siècle\"<FADE:20>"
+                "<NS><SOUND:0><LC><R>\"Le casse du siècle\"<FADE:20>"
               ],
               "Type": 0,
               "Position": 0
@@ -99637,7 +99637,7 @@
             {
               "Name": "Place",
               "MessageTextLines": [
-                "<SPEED:1><G><LC>6 Juin, 4h22",
+                "<SPEED:1><G><LC>6 juin, 4h22",
                 "<LC>Cabinet d'avocats Link",
                 "<LC>Village Cocorico<SOUND:0>"
               ],
