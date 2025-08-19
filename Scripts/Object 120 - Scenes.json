@@ -54961,10 +54961,12 @@
             {
               "Name": "1_INGO60",
               "MessageTextLines": [
-                "En revanche, comme la visite royale devait",
-                "se tenir ce jour-là, j'ai eu le sentiment qu'ils",
-                "avaient besoin d'avoir l'esprit tranquille,",
-                "je m'en suis donc chargé moi-même."
+                "En revanche, comme la visite royale ",
+                "devait se tenir ce jour-là, j'ai eu le",
+                "sentiment qu'ils avaient besoin d'avoir ",
+                "l'esprit tranquille...",
+                "<NEW_BOX>",
+                "... je m'en suis donc chargé moi-même."
               ],
               "Type": 0,
               "Position": 0
