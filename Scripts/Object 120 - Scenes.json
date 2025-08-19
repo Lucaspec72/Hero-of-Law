@@ -58470,10 +58470,13 @@
             {
               "Name": "DRAGMIRE50",
               "MessageTextLines": [
-                "<DI>S'il y avait eu des vêtements ensanglantés",
-                "abandonnés à proximité, les Forces Sheikah",
-                "les auraient trouvés, et nous serions en train",
-                "de juger quelqu'un d'autre pour le meurtre !"
+                "<DI>S'il y avait eu des vêtements ",
+                "ensanglantés abandonnés à ",
+                "proximité, les Forces Sheikah",
+                "les auraient trouvés...",
+                "<NEW_BOX>",
+                "... et nous serions en train de juger ",
+                "quelqu'un d'autre pour le meurtre !"
               ],
               "Type": 0,
               "Position": 0
@@ -59550,7 +59553,8 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(Eh ben. Il mâche pas ses mots avec lui.)"
+                "<SOUND:0><C>(Eh ben. Il mâche pas ses mots ",
+                "avec lui.)"
               ],
               "Type": 0,
               "Position": 0
@@ -59558,8 +59562,8 @@
             {
               "Name": "LINK40",
               "MessageTextLines": [
-                "<SOUND:0><C>(Je suis sûr qu'il est juste contrarié par",
-                "sa défaite.)"
+                "<SOUND:0><C>(Je suis sûr qu'il est juste contrarié ",
+                "par sa défaite.)"
               ],
               "Type": 0,
               "Position": 0
