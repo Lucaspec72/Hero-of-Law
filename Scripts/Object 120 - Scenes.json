@@ -812,7 +812,7 @@
             {
               "Name": "Malon",
               "MessageTextLines": [
-                "<Y>Malon<W> (27 ans)",
+                "<Y>Malon<W> (Âge : 27)",
                 "Mon amie de longue date, et",
                 "l'accusée de cette affaire.<PERSISTENT>"
               ],
@@ -842,7 +842,7 @@
             {
               "Name": "Dragmire",
               "MessageTextLines": [
-                "<Y>Ganondorf Dragmire<W> (59 ans)",
+                "<Y>Ganondorf Dragmire<W> (Âge : 59)",
                 "Procureur assigné à l'affaire.",
                 "Impoli envers les autres et",
                 "facilement irritable.<PERSISTENT>"
@@ -853,7 +853,7 @@
             {
               "Name": "Impa",
               "MessageTextLines": [
-                "<Y>Impa<W> (34 ans)",
+                "<Y>Impa<W> (Âge : 34)",
                 "Inspectrice en chef.",
                 "Désignée pour enquêter",
                 "sur l'affaire.<PERSISTENT>"
@@ -864,7 +864,7 @@
             {
               "Name": "Zelda",
               "MessageTextLines": [
-                "<Y>Princesse Zelda<W> (14 ans)",
+                "<Y>Princesse Zelda<W> (Âge : 14)",
                 "Héritière manifeste du trône royal.",
                 "Témoin du meurtre.<PERSISTENT>"
               ],
@@ -874,7 +874,7 @@
             {
               "Name": "Ingo",
               "MessageTextLines": [
-                "<Y>Ingo<W> (44 ans)",
+                "<Y>Ingo<W> (Âge : 44)",
                 "Homme obséquieux qui travaille au ",
                 "ranch. D'habitude il porte son bleu ",
                 "de travail, mais il s'est bien habillé ",
