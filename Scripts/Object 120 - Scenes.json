@@ -47022,7 +47022,7 @@
             {
               "Name": "CONS1_MALON10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Non c'est faux !<PAUSE:5> Je suis éternellement",
+                "<SOUND:EXPLOSION><DI>Non, c'est faux !<PAUSE:5> Je suis éternellement",
                 "reconnaissante pour tout ce que mon",
                 "père a fait pour moi !"
               ],
