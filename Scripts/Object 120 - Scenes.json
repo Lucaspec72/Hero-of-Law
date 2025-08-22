@@ -43100,7 +43100,7 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "Comment peut-on être sûr qu'il dit",
+                "Comment peut-on être sûrs qu'il dit",
                 "la vérité ?"
               ],
               "Type": 0,
@@ -47032,7 +47032,7 @@
             {
               "Name": "CONS1_LINK20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Whoua !<PAUSE:5> Désolé, je ne voulais pas",
+                "<SOUND:WHAP><DI>Ouah !<PAUSE:5> Désolé, je ne voulais pas",
                 "sous entendre que tu ne l'étais pas !"
               ],
               "Type": 0,
