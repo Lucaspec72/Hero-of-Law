@@ -940,7 +940,8 @@
               "Name": "Koholink2",
               "MessageTextLines": [
                 "<Y><FONT_TOGGLE>$$$$$<FONT_TOGGLE><W> (Âge inconnu)",
-                "Mon moi cleptomane d'un autre monde... ?<PERSISTENT>"
+                "Mon moi cleptomane ",
+                "d'un autre monde... ?<PERSISTENT>"
               ],
               "Type": 1,
               "Position": 0
