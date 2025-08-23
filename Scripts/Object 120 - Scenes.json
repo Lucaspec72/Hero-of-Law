@@ -1134,7 +1134,7 @@
             {
               "Name": "Subtitle_NotGuilty",
               "MessageTextLines": [
-                "<LC>(Non Coupable)<BYTE:0>"
+                "<LC>(Non coupable)<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1150,7 +1150,7 @@
             {
               "Name": "Subtitle_ArgumentComplete",
               "MessageTextLines": [
-                "<LC>(Argument Réfuté)<BYTE:0>"
+                "<LC>(Argument réfuté)<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
