@@ -89071,7 +89071,7 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "Votre Honneur,<PAUSE:3> si vous jetez un oeil",
+                "Votre Honneur,<PAUSE:3> si vous jetez un œil",
                 "au dépliant que le témoin a eu la",
                 "gentillesse de nous fournir..."
               ],
@@ -103607,7 +103607,7 @@
                 "<NEW_BOX>",
                 "<SOUND:0>C'est subtil, mais le triplet du shaker",
                 "à la fin du thème du hibou est un clin",
-                "d'oeil à un autre jeu Ace Attorney...<SQUARE>"
+                "d'œil à un autre jeu Ace Attorney...<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -107185,7 +107185,7 @@
                 "qu'j'ai entendu...<PAUSE:5> ",
                 "À ce qu'il paraît...",
                 "<NEW_BOX>",
-                "<SPEED:101>Il existerait un jeu avec un oeuf géant",
+                "<SPEED:101>Il existerait un jeu avec un œuf géant",
                 "dans lequel tu peux <R>devenir un voyou<W>...<SPEED:102>",
                 "<NEW_BOX>",
                 "<SPEED:101>Et deux jeux sur le <R>changement ",
