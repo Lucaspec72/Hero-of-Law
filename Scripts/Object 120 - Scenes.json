@@ -73334,7 +73334,7 @@
               "Name": "INGO2",
               "MessageTextLines": [
                 "J'ai un alibi pour l'heure du crime !<PAUSE:6> ",
-                "<SOUND:WHAP><DI>C'est juste impossible que j'ai pu le",
+                "<SOUND:WHAP><DI>C'est juste impossible que j'aie pu le",
                 "faire !"
               ],
               "Type": 0,
@@ -75371,7 +75371,7 @@
               "Name": "INGO2",
               "MessageTextLines": [
                 "<DI><G>J'ai un alibi pour l'heure du crime !",
-                "C'est juste impossible que j'ai pu le",
+                "C'est juste impossible que j'aie pu le",
                 "faire !<PERSISTENT>"
               ],
               "Type": 0,
