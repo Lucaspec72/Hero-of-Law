@@ -83355,7 +83355,7 @@
             {
               "Name": "LINK70",
               "MessageTextLines": [
-                "Q...<PAUSE:5> <DI><SOUND:EXPLOSION>QUOIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII",
+                "Q...<PAUSE:5> <DI><SOUND:EXPLOSION>QUUUUUUUOOOOOOOOOOOOOIIIIIII",
                 "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII ?!"
               ],
               "Type": 0,
@@ -83413,7 +83413,7 @@
             {
               "Name": "LINK80",
               "MessageTextLines": [
-                "<SPEED:101>Ok.<PAUSE:5> Ok.<SPEED:102>"
+                "<SPEED:101>OK.<PAUSE:5> OK.<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
