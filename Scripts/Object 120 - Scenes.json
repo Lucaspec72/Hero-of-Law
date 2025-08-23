@@ -68712,8 +68712,6 @@
             {
               "Name": "Scenario",
               "MessageTextLines": [
-                "",
-                "",
                 "<Shift:140><R>SCÉNARIO<W>",
                 "",
                 "",
@@ -68739,6 +68737,10 @@
                 "<Shift:180>Loloiiiiiou",
                 "",
                 "<Shift:180>Spacewiki",
+                "",
+                "<Shift:180>Laenthor",
+                "",
+                "<Shift:180>Rosetta",
                 "<PERSISTENT>"
               ],
               "Type": 6,
