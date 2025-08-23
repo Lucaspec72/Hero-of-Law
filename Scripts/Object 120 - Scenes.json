@@ -83617,7 +83617,7 @@
               "Name": "JUDGE200",
               "MessageTextLines": [
                 "La séance est ouverte pour le procès",
-                "de <SOUND:CLUE><R>$<W>-..."
+                "de <SOUND:CLUE><R><FONT_TOGGLE>$<FONT_TOGGLE><W>-..."
               ],
               "Type": 0,
               "Position": 0
@@ -83633,7 +83633,7 @@
             {
               "Name": "JUDGE210",
               "MessageTextLines": [
-                "<R>$<W>-<PAUSE:5> <R>VO<W>-"
+                "<R><FONT_TOGGLE>$<FONT_TOGGLE><W>-<PAUSE:5> <R>VO<W>-"
               ],
               "Type": 0,
               "Position": 0
