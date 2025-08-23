@@ -83213,7 +83213,8 @@
                 "aux soldats de ne rien dire à <SOUND:CLUE>PERSONNE",
                 "à propos de ce qui s'est passé...",
                 "<NEW_BOX>",
-                "Ils ont dû le prendre au pied de la lettre..."
+                "Ils ont dû le prendre au pied ",
+                "de la lettre..."
               ],
               "Type": 0,
               "Position": 0
