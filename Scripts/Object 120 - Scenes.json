@@ -96206,7 +96206,7 @@
             {
               "Name": "Q1",
               "MessageTextLines": [
-                "Est-ce que ce serait une de ces personnes ?<THREE_CHOICES><G>",
+                "Ce serait une de ces personnes ?<THREE_CHOICES><G>",
                 "Dragmire",
                 "Le juge",
                 "Aucun des deux"
