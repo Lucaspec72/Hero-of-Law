@@ -1150,7 +1150,7 @@
             {
               "Name": "Subtitle_ArgumentComplete",
               "MessageTextLines": [
-                "<LC>(Argument réfuté)<BYTE:0>"
+                "<LC>(Argumentaire réfuté)<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
