@@ -16827,7 +16827,7 @@
             {
               "Name": "LINK28",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><SPEED:105>Ok, c'est ridicule.<PAUSE:3> Combien de temps",
+                "<SOUND:EXPLOSION><SPEED:105>OK, c'est ridicule.<PAUSE:3> Combien de temps",
                 "il va encore la garder ?!<SPEED:102>"
               ],
               "Type": 0,
