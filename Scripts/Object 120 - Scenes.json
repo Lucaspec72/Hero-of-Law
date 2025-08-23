@@ -83391,10 +83391,10 @@
             {
               "Name": "JUDGE140",
               "MessageTextLines": [
-                "Elle décida que quelqu'un d'autre",
+                "Elle a décidé que quelqu'un d'autre",
                 "devrait juger de la justice de ce",
                 "châtiment,<PAUSE:3> afin que ses propres",
-                "préjugés n'influencent pas sa décision."
+                "préjugés n'influencent pas le résultat."
               ],
               "Type": 0,
               "Position": 0
@@ -98429,10 +98429,10 @@
             {
               "Name": "JUDGE_FLSH",
               "MessageTextLines": [
-                "Elle a décidé que quelqu'un d'autre devait",
-                "devait déterminer si cette punition était",
-                "juste ou non,<PAUSE:3> afin de s'assurer que ses",
-                "propres biais n'influenceraient pas le résultat."
+                "Elle a décidé que quelqu'un d'autre",
+                "devrait juger de la justice de ce",
+                "châtiment,<PAUSE:3> afin que ses propres",
+                "préjugés n'influencent pas le résultat."
               ],
               "Type": 0,
               "Position": 0
