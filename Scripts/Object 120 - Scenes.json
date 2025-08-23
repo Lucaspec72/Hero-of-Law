@@ -88940,7 +88940,7 @@
               "Name": "9_JUDGE10",
               "MessageTextLines": [
                 "<PAUSE:5>... Tout cela semble bien difficile à",
-                "croire, accusé...."
+                "croire, accusé..."
               ],
               "Type": 0,
               "Position": 0
@@ -96276,10 +96276,10 @@
               "Name": "A2_1",
               "MessageTextLines": [
                 "Serait-ce le hibou ?<PAUSE:5><SOUND:CLUE> Il en sait quand",
-                "même sacrément long sur tout....",
+                "même sacrément long sur tout...",
                 "<NEW_BOX>",
                 "Mais attends... Le hibou semble",
-                "vraiment favorable à mon homologue....",
+                "vraiment favorable à mon homologue...",
                 "<NEW_BOX>",
                 "S'il était vraiment aux commandes,",
                 "il aurait déjà mis fin au procès."
@@ -104234,7 +104234,7 @@
                 "du dialogue d'Ingo, quand il prend",
                 "conscience de ce qu'il a fait...",
                 "<NEW_BOX>",
-                "<SOUND:0>....mais cela aurait rendu cette",
+                "<SOUND:0>... mais cela aurait rendu cette",
                 "chanson encore plus vide au début,",
                 "donc on a abandonné l'idée.",
                 "<NEW_BOX>",
