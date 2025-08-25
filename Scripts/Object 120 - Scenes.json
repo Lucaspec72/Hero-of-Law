@@ -101304,14 +101304,13 @@
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
-                "It is a serious crime to copy video",
-                "games.",
+                "C'est un crime grave de copier des",
+                "jeux vidéos.",
                 "<NEW_BOX>",
-                "Therefore, I have seen enough to",
-                "announce the verdict at this time.",
+                "Bien, j'en ai assez vu pour rendre",
+                "mon verdict.",
                 "<NEW_BOX>",
-                "The court finds the defendant,",
-                "the player..."
+                "La cour déclare l'accusé, le joueur..."
               ],
               "Type": 0,
               "Position": 0
@@ -101319,7 +101318,7 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "<SOUND:HINT>...just kidding!"
+                "<SOUND:HINT>... je plaisante !"
               ],
               "Type": 0,
               "Position": 0
@@ -101327,7 +101326,7 @@
             {
               "Name": "JUDGE30",
               "MessageTextLines": [
-                "Let's return to the <R>Title Screen<W>.<SQUARE>"
+                "Retournons à <R>l'écran titre<W>.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
