@@ -16811,8 +16811,8 @@
             {
               "Name": "LINK27a",
               "MessageTextLines": [
-                "<C><PAUSE:8><DI><DC>(... Mais tout ce que je peux faire",
-                "pour l'instant, c'est attendre...)<SQUARE>"
+                "<C><PAUSE:8><DI><DC>(... Mais tout ce que je peux faire pour",
+                "l'instant, c'est attendre...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -20750,7 +20750,8 @@
             {
               "Name": "DRAGMIRE51",
               "MessageTextLines": [
-                "<SOUND:SHOCK><DI>Elle a tué son propre père de sang froid !"
+                "<SOUND:SHOCK><DI>Elle a tué son propre père de sang",
+                "froid !"
               ],
               "Type": 0,
               "Position": 0
@@ -20835,9 +20836,10 @@
               "MessageTextLines": [
                 "<SOUND:0><C>(<R>Ganondorf Dragmire<C>...)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(Il semble que j'ai été chanceux d'éviter",
-                "cet homme jusqu'à présent...<PAUSE:5> Ce que",
-                "j'ai entendu sur lui doit être vrai...)"
+                "<SOUND:0><C>(Il semble que j'ai été chanceux",
+                "d'éviter cet homme jusqu'à présent...<PAUSE:5> ",
+                "Ce que j'ai entendu sur lui doit être",
+                "vrai...)"
               ],
               "Type": 0,
               "Position": 0
@@ -20852,8 +20854,8 @@
                 "presque sans échecs qu'il entretient",
                 "depuis des décennies.)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(... Le tout en manquant de respect",
-                "à toute la cour, le juge compris !)"
+                "<SOUND:0><C>(... Le tout en manquant de respect à",
+                "toute la cour, le juge compris !)"
               ],
               "Type": 0,
               "Position": 0
@@ -20879,8 +20881,8 @@
             {
               "Name": "JUDGE50",
               "MessageTextLines": [
-                "Très bien. Présentez donc l'affaire",
-                "à la cour."
+                "Très bien. Présentez donc l'affaire à la",
+                "cour."
               ],
               "Type": 0,
               "Position": 0
@@ -20906,8 +20908,8 @@
             {
               "Name": "DRAGMIRE120",
               "MessageTextLines": [
-                "<DI><SOUND:WHAP>Appelez <R>Impa<W> des <R>Forces Sheikah<W>",
-                "à la barre !"
+                "<DI><SOUND:WHAP>Appelez <R>Impa<W> des <R>Forces Sheikah<W> à la",
+                "barre !"
               ],
               "Type": 0,
               "Position": 0
@@ -22041,8 +22043,7 @@
             {
               "Name": "IMPA70",
               "MessageTextLines": [
-                "Mais ce n'est pas de ça dont",
-                "je parlais.",
+                "Mais ce n'est pas de ça dont je parlais.",
                 "<NEW_BOX>",
                 "J'imagine que le Roi voulait la crème",
                 "des enquêteurs sur cette affaire, comme <SOUND:CLUE>",
@@ -22080,8 +22081,8 @@
             {
               "Name": "DRAGMIRE50",
               "MessageTextLines": [
-                "L'affaire repose sur les mots de",
-                "la princesse !",
+                "L'affaire repose sur les mots de la",
+                "princesse !",
                 "<NEW_BOX>",
                 "En douter reviendrait à douter de",
                 "votre propre royaume !"
@@ -22503,8 +22504,8 @@
               "Name": "IMPA5",
               "MessageTextLines": [
                 "En outre, elle tenait une arme.<PAUSE:3> ",
-                "Sans aucun doute, c'est ce qui",
-                "a été utilisé pour tuer la victime."
+                "Sans aucun doute, c'est ce qui a été",
+                "utilisé pour tuer la victime."
               ],
               "Type": 0,
               "Position": 0
@@ -23835,8 +23836,8 @@
             {
               "Name": "IMPA54",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Naturellement.<PAUSE:5> Vous nous prenez",
-                "pour qui ?"
+                "<SOUND:WHAP><DI>Naturellement.<PAUSE:5> Vous nous prenez pour",
+                "qui ?"
               ],
               "Type": 0,
               "Position": 0
@@ -24101,8 +24102,8 @@
             {
               "Name": "4_MALON_VRS",
               "MessageTextLines": [
-                "Ooh, trop trop bieennn !<PAUSE:3> Tu peux",
-                "dire quoi ?"
+                "Ooh, trop trop bieennn !<PAUSE:3> Tu peux dire",
+                "quoi ?"
               ],
               "Type": 0,
               "Position": 0
@@ -24266,9 +24267,8 @@
             {
               "Name": "2_LINK10",
               "MessageTextLines": [
-                "Pardon, mais on n'a pas le temps",
-                "pour ça.<PAUSE:3> <SOUND:HINT>On doit commencer tout de",
-                "suite."
+                "Pardon, mais on n'a pas le temps pour",
+                "ça.<PAUSE:3> <SOUND:HINT>On doit commencer tout de suite."
               ],
               "Type": 0,
               "Position": 0
@@ -25958,8 +25958,8 @@
               "Name": "IMPA5",
               "MessageTextLines": [
                 "<DI><G>En outre, elle tenait une arme.",
-                "Sans aucun doute, c'est ce qui",
-                "a été utilisé pour tuer la victime.<PERSISTENT>"
+                "Sans aucun doute, c'est ce qui a été",
+                "utilisé pour tuer la victime.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -26419,8 +26419,8 @@
             {
               "Name": "4_IMPA10",
               "MessageTextLines": [
-                "Exact.<PAUSE:6> Malgré nos efforts, il nous a fallu",
-                "du temps pour la réveiller."
+                "Exact.<PAUSE:6> Malgré nos efforts, il nous a",
+                "fallu du temps pour la réveiller."
               ],
               "Type": 0,
               "Position": 0
@@ -27777,8 +27777,8 @@
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
                 "Il me semble que ce sujet a été réglé.<PAUSE:10> ",
-                "<SOUND:WHAP>Je suis prêt à appeler mon",
-                "prochain témoin."
+                "<SOUND:WHAP>Je suis prêt à appeler mon prochain",
+                "témoin."
               ],
               "Type": 0,
               "Position": 0
@@ -27815,8 +27815,8 @@
             {
               "Name": "DRAGMIRE30",
               "MessageTextLines": [
-                "N'ayez pas la prétention de",
-                "me menacer, Sheikah.<NEW_BOX>",
+                "N'ayez pas la prétention de me",
+                "menacer, Sheikah.<NEW_BOX>",
                 "Une nuit d'obscurité et de solitude ne",
                 "serait pour moi qu'un doux réconfort."
               ],
@@ -27835,8 +27835,8 @@
               "Name": "IMPA30",
               "MessageTextLines": [
                 "Alors peut-être devrions-nous remplir",
-                "les cachots de<SOUND:CLUE> bougies allumées",
-                "pour l'occasion."
+                "les cachots de<SOUND:CLUE> bougies allumées pour",
+                "l'occasion."
               ],
               "Type": 0,
               "Position": 0
@@ -27943,8 +27943,8 @@
             {
               "Name": "DRAGMIRE60",
               "MessageTextLines": [
-                "Devant la loi, la princesse n'est",
-                "pas<SOUND:DON> différente d'un simple gueux !"
+                "Devant la loi, la princesse n'est pas",
+                "<SOUND:DON>différente d'un simple gueux !"
               ],
               "Type": 0,
               "Position": 0
@@ -28204,8 +28204,8 @@
             {
               "Name": "DRAGMIRE140",
               "MessageTextLines": [
-                "J'imagine que la Famille Royale a",
-                "des alternatives ?"
+                "J'imagine que la Famille Royale a des",
+                "alternatives ?"
               ],
               "Type": 0,
               "Position": 0
@@ -29539,8 +29539,8 @@
               "Name": "MALON10",
               "MessageTextLines": [
                 "Qu'est-ce que le procureur a en tête ? <pause:3>",
-                "Ça avait l'air plutôt intense,",
-                "comme réaction."
+                "Ça avait l'air plutôt intense, comme",
+                "réaction."
               ],
               "Type": 0,
               "Position": 0
@@ -29639,9 +29639,9 @@
             {
               "Name": "MALON30",
               "MessageTextLines": [
-                "Oh, c'est le flacon de parfum que",
-                "Père comptait<SOUND:CLUE> offrir à Son Altesse",
-                "lors de sa venue !"
+                "Oh, c'est le flacon de parfum que Père",
+                "comptait<SOUND:CLUE> offrir à Son Altesse lors de sa",
+                "venue !"
               ],
               "Type": 0,
               "Position": 0
@@ -31549,8 +31549,8 @@
             {
               "Name": "F_LINK10",
               "MessageTextLines": [
-                "<SOUND:0><C>(Hmm...<PAUSE:3> ouais, c'est vrai.<PAUSE:5> Malon",
-                "n'a sûrement pas pu essuyer la lame",
+                "<SOUND:0><C>(Hmm...<PAUSE:3> ouais, c'est vrai.<PAUSE:5> Malon n'a",
+                "sûrement pas pu essuyer la lame",
                 "sous les yeux de la princesse...)",
                 "<NEW_BOX>",
                 "<SOUND:0><C><PAUSE:5><DI><DC>(... mais ce n'est pas<SOUND:CLUE> TOTALEMENT",
@@ -31692,8 +31692,8 @@
             {
               "Name": "1_ZELDA20",
               "MessageTextLines": [
-                "J'étais la seule à entrer dans la",
-                "maison du ranch.",
+                "J'étais la seule à entrer dans la maison",
+                "du ranch.",
                 "<NEW_BOX>",
                 "Après avoir vu ce qui s'y trouvait, je",
                 "suis restée à l'entrée et j'ai insisté",
@@ -31887,8 +31887,8 @@
               "Name": "4_JUDGE10",
               "MessageTextLines": [
                 "<SPEED:103>L'accusée va modérer ses",
-                "emportements !<PAUSE:3> <SOUND:WHAP><DI><SPEED:102>C'est à la royauté",
-                "que vous vous adressez !"
+                "emportements !<PAUSE:3> <SOUND:WHAP><DI><SPEED:102>C'est à la royauté que",
+                "vous vous adressez !"
               ],
               "Type": 0,
               "Position": 0
@@ -32501,8 +32501,8 @@
             {
               "Name": "MALON10",
               "MessageTextLines": [
-                "<DI><SOUND:WHAP>OUI !<PAUSE:3><SPEED:103> Tu l'as prise en flagrant",
-                "délit de mensonge !<SPEED:102>"
+                "<DI><SOUND:WHAP>OUI !<PAUSE:3><SPEED:103> Tu l'as prise en flagrant délit de",
+                "mensonge !<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -32562,8 +32562,8 @@
             {
               "Name": "ZELDA50",
               "MessageTextLines": [
-                "Je me souviens parfaitement de",
-                "tous les autres détails !"
+                "Je me souviens parfaitement de tous",
+                "les autres détails !"
               ],
               "Type": 0,
               "Position": 0
@@ -33262,8 +33262,8 @@
               "Name": "JUDGE10",
               "MessageTextLines": [
                 "Je vois.<PAUSE:5> Vous n'avez vu que les",
-                "conséquences de la scène, pas",
-                "le crime lui-même."
+                "conséquences de la scène, pas le",
+                "crime lui-même."
               ],
               "Type": 0,
               "Position": 0
@@ -34933,8 +34933,8 @@
             {
               "Name": "B_LINK10",
               "MessageTextLines": [
-                "Eh bien, c'est déjà un peu plus crédible",
-                "que son dernier témoignage."
+                "Eh bien, c'est déjà un peu plus",
+                "crédible que son dernier témoignage."
               ],
               "Type": 0,
               "Position": 0
@@ -34942,8 +34942,8 @@
             {
               "Name": "B_MALON10",
               "MessageTextLines": [
-                "Oui, je suppose que ça colle avec",
-                "le rapport de l'inspectrice, non ?"
+                "Oui, je suppose que ça colle avec le",
+                "rapport de l'inspectrice, non ?"
               ],
               "Type": 0,
               "Position": 0
@@ -34951,8 +34951,8 @@
             {
               "Name": "B_LINK20",
               "MessageTextLines": [
-                "<C>(Peut être, mais j'ai l'impression qu'il y",
-                "a quand même un truc qui cloche,",
+                "<C>(Peut être, mais j'ai l'impression qu'il",
+                "y a quand même un truc qui cloche,",
                 "là-dedans...)<SQUARE>"
               ],
               "Type": 0,
@@ -35116,8 +35116,8 @@
               "MessageTextLines": [
                 "<DI>Oh Sainte Déesse !",
                 "<NEW_BOX>",
-                "<SOUND:CLUE>Voilà un détail qu'il aurait été bon",
-                "de mentionner plus tôt !"
+                "<SOUND:CLUE>Voilà un détail qu'il aurait été bon de",
+                "mentionner plus tôt !"
               ],
               "Type": 0,
               "Position": 0
@@ -35160,8 +35160,8 @@
             {
               "Name": "3_LINK30",
               "MessageTextLines": [
-                "<C><PAUSE:5>(...en y repensant,<PAUSE:5> je crois",
-                "savoir pourquoi.)<SQUARE>"
+                "<C><PAUSE:5>(...en y repensant,<PAUSE:5> je crois savoir",
+                "pourquoi.)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -35511,8 +35511,8 @@
               "MessageTextLines": [
                 "Eh bien,<PAUSE:10><SOUND:EXPLOSION> peut-être que la princesse",
                 "a retiré la scie dans une tentative",
-                "héroïque mais futile de sauver",
-                "la victime ?"
+                "héroïque mais futile de sauver la",
+                "victime ?"
               ],
               "Type": 0,
               "Position": 0
@@ -36957,9 +36957,9 @@
             {
               "Name": "DRAGMIRE20",
               "MessageTextLines": [
-                "Vous feriez mieux de partir et d'arrêter",
-                "de nuire à mon affaire avec votre<SOUND:WHAP>",
-                "crétinerie !"
+                "Vous feriez mieux de partir et",
+                "d'arrêter de nuire à mon affaire avec",
+                "votre<SOUND:WHAP> crétinerie !"
               ],
               "Type": 0,
               "Position": 0
@@ -37101,8 +37101,8 @@
               "Name": "LINK20",
               "MessageTextLines": [
                 "<SOUND:0><C>(Il dépasse les bornes, mais...<PAUSE:10> ",
-                "Pour une fois, je suis d'accord",
-                "avec Dragmire.)"
+                "Pour une fois, je suis d'accord avec",
+                "Dragmire.)"
               ],
               "Type": 0,
               "Position": 0
@@ -37119,8 +37119,8 @@
             {
               "Name": "IMPA40",
               "MessageTextLines": [
-                "Croyez bien que cette requête",
-                "ne m'enchantait pas non plus."
+                "Croyez bien que cette requête ne",
+                "m'enchantait pas non plus."
               ],
               "Type": 0,
               "Position": 0
@@ -37184,8 +37184,8 @@
               "Name": "DRAGMIRE100",
               "MessageTextLines": [
                 "<SOUND:WHAP>Toutes les preuves pointent vers",
-                "l'accusée !<PAUSE:10> Même sans témoin",
-                "oculaire, ça ne change rien."
+                "l'accusée !<PAUSE:10> Même sans témoin oculaire,",
+                "ça ne change rien."
               ],
               "Type": 0,
               "Position": 0
@@ -37470,8 +37470,8 @@
               "Name": "1_LINK40",
               "MessageTextLines": [
                 "<SOUND:WHAP>Mais, Votre Honneur !<PAUSE:10> Rien ne prouve",
-                "formellement que Malon ait commis",
-                "ce crime !"
+                "formellement que Malon ait commis ce",
+                "crime !"
               ],
               "Type": 0,
               "Position": 0
@@ -37643,8 +37643,8 @@
               "MessageTextLines": [
                 "Cependant, je dois vous avertir :",
                 "<NEW_BOX>",
-                "Pour que cette pièce soit admise",
-                "au dossier..."
+                "Pour que cette pièce soit admise au",
+                "dossier..."
               ],
               "Type": 0,
               "Position": 0
@@ -38762,10 +38762,10 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "Même si cette preuve ne semble",
-                "pas très utile pour l'instant,<PAUSE:5> la défense",
-                "fait tout de même valoir son droit",
-                "à un contre-interrogatoire !"
+                "Même si cette preuve ne semble pas",
+                "très utile pour l'instant,<PAUSE:5> la défense",
+                "fait tout de même valoir son droit à",
+                "un contre-interrogatoire !"
               ],
               "Type": 0,
               "Position": 0
@@ -40474,8 +40474,8 @@
               "Name": "CONS_LINK20",
               "MessageTextLines": [
                 "<SOUND:0><C>(Peut-être que je devrais attaquer sur",
-                "toutes les déclarations possibles,",
-                "et voir ce qui se passe...)<SQUARE>"
+                "toutes les déclarations possibles, et",
+                "voir ce qui se passe...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -40483,8 +40483,8 @@
             {
               "Name": "B_LINK10",
               "MessageTextLines": [
-                "Tu sais pourquoi il y aurait eu un",
-                "feu au ranch ce jour-là ?"
+                "Tu sais pourquoi il y aurait eu un feu",
+                "au ranch ce jour-là ?"
               ],
               "Type": 0,
               "Position": 0
@@ -41126,7 +41126,8 @@
             {
               "Name": "JUDGE40",
               "MessageTextLines": [
-                "Merci d'avoir pris le temps, Votre Altesse.",
+                "Merci d'avoir pris le temps, Votre",
+                "Altesse.",
                 "<NEW_BOX>",
                 "Je suppose que vous n'avez plus rien",
                 "à ajouter ?"
@@ -41226,8 +41227,8 @@
               "Name": "LINK30",
               "MessageTextLines": [
                 "<SOUND:WHAP>Mais, Votre Honneur !<PAUSE:10> Rien ne prouve",
-                "formellement que Malon ait commis",
-                "ce crime !"
+                "formellement que Malon ait commis ce",
+                "crime !"
               ],
               "Type": 0,
               "Position": 0
@@ -42056,7 +42057,8 @@
             {
               "Name": "JUDGE30",
               "MessageTextLines": [
-                "Fascinant.<PAUSE:5> Très bien. Veuillez poursuivre."
+                "Fascinant.<PAUSE:5> ",
+                "Très bien. Veuillez poursuivre."
               ],
               "Type": 0,
               "Position": 0
@@ -42213,8 +42215,8 @@
               "Name": "MALON40",
               "MessageTextLines": [
                 "Eh bien, il lui arrive d'être un peu",
-                "pompeux, mais M. Ingo est d'une",
-                "aide précieuse !"
+                "pompeux, mais M. Ingo est d'une aide",
+                "précieuse !"
               ],
               "Type": 0,
               "Position": 0
@@ -47139,8 +47141,8 @@
             {
               "Name": "B_LINK10",
               "MessageTextLines": [
-                "Au fait, c'est quoi, ta relation avec",
-                "ce type ?"
+                "Au fait, c'est quoi, ta relation avec ce",
+                "type ?"
               ],
               "Type": 0,
               "Position": 0
@@ -47687,11 +47689,11 @@
             {
               "Name": "4_INGO92",
               "MessageTextLines": [
-                "Il prévoyait d'annoncer au Roi qu'il allait",
-                "céder le ranch à la Couronne.",
+                "Il prévoyait d'annoncer au Roi qu'il",
+                "allait céder le ranch à la Couronne.",
                 "<NEW_BOX>",
-                "Après la fin de la visite, il serait allé à",
-                "la Citadelle<PAUSE:1> pour partager en deux",
+                "Après la fin de la visite, il serait allé",
+                "à la Citadelle<PAUSE:1> pour partager en deux",
                 "l'acte de succession comme c'était",
                 "initialement prévu !"
               ],
@@ -47710,8 +47712,8 @@
               "Name": "4_DRAGMIRE30",
               "MessageTextLines": [
                 "Malgré les hésitations de la victime,",
-                "il semblerait qu'elle ait finalement fait le",
-                "bon choix.",
+                "il semblerait qu'elle ait finalement fait",
+                "le bon choix.",
                 "<NEW_BOX>",
                 "Et à cause de ce choix, si l'accusée",
                 "voulait s'emparer du ranch, elle ne",
@@ -47754,8 +47756,8 @@
               "Name": "4_1_LINK10",
               "MessageTextLines": [
                 "Il y a eu une dispute à propos de",
-                "l'héritage ?<PAUSE:5> <SOUND:EXPLOSION><DI>Ça m'a l'air d'être un",
-                "fait important !",
+                "l'héritage ?<PAUSE:5> <SOUND:EXPLOSION><DI>Ça m'a l'air d'être un fait",
+                "important !",
                 "<NEW_BOX>",
                 "La défense demande à l'ajouter au",
                 "témoignage."
@@ -47878,8 +47880,8 @@
               "Name": "5_INGO50",
               "MessageTextLines": [
                 "<SOUND:WHAP><DI>\"Je m'en fiche ! <PAUSE:4><SOUND:DON>Qu'en est-t-il de MOI,",
-                "Père ?! <PAUSE:5><SOUND:EXPLOSION>Comment peux-tu me",
-                "FAIRE ça à MOI ?!\""
+                "Père ?! <PAUSE:5><SOUND:EXPLOSION>Comment peux-tu me FAIRE",
+                "ça à MOI ?!\""
               ],
               "Type": 0,
               "Position": 0
@@ -48536,9 +48538,9 @@
             {
               "Name": "A3_DRAGMIRE10",
               "MessageTextLines": [
-                "La princesse <SOUND:CLUE>a pourtant bien mentionné",
-                "avoir vu le flacon de parfum dans la",
-                "maison du ranch..."
+                "La princesse <SOUND:CLUE>a pourtant bien",
+                "mentionné avoir vu le flacon de",
+                "parfum dans la maison du ranch..."
               ],
               "Type": 0,
               "Position": 0
@@ -48546,8 +48548,8 @@
             {
               "Name": "A3_DRAGMIRE20",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>En quoi cela contredit-il la parole",
-                "du témoin ?!?!"
+                "<SOUND:EXPLOSION>En quoi cela contredit-il la parole du",
+                "témoin ?!?!"
               ],
               "Type": 0,
               "Position": 0
@@ -49081,8 +49083,8 @@
               "Name": "B4_DRAGMIRE40",
               "MessageTextLines": [
                 "Que cherchez-vous à prouver,",
-                "Défense ?<PAUSE:3> <SOUND:EXPLOSION>Il y avait sûrement un but",
-                "à cet exercice, non ?"
+                "Défense ?<PAUSE:3> <SOUND:EXPLOSION>Il y avait sûrement un but à",
+                "cet exercice, non ?"
               ],
               "Type": 0,
               "Position": 0
@@ -49603,8 +49605,9 @@
             {
               "Name": "LINK190",
               "MessageTextLines": [
-                "<SOUND:0><C>(Mais le prochain témoignage sera rempli",
-                "de mensonges.<PAUSE:3> <SOUND:WHAP><DI>C'est ma chance !)<SQUARE>"
+                "<SOUND:0><C>(Mais le prochain témoignage sera",
+                "rempli de mensonges.<PAUSE:3> <SOUND:WHAP><DI>C'est ma",
+                "chance !)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -50944,8 +50947,8 @@
                 "au ranch à ce moment-là, il est le seul",
                 "qui aurait pu allumer ce feu.",
                 "<NEW_BOX>",
-                "S'il nous cache quelque chose,",
-                "<SOUND:CLUE>je pense que la cour mérite de savoir."
+                "S'il nous cache quelque chose, <SOUND:CLUE>je",
+                "pense que la cour mérite de savoir."
               ],
               "Type": 0,
               "Position": 0
@@ -51097,8 +51100,8 @@
             {
               "Name": "IMPA200",
               "MessageTextLines": [
-                "Elle est d'une sagesse rare pour son âge.<PAUSE:5> ",
-                "Elle apprendra, et elle s'améliorera."
+                "Elle est d'une sagesse rare pour son",
+                "âge.<PAUSE:5> Elle apprendra, et elle s'améliorera."
               ],
               "Type": 0,
               "Position": 0
@@ -51162,9 +51165,9 @@
                 "<SOUND:WHAP>L'équipe d'investigation présente au",
                 "ranch a du nouveau !",
                 "<NEW_BOX>",
-                "C'est au sujet d'une cargaison",
-                "de lait renvoyée au ranch à cause",
-                "d'une erreur d'adresse du destinataire !",
+                "C'est au sujet d'une cargaison de lait",
+                "renvoyée au ranch à cause d'une",
+                "erreur d'adresse du destinataire !",
                 "<NEW_BOX>",
                 "Ils vous demandent de vous rendre sur",
                 "place pour le constater par vous-même."
@@ -51329,8 +51332,8 @@
                 "cargaisons d'hier avait été mal",
                 "adressée, n'est-ce pas ?",
                 "<NEW_BOX>",
-                "Hmm...<PAUSE:8> et tout a été géré par",
-                "<SOUND:CLUE>Ingo,<PAUSE:8> non... ?"
+                "Hmm...<PAUSE:8> et tout a été géré par <SOUND:CLUE>Ingo,<PAUSE:8> ",
+                "non... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -55098,9 +55101,9 @@
             {
               "Name": "2_DRAGMIREn10",
               "MessageTextLines": [
-                "Un homme honnête.<PAUSE:6> Comment osez-vous",
-                "suggérer qu'il volerait dans son propre",
-                "lieu de travail !"
+                "Un homme honnête.<PAUSE:6> Comment",
+                "osez-vous suggérer qu'il volerait dans",
+                "son propre lieu de travail !"
               ],
               "Type": 0,
               "Position": 0
@@ -55704,9 +55707,9 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Témoin !<PAUSE:3> Il y a quelque chose",
-                "qui sonne sérieusement faux",
-                "dans votre témoignage !"
+                "<SOUND:WHAP><DI>Témoin !<PAUSE:3> Il y a quelque chose qui",
+                "sonne sérieusement faux dans votre",
+                "témoignage !"
               ],
               "Type": 0,
               "Position": 0
@@ -56321,11 +56324,11 @@
               "Name": "LINK150",
               "MessageTextLines": [
                 "<SOUND:DON><DI>Attendez une minute !<PAUSE:5> C'est fou ce",
-                "qui se passe !<PAUSE:5> Quel genre de",
-                "parodie de justice est-ce donc ?<PAUSE:5> ",
+                "qui se passe !<PAUSE:5> Quel genre de parodie",
+                "de justice est-ce donc ?<PAUSE:5> ",
                 "<NEW_BOX>",
-                "L'accusation ne fait qu'inventer",
-                "des excuses à la volée !"
+                "L'accusation ne fait qu'inventer des",
+                "excuses à la volée !"
               ],
               "Type": 0,
               "Position": 0
@@ -59555,8 +59558,7 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(Eh ben. Il mâche pas ses mots",
-                "avec lui.)"
+                "<SOUND:0><C>(Eh ben. Il mâche pas ses mots avec lui.)"
               ],
               "Type": 0,
               "Position": 0
@@ -59583,8 +59585,9 @@
             {
               "Name": "JUDGE40",
               "MessageTextLines": [
-                "C'est juste une formalité, mais l'accusée",
-                "veut-elle bien se présenter à la barre ?<SQUARE>"
+                "C'est juste une formalité, mais",
+                "l'accusée veut-elle bien se présenter",
+                "à la barre ?<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -62159,8 +62162,8 @@
               "Name": "LINK200",
               "MessageTextLines": [
                 "<SOUND:WHAP>Je t'en prie !",
-                "<NEW_BOX>Je suis juste soulagé que tout se finisse",
-                "bien."
+                "<NEW_BOX>Je suis juste soulagé que tout se",
+                "finisse bien."
               ],
               "Type": 0,
               "Position": 0
@@ -65356,8 +65359,8 @@
               "Name": "DRAGMIRE1",
               "MessageTextLines": [
                 "<G>Il vous manque l'arme du crime !<PAUSE:5> ",
-                "Si Ingo était le meurtrier, alors",
-                "ça ne pouvait pas être la scie !<PERSISTENT>"
+                "Si Ingo était le meurtrier, alors ça ne",
+                "pouvait pas être la scie !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -65366,8 +65369,8 @@
               "Name": "DI_DRAGMIRE1",
               "MessageTextLines": [
                 "<G><DI>Il vous manque l'arme du crime !",
-                "Si Ingo était le meurtrier, alors",
-                "ça ne pouvait pas être la scie !<PERSISTENT>"
+                "Si Ingo était le meurtrier, alors ça ne",
+                "pouvait pas être la scie !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -65415,9 +65418,9 @@
             {
               "Name": "DRAGMIRE4",
               "MessageTextLines": [
-                "<G>Aucun article de l'inventaire",
-                "du ranch ne manquait à l'appel, et",
-                "cette liste est incontestable !<PERSISTENT>"
+                "<G>Aucun article de l'inventaire du",
+                "ranch ne manquait à l'appel,",
+                "et cette liste est incontestable !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -65425,9 +65428,9 @@
             {
               "Name": "DI_DRAGMIRE4",
               "MessageTextLines": [
-                "<G><DI>Aucun article de l'inventaire",
-                "du ranch ne manquait à l'appel, et",
-                "cette liste est incontestable !<PERSISTENT>"
+                "<G><DI>Aucun article de l'inventaire du",
+                "ranch ne manquait à l'appel,",
+                "et cette liste est incontestable !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -65489,8 +65492,8 @@
               "MessageTextLines": [
                 "Si l'histoire de la fille concernant la",
                 "clôture est vraie, alors elle utilisait",
-                "la scie au moment où son père",
-                "se faisait tuer !"
+                "la scie au moment où son père se",
+                "faisait tuer !"
               ],
               "Type": 0,
               "Position": 0
@@ -65535,8 +65538,8 @@
             {
               "Name": "1_1_DRAGMIRE20",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Vous réalisez les problèmes que",
-                "ça vous apporte, j'espère ?"
+                "<SOUND:EXPLOSION>Vous réalisez les problèmes que ça",
+                "vous apporte, j'espère ?"
               ],
               "Type": 0,
               "Position": 0
@@ -65580,8 +65583,8 @@
               "Name": "1_2_DRAGMIRE10",
               "MessageTextLines": [
                 "Vraiment ?<PAUSE:3> Eh bien, dans ce cas,",
-                "présentez donc une preuve de",
-                "ce que vous avancez !"
+                "présentez donc une preuve de ce",
+                "que vous avancez !"
               ],
               "Type": 0,
               "Position": 0
@@ -65684,8 +65687,8 @@
             {
               "Name": "3_1_LINK10",
               "MessageTextLines": [
-                "Ingo n'aurait pas pu simplement <SOUND:CLUE>",
-                "la cacher ?"
+                "Ingo n'aurait pas pu simplement <SOUND:CLUE>la",
+                "cacher ?"
               ],
               "Type": 0,
               "Position": 0
@@ -65809,8 +65812,8 @@
               "Name": "3_3_DRAGMIRE30",
               "MessageTextLines": [
                 "Naturellement, les Forces Sheikah",
-                "emploient des individus pour",
-                "cette tâche précise."
+                "emploient des individus pour cette",
+                "tâche précise."
               ],
               "Type": 0,
               "Position": 0
@@ -66096,8 +66099,8 @@
               "MessageTextLines": [
                 "<SOUND:0><C>(Réfléchissons, voyons !<PAUSE:5> Il n'y avait",
                 "aucune raison de douter de cet",
-                "inventaire avant,<PAUSE:2> mais maintenant que",
-                "j'ai un suspect...)"
+                "inventaire avant,<PAUSE:2> mais maintenant",
+                "que j'ai un suspect...)"
               ],
               "Type": 0,
               "Position": 0
@@ -66254,8 +66257,8 @@
             {
               "Name": "5_LINK60",
               "MessageTextLines": [
-                "Il y a un endroit que les Sheikah",
-                "ont pu négliger."
+                "Il y a un endroit que les Sheikah ont",
+                "pu négliger."
               ],
               "Type": 0,
               "Position": 0
@@ -66276,8 +66279,8 @@
             {
               "Name": "5_DRAGMIRE50",
               "MessageTextLines": [
-                "Où auraient-ils pu rater une arme",
-                "du crime ?!"
+                "Où auraient-ils pu rater une arme du",
+                "crime ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -66545,8 +66548,8 @@
             {
               "Name": "5_2_LINK70",
               "MessageTextLines": [
-                "En effet.<PAUSE:3> Et je vous rappelle que",
-                "c'est Ingo qui gérait tout ça."
+                "En effet.<PAUSE:3> Et je vous rappelle que c'est",
+                "Ingo qui gérait tout ça."
               ],
               "Type": 0,
               "Position": 0
@@ -66576,9 +66579,9 @@
             {
               "Name": "5_2_LINK90",
               "MessageTextLines": [
-                "<NS>C'est presque comme si...<PAUSE:3><DI><SOUND:DON> il ne",
-                "voulait surtout pas qu'on reçoive une",
-                "bouteille contenant une arme du crime !"
+                "<NS>C'est presque comme si...<PAUSE:3><DI><SOUND:DON> il ne voulait ",
+                "surtout pas qu'on reçoive une bouteille",
+                "contenant une arme du crime !"
               ],
               "Type": 0,
               "Position": 0
@@ -75413,8 +75416,8 @@
               "MessageTextLines": [
                 "Dis...<PAUSE:5> Imagine que tu te sois réveillée",
                 "en retard, et que tu doives te dépêcher",
-                "de finir de préparer les cargaisons",
-                "par tous les moyens possible.",
+                "de finir de préparer les cargaisons par",
+                "tous les moyens possible.",
                 "<NEW_BOX>",
                 "<SOUND:CLUE>Qu'est-ce que tu ferais ?"
               ],
@@ -75600,8 +75603,8 @@
               "MessageTextLines": [
                 "... Et comme notre inspectrice attitrée",
                 "nous l'a indiqué, elles étaient",
-                "<SOUND:CLUE>pleinement chargées de bouteilles",
-                "de lait."
+                "<SOUND:CLUE>pleinement chargées de bouteilles de",
+                "lait."
               ],
               "Type": 0,
               "Position": 0
@@ -75677,8 +75680,8 @@
               "MessageTextLines": [
                 "J'<SOUND:WHAP>adore travailler avec les vaches !<PAUSE:6> ",
                 "Mais la traite reste la partie <SOUND:CLUE>la plus",
-                "longue, parce qu'on en obtient que très",
-                "peu à chaque fois."
+                "longue, parce qu'on en obtient que",
+                "très peu à chaque fois."
               ],
               "Type": 0,
               "Position": 0
@@ -75689,9 +75692,9 @@
                 "Donc, comme l'a dit M. Ingo, tout le",
                 "processus prend énormément de temps.",
                 "<NEW_BOX>",
-                "Père et moi devions généralement nous",
-                "y mettre à deux pour tout finir avant",
-                "l'arrivée du coursier."
+                "Père et moi devions généralement",
+                "nous y mettre à deux pour tout finir",
+                "avant l'arrivée du coursier."
               ],
               "Type": 0,
               "Position": 0
@@ -75804,8 +75807,9 @@
             {
               "Name": "4_DRAGMIRE10",
               "MessageTextLines": [
-                "Continuez, témoin.<PAUSE:5> Nous en avons assez",
-                "d'écouter vos aventures culinaires."
+                "Continuez, témoin.<PAUSE:5> Nous en avons",
+                "assez d'écouter vos aventures",
+                "culinaires."
               ],
               "Type": 0,
               "Position": 0
@@ -75861,9 +75865,9 @@
             {
               "Name": "5_DRAGMIRE30",
               "MessageTextLines": [
-                "Soit vous prouvez que l'alibi d'Ingo ne",
-                "tient pas la route, soit vous acceptez la",
-                "défaite !<SQUARE>"
+                "Soit vous prouvez que l'alibi d'Ingo",
+                "ne tient pas la route, soit vous",
+                "acceptez la défaite !<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -75949,8 +75953,9 @@
             {
               "Name": "F_LINK40",
               "MessageTextLines": [
-                "Ce n'était pas juste l'adresse !<PAUSE:2> Ingo doit",
-                "avoir bâclé <SOUND:WHAP><DI><R>l'intégralité des cargaisons<W> !"
+                "Ce n'était pas juste l'adresse !<PAUSE:2> ",
+                "Ingo doit avoir bâclé <SOUND:WHAP><DI><R>l'intégralité des",
+                "cargaisons<W> !"
               ],
               "Type": 0,
               "Position": 0
@@ -78061,8 +78066,8 @@
               "MessageTextLines": [
                 "<SOUND:0><C>(Est-ce qu'il... <SOUND:CLUE>ne savait vraiment pas... ?)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(J'imagine que c'est Dragmire",
-                "qui s'est procuré le document, pas lui.)"
+                "<SOUND:0><C>(J'imagine que c'est Dragmire qui",
+                "s'est procuré le document, pas lui.)"
               ],
               "Type": 0,
               "Position": 0
@@ -78469,7 +78474,8 @@
                 "M'excuser ?!<PAUSE:3><SOUND:WHAP> MOI ?!<PAUSE:5> <SOUND:EXPLOSION>Tu es immonde !",
                 "<NEW_BOX>",
                 "On n'avait jamais prévu de te virer !<PAUSE:3> ",
-                "<SOUND:WHAP><DI>Tu as juste mal compris ce qu'on disait !"
+                "<SOUND:WHAP><DI>Tu as juste mal compris ce qu'on",
+                "disait !"
               ],
               "Type": 0,
               "Position": 0
@@ -83123,9 +83129,9 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "<C>(Toujours aucune idée de pourquoi",
-                "on m'a convoqué ici à cette heure",
-                "pas possible...)"
+                "<C>(Toujours aucune idée de pourquoi on",
+                "m'a convoqué ici à cette heure pas",
+                "possible...)"
               ],
               "Type": 0,
               "Position": 0
@@ -83214,8 +83220,8 @@
                 "aux soldats de ne rien dire à <SOUND:CLUE>PERSONNE",
                 "à propos de ce qui s'est passé...",
                 "<NEW_BOX>",
-                "Ils ont dû le prendre au pied",
-                "de la lettre..."
+                "Ils ont dû le prendre au pied de la",
+                "lettre..."
               ],
               "Type": 0,
               "Position": 0
@@ -83272,7 +83278,8 @@
             {
               "Name": "DRAGMIRE50",
               "MessageTextLines": [
-                "Oh ?<PAUSE:5> Vous doutez de vos compétences ?"
+                "Oh ?<PAUSE:5> Vous doutez de vos",
+                "compétences ?"
               ],
               "Type": 0,
               "Position": 0
@@ -84849,10 +84856,10 @@
             {
               "Name": "MUTOH8",
               "MessageTextLines": [
-                "Il l'a fait plus d'une fois, ce p'tit voyou !!<PAUSE:5> ",
-                "Mais pour quoi faire, j'vous l'demande ?<PAUSE:5> ",
-                "Tout est si peu cher... !<PAUSE:5> J'vous jure,",
-                "j'devrais<EMDASH>"
+                "Il l'a fait plus d'une fois, ce p'tit",
+                "voyou !!<PAUSE:5> Mais pour quoi faire, j'vous",
+                "l'demande ?<PAUSE:5> Tout est si peu cher... !<PAUSE:5> ",
+                "J'vous jure, j'devrais<EMDASH>"
               ],
               "Type": 0,
               "Position": 0
@@ -84861,9 +84868,9 @@
               "Name": "MUTOH8A",
               "MessageTextLines": [
                 "J'peux pas m'permettre d'laisser partir",
-                "ma marchandise gratuitement, m'voyez ?!<PAUSE:5> ",
-                "Elle est d'jà si peu chère ! J'vous jure,",
-                "j'devrais<EMDASH>"
+                "ma marchandise gratuitement,",
+                "m'voyez ?!<PAUSE:5> Elle est d'jà si peu chère !",
+                "J'vous jure, j'devrais<EMDASH>"
               ],
               "Type": 0,
               "Position": 0
@@ -87945,10 +87952,10 @@
             {
               "Name": "MUTOH8",
               "MessageTextLines": [
-                "<DI><G>Il l'a fait plus d'une fois, ce p'tit voyou !!",
-                "Mais pour quoi faire, j'vous l'demande ?",
-                "Tout est si peu cher... ! J'vous jure,",
-                "j'devrais<EMDASH><PERSISTENT>"
+                "<DI><G>Il l'a fait plus d'une fois, ce p'tit",
+                "voyou !! Mais pour quoi faire, j'vous",
+                "l'demande ? Tout est si peu cher... !",
+                "J'vous jure, j'devrais<EMDASH><PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -87957,9 +87964,9 @@
               "Name": "MUTOH8A",
               "MessageTextLines": [
                 "<G><DI>J'peux pas m'permettre d'laisser partir",
-                "ma marchandise gratuitement, m'voyez ?!",
-                "Elle est d'jà si peu chère ! J'vous jure,",
-                "j'devrais<EMDASH><PERSISTENT>"
+                "ma marchandise gratuitement,",
+                "m'voyez ?! Elle est d'jà si peu chère !",
+                "J'vous jure, j'devrais<EMDASH><PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -88022,8 +88029,9 @@
               "Name": "C_LINK30",
               "MessageTextLines": [
                 "<C>(Attaquer...<PAUSE:5> OK !<PAUSE:5> ",
-                "Peut-être que je pourrais récupérer des",
-                "preuves en posant les bonnes questions...)<SQUARE>"
+                "Peut-être que je pourrais récupérer",
+                "des preuves en posant les bonnes",
+                "questions...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -88995,7 +89003,8 @@
               "Name": "9A_LINK10",
               "MessageTextLines": [
                 "Mmmh,<PAUSE:5><SOUND:HINT> êtes-vous en train de menacer",
-                "ouvertement quelqu'un dans un tribunal ?"
+                "ouvertement quelqu'un dans un",
+                "tribunal ?"
               ],
               "Type": 0,
               "Position": 0
@@ -89383,9 +89392,9 @@
             {
               "Name": "KOHOLINK30",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Non, pas directement comme ça !<PAUSE:5> On ne",
-                "peut pas s'échapper de l'île par des",
-                "moyens conventionnels !"
+                "<SOUND:EXPLOSION>Non, pas directement comme ça !<PAUSE:5> ",
+                "On ne peut pas s'échapper de l'île par",
+                "des moyens conventionnels !"
               ],
               "Type": 0,
               "Position": 0
@@ -93120,7 +93129,8 @@
             {
               "Name": "2_OWL10",
               "MessageTextLines": [
-                "<PAUSE:5><SOUND:OWLHOOT>Houu...<PAUSE:5> Pour être honnête,<PAUSE:5> je ne sais pas."
+                "<PAUSE:5><SOUND:OWLHOOT>Houu...<PAUSE:5> Pour être honnête,<PAUSE:5> je ne sais",
+                "pas."
               ],
               "Type": 0,
               "Position": 0
@@ -93873,7 +93883,8 @@
               "Name": "DRAGMIRE80",
               "MessageTextLines": [
                 "Dites-moi,<PAUSE:5> est-ce que ces instruments",
-                "étaient tout ce qu'il y avait à l'intérieur... ?"
+                "étaient tout ce qu'il y avait à",
+                "l'intérieur... ?"
               ],
               "Type": 0,
               "Position": 0
@@ -94076,8 +94087,8 @@
               "Name": "OWL90",
               "MessageTextLines": [
                 "Tous les trésors étant une part de",
-                "Cocolint,<PAUSE:5> ils disparaîtraient naturellement",
-                "avec elle."
+                "Cocolint,<PAUSE:5> ils disparaîtraient",
+                "naturellement avec elle."
               ],
               "Type": 0,
               "Position": 0
@@ -94367,8 +94378,8 @@
             {
               "Name": "DRAGMIRE260",
               "MessageTextLines": [
-                "<NS>Juge !<PAUSE:5><SOUND:DON><DI> Déclarez-le coupable tout",
-                "de suite !"
+                "<NS>Juge !<PAUSE:5><SOUND:DON><DI> Déclarez-le coupable tout de",
+                "suite !"
               ],
               "Type": 0,
               "Position": 0
@@ -94455,9 +94466,9 @@
             {
               "Name": "LINK190",
               "MessageTextLines": [
-                "<SOUND:WHAP>Ê-êtes-vous en train de dire que tout le",
-                "monde ici est réel, et partage le même",
-                "rêve ?!"
+                "<SOUND:WHAP>Ê-êtes-vous en train de dire que tout",
+                "le monde ici est réel, et partage le",
+                "même rêve ?!"
               ],
               "Type": 0,
               "Position": 0
@@ -94539,12 +94550,12 @@
                 "nombreuses années.",
                 "<NEW_BOX>",
                 "<SOUND:CLUE>Il l'a infesté de ses propres créations,",
-                "l'a transformé en un lieu dangereux, et",
-                "en a emprisonné le créateur.",
+                "l'a transformé en un lieu dangereux,",
+                "et en a emprisonné le créateur.",
                 "<NEW_BOX>",
-                "<PAUSE:5>En conséquence...<PAUSE:5> c'est aussi pourquoi",
-                "notre ami vêtu de $$$$$ ne peut pas se",
-                "réveiller normalement."
+                "<PAUSE:5>En conséquence...<PAUSE:5> c'est aussi",
+                "pourquoi notre ami vêtu de $$$$$",
+                "ne peut pas se réveiller normalement."
               ],
               "Type": 0,
               "Position": 0
@@ -94552,9 +94563,9 @@
             {
               "Name": "OWL215",
               "MessageTextLines": [
-                "Mais...<PAUSE:5> ce monde est dépourvu de <R>Ganon<W>.",
-                "Quel que soit l'hôte de ce rêve,<PAUSE:5> <SOUND:HINT>il",
-                "POURRAIT<PAUSE:5> en effet juste se réveiller...",
+                "Mais...<PAUSE:5> ce monde est dépourvu de",
+                "<R>Ganon<W>. Quel que soit l'hôte de ce rêve,<PAUSE:5> ",
+                "<SOUND:HINT>il POURRAIT<PAUSE:5> en effet juste se réveiller...",
                 "<NEW_BOX>",
                 "<PAUSE:5>... Même si j'imagine que la Déesse",
                 "Hylia ne serait pas ravie de cette",
@@ -94654,7 +94665,8 @@
                 "<C>(Alors voilà...<PAUSE:5> Tout se joue ici.)",
                 "<NEW_BOX>",
                 "<C>(Qui est donc ce Poisson-Rêve ?<PAUSE:5> ",
-                "Je dois prendre en compte tous les faits !)<SQUARE>"
+                "Je dois prendre en compte tous les",
+                "faits !)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -95359,9 +95371,9 @@
                 "Ingo agit vraiment de manière suspecte",
                 "en ce moment.",
                 "<NEW_BOX>",
-                "Il essaie désespérément de colmater les",
-                "trous de son témoignage pour cacher",
-                "ses véritables déplacements."
+                "Il essaie désespérément de colmater",
+                "les trous de son témoignage pour",
+                "cacher ses véritables déplacements."
               ],
               "Type": 2,
               "Position": 3
@@ -96221,9 +96233,9 @@
                 "Dragmire avait l'air d'être sûr d'être",
                 "celui qui contrôle tout...",
                 "<NEW_BOX>",
-                "<SOUND:HINT>Mais...<PAUSE:5> non... !<PAUSE:5> Je viens de voir qu'il ne",
-                "pouvait rien contrôler !<PAUSE:5> Ça ne peut pas",
-                "être lui !"
+                "<SOUND:HINT>Mais...<PAUSE:5> non... !<PAUSE:5> Je viens de voir qu'il",
+                "ne pouvait rien contrôler !<PAUSE:5> Ça ne peut",
+                "pas être lui !"
               ],
               "Type": 2,
               "Position": 3
@@ -98382,9 +98394,10 @@
             {
               "Name": "LINK70",
               "MessageTextLines": [
-                "<SOUND:HINT>Eh bien, je ne vois aucune raison de",
-                "prolonger ce procès.<PAUSE:5> Est-ce que l'accusé",
-                "veut bien s'avancer à la barre ?"
+                "<SOUND:HINT>Eh bien, je ne vois aucune raison",
+                "de prolonger ce procès.<PAUSE:5> Est-ce que",
+                "l'accusé veut bien s'avancer à la",
+                "barre ?"
               ],
               "Type": 0,
               "Position": 0
@@ -98984,10 +98997,12 @@
             {
               "Name": "RRWMC_LINK30",
               "MessageTextLines": [
-                "Mais attends un peu, t'avais pas dit que les",
-                "avocats n'existaient pas dans ton monde ?<PAUSE:5> ",
-                "Ton monde a-t-il même des tribunaux... ?<PAUSE:8> ",
-                "... Enfin, passons à autre chose."
+                "Mais attends un peu, t'avais pas dit",
+                "que les avocats n'existaient pas dans",
+                "ton monde ?<PAUSE:5> Ton monde a-t-il même",
+                "des tribunaux... ?",
+                "<NEW_BOX>",
+                "<PAUSE:3>... Enfin, passons à autre chose."
               ],
               "Type": 0,
               "Position": 0
@@ -98996,7 +99011,8 @@
               "Name": "AAAAA_KOHOLINK10",
               "MessageTextLines": [
                 "Non, non, tu le prononces pas bien.<PAUSE:3> ",
-                "Ça doit venir du plus profond de ton être."
+                "Ça doit venir du plus profond de ton",
+                "être."
               ],
               "Type": 0,
               "Position": 0
@@ -103600,10 +103616,10 @@
                 "Quand l'originale monte ou descend",
                 "d'une gamme, elle fait pareil.",
                 "<NEW_BOX>",
-                "<SOUND:0>Les accords en dessous flottent un peu",
-                "au hasard, sans vraie logique.<PAUSE:3> ",
-                "J'ai simplement varié les notes jusqu'à",
-                "ce que ça sonne bien.",
+                "<SOUND:0>Les accords en dessous flottent un",
+                "peu au hasard, sans vraie logique.<PAUSE:3> ",
+                "J'ai simplement varié les notes",
+                "jusqu'à ce que ça sonne bien.",
                 "<NEW_BOX>",
                 "<SOUND:0>C'est subtil, mais le triplet du shaker",
                 "à la fin du thème du hibou est un clin",
@@ -103624,15 +103640,16 @@
                 "<NEW_BOX>",
                 "<SOUND:0>J'ai réussi à écrire les 30 premières",
                 "secondes <EMDASH>une reprise du <R>Thème",
-                "Principal<W> du jeu original <EMDASH> du",
-                "premier coup...",
+                "Principal<W> du jeu original <EMDASH> du premier",
+                "coup...",
                 "<NEW_BOX>",
                 "<SOUND:0>... mais j'ai eu un blocage, et je ne",
                 "savais pas comment continuer.",
                 "<NEW_BOX>",
                 "<SOUND:0>J'ai donc tenté une deuxième version",
                 "de zéro.<PAUSE:3> Elle était moins bonne, mais",
-                "plus énergique, donc j'avais plus d'idées.",
+                "plus énergique, donc j'avais plus",
+                "d'idées.",
                 "<NEW_BOX>",
                 "<SOUND:0>J'ai repris plein d'idées de la deuxième",
                 "version pour améliorer la première, et",
@@ -103682,13 +103699,13 @@
                 "en changeant les instruments.",
                 "<NEW_BOX>",
                 "<SOUND:0>La mélodie du <R>Chant des Tempêtes<W>",
-                "symbolise la \"tempête\" qui gronde dans",
-                "la salle d'audience.",
+                "symbolise la \"tempête\" qui gronde",
+                "dans la salle d'audience.",
                 "<NEW_BOX>",
-                "<SOUND:0>Enfin, la basse martelée que",
-                "l'on peut entrendre plus tard dans",
-                "le morceau fait référence à un autre",
-                "thème d'un jeu avec un avocat...<SQUARE>"
+                "<SOUND:0>Enfin, la basse martelée que l'on peut",
+                "entrendre plus tard dans le morceau",
+                "fait référence à un autre thème d'un",
+                "jeu avec un avocat...<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -103703,13 +103720,13 @@
                 "<SOUND:0>Voici le tout premier morceau original",
                 "écrit pour le jeu, en 2022.",
                 "<NEW_BOX>",
-                "<SOUND:0>C'est un réarrangement du thème",
-                "de la <R>Maison<W>.<PAUSE:3> À l'origine, il devait servir",
+                "<SOUND:0>C'est un réarrangement du thème de",
+                "la <R>Maison<W>.<PAUSE:3> À l'origine, il devait servir",
                 "de thème pour la salled des accusés,",
                 "mais on a trouvé qu'il collait mieux ici.",
                 "<NEW_BOX>",
-                "<SOUND:0>Contrairement au reste de la BO,",
-                "la première version n'utilisait pas encore",
+                "<SOUND:0>Contrairement au reste de la BO, la",
+                "première version n'utilisait pas encore",
                 "les instruments du jeu, car je ne les",
                 "avais pas encore installés !<SQUARE>"
               ],
@@ -103725,16 +103742,16 @@
                 "<NEW_BOX>",
                 "<SOUND:0>J'ai composé ce morceau en une",
                 "après-midi.<PAUSE:3> Le premier jet était si bon",
-                "que je n'ai quasiment rien changé <EMDASH> la",
-                "version finale est presque identique.",
+                "que je n'ai quasiment rien changé <EMDASH>",
+                "la version finale est presque identique.",
                 "<NEW_BOX>",
                 "<SOUND:0>Je voulais m'inspirer du thème des",
                 "<R>Bois Perdus<W>, pour symboliser les",
                 "détours logiques que Link doit traverser",
                 "avant de trouver la voie à suivre...",
                 "<NEW_BOX>",
-                "<SOUND:0>...mais j'ai eu du mal à adapter ce thème",
-                "au style voulu.",
+                "<SOUND:0>...mais j'ai eu du mal à adapter ce",
+                "thème au style voulu.",
                 "<NEW_BOX>",
                 "<SOUND:0>Cependant, j'ai réussi à avoir un bon",
                 "résultat en jouant le début du thème",
@@ -103745,21 +103762,21 @@
                 "vous pouvez entendre le thème des",
                 "Bois Perdus.",
                 "<NEW_BOX>",
-                "<SOUND:0>C'est également la première musique à",
-                "avoir reçu une variante \"Thinking\"",
+                "<SOUND:0>C'est également la première musique",
+                "à avoir reçu une variante \"Thinking\"",
                 "(Réflexion).",
                 "<NEW_BOX>",
                 "<SOUND:0>J'ai proposé d'ajouter ces versions",
-                "\"Thinking\" <EMDASH> où le volume de certains",
-                "Instruments change quand le",
+                "\"Thinking\" <EMDASH> où le volume de",
+                "certains Instruments change quand le",
                 "Dossier de l'affaire est ouvert.<PAUSE:3> ",
                 "<NEW_BOX>",
                 "<SOUND:0>Au début, les autres développeurs",
                 "n'étaient pas tous convaincus...",
                 "<NEW_BOX>",
                 "<SOUND:0>...mais après une démo en jeu avec",
-                "ce morceau comme exemple,",
-                "ils ont tous accroché !<SQUARE>"
+                "ce morceau comme exemple, ils ont",
+                "tous accroché !<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -103771,18 +103788,20 @@
                 "<LC><W>(Objection !)",
                 "<LC><C>(Meatball132)",
                 "<NEW_BOX>",
-                "<SOUND:0>Le morceau devenu le thème de Poursuite",
-                "était à l'origine le thème d'Objection!,<PAUSE:3> ",
-                "mais il était trop énergique.",
+                "<SOUND:0>Le morceau devenu le thème de",
+                "Poursuite était à l'origine le thème",
+                "d'Objection!,<PAUSE:3> mais il était trop",
+                "énergique.",
                 "<NEW_BOX>",
-                "<SOUND:0>L'objectif ici était donc de créer quelque",
-                "chose de triomphant, mais pas TROP",
-                "excitant, et je pense avoir réussi.",
+                "<SOUND:0>L'objectif ici était donc de créer",
+                "quelque chose de triomphant, mais",
+                "pas TROP excitant, et je pense avoir",
+                "réussi.",
                 "<NEW_BOX>",
-                "<SOUND:0>Le rythme joué par les cordes est assez",
-                "proche de celui d'une musique que j'ai",
-                "prise en référence, issue d'un autre",
-                "jeu avec un avocat.",
+                "<SOUND:0>Le rythme joué par les cordes est",
+                "assez proche de celui d'une musique",
+                "que j'ai prise en référence, issue",
+                "d'un autre jeu avec un avocat.",
                 "<NEW_BOX>",
                 "<SOUND:0>La deuxième moitié de ce thème est",
                 "directement basée sur la contre-mélodie",
@@ -103812,21 +103831,22 @@
                 "du jeu avec un avocat original, adapté",
                 "avec des instruments Zelda (mais pas que).",
                 "<NEW_BOX>",
-                "<SOUND:0>Le résultat n'était pas terrible, et on savait",
-                "qu'il valait mieux faire des arrangements",
-                "originaux de toute façon.",
+                "<SOUND:0>Le résultat n'était pas terrible, et on",
+                "savait qu'il valait mieux faire des",
+                "arrangements originaux de toute",
+                "façon.",
                 "<NEW_BOX>",
                 "<SOUND:0>Donc ce thème est la première chose",
                 "que j'ai composée après qu'on",
                 "ait pris cette décision.",
                 "<NEW_BOX>",
-                "<SOUND:0>L'idée de cette BO était de faire quelque",
-                "chose de principalement Zelda, avec",
-                "quelques clins d'œil aux jeux",
-                "Ace Attorney ici et là.",
+                "<SOUND:0>L'idée de cette BO était de faire",
+                "quelque chose de principalement",
+                "Zelda, avec quelques clins d'œil aux",
+                "jeux Ace Attorney ici et là.",
                 "<NEW_BOX>",
-                "<SOUND:0>Ce thème en est probablement l'exemple",
-                "le plus évident et flagrant.<SQUARE>"
+                "<SOUND:0>Ce thème en est probablement",
+                "l'exemple le plus évident et flagrant.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -103870,10 +103890,10 @@
                 "<LC><W>(Le procès continue)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>\"La Séance est Ouverte\" était la première",
-                "musique originale que j'ai composée pour",
-                "le jeu. Avec le temps, j'ai commencé à",
-                "moins l'apprécier...",
+                "<SOUND:0>\"La Séance est Ouverte\" était la",
+                "première musique originale que j'ai",
+                "composée pour le jeu. Avec le temps,",
+                "j'ai commencé à moins l'apprécier...",
                 "<NEW_BOX>",
                 "<SOUND:0>...mais les autres développeurs ont",
                 "l'air de toujours bien l'aimer, donc je",
@@ -103884,8 +103904,8 @@
                 "pouvais faire mieux.<PAUSE:3> ",
                 "Donc j'ai composé ce thème.",
                 "<NEW_BOX>",
-                "<SOUND:0>Comme \"La Séance est Ouverte\", c'est un",
-                "remix de <R>Maison<W>.",
+                "<SOUND:0>Comme \"La Séance est Ouverte\",",
+                "c'est un remix de <R>Maison<W>.",
                 "<NEW_BOX>",
                 "<SOUND:0>C'est difficile à entendre, mais la",
                 "mélodie commence bien par les",
@@ -103988,9 +104008,9 @@
                 "avant de choisir celui du Korg Triton.",
                 "<NEW_BOX>",
                 "<SOUND:0>Le sifflement capte l'air insouciant",
-                "d'Ingo à ce moment du jeu",
-                "(peut-être même TROP insouciant...),",
-                "et la cloche de vache rappelle la ferme.<SQUARE>"
+                "d'Ingo à ce moment du jeu (peut-être",
+                "même TROP insouciant...), et la",
+                "cloche de vache rappelle la ferme.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -104041,16 +104061,18 @@
                 "a été d'ajouter des accords de piano",
                 "très dissonants sous la version \"normale\".",
                 "<NEW_BOX>",
-                "<SOUND:0>Ça nous aurait permis de faire un fondu",
-                "dynamique entre les deux versions...",
+                "<SOUND:0>Ça nous aurait permis de faire un",
+                "fondu dynamique entre les deux",
+                "versions...",
                 "<NEW_BOX>",
                 "<SOUND:0>Mais ça sonnait plus \"cinglé\" que",
                 "\"méchant\", et le fondu dynamique",
                 "n'était pas nécessaire.",
                 "<NEW_BOX>",
                 "<SOUND:0>Du coup, j'ai opté pour une simple",
-                "version en mineur, avec un tempo plus",
-                "lent et une instrumentation différente.",
+                "version en mineur, avec un tempo",
+                "plus lent et une instrumentation",
+                "différente.",
                 "<NEW_BOX>",
                 "<SOUND:0>Le sifflement est remplacé par une",
                 "clarinette, et la basse devient un tuba.",
@@ -104060,11 +104082,13 @@
                 "côté plus sombre au fond de lui.",
                 "<NEW_BOX>",
                 "<SOUND:0>Cette musique a d'abord été rejetée",
-                "car elle ne sonnait pas assez \"méchante\"...",
+                "car elle ne sonnait pas assez",
+                "\"méchante\"...",
                 "<NEW_BOX>",
                 "<SOUND:0>...mais après avoir écrit Ingo, le",
-                "Frénétique, on a décidé de la remettre",
-                "comme version intermédiaire.<SQUARE>"
+                "Frénétique, on a décidé de la",
+                "remettre comme version",
+                "intermédiaire.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -104088,15 +104112,15 @@
                 "<NEW_BOX>",
                 "<SOUND:0>Le piano en arrière-plan qui part",
                 "dans tous les sens s'inspire de la",
-                "musique d'Hirokazu Ando",
-                "dans les jeux Kirby.",
+                "musique d'Hirokazu Ando dans les",
+                "jeux Kirby.",
                 "<NEW_BOX>",
                 "<SOUND:0>J'ai littéralement cliqué sur des notes",
                 "au hasard à la main jusqu'à ce",
                 "que ça sonne bien.",
                 "<NEW_BOX>",
-                "<SOUND:0>L'échantillon de piano d'OoT",
-                "était bien trop doux pour cette partie,",
+                "<SOUND:0>L'échantillon de piano d'OoT était",
+                "bien trop doux pour cette partie,",
                 "donc j'ai fini par importer un piano",
                 "personnalisé plus éclatant.",
                 "<NEW_BOX>",
@@ -104105,9 +104129,10 @@
                 "dure plus longtemps, mais aucun bon",
                 "instrument ne collait à la mélodie B.",
                 "<NEW_BOX>",
-                "<SOUND:0>...Alors j'ai aussi importé un saxophone.<PAUSE:3> ",
-                "Ces deux instruments personnalisés nous",
-                "ont bien servi pour le reste de la BO.<SQUARE><SQUARE>"
+                "<SOUND:0>...Alors j'ai aussi importé un",
+                "saxophone.<PAUSE:3> Ces deux instruments",
+                "personnalisés nous ont bien servi",
+                "pour le reste de la BO.<SQUARE><SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -104128,21 +104153,22 @@
                 "l'instrument Fantasia de Moderato et",
                 "la trompette d'Allegro.",
                 "<NEW_BOX>",
-                "<SOUND:0>Contrairement aux thèmes de",
-                "Contre-interrogatoire, j'ai décidé",
-                "d'ignorer de ce que ça donne à l'envers,",
-                "et de rendre ça aussi épique que possible.",
+                "<SOUND:0>Contrairement aux thèmes de Contre-",
+                "interrogatoire, j'ai décidé d'ignorer",
+                "de ce que ça donne à l'envers, et de",
+                "rendre ça aussi épique que possible.",
                 "<NEW_BOX>",
                 "<SOUND:0>Au final, c'est cette piste qui a été la",
                 "plus amusante à composer !",
                 "<NEW_BOX>",
                 "<SOUND:0>J'ai pu réutiliser une ligne mélodique",
-                "coupée d'Allegro parce qu'elle",
-                "était trop énergique.",
+                "coupée d'Allegro parce qu'elle était",
+                "trop énergique.",
                 "<NEW_BOX>",
-                "<SOUND:0>Avec une variation d'une contre-mélodie",
-                "des Contre-Interrogatoires, ça a formé",
-                "la mélodie de guitare vers le milieu.",
+                "<SOUND:0>Avec une variation d'une contre-",
+                "mélodie des Contre-Interrogatoires,",
+                "ça a formé la mélodie de guitare",
+                "vers le milieu.",
                 "<NEW_BOX>",
                 "<SOUND:0>Contrairement aux autres pistes du jeu,",
                 "les percussions ne sont pas réduites",
@@ -104176,29 +104202,32 @@
                 "s'est transformé en orgue de Ganon.",
                 "<NEW_BOX>",
                 "<SOUND:0>C'est volontairement caricatural, tout",
-                "comme la version d'Ingo qu'on montre",
-                "dans ce jeu.",
+                "comme la version d'Ingo qu'on",
+                "montre dans ce jeu.",
                 "<NEW_BOX>",
-                "<SOUND:0>Au départ, je voulais appeler ce morceau",
-                "\"Le meurtrier, Ingo\".<PAUSE:3> (Pour rappel : Le titre",
-                "final est \"Ingo, le frénétique\".)",
+                "<SOUND:0>Au départ, je voulais appeler ce",
+                "morceau \"Le meurtrier, Ingo\".<PAUSE:3> (Pour",
+                "rappel : Le titre final est \"Ingo, le",
+                "frénétique\".)",
                 "<NEW_BOX>",
                 "<SOUND:0>Les quatre thèmes d'Ingo devaient",
                 "utiliser des noms reflétant son rôle",
                 "changeant : \"Le fermier\", \"Le suspect\",",
                 "\"Le meurtrier\" et \"Le bouffon\".",
                 "<NEW_BOX>",
-                "<SOUND:0>(Son cinquième thème, \"Ingo, le vaincu\",",
-                "a été composé beaucoup plus tard,",
-                "bien après l'abandon de ce schéma.)",
+                "<SOUND:0>(Son cinquième thème, \"Ingo, le",
+                "vaincu\", a été composé beaucoup",
+                "plus tard, bien après l'abandon de",
+                "ce schéma.)",
                 "<NEW_BOX>",
                 "<SOUND:0>Bref, on a changé le titre, parce que",
                 "\"Le meurtrier, Ingo\" aurait été un",
                 "spoiler bien trop évident dans la",
                 "liste des musiques du jeu.",
                 "<NEW_BOX>",
-                "<SOUND:0>Et franchement, c'était la bonne décision.<PAUSE:3> ",
-                "Autant éviter de ruiner une partie pour ça.<SQUARE>"
+                "<SOUND:0>Et franchement, c'était la bonne",
+                "décision.<PAUSE:3> Autant éviter de ruiner",
+                "une partie pour ça.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -104211,8 +104240,8 @@
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
                 "<SOUND:0><SOUND:0>Les trois premiers thèmes d'Ingo",
-                "montraient sa descente vers le rôle de",
-                "méchant.",
+                "montraient sa descente vers le rôle",
+                "de méchant.",
                 "<NEW_BOX>Le quatrième illustre le moment où il",
                 "comprend que tout reposait sur un",
                 "malentendu.",
@@ -104226,8 +104255,8 @@
                 "mélancolique), et en mode locrien",
                 "(le plus sombre des modes).",
                 "<NEW_BOX>",
-                "<SOUND:0>Avec seulement trois instruments, c'est",
-                "la musique la plus sobre du jeu.",
+                "<SOUND:0>Avec seulement trois instruments,",
+                "c'est la musique la plus sobre du jeu.",
                 "<NEW_BOX>",
                 "<SOUND:0>Au départ, je voulais que la harpe",
                 "apparaisse progressivement, au fil",
@@ -104255,8 +104284,8 @@
                 "<SOUND:0>À votre avis, cette musique est un",
                 "arrangement de quoi ?",
                 "<NEW_BOX>",
-                "<SOUND:0>...Vous avez dit <R>\"Thème principal - Plaine",
-                "d'Hyrule\"<W> ?<PAUSE:3> perdu !",
+                "<SOUND:0>...Vous avez dit <R>\"Thème principal -",
+                "Plaine d'Hyrule\"<W> ?<PAUSE:3> perdu !",
                 "<NEW_BOX>",
                 "<SOUND:0>Il s'agit en fait de <R>\"Générique de fin 2\"<W>",
                 "de <R>Ocarina of Time 3D<W>.",
@@ -104265,8 +104294,8 @@
                 "<NEW_BOX>",
                 "<SOUND:0>...",
                 "<NEW_BOX>",
-                "<SOUND:0>Oui, je suis sérieux.<PAUSE:2> Ce ne sont pas les",
-                "mêmes morceaux.<PAUSE:3> ",
+                "<SOUND:0>Oui, je suis sérieux.<PAUSE:2> Ce ne sont pas",
+                "les mêmes morceaux.<PAUSE:3> ",
                 "<NEW_BOX>",
                 "<SOUND:0>Mahito Yokota a composé le thème des",
                 "crédits dans la version <R>3D<W>, et son style",
@@ -104278,12 +104307,13 @@
                 "lignes de basse à la Yokota.",
                 "<NEW_BOX>",
                 "<SOUND:0>Mais dans ce morceau, certaines",
-                "sections sont des transcriptions directes",
-                "de son arrangement des crédits.",
+                "sections sont des transcriptions",
+                "directes de son arrangement des",
+                "crédits.",
                 "<NEW_BOX>",
-                "<SOUND:0>Le reste, en revanche, n'en est qu'une",
-                "adaptation libre, donc mon propre style",
-                "transparaît aussi un peu.",
+                "<SOUND:0>Le reste, en revanche, n'en est",
+                "qu'une adaptation libre, donc mon",
+                "propre style transparaît aussi un peu.",
                 "<NEW_BOX>",
                 "<SOUND:0>Il y a aussi une section tirée du",
                 "thème principal par RoadrunnerWMC.",
@@ -104302,21 +104332,21 @@
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
                 "<SOUND:0>C'est l'avant-dernier morceau que j'ai",
-                "composé pour le jeu.<PAUSE:3> (Le dernier, c'était",
-                "\"Ingo, le Vaincu\".)",
+                "composé pour le jeu.<PAUSE:3> (Le dernier,",
+                "c'était \"Ingo, le Vaincu\".)",
                 "<NEW_BOX>",
                 "<SOUND:0>Il FALLAIT qu'on le fasse à la fin.<PAUSE:3> ",
                 "Je voulais qu'il réarrange plein d'autres",
-                "morceaux de la bande-son, donc il fallait",
-                "composer les autres avant.",
+                "morceaux de la bande-son, donc il",
+                "fallait composer les autres avant.",
                 "<NEW_BOX>",
                 "<SOUND:0>Avec plus de 3 min 30, 150 pistes dans",
                 "le projet et 26 instruments, c'est de loin",
                 "le morceau le plus massif du jeu.",
                 "<NEW_BOX>",
-                "<SOUND:0>En fait, il est tellement gros qu'il ne tient",
-                "même pas dans la RAM allouée aux",
-                "musiques par <R>Ocarina of Time<W>.<PAUSE:3> ",
+                "<SOUND:0>En fait, il est tellement gros qu'il ne",
+                "tient même pas dans la RAM allouée",
+                "aux musiques par <R>Ocarina of Time<W>.<PAUSE:3> ",
                 "On a dû augmenter cet espace.",
                 "<NEW_BOX>",
                 "<SOUND:0>(Fun fact : le thème de crédits d'OoT",
@@ -104329,8 +104359,8 @@
                 "composition...",
                 "<NEW_BOX>",
                 "<SOUND:0>Par exemple, même s'il est vrai que",
-                "Contre-interrogatoire - Allegro est un peu",
-                "plus rapide que Moderato,",
+                "Contre-interrogatoire - Allegro est un",
+                "peu plus rapide que Moderato,",
                 "Confrontation - Presto l'est plus encore...",
                 "<NEW_BOX>",
                 "<SOUND:0>...mais ici, elles s'enchaînent toutes dans",
@@ -104354,17 +104384,18 @@
                 "<SOUND:0>Cette musique est une blague.",
                 "<NEW_BOX>",
                 "<SOUND:0>Un jour, je me suis dit que ce serait",
-                "drôle de faire une reprise du <R>Thème des",
-                "Plaines<W> de <R>Super Mario Bros. Wonder<W>",
-                "avec tout ces instruments...",
+                "drôle de faire une reprise du <R>Thème",
+                "des Plaines<W> de <R>Super Mario Bros.",
+                "Wonder<W> avec tout ces instruments...",
                 "<NEW_BOX>",
                 "<SOUND:0>...plus précisément, avec l'ocarina en",
                 "tant que sifflet, et la voix de Malon en",
                 "tant que chant.",
                 "<NEW_BOX>",
                 "<SOUND:0>Je l'ai faite en un ou deux jours sans",
-                "en parler à personne, puis j'ai remplacé",
-                "le thème titre du jeu avec, pour la blague.",
+                "en parler à personne, puis j'ai",
+                "remplacé le thème titre du jeu avec,",
+                "pour la blague.",
                 "<NEW_BOX>",
                 "<SOUND:0>Je comptais la retirer et la supprimer",
                 "après que les autres l'aient entendue...",
@@ -104407,13 +104438,13 @@
                 "surtout que le joueur parlera bien plus",
                 "longtemps au Hibou ici que dans LA.",
                 "<NEW_BOX>",
-                "<SOUND:0>Je l'ai donc encore rallongé, avec une",
-                "variante de ces accords, puis une",
-                "nouvelle section qui dévie pas mal,",
-                "pour que ce soit plus unique.",
+                "<SOUND:0>Je l'ai donc encore rallongé, avec",
+                "une variante de ces accords, puis",
+                "une nouvelle section qui dévie pas",
+                "mal, pour que ce soit plus unique.",
                 "<NEW_BOX>",
-                "<SOUND:0>À la fin, on trouve une citation claire du",
-                "<R>thème de Kaepora Gaebora<W> d'OoT.",
+                "<SOUND:0>À la fin, on trouve une citation claire",
+                "du <R>thème de Kaepora Gaebora<W> d'OoT.",
                 "<NEW_BOX>",
                 "Pas évident de caser une mélodie en",
                 "4/4 dans du 3/4 sans que ça sonne",
@@ -104440,10 +104471,10 @@
                 "<SOUND:0>Mais à un instant donné, la plupart",
                 "des pistes ne jouent rien.",
                 "<NEW_BOX>",
-                "<SOUND:0>Pour caser tout ça, j'ai conçu un nouveau",
-                "système d'importation qui permet de mixer",
-                "différentes parties entre les 16 pistes,",
-                "grâce à un grand tableau.",
+                "<SOUND:0>Pour caser tout ça, j'ai conçu un",
+                "nouveau système d'importation qui",
+                "permet de mixer différentes parties entre",
+                "les 16 pistes, grâce à un grand tableau.",
                 "<NEW_BOX>",
                 "<SOUND:0>Ce système a été très utile pour plein",
                 "d'autres morceaux complexes du jeu,",
@@ -104460,10 +104491,10 @@
                 "en plus d'instruments au fil du temps <EMDASH>",
                 "a posé des problèmes techniques ici.",
                 "<NEW_BOX>",
-                "<SOUND:0>Je voulais qu'elle se joue par-dessus les",
-                "autres instruments, mais je ne m'étais pas",
-                "rendu compte à quel point elle frôlait la",
-                "limite de polyphonie du jeu.",
+                "<SOUND:0>Je voulais qu'elle se joue par-dessus",
+                "les autres instruments, mais je ne",
+                "m'étais pas rendu compte à quel point",
+                "elle frôlait la limite de polyphonie du jeu.",
                 "<NEW_BOX>",
                 "<SOUND:0>(La limite de polyphonie étant le",
                 "nombre de sons que le jeu peut",
@@ -104490,10 +104521,10 @@
                 "semblait trop sombre pour le début",
                 "d'un procès...",
                 "<NEW_BOX>",
-                "<SOUND:0>...donc au final, on a décidé de garder",
-                "les deux, et d'utiliser celui-ci pour la",
-                "deuxième moitié, quand le procès",
-                "devient plus sérieux.<SQUARE>"
+                "<SOUND:0>...donc au final, on a décidé de",
+                "garder les deux, et d'utiliser celui-ci",
+                "pour la deuxième moitié, quand le",
+                "procès devient plus sérieux.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -104503,16 +104534,16 @@
               "MessageTextLines": [
                 "<SOUND:0>Au passage, à cause de tous les effets",
                 "sonores dans cette scène, j'ai tapé",
-                "direct dans la limite de polyphonie du jeu.",
-                "<PAUSE:3>Les notes sautaient sans arrêt !",
+                "direct dans la limite de polyphonie du",
+                "jeu.<PAUSE:3> Les notes sautaient sans arrêt !",
                 "<NEW_BOX>",
                 "<SOUND:0>(La limite de polyphonie étant le",
                 "nombre de sons que le jeu peut",
                 "jouer simultanément.)",
                 "<NEW_BOX>",
-                "<SOUND:0>On a essayé d'augmenter la limite,",
-                "mais le jeu s'est mis à ramer sévère,",
-                "donc j'ai dû faire des changements pour",
+                "<SOUND:0>On a essayé d'augmenter la limite, mais",
+                "le jeu s'est mis à ramer sévère, donc",
+                "j'ai dû faire des changements pour",
                 "réduire la polyphonie de la musique.",
                 "<NEW_BOX>",
                 "<SOUND:0>Notamment, le piano utilise le même",
@@ -104533,8 +104564,9 @@
             {
               "Name": "About_Rebuttal_b",
               "MessageTextLines": [
-                "<SOUND:0>Par ailleurs, je trouvais que le milieu de la",
-                "version Réflexion était un peu répétitif...",
+                "<SOUND:0>Par ailleurs, je trouvais que le milieu",
+                "de la version Réflexion était un peu",
+                "répétitif...",
                 "<NEW_BOX>",
                 "<SOUND:0>donc j'ai ajouté un petit passage de",
                 "piano en plus qui se joue uniquement",
@@ -104542,21 +104574,22 @@
                 "<NEW_BOX>",
                 "<SOUND:0>... mais ça nécessitait de consacrer une",
                 "piste entière juste pour ça.<PAUSE:3> J'ai donc",
-                "dû faire tenir tout le reste de la chanson en",
-                "seulement 15 pistes, au lieu de 16 !",
+                "dû faire tenir tout le reste de la chanson",
+                "en seulement 15 pistes, au lieu de 16 !",
                 "<NEW_BOX>",
-                "<SOUND:0>Un autre détail technique intéressant est",
-                "qu'en jeu, cette chanson se met en",
+                "<SOUND:0>Un autre détail technique intéressant",
+                "est qu'en jeu, cette chanson se met en",
                 "pause à la fin de l'intro en ralentissant",
                 "considérablement son tempo.",
                 "<NEW_BOX>",
                 "<SOUND:0>Lorsque le projecteur s'allume, le jeu",
-                "réinitialise son tempo à la bonne vitesse.",
+                "réinitialise son tempo à la bonne",
+                "vitesse.",
                 "<NEW_BOX>",
-                "<SOUND:0>On a fait ça pour que la mélodie démarre",
-                "au bon moment, même si le jeu est",
-                "traduit ou si la zone de texte du titre",
-                "de la scène change....",
+                "<SOUND:0>On a fait ça pour que la mélodie",
+                "démarre au bon moment, même si le",
+                "jeu est traduit ou si la zone de texte",
+                "du titre de la scène change....",
                 "<NEW_BOX>",
                 "<SOUND:0><SPEED:102>Attends<PAUSE:1>.<PAUSE:2>.<PAUSE:3>.<PAUSE:5><SPEED:103> mais le jeu<PAUSE:2><SOUND:WHAP> A<PAUSE:4> été traduit !<PAUSE:5> ",
                 "cool, cette anecdote a eu un",
@@ -104566,10 +104599,10 @@
                 "<G>Ronano<W><PAUSE:3>, <B>Loloiiiiiou<W><PAUSE:3> et <C>Spacewiki<W>",
                 "de l'équipe de traduction FR !",
                 "<NEW_BOX>",
-                "<SOUND:0>Bon, on en était où<PAUSE:1>.<PAUSE:2>.<PAUSE:3>.<PAUSE:5> Ah, oui !<PAUSE:5> Donc, on",
-                "s'est dit que un lag de l'émulateur ou de",
-                "la console pourrait également affecter",
-                "le timing.",
+                "<SOUND:0>Bon, on en était où<PAUSE:1>.<PAUSE:2>.<PAUSE:3>.<PAUSE:5> Ah, oui !<PAUSE:5> Donc,",
+                "on s'est dit que un lag de l'émulateur",
+                "ou de la console pourrait également",
+                "affecter le timing.",
                 "<NEW_BOX>",
                 "<PERSISTENT>"
               ],
@@ -104580,21 +104613,22 @@
               "Name": "About_Rebuttal_c",
               "MessageTextLines": [
                 "<SOUND:0>Mais dans cette scène au Casino,",
-                "on ne veut pas de pause.<PAUSE:3> Donc on a rendu",
-                "ce comportement réglable via l'interface",
-                "SeqIO du jeu.",
+                "on ne veut pas de pause.<PAUSE:3> Donc on a",
+                "rendu ce comportement réglable via",
+                "l'interface SeqIO du jeu.",
                 "<NEW_BOX>",
-                "<SOUND:0>Si une certaine variable SeqIO",
-                "est mise à zéro, le changement",
-                "de tempo est ignoré.",
+                "<SOUND:0>Si une certaine variable SeqIO est",
+                "mise à zéro, le changement de tempo",
+                "est ignoré.",
                 "<NEW_BOX>",
                 "<SOUND:0>On a aussi utilisé une autre variable",
-                "SeqIO pour activer le battement de basse",
-                "de l'intro uniquement dans ce contexte.",
+                "SeqIO pour activer le battement de",
+                "basse de l'intro uniquement dans ce",
+                "contexte.",
                 "<NEW_BOX>",
                 "<SOUND:0>Globalement, c'est l'une des pistes les",
-                "plus complexes du jeu, à la fois sur le plan",
-                "musical et technique !<SQUARE>"
+                "plus complexes du jeu, à la fois sur le",
+                "plan musical et technique !<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -104634,9 +104668,9 @@
             {
               "Name": "About_Credits_b",
               "MessageTextLines": [
-                "<SOUND:0>J'ai dû changer pas mal le rythme pour",
-                "garder la même énergie, malgré le tempo",
-                "plus lent qu'on voulait.",
+                "<SOUND:0>J'ai dû changer pas mal le rythme",
+                "pour garder la même énergie, malgré",
+                "le tempo plus lent qu'on voulait.",
                 "<NEW_BOX>",
                 "<SOUND:0>Mais ce dont je préfère parler, c'est",
                 "comment notre musique de crédits",
@@ -104645,19 +104679,20 @@
                 "<NEW_BOX>",
                 "<SOUND:0>À part leur lancement simultané,",
                 "les visuels et la musique des crédits",
-                "d'OoT ne sont pas du tout synchronisés.",
+                "d'OoT ne sont pas du tout",
+                "synchronisés.",
                 "<NEW_BOX>",
                 "<SOUND:0>En plus, sur une vraie N64, les visuels",
-                "laguent énormément à cause du nombre",
-                "de personnages affichés.",
+                "laguent énormément à cause du",
+                "nombre de personnages affichés.",
                 "<NEW_BOX>",
-                "<SOUND:0>Les développeurs le savaient bien, donc",
-                "ils ont calé le timing en comptant sur ce",
-                "lag attendu...",
+                "<SOUND:0>Les développeurs le savaient bien,",
+                "donc ils ont calé le timing en comptant",
+                "sur ce lag attendu...",
                 "<NEW_BOX>",
-                "<SOUND:0>...sauf que <R>simuler<W> ce lag correctement,",
-                "c'est trop lent et coûteux, même sur nos",
-                "appareils modernes,<PAUSE:2> donc aucun",
+                "<SOUND:0>...sauf que <R>simuler<W> ce lagcorrectement,",
+                "c'est trop lent et coûteux, même sur",
+                "nos appareils modernes,<PAUSE:2> donc aucun",
                 "émulateur ne le fait.",
                 "<NEW_BOX>",
                 "<SOUND:0>Résultat : quand on émule OoT, la fin",
@@ -107191,9 +107226,10 @@
                 "<SPEED:101>Et deux jeux sur le <R>changement",
                 "climatique<W> et le <R>voyage dans le temps<W>...<SPEED:102>",
                 "<NEW_BOX>",
-                "Il paraît qu'on peut débloquer des extras",
-                "en les connectant depuis l'<SOUND:HINT><R>Écran Titre<W>",
-                "avec un <R>certain accessoire<W>."
+                "Il paraît qu'on peut débloquer des",
+                "extras en les connectant depuis",
+                "l'<SOUND:HINT><R>Écran Titre<W> avec un <R>certain",
+                "accessoire<W>."
               ],
               "Type": 0,
               "Position": 0
@@ -107214,9 +107250,9 @@
               "Name": "msg_hint_end_wii",
               "MessageTextLines": [
                 "<SOUND:NA_SE_VO_TA_SURPRISE>... M'enfin, ça serait le cas, mais avec",
-                "toutes ces histoires de <R>Console Virtuelle<W>,",
-                "j'parie qu't'as déjà tous ces secrets",
-                "débloqués par défaut !",
+                "toutes ces histoires de <R>Console",
+                "Virtuelle<W>, j'parie qu't'as déjà tous ces",
+                "secrets débloqués par défaut !",
                 "<NEW_BOX>",
                 "Ah ah ah !",
                 "<PAUSE:5>Allez, à la prochaine !<SQUARE>"
