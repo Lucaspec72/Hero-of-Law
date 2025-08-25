@@ -25967,7 +25967,7 @@
             {
               "Name": "IMPA6",
               "MessageTextLines": [
-                "<DI><G>Elle semble être une fille si intelligente.<PAUSE:8> ",
+                "<DI><G>Elle semble être une fille si intelligente.",
                 "C'est bien malheureux.<PERSISTENT>"
               ],
               "Type": 0,
@@ -34833,7 +34833,7 @@
                 "<DI><G>Mademoiselle Malon et son père",
                 "étaient les seuls sur les lieux du",
                 "crime, alors ce ne peut être qu'elle,",
-                "la coupable !<SQUARE><PERSISTENT>"
+                "la coupable !<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -37460,8 +37460,8 @@
             {
               "Name": "1_JUDGE50",
               "MessageTextLines": [
-                "Hmm... Je pense être presque prêt",
-                "à prononcer mon <SOUND:HINT>verdict..."
+                "Hmm... Je pense être presque prêt à",
+                "prononcer mon <SOUND:HINT>verdict..."
               ],
               "Type": 0,
               "Position": 0
@@ -37469,9 +37469,9 @@
             {
               "Name": "1_LINK40",
               "MessageTextLines": [
-                "<SOUND:WHAP>Mais, Votre Honneur !<PAUSE:10> Rien ne",
-                "prouve formellement que Malon ait",
-                "commis ce crime !"
+                "<SOUND:WHAP>Mais, Votre Honneur !<PAUSE:10> Rien ne prouve",
+                "formellement que Malon ait commis",
+                "ce crime !"
               ],
               "Type": 0,
               "Position": 0
@@ -92965,7 +92965,7 @@
             {
               "Name": "OWL2",
               "MessageTextLines": [
-                "<G><DI>Tant que le Poisson-Rêve dort,<PAUSE:3> l'île est",
+                "<G><DI>Tant que le Poisson-Rêve dort, l'île est",
                 "impossible à fuir... comme un horrible",
                 "cauchemar.<PERSISTENT>"
               ],
@@ -114714,6 +114714,7 @@
       "Name": "Cases"
     }
   ],
+  "ExtScriptHeaderPath": "",
   "SpaceFromFont": true,
   "CHeaderLines": [
     "#include <z64hdr/oot_u10/z64hdr.h>",
