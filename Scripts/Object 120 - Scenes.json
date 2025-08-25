@@ -41245,8 +41245,7 @@
             {
               "Name": "JUDGE60",
               "MessageTextLines": [
-                "Ah, voilà un <SOUND:HINT>excellent argument,",
-                "Défense !"
+                "Ah, voilà qui est <SOUND:HINT>très juste, Défense !"
               ],
               "Type": 0,
               "Position": 0
@@ -93983,7 +93982,7 @@
                 "Le jeune épéiste ici présent doit ainsi",
                 "réunir les huit<SOUND:HINT> <R>Instruments des Sirènes<W>,",
                 "et jouer la ballade qui réveillera le",
-                "Grand Être..."
+                "Grand Être."
               ],
               "Type": 0,
               "Position": 0
