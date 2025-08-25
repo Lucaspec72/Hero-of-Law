@@ -20845,8 +20845,8 @@
             {
               "Name": "LINK51",
               "MessageTextLines": [
-                "<SOUND:0><C>(Un barbare grossier venu de",
-                "la <R>Vallée Gerudo<C>...)",
+                "<SOUND:0><C>(Un barbare grossier venu des",
+                "<R>Contrées Gerudo<C>...)",
                 "<NEW_BOX>",
                 "<SOUND:0><C>(Il paraît qu'il est fier de son palmarès",
                 "presque sans échecs qu'il entretient",
@@ -114712,7 +114712,6 @@
       "Name": "Cases"
     }
   ],
-  "ExtScriptHeaderPath": "",
   "SpaceFromFont": true,
   "CHeaderLines": [
     "#include <z64hdr/oot_u10/z64hdr.h>",
