@@ -62756,9 +62756,9 @@
               "Name": "Notice",
               "MessageTextLines": [
                 "<DI><LC><R>Ce jeu sauvegarde automatiquement",
-                "<Shift:45>après chaque scène.<W>",
-                "<LC>N'éteignez pas la console durant les",
-                "<LC>transitions entre les scènes.<FADE:160>"
+                "<LC>après chaque scène.<W>",
+                "<LC>N'éteignez pas votre console quand",
+                "<LC>l'icône de sauvegarde s'affiche.<FADE:160>"
               ],
               "Type": 0,
               "Position": 2
