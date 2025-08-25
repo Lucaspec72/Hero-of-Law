@@ -712,7 +712,7 @@
                 "<Y>Scie<W>",
                 "Arme du crime présumée.",
                 "Trouvée dans les mains de Malon.",
-                "Elle ne comporte aucune trace ",
+                "Elle ne comporte aucune trace",
                 "de sang.<PERSISTENT>"
               ],
               "Type": 1,
@@ -722,8 +722,8 @@
               "Name": "RanchInventory",
               "MessageTextLines": [
                 "<Y>Inventaire du ranch<W>",
-                "Une liste des équipements du ",
-                "ranch. Appuyez sur <B><A Button><W> pour ",
+                "Une liste des équipements du",
+                "ranch. Appuyez sur <B><A Button><W> pour",
                 "plus de détails.<PERSISTENT>"
               ],
               "Type": 1,
@@ -756,7 +756,7 @@
               "MessageTextLines": [
                 "<Y>Tissu ensanglanté<W>",
                 "Trouvé dans les mains de Malon sur",
-                "la scène du crime. Elle aurait ",
+                "la scène du crime. Elle aurait",
                 "soi-disant essuyé la scie avec... ?<PERSISTENT><PERSISTENT>"
               ],
               "Type": 1,
@@ -875,9 +875,9 @@
               "Name": "Ingo",
               "MessageTextLines": [
                 "<Y>Ingo<W> (Âge : 44)",
-                "Homme obséquieux qui travaille au ",
-                "ranch. D'habitude il porte son bleu ",
-                "de travail, mais il s'est bien habillé ",
+                "Homme obséquieux qui travaille au",
+                "ranch. D'habitude il porte son bleu",
+                "de travail, mais il s'est bien habillé",
                 "pour le procès.<PERSISTENT>"
               ],
               "Type": 1,
@@ -940,7 +940,7 @@
               "Name": "Koholink2",
               "MessageTextLines": [
                 "<Y><FONT_TOGGLE>$$$$$<FONT_TOGGLE><W> (Âge inconnu)",
-                "Mon moi cleptomane ",
+                "Mon moi cleptomane",
                 "d'un autre monde... ?<PERSISTENT>"
               ],
               "Type": 1,
@@ -20870,7 +20870,7 @@
             {
               "Name": "LINK60",
               "MessageTextLines": [
-                "<SOUND:0><C>(... Il en a l'air, du moins.<PAUSE:5><SOUND:EXPLOSION><DI> Qui se rend ",
+                "<SOUND:0><C>(... Il en a l'air, du moins.<PAUSE:5><SOUND:EXPLOSION><DI> Qui se rend",
                 "au tribunal en armure ?!)"
               ],
               "Type": 0,
@@ -21980,8 +21980,8 @@
             {
               "Name": "IMPA_n80",
               "MessageTextLines": [
-                "Ah,<PAUSE:5> c'est probablement parce que ",
-                "j'ai été assignée à cette affaire sur ",
+                "Ah,<PAUSE:5> c'est probablement parce que",
+                "j'ai été assignée à cette affaire sur",
                 "ordre du <SOUND:CLUE><R>Roi d'Hyrule<W> en personne."
               ],
               "Type": 0,
@@ -22041,7 +22041,7 @@
             {
               "Name": "IMPA70",
               "MessageTextLines": [
-                "Mais ce n'est pas de ça dont ",
+                "Mais ce n'est pas de ça dont",
                 "je parlais.",
                 "<NEW_BOX>",
                 "J'imagine que le Roi voulait la crème",
@@ -23778,8 +23778,8 @@
             {
               "Name": "IMPA51",
               "MessageTextLines": [
-                "Il y a une dernière chose que je ",
-                "pense devoir mentionner, pour être ",
+                "Il y a une dernière chose que je",
+                "pense devoir mentionner, pour être",
                 "exhaustive..."
               ],
               "Type": 0,
@@ -23826,7 +23826,7 @@
             {
               "Name": "LINK11",
               "MessageTextLines": [
-                "Leur contenu a-t-il été vérifié avant ",
+                "Leur contenu a-t-il été vérifié avant",
                 "leur départ ?"
               ],
               "Type": 0,
@@ -24121,7 +24121,7 @@
               "Name": "5_LINK_VRU",
               "MessageTextLines": [
                 "Pour objecter, je peux dire<PAUSE:5> <SOUND:OBJECTIONCRY><DI><R>\"Objection!\"<W>.<PAUSE:5> ",
-                "Je peux dire<PAUSE:5> <DI><SOUND:OBJECTIONCRY><R>\"Hold it!\" (Un instant !)<W><PAUSE:5>",
+                "Je peux dire<PAUSE:5> <DI><SOUND:OBJECTIONCRY><R>\"Hold it!\" (Un instant !)<W><PAUSE:5> ",
                 "pour attaquer."
               ],
               "Type": 0,
@@ -26401,7 +26401,7 @@
               "Name": "3_LINK50",
               "MessageTextLines": [
                 "<C>(Toute cette histoire me paraît",
-                "extrêmement suspecte, pour être ",
+                "extrêmement suspecte, pour être",
                 "franc...<PAUSE:6> mais je suppose que je",
                 "n'ai rien pour le contredire...)<SQUARE>"
               ],
@@ -42176,7 +42176,7 @@
             {
               "Name": "DRAGMIRE90",
               "MessageTextLines": [
-                "Depuis combien de temps ",
+                "Depuis combien de temps",
                 "travaillez-vous pour le ranch ?"
               ],
               "Type": 0,
@@ -49021,7 +49021,7 @@
             {
               "Name": "B4_JUDGE10",
               "MessageTextLines": [
-                "Ouuh, eh bien, si vous le dites, ",
+                "Ouuh, eh bien, si vous le dites,",
                 "Défense..."
               ],
               "Type": 0,
@@ -54718,7 +54718,7 @@
               "Name": "INGO6",
               "MessageTextLines": [
                 "<DI><G>À un moment donné, l'inspectrice est",
-                "venue me raconter ce qui s'était passé. ",
+                "venue me raconter ce qui s'était passé.",
                 "Et ouah, quelle femme remarquable !<PERSISTENT>"
               ],
               "Type": 0,
@@ -54962,9 +54962,9 @@
             {
               "Name": "1_INGO60",
               "MessageTextLines": [
-                "En revanche, comme la visite royale ",
+                "En revanche, comme la visite royale",
                 "devait se tenir ce jour-là, j'ai eu le",
-                "sentiment qu'ils avaient besoin d'avoir ",
+                "sentiment qu'ils avaient besoin d'avoir",
                 "l'esprit tranquille...",
                 "<NEW_BOX>",
                 "... je m'en suis donc chargé moi-même."
@@ -55705,8 +55705,8 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Témoin !<PAUSE:3> Il y a quelque chose ",
-                "qui sonne sérieusement faux ",
+                "<SOUND:WHAP><DI>Témoin !<PAUSE:3> Il y a quelque chose",
+                "qui sonne sérieusement faux",
                 "dans votre témoignage !"
               ],
               "Type": 0,
@@ -55837,9 +55837,9 @@
             {
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
-                "Oui, Défense.<PAUSE:3> Certaines personnes ",
-                "ont un minimum de respect pour la ",
-                "cour, et s'y présentent habillées de ",
+                "Oui, Défense.<PAUSE:3> Certaines personnes",
+                "ont un minimum de respect pour la",
+                "cour, et s'y présentent habillées de",
                 "façon appropriée."
               ],
               "Type": 0,
@@ -56321,11 +56321,11 @@
             {
               "Name": "LINK150",
               "MessageTextLines": [
-                "<SOUND:DON><DI>Attendez une minute !<PAUSE:5> C'est fou ce ",
-                "qui se passe !<PAUSE:5> Quel genre de ",
+                "<SOUND:DON><DI>Attendez une minute !<PAUSE:5> C'est fou ce",
+                "qui se passe !<PAUSE:5> Quel genre de",
                 "parodie de justice est-ce donc ?<PAUSE:5> ",
                 "<NEW_BOX>",
-                "L'accusation ne fait qu'inventer ",
+                "L'accusation ne fait qu'inventer",
                 "des excuses à la volée !"
               ],
               "Type": 0,
@@ -56390,12 +56390,12 @@
               "MessageTextLines": [
                 "Cependant...",
                 "<NEW_BOX>",
-                "Le fait que le témoin n'ait pas ",
-                "directement évoqué ce fait de ",
-                "lui-même... ",
+                "Le fait que le témoin n'ait pas",
+                "directement évoqué ce fait de",
+                "lui-même...",
                 "<NEW_BOX>",
-                "... et ait à la place fabriqué un ",
-                "mensonge à base de vêtements ",
+                "... et ait à la place fabriqué un",
+                "mensonge à base de vêtements",
                 "achetés, <SOUND:CLUE>est en effet très curieux."
               ],
               "Type": 0,
@@ -58473,12 +58473,12 @@
             {
               "Name": "DRAGMIRE50",
               "MessageTextLines": [
-                "<DI>S'il y avait eu des vêtements ",
-                "ensanglantés abandonnés à ",
+                "<DI>S'il y avait eu des vêtements",
+                "ensanglantés abandonnés à",
                 "proximité, les Forces Sheikah",
                 "les auraient trouvés...",
                 "<NEW_BOX>",
-                "... et nous serions en train de juger ",
+                "... et nous serions en train de juger",
                 "quelqu'un d'autre pour le meurtre !"
               ],
               "Type": 0,
@@ -59556,7 +59556,7 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(Eh ben. Il mâche pas ses mots ",
+                "<SOUND:0><C>(Eh ben. Il mâche pas ses mots",
                 "avec lui.)"
               ],
               "Type": 0,
@@ -59565,7 +59565,7 @@
             {
               "Name": "LINK40",
               "MessageTextLines": [
-                "<SOUND:0><C>(Je suis sûr qu'il est juste contrarié ",
+                "<SOUND:0><C>(Je suis sûr qu'il est juste contrarié",
                 "par sa défaite.)"
               ],
               "Type": 0,
@@ -61556,7 +61556,7 @@
               "Name": "ZELDA20",
               "MessageTextLines": [
                 "Ah, il n'y a...<PAUSE:3> nul besoin de vous",
-                "incliner.<PAUSE:5>  Pas après ce que je vous",
+                "incliner.<PAUSE:5> Pas après ce que je vous",
                 "ai fait."
               ],
               "Type": 0,
@@ -83215,7 +83215,7 @@
                 "aux soldats de ne rien dire à <SOUND:CLUE>PERSONNE",
                 "à propos de ce qui s'est passé...",
                 "<NEW_BOX>",
-                "Ils ont dû le prendre au pied ",
+                "Ils ont dû le prendre au pied",
                 "de la lettre..."
               ],
               "Type": 0,
@@ -103604,7 +103604,7 @@
                 "<NEW_BOX>",
                 "<SOUND:0>Les accords en dessous flottent un peu",
                 "au hasard, sans vraie logique.<PAUSE:3> ",
-                "J'ai simplement varié les notes jusqu'à ",
+                "J'ai simplement varié les notes jusqu'à",
                 "ce que ça sonne bien.",
                 "<NEW_BOX>",
                 "<SOUND:0>C'est subtil, mais le triplet du shaker",
@@ -103671,7 +103671,7 @@
                 "<NEW_BOX>",
                 "<SOUND:0>Mes premiers essais pour un thème",
                 "de la salle des accusés sonnaient trop",
-                "joyeux, alors j'ai opté pour une ",
+                "joyeux, alors j'ai opté pour une",
                 "ambiance plus sombre.",
                 "<NEW_BOX>",
                 "<SOUND:0>Au début, c'était même TROP sombre,",
@@ -103811,7 +103811,7 @@
                 "<NEW_BOX>",
                 "<SOUND:0>J'ai fait la toute première musique créée",
                 "pour ce mod, un portage direct d'un thème",
-                "du jeu avec un avocat original, adapté ",
+                "du jeu avec un avocat original, adapté",
                 "avec des instruments Zelda (mais pas que).",
                 "<NEW_BOX>",
                 "<SOUND:0>Le résultat n'était pas terrible, et on savait",
@@ -104021,9 +104021,9 @@
                 "ont aussi échoué, j'ai décidé de m'appuyer",
                 "sur quelque chose de plus classique.",
                 "<NEW_BOX>",
-                "<SOUND:0>J'ai choisi quelques alternatives ",
-                "adaptées :<PAUSE:2> la <R>Chanson de Nayru<W> de ",
-                "<R>Oracle of Ages<W> et la <R>Ballade de la ",
+                "<SOUND:0>J'ai choisi quelques alternatives",
+                "adaptées :<PAUSE:2> la <R>Chanson de Nayru<W> de",
+                "<R>Oracle of Ages<W> et la <R>Ballade de la",
                 "Déesse<W> de <R>Skyward Sword<W>.",
                 "<NEW_BOX>",
                 "<PERSISTENT>"
@@ -104212,11 +104212,11 @@
                 "<LC><W>(Ingo, l'abattu)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0><SOUND:0>Les trois premiers thèmes d'Ingo ",
-                "montraient sa descente vers le rôle de ",
+                "<SOUND:0><SOUND:0>Les trois premiers thèmes d'Ingo",
+                "montraient sa descente vers le rôle de",
                 "méchant.",
-                "<NEW_BOX>Le quatrième illustre le moment où il ",
-                "comprend que tout reposait sur un ",
+                "<NEW_BOX>Le quatrième illustre le moment où il",
+                "comprend que tout reposait sur un",
                 "malentendu.",
                 "<NEW_BOX>",
                 "<SOUND:0>Comme Ingo est un personnage très",
@@ -104355,9 +104355,9 @@
                 "<NEW_BOX>",
                 "<SOUND:0>Cette musique est une blague.",
                 "<NEW_BOX>",
-                "<SOUND:0>Un jour, je me suis dit que ce serait ",
-                "drôle de faire une reprise du <R>Thème des ",
-                "Plaines<W> de <R>Super Mario Bros. Wonder<W> ",
+                "<SOUND:0>Un jour, je me suis dit que ce serait",
+                "drôle de faire une reprise du <R>Thème des",
+                "Plaines<W> de <R>Super Mario Bros. Wonder<W>",
                 "avec tout ces instruments...",
                 "<NEW_BOX>",
                 "<SOUND:0>...plus précisément, avec l'ocarina en",
@@ -104417,8 +104417,8 @@
                 "<SOUND:0>À la fin, on trouve une citation claire du",
                 "<R>thème de Kaepora Gaebora<W> d'OoT.",
                 "<NEW_BOX>",
-                "Pas évident de caser une mélodie en ",
-                "4/4 dans du 3/4 sans que ça sonne ",
+                "Pas évident de caser une mélodie en",
+                "4/4 dans du 3/4 sans que ça sonne",
                 "trop forcé.",
                 "<NEW_BOX>",
                 "<SOUND:0>Au total, cette version du thème du",
@@ -107190,7 +107190,7 @@
                 "<SPEED:101>Il existerait un jeu avec un œuf géant",
                 "dans lequel tu peux <R>devenir un voyou<W>...<SPEED:102>",
                 "<NEW_BOX>",
-                "<SPEED:101>Et deux jeux sur le <R>changement ",
+                "<SPEED:101>Et deux jeux sur le <R>changement",
                 "climatique<W> et le <R>voyage dans le temps<W>...<SPEED:102>",
                 "<NEW_BOX>",
                 "Il paraît qu'on peut débloquer des extras",
@@ -110824,7 +110824,7 @@
             {
               "Name": "SaveCorrupt",
               "MessageTextLines": [
-                "<LC><DI><R>Les données de sauvegarde ",
+                "<LC><DI><R>Les données de sauvegarde",
                 "<LC>sont corrompues...<SQUARE>"
               ],
               "Type": 1,
