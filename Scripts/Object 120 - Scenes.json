@@ -78351,8 +78351,8 @@
             {
               "Name": "INGO150",
               "MessageTextLines": [
-                "Je rentrais d'une nouvelle journée de",
-                "<PAUSE:2><SHIFT:0><DI>TRAVAIL<PAUSE:3><SHIFT:0><DI> ÉCRASANT<PAUSE:3> <DI>ET ÉPUISANT<PAUSE:4>,",
+                "Je rentrais d'une nouvelle journée de<PAUSE:2> ",
+                "<DI>TRAVAIL<PAUSE:3> <DI>ÉCRASANT<PAUSE:3> <DI>ET<PAUSE:3> <DI>ÉPUISANT<PAUSE:4>,",
                 "et là, qu'est-ce que j'entends ?"
               ],
               "Type": 0,
@@ -114712,6 +114712,7 @@
       "Name": "Cases"
     }
   ],
+  "ExtScriptHeaderPath": "",
   "SpaceFromFont": true,
   "CHeaderLines": [
     "#include <z64hdr/oot_u10/z64hdr.h>",
