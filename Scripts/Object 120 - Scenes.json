@@ -78285,7 +78285,7 @@
             {
               "Name": "INGO110",
               "MessageTextLines": [
-                "Vous voulez savoir pourquoi j'ai<PAUSE><SPEED:102> tué",
+                "Vous voulez savoir pourquoi j'ai<PAUSE> tué",
                 "ce <PAUSE:3><SOUND:WHAP><DI>sac à purin ?!"
               ],
               "Type": 0,
@@ -78325,7 +78325,7 @@
               "MessageTextLines": [
                 "... on vous jetait comme un déchet !<PAUSE:8> ",
                 "<SOUND:WHAP><DI>Sans la moindre raison !<PAUSE:12> <DI>VIRÉ !<PAUSE:12> Adieu,<PAUSE:3> ",
-                "<DI>on<PAUSE:2><SHIFT:0><DI> n'a<PAUSE:2><SHIFT:0><DI> plus<PAUSE:2><SHIFT:0><DI> besoin<PAUSE:2><SHIFT:0><DI><SOUND:WHAP> de toi !"
+                "<DI>on<PAUSE:2><SHIFT:0><DI> n'a<PAUSE:2><SHIFT:0><DI> plus<PAUSE:2><SHIFT:0><DI> besoin<PAUSE:2><SHIFT:0><DI> de<PAUSE:2><SHIFT:0><DI><SOUND:WHAP> toi !"
               ],
               "Type": 0,
               "Position": 0
