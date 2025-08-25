@@ -85294,7 +85294,7 @@
               "MessageTextLines": [
                 "Je sais que ça a l'air fou, mais ce",
                 "mec peut lancer des rayons d'énergie",
-                "mortels !"
+                "mortels."
               ],
               "Type": 0,
               "Position": 0
@@ -89452,7 +89452,7 @@
             {
               "Name": "KOHOLINK50",
               "MessageTextLines": [
-                "<SOUND:WHAP>Parce qu'un Hibou me l'a dit !<FADE:40>"
+                "<SOUND:WHAP>Parce qu'un hibou me l'a dit !<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
