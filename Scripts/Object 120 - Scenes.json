@@ -48451,7 +48451,7 @@
             {
               "Name": "A1_DRAGMIRE30",
               "MessageTextLines": [
-                "L'idée qu'une personne de mon calbre",
+                "L'idée qu'une personne de mon calibre",
                 "puisse dégager une odeur désagréable...<PAUSE:0><PAUSE:5> ",
                 "<DI>C'est absurde !"
               ],
@@ -114748,7 +114748,6 @@
       "Name": "Cases"
     }
   ],
-  "ExtScriptHeaderPath": "",
   "SpaceFromFont": true,
   "CHeaderLines": [
     "#include <z64hdr/oot_u10/z64hdr.h>",
