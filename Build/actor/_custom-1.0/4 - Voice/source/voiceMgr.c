@@ -244,20 +244,13 @@ void VoiceMgr_Draw(Actor* thisx, PlayState* play)
             else
                 sprintf(buf, "%s: %s", this->region ? "VRU" : "VRS", this->turnedOff ? turnedOff : this->listening ? statuses[gVoiceHandle.cmd_status] : "PRESS \x05""\x46""\xA6""\x05""\x40"" TO LISTEN\x02");
         
-            HoL_DrawMessageText(play, 
-                                &gfx, 
-                                (Color_RGB8){255, 255, 255}, 
-                                (Color_RGB8){0, 0, 0}, 
-                                255, 
-                                255, 
-                                buf, 
-                                GetStringCenterX(buf, 75), 
-                                5, 
-                                1, 
-                                1, 
-                                NULL, 
-                                75, 
-                                OPERATION_DRAW_SHADOW);         
+            TextOperation(play, NULL, &gfx, 
+                          COLOR_WHITE, COLOR_BLACK,
+                          255, 255, 
+                          buf, 
+                          GetStringCenterX(buf, TEXT_SCALE), 5, 
+                          1, 1, 
+                          NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW);                 
                             
         }
         

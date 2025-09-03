@@ -1,3 +1,0 @@
-allocation   0x0002
-vram         0x808B8370
-ivar         0x808BA180

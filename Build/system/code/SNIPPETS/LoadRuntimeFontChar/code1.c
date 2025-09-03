@@ -52,7 +52,14 @@ void* Font_LoadRuntimeFontChar(Font* font, u8 character)
             charGraphics = &f->charTexBuf[unusedSlot * FONT_CHAR_TEX_SIZE];
 
             RomFile* fnt = &objectTable[OBJECT_FONT];
-            DmaMgr_SendRequest1(charGraphics, fnt->vromStart + (FONT_CHAR_TEX_SIZE * (character - ' ')), FONT_CHAR_TEX_SIZE);  
+            
+            // The font file is a headered object
+            // This is the minimum viable setup to get the address of the first file within it (which the default font must be)
+            u32 buf[32];
+            DmaMgr_SendRequest1(buf, fnt->vromStart, 32);
+            u32 fontStart = buf[1];
+            
+            DmaMgr_SendRequest1(charGraphics, fnt->vromStart + fontStart + (FONT_CHAR_TEX_SIZE * (character - ' ')), FONT_CHAR_TEX_SIZE);  
         }           
         // Otherwise, give up.
         else

@@ -1,3 +1,0 @@
-unk-a 2
-unk-b 0
-shader 0

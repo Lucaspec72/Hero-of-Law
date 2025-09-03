@@ -291,6 +291,7 @@
       ],
       "DisplayListColors": [],
       "Messages": [],
+      "Localization": [],
       "DEBUGShowCols": false,
       "DEBUGPrintToScreen": false,
       "DEBUGLookAtEditor": false,
@@ -345,28 +346,48 @@
           "",
           "typedef enum",
           "{",
-          "    OPERATION_DRAW = 0,",
-          "    OPERATION_DRAW_SHADOW = 1,",
-          "    OPERATION_DRAW_CREDITS = 2,",
-          "    OPERATION_DRAW_CREDITS_SHADOW = 3,",
-          "    OPERATION_DRAW_INDIVIDUAL = 4,",
-          "    OPERATION_DRAW_INDIVIDUAL_SHADOW = 5,",
-          "    OPERATION_SET_POSITIONS = 6,",
-          "    OPERATION_EVALUATE_YSIZE = 7,",
-          "    OPERATION_SET_POSITIONS_CREDITS = 8,",
-          "    OPERATION_EVALUATE_LINE_XSIZE = 9,",
+          "    OPERATION_TYPE_OUT = 0,",
+          "    OPERATION_DRAW = 1,",
+          "    OPERATION_DRAW_SHADOW = 2,",
+          "    OPERATION_DRAW_CREDITS = 3,",
+          "    OPERATION_DRAW_CREDITS_SHADOW = 4,",
+          "    OPERATION_DRAW_INDIVIDUAL = 5,",
+          "    OPERATION_DRAW_INDIVIDUAL_SHADOW = 6,",
+          "    OPERATION_SET_POSITIONS = 7,",
+          "    OPERATION_EVALUATE_YSIZE = 8,",
+          "    OPERATION_SET_POSITIONS_CREDITS = 9,",
+          "    OPERATION_EVALUATE_LINE_XSIZE = 10,",
+          "    OPERATION_EVALUATE_XSIZE = 11,",
+          "    OPERATION_EVALUATE_DIMENSIONS = 12,",
           "} TextboxOperation;",
           "",
           "AudioContext* audioContext = (AudioContext*)0x80125630;",
           "",
-          "extern int HoL_DrawMessageTextInternal(PlayState* play, u8* fontBuf, Gfx** gfxp, Color_RGB8 Color, Color_RGB8 ShadowColor, s16 alpha, s16 shadowAlpha, char* msgData, int posX, int posY, u8 shadowOffsetX, u8 shadowOffsetY, Vec2s* positions, float scale, int operation);",
-          "\tasm(\"HoL_DrawMessageTextInternal = 0x80078298\"); ",
-          "",
-          "static inline int HoL_DrawMessageText(PlayState* play, Gfx** gfxp, Color_RGB8 Color, Color_RGB8 ShadowColor, s16 alpha, s16 shadowAlpha, char* msgData, int posX, int posY, u8 shadowOffsetX, u8 shadowOffsetY, Vec2s* positions, float scale, int operation)",
+          "extern int HoL_DrawMessageTextImpl(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 Color, Color_RGB8 ShadowColor, ",
+          "                                   s16 alpha, s16 shadowAlpha, char* msgData, int posX, int posY, u8 shadowOffsetX, ",
+          "                                   u8 shadowOffsetY, Vec2s* positions, int scaleX, int scaleY, int lineMaxX, ",
+          "                                   bool noWidescreenAdjust, int operation);",
+          "    asm(\"HoL_DrawMessageTextImpl = 0x800756F0 + 0x8\");  ",
+          "    ",
+          "    ",
+          "static inline int HoL_DrawMessageTextInternal(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 Color, Color_RGB8 ShadowColor, ",
+          "                                              s16 alpha, s16 shadowAlpha, char* msgData, int posX, int posY, u8 shadowOffsetX, ",
+          "                                              u8 shadowOffsetY, Vec2s* positions, int scale, int operation)",
           "{",
-          "    return HoL_DrawMessageTextInternal(play, NULL, gfxp, Color, ShadowColor, alpha, shadowAlpha, msgData, posX, posY, shadowOffsetX, shadowOffsetY, positions, scale, operation);",
+          "    return HoL_DrawMessageTextImpl(play, font, gfxp, Color, ShadowColor, ",
+          "                                   alpha, shadowAlpha, msgData, posX, posY, ",
+          "                                   shadowOffsetX, shadowOffsetY, positions, ",
+          "                                   scale, scale, 0, false, operation);",
           "}",
           "",
+          "static inline int HoL_DrawMessageText(PlayState* play, Gfx** gfxp, Color_RGB8 Color, Color_RGB8 ShadowColor, ",
+          "                                      s16 alpha, s16 shadowAlpha, char* msgData, int posX, int posY, ",
+          "                                      u8 shadowOffsetX, u8 shadowOffsetY, Vec2s* positions, int scale, int operation)",
+          "{",
+          "    return HoL_DrawMessageTextInternal(play, NULL, gfxp, Color, ShadowColor, alpha, ",
+          "                                       shadowAlpha, msgData, posX, posY, shadowOffsetX, ",
+          "                                       shadowOffsetY, positions, scale, operation);",
+          "}",
           "#define RGBA16 0",
           "#define RGBA16_Setup39 1",
           "#define RGBA32 2",
@@ -392,7 +413,7 @@
           "\tasm(\"Draw2DScaled = 0x800755c8\"); ",
           "    ",
           "extern void Draw2DInternal(u8 RGBAType, u8* texture, u8* palette, Gfx** gfxp, s16 centerX, s16 centerY, u32 width, u32 height, u32 drawWidth, u32 drawHeight, s16 alpha);",
-          "    asm(\"Draw2DInternal = 0x800756F0 + 0x8\");",
+          "    asm(\"Draw2DInternal = 0x800D7B00\");",
           "",
           "static inline void Draw2D(u8 RGBAType, int object, PlayState* playState, Gfx** gfxp, s16 centerX, s16 centerY, u8* source, u8* sourcePal, u32 width, u32 height, s16 alpha)",
           "{",
@@ -658,7 +679,8 @@
           "NpcM_Destroy",
           "NpcM_Update"
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "INGO",
@@ -808,6 +830,7 @@
       "ExtraDisplayLists": [],
       "DisplayListColors": [],
       "Messages": [],
+      "Localization": [],
       "DEBUGShowCols": false,
       "DEBUGPrintToScreen": false,
       "DEBUGLookAtEditor": false,
@@ -858,7 +881,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "TALON",
@@ -1015,6 +1039,7 @@
       "ExtraDisplayLists": [],
       "DisplayListColors": [],
       "Messages": [],
+      "Localization": [],
       "DEBUGShowCols": false,
       "DEBUGPrintToScreen": false,
       "DEBUGLookAtEditor": false,
@@ -1065,7 +1090,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "LINK",
@@ -1222,6 +1248,7 @@
       "ExtraDisplayLists": [],
       "DisplayListColors": [],
       "Messages": [],
+      "Localization": [],
       "DEBUGShowCols": false,
       "DEBUGPrintToScreen": false,
       "DEBUGLookAtEditor": false,
@@ -1272,7 +1299,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     },
     {
       "NPCName": "GANON",
@@ -1455,6 +1483,7 @@
       ],
       "DisplayListColors": [],
       "Messages": [],
+      "Localization": [],
       "DEBUGShowCols": false,
       "DEBUGPrintToScreen": false,
       "DEBUGLookAtEditor": false,
@@ -1534,7 +1563,8 @@
           null,
           ""
         ]
-      }
+      },
+      "Omitted": false
     }
   ],
   "GlobalHeaders": [
@@ -1808,5 +1838,6 @@
     "in your Embedded Code file.",
     "*/"
   ],
-  "GameVersion": 1
+  "GameVersion": 1,
+  "Languages": []
 }

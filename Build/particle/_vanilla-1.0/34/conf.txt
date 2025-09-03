@@ -1,2 +1,0 @@
-vram         0x80B388B0
-unknown      0x01000000

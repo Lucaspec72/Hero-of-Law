@@ -13,6 +13,7 @@ skip_actors=false
 only_rom=false
 MAKE_CMD="make clean && make"
 is_wsl=false
+scripts_only=false
 
 case "$(uname -r)" in
   *microsoft*|*WSL*) is_wsl=true ;;
@@ -28,7 +29,7 @@ if [ "$is_wsl" = true ]; then
 fi
 
 # Parse command line options
-while getopts "jsnarm:uh" opt; do
+while getopts "jsnarm:uhl:" opt; do
   case $opt in
     j)
       only_rom=true
@@ -58,6 +59,9 @@ while getopts "jsnarm:uh" opt; do
     u)
       deploy=true     
       ;;
+    l)
+      scripts_only=true 
+      ;;         
     h)
       printf "\n"
       printf "${RED}Available options:${NC}\n"
@@ -85,9 +89,37 @@ done
 
 printf "Starting build~!\n"
 
+if [ "$scripts_only" = false ]; then 
+
+    printf "${GREEN}================== Object concat process... ==================${NC}\n"
+
+    # Go through every folder in the object directory
+    for folder in object/*/; do
+        # Check if it's actually a directory
+        if [ -d "$folder" ]; then
+
+            folder_name=$(basename "$folder")
+            concat_path="$folder/concat"
+            
+            # Check if the concat subfolder exists
+            if [ -d "$concat_path" ]; then
+            
+                if command -v py >/dev/null 2>&1; then
+                    py -3 tool/concatFiles.py "$concat_path" "$folder/zobj.zobj";
+                else
+                    python3 tool/concatFiles.py "$concat_path" "$folder/zobj.zobj";
+                fi
+            fi
+        fi
+    done
+    
+    printf "${GREEN}================== Object concat process complete ==================${NC}\n"
+    printf "\n"        
+fi
+
 if [ "$only_rom" = false ]; then 
 
-    if [ "$skip_actors" = false ]; then 
+    if [ "$skip_actors" = false ] && [ "$scripts_only" = false ]; then 
         printf "\n"
         printf "${YELLOW}================== Building actors ==================${NC}\n"
         cd "actor/_custom-1.0/" || exit 1
@@ -106,41 +138,43 @@ if [ "$only_rom" = false ]; then
         printf "\n"
         cd ../..
     fi
+       
+    if [ "$scripts_only" = false ]; then 
+
+        printf "\n"
+        printf "${YELLOW}================== Building system overlays ==================${NC}\n"
+        cd system/ovl_opening
+
+        if [ -n "$musid" ]; then
+            BUILD_OPTIONS="${BUILD_OPTIONS%\"} -DMUSID=${musid}\""
+        fi
+        
+        eval "$MAKE_CMD $BUILD_OPTIONS"
+        cd ../ovl_dummy
+        eval "$MAKE_CMD"
+        cd ../..
+
+        printf "${GREEN}================== System overlays build complete ==================${NC}\n"
+        printf "\n"
     
-
-
-    printf "\n"
-    printf "${YELLOW}================== Building system overlays ==================${NC}\n"
-    cd system/ovl_opening
-
-    if [ -n "$musid" ]; then
-        BUILD_OPTIONS="${BUILD_OPTIONS%\"} -DMUSID=${musid}\""
     fi
     
-    eval "$MAKE_CMD $BUILD_OPTIONS"
-    cd ../ovl_dummy
-    eval "$MAKE_CMD"
-    cd ../..
+    
+    if [ "$scripts_only" = false ]; then 
 
-    printf "${GREEN}================== System overlays build complete ==================${NC}\n"
-    printf "\n"
+        printf "\n"
+        printf "${YELLOW}================== Building audio ==================${NC}\n"
+        cd tool
+        if command -v py >/dev/null 2>&1; then
+            py -3 "build_audio.py"
+        else
+            python3 "build_audio.py"
+        fi
+        cd ..
+        printf "${GREEN}================== Audio build complete ==================${NC}\n"
+        printf "\n"
     
-    
-    
-
-    printf "\n"
-    printf "${YELLOW}================== Building audio ==================${NC}\n"
-    cd tool
-    if command -v py >/dev/null 2>&1; then
-        py -3 "build_audio.py"
-    else
-        python3 "build_audio.py"
     fi
-    cd ..
-    printf "${GREEN}================== Audio build complete ==================${NC}\n"
-    printf "\n"
-    
-    
     
 
     if [ "$run_snippet_rebuild" = true ]; then
@@ -176,21 +210,18 @@ if [ "$only_rom" = false ]; then
         printf "\n"
     fi
     
-    
-    
-   
 
-    if [ "$run_script_rebuild" = true ]; then
+    if [ "$run_script_rebuild" = true ] || [ "$scripts_only" = true ]; then
         printf "\n"
         printf "${YELLOW}================== Building scripts ==================${NC}\n"
         
         cd ..
         if command -v py >/dev/null 2>&1 || [ "$is_wsl" = true ]; then
             ./Tool/NPCMAKER/NPC\ Maker.exe "Scripts/Object 120 - Scenes.json" "Build/object/120 - NPCM_Scenes/zobj.zobj"
-            ./Tool/NPCMAKER/NPC\ Maker.exe "Scripts/Object 121 - Wanted.json" "Build/object/121 - Wanted/zobj.zobj"
+            ./Tool/NPCMAKER/NPC\ Maker.exe "Scripts/Object 121 - Wanted.json" "Build/object/121 - NPCM_Wanted/zobj.zobj"
         else
-            mono ./Tool/NPCMAKER/NPC\ Maker.exe "Scripts/Object 120 - Scenes.json" "Build/object/120 - NPCM_Scenes/zobj.zobj"
-            mono ./Tool/NPCMAKER/NPC\ Maker.exe "Scripts/Object 121 - Wanted.json" "Build/object/121 - Wanted/zobj.zobj"
+            mono ./Tool/NPCMAKER/NPC\ Maker.exe "Scripts/Object 120 - Scenes.json" "Build/object/120 - NPCM_Scenes/zobj.zobj"              
+            mono ./Tool/NPCMAKER/NPC\ Maker.exe "Scripts/Object 121 - Wanted.json" "Build/object/121 - NPCM_Wanted/zobj.zobj"
         fi
         cd Build
         
@@ -221,10 +252,18 @@ printf "\n"
 printf "\n"
 printf "${YELLOW}================== Creating WAD ==================${NC}\n"
 
+cp build-yaz.z64 build-yaz-cp.z64
+
+if command -v py >/dev/null 2>&1; then
+    py -3 "tool//truncate.py" "build-yaz-cp.z64"
+else
+    python3 "tool//truncate.py" "build-yaz-cp.z64"
+fi
+
 printf "Creating WAD file...\n"
 cd tool
 if command -v py >/dev/null 2>&1 || [ "$is_wsl" = true ]; then
-    ./gzinject/gzinject.exe -a inject -w "gzinject/Zelda Ocarina N64 NTSC.wad" -m "../build-yaz.z64" -o "../build-yaz.wad" -i "NHLE" -r 1 -p "gzinject/patches/hol.gzi" -k "gzinject/common-key.bin" -t "Hero of Law" --cleanup
+    ./gzinject/gzinject.exe -a inject -w "gzinject/Zelda Ocarina N64 NTSC.wad" -m "../build-yaz-cp.z64" -o "../build-yaz.wad" -i "NHLE" -r 1 -p "gzinject/patches/hol.gzi" -k "gzinject/common-key.bin" -t "Hero of Law" --cleanup
 else
     # There's a native Linux build of gzinject in this repo, but it
     # seems to be bugged and not apply .gzi patches correctly, so we
@@ -233,6 +272,8 @@ else
 fi
 cd ..
 printf "\n"
+
+rm "build-yaz-cp.z64"
 
 printf "${RED}~~~~${YELLOW}  Build complete!  ${RED}~~~~${NC}\n"
 

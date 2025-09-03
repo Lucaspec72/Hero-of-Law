@@ -4,6 +4,7 @@ desktop.ini
 *.yaz
 *.aplib
 *.raw
+*.wad
 build.z64
 build-yaz.z64
 build-aplib.z64
@@ -18,6 +19,3 @@ Tool/io_export_objex2/__pycache__
 Tool/NPCMAKER/Settings.json
 Tool/NPCMAKER/cache
 Tool/NPCMAKER/Ccache
-Build/assets/oot-1.0.z64
-Build/oot-1.0-dec.z64
-Tool/NPCMAKER/backup

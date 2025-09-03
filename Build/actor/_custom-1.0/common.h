@@ -6,6 +6,7 @@
 u32* emuIdentifier = (u32*)0x80198948;
 u32* hzChoice = (u32*)0x80198950;
 u32* tpakBeingUsed = (u32*)0x80198954;
+u32* savingGfxCounter = (u32*)0x80198958;
 
 #define GCN_CHECK_MAGIC 0x47434E45
 #define WII_CHECK_MAGIC 0x5245564F
@@ -63,16 +64,25 @@ OSPiHandle** sISVHandle = (OSPiHandle**)0x8019894C;
     #define MIN(a, b) ((a) < (b) ? (a) : (b))
 #endif
 
-#define COLOR_BLACK (Color_RGB8){0,0,0}
-#define COLOR_WHITE (Color_RGB8){255,255,255}
+#define COLOR_BLACK (Color_RGB8) {0x00, 0x00, 0x00}
+#define COLOR_WHITE (Color_RGB8) {0xFF, 0xFF, 0xFF}
+#define COLOR_RED   (Color_RGB8) {0xFF, 0x00, 0x00}
+#define COLOR_YELLOW   (Color_RGB8) {0xFF, 0xFF, 0x00}
 
 #define objectTable (*(RomFile(*)[]) 0x800F8FF8)
 
 #define OBJECT_FONT 9
+#define OBJECT_UI 10
 
 #define SAVE_OK 0
 #define SAVE_CORRUPTED 0x5
 #define SAVE_NOT_HOL 0x12
+
+#define SAVE_INDICATOR_LENGTH 22
+
+#define SAVE_SLOT 0
+#define SAVE_SLOT_BACKUP 1
+#define SAVE_SLOT_MSGLOG 2
 
 #define SRAM_BASE_ADDR OS_K1_TO_PHYSICAL(0xA8000000)
 #define SRAM_SIZE 0x8000
@@ -81,6 +91,12 @@ OSPiHandle** sISVHandle = (OSPiHandle**)0x8019894C;
 #define SLOT_OFFSET(index) (SRAM_HEADER_SIZE + 0x10 + (index * SLOT_SIZE))
 #define SAVESTRUCT_SIZE 0x1354
 #define CHECKSUM_SIZE (SAVESTRUCT_SIZE / 2)
+
+#define LANG_INDEX MIN(HOL_LANGUAGE_MAX - 1, SAVE_LANGUAGE)
+
+#define SAVE_MSGLOG
+
+#define LANGUAGE_PICKER
 
 #ifdef SAVE_STUFF
     char sSaveDefaultMagic[] = {0x98, 0x09, 0x10, 0x21, 'Z', 'E', 'L', 'D', 'A'};
@@ -105,14 +121,39 @@ OSPiHandle** sISVHandle = (OSPiHandle**)0x8019894C;
         
         return oldChecksum == newChecksum ? SAVE_OK : SAVE_CORRUPTED;
     }
+    
+    void InvalidateMsgLogChecksum()
+    {
+        #ifdef SAVE_MSGLOG  
+            // Invalidate message log checksum so that you don't see random messages from elsewhere in game when using the scene select.
+            u32 header[4];
+            header[0] = 0;
+            header[1] = 0;
+            header[2] = 0;
+            header[3] = 0;
+        
+            SsSram_ReadWrite(OS_K1_TO_PHYSICAL(0xA8000000) + SLOT_OFFSET(SAVE_SLOT_MSGLOG), &header, 16, OS_WRITE);
+        #endif
+    }    
 
 #endif
 
-#define LANGUAGE_ENGLISH 0
-#define LANGUAGE_FRENCH 1
-#define LANGUAGE_MAX 2
+typedef enum {
+    HOL_LANGUAGE_ENGLISH,
+    HOL_LANGUAGE_FRENCH,
+    HOL_LANGUAGE_MAX
+} HolLanguages;
 
 extern f32 fmodf(f32 x, f32 y);
+
+extern void* LoadFromHeaderObjectToDest(int object, int entryId, u32* header, void* dest);
+    asm("LoadFromHeaderObjectToDest = 0x800648AC");
+    
+__attribute__((always_inline)) inline void* LoadFromHeaderObject(int object, int entryId)
+{
+    return LoadFromHeaderObjectToDest(object, entryId, NULL, NULL);
+}     
+    
 
 extern void Screen_Adjust(GameState* state, View* view);
     asm("Screen_Adjust = 0x8006CA64 + 0x8");
@@ -123,6 +164,7 @@ extern void SsSram_ReadWrite(u32 addr, void* dramAddr, size_t size, s32 directio
 extern void Font_LoadFont(Font* font);
     asm("Font_LoadFont = 0x8005BD78");
     
-    
+extern void Environment_FillScreen(GraphicsContext* gfxCtx, u8 red, u8 green, u8 blue, u8 alpha, u8 drawFlags);
+	asm("Environment_FillScreen = 0x800625B0");
     
 #endif

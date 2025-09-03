@@ -1,3 +1,0 @@
-unk-a 1
-unk-b 8
-shader 25

@@ -11,6 +11,11 @@
 #define CHARSIZEY 16
 #define TEXT_SCALE 75
 
+// 0x270 of extra free memory for stuff here
+// Takes place of sFontWidths which are 0x370, and the new font widths only take up 0x100
+u8* fontWidthsDefault = (u8*)0x80112F40;
+u8* fontWidthsLanguage = (u8*)0x80112FC0;
+
 typedef struct Vec2s
 {
     s16 x;
@@ -63,11 +68,11 @@ extern void DrawCharTexture(Gfx** gfxp, u8* texture, s32 x, s32 y, int scaleX, i
                             s16 shadowAlpha, u8 shadowOffsetX, u8 shadowOffsetY, bool noWidescreenAdjust);
 	asm("DrawCharTexture = 0x80078298");  
 
-extern int HoL_DrawMessageTextImpl(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 Color, Color_RGB8 ShadowColor, 
-                                   s16 alpha, s16 shadowAlpha, char* msgData, int posX, int posY, u8 shadowOffsetX, 
-                                   u8 shadowOffsetY, Vec2s* positions, int scaleX, int scaleY, int lineMaxX, 
-                                   bool noWidescreenAdjust, int operation);
-    asm("HoL_DrawMessageTextImpl = 0x800756F0 + 0x8"); 
+extern int TextOperation(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 Color, Color_RGB8 ShadowColor, 
+                         s16 alpha, s16 shadowAlpha, char* msgData, int posX, int posY, u8 shadowOffsetX, 
+                         u8 shadowOffsetY, Vec2s* positions, int scaleX, int scaleY, int lineMaxX, 
+                         bool noWidescreenAdjust, int operation);
+    asm("TextOperation = 0x800756F0 + 0x8"); 
     
 extern void* Font_LoadRuntimeFontChar(Font* font, u8 character);
     asm("Font_LoadRuntimeFontChar = 0x800D6590"); 
@@ -75,43 +80,23 @@ extern void* Font_LoadRuntimeFontChar(Font* font, u8 character);
 extern void Font_LoadMessageBoxIcon(Font* font, u16 icon);
         asm("Font_LoadMessageBoxIcon = 0x8005BD34");     
     
-    
-__attribute__((always_inline)) inline int HoL_DrawMessageTextInternal(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 Color, Color_RGB8 ShadowColor, 
-                                              s16 alpha, s16 shadowAlpha, char* msgData, int posX, int posY, u8 shadowOffsetX, 
-                                              u8 shadowOffsetY, Vec2s* positions, int scale, int operation)
-{
-    return HoL_DrawMessageTextImpl(play, font, gfxp, Color, ShadowColor, 
-                                   alpha, shadowAlpha, msgData, posX, posY, 
-                                   shadowOffsetX, shadowOffsetY, positions, 
-                                   scale, scale, 0, false, operation);
-}
-
-__attribute__((always_inline)) inline int HoL_DrawMessageText(PlayState* play, Gfx** gfxp, Color_RGB8 Color, Color_RGB8 ShadowColor, 
-                                      s16 alpha, s16 shadowAlpha, char* msgData, int posX, int posY, 
-                                      u8 shadowOffsetX, u8 shadowOffsetY, Vec2s* positions, int scale, int operation)
-{
-    return HoL_DrawMessageTextInternal(play, NULL, gfxp, Color, ShadowColor, alpha, 
-                                       shadowAlpha, msgData, posX, posY, shadowOffsetX, 
-                                       shadowOffsetY, positions, scale, operation);
-}
-
 __attribute__((always_inline)) inline int GetTextPxWidth(char* string, int scale)
 {
-    return HoL_DrawMessageTextImpl(NULL, NULL, NULL, COLOR_BLACK, COLOR_BLACK, 0, 0, string, 
-                                   0, 0, 0, 0, NULL, scale, scale, 0, true, OPERATION_EVALUATE_LINE_XSIZE);
+    return TextOperation(NULL, NULL, NULL, COLOR_BLACK, COLOR_BLACK, 0, 0, string, 
+                        0, 0, 0, 0, NULL, scale, scale, 0, true, OPERATION_EVALUATE_LINE_XSIZE);
 } 
 
 __attribute__((always_inline)) inline int GetTextPxWidthWidescreenAdjust(char* string, int scale)
 {
-    return HoL_DrawMessageTextImpl(NULL, NULL, NULL, COLOR_BLACK, COLOR_BLACK, 0, 0, string, 
-                                   0, 0, 0, 0, NULL, scale, scale, 0, false, OPERATION_EVALUATE_LINE_XSIZE);
+    return TextOperation(NULL, NULL, NULL, COLOR_BLACK, COLOR_BLACK, 0, 0, string, 
+                         0, 0, 0, 0, NULL, scale, scale, 0, false, OPERATION_EVALUATE_LINE_XSIZE);
 } 
     
 #ifdef GET_DIMENSIONS_FUNCS
     Vec2s GetTextDimensions(char* string, int scale, bool noWidescreenAdjust)
     {
-        int res = HoL_DrawMessageTextImpl(NULL, NULL, NULL, COLOR_BLACK, COLOR_BLACK, 0, 0, string, 
-                                          0, 0, 0, 0, NULL, scale, scale, 0, noWidescreenAdjust, OPERATION_EVALUATE_DIMENSIONS);
+        int res = TextOperation(NULL, NULL, NULL, COLOR_BLACK, COLOR_BLACK, 0, 0, string, 
+                                0, 0, 0, 0, NULL, scale, scale, 0, noWidescreenAdjust, OPERATION_EVALUATE_DIMENSIONS);
         Vec2s ret;
            
         ret.x = res & 0xFFFF;
@@ -166,8 +151,9 @@ __attribute__((always_inline)) inline int GetTextPxWidthWidescreenAdjust(char* s
 
     int GetTextScaleToFitY(char* string, int scaleMax, int maxYSize)
     {
-        int dimY = HoL_DrawMessageTextImpl(NULL, NULL, NULL, COLOR_BLACK, COLOR_BLACK, 0, 0, string, 
-                                           0, 0, 0, 0, NULL, scaleMax, scaleMax, 0, false, OPERATION_EVALUATE_YSIZE);
+        int dimY = TextOperation(NULL, NULL, NULL, COLOR_BLACK, COLOR_BLACK, 0, 0, string, 
+                                 0, 0, 0, 0, NULL, scaleMax, scaleMax, 0, false, OPERATION_EVALUATE_YSIZE);
+                                 
         return GetTextScaleToFitYFromHeight(dimY, scaleMax, maxYSize);                                        
     }      
 #endif

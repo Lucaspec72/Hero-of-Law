@@ -15,8 +15,10 @@ void Sram_WriteSave(SramContext* sramCtx)
         checksum += *ptr++;
     
     gSaveContext.checksum = checksum;
+    
+    *savingGfxCounter = SAVE_INDICATOR_LENGTH;
 
     // Write save, and backup save.
-    for (int slot = 0; slot < 2; slot++) 
-        SsSram_ReadWrite(SRAM_BASE_ADDR + SLOT_OFFSET(slot), &gSaveContext, SLOT_SIZE, OS_WRITE);
+    SsSram_ReadWrite(SRAM_BASE_ADDR + SLOT_OFFSET(SAVE_SLOT), &gSaveContext, SLOT_SIZE, OS_WRITE);
+    SsSram_ReadWrite(SRAM_BASE_ADDR + SLOT_OFFSET(SAVE_SLOT_BACKUP), &gSaveContext, SLOT_SIZE, OS_WRITE);
 }

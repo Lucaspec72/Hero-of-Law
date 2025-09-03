@@ -30,7 +30,7 @@
 0xEB4A0,800177D0800177D0800177D0800177D0
 
 # New font widths
-0x101EA0,"assets//font.width_table"
+#0x101EA0,"assets//font.width_table"
 
 # Move graphics THGA Graphics Checks to account for increased PolyOpa space
 0x90708,3C1900030322C8219739E408

@@ -5,7 +5,7 @@
 "Draw2DScaled/code1.bin","../code.bin",0x64528,0xE0 
 "DrawChar/code1.bin","../code.bin",0x671F0,0xCF0 
 "Environment_FillScreen/code1.bin","../code.bin",0x51510,0x1D0 
-"HolTextDraw/code1.bin","../code.bin",0x64650,0x2BA0
+"TextOperation/code1.bin","../code.bin",0x64650,0x2BA0
 "IS64Print/code1.bin","../code.bin",0xCBEB0,0x4B0 
 "IS64PrintInit/code1.bin","../code.bin",0xC4E50,0xFC 
 "JumpToAnimInterp/code1.bin","../code.bin",0x79F18,0x480 
@@ -19,7 +19,7 @@
 "TextAdvance/code1.bin","../code.bin",0xC5070,0xC0 
 "TextAdvanceSilent/code1.bin","../code.bin",0xC6850,0x210 
 "TextboxPosition/code1.bin","../code.bin",0xC5748,0x204 
-"TextDraw/code1.bin","../code.bin",0xC7E54,0x1278 
+"Message_DrawText/code1.bin","../code.bin",0xC7E54,0x1278 
 "THGA_Init/code1.bin","../code.bin",0x90090,0x118 
 "ViModeConfigure/code1.bin","../code.bin",0x81E1C,0x5A8
 "PadMgr_UpdateRumble/code1.bin","../code.bin",0x91010,0x250 
@@ -28,3 +28,4 @@
 "MessageHandleSelection/code1.bin","../code.bin",0xC51F0,0x300 
 "LoadRuntimeFontChar/code1.bin","../code.bin",0xC54F0,0x258
 "Sram_WriteSave/code1.bin","../code.bin",0x7F534,0x14C
+"LoadHeaderedObject/code1.bin","../code.bin",0x5380C,0x3E4

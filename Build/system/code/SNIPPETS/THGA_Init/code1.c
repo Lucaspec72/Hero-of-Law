@@ -15,8 +15,9 @@ typedef struct {
                   u32 emulatorIndicator;                // 0x80198948 Wii/WiiU Check
                   OSPiHandle* sISVHandle;               // 0x8019894C is64Printf
                   u32 hzChoice;                         // 0x80198950 60/50hz 
-                  u32 tpakBeingUsed;                    // Set to 1 when the tpak actor is accessing stuff. 
-    /* 0x2E308 */ Gfx unusedBuffer[0x1E];               
+                  u32 tpakBeingUsed;                    // 0x80198954 Set to 1 when the tpak actor is accessing stuff. 
+                  u32 savingGfxCounter;                 // 0x80198958 Set when saving
+    /* 0x2E308 */ Gfx unusedBuffer[0x1D];               
     /* 0x2E408 */ u16 tailMagic; // GFXPOOL_TAIL_MAGIC
 } MyGfxPool; // size = 0x2E410
 

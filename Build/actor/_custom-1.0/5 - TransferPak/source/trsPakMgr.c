@@ -180,20 +180,13 @@ void TrsPakMgr_Draw(Actor* thisx, PlayState* play)
                 gbpakTitle, 
                 this->insertedGame);
                 
-    HoL_DrawMessageText(play, 
-                        &gfx, 
-                        (Color_RGB8){255, 255, 255}, 
-                        (Color_RGB8){0, 0, 0}, 
-                        255, 
-                        255, 
-                        buf, 
-                        5,
-                        24, 
-                        1, 
-                        1, 
-                        NULL, 
-                        65, 
-                        OPERATION_DRAW);         
+    TextOperation(play, NULL, &gfx, 
+                  COLOR_WHITE, COLOR_BLACK,
+                  255, 255, 
+                  buf, 
+                  5, 24, 
+                  1, 1, 
+                  NULL, 65, 65, 0, false, OPERATION_DRAW);         
                         
                         
     switch (this->insertedGame)
@@ -217,20 +210,13 @@ void TrsPakMgr_Draw(Actor* thisx, PlayState* play)
             char* tunics[] = {"Green", "Red", "Blue"};
             sprintf(buf, "Thief detected: %x, Slot: %x, Name: %s, Tunic: %s", data->thiefNum, data->slot, &data->ogName, tunics[data->tunicColor]);
 
-            HoL_DrawMessageText(play, 
-                                &gfx, 
-                                (Color_RGB8){255, 255, 255}, 
-                                (Color_RGB8){0, 0, 0}, 
-                                255, 
-                                255, 
-                                buf, 
-                                5,
-                                44, 
-                                1, 
-                                1, 
-                                NULL, 
-                                65, 
-                                OPERATION_DRAW);     
+            TextOperation(play, NULL, &gfx, 
+                          COLOR_WHITE, COLOR_BLACK,
+                          255, 255, 
+                          buf, 
+                          5, 44, 
+                          1, 1, 
+                          NULL, 65, 65, 0, false, OPERATION_DRAW);     
 
             break;                            
         }                     
@@ -245,20 +231,14 @@ void TrsPakMgr_Draw(Actor* thisx, PlayState* play)
         for (int i = 0; i < SRAM_PRINTOUT_SIZE / 4; i++)
         {
             sprintf(buf, "%08x", buff[i]);
-            HoL_DrawMessageText(play, 
-                                &gfx, 
-                                (Color_RGB8){255, 255, 255}, 
-                                (Color_RGB8){0, 0, 0}, 
-                                255, 
-                                255, 
-                                buf, 
-                                x,
-                                y, 
-                                1, 
-                                1, 
-                                NULL, 
-                                65, 
-                                OPERATION_DRAW);
+            
+            TextOperation(play, NULL, &gfx, 
+                          COLOR_WHITE, COLOR_BLACK,
+                          255, 255, 
+                          buf, 
+                          x, y, 
+                          1, 1, 
+                          NULL, 65, 65, 0, false, OPERATION_DRAW);             
                                 
             x += 64;
             
@@ -303,7 +283,7 @@ void ShowWaitMsg(Actor* thisx, PlayState* play)
     {
         this->msgEntry->settings = 0x12;
         Message_StartTextbox(play, DUMMY_MSG_ENTRY, NULL);
-        char* msg = waitMessage[MIN(SAVE_LANGUAGE, LANGUAGE_MAX - 1)];
+        char* msg = waitMessage[MIN(SAVE_LANGUAGE, HOL_LANGUAGE_MAX - 1)];
         bcopy(msg, play->msgCtx.font.msgBuf, strlen(msg));
     }    
 }

@@ -166,20 +166,13 @@ void BioSnsrMgr_Draw(Actor* thisx, PlayState* play)
         char* bufPulse = "9999";
         sprintf(bufPulse, "%d", this->bpm);            
                     
-        HoL_DrawMessageText(play, 
-                            &gfx, 
-                            (Color_RGB8){255, 255, 255}, 
-                            (Color_RGB8){0, 0, 0}, 
-                            this->alpha, 
-                            this->alpha, 
-                            bufPulse, 
-                            this->posX - (this->bpm >= 100 ? 9 : 6),
-                            this->posY - 23, 
-                            1, 
-                            1, 
-                            NULL, 
-                            65, 
-                            OPERATION_DRAW_SHADOW);                 
+        TextOperation(play, NULL, &gfx, 
+                      COLOR_WHITE, COLOR_BLACK,
+                      this->alpha, this->alpha, 
+                      bufPulse, 
+                      this->posX - (this->bpm >= 100 ? 9 : 6), this->posY - 23, 
+                      1, 1, 
+                      NULL, 65, 65, 0, false, OPERATION_DRAW);                                  
     }
    
           
@@ -197,20 +190,13 @@ void BioSnsrMgr_Draw(Actor* thisx, PlayState* play)
                     this->curbps,
                     beats[this->beat]);
         
-        HoL_DrawMessageText(play, 
-                            &gfx, 
-                            (Color_RGB8){255, 255, 255}, 
-                            (Color_RGB8){0, 0, 0}, 
-                            255, 
-                            255, 
-                            buf, 
-                            5,
-                            55, 
-                            1, 
-                            1, 
-                            NULL, 
-                            65, 
-                            OPERATION_DRAW);    
+        TextOperation(play, NULL, &gfx, 
+                      COLOR_WHITE, COLOR_BLACK,
+                      255, 255, 
+                      buf, 
+                      5, 55, 
+                      1, 1, 
+                      NULL, 65, 65, 0, false, OPERATION_DRAW);           
     #endif            
     
     gSPEndDisplayList(gfx++);

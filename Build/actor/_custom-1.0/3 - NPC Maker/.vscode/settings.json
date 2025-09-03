@@ -29,6 +29,7 @@
         "oot_10.h": "c",
         "z64hdr.h": "c",
         "init.h": "c",
-        "h_data.h": "c"
+        "h_data.h": "c",
+        "npc_maker_user.h": "c"
     },
 }

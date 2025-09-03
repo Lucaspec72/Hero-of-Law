@@ -54,11 +54,20 @@ void GameUI_Init(Actor* thisx, PlayState* play)
     this->guiAlpha = GUI_ALPHA_NONE;
     this->crAlpha = CR_ALPHA_NONE;
     
+    this->fullscreenGraphicId = -1;
+    this->fullscreenGraphicBuf = NULL;
+    
     this->msgBufCR = ZeldaArena_Malloc(200);
     this->arrowGraphic = ZeldaArena_Malloc(FONT_CHAR_TEX_SIZE);
     
     // Load the arrow graphic.
     DmaMgr_SendRequest1(this->arrowGraphic, (uintptr_t)MESSAGE_STATIC_VROM + 4 * MESSAGE_STATIC_TEX_SIZE + TEXTBOX_ICON_ARROW * FONT_CHAR_TEX_SIZE, FONT_CHAR_TEX_SIZE);    
+    
+    // Load the UI graphics
+    this->uiGraphics = LoadFromHeaderObject(OBJECT_UI, SAVE_LANGUAGE + BUTTONS_FILEID);
+    
+    if (this->uiGraphics == NULL)
+        this->uiGraphics = LoadFromHeaderObject(OBJECT_UI, BUTTONS_FILEID);
     
     this->msgLog = ZeldaArena_Malloc(MSG_LOG_SIZE * sizeof(LoggedMsg));
     
@@ -71,8 +80,8 @@ void GameUI_Init(Actor* thisx, PlayState* play)
     char* msglogd = (char*)this->msgLog;
     
     // Load message log from savefile
-    SsSram_ReadWrite(SRAM_BASE_ADDR + SLOT_OFFSET(2), buf, 16, OS_READ);
-    SsSram_ReadWrite(SRAM_BASE_ADDR + SLOT_OFFSET(2) + 16, this->msgLog, MSG_LOG_SIZE * sizeof(LoggedMsg), OS_READ);
+    SsSram_ReadWrite(SRAM_BASE_ADDR + SLOT_OFFSET(SAVE_SLOT_MSGLOG), buf, 16, OS_READ);
+    SsSram_ReadWrite(SRAM_BASE_ADDR + SLOT_OFFSET(SAVE_SLOT_MSGLOG) + 16, this->msgLog, MSG_LOG_SIZE * sizeof(LoggedMsg), OS_READ);
     
     bcopy(&buf, &saved_checksum, 4);
     bcopy(&buf[4], &msgLogPos, 4);    
@@ -106,14 +115,6 @@ void GameUI_Init(Actor* thisx, PlayState* play)
         this->msgLog[i].speakerId = -1;
     }
 #endif
-
-#ifdef USE_INTERNAL_BUFFER
-    for (int i = 0; i < NUM_BUFFERS; i++)
-    {
-        this->gfxBuffers[i] = ZeldaArena_Malloc(GRAPHICS_BUF_SIZE);
-        bzero(this->gfxBuffers[i], GRAPHICS_BUF_SIZE);
-    }
-#endif    
 }
 
 void GameUI_Destroy(Actor* thisx, PlayState* play)
@@ -142,19 +143,14 @@ void GameUI_Destroy(Actor* thisx, PlayState* play)
     header[3] = 0;
     
     // Write message log to save.
-    SsSram_ReadWrite(SRAM_BASE_ADDR + SLOT_OFFSET(2), &header, 16, OS_WRITE);
-    SsSram_ReadWrite(SRAM_BASE_ADDR + SLOT_OFFSET(2) + 16, this->msgLog, MSG_LOG_SIZE * sizeof(LoggedMsg), OS_WRITE);
+    SsSram_ReadWrite(SRAM_BASE_ADDR + SLOT_OFFSET(SAVE_SLOT_MSGLOG), &header, 16, OS_WRITE);
+    SsSram_ReadWrite(SRAM_BASE_ADDR + SLOT_OFFSET(SAVE_SLOT_MSGLOG) + 16, this->msgLog, MSG_LOG_SIZE * sizeof(LoggedMsg), OS_WRITE);
     
 #endif    
     
     ZeldaArena_Free(this->msgLog);
     ZeldaArena_Free(this->msgBufCR);
     ZeldaArena_Free(this->arrowGraphic);
-
-#ifdef USE_INTERNAL_BUFFER
-    for (int i = 0; i < NUM_BUFFERS; i++)
-        ZeldaArena_Free(this->gfxBuffers[i]);
-#endif   
 
     if (this->guiExplodeTextboxStatus != UIACTOR_EXPLOSION_IDLE)
     {
@@ -167,6 +163,12 @@ void GameUI_Destroy(Actor* thisx, PlayState* play)
         if (this->msgBufDecodedCopy)
             ZeldaArena_Free(this->msgBufDecodedCopy);
     }
+    
+    if (this->fullscreenGraphicBuf)
+        ZeldaArena_Free(this->fullscreenGraphicBuf);
+    
+    if (this->uiGraphics)
+        ZeldaArena_Free(this->uiGraphics);
 }
 
 void GameUI_Update(Actor* thisx, PlayState* play)
@@ -420,17 +422,10 @@ void GameUI_Draw(Actor* thisx, PlayState* play)
 {
     UIStruct* this = THIS;
 
-#ifdef USE_INTERNAL_BUFFER      
-    THGA_Init_New(&this->uiGraphics, this->gfxBuffers[this->bufCur], GRAPHICS_BUF_SIZE);
-    GraphicsContext* __gfxCtx = play->state.gfxCtx;
-    Gfx* gfxRef = this->uiGraphics.bufp;
-    Gfx* gfx = this->uiGraphics.bufp;    
-#else
     GraphicsContext* __gfxCtx = play->state.gfxCtx;
     Gfx* gfxRef = POLY_OPA_DISP;
     Gfx* gfx = Graph_GfxPlusOne(gfxRef);
-    gSPDisplayList(OVERLAY_DISP++, gfx);
-#endif    
+    gSPDisplayList(OVERLAY_DISP++, gfx); 
 
     if (this->guiCourtRecordStatus != UIACTOR_CR_IDLE)
         DrawCourtRecord(thisx, play, &gfx);
@@ -445,7 +440,14 @@ void GameUI_Draw(Actor* thisx, PlayState* play)
 
     if (this->guiExplodeTextboxStatus == UIACTOR_EXPLOSION_ONGOING)
     {
-        if (!DrawMessageTextIndividual(thisx, play, &gfx, explosionTextColor, 255))
+        bool exploding = TextOperation(play, NULL, &gfx, 
+                                       explosionTextColor, colorBlack, 
+                                       255, 255, 
+                                       this->msgBufDecodedCopy, 
+                                       0, 0, 0, 0, 
+                                       this->textDrawPositions, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_INDIVIDUAL_SHADOW);
+        
+        if (!exploding)
             this->guiExplodeTextboxStatus = UIACTOR_EXPLOSION_COMPLETE;
         else
         {
@@ -539,24 +541,16 @@ void GameUI_Draw(Actor* thisx, PlayState* play)
             {
                 this->VoiceM->turnedOff = false;
                 
-                char* msg = this->VoiceM->listening ? listeningMsg : micMsg;
+                char* msg = this->VoiceM->listening ? listeningMsg : micMsgs[LANG_INDEX];
                 int scale = 60;
                 int xpos = ROUNDBUTTON_R_POS_X + (SAVE_WIDESCREEN ? 50 : 0) + 12 + ((ROUNDBUTTON_XSIZE - GetTextPxWidth(msg, scale)) / 2) - ROUNDBUTTON_XSIZE / 2;
                 
-                HoL_DrawMessageText(play, 
-                                    &gfx, 
-                                    this->VoiceM->soundStatus == VOICE_STATUS_BUSY ? colorRed : colorWhite, 
-                                    colorBlack, 
-                                    255, 
-                                    255, 
-                                    msg, 
-                                    xpos, 
-                                    this->forcedPresent ? MIC_POS_Y - 20 : MIC_POS_Y, 
-                                    0, 
-                                    1, 
-                                    NULL, 
-                                    scale, 
-                                    OPERATION_DRAW_SHADOW);
+                TextOperation(play, NULL, &gfx, 
+                              this->VoiceM->soundStatus == VOICE_STATUS_BUSY ? colorRed : colorWhite, colorBlack, 
+                              255, 255, 
+                              msg, 
+                              xpos, this->forcedPresent ? MIC_POS_Y - 20 : MIC_POS_Y, 
+                              0, 1, NULL, scale, scale, 0, false, OPERATION_DRAW_SHADOW);
             }
         }
     }     
@@ -571,19 +565,9 @@ void GameUI_Draw(Actor* thisx, PlayState* play)
     DrawMessageText(thisx, play, &gfx, (Color_RGB8){255,255,255}, 255, s, 20, 20);
 */
 
-    
-#ifdef USE_INTERNAL_BUFFER
-    gSPEndDisplayList(gfx++); 
-    gSPDisplayList(OVERLAY_DISP++, gfxRef);
-    this->bufCur++;
-    
-    if (this->bufCur >= NUM_BUFFERS)
-        this->bufCur = 0;   
-#else    
     gSPEndDisplayList(gfx++);
     Graph_BranchDlist(gfxRef, gfx);
-    POLY_OPA_DISP = gfx;
-#endif      
+    POLY_OPA_DISP = gfx;    
 }
 
 Actor* GetActorByID(PlayState* playState, u16 ID)
@@ -761,21 +745,16 @@ void StoreMessageInLog(Actor* thisx, PlayState* play, char* data, int size, int 
     this->msgLog[this->msgLogRingBufferPos].msgChoice = -1;
 }
 
-void DrawMessageText(Actor* thisx, PlayState* play, Gfx** gfxp, Color_RGB8 Color, s16 alpha, char* msgData, int posX, int posY)
-{
-    HoL_DrawMessageText(play, gfxp, Color, Color, alpha, alpha, msgData, posX, posY, 0, 0, NULL, TEXT_SCALE, OPERATION_DRAW);
-}
-
-bool DrawMessageTextIndividual(Actor* thisx, PlayState* play, Gfx** gfxp, Color_RGB8 Color, s16 alpha)
-{
-    UIStruct* this = THIS;
-    return HoL_DrawMessageText(play, gfxp, Color, colorBlack, alpha, alpha, this->msgBufDecodedCopy, 0, 0, 0, 0, this->textDrawPositions, TEXT_SCALE, OPERATION_DRAW_INDIVIDUAL_SHADOW);
-}
-
 void GetMessageTextPositions(Actor* thisx, PlayState* play, char* msgData, int startPosX, int startPosY)
 {
     UIStruct* this = THIS;
-    HoL_DrawMessageText(play, NULL, colorBlack, colorBlack, 0, 0, msgData, startPosX, startPosY, 0, 0, this->textDrawPositions, TEXT_SCALE, OPERATION_SET_POSITIONS);
+    TextOperation(play, NULL, NULL, 
+                  colorBlack, colorBlack, 
+                  0, 0, 
+                  msgData, 
+                  startPosX, startPosY, 
+                  0, 0, 
+                  this->textDrawPositions, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_SET_POSITIONS);
 
     for (int i = 0; i < play->msgCtx.decodedTextLen; i++)
         this->textMovementVectors[i] = (Vec2s){Rand_S16Offset(-5, 10), Rand_S16Offset(2, 10)};
@@ -783,7 +762,13 @@ void GetMessageTextPositions(Actor* thisx, PlayState* play, char* msgData, int s
 
 int GetMessageTextYSize(Actor* thisx, PlayState* play, char* msgData)
 {
-    return HoL_DrawMessageText(play, NULL, colorBlack, colorBlack, 0, 0, msgData, 0, 0, 0, 0, NULL, TEXT_SCALE, OPERATION_EVALUATE_YSIZE);
+    return TextOperation(play, NULL, NULL, 
+                         colorBlack, colorBlack, 
+                         0, 0, 
+                         msgData, 
+                         0, 0, 
+                         0, 0, 
+                         NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_EVALUATE_YSIZE);
 }
 
 void DrawSpeakerIndicator(Actor* thisx, PlayState* play, Gfx** gfxp)
@@ -853,29 +838,23 @@ void DrawSpeakerIndicator(Actor* thisx, PlayState* play, Gfx** gfxp)
         s32 textPosX = textboxPosXActual + ((textboxWidthActual - GetTextPxWidth(this->speakerBuf, scaleX)) / 2);
         s32 textPosY = textboxPosY + textboxHeight - 14;
        
-        HoL_DrawMessageTextImpl(play, NULL, &gfx, 
-                                this->curSpeakerData->textColor, this->curSpeakerData->textShadowColor, 
-                                this->curSpeakerTextAlpha, this->curSpeakerTextAlpha, 
-                                this->speakerBuf, 
-                                textPosX, textPosY, 
-                                0, 1, 
-                                NULL, 
-                                scaleX, TEXT_SCALE, 0,
-                                true, OPERATION_DRAW_SHADOW);
+        TextOperation(play, NULL, &gfx, 
+                      this->curSpeakerData->textColor, this->curSpeakerData->textShadowColor, 
+                      this->curSpeakerTextAlpha, this->curSpeakerTextAlpha, 
+                      this->speakerBuf, 
+                      textPosX, textPosY, 
+                      0, 1, 
+                      NULL, 
+                      scaleX, TEXT_SCALE, 0,
+                      true, OPERATION_DRAW_SHADOW);
         
     }
     
     textboxPosY = (R_TEXTBOX_Y < 128) ? (R_TEXTBOX_Y + 64 - 10) : (R_TEXTBOX_Y - 18 + 10);
     
-    int logPosX = textboxPosX + 256 - 75;
-    
-    if (SAVE_WIDESCREEN)
-    {
-        logPosX *= WIDESCREEN_SCALEX;
-        logPosX += WIDESCREEN_OFFSX;     
-        logPosX += 8;
-    }
-    
+    char* logMsg = logMsgs[LANG_INDEX];
+    int logPosX = R_TEXTBOX_X + 256 - GetTextPxWidth(logMsg, TEXT_SCALE) - 8;
+  
     s16 historyBtnAlpha = 0;
     
     // If forced present is enabled, then alpha is 0
@@ -884,20 +863,14 @@ void DrawSpeakerIndicator(Actor* thisx, PlayState* play, Gfx** gfxp)
 
     if (this->guiEffective > 0 && (this->guiEffective <= GUI_PRESENT || this->guiEffective == GUI_CROSS_EXAMINATION))
     {
-        HoL_DrawMessageText(play, 
-                            &gfx, 
-                            colorWhite, 
-                            colorBlack, 
-                            historyBtnAlpha, 
-                            historyBtnAlpha, 
-                            logMsg, 
-                            logPosX + 12, 
-                            textboxPosY - 6, 
-                            1, 
-                            1, 
-                            NULL, 
-                            TEXT_SCALE, 
-                            OPERATION_DRAW_SHADOW);            
+        TextOperation(play, NULL, &gfx, 
+                      colorWhite, colorBlack, 
+                      historyBtnAlpha, historyBtnAlpha, 
+                      logMsg, 
+                      logPosX, textboxPosY - 6, 
+                      1, 1, 
+                      NULL, TEXT_SCALE, TEXT_SCALE, 0, 
+                      false, OPERATION_DRAW_SHADOW);            
         
     }  
 
@@ -1020,34 +993,36 @@ void DrawCourtRecord(Actor* thisx, PlayState* play, Gfx** gfxp)
         }
     }
     
-    HoL_DrawMessageTextImpl(play, NULL, &gfx,
-                            colorWhite, colorBlack, 
-                            this->crAlpha, this->crAlpha, 
-                            this->msgBufCR, 
-                            CR_TEXT_X, CR_TEXT_Y, 
-                            1, 1, 
-                            NULL, 
-                            TEXT_SCALE, GetTextScaleToFitY(this->msgBufCR, TEXT_SCALE, CR_TEXT_MAX_YSIZE), CR_TEXT_MAX_XSIZE, 
-                            false, OPERATION_DRAW_SHADOW);
+    TextOperation(play, NULL, &gfx,
+                  colorWhite, colorBlack, 
+                  this->crAlpha, this->crAlpha, 
+                  this->msgBufCR, 
+                  CR_TEXT_X, CR_TEXT_Y, 
+                  1, 1, NULL, 
+                  TEXT_SCALE, GetTextScaleToFitY(this->msgBufCR, TEXT_SCALE, CR_TEXT_MAX_YSIZE), CR_TEXT_MAX_XSIZE, 
+                  false, OPERATION_DRAW_SHADOW);
                         
                         
     if (this->guiCourtRecordShowingList)
     {
         if (this->guiCourtRecordListOnly != LIST_PROFILES)
-            Draw2D(CI8, OBJ_GRAPHICS_COMMON, play, &gfx, BARBUTTON_R_POS_X, BARBUTTON_POS_Y, (u8*)BUTTON_R_EVIDENCE_OFFSET + 0xA0, (u8*)BUTTON_R_EVIDENCE_OFFSET, BARBUTTON_XSIZE, BARBUTTON_YSIZE, this->crAlpha);       
+            Draw2DInternal(CI8, this->uiGraphics + BUTTON_R_EVIDENCE_OFFSET, this->uiGraphics, &gfx, 
+                            BARBUTTON_R_POS_X, BARBUTTON_POS_Y, BARBUTTON_XSIZE, BARBUTTON_YSIZE, BARBUTTON_XSIZE, BARBUTTON_YSIZE, this->crAlpha);                 
     }
     else
     {
         if (this->guiCourtRecordListOnly != LIST_EVIDENCE)
-            Draw2D(CI8, OBJ_GRAPHICS_COMMON, play, &gfx, BARBUTTON_R_POS_X, BARBUTTON_POS_Y, (u8*)BUTTON_R_PROFILES_OFFSET + 0xA0, (u8*)BUTTON_R_PROFILES_OFFSET, BARBUTTON_XSIZE, BARBUTTON_YSIZE, this->crAlpha);     
+            Draw2DInternal(CI8, this->uiGraphics + BUTTON_R_PROFILES_OFFSET, this->uiGraphics, &gfx, 
+                            BARBUTTON_R_POS_X, BARBUTTON_POS_Y, BARBUTTON_XSIZE, BARBUTTON_YSIZE, BARBUTTON_XSIZE, BARBUTTON_YSIZE, this->crAlpha);                 
     }
     
     if (this->guiCourtRecordMode == COURTRECORD_MODE_PRESENT)
-        Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_COMMON, play, &gfx, CUP_PRESENT_POS_X, CUP_PRESENT_POS_Y, (u8*)BUTTON_CUP_PRESENT_OFFSET + 0x1A8, (u8*)BUTTON_CUP_PRESENT_OFFSET, CUP_PRESENT_XSIZE, CUP_PRESENT_YSIZE, this->crAlpha);       
+        Draw2DInternal(CI8, this->uiGraphics + BUTTON_CUP_PRESENT_OFFSET, this->uiGraphics, &gfx, 
+                        CUP_PRESENT_POS_X, CUP_PRESENT_POS_Y, CUP_PRESENT_XSIZE, CUP_PRESENT_YSIZE, CUP_PRESENT_XSIZE, CUP_PRESENT_YSIZE, this->crAlpha);            
          
     if (!this->forcedPresent)
-        Draw2D(CI8, OBJ_GRAPHICS_COMMON, play, &gfx, BARBUTTON_L_POS_X, BARBUTTON_POS_Y, (u8*)BUTTON_B_CLOSE_OFFSET + 0xA0, (u8*)BUTTON_B_CLOSE_OFFSET, BARBUTTON_XSIZE, BARBUTTON_YSIZE, 
-        this->crAlpha);
+        Draw2DInternal(CI8, this->uiGraphics + BUTTON_B_CLOSE_OFFSET, this->uiGraphics, &gfx, 
+                       BARBUTTON_L_POS_X, BARBUTTON_POS_Y, BARBUTTON_XSIZE, BARBUTTON_YSIZE, BARBUTTON_XSIZE, BARBUTTON_YSIZE, this->crAlpha);
                                  
 
     *gfxp = gfx;
@@ -1069,12 +1044,39 @@ void DrawSubtitle(Actor* thisx, PlayState* play, Gfx** gfxp)
     Gfx_SetupDL_39Ptr(&gfx);
     gDPPipeSync(gfx++);
   
-    HoL_DrawMessageText(play, &gfx, colorWhite, colorBlack, 255, 255, 
-                        msg, 
-                        TEXT_POS_X, TEXT_POS_Y, 0, 1, 
-                        NULL, TEXT_SCALE, OPERATION_DRAW_SHADOW);
+    TextOperation(play, NULL, &gfx, 
+                  colorWhite, colorBlack, 
+                  255, 255, 
+                  msg, 
+                  TEXT_POS_X, TEXT_POS_Y, 
+                  0, 1, 
+                  NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_SHADOW);
 
     *gfxp = gfx;
+}
+
+bool checkLoadFullScreenGraphic(Actor* thisx, int fileId, bool localized)
+{
+    UIStruct* this = THIS;
+    
+    int localizedFileId = fileId + (localized ? LANG_INDEX : 0);
+    
+    if (this->fullscreenGraphicBuf == NULL || this->fullscreenGraphicId != localizedFileId)
+    {
+        if (this->fullscreenGraphicBuf != NULL)
+            ZeldaArena_Free(this->fullscreenGraphicBuf);
+        
+        this->fullscreenGraphicId = localizedFileId;
+        this->fullscreenGraphicBuf = LoadFromHeaderObject(OBJECT_UI, localizedFileId);     
+
+        // If the localized file ID is not present, load the english one (which should always be there!!)
+        if (localized && this->fullscreenGraphicBuf == NULL)
+            this->fullscreenGraphicBuf = LoadFromHeaderObject(OBJECT_UI, fileId); 
+        
+        return false;
+    }
+    else
+        return true;
 }
 
 void DrawUIElements(Actor* thisx, PlayState* play, Gfx** gfxp)
@@ -1087,35 +1089,47 @@ void DrawUIElements(Actor* thisx, PlayState* play, Gfx** gfxp)
         case GUI_NONE: break;
         case GUI_INVESTIGATION:
         {
-            Draw2D((SAVE_WIDESCREEN ? CI4_Setup39 : CI4), OBJ_GRAPHICS_COMMON, play, &gfx, ROUNDBUTTON_R_POS_X + (SAVE_WIDESCREEN ? 50 : 0), ROUNDBUTTON_R_POS_Y, (u8*)BUTTON_R_COURTRECORD_OFFSET + 0x20, (u8*)BUTTON_R_COURTRECORD_OFFSET, ROUNDBUTTON_XSIZE, ROUNDBUTTON_YSIZE, this->guiAlpha);
+            Draw2DInternal(CI8, this->uiGraphics + BUTTON_R_COURTRECORD_OFFSET, this->uiGraphics, &gfx, 
+                            ROUNDBUTTON_R_POS_X + (SAVE_WIDESCREEN ? 50 : 0), ROUNDBUTTON_R_POS_Y, ROUNDBUTTON_XSIZE, ROUNDBUTTON_YSIZE, ROUNDBUTTON_XSIZE, ROUNDBUTTON_YSIZE, this->guiAlpha);               
             break;
         }
         case GUI_PHOTO_EVIDENCE:
         {
-            Draw2D(CI8, OBJ_GRAPHICS_COMMON, play, &gfx, BARBUTTON_PHOTO_POS_X, BARBUTTON_PHOTO_POS_Y, (u8*)BUTTON_B_CLOSE_IND_OFFSET + 0xA0, (u8*)BUTTON_B_CLOSE_IND_OFFSET, BARBUTTON_XSIZE, BARBUTTON_YSIZE, this->guiAlpha);
+            Draw2DInternal(CI8, this->uiGraphics + BUTTON_B_CLOSE_IND_OFFSET, this->uiGraphics, &gfx, 
+                           BARBUTTON_PHOTO_POS_X, BARBUTTON_PHOTO_POS_Y, BARBUTTON_XSIZE, BARBUTTON_YSIZE, BARBUTTON_XSIZE, BARBUTTON_YSIZE, this->guiAlpha);             
             FALLTHROUGH;
         }
         case GUI_PHOTO:
         {
-            // Drawn twice on purpose so that models underneath don't peek through
-            Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_CASE1, play, &gfx, PHOTO_POS_X, PHOTO_POS_Y, (u8*)PHOTO_OFFSET + 0x1F8, (u8*)PHOTO_OFFSET, PHOTO_XSIZE, PHOTO_YSIZE, this->guiAlpha);
-            Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_CASE1, play, &gfx, PHOTO_POS_X, PHOTO_POS_Y, (u8*)PHOTO_OFFSET + 0x1F8, (u8*)PHOTO_OFFSET, PHOTO_XSIZE, PHOTO_YSIZE, this->guiAlpha);
+            if (checkLoadFullScreenGraphic(thisx, MALON_PICT_FILEID, false))
+            {
+                // Drawn twice on purpose.
+                Draw2DInternal((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), this->fullscreenGraphicBuf + 0x200, this->fullscreenGraphicBuf, &gfx, 
+                               PHOTO_POS_X, PHOTO_POS_Y, PHOTO_XSIZE, PHOTO_YSIZE, PHOTO_XSIZE, PHOTO_YSIZE, this->guiAlpha);   
+                Draw2DInternal((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), this->fullscreenGraphicBuf + 0x200, this->fullscreenGraphicBuf, &gfx, 
+                               PHOTO_POS_X, PHOTO_POS_Y, PHOTO_XSIZE, PHOTO_YSIZE, PHOTO_XSIZE, PHOTO_YSIZE, this->guiAlpha);                   
+            }                
+            
             break;
         }
         case GUI_CROSS_EXAMINATION:
         {
-            Draw2D((SAVE_WIDESCREEN ? CI4_Setup39 : CI4), OBJ_GRAPHICS_COMMON, play, &gfx, ROUNDBUTTON_R_POS_X + (SAVE_WIDESCREEN ? 50 : 0), ROUNDBUTTON_R_POS_Y, (u8*)BUTTON_R_COURTRECORD_OFFSET + 0x20, (u8*)BUTTON_R_COURTRECORD_OFFSET, ROUNDBUTTON_XSIZE, ROUNDBUTTON_YSIZE, this->guiAlpha);
-            Draw2D((SAVE_WIDESCREEN ? CI4_Setup39 : CI4), OBJ_GRAPHICS_COMMON, play, &gfx, ROUNDBUTTON_L_POS_X - (SAVE_WIDESCREEN ? 50 : 0), ROUNDBUTTON_L_POS_Y, (u8*)BUTTON_L_PRESS_OFFSET + 0x20, (u8*)BUTTON_L_PRESS_OFFSET, ROUNDBUTTON_XSIZE, ROUNDBUTTON_YSIZE, this->guiAlpha);
+            Draw2DInternal(CI8, this->uiGraphics + BUTTON_R_COURTRECORD_OFFSET, this->uiGraphics, &gfx, 
+                            ROUNDBUTTON_R_POS_X + (SAVE_WIDESCREEN ? 50 : 0), ROUNDBUTTON_R_POS_Y, ROUNDBUTTON_XSIZE, ROUNDBUTTON_YSIZE, ROUNDBUTTON_XSIZE, ROUNDBUTTON_YSIZE, this->guiAlpha);            
+            
+            Draw2DInternal(CI8, this->uiGraphics + BUTTON_L_PRESS_OFFSET, this->uiGraphics, &gfx, 
+                            ROUNDBUTTON_L_POS_X - (SAVE_WIDESCREEN ? 50 : 0), ROUNDBUTTON_L_POS_Y, ROUNDBUTTON_XSIZE, ROUNDBUTTON_YSIZE, ROUNDBUTTON_XSIZE, ROUNDBUTTON_YSIZE, this->guiAlpha);
+            
             
             if (this->guiShowConsult)
-                Draw2D(CI8, OBJ_GRAPHICS_COMMON, play, &gfx, CONSULT_BUTTON_POSX, CONSULT_BUTTON_POSY, (u8*)BUTTON_CONSULT_OFFSET + 0xF8, (u8*)BUTTON_CONSULT_OFFSET, BARBUTTON_XSIZE, BARBUTTON_YSIZE, this->guiAlpha);
+                Draw2DInternal(CI8, this->uiGraphics + BUTTON_CONSULT_OFFSET, this->uiGraphics, &gfx, 
+                                CONSULT_BUTTON_POSX, CONSULT_BUTTON_POSY, BARBUTTON_XSIZE, BARBUTTON_YSIZE, BARBUTTON_XSIZE, BARBUTTON_YSIZE, this->guiAlpha);                
 
             break;
         }
         case GUI_CASE2PIC:
         {
             Environment_FillScreen(play->state.gfxCtx, 0, 0, 0, (s16)this->guiAlpha, FILL_SCREEN_XLU);
-            
             Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_COMMON, play, &gfx, CASE2_PICPART1_XPOS, CASE2_PICPART1_YPOS, (u8*)CASE2_PICPART1 + 0x88, (u8*)CASE2_PICPART1, CASE2_PICPART1X, CASE2_PICPART1Y, this->guiAlpha);
             Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_COMMON, play, &gfx, CASE2_PICPART2_XPOS, CASE2_PICPART2_YPOS, (u8*)CASE2_PICPART2 + 0x88, (u8*)CASE2_PICPART2, CASE2_PICPART2X, CASE2_PICPART2Y, this->guiAlpha);
             Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_COMMON, play, &gfx, CASE2_PICPART3_XPOS, CASE2_PICPART3_YPOS, (u8*)CASE2_PICPART3 + 0x88, (u8*)CASE2_PICPART3, CASE2_PICPART3X, CASE2_PICPART3Y, this->guiAlpha);
@@ -1126,31 +1140,47 @@ void DrawUIElements(Actor* thisx, PlayState* play, Gfx** gfxp)
         {
             Environment_FillScreen(play->state.gfxCtx, 0, 0, 0, (s16)this->guiAlpha, FILL_SCREEN_XLU);
             
-            Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_CASE1, play, &gfx, INVENTORY_PART1_XPOS, INVENTORY_PART1_YPOS, (u8*)INVENTORY_PART1 + 0x200, (u8*)INVENTORY_PART1, INVENTORY_PART1X, INVENTORY_PART1Y, this->guiAlpha);
-            Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_CASE1, play, &gfx, INVENTORY_PART2_XPOS, INVENTORY_PART2_YPOS, (u8*)INVENTORY_PART2 + 0x200, (u8*)INVENTORY_PART2, INVENTORY_PART2X, INVENTORY_PART2Y, this->guiAlpha);
-            Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_CASE1, play, &gfx, INVENTORY_PART3_XPOS, INVENTORY_PART3_YPOS, (u8*)INVENTORY_PART3 + 0x200, (u8*)INVENTORY_PART3, INVENTORY_PART3X, INVENTORY_PART3Y, this->guiAlpha);
+            if (checkLoadFullScreenGraphic(thisx, INVENTORY_FILEID, true))
+            {            
+                Draw2DInternal((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), this->fullscreenGraphicBuf + 0x200, this->fullscreenGraphicBuf, &gfx, 
+                               SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_WIDTH, SCREEN_HEIGHT, this->guiAlpha);
 
-            if (this->guiEffective == GUI_INVENTORY_EVIDENCE)
-                Draw2D(CI8, OBJ_GRAPHICS_COMMON, play, &gfx, BARBUTTON_INVENTORY_POS_X, BARBUTTON_INVENTORY_POS_Y, (u8*)BUTTON_B_CLOSE_IND_OFFSET + 0xA0, (u8*)BUTTON_B_CLOSE_IND_OFFSET, BARBUTTON_XSIZE, BARBUTTON_YSIZE, this->guiAlpha);
-
+                if (this->guiEffective == GUI_INVENTORY_EVIDENCE)
+                    Draw2DInternal((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), this->uiGraphics + BUTTON_B_CLOSE_IND_OFFSET, this->uiGraphics, &gfx, 
+                                    BARBUTTON_INVENTORY_POS_X, BARBUTTON_INVENTORY_POS_Y, BARBUTTON_XSIZE, BARBUTTON_YSIZE, BARBUTTON_XSIZE, BARBUTTON_YSIZE, this->guiAlpha);   
+            }                                
+                                
             break;
         }
         case GUI_CRATES:
         {
             Environment_FillScreen(play->state.gfxCtx, 0, 0, 0, (s16)this->guiAlpha, FILL_SCREEN_XLU);
             
-            Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_CASE1, play, &gfx, CRATES_PART1_XPOS, CRATES_PART1_YPOS, (u8*)CRATES_PART1 + 0x200, (u8*)CRATES_PART1, CRATES_PART1X, CRATES_PART1Y, this->guiAlpha);
-            Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_CASE1, play, &gfx, CRATES_PART2_XPOS, CRATES_PART2_YPOS, (u8*)CRATES_PART2 + 0x200, (u8*)CRATES_PART2, CRATES_PART2X, CRATES_PART2Y, this->guiAlpha);
-            Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_CASE1, play, &gfx, CRATES_PART3_XPOS, CRATES_PART3_YPOS, (u8*)CRATES_PART3 + 0x200, (u8*)CRATES_PART3, CRATES_PART3X, CRATES_PART3Y, this->guiAlpha);
+            if (checkLoadFullScreenGraphic(thisx, SHIPMENT_FILEID, false))
+            {            
+                Draw2DInternal((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), this->fullscreenGraphicBuf + 0x200, this->fullscreenGraphicBuf, &gfx, 
+                               SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_WIDTH, SCREEN_HEIGHT, this->guiAlpha);
+
+                if (this->guiEffective == GUI_INVENTORY_EVIDENCE)
+                    Draw2DInternal((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), this->uiGraphics + BUTTON_B_CLOSE_IND_OFFSET, this->uiGraphics, &gfx, 
+                                    BARBUTTON_INVENTORY_POS_X, BARBUTTON_INVENTORY_POS_Y, BARBUTTON_XSIZE, BARBUTTON_YSIZE, BARBUTTON_XSIZE, BARBUTTON_YSIZE, this->guiAlpha);   
+            }              
             break;
         }
         case GUI_SHOPLIST:
         case GUI_SHOPLIST_EVIDENCE:
         {
-            Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_CASE1, play, &gfx, SHOP_LIST_POS_X, SHOP_LIST_POS_Y, (u8*)SHOP_LIST + 0x1F8, (u8*)SHOP_LIST, SHOP_LIST_XSIZE, SHOP_LIST_YSIZE, this->guiAlpha);
+            if (checkLoadFullScreenGraphic(thisx, TOOLSHOPLIST_FILEID, true))
+            {            
+                Draw2DInternal((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), this->fullscreenGraphicBuf + 0x200, this->fullscreenGraphicBuf, &gfx, 
+                               SHOP_LIST_POS_X, SHOP_LIST_POS_Y, SHOP_LIST_XSIZE, SHOP_LIST_YSIZE, SHOP_LIST_XSIZE, SHOP_LIST_YSIZE, this->guiAlpha);
+
+                if (this->guiEffective == GUI_SHOPLIST_EVIDENCE)
+                    Draw2DInternal(CI8, this->uiGraphics + BUTTON_B_CLOSE_IND_OFFSET, this->uiGraphics, &gfx, 
+                                    BARBUTTON_INVENTORY_POS_X, BARBUTTON_INVENTORY_POS_Y, BARBUTTON_XSIZE, BARBUTTON_YSIZE, BARBUTTON_XSIZE, BARBUTTON_YSIZE, this->guiAlpha);    
+            }
             
-            if (this->guiEffective == GUI_SHOPLIST_EVIDENCE)
-                Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_COMMON, play, &gfx, BARBUTTON_INVENTORY_POS_X, BARBUTTON_INVENTORY_POS_Y, (u8*)BUTTON_B_CLOSE_IND_OFFSET + 0xA0, (u8*)BUTTON_B_CLOSE_IND_OFFSET, BARBUTTON_XSIZE, BARBUTTON_YSIZE, this->guiAlpha);
+            break;
         }
     }
 
@@ -1252,20 +1282,14 @@ void DrawMsgLogTriforce(PlayState* play, Gfx** gfxp, int yPos)
     Gfx* gfx = *gfxp;    
     
     Draw2DScaled(CI8_Setup39, OBJ_GRAPHICS_COMMON, play, &gfx, SCREEN_WIDTH / 2, yPos + 8, (u8*)MSGLOG_TRIFORCE_OFFSET + 0x130, (u8*)MSGLOG_TRIFORCE_OFFSET, MSGLOG_TRIFORCE_X, MSGLOG_TRIFORCE_Y, 18, 18, 255);
-    HoL_DrawMessageText(play, 
-                        &gfx, 
-                        msgLogEndColor, 
-                        colorBlack, 
-                        255, 
-                        255, 
-                        msgLogEnd, 
-                        GetStringCenterX(msgLogEnd, TEXT_SCALE), 
-                        yPos, 
-                        0, 
-                        1, 
-                        NULL, 
-                        TEXT_SCALE, 
-                        OPERATION_DRAW_SHADOW);
+    TextOperation(play, NULL, &gfx, 
+                  msgLogEndColor, colorBlack, 
+                  255, 255, 
+                  msgLogEnd, 
+                  GetStringCenterX(msgLogEnd, TEXT_SCALE), 
+                  yPos, 
+                  0, 1, 
+                  NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_SHADOW);
     
     *gfxp = gfx;
 }
@@ -1320,20 +1344,14 @@ void DrawMsgLog(Actor* thisx, PlayState* play, Gfx** gfxp)
                         nameBuffer[z + 1] = 0x0;
 
                         // Draw speaker name
-                        HoL_DrawMessageText(play, 
-                                            &gfx, 
-                                            msgLogSpeakerNameColor, 
-                                            colorBlack, 
-                                            255, 
-                                            255, 
-                                            nameBuffer, 
-                                            TextPosXName, 
-                                            TextPosYName + this->msgLogPosition, 
-                                            0, 
-                                            1, 
-                                            NULL, 
-                                            TEXT_SCALE, 
-                                            OPERATION_DRAW_SHADOW);
+                        TextOperation(play, NULL, &gfx, 
+                                      msgLogSpeakerNameColor, colorBlack, 
+                                      255, 255, 
+                                      nameBuffer, 
+                                      TextPosXName, 
+                                      TextPosYName + this->msgLogPosition, 
+                                      0, 1, 
+                                      NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_SHADOW);
                     }
                     else
                         displaySpeaker = false;
@@ -1344,20 +1362,14 @@ void DrawMsgLog(Actor* thisx, PlayState* play, Gfx** gfxp)
                 else
                 {
                     // Draw message text
-                    HoL_DrawMessageText(play, 
-                                        &gfx, 
-                                        colorWhite, 
-                                        colorBlack, 
-                                        255, 
-                                        255, 
-                                        this->msgLog[f].message, 
-                                        TexPosX, 
-                                        TexPosY + this->msgLogPosition, 
-                                        0, 
-                                        1, 
-                                        NULL, 
-                                        TEXT_SCALE, 
-                                        OPERATION_DRAW_SHADOW);
+                    TextOperation(play, NULL, &gfx, 
+                                  colorWhite, colorBlack, 
+                                  255, 255, 
+                                  this->msgLog[f].message, 
+                                  TexPosX, 
+                                  TexPosY + this->msgLogPosition, 
+                                  0, 1, 
+                                  NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_SHADOW);
                     
                     // Print arrow at selected message 
                     int msgChoice = this->msgLog[f].msgChoice;

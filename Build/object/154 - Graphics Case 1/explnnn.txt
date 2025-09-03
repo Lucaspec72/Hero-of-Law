@@ -1,8 +1,0 @@
-0x0000 Malon's Pictograph (+0x1F8)
-0x6468 Inventory Part 1 128x240 (+0x200)
-0xDE68 Inventory Part 2 128x240 (+0x200)
-0x15868 Inventory Part 3 64x240 (+0x200)
-0x1D268 Crates Part 1 128x240 (+0x200)
-0x24C68 Crates Part 1 128x240 (+0x200)
-0x2C668 Crates Part 1 64x240 (+0x200)
-0x30468 Evidence List 192x167 (+0x200)

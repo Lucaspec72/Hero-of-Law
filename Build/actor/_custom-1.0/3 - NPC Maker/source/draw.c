@@ -278,12 +278,16 @@ void Draw_ExtDListInt(NpcMaker *en, PlayState* playState, ExDListEntry* dList, G
     #endif 
 
     s32 object = R_OBJECT(en, dList->objectId);
-    u32 dListOffset = object == OBJECT_RAM ? dList->offset : OFFSET_ADDRESS(6, dList->offset);
+    u32 dListOffset = OFFSET_ADDRESS(6, dList->offset);
 	
     switch (object)
     {
         case OBJECT_NONE: return;
-        case OBJECT_RAM: break;
+        case OBJECT_RAM:
+        {
+            gSPSegment((*gfxP)++, 6, dList->fileStart);
+            break;
+        }
         default:
         {
             // Setting segment 6 if object is different to the currently loaded object...
@@ -761,7 +765,7 @@ void Draw_Model(NpcMaker* en, PlayState* playState)
     Draw_Setup(en, playState, dT);
 
     // Reset the file location to account for the file start offset.
-    if (1)
+    if (en->settings.objectId > 0)
     {
         Rom_SetObjectToActor(&en->actor, playState, en->settings.objectId, en->settings.fileStart);
         gSPSegment(POLY_XLU.p++, 0x06, playState->objectCtx.status[en->actor.objBankIndex].segment + en->settings.fileStart);

@@ -1,3 +1,0 @@
-allocation   0x0000
-vram         0x809CAC90
-ivar         0x809CADF0

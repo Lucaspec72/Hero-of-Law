@@ -1,4 +1,0 @@
-init         0x80812394
-dest         0x80812388
-size         0x0001CAD0
-vram         0x80803880

@@ -1,3 +1,0 @@
-allocation   0x0001
-vram         0x8095BA90
-ivar         0x8095C110

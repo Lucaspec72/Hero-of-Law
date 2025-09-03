@@ -1,3 +1,0 @@
-allocation   0x0000
-vram         0x8096D610
-ivar         0x8096E3A0

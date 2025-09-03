@@ -12,25 +12,57 @@
 #include "../../4 - Voice/include/voicemgr.h"
 #include "structs.h"
 
-#ifndef MAX
-    #define MAX(a, b) ((a) > (b) ? (a) : (b))
-#endif
+// =============== UI ====================
 
-#ifndef MIN
-    #define MIN(a, b) ((a) < (b) ? (a) : (b))
-#endif
+#define BUTTON_B_CLOSE_OFFSET 0x200
+#define BUTTON_B_CLOSE_IND_OFFSET 0x800
+#define BUTTON_CONSULT_OFFSET 0xE00
+#define BUTTON_R_EVIDENCE_OFFSET 0x1400
+#define BUTTON_R_PROFILES_OFFSET 0x1A00
+#define BUTTON_CUP_PRESENT_OFFSET 0x2000
+#define BUTTON_L_PRESS_OFFSET 0x2F00
+#define BUTTON_R_COURTRECORD_OFFSET 0x3E00
 
-#define G_IM_SIZ_16b_BYTES      4
-#define G_IM_SIZ_16b_TILE_BYTES 2
-#define G_IM_SIZ_16b_LINE_BYTES 2
-#define G_TEXTURE_IMAGE_FRAC    2
-#define G_TEXTURE_SCALE_FRAC    16
+#define ROUNDBUTTON_XSIZE 96
+#define ROUNDBUTTON_YSIZE 40
 
-#define G_IM_SIZ_32b_BYTES      4
-#define G_IM_SIZ_32b_TILE_BYTES 2
-#define G_IM_SIZ_32b_LINE_BYTES 2
-#define G_TEXTURE_IMAGE_FRAC    2
-#define G_TEXTURE_SCALE_FRAC    16
+#define ROUNDBUTTON_R_POS_X SCREEN_WIDTH - (ROUNDBUTTON_XSIZE / 2) - 20
+#define ROUNDBUTTON_R_POS_Y 30
+#define ROUNDBUTTON_L_POS_X (ROUNDBUTTON_XSIZE / 2) + 20
+#define ROUNDBUTTON_L_POS_Y 30
+
+#define BARBUTTON_XSIZE 96
+#define BARBUTTON_YSIZE 16
+#define CONSULT_BUTTON_POSX (SCREEN_WIDTH / 2)
+#define CONSULT_BUTTON_POSY 24
+
+#define BARBUTTON_L_POS_X CR_BASE_POSX - (CR_BASE_X / 2) + (BARBUTTON_XSIZE / 2)
+#define BARBUTTON_R_POS_X CR_BASE_POSX + (CR_BASE_X / 2) - (BARBUTTON_XSIZE / 2)
+#define BARBUTTON_POS_Y CR_BASE_POSY + (CR_BASE_Y / 2) + 10
+
+#define BARBUTTON_INVENTORY_POS_X SCREEN_WIDTH / 2
+#define BARBUTTON_INVENTORY_POS_Y SCREEN_HEIGHT - (BARBUTTON_YSIZE  / 2) - 10
+
+#define CUP_PRESENT_XSIZE 96
+#define CUP_PRESENT_YSIZE 40
+#define CUP_PRESENT_POS_X SCREEN_WIDTH / 2
+#define CUP_PRESENT_POS_Y CR_BASE_POSY - CR_BASE_Y / 2 - 8
+
+#define PHOTO_XSIZE 180
+#define PHOTO_YSIZE 140
+#define PHOTO_POS_X SCREEN_WIDTH / 2
+#define PHOTO_POS_Y 100
+
+#define SHOP_LIST_XSIZE 192
+#define SHOP_LIST_YSIZE 167
+#define SHOP_LIST_POS_X (SCREEN_WIDTH / 2)
+#define SHOP_LIST_POS_Y (SCREEN_HEIGHT / 2)
+
+#define MALON_PICT_FILEID 0
+#define SHIPMENT_FILEID 1
+#define BUTTONS_FILEID 30
+#define INVENTORY_FILEID 40
+#define TOOLSHOPLIST_FILEID 50
 
 //=============== OBJ_GRAPHICS_COMMON ========================
 
@@ -40,16 +72,8 @@
 #define CR_LIGHTSLOT_OFFSET 0x38A0
 #define CR_DARKSLOT_OFFSET 0x3930
 
-#define BUTTON_B_CLOSE_OFFSET 0x39B8
-#define BUTTON_R_EVIDENCE_OFFSET 0x3E58
-#define BUTTON_R_PROFILES_OFFSET 0x42F8
-#define LARROW_OFFSET 0x4798
-#define RARROW_OFFSET 0x4838
-#define BUTTON_R_COURTRECORD_OFFSET 0x48D8
-#define BUTTON_L_PRESS_OFFSET 0x4D98
-#define BUTTON_CUP_PRESENT_OFFSET 0x5258
-#define BUTTON_B_CLOSE_IND_OFFSET 0x5D00
-#define BUTTON_CONSULT_OFFSET 0x61A0
+#define LARROW_OFFSET 0x39B8
+#define RARROW_OFFSET 0x3A58
 
 #define HEARTS_OFFSET 0x6698
 #define HEARTS_DAMAGE_OFFSET 0x6810
@@ -63,37 +87,7 @@
 #define CASE2_PICPART2 0xF720
 #define CASE2_PICPART3 0x16FA8
 
-//================ OBJ_GRAPHICS_CASE1 =======================
-
-#define PHOTO_OFFSET 0x0
-#define INVENTORY_PART1 0x6468
-#define INVENTORY_PART2 0xDE68
-#define INVENTORY_PART3 0x15868
-#define CRATES_PART1 0x1D268
-#define CRATES_PART2 0x24C68
-#define CRATES_PART3 0x2C668
-#define SHOP_LIST 0x30468
-
 //===========================================================
-
-#define SHOP_LIST_XSIZE 192
-#define SHOP_LIST_YSIZE 167
-#define SHOP_LIST_POS_X (SCREEN_WIDTH / 2)
-#define SHOP_LIST_POS_Y (SCREEN_HEIGHT / 2)
-
-#define BARBUTTON_XSIZE 64
-#define BARBUTTON_YSIZE 16
-#define CONSULT_BUTTON_POSX (SCREEN_WIDTH / 2)
-#define CONSULT_BUTTON_POSY 24
-
-#define BARBUTTON_L_POS_X 64
-#define BARBUTTON_R_POS_X 254
-#define BARBUTTON_POS_Y CR_BASE_POSY + (CR_BASE_Y / 2) + 10
-
-#define PHOTO_XSIZE 180
-#define PHOTO_YSIZE 140
-#define PHOTO_POS_X SCREEN_WIDTH / 2
-#define PHOTO_POS_Y 100
 
 #define BARBUTTON_PHOTO_POS_X PHOTO_POS_X
 #define BARBUTTON_PHOTO_POS_Y PHOTO_POS_Y + PHOTO_YSIZE/2 + 8
@@ -109,25 +103,11 @@
 #define ARROW_R_POS_X_COURTRECORD CR_BASE_POSX + 120
 #define ARROW_POS_Y_COURTRECORD CR_BASE_POSY + 33
 
-#define ROUNDBUTTON_XSIZE 64
-#define ROUNDBUTTON_YSIZE 37
-
-#define ROUNDBUTTON_R_POS_X SCREEN_WIDTH - (ROUNDBUTTON_XSIZE / 2) - 20
-#define ROUNDBUTTON_R_POS_Y 30
-#define ROUNDBUTTON_L_POS_X (ROUNDBUTTON_XSIZE / 2) + 20
-#define ROUNDBUTTON_L_POS_Y 30
-
 #define MIC_POS_X ROUNDBUTTON_R_POS_X
 #define MIC_POS_Y ROUNDBUTTON_R_POS_Y + (ROUNDBUTTON_YSIZE / 2) + 8
 
 #define HISTORY_POS_X ROUNDBUTTON_R_POS_X
 #define HISTORY_POS_Y ROUNDBUTTON_R_POS_Y + (ROUNDBUTTON_YSIZE / 2) + 8
-
-
-#define CUP_PRESENT_XSIZE 48
-#define CUP_PRESENT_YSIZE 48
-#define CUP_PRESENT_POS_X SCREEN_WIDTH / 2
-#define CUP_PRESENT_POS_Y CR_BASE_POSY - CR_BASE_Y / 2 - 8
 
 #define HEARTS_DAMAGE_SIZE 0x100
 #define HEARTS_POS_DEFAULT -105 + (16 * (5 - gSaveContext.healthCapacity))
@@ -166,39 +146,6 @@
 
 #define CASE2_PICPART3_XPOS 256 + (64 / 2)
 #define CASE2_PICPART3_YPOS SCREEN_HEIGHT / 2
-
-#define INVENTORY_PART1X 128
-#define INVENTORY_PART1Y 240
-#define INVENTORY_PART1_XPOS INVENTORY_PART1X / 2
-#define INVENTORY_PART1_YPOS INVENTORY_PART1Y / 2
-
-#define INVENTORY_PART2X 128
-#define INVENTORY_PART2Y 240
-#define INVENTORY_PART2_XPOS INVENTORY_PART1X + (INVENTORY_PART2X / 2)
-#define INVENTORY_PART2_YPOS INVENTORY_PART2Y / 2
-
-#define INVENTORY_PART3X 64
-#define INVENTORY_PART3Y 240
-#define INVENTORY_PART3_XPOS INVENTORY_PART1X + INVENTORY_PART2X + (INVENTORY_PART3X / 2)
-#define INVENTORY_PART3_YPOS INVENTORY_PART3Y / 2
-
-#define BARBUTTON_INVENTORY_POS_X SCREEN_WIDTH / 2
-#define BARBUTTON_INVENTORY_POS_Y SCREEN_HEIGHT - (BARBUTTON_YSIZE  / 2) - 10
-
-#define CRATES_PART1X 128
-#define CRATES_PART1Y 240
-#define CRATES_PART1_XPOS CRATES_PART1X / 2
-#define CRATES_PART1_YPOS CRATES_PART1Y / 2
-
-#define CRATES_PART2X 128
-#define CRATES_PART2Y 240
-#define CRATES_PART2_XPOS CRATES_PART1X + (CRATES_PART2X / 2)
-#define CRATES_PART2_YPOS CRATES_PART2Y / 2
-
-#define CRATES_PART3X 64
-#define CRATES_PART3Y 240
-#define CRATES_PART3_XPOS CRATES_PART1X + CRATES_PART2X + (CRATES_PART3X / 2)
-#define CRATES_PART3_YPOS CRATES_PART3Y / 2
 
 #define POINTERHANDX 32
 #define POINTERHANDY 32
@@ -286,7 +233,6 @@
 #define NPCMAKER_COURT_RECORD_DATA 0
 
 #define OBJ_GRAPHICS_COMMON 3
-#define OBJ_GRAPHICS_CASE1 154
 #define OBJ_GRAPHICS_ICONS 7
 
 #define MESSAGE_STATIC_VROM 0x008E6000
@@ -318,31 +264,8 @@
 
 #define EVIDENCE_INVALID -1
 
-//#define USE_INTERNAL_BUFFER
-#define SAVE_MSGLOG
-
-#define NUM_BUFFERS 2
-#define GRAPHICS_BUF_SIZE 0x18000
-
-#define SMALL_GFX_TEST 10
-
 #define ACTOR_VRS 4
-
 #define SPEAKERBUF_SIZE 60
-
-typedef struct {
-    /* 0x00000 */ u16 headMagic; // GFXPOOL_HEAD_MAGIC
-    /* 0x00008 */ Gfx polyOpaBuffer[0x4FE0];
-    /* 0x27F08 */ Gfx polyXluBuffer[0x800];
-    /* 0x2BF08 */ Gfx overlayBuffer[0x400];
-    /* 0x2DF08 */ Gfx workBuffer[0x80];
-    /* 0x2E308 */ Gfx unusedBuffer[0x1F];
-                  Gfx* polyOpaOverride;
-                  u32 polyOpaOverrideSize;
-    /* 0x2E408 */ u16 tailMagic; // GFXPOOL_TAIL_MAGIC
-} MyGfxPool; // size = 0x2E410
-
-MyGfxPool* gfxPools = (MyGfxPool*)0x8016A640;
 
 typedef struct CourtRecordEntry
 {
@@ -402,6 +325,10 @@ typedef struct UIStruct
     s16 lastTextPrimAlpha;
     CourtRecordEntry* selectedCREntry;
 
+    u8* uiGraphics;
+    int fullscreenGraphicId;
+    u8* fullscreenGraphicBuf;
+
     char* msgBufDecodedCopy;
     char* msgBufCR;
     u8* arrowGraphic;
@@ -414,16 +341,6 @@ typedef struct UIStruct
     
     int speakerBuffered;
     char speakerBuf[SPEAKERBUF_SIZE];
-    
-#ifdef USE_INTERNAL_BUFFER
-    int bufCur;
-    Gfx* gfxBuffers[NUM_BUFFERS];
-    TwoHeadGfxArena uiGraphics;
-#endif
-
-#ifdef USE_POLYOPA_OVERRIDE
-    Gfx* gfxBuffers[NUM_BUFFERS];
-#endif
 
 } UIStruct;
 
@@ -524,14 +441,21 @@ typedef enum
 } GUIAlphaDir;
 
 char* msgLogEnd = "--                    --";
-char* consultMsg = "\x05""\x46""\xA7""\x05""\x40"" Consult\x02";
 char sceneBreakMsg[] = "SCENEBREAK";
-char* micMsg = "\x05""\x46""\xA6""\x05""\x40"" MIC\x02";
-
 char* micMsgJpn[] = { "\"IGIARI!\"", "\"MATTA!\"", "\"KURAE!\"" };
 char* micMsgEng[] = { "\"OBJECTION!\"", "\"HOLD IT!\"", "\"TAKE THAT!\"" };
 
-char* logMsg = "\x05""\x41""\xF8""\x05""\x40"" Historique\x02";
+char* micMsgs[] =
+{
+    "\x05\x46\xA6\x05\x40"" MIC\x02",
+    "\x05\x46\xA6\x05\x40"" MICRO\x02",
+};
+
+char* logMsgs[] = 
+{
+    "\x05\x41\xF8\x05\x40"" History\x02",
+    "\x05\x41\xF8\x05\x40"" Historique\x02",
+};
 
 Color_RGB8 explosionTextColor = {.r = 70, .g = 255, .b = 80};
 Color_RGBA8 msgLogBackgroundColor = {.r = 0, .g = 0, .b = 0, .a = 127};
@@ -543,15 +467,6 @@ Color_RGB8 colorBlack = {.r = 0, .g = 0, .b = 0};
 Color_RGB8 colorRed = {.r = 255, .g = 0, .b = 0};
 Color_RGB8 colorBlue = {.r = 0, .g = 0, .b = 255};
 Color_RGB8 colorGreen = {.r = 0, .g = 255, .b = 0};
-
-extern void THGA_Init_New(TwoHeadGfxArena* thga, void* start, size_t size);
-    asm("THGA_Init_New = 0x8009FEC0");
-
-extern void Environment_FillScreen(GraphicsContext* gfxCtx, u8 red, u8 green, u8 blue, u8 alpha, u8 drawFlags);
-	asm("Environment_FillScreen = 0x800625B0");
-    
-extern void SsSram_ReadWrite(u32 addr, void* dramAddr, size_t size, s32 direction);
-    asm("SsSram_ReadWrite = 0x80091474");
 
 void MsgLogControls(Actor* thisx, PlayState* play);
 int GetMessageTextYSize(Actor* thisx, PlayState* play, char* msgData);

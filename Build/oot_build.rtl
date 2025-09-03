@@ -3006,6 +3006,9 @@ main(int argc, char **argv)
 	char *name;
 	char *comp;
 	int i;
+    int dataname;
+    int sz;
+    dataname = "StringData.bin";    
 	
 	/*load the config file*/
 	config = loadfile("config.tsv",0,0);
@@ -3065,9 +3068,13 @@ main(int argc, char **argv)
 	rom.seek(0x74C4); 
 	rom.write32(0x0846010);
 	
-	/**/
-	rom.seek(0x7594); 
-	rom.write32(0x092D030);	
+    /* Change the messages size */
+    dir_enter("messages");
+    loadfile(dataname, &sz, false);
+    rom.seek(TBL_DMA + (22 * 16));
+    rom.write32(TBL_MESSAGE_DATA);   
+    rom.write32(TBL_MESSAGE_DATA + sz);       
+    dir_leave();
 	
 	/*do_action_static*/
 	rom.seek(0x7544); 
@@ -3261,7 +3268,7 @@ main(int argc, char **argv)
 	dir_leave();
 	}
     
-    rom.cloudpatch(0, "patch/yaz.txt");
+    /*rom.cloudpatch(0, "patch/yaz.txt");*/
     
 	/*rom.cloudpatch(0, "patch/aplib.txt");*/
 
